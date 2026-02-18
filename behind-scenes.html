@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Behind the Scenes | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F172A;
+      --accent: #F97316;
+      --bg: #FFFFFF;
+      --bg-alt: #F8FAFC;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .back-link:hover { color: var(--accent); }
+    h1 { font-size: 36px; margin-bottom: 16px; color: var(--primary); }
+    .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 40px; }
+    .section { margin-bottom: 48px; }
+    .section h2 { font-size: 24px; margin-bottom: 16px; color: var(--primary); border-bottom: 2px solid var(--accent); padding-bottom: 8px; display: inline-block; }
+    .content-block { background: var(--bg-alt); padding: 24px; border-radius: 12px; margin-bottom: 24px; }
+    .content-block h3 { font-size: 18px; margin-bottom: 12px; }
+    .content-block .meta { font-size: 12px; color: var(--text-muted); margin-bottom: 12px; }
+    .content-block p { font-size: 14px; color: var(--text); margin-bottom: 8px; }
+    .content-block pre { background: var(--primary); color: white; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 12px; margin-top: 12px; }
+    .content-block code { background: var(--bg-alt); padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    .nav { display: flex; gap: 20px; margin-bottom: 32px; }
+    .nav a { color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .nav a:hover { color: var(--accent); }
+    .nav a.active { color: var(--accent); font-weight: 600; }
+    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 60px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+    @media (max-width: 768px) { h1 { font-size: 28px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+    </div>
+  </header>
+
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    
+    <h1>Behind the Scenes</h1>
+    <p class="subtitle">Work in progress, drafts, and experiments. The messy middle of building things.</p>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="training.html">Training</a>
+      <a href="sources.html">Sources</a>
+      <a href="changelog.html">Changelog</a>
+      <a href="#" class="active">Behind the Scenes</a>
+    </div>
+
+    <div class="section">
+      <h2>Content Atomization</h2>
+      <p style="margin-bottom: 24px; color: var(--text-muted);">Blog posts transformed into social media content. Ready to post or adapt.</p>
+      
+      <div class="content-block">
+        <h3>🐦 Twitter/X Thread - Active Recall</h3>
+        <p class="meta">Source: "Active Recall: The Most Effective Study Technique"</p>
+        <p><strong>Best Hook:</strong> "Stop re-reading your notes. It's literally the worst way to study. 🧵"</p>
+        <p><strong>Key Stat:</strong> "Students using active recall learn 2x as much in the same time."</p>
+        <pre>1/ Stop re-reading your notes. It's literally the worst way to study. 🧵
+
+2/ Washington University studied this. Students who re-read feel confident but test poorly. Students who struggle to recall? They ace exams.
+
+3/ It's called ACTIVE RECALL. Close book → write everything → compare → learn</pre>
+      </div>
+
+      <div class="content-block">
+        <h3>📸 Instagram Carousel - Pomodoro</h3>
+        <p class="meta">Source: "The Pomodoro Technique: Does It Actually Work for GCSE?"</p>
+        <p><strong>Slide 1:</strong> "THE 25-MINUTE STUDY TIMER - Does it actually work? ⏱️👇"</p>
+        <p><strong>Key Insight:</strong> "After 50 minutes, retention drops 10-15%"</p>
+        <pre>Slide 1: THE 25-MINUTE TIMER - Does it work?
+Slide 2: Your brain: 0-20min ramping, 20-50min PEAK, 50+min fatigue
+Slide 3: Why it works - aligns with ultradian rhythms
+Slide 4: Mistakes: not tracking, Instagram breaks, breaking early
+Slide 5: Pro tip: Maths = 45min, Languages = 25min
+Slide 6: SAVE THIS 🔖</pre>
+      </div>
+
+      <div class="content-block">
+        <h3>💼 LinkedIn Post - Sleep & Exams</h3>
+        <p class="meta">Source: "Sleep and Exam Performance"</p>
+        <p><strong>Contrarian Angle:</strong> "Everyone pulls all-nighters. Everyone performs worse."</p>
+        <p><strong>Key Stat:</strong> "30% worse performance with <6 hours sleep"</p>
+        <pre>Every year students pull all-nighters. Every year they perform worse.
+
+The data: sleeping <6 hours = 30% WORSE grades - even if you studied MORE.
+
+Sleep isn't passive. Your brain is:
+- Moving memories to long-term
+- Clearing toxins
+- Strengthening pathways
+
+Start complex subjects 3 days early.</pre>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Experiments</h2>
+      
+      <div class="content-block">
+        <h3>🎯 A/B Testing Setup</h3>
+        <p class="meta">ExamPulse Marketing Site</p>
+        <p>Testing 3 lead magnets with different CTAs:</p>
+        <ul>
+          <li><strong>Quiz:</strong> "Find My Revision Type" → quiz.html</li>
+          <li><strong>Grade Calculator:</strong> "Calculate Your Potential" → grade-calculator.html</li>
+          <li><strong>Gap Diagnostic:</strong> "Find Your Gaps" → gap-diagnostic.html</li>
+        </ul>
+        <p style="margin-top: 12px;">Tracking with PostHog: <code>ab_variant_shown</code>, <code>cta_clicked</code></p>
+      </div>
+
+      <div class="content-block">
+        <h3>🔍 Personas Review</h3>
+        <p class="meta">Marketing site audit through 12 EdTech personas</p>
+        <p><strong>Friction points identified:</strong></p>
+        <ul>
+          <li>Overwhelmed: Orange/red feels aggressive</li>
+          <li>Dopamine Chaser: Need "30-second" indicator</li>
+          <li>High-Pressure Parent: Need grade improvement stat</li>
+        </ul>
+        <p><strong>Working well:</strong> Sprinter (quick quiz), Low-Data (fast loading), Parents (social proof)</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Drafts & Ideas</h2>
+      
+      <div class="content-block">
+        <h3>📝 Untitled - FPL Analysis</h3>
+        <p class="meta">Status: Draft</p>
+        <p>Analysis of FPL strategies based on Limitless podcast insights. Waiting for more data from FFScout integration.</p>
+      </div>
+
+      <div class="content-block">
+        <h3>📝 Untitled - AI News Digest</h3>
+        <p class="meta">Status: Draft</p>
+        <p>Weekly AI news roundup using Jina AI Reader for content extraction. Automated via cron job.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
