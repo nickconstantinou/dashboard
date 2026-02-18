@@ -48,6 +48,7 @@
 |---------|-----|-----------|-------|
 | **@FFScout** | YouTube | Daily | FPL tips |
 | **@FantasyFPL** | YouTube | Daily | FPL analysis |
+| **@PlanetFPL** | YouTube | Daily | FPL tips & transfer tips |
 
 ---
 
