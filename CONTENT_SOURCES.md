@@ -5,6 +5,7 @@
 ### Tech & AI
 | Source | URL | Frequency | Notes |
 |--------|-----|-----------|-------|
+| **My First Million** | @myfirstmillion | Weekly | Startup ideas, business, tech trends |
 | **Greg Isenberg** | @GregIsenberg | Weekly | Startup ideas, building with AI |
 | **Huberman Lab** | @hubermanlab | Weekly | Health, neuroscience, fitness |
 | **Lex Fridman Podcast** | lexfridman.com | Weekly | AI, tech, long-form interviews |
