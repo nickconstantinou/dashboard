@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code Built a $273/Day Directory | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F172A;
+      --accent: #F97316;
+      --bg: #FFFFFF;
+      --bg-alt: #F8FAFC;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .back-link:hover { color: var(--accent); }
+    h1 { font-size: 36px; margin-bottom: 16px; color: var(--primary); }
+    .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 32px; }
+    .content { font-size: 16px; }
+    .content h2 { font-size: 24px; margin: 40px 0 16px; color: var(--primary); }
+    .content h3 { font-size: 18px; margin: 24px 0 12px; color: var(--primary); }
+    .content p { margin-bottom: 16px; }
+    .content ul, .content ol { margin-bottom: 16px; padding-left: 24px; }
+    .content li { margin-bottom: 8px; }
+    .insight { background: var(--bg-alt); border-left: 4px solid var(--accent); padding: 16px 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+    .insight h3 { margin-top: 0; font-size: 16px; }
+    .stat-box { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
+    .stat { background: var(--primary); color: white; padding: 20px; border-radius: 12px; text-align: center; }
+    .stat .number { font-size: 32px; font-weight: 700; font-family: 'Space Grotesk', sans-serif; }
+    .stat .label { font-size: 12px; opacity: 0.8; }
+    .tweet { background: #fafafa; border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; font-size: 14px; }
+    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 60px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+    @media (max-width: 768px) { h1 { font-size: 28px; } .stat-box { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    
+    <article class="content">
+      <h1>Claude Code Built a $273/Day Directory: The Startup Idea Goldmine</h1>
+      <p class="subtitle">How AI-coded directories went from 2,000 hours of manual work to 4 days for under $250.</p>
+
+      <p>Greg Isenberg sat down with Frey Chu to discuss building AI-coded directories — and the results are mind-blowing. One directory is making $273/day. Another was built in 4 days for under $250.</p>
+
+      <div class="stat-box">
+        <div class="stat">
+          <div class="number">$273</div>
+          <div class="label">per day revenue</div>
+        </div>
+        <div class="stat">
+          <div class="number">4 days</div>
+          <div class="label">to build</div>
+        </div>
+        <div class="stat">
+          <div class="number">$250</div>
+          <div class="label">total cost</div>
+        </div>
+      </div>
+
+      <h2>The Directory Formula</h2>
+
+      <p>Every successful directory answers one question: <strong>Does it help people save time, save money, or make money?</strong></p>
+
+      <p>Frey walked through three real examples:</p>
+
+      <h3>1. Funeral Home Directory</h3>
+      <p>People search for funeral homes when they need them most — it's an emotional, high-stakes decision. These directories monetise through lead generation.</p>
+
+      <h3>2. Senior Living Directory</h3>
+      <p>Families researching care options are willing to pay for quality leads. This is a massive, underserved market.</p>
+
+      <h3>3. GasBuddy</h3>
+      <p>Crowdsourced gas prices — now a major platform. Shows price transparency is valuable across boring niches.</p>
+
+      <div class="insight">
+        <h3>💡 The Data Moat Thesis</h3>
+        <p>Data is the moat. With Claude Code + Crawl4AI, the hardest part — data cleaning and enrichment — is now dramatically faster and cheaper. What used to take 2,000+ hours now takes days.</p>
+      </div>
+
+      <h2>The 7-Step Process</h2>
+
+      <p>Here's how Frey built a luxury restroom trailer directory in 4 days:</p>
+
+      <ol>
+        <li><strong>Scraping Raw Data:</strong> Outscraper for initial data collection</li>
+        <li><strong>Cleaning Data:</strong> Claude Code to structure and clean</li>
+        <li><strong>Verification:</strong> Crawl4AI for automated website verification</li>
+        <li><strong>Enrichment:</strong> Adding trailer inventory data</li>
+        <li><strong>Image Processing:</strong> Claude Vision for image verification</li>
+        <li><strong>Amenities Data:</strong> Features and filter data</li>
+        <li><strong>Service Areas:</strong> Geographic coverage mapping</li>
+      </ol>
+
+      <h2>Monetization Models</h2>
+
+      <p>How do directories make money?</p>
+
+      <ul>
+        <li><strong>Lead Generation:</strong> Charging businesses for qualified leads</li>
+        <li><strong>Vertical SaaS:</strong> Building tools for the niche</li>
+        <li><strong>Agency Services:</strong> Helping businesses get listed</li>
+        <li><strong>Advertising:</strong> Display ads from relevant brands</li>
+        <li><strong>Affiliate:</strong> Commission on referrals</li>
+        <li><strong>Marketplace:</strong> Taking a cut of transactions</li>
+      </ul>
+
+      <h2>Why Directories Win in AI Search</h2>
+
+      <p>You might think LLMs kill directories. Wrong. Here's why:</p>
+
+      <p><strong>Users browsing a directory are in the decision-making phase.</strong></p>
+
+      <p>When someone's researching health, legal, finance, or senior care options, they want curated options — not an AI chat response. Directories capture users at the moment of highest intent.</p>
+
+      <div class="insight">
+        <h3>🎯 Startup Idea</h3>
+        <p>Boring niches = best directories. Think: water quality ratings, ADA bathroom locations, dementia care facilities. The more boring, the less competition.</p>
+      </div>
+
+      <h2>Niche Ideas to Explore</h2>
+
+      <ul>
+        <li>Dementia care directories</li>
+        <li>ADA-compliant bathroom finder</li>
+        <li>Tap water quality by location</li>
+        <li>Local HVAC contractor reviews</li>
+        <li>Specialty contractor directories</li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+
+      <p>Building a directory is one of the best ways to learn:</p>
+
+      <ul>
+        <li>Claude Code (coding with AI)</li>
+        <li>SEO (directories are SEO goldmines)</li>
+        <li>Lead generation (real revenue model)</li>
+      </ul>
+
+      <p>Even if your first directory fails, you've learned skills that transfer to any startup.</p>
+
+      <div class="insight">
+        <h3>🚀 Key Takeaway</h3>
+        <p>The barrier to building directories has collapsed. What took 2,000 hours now takes 4 days for $250. The only question is: what's your niche?</p>
+      </div>
+
+      <p><em>Source: Greg Isenberg's YouTube channel - "Claude Code built me a $273/Day online directory"</em></p>
+
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -5,6 +5,7 @@
 ### Tech & AI
 | Source | URL | Frequency | Notes |
 |--------|-----|-----------|-------|
+| **Greg Isenberg** | @GregIsenberg | Weekly | Startup ideas, building with AI |
 | **Huberman Lab** | @hubermanlab | Weekly | Health, neuroscience, fitness |
 | **Lex Fridman Podcast** | lexfridman.com | Weekly | AI, tech, long-form interviews |
 | **The AI Edge** | @TheAIEdge | 2x/week | AI news + insights |
