@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPL Captain Strategy: How to Maximise Your Points | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0F172A;
+      --accent: #F97316;
+      --bg: #FFFFFF;
+      --bg-alt: #F8FAFC;
+      --text: #1E293B;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .back-link:hover { color: var(--accent); }
+    h1 { font-size: 36px; margin-bottom: 16px; color: var(--primary); }
+    .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 32px; }
+    .content { font-size: 16px; }
+    .content h2 { font-size: 24px; margin: 40px 0 16px; color: var(--primary); }
+    .content h3 { font-size: 18px; margin: 24px 0 12px; color: var(--primary); }
+    .content p { margin-bottom: 16px; }
+    .content ul, .content ol { margin-bottom: 16px; padding-left: 24px; }
+    .content li { margin-bottom: 8px; }
+    .highlight { background: #FFF7ED; padding: 2px 6px; border-radius: 4px; }
+    .insight { background: var(--bg-alt); border-left: 4px solid var(--accent); padding: 16px 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+    .insight h3 { margin-top: 0; font-size: 16px; }
+    .stat-box { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 24px 0; }
+    .stat { background: var(--primary); color: white; padding: 20px; border-radius: 12px; text-align: center; }
+    .stat .number { font-size: 32px; font-weight: 700; font-family: 'Space Grotesk', sans-serif; }
+    .stat .label { font-size: 12px; opacity: 0.8; }
+    .player-table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+    .player-table th, .player-table td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border); }
+    .player-table th { font-weight: 600; font-size: 14px; color: var(--text-muted); }
+    .player-table tr:hover { background: var(--bg-alt); }
+    .tier { display: inline-block; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+    .tier-s { background: #DCFCE7; color: #166534; }
+    .tier-a { background: #DBEAFE; color: #1E40AF; }
+    .tier-b { background: #FEF3C7; color: #92400E; }
+    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 60px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+    @media (max-width: 768px) { h1 { font-size: 28px; } .stat-box { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    
+    <article class="content">
+      <h1>FPL Captain Strategy: How to Maximise Your Points</h1>
+      <p class="subtitle">The captain decision can make or break your Gameweek. Here's the data-driven approach to picking your captain.</p>
+
+      <p>25% of your total FPL points come from your captain. That's huge. Get it right and you're laughing. Get it wrong and you're scrubbing around for green arrows.</p>
+
+      <p>Based on analysis from Fantasy Football Pundit, here's how the pros think about captaincy.</p>
+
+      <div class="stat-box">
+        <div class="stat">
+          <div class="number">25%</div>
+          <div class="label">of total points from captains</div>
+        </div>
+        <div class="stat">
+          <div class="number">2x</div>
+          <div class="label">points from armband</div>
+        </div>
+        <div class="stat">
+          <div class="number">30%</div>
+          <div class="label">can reach near</div>
+        </div>
+      </div>
+
+      <h2>The Captain Framework</h2>
+
+      <h3>1. The Premium Pick (Salah, Haaland, Palmer)</h3>
+      <p>These are your set-and-forget captains. When in doubt, captain the premium player with a good fixture. They score regardless of match context.</p>
+
+      <h3>2. The Differential Captain</h3>
+      <p>Sometimes you captain a player owned by <10% of managers. If they haul, you gain massive rank. If they blank, you haven't lost much vs. the template.</p>
+
+      <h3>3. The Form Player</h3>
+      <p>Captain based on current form, not reputation. A player on 3 consecutive hauls > player on 1 big score.</p>
+
+      <h2>The Vice-Captain Rule</h2>
+
+      <div class="insight">
+        <h3>💡 Key Strategy</h3>
+        <p>Always have a solid vice-captain. If your main doesn't play, your vice should have a good fixture. Think: if you captained Salah and Liverpool have a blank, Bruno Fernandes should be your vice with a good fixture.</p>
+      </div>
+
+      <h2>When to Wildcard the Armband</h2>
+
+      <ul>
+        <li><strong>Blank Gameweeks:</strong> Captain a player with double fixtures</li>
+        <li><strong>Double Gameweeks:</strong> Target players with 2 matches - 2x points potential</li>
+        <li><strong>Fixture swings:</strong> When your captain has tough fixtures, consider the alternative</li>
+      </ul>
+
+      <h2>Pro Tips</h2>
+
+      <ul>
+        <li>Check effective ownership - if >60% own them, the haul is priced in</li>
+        <li>Look at xG + xA, not just goals</li>
+        <li>Fixture difficulty rating (FDR) matters but form beats fixtures</li>
+        <li>The captain analyzer tool helps track your success rate vs other managers</li>
+      </ul>
+
+      <div class="insight">
+        <h3>🎯 Bottom Line</h3>
+        <p>Captaincy is about probability. Back the players with the highest expected points. But don't be afraid to take a calculated risk - that's how you win your mini-league.</p>
+      </div>
+
+      <p><em>Source: Fantasy Football Pundit captain analysis</em></p>
+
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
