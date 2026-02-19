@@ -123,23 +123,44 @@ Start complex subjects 3 days early.</pre>
         <p class="meta">ExamPulse Marketing Site</p>
         <p>Testing 3 lead magnets with different CTAs:</p>
         <ul>
-          <li><strong>Quiz:</strong> "Find My Revision Type" → quiz.html</li>
-          <li><strong>Grade Calculator:</strong> "Calculate Your Potential" → grade-calculator.html</li>
-          <li><strong>Gap Diagnostic:</strong> "Find Your Gaps" → gap-diagnostic.html</li>
+          <li><strong>Quiz:</strong> "Find My Revision Type"</li>
+          <li><strong>Grade Calculator:</strong> "Calculate Your Potential"</li>
+          <li><strong>Gap Diagnostic:</strong> "Find Your Gaps"</li>
         </ul>
-        <p style="margin-top: 12px;">Tracking with PostHog: <code>ab_variant_shown</code>, <code>cta_clicked</code></p>
+        <p style="margin-top: 12px;">Tracking with PostHog</p>
       </div>
 
       <div class="content-block">
         <h3>🔍 Personas Review</h3>
         <p class="meta">Marketing site audit through 12 EdTech personas</p>
-        <p><strong>Friction points identified:</strong></p>
-        <ul>
-          <li>Overwhelmed: Orange/red feels aggressive</li>
-          <li>Dopamine Chaser: Need "30-second" indicator</li>
-          <li>High-Pressure Parent: Need grade improvement stat</li>
-        </ul>
-        <p><strong>Working well:</strong> Sprinter (quick quiz), Low-Data (fast loading), Parents (social proof)</p>
+        <p><strong>Friction points:</strong> Orange/red feels aggressive, need quick indicators</p>
+        <p><strong>Working well:</strong> Sprinter, Low-Data, Parents</p>
+      </div>
+    </div>
+
+    <div class="section" id="skills">
+      <h2>AI Skills (Prompt Guard)</h2>
+      <p style="margin-bottom: 16px;">Input and output protection for AI agents.</p>
+      
+      <div class="content-block">
+        <h3>📥 Input Protection</h3>
+        <p class="meta">Scans inbound emails for prompt injection</p>
+        <p>Detects: instruction overrides, jailbreaks, stealth attacks</p>
+        <p style="margin-top: 8px;"><a href="2026-02-19-prompt-guard-input.html" style="color: var(--accent);">Read spec →</a></p>
+      </div>
+
+      <div class="content-block">
+        <h3>📤 Output Protection</h3>
+        <p class="meta">Scans AI responses before sending</p>
+        <p>Detects: commitments, info leaks, PII exposure</p>
+        <p style="margin-top: 8px;"><a href="2026-02-19-prompt-guard-output.html" style="color: var(--accent);">Read spec →</a></p>
+      </div>
+
+      <div class="content-block">
+        <h3>🧪 Test Suite</h3>
+        <p class="meta">100+ scenarios with auto-improvement</p>
+        <p>50 input + 45 output tests. Target: 95% accuracy</p>
+        <p style="margin-top: 8px;"><a href="2026-02-19-prompt-guard-tests.html" style="color: var(--accent);">Read spec →</a></p>
       </div>
     </div>
 
