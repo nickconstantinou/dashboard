@@ -71,12 +71,15 @@
 
 ## 📰 Websites (Weekly)
 
-| Site | URL | Notes |
-|------|-----|-------|
-| **Hacker News** | news.ycombinator.com | Tech/AI discussions |
-| **The Rundown AI** | therundown.ai | Daily AI news |
-| **Benedict Evans** | ben-evans.com | Tech analysis |
-| **Stratechery** | stratechery.com | Tech strategy (paid) |
+| Site | URL | Status | Notes |
+|------|-----|--------|-------|
+| **Hacker News** | news.ycombinator.com | ✅ WORKS | Tech/AI discussions |
+| **Fantasy Football Scout** | fantasyfootballscout.co.uk | ✅ WORKS | FPL tips, price predictions |
+| **The Verge AI** | theverge.com/ai | ✅ WORKS | AI news, tech |
+| **TechCrunch AI** | techcrunch.com/category/artificial-intelligence/ | ✅ WORKS | AI news |
+| **Limitless** | limitless.ai/featured | ❌ FAILED | 404 - page not found |
+| **My First Million** | mypodcast.fm/myfirstmillion | ❌ FAILED | DNS resolution failed |
+| **The Rundown AI** | therundown.ai | ❌ NOT TESTED | - |
 
 ---
 
@@ -117,4 +120,4 @@ For Nick's training insights, I'll create a structured format:
 
 ---
 
-*Last updated: 2026-02-18*
+*Last updated: 2026-02-19*
