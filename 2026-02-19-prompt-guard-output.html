@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prompt Guard: Output Protection for AI Emails | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .back-link:hover { color: var(--accent); }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin: 32px 0 16px; color: var(--primary); }
+    h3 { font-size: 18px; margin: 24px 0 12px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    .tag { display: inline-block; background: var(--accent); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-right: 8px; }
+    .headline { background: var(--bg-alt); border-left: 4px solid var(--accent); padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+    .headline h3 { font-size: 18px; margin-bottom: 8px; }
+    .headline p { font-size: 14px; color: var(--text-muted); margin: 0; }
+    ul, ol { margin: 16px 0; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    .code { background: var(--bg-alt); padding: 16px; border-radius: 8px; font-family: monospace; font-size: 13px; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th, td { padding: 8px 12px; text-align: left; border: 1px solid var(--border); font-size: 13px; }
+    th { background: var(--bg-alt); font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to all posts</a>
+    <article>
+      <p class="meta">February 19, 2026 • AI • Security</p>
+      <h1>Prompt Guard: Output Protection - The Real Opportunity</h1>
+      <div class="content">
+<p>While everyone focuses on protecting AI from malicious inputs, the bigger opportunity is protecting customers from what AI says. Here's why output protection matters more.</p>
+
+<h2>The Problem</h2>
+<p>Your AI customer support agent might say:</p>
+<ul>
+<li>"I can give you 30% off" (unauthorised commitment)</li>
+<li>"Our system uses GPT-4" (AI identity leak)</li>
+<li>"The price is actually £X" (pricing leak)</li>
+<li>"I recommend investing in..." (illegal advice)</li>
+<li>"john@example.com" (PII exposure)</li>
+</ul>
+
+<h2>Why Output Protection is the Opportunity</h2>
+
+<div class="headline">
+  <h3>Input Protection</h3>
+  <p>Competitors: Aegis, llm-guard, rebuff, superagent</p>
+</div>
+
+<div class="headline" style="border-color: #10B981;">
+  <h3>Output Protection</h3>
+  <p>Few competitors. Clearer ROI. Compliance teams have budget.</p>
+</div>
+
+<h2>What It Detects</h2>
+
+<h3>1. Unauthorised Commitments</h3>
+<table>
+<tr><th>Violation</th><th>Severity</th></tr>
+<tr><td>"I can offer 30% discount"</td><td>CRITICAL</td></tr>
+<tr><td>"We deliver in 2 days guaranteed"</td><td>HIGH</td></tr>
+<tr><td>"I'll add that feature for you"</td><td>HIGH</td></tr>
+<tr><td>"We match any competitor price"</td><td>HIGH</td></tr>
+</table>
+
+<h3>2. Information Leakage</h3>
+<table>
+<tr><th>Violation</th><th>Severity</th></tr>
+<tr><td>"Our AI uses GPT-4"</td><td>MEDIUM</td></tr>
+<tr><td>"The system prompt says..."</td><td>CRITICAL</td></tr>
+<tr><td>"Internal process: we first..."</td><td>HIGH</td></tr>
+</table>
+
+<h3>3. Inappropriate Content</h3>
+<table>
+<tr><th>Violation</th><th>Severity</th></tr>
+<tr><td>"You should invest in [stock]"</td><td>CRITICAL</td></tr>
+<tr><td>"That's medical advice..."</td><td>CRITICAL</td></tr>
+<tr><td>"Legal advice: ..."</td><td>CRITICAL</td></tr>
+</table>
+
+<h3>4. PII Exposure</h3>
+<table>
+<tr><th>Violation</th><th>Severity</th></tr>
+<tr><td>Email addresses in response</td><td>HIGH</td></tr>
+<tr><td>Phone numbers</td><td>HIGH</td></tr>
+<tr><td>Card details</td><td>CRITICAL</td></tr>
+</table>
+
+<h2>Business Value</h2>
+<p>Output protection directly impacts:</p>
+<ul>
+<li><strong>Compliance</strong> - GDPR, consumer protection laws</li>
+<li><strong>Brand reputation</strong> - No inappropriate AI responses</li>
+<li><strong>Legal exposure</strong> - AI making commitments</li>
+<li><strong>Customer trust</strong> - Safe interactions</li>
+</ul>
+
+<p>These teams have budget. They need solutions. And existing tools don't focus here.</p>
+
+<h2>Integration</h2>
+<pre class="code">const result = await scanOutput(aiResponse);
+
+if (result.blocked) {
+  // Send to human review
+  await humanReviewQueue.add(result);
+} else {
+  // Send sanitised version
+  await sendEmail(result.sanitised);
+}</pre>
+
+<h2>The Take</h2>
+<p>Input protection is a commodity. Output protection is the opportunity. Fewer competitors, clearer ROI, and compliance teams are desperate for solutions.</p>
+
+<p><strong>Coming next:</strong> A test suite to stress test both skills with 100+ scenarios.</p>
+
+      </div>
+      <footer>
+        <p>More posts coming soon...</p>
+      </footer>
+    </article>
+  </div>
+</body>
+</html>
