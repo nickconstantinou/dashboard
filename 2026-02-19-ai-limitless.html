@@ -1,30 +1,9 @@
-#!/bin/bash
-# Daily content crawler for Nick's personal blog
-# Creates properly styled blog posts
-
-BLOG_DIR="/home/openclaw/openclaw-workspace/personal-blog"
-DATE=$(date +%Y-%m-%d)
-
-echo "=== Daily Content Crawl - $DATE ==="
-
-# YouTube RSS feeds (working)
-LIMITLESS_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCCRxYlYOmLE2l5wxs3ckJtg"
-FFSCOUT_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCrY8J1jQK3fy5bmYi3qO3gg"
-
-# HTML template for blog posts - ALWAYS USE THIS
-create_post() {
-  local filename="$1"
-  local title="$2"
-  local category="$3"
-  local content="$4"
-  
-  cat > "$BLOG_DIR/$filename" << EOF
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>$title | Nick's Blog</title>
+  <title>AI News from Limitless | Nick's Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
@@ -87,11 +66,20 @@ create_post() {
     <a href="index.html" class="back-link">← Back to all posts</a>
     
     <article>
-      <p class="meta">$DATE • $category</p>
-      <h1>$title</h1>
+      <p class="meta">2026-02-19 • AI</p>
+      <h1>AI News from Limitless</h1>
       
       <div class="content">
-$content
+<p>Latest from the Limitless Podcast:</p>
+
+<h3>This AI Agent Made $41K in a Week!</h3>
+
+<p><a href="https://www.youtube.com/channel/UCCRxYlYOmLE2l5wxs3ckJtg"/>" target="_blank">Watch on YouTube →</a></p>
+
+<div class="headline">
+  <h3>AI News Update</h3>
+  <p>More AI news coming soon.</p>
+</div>
       </div>
       
       <footer>
@@ -101,62 +89,3 @@ $content
   </div>
 </body>
 </html>
-EOF
-  echo "✓ Created: $filename"
-}
-
-# Fetch Limitless latest video
-echo "Fetching Limitless Podcast..."
-limitless_xml=$(curl -s "$LIMITLESS_RSS" 2>/dev/null)
-if [ -n "$limitless_xml" ]; then
-  limitless_title=$(echo "$limitless_xml" | grep -oP '<media:title>\K[^<]+' | head -1)
-  limitless_link=$(echo "$limitless_xml" | grep -oP '<link rel="alternate" href="\K[^<]+' | head -1)
-  echo "✓ Limitless: $limitless_title"
-fi
-
-# Fetch FFScout latest video
-echo "Fetching FFScout..."
-ffscout_xml=$(curl -s "$FFSCOUT_RSS" 2>/dev/null)
-if [ -n "$ffscout_xml" ]; then
-  ffscout_title=$(echo "$ffscout_xml" | grep -oP '<media:title>\K[^<]+' | head -1)
-  ffscout_link=$(echo "$ffscout_xml" | grep -oP '<link rel="alternate" href="\K[^<]+' | head -1)
-  echo "✓ FFScout: $ffscout_title"
-fi
-
-# Create FPL tips post if we got FFScout content
-if [ -n "$ffscout_title" ]; then
-  content=$(cat << EOF
-<p>Here's the latest from FFScout for this gameweek:</p>
-
-<h3>$ffscout_title</h3>
-
-<p><a href="$ffscout_link" target="_blank">Watch on YouTube →</a></p>
-
-<div class="headline">
-  <h3>Stay tuned for more FPL tips</h3>
-  <p>Check back daily for updated advice.</p>
-</div>
-EOF
-)
-  create_post "$DATE-fpl-gw-tips.html" "FPL Gameweek Tips" "FPL" "$content"
-fi
-
-# Create AI news post if we got Limitless content
-if [ -n "$limitless_title" ]; then
-  content=$(cat << EOF
-<p>Latest from the Limitless Podcast:</p>
-
-<h3>$limitless_title</h3>
-
-<p><a href="$limitless_link" target="_blank">Watch on YouTube →</a></p>
-
-<div class="headline">
-  <h3>AI News Update</h3>
-  <p>More AI news coming soon.</p>
-</div>
-EOF
-)
-  create_post "$DATE-ai-limitless.html" "AI News from Limitless" "AI" "$content"
-fi
-
-echo "=== Crawl complete ==="

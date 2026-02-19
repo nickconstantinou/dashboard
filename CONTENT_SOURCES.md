@@ -33,7 +33,7 @@
 | Channel | URL | Frequency | Notes |
 |---------|-----|-----------|-------|
 | **@AIJasonZhao** | YouTube | Daily | AI news summaries |
-| **@TheAiring** | YouTube | Daily | AI news (Limitless) |
+| **Limitless Podcast** | `https://www.youtube.com/feeds/videos.xml?channel_id=UCCRxYlYOmLE2l5wxs3ckJtg` | Daily | AI news ✅ WORKING |
 | **@MKBHD** | YouTube | Weekly | Tech reviews |
 | **@Fireship** | YouTube | Weekly | Tech quick hits |
 | **@AIExplained** | YouTube | Weekly | AI education |
