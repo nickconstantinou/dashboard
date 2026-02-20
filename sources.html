@@ -12,7 +12,7 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
-    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
     header { padding: 32px 0; border-bottom: 1px solid var(--border); }
     .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
@@ -20,23 +20,22 @@
     .back-link:hover { color: var(--accent); }
     h1 { font-size: 36px; margin-bottom: 8px; color: var(--primary); }
     .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 32px; }
-    .section { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .section { padding: 24px 0; border-bottom: 1px solid var(--border); }
     .section:last-child { border-bottom: none; }
-    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
-    .section-icon { font-size: 28px; }
-    .section h2 { font-size: 24px; color: var(--primary); }
-    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
-    .card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 16px; transition: all 0.2s; text-decoration: none; display: block; }
+    .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .section-icon { font-size: 24px; }
+    .section h2 { font-size: 20px; color: var(--primary); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
+    .card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 12px; transition: all 0.2s; text-decoration: none; display: block; }
     .card:hover { border-color: var(--accent); transform: translateY(-2px); }
-    .card-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 4px; }
-    .card-meta { font-size: 12px; color: var(--text-muted); }
-    .tag { display: inline-block; background: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; color: var(--accent); margin-top: 8px; }
-    .priority { background: linear-gradient(135deg, var(--primary) 0%, #1E293B 100%); border-radius: 12px; padding: 24px; margin: 32px 0; color: white; }
-    .priority h2 { color: white; margin-bottom: 16px; }
-    .priority ol { padding-left: 24px; }
-    .priority li { margin-bottom: 8px; color: rgba(255,255,255,0.9); }
+    .card-title { font-weight: 600; font-size: 13px; color: var(--primary); }
+    .card-meta { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+    .priority { background: linear-gradient(135deg, var(--primary) 0%, #1E293B 100%); border-radius: 12px; padding: 20px; margin: 24px 0; color: white; }
+    .priority h2 { color: white; margin-bottom: 12px; }
+    .priority ol { padding-left: 20px; font-size: 14px; }
+    .priority li { margin-bottom: 6px; }
     .priority .time { color: var(--accent); font-weight: 600; }
-    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 32px; }
     footer p { font-size: 14px; color: var(--text-muted); }
   </style>
 </head>
@@ -51,7 +50,7 @@
     <a href="index.html" class="back-link">← Back to Blog</a>
     
     <h1>Content Sources</h1>
-    <p class="subtitle">Daily crawls for blog content</p>
+    <p class="subtitle">Daily automated content for the blog</p>
     
     <div class="priority">
       <h2>📅 Daily Automation</h2>
@@ -62,74 +61,65 @@
       </ol>
     </div>
     
+    <!-- AI & Tech -->
     <div class="section">
-      <div class="section-header">
-        <span class="section-icon">🤖</span>
-        <h2>AI & Tech</h2>
-      </div>
+      <div class="section-header"><span class="section-icon">🤖</span><h2>AI & Tech</h2></div>
       <div class="cards">
-        <a href="https://www.youtube.com/@LimitlessFT" class="card" target="_blank">
-          <div class="card-title">@Limitless</div>
-          <div class="card-meta">Daily AI News</div>
-        </a>
-        <a href="https://www.youtube.com/@MKBHD" class="card" target="_blank">
-          <div class="card-title">@MKBHD</div>
-          <div class="card-meta">Tech Reviews</div>
-        </a>
-        <a href="https://www.youtube.com/@Fireship" class="card" target="_blank">
-          <div class="card-title">@Fireship</div>
-          <div class="card-meta">Tech Quick Hits</div>
-        </a>
-        <a href="https://www.youtube.com/@LexFridman" class="card" target="_blank">
-          <div class="card-title">@Lex Fridman</div>
-          <div class="card-meta">AI Interviews</div>
-        </a>
-        <a href="https://www.youtube.com/@TwoMinutePapers" class="card" target="_blank">
-          <div class="card-title">@Two Minute Papers</div>
-          <div class="card-meta">AI Research</div>
-        </a>
-        <a href="https://www.youtube.com/@AIExplained" class="card" target="_blank">
-          <div class="card-title">@AI Explained</div>
-          <div class="card-meta">AI Education</div>
-        </a>
-        <a href="https://www.youtube.com/@LinusTechTips" class="card" target="_blank">
-          <div class="card-title">@Linus Tech Tips</div>
-          <div class="card-meta">Tech</div>
-        </a>
+        <a href="https://www.youtube.com/@LimitlessFT" class="card" target="_blank"><div class="card-title">@Limitless</div><div class="card-meta">AI News</div></a>
+        <a href="https://www.youtube.com/@MKBHD" class="card" target="_blank"><div class="card-title">@MKBHD</div><div class="card-meta">Tech Reviews</div></a>
+        <a href="https://www.youtube.com/@Fireship" class="card" target="_blank"><div class="card-title">@Fireship</div><div class="card-meta">Tech</div></a>
+        <a href="https://www.youtube.com/@LinusTechTips" class="card" target="_blank"><div class="card-title">@Linus Tech Tips</div><div class="card-meta">Tech</div></a>
+        <a href="https://www.youtube.com/@MyFirstMillionPod" class="card" target="_blank"><div class="card-title">@My First Million</div><div class="card-meta">Business</div></a>
+        <a href="https://www.youtube.com/@GregIsenberg" class="card" target="_blank"><div class="card-title">@Greg Isenberg</div><div class="card-meta">Startups</div></a>
+        <a href="https://www.youtube.com/@TwoMinutePapers" class="card" target="_blank"><div class="card-title">@Two Minute Papers</div><div class="card-meta">AI Research</div></a>
       </div>
     </div>
     
+    <!-- Interviews -->
     <div class="section">
-      <div class="section-header">
-        <span class="section-icon">🏋️</span>
-        <h2>Fitness & Science</h2>
-      </div>
+      <div class="section-header"><span class="section-icon">🎙️</span><h2>Interviews & Podcasts</h2></div>
       <div class="cards">
-        <a href="https://www.youtube.com/@JeffNippard" class="card" target="_blank">
-          <div class="card-title">@Jeff Nippard</div>
-          <div class="card-meta">Science-Based Fitness</div>
-        </a>
-        <a href="https://www.youtube.com/@StatQuest" class="card" target="_blank">
-          <div class="card-title">@StatQuest</div>
-          <div class="card-meta">Statistics & ML</div>
-        </a>
+        <a href="https://www.youtube.com/@LexFridman" class="card" target="_blank"><div class="card-title">@Lex Fridman</div><div class="card-meta">AI Interviews</div></a>
+        <a href="https://www.youtube.com/@hubermanlab" class="card" target="_blank"><div class="card-title">@Huberman Lab</div><div class="card-meta">Neuroscience</div></a>
+        <a href="https://www.youtube.com/@peterattiamd" class="card" target="_blank"><div class="card-title">@Peter Attia</div><div class="card-meta">Longevity</div></a>
+        <a href="https://www.youtube.com/@timferriss" class="card" target="_blank"><div class="card-title">@Tim Ferriss</div><div class="card-meta">Productivity</div></a>
+        <a href="https://www.youtube.com/@LennysPodcast" class="card" target="_blank"><div class="card-title">@Lenny's Podcast</div><div class="card-meta">Product</div></a>
+        <a href="https://www.youtube.com/@NavalR" class="card" target="_blank"><div class="card-title">@Naval</div><div class="card-meta">Wisdom</div></a>
       </div>
     </div>
     
+    <!-- Crypto & Finance -->
     <div class="section">
-      <div class="section-header">
-        <span class="section-icon">📰</span>
-        <h2>News & Websites</h2>
-      </div>
+      <div class="section-header"><span class="section-icon">💰</span><h2>Crypto & Finance</h2></div>
       <div class="cards">
-        <a href="https://news.ycombinator.com/" class="card" target="_blank">
-          <div class="card-title">Hacker News</div>
-          <div class="card-meta">Tech Discussions</div>
-        </a>
-        <a href="https://www.therundown.ai/" class="card" target="_blank">
-          <div class="card-title">The Rundown AI</div>
-          <div class="card-meta">Daily AI News</div>
-        </a>
+        <a href="https://www.youtube.com/@bankless" class="card" target="_blank"><div class="card-title">@Bankless</div><div class="card-meta">Crypto</div></a>
+        <a href="https://www.youtube.com/@TheDailyGwei" class="card" target="_blank"><div class="card-title">@Daily Gwei</div><div class="card-meta">Ethereum</div></a>
+      </div>
+    </div>
+    
+    <!-- Fitness -->
+    <div class="section">
+      <div class="section-header"><span class="section-icon">🏋️</span><h2>Fitness & Health</h2></div>
+      <div class="cards">
+        <a href="https://www.youtube.com/@JeffNippard" class="card" target="_blank"><div class="card-title">@Jeff Nippard</div><div class="card-meta">Science Fitness</div></a>
+        <a href="https://www.youtube.com/@thepkddietitian" class="card" target="_blank"><div class="card-title">@PKD Dietitian</div><div class="card-meta">Nutrition</div></a>
+      </div>
+    </div>
+    
+    <!-- FPL -->
+    <div class="section">
+      <div class="section-header"><span class="section-icon">⚽</span><h2>Fantasy Premier League</h2></div>
+      <div class="cards">
+        <a href="https://www.fantasyfootballscout.co.uk/articles" class="card" target="_blank"><div class="card-title">FFScout Articles</div><div class="card-meta">Aggregated weekly</div></a>
+      </div>
+    </div>
+    
+    <!-- News -->
+    <div class="section">
+      <div class="section-header"><span class="section-icon">📰</span><h2>News & aggregators</h2></div>
+      <div class="cards">
+        <a href="https://news.ycombinator.com/" class="card" target="_blank"><div class="card-title">Hacker News</div><div class="card-meta">Tech</div></a>
+        <a href="https://www.therundown.ai/" class="card" target="_blank"><div class="card-title">The Rundown AI</div><div class="card-meta">AI News</div></a>
       </div>
     </div>
     
