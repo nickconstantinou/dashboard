@@ -12,7 +12,10 @@ echo "=== Daily Content Crawl - $DATE ==="
 
 # YouTube RSS feeds
 LIMITLESS_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCCRxYlYOmLE2l5wxs3ckJtg"
-FFSCOUT_RSS="https://www.youtube.com/feeds/videos.xml?channel_id=UCrY8J1jQK3fy5bmYi3qO3gg"
+# FPL YouTube feeds - NOTE: channel IDs may be outdated/invalid
+# Tried: UCrY8J1jQK3fy5bmYi3qO3gg (returns 404)
+# Alternative sources: fantasyfootballscout.co.uk (fetch failed)
+FFSCOUT_RSS=""
 
 # HTML template for blog posts
 create_post() {
