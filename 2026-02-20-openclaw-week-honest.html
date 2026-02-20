@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Used OpenClaw for a Week | Nick's Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+        h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+        .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+        .logo { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; color: var(--primary); text-decoration: none; }
+        .logo span { color: var(--accent); }
+        .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+        .back-link:hover { color: var(--accent); }
+        article { padding: 32px 0; }
+        .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+        h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+        h2 { font-size: 24px; margin: 32px 0 16px; color: var(--primary); }
+        h3 { font-size: 18px; margin: 24px 0 12px; color: var(--primary); }
+        p { margin-bottom: 16px; }
+        .tag { display: inline-block; background: var(--accent); color: white; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-right: 8px; }
+        .highlight { background: var(--bg-alt); border-left: 4px solid var(--accent); padding: 20px; margin: 24px 0; border-radius: 0 8px 8px 0; }
+        .highlight p { margin: 0; }
+        ul { margin: 16px 0; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+        footer p { font-size: 14px; color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+        </div>
+    </header>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Blog</a>
+        <article>
+            <p class="meta">February 20, 2026 • AI</p>
+            <h1>We Used OpenClaw for a Week: The Honest Verdict</h1>
+            <div class="tags">
+                <span class="tag">AI</span>
+                <span class="tag">OpenClaw</span>
+                <span class="tag">Review</span>
+            </div>
+
+            <p>Limitless just dropped their real-world test of OpenClaw - and it's not all glowing reviews. Here's what we learned from their week-long experiment.</p>
+
+            <div class="highlight">
+                <p><strong>The setup:</strong> Limitless configured OpenClaw with Telegram, scheduled tasks, and custom skills. Then they lived with it for a week.</p>
+            </div>
+
+            <h2>What Worked Well</h2>
+            <ul>
+                <li><strong>Automation was genuine:</strong> The scheduled tasks actually ran - daily digests, content monitoring, and reminders fired as expected.</li>
+                <li><strong>Memory persistence:</strong> The agent remembered context across conversations, which is crucial for useful assistance.</li>
+                <li><strong>Multi-channel worked:</strong> Switching between Telegram and other inputs was seamless.</li>
+            </ul>
+
+            <h2>The Challenges</h2>
+            <ul>
+                <li><strong>Initial setup complexity:</strong> Getting everything configured took time - lots of API keys, permissions, and cron setup.</li>
+                <li><strong>Occasional hallucinations:</strong> The agent occasionally made up information when uncertain.</li>
+                <li><strong>Security concerns:</strong> Running an agent with access to your accounts requires trust - and trust takes time to build.</li>
+            </ul>
+
+            <h2>The Verdict</h2>
+            <p>OpenClaw isn't for everyone. If you want a polished consumer product with zero setup, you're better off with ChatGPT or Claude. But if you want:</p>
+            <ul>
+                <li>Full control over your AI assistant</li>
+                <li>Custom automation workflows</li>
+                <li>Self-hosted privacy</li>
+            </ul>
+            <p>OpenClaw delivers. The "harsh truth" is mostly about expectations - this is developer-first tooling, not plug-and-play.</p>
+
+            <h2>Watch the Full Review</h2>
+            <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Watch on YouTube</a> - Limitless goes deep on the setup process, daily usage, and their final recommendations.</p>
+
+        </article>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+        </div>
+    </footer>
+</body>
+</html>
