@@ -18,35 +18,24 @@
     .logo span { color: var(--accent); }
     .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
     .back-link:hover { color: var(--accent); }
-    
     h1 { font-size: 36px; margin-bottom: 8px; color: var(--primary); }
     .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 32px; }
-    
     .section { padding: 32px 0; border-bottom: 1px solid var(--border); }
     .section:last-child { border-bottom: none; }
     .section-header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
     .section-icon { font-size: 28px; }
     .section h2 { font-size: 24px; color: var(--primary); }
-    
-    .subsection { margin-bottom: 24px; }
-    .subsection h3 { font-size: 14px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; font-weight: 600; }
-    
-    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
     .card { background: var(--bg-alt); border: 1px solid var(--border); border-radius: 8px; padding: 16px; transition: all 0.2s; text-decoration: none; display: block; }
     .card:hover { border-color: var(--accent); transform: translateY(-2px); }
     .card-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 4px; }
     .card-meta { font-size: 12px; color: var(--text-muted); }
-    .card-tag { display: inline-block; background: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; color: var(--accent); margin-top: 8px; }
-    .card-status { font-size: 10px; padding: 2px 6px; border-radius: 4px; margin-left: 4px; }
-    .status-ok { background: #dcfce7; color: #166534; }
-    .status-check { background: #fef3c7; color: #92400e; }
-    
+    .tag { display: inline-block; background: white; padding: 2px 8px; border-radius: 4px; font-size: 10px; color: var(--accent); margin-top: 8px; }
     .priority { background: linear-gradient(135deg, var(--primary) 0%, #1E293B 100%); border-radius: 12px; padding: 24px; margin: 32px 0; color: white; }
     .priority h2 { color: white; margin-bottom: 16px; }
     .priority ol { padding-left: 24px; }
     .priority li { margin-bottom: 8px; color: rgba(255,255,255,0.9); }
     .priority .time { color: var(--accent); font-weight: 600; }
-    
     footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
     footer p { font-size: 14px; color: var(--text-muted); }
   </style>
@@ -64,95 +53,84 @@
     <h1>Content Sources</h1>
     <p class="subtitle">Daily crawls for blog content</p>
     
-    <!-- Priority -->
     <div class="priority">
-      <h2>📅 Daily Automation Schedule</h2>
+      <h2>📅 Daily Automation</h2>
       <ol>
-        <li><span class="time">5:00 AM:</span> QA Check - all sites verified</li>
-        <li><span class="time">7:00 AM:</span> FPL Daily Digest → Telegram</li>
+        <li><span class="time">5:00 AM:</span> QA Check</li>
+        <li><span class="time">7:00 AM:</span> FPL Digest → Telegram</li>
         <li><span class="time">7:00 AM:</span> Content Crawler → blog posts</li>
       </ol>
-      <p style="margin-top: 16px; font-size: 14px; opacity: 0.8;">Crawler checks each source daily for new content</p>
     </div>
     
-    <!-- YouTube (Working RSS Feeds) -->
     <div class="section">
       <div class="section-header">
-        <span class="section-icon">📺</span>
-        <h2>YouTube Channels</h2>
+        <span class="section-icon">🤖</span>
+        <h2>AI & Tech</h2>
       </div>
-      <p style="margin-bottom: 16px; color: var(--text-muted);">These channels have working RSS feeds that the crawler checks daily:</p>
-      
       <div class="cards">
         <a href="https://www.youtube.com/@LimitlessFT" class="card" target="_blank">
-          <div class="card-title">@Limitless Podcast <span class="card-status status-ok">✓ OK</span></div>
+          <div class="card-title">@Limitless</div>
           <div class="card-meta">Daily AI News</div>
-          <span class="card-tag">RSS: UCCRxYlYOmLE2l5wxs3ckJtg</span>
         </a>
         <a href="https://www.youtube.com/@MKBHD" class="card" target="_blank">
-          <div class="card-title">@MKBHD <span class="card-status status-ok">✓ OK</span></div>
+          <div class="card-title">@MKBHD</div>
           <div class="card-meta">Tech Reviews</div>
-          <span class="card-tag">RSS: UCsXVk37bltHxD1rDPwtNM8Q</span>
         </a>
         <a href="https://www.youtube.com/@Fireship" class="card" target="_blank">
-          <div class="card-title">@Fireship <span class="card-status status-ok">✓ OK</span></div>
+          <div class="card-title">@Fireship</div>
           <div class="card-meta">Tech Quick Hits</div>
-          <span class="card-tag">RSS: UCsBjURrPoezykLs9EqgamOA</span>
-        </a>
-        <a href="https://www.youtube.com/@JeffNippard" class="card" target="_blank">
-          <div class="card-title">@Jeff Nippard <span class="card-status status-ok">✓ OK</span></div>
-          <div class="card-meta">Fitness & Science</div>
-          <span class="card-tag">RSS: UC68TLK0mAEzUyHx5x5k-S1Q</span>
         </a>
         <a href="https://www.youtube.com/@LexFridman" class="card" target="_blank">
-          <div class="card-title">@Lex Fridman <span class="card-status status-ok">✓ OK</span></div>
-          <div class="card-meta">AI & Tech Interviews</div>
-          <span class="card-tag">RSS: UCSHZKyawb77ixDdsGog4iWA</span>
+          <div class="card-title">@Lex Fridman</div>
+          <div class="card-meta">AI Interviews</div>
+        </a>
+        <a href="https://www.youtube.com/@TwoMinutePapers" class="card" target="_blank">
+          <div class="card-title">@Two Minute Papers</div>
+          <div class="card-meta">AI Research</div>
         </a>
         <a href="https://www.youtube.com/@AIExplained" class="card" target="_blank">
-          <div class="card-title">@AI Explained <span class="card-status status-ok">✓ OK</span></div>
+          <div class="card-title">@AI Explained</div>
           <div class="card-meta">AI Education</div>
-          <span class="card-tag">RSS: UCp_9GybIeJV5CDJ7LlJkFvA</span>
+        </a>
+        <a href="https://www.youtube.com/@LinusTechTips" class="card" target="_blank">
+          <div class="card-title">@Linus Tech Tips</div>
+          <div class="card-meta">Tech</div>
         </a>
       </div>
     </div>
     
-    <!-- Websites (Working APIs) -->
+    <div class="section">
+      <div class="section-header">
+        <span class="section-icon">🏋️</span>
+        <h2>Fitness & Science</h2>
+      </div>
+      <div class="cards">
+        <a href="https://www.youtube.com/@JeffNippard" class="card" target="_blank">
+          <div class="card-title">@Jeff Nippard</div>
+          <div class="card-meta">Science-Based Fitness</div>
+        </a>
+        <a href="https://www.youtube.com/@StatQuest" class="card" target="_blank">
+          <div class="card-title">@StatQuest</div>
+          <div class="card-meta">Statistics & ML</div>
+        </a>
+      </div>
+    </div>
+    
     <div class="section">
       <div class="section-header">
         <span class="section-icon">📰</span>
-        <h2>Websites & APIs</h2>
+        <h2>News & Websites</h2>
       </div>
-      <p style="margin-bottom: 16px; color: var(--text-muted);">These sources have accessible content:</p>
-      
       <div class="cards">
         <a href="https://news.ycombinator.com/" class="card" target="_blank">
-          <div class="card-title">Hacker News <span class="card-status status-ok">✓ OK</span></div>
-          <div class="card-meta">hn.algolia.com API</div>
+          <div class="card-title">Hacker News</div>
+          <div class="card-meta">Tech Discussions</div>
         </a>
         <a href="https://www.therundown.ai/" class="card" target="_blank">
-          <div class="card-title">The Rundown AI <span class="card-status status-ok">✓ OK</span></div>
+          <div class="card-title">The Rundown AI</div>
           <div class="card-meta">Daily AI News</div>
         </a>
-        <a href="https://www.ben-evans.com/benedict.html" class="card" target="_blank">
-          <div class="card-title">Benedict Evans <span class="card-status status-check">Check</span></div>
-          <div class="card-meta">Tech Analysis</div>
-        </a>
       </div>
-    </div>
-    
-    <!-- Known Broken -->
-    <div class="section">
-      <div class="section-header">
-        <span class="section-icon">⚠️</span>
-        <h2>Known Issues</h2>
-      </div>
-      <p style="color: var(--text-muted);">These sources don't have working RSS/API (podcast feeds are harder to access):</p>
-      <ul style="margin-top: 12px; margin-left: 20px; color: var(--text-muted);">
-        <li>Huberman Lab, Lex Fridman podcasts - No public RSS accessible</li>
-        <li>Planet FPL, FFScout YouTube - Channel ID changed/invalid</li>
-        <li>Twitter/X - Requires API access</li>
-      </ul>
     </div>
     
   </div>
