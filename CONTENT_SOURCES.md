@@ -121,3 +121,12 @@ For Nick's training insights, I'll create a structured format:
 ---
 
 *Last updated: 2026-02-19*
+
+---
+
+## 📡 RSS Feeds (Daily)
+
+| Source | URL | Status | Notes |
+|--------|-----|--------|-------|
+| **AI Secret** | https://aisecret.us/rss/ | ✅ NEW | Daily AI news, video summaries |
+
