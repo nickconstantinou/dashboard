@@ -1,84 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+    h1, h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .tagline { font-size: 14px; color: var(--text-muted); margin-top: 8px; }
+    .section { margin: 32px 0; }
+    .section-title { font-size: 14px; font-weight: 600; color: var(--text-muted); margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .posts { display: grid; gap: 16px; }
+    .post { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; transition: all 0.2s; }
+    .post:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .post-meta { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }
+    .post h2 { font-size: 22px; margin-bottom: 8px; color: var(--primary); }
+    .post p { font-size: 14px; color: var(--text-muted); }
+    .tag { display: inline-block; background: var(--bg-alt); color: var(--text-muted); padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-right: 4px; }
+    .training-card { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; transition: all 0.2s; }
+    .training-card:hover { border-color: var(--accent); }
+    .training-stats { display: flex; gap: 24px; margin-top: 12px; }
+    .training-stat { text-align: center; }
+    .training-stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); }
+    .training-stat-label { font-size: 11px; color: var(--text-muted); }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Nick's <span>Blog</span></h1>
+      <p class="tagline">Daily thoughts, learnings, and training. <a href="changelog.html" style="color: var(--accent); text-decoration: underline;">Changelog</a> · <a href="sources.html" style="color: var(--accent); text-decoration: underline;">Sources</a> · <a href="behind-scenes.html" style="color: var(--accent); text-decoration: underline;">Behind the Scenes</a></p>
+    </div>
+  </header>
 
+  <div class="container">
+    <section class="section">
+      <h2 class="section-title">🏋️ Training</h2>
+      <a href="training.html" class="training-card">
+        <p style="font-size: 14px; color: var(--text-muted);">Full Body (Strength) • Zone 2 Cycling • Weekly progress</p>
+        <div class="training-stats">
+          <div class="training-stat">
+            <div class="training-stat-value">2</div>
+            <div class="training-stat-label">Workouts</div>
+          </div>
+          <div class="training-stat">
+            <div class="training-stat-value">87m</div>
+            <div class="training-stat-label">Total Time</div>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">📝 Latest Posts</h2>
+      <div class="posts">
         <a href="2026-02-20-nanoclaw-analysis.html" class="post">
           <p class="post-meta">February 20, 2026 • Tech</p>
           <h2>NanoClaw - A Different Approach</h2>
           <p>Analyzing a lightweight alternative to OpenClaw that runs agents in Docker containers.</p>
-          <div class="tags">
-            <span class="tag">Tech</span>
-            <span class="tag">AI</span>
-          </div>
+          <div class="tags"><span class="tag">Tech</span><span class="tag">AI</span></div>
         </a>
         <a href="2026-02-20-ai-agent-41k.html" class="post">
           <p class="post-meta">February 20, 2026 • AI</p>
           <h2>This AI Agent Made $41K in a Week!</h2>
           <p>How an OpenClaw agent generated real revenue by creating and selling a book through Telegram.</p>
-          <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">Agents</span>
-          </div>
+          <div class="tags"><span class="tag">AI</span><span class="tag">Agents</span></div>
         </a>
         <a href="2026-02-19-fpl-gw27-tips.html" class="post">
           <p class="post-meta">February 19, 2026 • FPL</p>
           <h2>FPL GW27 Tips & Strategy</h2>
           <p>Gameweek 27 analysis with captain picks and transfer recommendations.</p>
-          <div class="tags">
-            <span class="tag">FPL</span>
-            <span class="tag">Football</span>
-          </div>
+          <div class="tags"><span class="tag">FPL</span><span class="tag">Football</span></div>
         </a>
         <a href="2026-02-19-ai-news-roundup.html" class="post">
           <p class="post-meta">February 19, 2026 • AI News</p>
           <h2>AI News Roundup: DeepMind's Moral AI</h2>
           <p>Latest developments in AI safety and what DeepMind's new research means for the industry.</p>
-          <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">News</span>
-          </div>
+          <div class="tags"><span class="tag">AI</span><span class="tag">News</span></div>
         </a>
         <a href="2026-02-19-ai-limitless.html" class="post">
           <p class="post-meta">February 19, 2026 • AI</p>
           <h2>Limitless: AI News Summary</h2>
           <p>Latest AI news and insights from the Limitless podcast.</p>
-          <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">News</span>
-          </div>
+          <div class="tags"><span class="tag">AI</span><span class="tag">News</span></div>
         </a>
         <a href="2026-02-18-meta-acquires-limitless.html" class="post">
           <p class="post-meta">February 18, 2026 • AI</p>
           <h2>Meta Acquires Limitless</h2>
           <p>What the acquisition means for the AI assistant landscape.</p>
-          <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">News</span>
-          </div>
+          <div class="tags"><span class="tag">AI</span><span class="tag">News</span></div>
         </a>
         <a href="2026-02-18-huberman-women-training.html" class="post">
           <p class="post-meta">February 18, 2026 • Science</p>
           <h2>Huberman: How Women Should Train</h2>
           <p>Key insights from Andrew Huberman on training optimization for women.</p>
-          <div class="tags">
-            <span class="tag">Science</span>
-            <span class="tag">Training</span>
-          </div>
+          <div class="tags"><span class="tag">Science</span><span class="tag">Training</span></div>
         </a>
         <a href="2026-02-18-fpl-captain-strategy.html" class="post">
           <p class="post-meta">February 18, 2026 • FPL</p>
           <h2>FPL Captain Strategy</h2>
           <p>Analyzing the best captain choices for the upcoming gameweek.</p>
-          <div class="tags">
-            <span class="tag">FPL</span>
-            <span class="tag">Football</span>
-          </div>
+          <div class="tags"><span class="tag">FPL</span><span class="tag">Football</span></div>
         </a>
         <a href="2026-02-18-ai-trends-2026.html" class="post">
-          <p class="post-meta"> February 18, 2026 • AI</p>
+          <p class="post-meta">February 18, 2026 • AI</p>
           <h2>AI Trends 2026</h2>
           <p>Key trends shaping the AI landscape in 2026.</p>
-          <div class="tags">
-            <span class="tag">AI</span>
-            <span class="tag">Trends</span>
-          </div>
+          <div class="tags"><span class="tag">AI</span><span class="tag">Trends</span></div>
         </a>
       </div>
     </section>
