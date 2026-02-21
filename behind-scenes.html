@@ -18,14 +18,17 @@
     .logo span { color: var(--accent); }
     .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
     .back-link:hover { color: var(--accent); }
-    .intro { font-size: 1.125rem; color: var(--text-muted); margin-bottom: 32px; }
-    .entry { padding: 24px 0; border-bottom: 1px solid var(--border); }
-    .entry:last-child { border-bottom: none; }
-    .entry-date { font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
-    .entry h2 { font-size: 1.25rem; margin-bottom: 8px; }
-    .entry h2 a { color: var(--primary); text-decoration: none; }
-    .entry h2 a:hover { color: var(--accent); }
-    .entry p { color: var(--text-muted); }
+    
+    /* Same card style as blog */
+    .posts { display: grid; gap: 16px; margin-bottom: 40px; }
+    .post { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; transition: all 0.2s; }
+    .post:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .post-meta { font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+    .post h2 { font-size: 18px; margin-bottom: 8px; color: var(--primary); }
+    .post h2 a { color: var(--primary); text-decoration: none; }
+    .post h2 a:hover { color: var(--accent); }
+    .post p { font-size: 14px; color: var(--text-muted); }
+    
     footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
     footer p { font-size: 14px; color: var(--text-muted); }
   </style>
@@ -39,30 +42,32 @@
   <div class="container">
     <a href="index.html" class="back-link">← Back to Dashboard</a>
     <h1 style="margin-bottom: 16px;">Behind the Scenes</h1>
-    <p class="intro">The messy middle of building things. Work in progress, experiments, and what we're learning.</p>
+    <p style="font-size: 1.125rem; color: var(--text-muted); margin-bottom: 32px;">The messy middle of building things. Work in progress, experiments, and what we're learning.</p>
 
-    <div class="entry">
-      <p class="entry-date">February 20, 2026</p>
-      <h2><a href="2026-02-20-counterclaw-email-protection.html">Building Email Protection for AI Agents</a></h2>
-      <p>How we're using CounterClaw to protect OpenClaw from malicious emails. Two-layer architecture: inbound scanning and outbound PII protection.</p>
-    </div>
+    <div class="posts">
+      <a href="2026-02-20-counterclaw-email-protection.html" class="post">
+        <p class="post-meta">February 20, 2026</p>
+        <h2><a href="2026-02-20-counterclaw-email-protection.html">Building Email Protection for AI Agents</a></h2>
+        <p>How we're using CounterClaw to protect OpenClaw from malicious emails. Two-layer architecture: inbound scanning and outbound PII protection.</p>
+      </a>
 
-    <div class="entry">
-      <p class="entry-date">February 18, 2026</p>
-      <h2><a href="2026-02-18-uk-directory-niches.html">UK Directory Niches Deep Dive</a></h2>
-      <p>Exploring directory business opportunities in the UK market. Analysis of tutor, plumber, electrician niches.</p>
-    </div>
+      <a href="2026-02-18-uk-directory-niches.html" class="post">
+        <p class="post-meta">February 18, 2026</p>
+        <h2><a href="2026-02-18-uk-directory-niches.html">UK Directory Niches Deep Dive</a></h2>
+        <p>Exploring directory business opportunities in the UK market. Analysis of tutor, plumber, electrician niches.</p>
+      </a>
 
-    <div class="entry">
-      <p class="entry-date">February 2026</p>
-      <h2>CounterClaw Development</h2>
-      <p>Building a prompt injection protection library. Published to ClawHub. Input/output scanning, PII detection, fail-closed admin.</p>
-    </div>
+      <div class="post">
+        <p class="post-meta">February 2026</p>
+        <h2>CounterClaw Development</h2>
+        <p>Building a prompt injection protection library. Published to ClawHub. Input/output scanning, PII detection, fail-closed admin.</p>
+      </div>
 
-    <div class="entry">
-      <p class="entry-date">February 2026</p>
-      <h2>Content Automation</h2>
-      <p>Built daily content crawler pulling from 20+ YouTube channels, RSS feeds, and AI news sources. Automated blog post generation.</p>
+      <div class="post">
+        <p class="post-meta">February 2026</p>
+        <h2>Content Automation</h2>
+        <p>Built daily content crawler pulling from 20+ YouTube channels, RSS feeds, and AI news sources. Automated blog post generation.</p>
+      </div>
     </div>
 
   </div>
