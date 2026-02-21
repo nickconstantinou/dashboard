@@ -18,20 +18,25 @@
     .logo span { color: var(--accent); }
     .tagline { font-size: 14px; color: var(--text-muted); margin-top: 8px; }
     .tagline a { color: var(--accent); text-decoration: underline; }
+    
+    /* Dashboard Cards */
+    .dashboard { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin: 32px 0; }
+    .card { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; transition: all 0.2s; }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+    .card-icon { font-size: 2rem; display: block; margin-bottom: 8px; }
+    .card h3 { font-size: 1.125rem; margin-bottom: 4px; color: var(--primary); }
+    .card p { font-size: 0.875rem; color: var(--text-muted); }
+    .card-meta { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    
     .section { margin: 32px 0; }
     .section-title { font-size: 14px; font-weight: 600; color: var(--text-muted); margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
     .posts { display: grid; gap: 16px; }
     .post { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; transition: all 0.2s; }
     .post:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
     .post-meta { font-size: 12px; color: var(--text-muted); margin-bottom: 8px; }
-    .post h2 { font-size: 22px; margin-bottom: 8px; color: var(--primary); }
+    .post h2 { font-size: 18px; margin-bottom: 8px; color: var(--primary); }
     .post p { font-size: 14px; color: var(--text-muted); }
     .tag { display: inline-block; background: var(--bg-alt); color: var(--text-muted); padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-right: 4px; }
-    .training-card { display: block; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-decoration: none; }
-    .training-stats { display: flex; gap: 24px; margin-top: 12px; }
-    .training-stat { text-align: center; }
-    .training-stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); }
-    .training-stat-label { font-size: 11px; color: var(--text-muted); }
     footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
     footer p { font-size: 14px; color: var(--text-muted); }
   </style>
@@ -40,27 +45,38 @@
   <header>
     <div class="container">
       <h1 class="logo">Nick's <span>Blog</span></h1>
-      <p class="tagline">Daily thoughts, learnings, and training. <a href="changelog.html">Changelog</a> · <a href="sources.html">Sources</a> · <a href="behind-scenes.html">Behind the Scenes</a></p>
+      <p class="tagline">Daily thoughts, learnings, and training</p>
     </div>
   </header>
 
   <div class="container">
-    <section class="section">
-      <h2 class="section-title">🏋️ Training</h2>
-      <a href="training.html" class="training-card">
-        <p style="font-size: 14px; color: var(--text-muted);">Full Body (Strength) • Zone 2 Cycling • Weekly progress</p>
-        <div class="training-stats">
-          <div class="training-stat">
-            <div class="training-stat-value">2</div>
-            <div class="training-stat-label">Workouts</div>
-          </div>
-          <div class="training-stat">
-            <div class="training-stat-value">87m</div>
-            <div class="training-stat-label">Total Time</div>
-          </div>
-        </div>
+    <!-- Dashboard Cards -->
+    <div class="dashboard">
+      <a href="blog.html" class="card">
+        <span class="card-icon">📝</span>
+        <h3>Blog</h3>
+        <p>Daily posts from AI sources</p>
+        <span class="card-meta">9 posts</span>
       </a>
-    </section>
+      <a href="behind-scenes.html" class="card">
+        <span class="card-icon">🎬</span>
+        <h3>Behind the Scenes</h3>
+        <p>Long-form building posts</p>
+        <span class="card-meta">Work in progress</span>
+      </a>
+      <a href="changelog.html" class="card">
+        <span class="card-icon">📋</span>
+        <h3>Changelog</h3>
+        <p>What we've built</p>
+        <span class="card-meta">Updates</span>
+      </a>
+      <a href="training.html" class="card">
+        <span class="card-icon">🏋️</span>
+        <h3>Training</h3>
+        <p>Zone 2 + Strength</p>
+        <span class="card-meta">2 workouts</span>
+      </a>
+    </div>
 
     <section class="section">
       <h2 class="section-title">📝 Latest Posts</h2>
