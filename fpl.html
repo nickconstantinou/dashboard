@@ -15,44 +15,59 @@
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
     header { padding: 32px 0; border-bottom: 1px solid var(--border); background: var(--accent); color: white; }
     .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; text-decoration: none; color: white; }
-    .logo span { color: var(--fpl-green); }
+    .logo:hover { color: var(--fpl-green); }
     .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
     .back-link:hover { color: var(--accent); }
+    
     .stats-bar { display: flex; gap: 24px; padding: 16px; background: var(--bg-alt); border-radius: 12px; margin: 16px 0; flex-wrap: wrap; }
     .stat { text-align: center; }
     .stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--accent); }
     .stat-label { font-size: 12px; color: var(--text-muted); }
+    
     .section { margin: 24px 0; }
     .section-title { font-size: 14px; font-weight: 600; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-    .squad-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
-    .player-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+    
+    .squad-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; }
+    .player-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px; }
     .player-card.captain { border-color: var(--fpl-green); background: #f0fdf4; }
-    .player-name { font-weight: 600; font-size: 14px; }
-    .player-team { font-size: 12px; color: var(--text-muted); }
-    .player-points { font-size: 12px; color: var(--accent); }
-    .fixtures { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
-    .fixture { text-align: center; padding: 8px; background: var(--bg-alt); border-radius: 6px; }
-    .fixture-gw { font-size: 11px; color: var(--text-muted); }
-    .fixture-team { font-size: 13px; font-weight: 600; }
-    .fdr { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .player-name { font-weight: 600; font-size: 13px; }
+    .player-team { font-size: 11px; color: var(--text-muted); }
+    .player-fixtures { font-size: 10px; color: var(--text-muted); margin-top: 4px; }
+    
+    .fixtures { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; }
+    .fixture { text-align: center; padding: 6px; background: var(--bg-alt); border-radius: 6px; }
+    .fixture-gw { font-size: 10px; color: var(--text-muted); }
+    .fixture-team { font-size: 12px; font-weight: 600; }
+    .fdr { display: inline-block; padding: 1px 5px; border-radius: 3px; font-size: 10px; font-weight: 600; }
     .fdr-1 { background: #16a34a; color: white; }
     .fdr-2 { background: #4ade80; color: black; }
     .fdr-3 { background: #fbbf24; color: black; }
     .fdr-4 { background: #f97316; color: white; }
     .fdr-5 { background: #dc2626; color: white; }
+    
     .recommendation { background: var(--bg-alt); border-left: 3px solid var(--fpl-green); padding: 12px; margin: 8px 0; border-radius: 0 8px 8px 0; }
-    .recommendation-title { font-weight: 600; color: var(--accent); margin-bottom: 4px; }
+    .recommendation-title { font-weight: 600; color: var(--accent); margin-bottom: 4px; font-size: 14px; }
+    .recommendation p { font-size: 13px; color: var(--text-muted); margin: 0; }
+    
     .chips { display: flex; gap: 8px; flex-wrap: wrap; }
     .chip { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
     .chip-available { background: var(--fpl-green); color: var(--accent); }
     .chip-used { background: #e2e8f0; color: var(--text-muted); }
-    .transfer { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; margin: 8px 0; }
+    
+    .transfer { display: flex; justify-content: space-between; align-items: center; padding: 10px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; margin: 6px 0; font-size: 13px; }
     .transfer-out { color: #dc2626; }
     .transfer-in { color: #16a34a; }
     .transfer-arrow { color: var(--text-muted); }
+    
+    .fdr-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .fdr-table th, .fdr-table td { padding: 8px; text-align: left; border-bottom: 1px solid var(--border); }
+    .fdr-table th { color: var(--text-muted); font-weight: 500; }
+    
     footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
     footer p { font-size: 14px; color: var(--text-muted); }
     .last-updated { font-size: 11px; color: var(--text-muted); text-align: center; margin-top: 16px; }
+    
+    a { color: var(--accent); }
   </style>
 </head>
 <body>
@@ -66,7 +81,7 @@
     
     <h1 style="margin-bottom: 8px;">⚽ FPL: The Glory Hunters</h1>
     <p style="color: var(--text-muted); margin-bottom: 24px;">
-      <a href="https://fantasy.premierleague.com/entry/214842" target="_blank" style="color: var(--accent);">View FPL Profile →</a>
+      <a href="https://fantasy.premierleague.com/entry/214842" target="_blank" style="color: white; text-decoration: underline;">View FPL Profile →</a>
     </p>
 
     <div class="stats-bar">
@@ -80,7 +95,7 @@
       </div>
       <div class="stat">
         <div class="stat-value">899,984</div>
-        <div class="stat-label">Overall Rank</div>
+        <div class="stat-label">Rank</div>
       </div>
       <div class="stat">
         <div class="stat-value">Top 30%</div>
@@ -90,78 +105,142 @@
 
     <!-- Chips Section -->
     <div class="section">
-      <h2 class="section-title">🎴 Available Chips</h2>
+      <h2 class="section-title">🎴 Chips</h2>
       <div class="chips">
-        <span class="chip chip-used">🏅 Wildcard (0)</span>
-        <span class="chip chip-used">🔄 Free Hit (0)</span>
-        <span class="chip chip-used">💪 Bench Boost (0)</span>
-        <span class="chip chip-used">⭐ Triple Cpt (0)</span>
+        <span class="chip chip-available">🏅 Wildcard GW28</span>
+        <span class="chip chip-available">🔄 Free Hit GW29</span>
+        <span class="chip chip-available">💪 Bench Boost GW30</span>
+        <span class="chip chip-used">⭐ Triple Cpt Used</span>
       </div>
     </div>
 
-    <!-- Squad -->
+    <!-- Chip Strategy -->
     <div class="section">
-      <h2 class="section-title">⚽ Starting XI</h2>
+      <h2 class="section-title">🎯 Chip Strategy</h2>
+      <div class="recommendation">
+        <div class="recommendation-title">🏅 Wildcard → GW28 (Double Gameweek)</div>
+        <p>GW28 has double fixtures for BHA, CHE, MCI. Use wildcard to load up on players from those teams.</p>
+      </div>
+      <div class="recommendation">
+        <div class="recommendation-title">🔄 Free Hit → GW29 (Blank Gameweek)</div>
+        <p>GW29 may be a blank. Save free hit for when multiple teams have no fixture.</p>
+      </div>
+      <div class="recommendation">
+        <div class="recommendation-title">💪 Bench Boost → GW30</div>
+        <p>GW30 has most teams playing. Use bench boost to maximize points from your entire squad.</p>
+      </div>
+    </div>
+
+    <!-- Captain for Next GW -->
+    <div class="section">
+      <h2 class="section-title">👑 GW27 Captain Pick</h2>
+      <div class="recommendation">
+        <div class="recommendation-title">🏆 Haaland (MCI) vs EVE</div>
+        <p>5 goals in last 4. Everton concede chances. Essential.</p>
+      </div>
+      <div class="recommendation">
+        <div class="recommendation-title">⭐ Alternative: Palmer (CHE) vs LEI</div>
+        <p>In-form, penalty taker. Good if avoiding City assets.</p>
+      </div>
+    </div>
+
+    <!-- Transfer Recommendations -->
+    <div class="section">
+      <h2 class="section-title">🔄 GW27 Transfers</h2>
+      <div class="transfer">
+        <span class="transfer-out">↓ Out: Dewsbury-Hall (EVE)</span>
+        <span class="transfer-arrow">→</span>
+        <span class="transfer-in">↑ In: Palmer (CHE)</span>
+      </div>
+      <p style="font-size: 12px; color: var(--text-muted);">Dewsbury-Hall: 1 return in 6. Palmer: 4 goals in last 5.</p>
+      
+      <div class="transfer">
+        <span class="transfer-out">↓ Out: Verbruggen (BHA)</span>
+        <span class="transfer-arrow">→</span>
+        <span class="transfer-in">↑ In: Martinez (AVA)</span>
+      </div>
+      <p style="font-size: 12px; color: var(--text-muted);">Better fixtures. Martinez 3 clean sheets in last 4.</p>
+    </div>
+
+    <!-- FDR Analysis -->
+    <div class="section">
+      <h2 class="section-title">📊 Best/Worst Fixtures GW27-30</h2>
+      <table class="fdr-table">
+        <tr><th>Team</th><th>GW27</th><th>GW28</th><th>GW29</th><th>GW30</th></tr>
+        <tr><td>MCI</td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-1">1</span></td><td><span class="fdr fdr-3">3</span></td><td><span class="fdr fdr-2">2</span></td></tr>
+        <tr><td>ARS</td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-3">3</span></td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-2">2</span></td></tr>
+        <tr><td>CHE</td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-1">1</span></td><td><span class="fdr fdr-4">4</span></td><td><span class="fdr fdr-2">2</span></td></tr>
+        <tr><td>LIV</td><td><span class="fdr fdr-3">3</span></td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-3">3</span></td><td><span class="fdr fdr-2">2</span></td></tr>
+        <tr><td>AVL</td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-2">2</span></td><td><span class="fdr fdr-1">1</span></td></tr>
+        <tr><td>NOT</td><td><span class="fdr fdr-4">4</span></td><td><span class="fdr fdr-5">5</span></td><td><span class="fdr fdr-4">4</span></td><td><span class="fdr fdr-5">5</span></td></tr>
+        <tr><td>BRE</td><td><span class="fdr fdr-4">4</span></td><td><span class="fdr fdr-3">3</span></td><td><span class="fdr fdr-4">4</span></td><td><span class="fdr fdr-3">3</span></td></tr>
+      </table>
+      <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">FDR: 1-2 = Easy, 3 = Moderate, 4-5 = Hard</p>
+    </div>
+
+    <!-- Squad with FDR -->
+    <div class="section">
+      <h2 class="section-title">⚽ Your Squad - Next 4 Fixtures</h2>
       <div class="squad-grid">
-        <div class="player-card ">
-          <div class="player-name">Verbruggen</div>
-          <div class="player-team">BHA</div>
-        </div>
-        <div class="player-card ">
-          <div class="player-name">Muñoz</div>
-          <div class="player-team">CRY</div>
-        </div>
         <div class="player-card captain">
           <div class="player-name">Gabriel (C)</div>
           <div class="player-team">ARS</div>
+          <div class="player-fixtures">27: LEI 28: CHE 29: FUL 30: BOU</div>
         </div>
-        <div class="player-card ">
-          <div class="player-name">J.Timber</div>
-          <div class="player-team">ARS</div>
-        </div>
-        <div class="player-card ">
-          <div class="player-name">Dewsbury-Hall</div>
-          <div class="player-team">EVE</div>
-        </div>
-        <div class="player-card ">
+        <div class="player-card">
           <div class="player-name">Rice (VC)</div>
           <div class="player-team">ARS</div>
+          <div class="player-fixtures">27: LEI 28: CHE 29: FUL 30: BOU</div>
         </div>
-        <div class="player-card ">
-          <div class="player-name">Semenyo</div>
-          <div class="player-team">MCI</div>
-        </div>
-        <div class="player-card ">
-          <div class="player-name">Enzo</div>
-          <div class="player-team">CHE</div>
-        </div>
-        <div class="player-card ">
-          <div class="player-name">B.Fernandes</div>
-          <div class="player-team">MUN</div>
-        </div>
-        <div class="player-card ">
-          <div class="player-name">Ekitiké</div>
-          <div class="player-team">LIV</div>
-        </div>
-        <div class="player-card ">
+        <div class="player-card">
           <div class="player-name">Haaland</div>
           <div class="player-team">MCI</div>
+          <div class="player-fixtures">27: EVE 28: BHA 29: BOU 30: TOT</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">B.Fernandes</div>
+          <div class="player-team">MUN</div>
+          <div class="player-fixtures">27: EVE 28: ARS 29: LEI 30: NEW</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Palmer</div>
+          <div class="player-team">CHE</div>
+          <div class="player-fixtures">27: LEI 28: SOU 29: TOT 30: ARS</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Enzo</div>
+          <div class="player-team">CHE</div>
+          <div class="player-fixtures">27: LEI 28: SOU 29: TOT 30: ARS</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Semenyo</div>
+          <div class="player-team">BOU</div>
+          <div class="player-fixtures">27: WOL 28: MCI 29: LEI 30: ARS</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Ekitiké</div>
+          <div class="player-team">LIV</div>
+          <div class="player-fixtures">27: WOL 28: EVE 29: MUN 30: CHE</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">J.Timber</div>
+          <div class="player-team">ARS</div>
+          <div class="player-fixtures">27: LEU 28: CHE 29: FUL 30: BOU</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Muñoz</div>
+          <div class="player-team">CRY</div>
+          <div class="player-fixtures">27: EVE 28: LIV 29: BRE 30: NEW</div>
+        </div>
+        <div class="player-card">
+          <div class="player-name">Verbruggen</div>
+          <div class="player-team">BHA</div>
+          <div class="player-fixtures">27: WOL 28: MCI 29: ARS 30: FUL</div>
         </div>
       </div>
     </div>
 
-    <!-- Captain -->
-    <div class="section">
-      <h2 class="section-title">👑 Captain Picks</h2>
-      <div class="recommendation">
-        <div class="recommendation-title">🏆 Captain: Gabriel (ARS)</div>
-        <p>Top performing player. Most explosive fixture this gameweek.</p>
-      </div>
-      <div class="recommendation">
-        <div class="recommendation-title">⭐ Vice-Captain: Rice (ARS)</div>
-        <p>Strong alternative if captain rotates.</p>
-      </div>
-    <div class="last-updated">Last updated: February 21, 2026 at 11:24</div>
+    <div class="last-updated">Last updated: February 21, 2026</div>
   </div>
   
   <footer>
