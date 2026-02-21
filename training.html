@@ -3,135 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Training Log | Nick's Blog</title>
+  <title>Training | Nick's Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --primary: #0F172A;
-      --accent: #F97316;
-      --bg: #FFFFFF;
-      --bg-alt: #F8FAFC;
-      --text: #1E293B;
-      --text-muted: #64748B;
-      --border: #E2E8F0;
-    }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
-    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    h1, h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
     header { padding: 32px 0; border-bottom: 1px solid var(--border); }
     .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
-    .back-link:hover { color: var(--accent); }
-    
-    .week { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 24px; }
-    .week-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-    .week h2 { font-size: 20px; color: var(--primary); }
-    .week-date { font-size: 14px; color: var(--text-muted); }
-    
-    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px; }
-    .stat { background: var(--bg-alt); padding: 12px; border-radius: 8px; text-align: center; }
-    .stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    .session { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 16px 0; }
+    .session-date { font-size: 12px; color: var(--accent); text-transform: uppercase; }
+    .session h2 { font-size: 18px; margin: 8px 0; }
+    .stats { display: flex; gap: 16px; flex-wrap: wrap; margin: 12px 0; }
+    .stat { background: var(--bg-alt); padding: 8px 12px; border-radius: 8px; }
+    .stat-value { font-weight: 700; color: var(--primary); }
     .stat-label { font-size: 11px; color: var(--text-muted); }
-    
-    .workouts { margin-bottom: 20px; }
-    .workout { display: flex; align-items: center; gap: 12px; padding: 12px; background: var(--bg-alt); border-radius: 8px; margin-bottom: 8px; }
-    .workout-icon { font-size: 24px; }
-    .workout-details { flex: 1; }
-    .workout-type { font-weight: 600; font-size: 14px; }
-    .workout-meta { font-size: 12px; color: var(--text-muted); }
-    
-    .insights { background: var(--bg-alt); padding: 16px; border-radius: 8px; }
-    .insights h3 { font-size: 14px; margin-bottom: 12px; color: var(--text-muted); }
-    .insights ul { font-size: 14px; padding-left: 20px; }
-    .insights li { margin-bottom: 6px; }
-    
-    .section-title { font-size: 14px; font-weight: 600; color: var(--text-muted); margin: 24px 0 12px; text-transform: uppercase; letter-spacing: 0.5px; }
-    
-    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .notes { font-size: 14px; color: var(--text-muted); }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
   </style>
 </head>
 <body>
   <header>
     <div class="container">
-      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
     </div>
   </header>
-  
   <div class="container">
-    <a href="index.html" class="back-link">← Back to Blog</a>
-    
-    <h1 style="margin-bottom: 24px;">Training Log</h1>
-    
-    <p class="section-title">This Week (W8)</p>
-    
-    <div class="week">
-      <div class="week-header">
-        <h2>Feb 17 - Feb 23, 2026</h2>
-        <span class="week-date">Week 8</span>
-      </div>
-      
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1 style="margin-bottom: 24px;">🏋️ Training Log</h1>
+
+    <div class="session">
+      <p class="session-date">Saturday, 21 February 2026</p>
+      <h2>Zone 2 Cycling (Indoor)</h2>
       <div class="stats">
-        <div class="stat">
-          <div class="stat-value">2</div>
-          <div class="stat-label">Workouts</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value">32m</div>
-          <div class="stat-label">Cycling</div>
-        </div>
-        <div class="stat">
-          <div class="stat-value">55m</div>
-          <div class="stat-label">Strength</div>
-        </div>
+        <div class="stat"><div class="stat-value">35:00</div><div class="stat-label">Duration</div></div>
+        <div class="stat"><div class="stat-value">15.15 km</div><div class="stat-label">Distance</div></div>
+        <div class="stat"><div class="stat-value">120 bpm</div><div class="stat-label">Avg HR</div></div>
+        <div class="stat"><div class="stat-value">128 bpm</div><div class="stat-label">HR Cap</div></div>
+        <div class="stat"><div class="stat-value">328 kcal</div><div class="stat-label">Calories</div></div>
       </div>
-      
-      <div class="workouts">
-        <div class="workout">
-          <span class="workout-icon">🏋️</span>
-          <div class="workout-details">
-            <div class="workout-type">Full Body (Strength)</div>
-            <div class="workout-meta">19 Feb • 55m • Incline Bench 42.5kg×9, RDL 55kg×5×3</div>
-          </div>
-        </div>
-        <div class="workout">
-          <span class="workout-icon">🚴</span>
-          <div class="workout-details">
-            <div class="workout-type">Zone 2 Cycling (Indoor)</div>
-            <div class="workout-meta">17 Feb • 32:16 • 12.22 km • 127 bpm</div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="insights">
-        <h3>💡 INSIGHTS</h3>
-        <ul>
-          <li><strong>Incline Bench:</strong> 42.5kg × 9 best, ~54-56kg 1RM. Neck felt OK - good sign.</li>
-          <li><strong>RDL:</strong> 55kg × 5×3, ~63-67kg 1RM. Controlled eccentric, neutral neck.</li>
-          <li>Stay 1-2 reps shy of failure to consolidate neck stability</li>
-        </ul>
+      <div class="notes">
+        <p><strong>Knee:</strong> Minimal pain at seat height 13, cadence 85</p>
+        <p><strong>Notes:</strong> Good aerobic stimulus. HR controlled. Minor early spike in warmup. Progression: Increase duration to 40min before adding intensity.</p>
       </div>
     </div>
-    
-    <p class="section-title">Previous Weeks</p>
-    
-    <div class="week" style="opacity: 0.7;">
-      <div class="week-header">
-        <h2>Feb 10 - Feb 16, 2026</h2>
-        <span class="week-date">Week 7</span>
-      </div>
-      <p style="font-size: 14px; color: var(--text-muted);">No logged workouts yet.</p>
-    </div>
+
   </div>
-  
   <footer>
-    <div class="container">
-      <p>Nick's Blog — Training & Insights</p>
-    </div>
+    <div class="container"><p>Nick's Blog</p></div>
   </footer>
 </body>
 </html>
