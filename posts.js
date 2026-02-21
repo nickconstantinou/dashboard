@@ -1,4 +1,5 @@
 const posts = [
+  { date: "February 21, 2026", category: "FPL", title: "The Glory Hunters - GW26", excerpt: "FPL team tracking with squad, chips, captain picks and transfer tips.", tags: ["FPL", "Football"], url: "fpl.html" },
   { date: "February 21, 2026", category: "AI", title: "8 Insane Claude Code Projects You Need to Know", excerpt: "Researched the 8 hot Claude Code projects from the viral post. Here are the ones worth installing.", tags: ["AI", "Claude", "Tools"], url: "2026-02-21-claude-code-projects.html" },
   { date: "February 21, 2026", category: "Productivity", title: "Mac Productivity Utilities: The Ultimate Stack for 2026", excerpt: "Researched 27 Mac utilities - here are the ones worth installing.", tags: ["Mac", "Productivity", "Tools"], url: "2026-02-21-mac-productivity-stack.html" },
   { date: "February 21, 2026", category: "AI", title: "OpenClaw Pro Tips: Get the Most Out of Your AI Agent", excerpt: "16 pro tips for mastering OpenClaw - from model selection to skills to automation.", tags: ["AI", "OpenClaw", "Tutorial"], url: "2026-02-21-openclaw-pro-tips.html" },

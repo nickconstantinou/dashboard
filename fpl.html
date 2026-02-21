@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FPL | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #37003c; --fpl-green: #00ff85; --bg: #FFFFFF; --bg-alt: #f0fdf4; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.2; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); background: var(--accent); color: white; }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; text-decoration: none; color: white; }
+    .logo span { color: var(--fpl-green); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    .back-link:hover { color: var(--accent); }
+    .stats-bar { display: flex; gap: 24px; padding: 16px; background: var(--bg-alt); border-radius: 12px; margin: 16px 0; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat-value { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--accent); }
+    .stat-label { font-size: 12px; color: var(--text-muted); }
+    .section { margin: 24px 0; }
+    .section-title { font-size: 14px; font-weight: 600; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .squad-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+    .player-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+    .player-card.captain { border-color: var(--fpl-green); background: #f0fdf4; }
+    .player-name { font-weight: 600; font-size: 14px; }
+    .player-team { font-size: 12px; color: var(--text-muted); }
+    .player-points { font-size: 12px; color: var(--accent); }
+    .fixtures { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+    .fixture { text-align: center; padding: 8px; background: var(--bg-alt); border-radius: 6px; }
+    .fixture-gw { font-size: 11px; color: var(--text-muted); }
+    .fixture-team { font-size: 13px; font-weight: 600; }
+    .fdr { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .fdr-1 { background: #16a34a; color: white; }
+    .fdr-2 { background: #4ade80; color: black; }
+    .fdr-3 { background: #fbbf24; color: black; }
+    .fdr-4 { background: #f97316; color: white; }
+    .fdr-5 { background: #dc2626; color: white; }
+    .recommendation { background: var(--bg-alt); border-left: 3px solid var(--fpl-green); padding: 12px; margin: 8px 0; border-radius: 0 8px 8px 0; }
+    .recommendation-title { font-weight: 600; color: var(--accent); margin-bottom: 4px; }
+    .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+    .chip { padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+    .chip-available { background: var(--fpl-green); color: var(--accent); }
+    .chip-used { background: #e2e8f0; color: var(--text-muted); }
+    .transfer { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; margin: 8px 0; }
+    .transfer-out { color: #dc2626; }
+    .transfer-in { color: #16a34a; }
+    .transfer-arrow { color: var(--text-muted); }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+    .last-updated { font-size: 11px; color: var(--text-muted); text-align: center; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    
+    <h1 style="margin-bottom: 8px;">⚽ FPL: The Glory Hunters</h1>
+    <p style="color: var(--text-muted); margin-bottom: 24px;">
+      <a href="https://fantasy.premierleague.com/entry/214842" target="_blank" style="color: var(--accent);">View FPL Profile →</a>
+    </p>
+
+    <div class="stats-bar">
+      <div class="stat">
+        <div class="stat-value">68</div>
+        <div class="stat-label">GW26 Pts</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">1,475</div>
+        <div class="stat-label">Total Pts</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">899,984</div>
+        <div class="stat-label">Overall Rank</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">Top 30%</div>
+        <div class="stat-label">Percentile</div>
+      </div>
+    </div>
+
+    <!-- Chips Section -->
+    <div class="section">
+      <h2 class="section-title">🎴 Available Chips</h2>
+      <div class="chips">
+        <span class="chip chip-used">🏅 Wildcard (0)</span>
+        <span class="chip chip-used">🔄 Free Hit (0)</span>
+        <span class="chip chip-used">💪 Bench Boost (0)</span>
+        <span class="chip chip-used">⭐ Triple Cpt (0)</span>
+      </div>
+    </div>
+
+    <!-- Squad -->
+    <div class="section">
+      <h2 class="section-title">⚽ Starting XI</h2>
+      <div class="squad-grid">
+        <div class="player-card ">
+          <div class="player-name">Verbruggen</div>
+          <div class="player-team">BHA</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Muñoz</div>
+          <div class="player-team">CRY</div>
+        </div>
+        <div class="player-card captain">
+          <div class="player-name">Gabriel (C)</div>
+          <div class="player-team">ARS</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">J.Timber</div>
+          <div class="player-team">ARS</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Dewsbury-Hall</div>
+          <div class="player-team">EVE</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Rice (VC)</div>
+          <div class="player-team">ARS</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Semenyo</div>
+          <div class="player-team">MCI</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Enzo</div>
+          <div class="player-team">CHE</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">B.Fernandes</div>
+          <div class="player-team">MUN</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Ekitiké</div>
+          <div class="player-team">LIV</div>
+        </div>
+        <div class="player-card ">
+          <div class="player-name">Haaland</div>
+          <div class="player-team">MCI</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Captain -->
+    <div class="section">
+      <h2 class="section-title">👑 Captain Picks</h2>
+      <div class="recommendation">
+        <div class="recommendation-title">🏆 Captain: Gabriel (ARS)</div>
+        <p>Top performing player. Most explosive fixture this gameweek.</p>
+      </div>
+      <div class="recommendation">
+        <div class="recommendation-title">⭐ Vice-Captain: Rice (ARS)</div>
+        <p>Strong alternative if captain rotates.</p>
+      </div>
+    <div class="last-updated">Last updated: February 21, 2026 at 11:24</div>
+  </div>
+  
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
