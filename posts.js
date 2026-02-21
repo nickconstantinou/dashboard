@@ -1,4 +1,5 @@
 const posts = [
+  { date: "February 21, 2026", category: "AI", title: "OpenClaw Pro Tips: Get the Most Out of Your AI Agent", excerpt: "16 pro tips for mastering OpenClaw - from model selection to skills to automation.", tags: ["AI", "OpenClaw", "Tutorial"], url: "2026-02-21-openclaw-pro-tips.html" },
   { date: "February 21, 2026", category: "AI", title: "Lex Fridman: OpenClaw Podcast with Peter Steinberger", excerpt: "Lex interviews the OpenClaw creator on the viral AI agent phenomenon.", tags: ["AI", "OpenClaw", "Podcast"], url: "2026-02-21-lex-fridman-openclaw.html" },
   // February 21
   { date: "February 21, 2026", category: "AI", title: "Apple AI Wearables, Grok vs Lovable, Google I/O", excerpt: "Latest AI news: Apple enters wearables race, xAI targets Lovable, Google I/O dates announced.", tags: ["AI", "News", "Apple"], url: "2026-02-21-ai-secret-daily.html" },

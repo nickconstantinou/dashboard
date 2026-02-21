@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw Pro Tips: Get the Most Out of Your AI Agent | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    .back-link:hover { color: var(--accent); }
+    .post-meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    .post h1 { font-size: 2rem; margin-bottom: 16px; }
+    .post-content { font-size: 1.0625rem; }
+    .post-content h2 { font-size: 1.5rem; margin: 32px 0 16px; color: var(--primary); }
+    .post-content h3 { font-size: 1.25rem; margin: 24px 0 12px; }
+    .post-content p { margin-bottom: 16px; }
+    .post-content ul, .post-content ol { margin: 16px 0; padding-left: 24px; }
+    .post-content li { margin-bottom: 8px; }
+    .highlight { background: var(--bg-alt); padding: 16px; border-radius: 8px; margin: 24px 0; border-left: 3px solid var(--accent); }
+    .highlight code { background: #e2e8f0; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+    .tag { display: inline-block; background: var(--bg-alt); color: var(--text-muted); padding: 4px 12px; border-radius: 4px; font-size: 12px; margin-right: 8px; }
+    .tip-box { background: #FEF3C7; border: 1px solid #F59E0B; padding: 16px; border-radius: 8px; margin: 24px 0; }
+    .tip-box strong { color: #92400E; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <article class="post">
+      <p class="post-meta">February 21, 2026 • AI</p>
+      <h1>OpenClaw Pro Tips: Get the Most Out of Your AI Agent</h1>
+      <div style="margin-bottom: 24px;">
+        <span class="tag">AI</span>
+        <span class="tag">OpenClaw</span>
+        <span class="tag">Tutorial</span>
+      </div>
+      
+      <div class="post-content">
+        <p>OpenClaw has exploded in popularity - 160K+ GitHub stars in weeks. But most people are only scratching the surface. After researching the docs, community showcase, and real-world usage, here's how to actually get the most out of it.</p>
+
+        <div class="tip-box">
+          <strong>💡 Quick Start:</strong> Run <code>openclaw onboard --install-daemon</code> to set up everything in minutes. The wizard guides you through channels, skills, and model configuration.
+        </div>
+
+        <h2>1. Choose the Right Model</h2>
+        <p>OpenClaw supports any model, but the docs strongly recommend:</p>
+        <ul>
+          <li><strong>Anthropic Pro/Max (100/200)</strong> - Best for long-context tasks and prompt injection resistance</li>
+          <li><strong>Opus 4.6</strong> - The community favorite. Over 90% of MyClaw users independently choose it</li>
+        </ul>
+        <p>Set your default in <code>~/.openclaw/openclaw.json</code>:</p>
+        <pre><code>{
+  "agent": {
+    "model": "anthropic/claude-opus-4-6"
+  }
+}</code></pre>
+
+        <h2>2. Master the Workspace Files</h2>
+        <p>Your workspace (default: <code>~/.openclaw/workspace</code>) has special files that shape how your agent behaves:</p>
+        <ul>
+          <li><strong>AGENTS.md</strong> - Defines agent behavior and workflows</li>
+          <li><strong>SOUL.md</strong> - Defines personality and tone</li>
+          <li><strong>TOOLS.md</strong> - Documents your specific tools and shortcuts</li>
+          <li><strong>USER.md</strong> - Background on who's using the agent</li>
+        </ul>
+        <div class="highlight">
+          <strong>Pro tip:</strong> These files are injected into every session. Update them to customize your agent's personality, remember your preferences, and automate recurring tasks.
+        </div>
+
+        <h2>3. Use Skills (The Superpower)</h2>
+        <p>Skills teach OpenClaw how to use tools. They're the key to unlocking serious automation:</p>
+        
+        <h3>ClawHub - The Skill Marketplace</h3>
+        <p>Browse and install skills from <a href="https://clawhub.com">clawhub.com</a>:</p>
+        <pre><code>clawhub install &lt;skill-slug&gt;</code></pre>
+        
+        <h3>Popular Skills to Install</h3>
+        <ul>
+          <li><strong>GitHub integration</strong> - PR reviews, issue management</li>
+          <li><strong>Browser control</strong> - Automate web tasks</li>
+          <li><strong>Custom skills</strong> - Build your own from CSV files, APIs, or local tools</li>
+        </ul>
+
+        <h3>Build Your Own Skill</h3>
+        <p>Create <code>skills/your-skill/SKILL.md</code>:</p>
+        <pre><code>---
+name: my-custom-skill
+description: What this skill does
+---
+# Instructions for the agent
+Use this tool when...</code></pre>
+
+        <h2>4. Multi-Agent Routing</h2>
+        <p>Route different channels/accounts to different agents:</p>
+        <ul>
+          <li>Work queries → Professional agent</li>
+          <li>Personal tasks → Casual agent</li>
+          <li>Code reviews → Dev-focused agent</li>
+        </ul>
+        <p>Each agent can have its own workspace with unique skills and personality.</p>
+
+        <h2>5. Chat Commands</h2>
+        <p>These slash commands work in WhatsApp, Telegram, Slack, Google Chat, and WebChat:</p>
+        <ul>
+          <li><code>/status</code> - Compact session status (model + tokens)</li>
+          <li><code>/new</code> or <code>/reset</code> - Start fresh session</li>
+          <li><code>/compact</code> - Summarize context to save tokens</li>
+          <li><code>/think</code> - Adjust thinking level (off|minimal|low|medium|high|xhigh)</li>
+          <li><code>/usage</code> - Toggle usage tracking</li>
+          <li><code>/restart</code> - Restart the gateway</li>
+        </ul>
+
+        <h2>6. Automation with Cron Jobs</h2>
+        <p>Schedule recurring tasks:</p>
+        <pre><code>openclaw cron add --schedule "0 9 * * *" \
+  --message "Daily standup summary"</code></pre>
+        <p>Great for:</p>
+        <ul>
+          <li>Morning digests</li>
+          <li>Scheduled reminders</li>
+          <li>Automated reports</li>
+        </ul>
+
+        <h2>7. Browser Control</h2>
+        <p>Enable the browser tool for web automation:</p>
+        <pre><code>{
+  "browser": {
+    "enabled": true,
+    "color": "#FF4500"
+  }
+}</code></pre>
+        <p>Real-world uses from the community:</p>
+        <ul>
+          <li>Automated grocery shopping (Tesco, Amazon)</li>
+          <li>Flight price monitoring</li>
+          <li>Form filling and data entry</li>
+        </ul>
+
+        <h2>8. Voice Mode</h2>
+        <p>Enable Voice Wake for hands-free operation:</p>
+        <ul>
+          <li>macOS: Menu bar app with push-to-talk</li>
+          <li>iOS/Android: Node apps with voice trigger</li>
+          <li>ElevenLabs integration for natural speech</li>
+        </ul>
+
+        <h2>9. Multi-Channel Setup</h2>
+        <p>Connect multiple messaging platforms:</p>
+        <ul>
+          <li>Telegram - Fast, reliable</li>
+          <li>WhatsApp - Universal reach</li>
+          <li>Discord - Community management</li>
+          <li>Slack - Work integration</li>
+          <li>Signal - Privacy-focused</li>
+        </ul>
+        <div class="tip-box">
+          <strong>💡 Security:</strong> Set <code>dmPolicy: "pairing"</code> to require approval before strangers can message your agent.
+        </div>
+
+        <h2>10. Agent-to-Agent Communication</h2>
+        <p>Coordinate between sessions:</p>
+        <ul>
+          <li><code>sessions_list</code> - See active agents</li>
+          <li><code>sessions_history</code> - Read another agent's logs</li>
+          <li><code>sessions_send</code> - Message another agent</li>
+        </ul>
+        <p>Build multi-agent workflows where specialized agents handle different tasks.</p>
+
+        <h2>What People Are Building</h2>
+        <p>From the community showcase:</p>
+        <ul>
+          <li><strong>PR Review → Telegram</strong> - OpenCode finishes → OpenClaw reviews and replies</li>
+          <li><strong>Wine Cellar Manager</strong> - Build skills from CSV exports</li>
+          <li><strong>Automated Grocery Shopping</strong> - Meal plan → order → delivery</li>
+          <li><strong>3D Printer Control</strong> - BambuLab printer management via chat</li>
+          <li><strong>iOS App Building</strong> - Deploy to TestFlight entirely via Telegram</li>
+          <li><strong>Public Transit Info</strong> - Real-time departure times</li>
+        </ul>
+
+        <h2>Security Best Practices</h2>
+        <ul>
+          <li>Run <code>openclaw doctor</code> to check for misconfigurations</li>
+          <li>Use sandbox mode for group chats</li>
+          <li>Treat incoming DMs as untrusted</li>
+          <li>Keep API keys in <code>~/.openclaw/credentials/</code>, not in config</li>
+        </ul>
+
+        <h2>Next Level</h2>
+        <p>Once you're comfortable:</p>
+        <ul>
+          <li>Run on Linux VPS for 24/7 operation</li>
+          <li>Set up Tailscale for remote access</li>
+          <li>Build custom skills for your workflow</li>
+          <li>Join the Discord community for tips</li>
+        </ul>
+
+        <p>OpenClaw isn't just a chatbot - it's an operating system for AI agents. The difference between basic usage and power user is understanding how to leverage skills, workspace files, and multi-agent routing.</p>
+      </div>
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
