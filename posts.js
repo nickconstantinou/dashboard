@@ -1,4 +1,9 @@
 const posts = [
+  { date: "February 21, 2026", category: "AI", title: "Apple AI Wearables + Anthropic $380B", excerpt: "Apple's new AI devices and Anthropic's massive funding round.", tags: ["AI", "Apple", "Anthropic"], url: "2026-02-21-apple-anthropic.html" },
+  // February 21
+  { date: "February 21, 2026", category: "AI", title: "Apple AI Wearables, Grok vs Lovable, Google I/O", excerpt: "Latest AI news: Apple enters wearables race, xAI targets Lovable, Google I/O dates announced.", tags: ["AI", "News", "Apple"], url: "2026-02-21-ai-secret-daily.html" },
+  { date: "February 21, 2026", category: "AI", title: "The Smartest AI Investment Isn't NVIDIA: Toto", excerpt: "Limitless explores why Japanese toilet maker Toto might be a surprising AI winner.", tags: ["AI", "Investing", "Podcast"], url: "2026-02-21-limitless-toto-nvidia.html" },
+  
   // February 20
   { date: "February 20, 2026", category: "AI", title: "MiniMax M2.5: The $1/Hour AI Model", excerpt: "80.2% on SWE-Bench, matches Opus 4.6 speed, costs $1/hour.", tags: ["AI", "Tech"], url: "2026-02-20-minimax-m2-5.html" },
   { date: "February 20, 2026", category: "AI", title: "AI Secret: The Daily AI News Source You Need", excerpt: "Discovered an AI newsletter that's better than most.", tags: ["AI", "News"], url: "2026-02-20-ai-secret-daily.html" },
