@@ -1,4 +1,4 @@
-[
+const posts = [
   {
     "date": "February 20, 2026",
     "category": "AI",
@@ -71,4 +71,19 @@
     "tags": ["Business", "Marketing"],
     "url": "2026-02-18-greg-isenberg-directory.html"
   }
-]
+];
+
+// Auto-render posts when page loads
+document.addEventListener('DOMContentLoaded', function() {
+  const container = document.getElementById('posts-list');
+  if (container && posts) {
+    container.innerHTML = posts.map(post => `
+      <a href="${post.url}" class="post">
+        <p class="post-meta">${post.date} • ${post.category}</p>
+        <h2>${post.title}</h2>
+        <p>${post.excerpt}</p>
+        <div class="tags">${post.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+      </a>
+    `).join('');
+  }
+});

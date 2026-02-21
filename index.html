@@ -76,23 +76,6 @@
     </div>
   </footer>
 
-  <script>
-    fetch('posts.json')
-      .then(r => r.json())
-      .then(posts => {
-        const container = document.getElementById('posts-list');
-        container.innerHTML = posts.map(post => `
-          <a href="${post.url}" class="post">
-            <p class="post-meta">${post.date} • ${post.category}</p>
-            <h2>${post.title}</h2>
-            <p>${post.excerpt}</p>
-            <div class="tags">${post.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
-          </a>
-        `).join('');
-      })
-      .catch(e => {
-        document.getElementById('posts-list').innerHTML = '<p>Unable to load posts</p>';
-      });
-  </script>
+  <script src="posts.js"></script>
 </body>
 </html>
