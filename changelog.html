@@ -8,244 +8,81 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --primary: #0F172A;
-      --accent: #F97316;
-      --accent-hover: #EA580C;
-      --bg: #FFFFFF;
-      --bg-alt: #F8FAFC;
-      --text: #1E293B;
-      --text-muted: #64748B;
-      --border: #E2E8F0;
-    }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.6; }
-    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
-    .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+    h1, h2 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
     header { padding: 32px 0; border-bottom: 1px solid var(--border); }
     .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin-bottom: 24px; color: var(--text-muted); text-decoration: none; font-size: 14px; }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
     .back-link:hover { color: var(--accent); }
-    
-    h1 { font-size: 36px; margin-bottom: 8px; color: var(--primary); }
-    .subtitle { font-size: 18px; color: var(--text-muted); margin-bottom: 32px; }
-    
-    .date-header { font-size: 12px; color: var(--accent); font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin: 40px 0 16px; }
-    .date-header:first-of-type { margin-top: 0; }
-    
-    .card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 16px; transition: all 0.2s; }
-    .card:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
-    .card h2 { font-size: 20px; margin-bottom: 8px; color: var(--primary); }
-    .card p { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-    
-    .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
-    .tag { background: var(--bg-alt); padding: 4px 10px; border-radius: 4px; font-size: 11px; color: var(--text-muted); }
-    
-    .items { display: grid; gap: 8px; }
-    .item { display: flex; align-items: flex-start; gap: 8px; font-size: 14px; color: var(--text); }
-    .item::before { content: "✓"; color: var(--accent); font-weight: 600; }
-    .item a { color: var(--accent); text-decoration: none; }
-    .item a:hover { text-decoration: underline; }
-    
-    .links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
-    .link { font-size: 13px; color: var(--accent); text-decoration: none; display: flex; align-items: center; gap: 4px; }
-    .link:hover { text-decoration: underline; }
-    .link-icon { font-size: 14px; }
-    
-    footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    .entry { padding: 24px 0; border-bottom: 1px solid var(--border); }
+    .entry:last-child { border-bottom: none; }
+    .entry-date { font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+    .entry h2 { font-size: 1.25rem; margin-bottom: 8px; }
+    .entry ul { padding-left: 20px; color: var(--text-muted); }
+    .entry li { margin-bottom: 4px; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
     footer p { font-size: 14px; color: var(--text-muted); }
   </style>
 </head>
 <body>
   <header>
     <div class="container">
-      <a href="index.html" class="logo">Nick's <span>Blog</span></a>
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
     </div>
   </header>
-  
   <div class="container">
-    <a href="index.html" class="back-link">← Back to Blog</a>
-    
-    <h1>Changelog</h1>
-    <p class="subtitle">Everything Griptide has built recently.</p>
-    
-    <!-- February 18, 2026 -->
-    <div class="date-header">February 18, 2026</div>
-    
-    <div class="card">
-      <h2>SEO & Marketing Push</h2>
-      <p>Major updates across all sites.</p>
-      <div class="tags">
-        <span class="tag">Marketing</span>
-        <span class="tag">SEO</span>
-        <span class="tag">QA</span>
-      </div>
-      <div class="items">
-        <div class="item">Created SEO Sub-Agent for automated audits</div>
-        <div class="item">Ran full SEO audits on UK Tutors + ExamPulse</div>
-        <div class="item">Implemented SEO fixes: meta tags, OG, Twitter cards, JSON-LD</div>
-        <div class="item">Created UK Tutors marketing docs: personas, lead magnets</div>
-        <div class="item">Added PostHog analytics to UK Tutors</div>
-        <div class="item">Created QA Sub-Agent + 5am daily cron</div>
-        <div class="item">Created SITES.md documentation</div>
-      </div>
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+    <h1 style="margin-bottom: 32px;">Changelog</h1>
+
+    <div class="entry">
+      <p class="entry-date">February 21, 2026</p>
+      <h2>Blog Redesign</h2>
+      <ul>
+        <li>New dashboard with cards (Blog, Behind the Scenes, Changelog, Training)</li>
+        <li>Posts now load from posts.js - no more broken HTML lists</li>
+        <li>Simplified post management - just edit posts.js to add new posts</li>
+        <li>New blog.html page for all posts</li>
+      </ul>
     </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">AI</span>
-        <span class="tag">Tech</span>
-      </div>
-      <h2>AI Trends 2026 Blog Post</h2>
-      <p>New blog post covering AI trends for 2026 from Microsoft, IBM, and Stanford.</p>
-      
-      <div class="items">
-        <div class="item">Blog post: "AI in 2026: The Year It Becomes Your Actual Colleague"</div>
-        <div class="item">Covers Microsoft's 7 AI trends, government AI adoption, and AGI predictions</div>
-      </div>
-      
-      <div class="links">
-        <a href="2026-02-18-ai-trends-2026.html" class="link"><span class="link-icon">📝</span> Read Post</a>
-      </div>
+
+    <div class="entry">
+      <p class="entry-date">February 20, 2026</p>
+      <h2>CounterClaw Launch</h2>
+      <ul>
+        <li>Published CounterClaw v1.0.7 to ClawHub</li>
+        <li>Created email protection architecture blog post</li>
+        <li>Updated content crawler with image handling</li>
+      </ul>
     </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">ExamPulse</span>
-        <span class="tag">Marketing</span>
-      </div>
-      <h2>ExamPulse Marketing Site Launched</h2>
-      <p>Built complete marketing site with A/B testing, lead magnets, and blog.</p>
-      
-      <div class="items">
-        <div class="item">Marketing site live: exam-pulse-marketing</div>
-        <div class="item">A/B testing with 3 lead magnets (Quiz, Grade Calculator, Gap Diagnostic)</div>
-        <div class="item">PostHog analytics integration</div>
-        <div class="item">5 blog posts with study science content</div>
-        <div class="item">Content atomization for social media (Twitter, Instagram, LinkedIn)</div>
-        <div class="item">Personas review to identify UX improvements</div>
-      </div>
-      
-      <div class="links">
-        <a href="https://nickconstantinou.github.io/exam-pulse-marketing/" class="link"><span class="link-icon">🔗</span> View Site</a>
-        <a href="https://nickconstantinou.github.io/exam-pulse-marketing/blog.html" class="link"><span class="link-icon">📝</span> Blog</a>
-        <a href="https://nickconstantinou.github.io/dashboard/behind-scenes.html" class="link"><span class="link-icon">🎬</span> Behind the Scenes</a>
-      </div>
+
+    <div class="entry">
+      <p class="entry-date">February 19, 2026</p>
+      <h2>Security & QA</h2>
+      <ul>
+        <li>Rotated PostHog keys after security incident</li>
+        <li>Created 5am Daily QA Check cron job</li>
+        <li>Fixed UK Tutors infinite loop bug</li>
+      </ul>
     </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">Infrastructure</span>
-      </div>
-      <h2>Skills & Tools Expanded</h2>
-      <p>Created new skills and integrated tools.</p>
-      
-      <div class="items">
-        <div class="item">Content Atomizer skill - turns blog posts into social content</div>
-        <div class="item">Web QA skill - verify deployed pages work correctly</div>
-        <div class="item">Jina AI Reader for content extraction</div>
-        <div class="item">CMO sub-agent setup with 18 marketing skills</div>
-      </div>
+
+    <div class="entry">
+      <p class="entry-date">February 18, 2026</p>
+      <h2>Content Pipeline</h2>
+      <ul>
+        <li>Added AI Secret RSS to content sources</li>
+        <li>Created daily content crawler (7am)</li>
+        <li>Added 20 YouTube channels</li>
+      </ul>
     </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">Content</span>
-      </div>
-      <h2>Greg Isenberg & FPL Posts</h2>
-      <p>Added new content sources and blog posts.</p>
-      
-      <div class="items">
-        <div class="item">Added Greg Isenberg YouTube channel to content sources</div>
-        <div class="item">Blog post: "Claude Code Built a $273/Day Directory" - startup ideas</div>
-        <div class="item">Blog post: "UK Directory Niches" - startup ideas</div>
-        <div class="item">Blog post: "UK Lead Gen Deep Dive" - monetisation analysis</div>
-        <div class="item">Blog post: "FPL Captain Strategy" - fantasy football</div>
-        <div class="item">Used Jina AI Reader to extract YouTube content</div>
-        <div class="item">Created UK Tutors Directory sub-agent and skills</div>
-        <div class="item">Built UK Tutors Directory MVP (index.html + list.html)</div>
-      </div>
-    </div>
-      <p>Created a personal blog with daily content crawler, training logs, and ed-tech articles.</p>
-      
-      <div class="items">
-        <div class="item">Personal blog live at nickconstantinou.github.io/dashboard</div>
-        <div class="item">Training log section with weekly summaries</div>
-        <div class="item">Content crawler runs 7am daily — checks AI news, FPL, Huberman</div>
-        <div class="item">First blog posts: Meta AI acquisition, Huberman Lab summary</div>
-        <div class="item">Sources page with all content sources</div>
-      </div>
-      
-      <div class="links">
-        <a href="https://nickconstantinou.github.io/dashboard/" class="link"><span class="link-icon">🔗</span> View Blog</a>
-        <a href="sources.html" class="link"><span class="link-icon">📋</span> Sources</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">Marketing</span>
-        <span class="tag">ExamPulse</span>
-      </div>
-      <h2>ExamPulse Marketing Site</h2>
-      <p>Landing page with A/B testing for lead magnets and analytics tracking.</p>
-      
-      <div class="items">
-        <div class="item">A/B testing with 3 lead magnet variants (Quiz, Grade Calc, Gap Diagnostic)</div>
-        <div class="item">PostHog integration for analytics</div>
-        <div class="item">Built-in analytics dashboard</div>
-        <div class="item">Social media templates (5 TikTok hooks)</div>
-        <div class="item">Ed-tech blog with study tips articles</div>
-        <div class="item">Lead capture saves to Supabase</div>
-      </div>
-      
-      <div class="links">
-        <a href="https://nickconstantinou.github.io/exam-pulse-marketing/" class="link"><span class="link-icon">🔗</span> View Site</a>
-      </div>
-    </div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">Infrastructure</span>
-      </div>
-      <h2>New Skills & Tools</h2>
-      <p>Created skills for managing various tools and services.</p>
-      
-      <div class="items">
-        <div class="item">PostHog skill — analytics & A/B testing</div>
-        <div class="item">Supabase skill — database management</div>
-        <div class="item">Crawl4AI skill — AI-friendly web crawling</div>
-        <div class="item">Podcast transcription skill</div>
-        <div class="item">Content crawler skill</div>
-        <div class="item">Lead magnets skill</div>
-        <div class="item">Social assets skill</div>
-      </div>
-    </div>
-    
-    <!-- Earlier -->
-    <div class="date-header">Earlier</div>
-    
-    <div class="card">
-      <div class="tags">
-        <span class="tag">ExamPulse</span>
-      </div>
-      <h2>ExamPulse App Development</h2>
-      <p>Ongoing work on the main ExamPulse app — AI-powered GCSE revision.</p>
-      
-      <div class="items">
-        <div class="item">Frontend vibe shift PR (#4) — Deep Space theme, fonts, animations</div>
-        <div class="item">Tab navigation (Home/Study/Map)</div>
-        <div class="item">Skeleton loaders</div>
-        <div class="item">Codex review fixes</div>
-      </div>
-    </div>
-    
+
   </div>
-  
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built by Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
     </div>
   </footer>
 </body>
