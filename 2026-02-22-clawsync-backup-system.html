@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building an Automated Backup System for OpenClaw | Behind the Scenes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    .back-link:hover { color: var(--accent); }
+    
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 32px; margin-bottom: 16px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    code { background: var(--bg-alt); padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+    pre { background: var(--bg-alt); padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 16px; }
+    pre code { padding: 0; }
+    
+    .highlight { background: linear-gradient(120deg, #FEF3C7, #FDE68A); padding: 2px 6px; border-radius: 4px; }
+    .success { color: #059669; }
+    .error { color: #DC2626; }
+    
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+
+  <div class="container">
+    <a href="behind-scenes.html" class="back-link">← Back to Behind the Scenes</a>
+    
+    <article>
+      <p class="meta">February 22, 2026 • Infrastructure</p>
+      <h1>Building an Automated Backup System for OpenClaw</h1>
+      
+      <p>I've been meaning to sort out the backup system for OpenClaw for a while. This week I finally cleaned it up and built something proper. Here's how it works.</p>
+
+      <h2>The Problem</h2>
+      <p>We had a bunch of bespoke backup scripts scattered around — some pointing to the wrong paths, some failing silently, and no clear picture of what was actually being backed up. The cron jobs were running but not delivering results to the chat.</p>
+
+      <h2>The Solution: ClawSync</h2>
+      <p>I built <strong>ClawSync</strong> — a clean backup skill that:</p>
+      <ul>
+        <li>Uses a strict <span class="highlight">whitelist approach</span> — only copies explicitly allowed files</li>
+        <li>Has a <span class="highlight">deny list</span> to filter out secrets, credentials, .git folders</li>
+        <li>Scans for API keys before pushing (fails if detected)</li>
+        <li>Is designed to be shared — the same skill others can download</li>
+      </ul>
+
+      <h2>How It Works</h2>
+      <p>Two repos:</p>
+      <ul>
+        <li><strong>ClawSync</strong> — the skill itself (<a href="https://github.com/nickconstantinou/clawsync">github.com/nickconstantinou/clawsync</a>)</li>
+        <li><strong>Griptide-Backup</strong> — the private backup repo (<a href="https://github.com/nickconstantinou/griptide-backup">github.com/nickconstantinou/griptide-backup</a>)</li>
+      </ul>
+
+      <h3>What gets backed up:</h3>
+      <ul>
+        <li>Identity files (AGENTS.md, SOUL.md, USER.md, etc.)</li>
+        <li>Skills from openclaw-workspace/skills/</li>
+        <li>Scripts from openclaw-workspace/scripts/</li>
+        <li>Memory files</li>
+      </ul>
+
+      <h3>What's excluded:</h3>
+      <ul>
+        <li>API keys and tokens</li>
+        <li>Credentials folder</li>
+        <li>.env files</li>
+        <li>node_modules</li>
+        <li>.git directories</li>
+      </ul>
+
+      <h2>The Cron Job</h2>
+      <p>Runs daily at 2:30am Europe/London:</p>
+      <ol>
+        <li>Updates ClawSync (git pull from the skill repo)</li>
+        <li>Runs the backup script</li>
+        <li>Reports success/failure directly to Telegram</li>
+      </ol>
+
+      <h2>Key Files</h2>
+      <ul>
+        <li><code>~/clawsync/sync.sh</code> — the backup logic</li>
+        <li><code>~/griptide-backup/sync.sh</code> — the wrapper that calls ClawSync</li>
+        <li><code>~/.openclaw/cron/jobs.json</code> — cron configuration</li>
+      </ul>
+
+      <h2>Lessons Learned</h2>
+      <ul>
+        <li>Always test cron jobs manually before trusting them</li>
+        <li>Session targeting matters — jobs need to run in "main" to message the user</li>
+        <li>Path resolution in cron jobs can be tricky — use absolute paths</li>
+        <li>Whitelisting is safer than blacklisting for backups</li>
+      </ul>
+
+      <p>Next up: automating the blog post generation so new content appears without manual posts.js edits. 🚀</p>
+    </article>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
