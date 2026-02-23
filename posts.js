@@ -17,7 +17,7 @@ const posts = [
     "tags": [
       "Tech"
     ],
-    "url": "blog/_posts/2026-02-23-tech-roundup.html"
+    "url": "2026-02-23-tech-roundup.html"
   },
   {
     "date": "February 23, 2026",
@@ -27,7 +27,7 @@ const posts = [
     "tags": [
       "Tech"
     ],
-    "url": "blog/_posts/2026-02-23-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+    "url": "2026-02-23-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
   }
 ];
 
