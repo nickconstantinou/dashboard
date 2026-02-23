@@ -99,5 +99,23 @@
   </footer>
 
   <script src="posts.js"></script>
+  <script>
+    // Render posts from posts.js
+    (function() {
+      var container = document.getElementById('posts-list');
+      if (typeof posts !== 'undefined' && posts.length > 0) {
+        var html = '';
+        for (var i = 0; i < Math.min(posts.length, 10); i++) {
+          var p = posts[i];
+          html += '<a href="' + p.url + '" class="post">' +
+            '<span class="post-meta">' + p.date + ' • ' + p.category + '</span>' +
+            '<h2>' + p.title + '</h2>' +
+            '<p>' + (p.excerpt || '') + '</p>' +
+            '</a>';
+        }
+        container.innerHTML = html;
+      }
+    })();
+  </script>
 </body>
 </html>
