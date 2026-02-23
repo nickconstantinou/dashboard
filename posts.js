@@ -34,6 +34,7 @@ const posts = [
 
 
 
+
 // Auto-render posts when page loads
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.getElementById('posts-list');
