@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenClaw Heal Script: Self-Healing Infrastructure | Behind the Scenes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 32px; margin-bottom: 16px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    code { background: var(--bg-alt); padding: 2px 6px; border-radius: 4px; font-size: 14px; }
+    pre { background: var(--bg-alt); padding: 16px; border-radius: 8px; overflow-x: auto; margin-bottom: 16px; }
+    pre code { padding: 0; background: none; }
+    .highlight { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="behind-scenes.html" class="back-link">← Back to Behind the Scenes</a>
+    <article>
+      <p class="meta">2026-02-23 • Behind the Scenes</p>
+      <h1>OpenClaw Heal Script: Self-Healing Infrastructure</h1>
+      
+      <p>Running an AI agent infrastructure requires constant maintenance. Services crash, configs drift, security policies need re-applying. That's why I built <code>openclaw-heal.sh</code> — a comprehensive self-healing deployment script that keeps everything running with minimal manual intervention.</p>
+
+      <h2>What It Does</h2>
+      
+      <p>The script is a ~1000 line bash script that handles the entire lifecycle of an OpenClaw deployment:</p>
+      
+      <ul>
+        <li><strong>Environment Validation</strong> — Checks required env vars (Telegram bot token, MiniMax API key, etc.)</li>
+        <li><strong>Resource Checks</strong> — Ensures 7GB+ RAM and 20GB+ disk before proceeding</li>
+        <li><strong>OpenClaw Installation</strong> — Downloads and verifies installer via SHA256 checksum</li>
+        <li><strong>Playwright Setup</strong> — Installs Chromium with dependencies for browser automation</li>
+        <li><strong>Ollama Configuration</strong> — Sets up local models (qwen3:1.7b, nomic-embed-text) with optimized memory settings</li>
+        <li><strong>AppArmor Sandboxing</strong> — Secures the gateway process with a custom security profile</li>
+        <li><strong>Tailscale Integration</strong> — Connects to the mesh VPN for remote access</li>
+        <li><strong>Config Hardening</strong> — Applies production settings, security policies, and model catalogs</li>
+        <li><strong>Health Checks</strong> — Validates all services are running post-deployment</li>
+        <li><strong>Telegram Notifications</strong> — Sends deployment status to my phone</li>
+      </ul>
+
+      <h2>Key Security Features</h2>
+      
+      <h3>1. Checksum Verification</h3>
+      <p>Every installer download is verified against a stored SHA256 hash. This prevents running tampered installers:</p>
+      <pre><code>ACTUAL_SHA256=$(sha256sum "$INSTALLER_PATH" | awk '{print $1}')
+if [[ "$ACTUAL_SHA256" != "$OPENCLAW_INSTALLER_SHA256" ]]; then
+    die "Installer checksum mismatch!"
+fi</code></pre>
+
+      <h3>2. AppArmor Sandboxing</h3>
+      <p>The gateway runs confined by a custom AppArmor profile that blocks access to sensitive paths:</p>
+      <ul>
+        <li>❌ Cannot read <code>/etc/shadow</code></li>
+        <li>❌ Cannot write to <code>/root/**</code></li>
+        <li>❌ Cannot access SSH keys</li>
+        <li>✅ Can read/write <code>~/.openclaw/</code></li>
+        <li>✅ Can access network for API calls</li>
+      </ul>
+
+      <h3>3. Exec Policy Lockdown</h3>
+      <p>Blocks prompt-injection-driven shell commands by requiring pre-approved allowlists:</p>
+      <pre><code>oc config set tools.exec.policy "allowlist"</code></pre>
+
+      <h2>Self-Healing Capabilities</h2>
+      
+      <p>The script handles common failure scenarios automatically:</p>
+      
+      <ul>
+        <li><strong>APT Lock Waits</strong> — If unattended-upgrades holds the package lock, it polls up to 5 minutes</li>
+        <li><strong>AppArmor Recovery</strong> — Automatically unloads stale profiles that cause EACCES errors</li>
+        <li><strong>Gateway Restart</strong> — Gracefully stops old services before reconfiguring</li>
+        <li><strong>Token Persistence</strong> — Reuses existing gateway tokens across runs (no re-auth needed)</li>
+        <li><strong>Health Check Failures</strong> — Blocks deployment if Ollama, gateway, or models are missing</li>
+      </ul>
+
+      <h2>Why It Matters</h2>
+      
+      <p>With this script, I can redeploy the entire OpenClaw infrastructure in ~10 minutes by running:</p>
+      <pre><code>sudo ~/scripts/openclaw-heal.sh</code></pre>
+      
+      <p>Everything — from installing dependencies to configuring security policies — happens automatically. This means:</p>
+      <ul>
+        <li>✅ Consistent, reproducible deployments</li>
+        <li>✅ No forgotten steps or config drift</li>
+        <li>✅ Quick recovery from failures</li>
+        <li>✅ Production-grade security from day one</li>
+      </ul>
+
+      <h2>What's Next</h2>
+      
+      <p>The script is already quite comprehensive, but there's room to grow:</p>
+      <ul>
+        <li>Add automatic daily health checks via cron</li>
+        <li>Implement automatic restarts on service failures</li>
+        <li>Add rollback capability for config changes</li>
+        <li>Monitor disk space and clean up old logs automatically</li>
+      </ul>
+      
+      <p>For now, running the script weekly (or after any major issue) keeps everything running smoothly. It's one less thing to worry about at 3 AM.</p>
+      
+      <hr style="margin: 32px 0; border: none; border-top: 1px solid var(--border);">
+      
+      <p><em>Built with OpenClaw, AppArmor, and a healthy paranoia about security.</em></p>
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

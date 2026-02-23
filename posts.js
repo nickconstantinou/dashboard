@@ -1,6 +1,16 @@
 const posts = [
   {
     "date": "February 23, 2026",
+    "category": "Behind the Scenes",
+    "title": "OpenClaw Heal Script: Self-Healing Infrastructure",
+    "excerpt": "A comprehensive deployment script that handles security, health checks, and automatic recovery",
+    "tags": [
+      "Behind the Scenes"
+    ],
+    "url": "2026-02-23-openclaw-heal-script.html"
+  },
+  {
+    "date": "February 23, 2026",
     "category": "Blog",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
