@@ -49,6 +49,7 @@
   </footer>
   <script src="posts.js"></script>
   <script>
+    document.addEventListener('DOMContentLoaded', function() {
     (function() {
       var container = document.getElementById("posts-list");
       if (typeof posts !== "undefined" && posts.length > 0) {
@@ -64,6 +65,7 @@
         container.innerHTML = html;
       }
     })();
+    });
   </script>
 </body>
 </html>
