@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>"How the f*ck did it do that?" - The first AI agent mind-blowing moment | Peter Steinberger | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    <article>
+      <p class="meta">2026-02-24 • AI/Tech</p>
+      <h1>"How the f*ck did it do that?" - The first AI agent mind-blowing moment | Peter Steinberger</h1>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/LbgrXwDX3WQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>How the f*ck did it do that? - The First AI Agent Mind-Blowing Moment</h1>
+
+<h2>Summary</h2>
+
+<p>Peter Steinberger shares his experience with an early AI agent that completely astonished him with its capabilities. He opens by addressing the common skepticism that "there's no magic" in AI—it's just doing various tasks. But he argues that magic often comes from combining existing elements in new ways, using the example of iPhone scrolling: all the components existed before, but nobody had brought them together in that particular way until Apple made it feel obvious in hindsight.</p>
+
+<p>The truly mind-blowing moment came when Peter was testing the AI agent and sent it an audio message. The agent displayed a typing indicator, even though it was supposedly only built for image support. When it responded successfully, Peter investigated how it had managed this feat. The agent had figured out that the file had no extension, determined it was an audio file (OOS format), used ffmpeg to convert it, found an OpenAI API key in the environment, and used curl to send it to OpenAI for transcription—all without being explicitly taught any of these steps.</p>
+
+<p>Peter emphasizes that this demonstrates something profound: the agent has "world knowledge" and "creative problem-solving" capabilities. It chose the fastest path (using the API rather than downloading a local Whisper model), figured out file formats, and understood which tools to use. He connects this to programming skills, noting that being good at coding requires being good at general-purpose problem solving, and this skill appears to transfer to AI agents.</p>
+
+<p>He then discusses the origins of his project (which became the foundation for Cursor), explaining it started as a WhatsApp relay but he moved it to Discord due to privacy concerns about sharing his phone number. The system had no security sandboxing at first—he simply prompted the agent to only listen to him. People tried to hack it, but he kept developing openly, and that's when it really clicked for people who saw it. This was January, and it was his first time gaining attention from influencers.</p>
+
+<p>---</p>
+
+<h2>Key Topics Discussed</h2>
+
+<li>The nature of "magic" in technology and innovation</li>
+<li>Early AI agent capabilities and unexpected behaviors</li>
+<li>Creative problem-solving in AI systems</li>
+<li>The evolution of AI coding assistants (mentions Cursor contextually)</li>
+<li>Open-source development and sharing AI projects publicly</li>
+
+<p>---</p>
+
+<h2>Main Takeaways</h2>
+
+<li><strong>Magic comes from recombination</strong>: True innovation often isn't about inventing new components, but rather bringing existing elements together in novel ways that feel obvious only in hindsight.</li>
+
+<li><strong>AI agents can exhibit emergent problem-solving</strong>: Peter's agent independently figured out file conversions, API usage, and tool selection without explicit instructions—demonstrating general-purpose reasoning abilities.</li>
+
+<li><strong>World knowledge enables smart decision-making</strong>: The agent chose the most efficient path (API over local model) based on contextual understanding, showing how AI can make nuanced decisions.</li>
+
+<li><strong>Early AI development required bold experimentation</strong>: Building in the open, without sandboxing or full security, allowed for rapid iteration and helped people truly understand what these systems could do.</li>
+
+<li><strong>Direct experience is crucial</strong>: Peter notes that you really need to experience AI agents to understand their capabilities—reading about them doesn't capture the same sense of wonder.</li>
+
+<p>---</p>
+
+<h2>Who Would Benefit From Watching</h2>
+
+<li><strong>Developers and engineers</strong> interested in AI agent development and early demonstrations of autonomous coding capabilities</li>
+<li><strong>Tech enthusiasts</strong> curious about the evolution of AI tools and the moments that convinced developers of their potential</li>
+<li><strong>Product managers and founders</strong> building AI-powered products who want to understand the transformative potential of these systems</li>
+<li><strong>Anyone interested in the history of AI</strong> and how early pioneers experienced the "aha moments" that led to today's AI boom</li>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

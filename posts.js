@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "February 24, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "## Understanding AI Agents: A Practical Guide\n\nIn this video, developer Atesh aims to demystify AI a",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-24-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "## System Design - Performance\n\nIn this video, Atesh explains the critical concept of performance in",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-24-system-design-performance.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "# System Design: Scalability - The Ultimate Guide\n\n## Summary\n\nIn this video, presenter Atesh breaks",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-24-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Tech/Business",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
+    "excerpt": "# The Two Businesses I'd Start in 2026 to Make Millions\n\n## Summary\n\nThis video explores business op",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-24-the-two-businesses-id-start-in-2026-to-make-millio.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Tech/Business",
+    "title": "It's Boring, But I'll Make You a Millionaire | Scott Galloway",
+    "excerpt": "# It's Boring, But I'll Make You a Millionaire | Scott Galloway\n\nIn this video, marketing professor ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-24-its-boring-but-ill-make-you-a-millionaire-scott-ga.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Tech/Business",
+    "title": "Don't Chase Your Passion, Do This Instead | Scott Galloway",
+    "excerpt": "# Don't Chase Your Passion, Do This Instead | Scott Galloway\n\n## Summary\n\nIn this video, professor a",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-24-dont-chase-your-passion-do-this-instead-scott-gall.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Crypto",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
+    "excerpt": "## The Smartest AI Investment Isn't NVIDIA: It's Japanese Toilet Maker Toto\n\n### Summary\n\nIn what mi",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-24-the-smartest-ai-investment-isnt-nvidia-its-japanes.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Crypto",
+    "title": "We Used OpenClaw for a Week. This is the Harsh Truth.",
+    "excerpt": "# We Used OpenClaw for a Week: The Honest Review\n\n## Summary\n\nThis video explores OpenClaw (likely r",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-24-we-used-openclaw-for-a-week-this-is-the-harsh-trut.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "Crypto",
+    "title": "OpenAI Just Acquired OpenClaw: Why This Is A Huge Deal",
+    "excerpt": "# OpenAI's OpenClaw Acquisition: A Historic AI Deal\n\nOpenAI has just acquired OpenClaw, the personal",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-24-openai-just-acquired-openclaw-why-this-is-a-huge-d.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "AI/Tech",
+    "title": "\"How the f*ck did it do that?\" - The first AI agent mind-blowing moment | Peter Steinberger",
+    "excerpt": "# How the f*ck did it do that? - The First AI Agent Mind-Blowing Moment\n\n## Summary\n\nPeter Steinberg",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-24-how-the-fck-did-it-do-that-the-first-ai-agent-mind.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "AI/Tech",
+    "title": "Career advice for programmers | Peter Steinberger and Lex Fridman",
+    "excerpt": "# Career Advice for Programmers: Lessons from Peter Steinberger\n\nIn this conversation between Peter ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-24-career-advice-for-programmers-peter-steinberger-an.html"
+  },
+  {
+    "date": "February 24, 2026",
+    "category": "AI/Tech",
+    "title": "Terminal vs IDE: Why CLI is better for programming with AI | Peter Steinberger and Lex Fridman",
+    "excerpt": "# Terminal vs IDE: Why CLI is Better for Programming with AI\n\n## Summary\n\nIn this discussion, Peter ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-24-terminal-vs-ide-why-cli-is-better-for-programming-.html"
+  },
+  {
     "date": "February 23, 2026",
     "category": "Behind the Scenes",
     "title": "OpenClaw Heal Script: Self-Healing Infrastructure",
@@ -350,3 +470,15 @@ const posts = [
     "url": "2026-02-18-uk-lead-gen-deep-dive.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
