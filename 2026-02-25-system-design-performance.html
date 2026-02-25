@@ -47,35 +47,46 @@
         <iframe src="https://www.youtube.com/embed/lwfL1MOcuBU" frameborder="0" allowfullscreen></iframe>
       </div>
       
-      <h1>System Design - Performance</h1>
+      <h2>System Design - Performance Summary</h2>
 
-<p>In this video, Atesh dives into the critical topic of performance in system design. This video serves as a companion to a previous video on scalability, focusing specifically on how to make systems performant. Atesh explains that system design is all about weighing pros and cons, understanding the tradeoffs, and knowing when to prioritize certain aspects over others. He emphasizes that this video will be particularly valuable for those in the early stages of their software careers, as he'll walk through both the five key questions and the inspiration behind creating this content.</p>
+<p>In this video, content creator Atesh dives deep into the crucial topic of <strong>performance</strong> in system design. Serving as a follow-up to his previous video on scalability, this presentation focuses on helping viewers understand how to build systems that run efficiently. The inspiration for this video came from Atesh's experience setting up database monitoring for an application, where he noticed developers often calculate slow queries incorrectly. He emphasizes that database monitoring is essential for understanding how your database performs and whether your queries are optimized.</p>
 
-<p>The video was inspired by a database monitoring diagram Atesh encountered while setting up monitoring for an application. He stresses the importance of database monitoring, explaining that without it, you can't know if your database is performing well or if your queries are optimized. Throughout the video, he addresses the common mistake beginners make when calculating slow queries or slow requests, and provides guidance on the correct approach.</p>
+<p>The core of the video centers around <strong>five essential questions</strong> that every system designer should ask themselves when building performant systems:</p>
 
-<p>The core of the video presents five essential questions that every system designer should ask when building a performant system. First, you must determine if your application is latency sensitive. Second, consider whether it's throughput sensitive. Third, ask "Can I cache this?" — Atesh notes that approximately 80% of performance gains come from caching. Fourth, question whether you can index your database, while being careful not to over-index. Finally, ask "Does the user need to wait?" to determine if operations can be made asynchronous, such as sending confirmation emails via a queue system rather than blocking the user.</p>
+<p>1. <strong>Is this latency sensitive?</strong> — Understanding whether your application requires quick response times
+2. <strong>Is this throughput sensitive?</strong> — Determining if your system needs to handle high volumes of requests
+3. <strong>Can I cache this?</strong> — Caching accounts for approximately 80% of performance improvements
+4. <strong>Can I index this?</strong> — Proper indexing can fix most database query issues (though over-indexing has drawbacks)
+5. <strong>Does the user need to wait?</strong> — Identifying operations that can be made asynchronous (like confirmation emails)</p>
 
-<h2>Key Topics Discussed</h2>
+<p>Atesh explains these concepts with clarity, acknowledging that viewers might not know the technical definitions of latency and throughput yet—he promises to provide clear examples so viewers never forget these concepts. The video is structured as a practical guide, encouraging viewers to constantly evaluate their system designs against these five criteria.</p>
 
-<li>Database monitoring and slow query identification</li>
-<li>The five performance questions framework</li>
-<li>Latency vs. throughput sensitivity</li>
-<li>Caching strategies (80% of performance)</li>
+<p>---</p>
+
+<h3>Key Topics Discussed</h3>
+
+<li>Database monitoring and slow query analysis</li>
+<li>Performance optimization in system design</li>
+<li>Caching strategies (80% of performance gains)</li>
 <li>Database indexing best practices</li>
 <li>Synchronous vs. asynchronous operations</li>
-<li>Tradeoffs in system design</li>
+<li>Latency and throughput sensitivity</li>
 
-<h2>Main Takeaways</h2>
+<p>---</p>
 
-<li><strong>Ask five key questions</strong>: Is it latency sensitive? Is it throughput sensitive? Can I cache this? Can I index this? Does the user need to wait?</li>
-<li><strong>Caching is crucial</strong>: Approximately 80% of performance improvements come from effective caching strategies</li>
-<li><strong>Balance indexing</strong>: While indexing fixes most query issues, over-indexing can create problems</li>
-<li><strong>Use async operations wisely</strong>: If users don't need to wait for an operation (like confirmation emails), make it asynchronous using queue systems</li>
-<li><strong>Monitor your database</strong>: Without proper database monitoring, you cannot optimize query performance effectively</li>
+<h3>Main Takeaways</h3>
 
-<h2>Who Would Benefit from Watching</h2>
+<li><strong>Ask five key questions</strong> when designing any system: latency sensitivity, throughput sensitivity, caching potential, indexing potential, and whether users need to wait</li>
+<li><strong>Caching is king</strong> — Approximately 80% of performance improvements come from effective caching</li>
+<li><strong>Index wisely</strong> — Proper database indexing solves most query performance issues, but over-indexing can create problems</li>
+<li><strong>Async when possible</strong> — Operations like confirmation emails don't need to block users; make them asynchronous</li>
+<li><strong>Monitor everything</strong> — Without database monitoring, you can't know if your system is performing optimally</li>
 
-<p>This video is ideal for software engineers in their first or second year of work who are learning system design fundamentals. It provides a practical, beginner-friendly framework for thinking about performance considerations when designing systems, with clear examples and actionable questions that can be applied to real-world projects.</p>
+<p>---</p>
+
+<h3>Who Would Benefit from Watching</h3>
+
+<p>This video is ideal for <strong>early-career software developers</strong> (first or second year in the industry) who want to understand system design fundamentals. It's also valuable for anyone preparing for technical interviews or looking to improve their backend development skills. Even experienced developers who want to formalize their approach to performance optimization will find value in Atesh's structured framework.</p>
       
     </article>
   </div>

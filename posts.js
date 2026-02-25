@@ -20,6 +20,96 @@ const posts = [
     "url": "2026-02-25-system-design-performance.html"
   },
   {
+    "date": "February 25, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "## Summary: System Design: Scalability - The Ultimate Guide\n\nIn this video, Atesh breaks down the co",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-25-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Tech/Business",
+    "title": "Brutally Honest Career Advice for Young People | Scott Galloway",
+    "excerpt": "# Brutally Honest Career Advice for Young People | Scott Galloway\n\n## Summary\n\nIn this interview, pr",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-25-brutally-honest-career-advice-for-young-people-sco.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Tech/Business",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
+    "excerpt": "# The Two Businesses I'd Start in 2026 to Make Millions\n\n## Summary\n\nIn this video, the speaker addr",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-25-the-two-businesses-id-start-in-2026-to-make-millio.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Tech/Business",
+    "title": "This Simple Formula Will Make You a Millionaire | Scott Galloway",
+    "excerpt": "# The Algebra of Wealth: Scott Galloway's Simple Formula\n\nIn this video, Professor Scott Galloway pr",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-25-this-simple-formula-will-make-you-a-millionaire-sc.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Crypto",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
+    "excerpt": "# Google's New AI Tools Are Actually Insane (We Tried Them All)\n\nIn this video, the hosts explore Go",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-25-googles-new-ai-tools-are-actually-insane-we-tried-.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Crypto",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
+    "excerpt": "# The Smartest AI Investment Isn't NVIDIA: It's Japanese Toilet Maker Toto\n\n## Summary\n\nThis video r",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-25-the-smartest-ai-investment-isnt-nvidia-its-japanes.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "AI/Tech",
+    "title": "\"How the f*ck did it do that?\" - The first AI agent mind-blowing moment | Peter Steinberger",
+    "excerpt": "# How the f*ck did it do that? - AI Agent Mind-Blowing Moment\n\nIn this video, Peter Steinberger shar",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-25-how-the-fck-did-it-do-that-the-first-ai-agent-mind.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "AI/Tech",
+    "title": "Career advice for programmers | Peter Steinberger and Lex Fridman",
+    "excerpt": "# Career Advice for Programmers: Peter Steinberger & Lex Fridman\n\nIn this conversation, Lex Fridman ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-25-career-advice-for-programmers-peter-steinberger-an.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "AI/Tech",
+    "title": "Terminal vs IDE: Why CLI is better for programming with AI | Peter Steinberger and Lex Fridman",
+    "excerpt": "# Terminal vs IDE: Why CLI is Better for Programming with AI\n\nIn this discussion, Peter Steinberger ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-25-terminal-vs-ide-why-cli-is-better-for-programming-.html"
+  },
+  {
     "date": "February 24, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -490,6 +580,16 @@ const posts = [
     "url": "2026-02-18-uk-lead-gen-deep-dive.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
 
 
 
