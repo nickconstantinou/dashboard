@@ -1,5 +1,25 @@
 const posts = [
   {
+    "date": "February 25, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "## Video Summary: I Built a Vibe Translator - One Idea 4 Frontend Stacks (AI Battle)\n\nIn this video,",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-25-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "February 25, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "# System Design - Performance\n\nIn this video, Atesh dives into the critical topic of performance in ",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-25-system-design-performance.html"
+  },
+  {
     "date": "February 24, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -470,6 +490,9 @@ const posts = [
     "url": "2026-02-18-uk-lead-gen-deep-dive.html"
   }
 ];
+
+
+
 
 
 

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Design - Performance | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    <article>
+      <p class="meta">2026-02-25 • Tech</p>
+      <h1>System Design - Performance</h1>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/lwfL1MOcuBU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>System Design - Performance</h1>
+
+<p>In this video, Atesh dives into the critical topic of performance in system design. This video serves as a companion to a previous video on scalability, focusing specifically on how to make systems performant. Atesh explains that system design is all about weighing pros and cons, understanding the tradeoffs, and knowing when to prioritize certain aspects over others. He emphasizes that this video will be particularly valuable for those in the early stages of their software careers, as he'll walk through both the five key questions and the inspiration behind creating this content.</p>
+
+<p>The video was inspired by a database monitoring diagram Atesh encountered while setting up monitoring for an application. He stresses the importance of database monitoring, explaining that without it, you can't know if your database is performing well or if your queries are optimized. Throughout the video, he addresses the common mistake beginners make when calculating slow queries or slow requests, and provides guidance on the correct approach.</p>
+
+<p>The core of the video presents five essential questions that every system designer should ask when building a performant system. First, you must determine if your application is latency sensitive. Second, consider whether it's throughput sensitive. Third, ask "Can I cache this?" — Atesh notes that approximately 80% of performance gains come from caching. Fourth, question whether you can index your database, while being careful not to over-index. Finally, ask "Does the user need to wait?" to determine if operations can be made asynchronous, such as sending confirmation emails via a queue system rather than blocking the user.</p>
+
+<h2>Key Topics Discussed</h2>
+
+<li>Database monitoring and slow query identification</li>
+<li>The five performance questions framework</li>
+<li>Latency vs. throughput sensitivity</li>
+<li>Caching strategies (80% of performance)</li>
+<li>Database indexing best practices</li>
+<li>Synchronous vs. asynchronous operations</li>
+<li>Tradeoffs in system design</li>
+
+<h2>Main Takeaways</h2>
+
+<li><strong>Ask five key questions</strong>: Is it latency sensitive? Is it throughput sensitive? Can I cache this? Can I index this? Does the user need to wait?</li>
+<li><strong>Caching is crucial</strong>: Approximately 80% of performance improvements come from effective caching strategies</li>
+<li><strong>Balance indexing</strong>: While indexing fixes most query issues, over-indexing can create problems</li>
+<li><strong>Use async operations wisely</strong>: If users don't need to wait for an operation (like confirmation emails), make it asynchronous using queue systems</li>
+<li><strong>Monitor your database</strong>: Without proper database monitoring, you cannot optimize query performance effectively</li>
+
+<h2>Who Would Benefit from Watching</h2>
+
+<p>This video is ideal for software engineers in their first or second year of work who are learning system design fundamentals. It provides a practical, beginner-friendly framework for thinking about performance considerations when designing systems, with clear examples and actionable questions that can be applied to real-world projects.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
