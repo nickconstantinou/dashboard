@@ -1,4 +1,12 @@
 const posts = [
+    {
+        title: "I Built a Meta-Learning System for My AI Agent — Here's What Happened",
+        date: "2026-02-26",
+        type: "blog",
+        url: "2026-02-26-i-built-a-meta-learning-system-for-my-ai-agent.html",
+        category: "AI"
+    },
+
   {
     "date": "February 26, 2026",
     "category": "Tech",
