@@ -1,5 +1,165 @@
 const posts = [
   {
+    "date": "February 26, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-26-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-26-system-design-performance.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-26-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "Scott Galloway's Stoic Advice for Founders & Entrepreneurs | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-scott-galloways-stoic-advice-for-founders-entrepre.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "Brutally Honest Career Advice for Young People | Scott Galloway",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-brutally-honest-career-advice-for-young-people-sco.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-the-two-businesses-id-start-in-2026-to-make-millio.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Crypto",
+    "title": "Anthropic HACKED: Here's What China Stole.",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-26-anthropic-hacked-heres-what-china-stole.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Crypto",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-26-googles-new-ai-tools-are-actually-insane-we-tried-.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "\"Nobody Thinks of Your Failures As Much as You\" | Scott Galloway",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-nobody-thinks-of-your-failures-as-much-as-you-scot.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "The Dark Truth About Work Life Balance | Scott Galloway",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-the-dark-truth-about-work-life-balance-scott-gallo.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Tech/Business",
+    "title": "2 Underrated Areas to Invest in 2026 to Print Money | Scott Galloway",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-26-2-underrated-areas-to-invest-in-2026-to-print-mone.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Crypto",
+    "title": "Anthropic Just Got Hacked by China. But Was This illegal?",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-26-anthropic-just-got-hacked-by-china-but-was-this-il.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "Crypto",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-26-the-smartest-ai-investment-isnt-nvidia-its-japanes.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "AI/Tech",
+    "title": "Khabib smeshes Lex Fridman: ROUND 2",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-26-khabib-smeshes-lex-fridman-round-2.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "AI/Tech",
+    "title": "How Khabib smeshes EVERYONE | Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-26-how-khabib-smeshes-everyone-lex-fridman.html"
+  },
+  {
+    "date": "February 26, 2026",
+    "category": "AI/Tech",
+    "title": "Lex Fridman trains w/ Khabib Nurmagomedov - ROUND 1",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-26-lex-fridman-trains-w-khabib-nurmagomedov-round-1.html"
+  },
+  {
     "date": "February 25, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -580,6 +740,39 @@ const posts = [
     "url": "2026-02-18-uk-lead-gen-deep-dive.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
