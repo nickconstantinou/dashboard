@@ -47,7 +47,45 @@
         <iframe src="https://www.youtube.com/embed/lwfL1MOcuBU" frameborder="0" allowfullscreen></iframe>
       </div>
       
-      <p>Summary not available (no API key)</p>
+      <h1>System Design - Performance</h1>
+
+<p>In this video, Atesh dives deep into the critical topic of performance in system design. This is part of his ongoing series on system design, following a previous video about scalability. Whether you're new to system design or looking to strengthen your understanding, this video offers practical guidance on making your systems performant.</p>
+
+<h2>Key Topics Discussed</h2>
+
+<p>The core of the video revolves around five essential questions that every developer should ask when designing a system for optimal performance:</p>
+
+<p><strong>1. Latency Sensitivity</strong> — Some applications require fast response times while others are more forgiving. Understanding whether your system is latency-sensitive helps determine appropriate optimizations.</p>
+
+<p><strong>2. Throughput Requirements</strong> — Knowing if your system needs to handle high volumes of requests influences architecture decisions.</p>
+
+<p><strong>3. Caching Strategy</strong> — Atesh emphasizes that approximately 80% of performance improvements come from effective caching. This is one of the most impactful optimizations.</p>
+
+<p><strong>4. Database Indexing</strong> — Properly indexed databases significantly improve query performance, though over-indexing can have drawbacks.</p>
+
+<p><strong>5. Asynchronous Processing</strong> — Determining whether users need to wait for certain operations (like sending confirmation emails) helps decide what can be handled asynchronously via message queues.</p>
+
+<p>The video was inspired by Atesh's experience setting up database monitoring, where he noticed many developers struggle to correctly identify and measure slow queries.</p>
+
+<p>---</p>
+
+<h2>Main Takeaways</h2>
+
+<li><strong>Ask the right questions upfront</strong> — These five questions should guide every performance-related decision in system design</li>
+<li><strong>Caching is king</strong> — The majority of performance gains come from implementing proper caching strategies</li>
+<li><strong>Index wisely</strong> — Database indexing dramatically improves query speed, but balance is essential</li>
+<li><strong>Async when possible</strong> — Operations that don't require immediate user feedback (like emails) should be handled asynchronously</li>
+<li><strong>Monitor everything</strong> — You can't improve what you don't measure; database monitoring is essential</li>
+
+<p>---</p>
+
+<h2>Who Would Benefit From Watching</h2>
+
+<p>This video is ideal for <strong>early-career software engineers</strong> (first or second year) who want to build a strong foundation in system design principles. It also benefits developers preparing for technical interviews or anyone looking to understand performance optimization fundamentals in a practical, approachable way.</p>
+
+<p>---</p>
+
+<p>*Note: The video includes a mention of Site24by7 offering a six-month free trial for monitoring tools, which the host recommends checking out.*</p>
       
     </article>
   </div>
