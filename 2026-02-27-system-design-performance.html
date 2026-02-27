@@ -47,7 +47,31 @@
         <iframe src="https://www.youtube.com/embed/lwfL1MOcuBU" frameborder="0" allowfullscreen></iframe>
       </div>
       
-      <p>Summary not available (no API key)</p>
+      <h1>System Design - Performance</h1>
+
+<p>In this video, Atesh dives into the critical topic of performance in system design—a subject that builds on his previous content about scalability. He introduces five essential questions that every developer should ask when designing a system to ensure it performs optimally. These questions serve as a framework for evaluating performance considerations in any application, whether you're building a small feature or a large-scale distributed system.</p>
+
+<p>The first two questions focus on understanding your system's requirements: <strong>Is this latency sensitive?</strong> and <strong>Is this throughput sensitive?</strong> Atesh explains that some applications demand quick response times while others care more about processing large volumes of data. He promises to break down these concepts with clear examples so viewers can easily distinguish between them.</p>
+
+<p>The remaining three questions address specific optimization techniques: <strong>Can I cache this?</strong> (with Atesh noting that caching accounts for roughly 80% of performance improvements), <strong>Can I index this?</strong> (crucial for database query optimization, though he warns against over-indexing), and <strong>Does the user need to wait?</strong> (determining whether operations should be synchronous or can be handled asynchronously, like sending confirmation emails via a queue system).</p>
+
+<p>The video was inspired by Atesh's experience setting up database monitoring for an application, where he noticed the importance of understanding slow queries and how databases calculate them. He emphasizes that beginners often calculate slow requests incorrectly and aims to correct those misconceptions.</p>
+
+<p>---</p>
+
+<h2>Key Takeaways</h2>
+
+<li><strong>Ask five core questions</strong> when designing for performance: Is it latency sensitive? Is it throughput sensitive? Can I cache this? Can I index this? Does the user need to wait?</li>
+<li><strong>Caching is king</strong> — approximately 80% of performance improvements come from proper caching strategies</li>
+<li><strong>Database indexing</strong> significantly improves query performance, but over-indexing can become counterproductive</li>
+<li><strong>Synchronous vs asynchronous</strong> design matters — operations that don't require user waiting (like emails) should be handled asynchronously</li>
+<li><strong>Monitor your database</strong> to understand slow queries and optimize accordingly</li>
+
+<p>---</p>
+
+<h2>Who Would Benefit</h2>
+
+<p>This video is ideal for software developers in their first or second year of work who want to build a strong foundation in system design. Anyone looking to understand performance optimization fundamentals, from frontend engineers to backend developers working with databases, will find this content valuable. It's particularly useful for those preparing for system design interviews or wanting to write more efficient code.</p>
       
     </article>
   </div>
