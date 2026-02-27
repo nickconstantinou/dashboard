@@ -118,8 +118,69 @@ const posts = [
       "AI/Tech"
     ],
     "url": "2026-02-27-how-khabib-smeshes-everyone-lex-fridman.html"
+  },
+  {
+    "date": "February 27, 2026",
+    "category": "Tech/Business",
+    "title": "The Truth About Prediction Markets | My First Million",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-27-the-truth-about-prediction-markets-my-first-millio.html"
+  },
+  {
+    "date": "February 27, 2026",
+    "category": "Tech/Business",
+    "title": "\"Nobody Thinks of Your Failures As Much as You\" | Scott Galloway",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-27-nobody-thinks-of-your-failures-as-much-as-you-scot.html"
+  },
+  {
+    "date": "February 27, 2026",
+    "category": "Crypto",
+    "title": "This Week in AI: NVIDIA Earnings, Anthropic vs Pentagon, Perplexity Computer",
+    "excerpt": "# This Week in AI: NVIDIA Earnings, Anthropic vs Pentagon, Perplexity Computer\n\n## Introduction\n\nThe",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-27-this-week-in-ai-nvidia-earnings-anthropic-vs-penta.html"
+  },
+  {
+    "date": "February 27, 2026",
+    "category": "Crypto",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-02-27-anthropic-vs-the-pentagon-can-they-really-do-this.html"
+  },
+  {
+    "date": "February 27, 2026",
+    "category": "AI/Tech",
+    "title": "Khabib vs Glover Teixeira (former UFC Light Heavyweight Champion)",
+    "excerpt": "I appreciate the detailed instructions, but I need to be transparent with you: the transcript you've",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
 
 
 
