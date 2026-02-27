@@ -47,31 +47,33 @@
         <iframe src="https://www.youtube.com/embed/lwfL1MOcuBU" frameborder="0" allowfullscreen></iframe>
       </div>
       
-      <h1>System Design - Performance</h1>
+      <h2>System Design - Performance Summary</h2>
 
-<p>In this video, Atesh dives into the critical topic of performance in system design—a subject that builds on his previous content about scalability. He introduces five essential questions that every developer should ask when designing a system to ensure it performs optimally. These questions serve as a framework for evaluating performance considerations in any application, whether you're building a small feature or a large-scale distributed system.</p>
+<p>In this video, Atesh explores the critical topic of performance in system design, following up on a previous video about scalability. He introduces five essential questions that developers should ask themselves when designing any system to ensure optimal performance. The video is particularly aimed at those in the early stages of their software careers—first or second-year professionals—who want to understand the fundamentals of building performant systems.</p>
 
-<p>The first two questions focus on understanding your system's requirements: <strong>Is this latency sensitive?</strong> and <strong>Is this throughput sensitive?</strong> Atesh explains that some applications demand quick response times while others care more about processing large volumes of data. He promises to break down these concepts with clear examples so viewers can easily distinguish between them.</p>
+<p>The inspiration for this video came from Atesh's experience setting up database monitoring for an application, where he encountered a diagram explaining "slow queries." He realized many beginners don't properly understand how databases calculate slow queries or how to optimize them, making this an important topic to address.</p>
 
-<p>The remaining three questions address specific optimization techniques: <strong>Can I cache this?</strong> (with Atesh noting that caching accounts for roughly 80% of performance improvements), <strong>Can I index this?</strong> (crucial for database query optimization, though he warns against over-indexing), and <strong>Does the user need to wait?</strong> (determining whether operations should be synchronous or can be handled asynchronously, like sending confirmation emails via a queue system).</p>
+<p><strong>The Five Key Performance Questions:</strong></p>
 
-<p>The video was inspired by Atesh's experience setting up database monitoring for an application, where he noticed the importance of understanding slow queries and how databases calculate them. He emphasizes that beginners often calculate slow requests incorrectly and aims to correct those misconceptions.</p>
+<p>1. <strong>Is this latency sensitive?</strong> — Some applications require quick response times while others are more tolerant of delays.</p>
 
-<p>---</p>
+<p>2. <strong>Is this throughput sensitive?</strong> — Understanding whether your system needs to handle high volumes of requests is crucial for proper design.</p>
 
-<h2>Key Takeaways</h2>
+<p>3. <strong>Can I cache this?</strong> — Atesh emphasizes that approximately 80% of performance improvements come from effective caching strategies.</p>
 
-<li><strong>Ask five core questions</strong> when designing for performance: Is it latency sensitive? Is it throughput sensitive? Can I cache this? Can I index this? Does the user need to wait?</li>
-<li><strong>Caching is king</strong> — approximately 80% of performance improvements come from proper caching strategies</li>
-<li><strong>Database indexing</strong> significantly improves query performance, but over-indexing can become counterproductive</li>
-<li><strong>Synchronous vs asynchronous</strong> design matters — operations that don't require user waiting (like emails) should be handled asynchronously</li>
-<li><strong>Monitor your database</strong> to understand slow queries and optimize accordingly</li>
+<p>4. <strong>Can I index this?</strong> — Proper database indexing can fix most query performance issues, though over-indexing can create problems.</p>
+
+<p>5. <strong>Does the user need to wait?</strong> — Determining whether operations should be synchronous or asynchronous. For example, confirmation emails don't need to block user actions and can be handled via message queues.</p>
 
 <p>---</p>
 
-<h2>Who Would Benefit</h2>
+<p><strong>Who Would Benefit from This Video:</strong>
+<li>Junior to mid-level software developers</li>
+<li>Students learning system design fundamentals</li>
+<li>Anyone preparing for technical interviews involving system design</li>
+<li>Developers looking to improve application performance</li></p>
 
-<p>This video is ideal for software developers in their first or second year of work who want to build a strong foundation in system design. Anyone looking to understand performance optimization fundamentals, from frontend engineers to backend developers working with databases, will find this content valuable. It's particularly useful for those preparing for system design interviews or wanting to write more efficient code.</p>
+<p>The video provides practical, actionable guidance with clear examples to help viewers remember these concepts and apply them in real-world scenarios.</p>
       
     </article>
   </div>
