@@ -130,6 +130,46 @@ const posts = [
     "url": "2026-02-28-everyone-is-waiting-for-the-ai-bubble-to-pop-nvidi.html"
   },
   {
+    "date": "February 28, 2026",
+    "category": "Tech",
+    "title": "Test Video",
+    "excerpt": "This is a summary of the test video.",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-28-test-video.html"
+  },
+  {
+    "date": "February 28, 2026",
+    "category": "Tech",
+    "title": "Test Episode",
+    "excerpt": "Summary from description.",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-28-test-episode.html"
+  },
+  {
+    "date": "February 28, 2026",
+    "category": "Tech",
+    "title": "Hacker News News Round-up",
+    "excerpt": "Latest Hacker News stories",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-02-28-hacker-news-news.html"
+  },
+  {
+    "date": "February 28, 2026",
+    "category": "Tech/Business",
+    "title": "The Next AI Business Trend is Weirder Than You Think | My First Million",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-02-28-the-next-ai-business-trend-is-weirder-than-you-thi.html"
+  },
+  {
     "date": "February 27, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -300,6 +340,30 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
