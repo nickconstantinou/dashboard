@@ -1,24 +1,38 @@
-# Secrets
+# Logs and API keys
+logs/
+*.log
 .env
 .env.local
+.env.*.local
+
+# Security
 *.key
+*.pem
+*.crt
+*.p12
 
-# Dependencies
-node_modules/
-
-# Build
-_site/
-.sass-cache/
-*.swp
-*.swo
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
 
 # OS
 .DS_Store
 Thumbs.db
 
 # IDE
-.idea/
 .vscode/
+.idea/
+.swp
+.gitignore_global
 
-# Logs
-*.log
+# Dependencies
+node_modules/
+venv/
+.site-packages/
+
+# Build
+build/
+dist/
