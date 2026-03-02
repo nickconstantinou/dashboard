@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "March 02, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-02-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-02-system-design-performance.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-02-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Tech/Business",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-02-whats-replacing-the-alcohol-industry-my-first-mill.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Tech/Business",
+    "title": "Are Podcasts Just Clip Farms Now? | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-02-are-podcasts-just-clip-farms-now-my-first-million.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Tech/Business",
+    "title": "The Next AI Business Trend is Weirder Than You Think | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-02-the-next-ai-business-trend-is-weirder-than-you-thi.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Crypto",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-02-everyone-is-waiting-for-the-ai-bubble-to-pop-nvidi.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Crypto",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-02-anthropic-vs-the-pentagon-can-they-really-do-this.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "Crypto",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-02-googles-new-ai-tools-are-actually-insane-we-tried-.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "AI/Tech",
+    "title": "Why babies should listen to music | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-02-why-babies-should-listen-to-music-rick-beato-and-l.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "AI/Tech",
+    "title": "The greatest muse in rock history: The woman who inspired Layla by Eric Clapton | Rick Beato",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-02-the-greatest-muse-in-rock-history-the-woman-who-in.html"
+  },
+  {
+    "date": "March 02, 2026",
+    "category": "AI/Tech",
+    "title": "Ear training basics: How to develop relative pitch | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-02-ear-training-basics-how-to-develop-relative-pitch-.html"
+  },
+  {
     "date": "March 01, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -470,6 +590,28 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
