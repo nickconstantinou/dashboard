@@ -120,6 +120,16 @@ const posts = [
     "url": "2026-03-01-khabib-smeshes-lex-fridman-round-2.html"
   },
   {
+    "date": "March 01, 2026",
+    "category": "AI/Tech",
+    "title": "Why Sultans of Swing is the perfect song | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-01-why-sultans-of-swing-is-the-perfect-song-rick-beat.html"
+  },
+  {
     "date": "February 28, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -460,6 +470,17 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
 
 
 
