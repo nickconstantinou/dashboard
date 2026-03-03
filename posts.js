@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "March 03, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-03-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-03-system-design-performance.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-03-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Tech/Business",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-03-what-chocolate-ceos-said-to-mr-beast-that-changed-.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Tech/Business",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-03-whats-replacing-the-alcohol-industry-my-first-mill.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Tech/Business",
+    "title": "Are Podcasts Just Clip Farms Now? | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-03-are-podcasts-just-clip-farms-now-my-first-million.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Crypto",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-03-trump-used-claude-for-operation-epic-fury-heres-wh.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Crypto",
+    "title": "This Week in AI: NVIDIA Earnings, Anthropic vs Pentagon, Perplexity Computer",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-03-this-week-in-ai-nvidia-earnings-anthropic-vs-penta.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "Crypto",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-03-anthropic-vs-the-pentagon-can-they-really-do-this.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "AI/Tech",
+    "title": "What guitar Lex Fridman plays",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-03-what-guitar-lex-fridman-plays.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "AI/Tech",
+    "title": "The hardest jazz style to play: Why Charlie Parker was a genius | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-03-the-hardest-jazz-style-to-play-why-charlie-parker-.html"
+  },
+  {
+    "date": "March 03, 2026",
+    "category": "AI/Tech",
+    "title": "The genius of David Gilmour | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-03-the-genius-of-david-gilmour-rick-beato-and-lex-fri.html"
+  },
+  {
     "date": "March 02, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -590,6 +710,19 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
