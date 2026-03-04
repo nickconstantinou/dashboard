@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "March 04, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-04-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-04-system-design-performance.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-04-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Tech/Business",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-04-mr-beasts-insanerule-of-100-process-for-viral-idea.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Tech/Business",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-04-what-chocolate-ceos-said-to-mr-beast-that-changed-.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Tech/Business",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-04-whats-replacing-the-alcohol-industry-my-first-mill.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Crypto",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-04-this-24-year-old-made-45b-investing-in-these-compa.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Crypto",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-04-trump-used-claude-for-operation-epic-fury-heres-wh.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "Crypto",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-04-everyone-is-waiting-for-the-ai-bubble-to-pop-nvidi.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "AI/Tech",
+    "title": "Story of meeting Elton John | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-04-story-of-meeting-elton-john-rick-beato-and-lex-fri.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "AI/Tech",
+    "title": "Greatest rock stars of all time | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-04-greatest-rock-stars-of-all-time-rick-beato-and-lex.html"
+  },
+  {
+    "date": "March 04, 2026",
+    "category": "AI/Tech",
+    "title": "Lex Fridman on Metallica's legendary concert in Moscow in 1991 w/ crowd of 1.5 million people",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-04-lex-fridman-on-metallicas-legendary-concert-in-mos.html"
+  },
+  {
     "date": "March 03, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -720,6 +840,19 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
