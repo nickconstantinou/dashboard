@@ -120,6 +120,16 @@ const posts = [
     "url": "2026-03-05-lex-fridman-on-metallica.html"
   },
   {
+    "date": "March 05, 2026",
+    "category": "Crypto",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies (Leopold Aschenbrenner)",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-05-this-24-year-old-made-45b-investing-in-these-compa.html"
+  },
+  {
     "date": "March 04, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -960,6 +970,14 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
 
 
 
