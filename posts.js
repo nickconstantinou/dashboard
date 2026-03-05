@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "March 05, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-05-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-05-system-design-performance.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-05-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Tech/Business",
+    "title": "How Mr Beast Makes Millions By Cloning Himself",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-05-how-mr-beast-makes-millions-by-cloning-himself.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Tech/Business",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-05-mr-beasts-insanerule-of-100-process-for-viral-idea.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Tech/Business",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-05-what-chocolate-ceos-said-to-mr-beast-that-changed-.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Crypto",
+    "title": "Forget NVIDIA | This 24-Year-Old's $4.5B Bet on AI's Real Problem (Leopold Aschenbrenner)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-05-forget-nvidia-this-24-year-olds-45b-bet-on-ais-rea.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Crypto",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-05-trump-used-claude-for-operation-epic-fury-heres-wh.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "Crypto",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-05-everyone-is-waiting-for-the-ai-bubble-to-pop-nvidi.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "AI/Tech",
+    "title": "Perfect pitch vs relative pitch explained | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-05-perfect-pitch-vs-relative-pitch-explained-rick-bea.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "AI/Tech",
+    "title": "Flea's jazz influence: Bass guitar is the most underrated instrument | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-05-fleas-jazz-influence-bass-guitar-is-the-most-under.html"
+  },
+  {
+    "date": "March 05, 2026",
+    "category": "AI/Tech",
+    "title": "Lex Fridman on Metallica",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-05-lex-fridman-on-metallica.html"
+  },
+  {
     "date": "March 04, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -840,6 +960,18 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
