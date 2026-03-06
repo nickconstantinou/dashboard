@@ -1,5 +1,125 @@
 const posts = [
   {
+    "date": "March 06, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-06-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-06-system-design-performance.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-06-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Tech/Business",
+    "title": "Mr Beast's Brutal Business Lessons",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-06-mr-beasts-brutal-business-lessons.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Tech/Business",
+    "title": "How Mr Beast Makes Millions By Cloning Himself",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-06-how-mr-beast-makes-millions-by-cloning-himself.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Tech/Business",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-06-mr-beasts-insanerule-of-100-process-for-viral-idea.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Crypto",
+    "title": "Apple's Biggest AI Announcement This Week (Not MacBook Neo)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-06-apples-biggest-ai-announcement-this-week-not-macbo.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Crypto",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies (Leopold Aschenbrenner)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-06-this-24-year-old-made-45b-investing-in-these-compa.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "Crypto",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-06-trump-used-claude-for-operation-epic-fury-heres-wh.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "AI/Tech",
+    "title": "Why Bach is the most influential musician ever | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-06-why-bach-is-the-most-influential-musician-ever-ric.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "AI/Tech",
+    "title": "Rick Beato on Sabrina Carpenter and modern music | Lex Fridman Podcast Clips",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-06-rick-beato-on-sabrina-carpenter-and-modern-music-l.html"
+  },
+  {
+    "date": "March 06, 2026",
+    "category": "AI/Tech",
+    "title": "Footage of Elton John writing Tiny Dancer | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-06-footage-of-elton-john-writing-tiny-dancer-rick-bea.html"
+  },
+  {
     "date": "March 05, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -970,6 +1090,19 @@ const posts = [
     "url": "2026-02-27-khabib-vs-glover-teixeira-former-ufc-light-heavywe.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
