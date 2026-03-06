@@ -26,52 +26,37 @@
         </main>
     </div>
 
+    <script src="posts.js"></script>
     <script>
-        // Fetch and display blog posts
-        async function loadPosts() {
-            try {
-                const response = await fetch('/_posts.json');
-                const posts = await response.json();
-                
-                const container = document.getElementById('blog-container');
-                const grid = document.createElement('div');
+        // Render posts from posts.js
+        (function() {
+            var container = document.getElementById('blog-container');
+            if (typeof posts !== 'undefined' && posts && posts.length > 0) {
+                var grid = document.createElement('div');
                 grid.className = 'post-grid';
                 
-                posts.forEach(post => {
-                    const card = document.createElement('article');
+                for (var i = 0; i < Math.min(posts.length, 20); i++) {
+                    var p = posts[i];
+                    var card = document.createElement('article');
                     card.className = 'post-card';
-                    card.innerHTML = `
-                        <h2 class="post-title">${post.title}</h2>
-                        <div class="post-date">${post.date}</div>
-                        <div class="post-excerpt">${post.excerpt}</div>
-                        <a href="${post.url}" class="text-blue-600 hover:text-blue-800 mt-2 inline-block">Read more →</a>
-                    `;
+                    card.innerHTML = 
+                        '<h2 class="post-title">' + p.title + '</h2>' +
+                        '<div class="post-date">' + p.date + ' • ' + p.category + '</div>' +
+                        '<div class="post-excerpt">' + (p.excerpt || '') + '</div>' +
+                        '<a href="' + p.url + '" class="text-blue-600 hover:text-blue-800 mt-2 inline-block">Read more →</a>';
                     grid.appendChild(card);
-                });
-                
+                }
                 container.appendChild(grid);
-            } catch (error) {
-                console.error('Failed to load posts:', error);
+            } else {
                 // Fallback: show static message
-                document.getElementById('blog-container').innerHTML = `
-                    <article class="post-card">
-                        <h2 class="post-title">March 2 Security Update</h2>
-                        <div class="post-date">2026-03-02</div>
-                        <p class="text-gray-700 mb-4">✅ Successfully resolved GitHub Actions failures</p>
-                        <div class="text-sm text-gray-500">
-                            <p>Categories: Security, GitHub Actions, Content Pipeline</p>
-                        </div>
-                        <p class="text-center text-gray-500 mt-4">Latest content synced via automated content-crawler</p>
-                    </article>
-                `;
+                container.innerHTML = 
+                    '<article class="post-card">' +
+                        '<h2 class="post-title">Welcome to Nick\'s Blog</h2>' +
+                        '<p class="text-gray-700 mb-4">Posts loading...</p>' +
+                        '<p class="text-center text-gray-500 mt-4">Latest content synced via automated content-crawler</p>' +
+                    '</article>';
             }
-        }
-
-        // Generate posts index if _posts.json doesn't exist
-        if (window.location.hostname.includes('github.io')) {
-            // GitHub Pages - use fallback static content
-            window.addEventListener('DOMContentLoaded', loadPosts);
-        }
+        })();
     </script>
 </body>
 </html>
