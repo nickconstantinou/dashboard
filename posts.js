@@ -2,7 +2,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Apples Biggest Ai Announcement This Week Not Macbo",
+    "title": "Apple's Biggest AI Announcement This Week (Not MacBook Neo)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -12,7 +12,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Footage Of Elton John Writing Tiny Dancer Rick Bea",
+    "title": "Footage of Elton John writing Tiny Dancer | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -22,7 +22,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 How Mr Beast Makes Millions By Cloning Himself",
+    "title": "How Mr Beast Makes Millions By Cloning Himself",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -32,7 +32,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -42,7 +42,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Mr Beasts Brutal Business Lessons",
+    "title": "Mr Beast's Brutal Business Lessons",
     "excerpt": "Jimmy Donaldson, better known as MrBeast, has built the most-subscribed individual YouTube channel i",
     "tags": [
       "Tech"
@@ -52,7 +52,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Mr Beasts Insanerule Of 100 Process For Viral Idea",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -62,7 +62,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Rick Beato On Sabrina Carpenter And Modern Music L",
+    "title": "Rick Beato on Sabrina Carpenter and modern music | Lex Fridman Podcast Clips",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -72,7 +72,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "In the world of software engineering, system design remains one of the most challenging and conseque",
     "tags": [
       "Tech"
@@ -82,7 +82,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "In the world of software engineering and system design, few concepts are as frequently discussed yet",
     "tags": [
       "Tech"
@@ -92,7 +92,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 This 24 Year Old Made 45B Investing In These Compa",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies (Leopold Aschenbrenner)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -102,7 +102,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Trump Used Claude For Operation Epic Fury Heres Wh",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -112,7 +112,7 @@ const posts = [
   {
     "date": "March 06, 2026",
     "category": "Tech",
-    "title": "03 06 Why Bach Is The Most Influential Musician Ever Ric",
+    "title": "Why Bach is the most influential musician ever | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -122,7 +122,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -132,7 +132,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Fleas Jazz Influence Bass Guitar Is The Most Under",
+    "title": "Flea's jazz influence: Bass guitar is the most underrated instrument | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -142,7 +142,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Forget Nvidia This 24 Year Olds 45B Bet On Ais Rea",
+    "title": "Forget NVIDIA | This 24-Year-Old's $4.5B Bet on AI's Real Problem (Leopold Aschenbrenner)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -152,7 +152,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 How Mr Beast Makes Millions By Cloning Himself",
+    "title": "How Mr Beast Makes Millions By Cloning Himself",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -162,7 +162,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -172,7 +172,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Lex Fridman On Metallica",
+    "title": "Lex Fridman on Metallica",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -182,7 +182,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Mr Beasts Insanerule Of 100 Process For Viral Idea",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -192,7 +192,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Perfect Pitch Vs Relative Pitch Explained Rick Bea",
+    "title": "Perfect pitch vs relative pitch explained | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -202,7 +202,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -212,7 +212,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -222,7 +222,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 This 24 Year Old Made 45B Investing In These Compa",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies (Leopold Aschenbrenner)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -232,7 +232,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 Trump Used Claude For Operation Epic Fury Heres Wh",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -242,7 +242,7 @@ const posts = [
   {
     "date": "March 05, 2026",
     "category": "Tech",
-    "title": "03 05 What Chocolate Ceos Said To Mr Beast That Changed ",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -252,7 +252,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -262,7 +262,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Greatest Rock Stars Of All Time Rick Beato And Lex",
+    "title": "Greatest rock stars of all time | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -272,7 +272,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -282,7 +282,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Lex Fridman On Metallicas Legendary Concert In Mos",
+    "title": "Lex Fridman on Metallica's legendary concert in Moscow in 1991 w/ crowd of 1.5 million people",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -292,7 +292,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Mr Beasts Insanerule Of 100 Process For Viral Idea",
+    "title": "Mr Beast's Insane\"Rule of 100\" Process for Viral Ideas",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -302,7 +302,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Story Of Meeting Elton John Rick Beato And Lex Fri",
+    "title": "Story of meeting Elton John | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -312,7 +312,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -322,7 +322,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -332,7 +332,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 This 24 Year Old Made 45B Investing In These Compa",
+    "title": "This 24 Year-Old Made $4.5B Investing in These Companies",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -342,7 +342,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Trump Used Claude For Operation Epic Fury Heres Wh",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -352,7 +352,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 What Chocolate Ceos Said To Mr Beast That Changed ",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -362,7 +362,7 @@ const posts = [
   {
     "date": "March 04, 2026",
     "category": "Tech",
-    "title": "03 04 Whats Replacing The Alcohol Industry My First Mill",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -372,7 +372,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 Anthropic Vs The Pentagon Can They Really Do This",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -382,7 +382,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 Are Podcasts Just Clip Farms Now My First Million",
+    "title": "Are Podcasts Just Clip Farms Now? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -392,7 +392,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -402,7 +402,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -412,7 +412,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -422,7 +422,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -432,7 +432,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 The Genius Of David Gilmour Rick Beato And Lex Fri",
+    "title": "The genius of David Gilmour | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -442,7 +442,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 The Hardest Jazz Style To Play Why Charlie Parker ",
+    "title": "The hardest jazz style to play: Why Charlie Parker was a genius | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -452,7 +452,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 This Week In Ai Nvidia Earnings Anthropic Vs Penta",
+    "title": "This Week in AI: NVIDIA Earnings, Anthropic vs Pentagon, Perplexity Computer",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -462,7 +462,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 Trump Used Claude For Operation Epic Fury Heres Wh",
+    "title": "Trump USED CLAUDE for Operation Epic Fury: Here's What We Found",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -472,7 +472,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 What Chocolate Ceos Said To Mr Beast That Changed ",
+    "title": "What Chocolate CEOs Said to Mr Beast That Changed Everything",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -482,7 +482,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 What Guitar Lex Fridman Plays",
+    "title": "What guitar Lex Fridman plays",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -492,7 +492,7 @@ const posts = [
   {
     "date": "March 03, 2026",
     "category": "Tech",
-    "title": "03 03 Whats Replacing The Alcohol Industry My First Mill",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -502,7 +502,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Anthropic Vs The Pentagon Can They Really Do This",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -512,7 +512,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Are Podcasts Just Clip Farms Now My First Million",
+    "title": "Are Podcasts Just Clip Farms Now? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -522,7 +522,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Ear Training Basics How To Develop Relative Pitch ",
+    "title": "Ear training basics: How to develop relative pitch | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -532,7 +532,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -542,7 +542,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Googles New Ai Tools Are Actually Insane We Tried ",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -552,7 +552,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -562,7 +562,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -572,7 +572,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -582,7 +582,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 The Greatest Muse In Rock History The Woman Who In",
+    "title": "The greatest muse in rock history: The woman who inspired Layla by Eric Clapton | Rick Beato",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -592,7 +592,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 The Next Ai Business Trend Is Weirder Than You Thi",
+    "title": "The Next AI Business Trend is Weirder Than You Think | My First Million",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -602,7 +602,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Whats Replacing The Alcohol Industry My First Mill",
+    "title": "What's Replacing the Alcohol Industry? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -612,7 +612,7 @@ const posts = [
   {
     "date": "March 02, 2026",
     "category": "Tech",
-    "title": "03 02 Why Babies Should Listen To Music Rick Beato And L",
+    "title": "Why babies should listen to music | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -622,7 +622,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Anthropic Vs The Pentagon Can They Really Do This",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -632,7 +632,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Are Podcasts Just Clip Farms Now My First Million",
+    "title": "Are Podcasts Just Clip Farms Now? | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -642,7 +642,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -652,7 +652,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Googles New Ai Tools Are Actually Insane We Tried ",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -662,7 +662,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -672,7 +672,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Khabib Smeshes Lex Fridman Round 2",
+    "title": "Khabib smeshes Lex Fridman: ROUND 2",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -682,7 +682,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Khabib Vs Glover Teixeira Former Ufc Light Heavywe",
+    "title": "Khabib vs Glover Teixeira (former UFC Light Heavyweight Champion)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -692,7 +692,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Lex Meets Khabib In Las Vegas Ufc Performance Inst",
+    "title": "Lex meets Khabib in Las Vegas | UFC Performance Institute",
     "excerpt": "The UFC Performance Institute in Las Vegas has become the world's most advanced mixed martial arts t",
     "tags": [
       "Tech"
@@ -702,7 +702,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -712,7 +712,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -722,7 +722,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 The Next Ai Business Trend Is Weirder Than You Thi",
+    "title": "The Next AI Business Trend is Weirder Than You Think | My First Million",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -732,7 +732,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 The Truth About Prediction Markets My First Millio",
+    "title": "The Truth About Prediction Markets | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -742,7 +742,7 @@ const posts = [
   {
     "date": "March 01, 2026",
     "category": "Tech",
-    "title": "03 01 Why Sultans Of Swing Is The Perfect Song Rick Beat",
+    "title": "Why Sultans of Swing is the perfect song | Rick Beato and Lex Fridman",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -752,7 +752,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Anthropic Vs The Pentagon Can They Really Do This",
+    "title": "Anthropic vs The Pentagon: Can They Really Do This?",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -762,7 +762,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Everyone Is Waiting For The Ai Bubble To Pop Nvidi",
+    "title": "Everyone Is Waiting for the AI Bubble to Pop (NVIDIA Earnings)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -772,7 +772,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Googles New Ai Tools Are Actually Insane We Tried ",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -782,7 +782,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Hacker News News",
+    "title": "Hacker News News - 2026-02-28",
     "excerpt": "No summary",
     "tags": [
       "Tech"
@@ -792,7 +792,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -802,7 +802,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Khabib Smeshes Lex Fridman Round 2",
+    "title": "Khabib smeshes Lex Fridman: ROUND 2",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -812,7 +812,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Khabib Vs Glover Teixeira Former Ufc Light Heavywe",
+    "title": "Khabib vs Glover Teixeira (former UFC Light Heavyweight Champion)",
     "excerpt": "I appreciate the detailed guidance on style and structure, but I need to be upfront with you: the tr",
     "tags": [
       "Tech"
@@ -822,7 +822,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Lex Meets Khabib In Las Vegas Ufc Performance Inst",
+    "title": "Lex meets Khabib in Las Vegas | UFC Performance Institute",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -832,7 +832,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Nobody Thinks Of Your Failures As Much As You Scot",
+    "title": "\"Nobody Thinks of Your Failures As Much as You\" | Scott Galloway",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -842,7 +842,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -852,7 +852,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -862,7 +862,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Test Episode",
+    "title": "Test Episode",
     "excerpt": "Summary from description.",
     "tags": [
       "Tech"
@@ -872,7 +872,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 Test Video",
+    "title": "Test Video",
     "excerpt": "This is a summary of the test video.",
     "tags": [
       "Tech"
@@ -882,7 +882,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 The Next Ai Business Trend Is Weirder Than You Thi",
+    "title": "The Next AI Business Trend is Weirder Than You Think | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -892,7 +892,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 The Truth About Prediction Markets My First Millio",
+    "title": "The Truth About Prediction Markets | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -902,7 +902,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 The Weird Truth About The Physical Ai Trend My Fir",
+    "title": "The Weird Truth About the \"Physical AI\" Trend | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -912,7 +912,7 @@ const posts = [
   {
     "date": "February 28, 2026",
     "category": "Tech",
-    "title": "02 28 This Week In Ai Nvidia Earnings Anthropic Vs Penta",
+    "title": "This Week in AI: NVIDIA Earnings, Anthropic vs Pentagon, Perplexity Computer",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -922,7 +922,7 @@ const posts = [
   {
     "date": "February 27, 2026",
     "category": "Tech",
-    "title": "02 27 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -932,7 +932,7 @@ const posts = [
   {
     "date": "February 27, 2026",
     "category": "Tech",
-    "title": "02 27 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -942,7 +942,7 @@ const posts = [
   {
     "date": "February 27, 2026",
     "category": "Tech",
-    "title": "02 27 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -952,7 +952,7 @@ const posts = [
   {
     "date": "February 27, 2026",
     "category": "Tech",
-    "title": "02 27 The Truth About Prediction Markets My First Millio",
+    "title": "The Truth About Prediction Markets | My First Million",
     "excerpt": "Summary not available",
     "tags": [
       "Tech"
@@ -962,7 +962,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 2 Underrated Areas To Invest In To Print Mone",
+    "title": "2 Underrated Areas to Invest in 2026 to Print Money | Scott Galloway",
     "excerpt": "Scott Galloway outlines two distinct paths for building wealth depending on your credentials and sit",
     "tags": [
       "Tech"
@@ -972,7 +972,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Anthropic Hacked Heres What China Stole",
+    "title": "Anthropic HACKED: Here's What China Stole.",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -982,7 +982,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Anthropic Just Got Hacked By China But Was This Il",
+    "title": "Anthropic Just Got Hacked by China. But Was This illegal?",
     "excerpt": "In a surprising turn of events, Anthropic recently exposed three major Chinese AI labs for conductin",
     "tags": [
       "Tech"
@@ -992,7 +992,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Brutally Honest Career Advice For Young People Sco",
+    "title": "Brutally Honest Career Advice for Young People | Scott Galloway",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Tech"
@@ -1002,7 +1002,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Googles New Ai Tools Are Actually Insane We Tried ",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
     "excerpt": "In this exciting video, the hosts of the Limitless podcast dive into Google's groundbreaking new AI ",
     "tags": [
       "Tech"
@@ -1012,7 +1012,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 How Khabib Smeshes Everyone Lex Fridman",
+    "title": "How Khabib smeshes EVERYONE | Lex Fridman",
     "excerpt": "This video features a conversation about Khabib Nurmagomedov's legendary fighting style and training",
     "tags": [
       "Tech"
@@ -1022,7 +1022,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 I Built A Meta Learning System For My Ai Agent",
+    "title": "I Built a Meta-Learning System for My AI Agent \u2014 Here's What Happened",
     "excerpt": "---\ntitle: \"I Built a Meta-Learning System for My AI Agent \u2014 Here's What Happened\"\ndate: 2026-02-26\n",
     "tags": [
       "Tech"
@@ -1032,7 +1032,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "In this video, developer Atesh aims to demystify AI agents and show viewers how to actually run them",
     "tags": [
       "Tech"
@@ -1042,7 +1042,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Khabib Smeshes Lex Fridman Round 2",
+    "title": "Khabib smeshes Lex Fridman: ROUND 2",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Tech"
@@ -1052,7 +1052,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Lex Fridman Trains W Khabib Nurmagomedov Round 1",
+    "title": "Lex Fridman trains w/ Khabib Nurmagomedov - ROUND 1",
     "excerpt": "This video captures Lex Fridman training with legendary UFC champion Khabib Nurmagomedov during a gr",
     "tags": [
       "Tech"
@@ -1062,7 +1062,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Nobody Thinks Of Your Failures As Much As You Scot",
+    "title": "\"Nobody Thinks of Your Failures As Much as You\" | Scott Galloway",
     "excerpt": "In this thought-provoking discussion, Scott Galloway explains why stoicism matters for mental and em",
     "tags": [
       "Tech"
@@ -1072,7 +1072,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 Scott Galloways Stoic Advice For Founders Entrepre",
+    "title": "Scott Galloway's Stoic Advice for Founders & Entrepreneurs | My First Million",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -1082,7 +1082,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "In this video, Atesh dives deep into the critical topic of performance in system design. This is par",
     "tags": [
       "Tech"
@@ -1092,7 +1092,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "In this video, Atesh breaks down the concept of scalability in system design using a relatable cafe ",
     "tags": [
       "Tech"
@@ -1102,7 +1102,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 The Dark Truth About Work Life Balance Scott Gallo",
+    "title": "The Dark Truth About Work Life Balance | Scott Galloway",
     "excerpt": "In this video, marketing professor and entrepreneur Scott Galloway shares his unconventional wisdom ",
     "tags": [
       "Tech"
@@ -1112,7 +1112,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 The Smartest Ai Investment Isnt Nvidia Its Japanes",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
     "excerpt": "In what might be the most unexpected AI investment story of the year, Toto\u2014the Japanese company famo",
     "tags": [
       "Tech"
@@ -1122,7 +1122,7 @@ const posts = [
   {
     "date": "February 26, 2026",
     "category": "Tech",
-    "title": "02 26 The Two Businesses Id Start In To Make Millio",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
     "excerpt": "Summary not available (no API key)",
     "tags": [
       "Tech"
@@ -1132,7 +1132,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 Brutally Honest Career Advice For Young People Sco",
+    "title": "Brutally Honest Career Advice for Young People | Scott Galloway",
     "excerpt": "In this interview, professor and entrepreneur Scott Galloway shares straightforward career advice ce",
     "tags": [
       "Tech"
@@ -1142,7 +1142,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 Career Advice For Programmers Peter Steinberger An",
+    "title": "Career advice for programmers | Peter Steinberger and Lex Fridman",
     "excerpt": "In this conversation, Lex Fridman asks Peter Steinberger about the key metrics programmers should op",
     "tags": [
       "Tech"
@@ -1152,7 +1152,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 Googles New Ai Tools Are Actually Insane We Tried ",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All)",
     "excerpt": "In this video, the hosts explore Google's latest AI innovations unveiled in just the past week. The ",
     "tags": [
       "Tech"
@@ -1162,7 +1162,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 How The Fck Did It Do That The First Ai Agent Mind",
+    "title": "\"How the f*ck did it do that?\" - The first AI agent mind-blowing moment | Peter Steinberger",
     "excerpt": "In this video, Peter Steinberger shares a transformative experience with an AI agent that left him g",
     "tags": [
       "Tech"
@@ -1172,7 +1172,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "In this video, Atesh aims to demystify AI agents for developers who want more than just surface-leve",
     "tags": [
       "Tech"
@@ -1182,7 +1182,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "Atesh explains these concepts with clarity, acknowledging that viewers might not know the technical ",
     "tags": [
       "Tech"
@@ -1192,7 +1192,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "In this video, Atesh breaks down the concept of scalability in system design using a relatable cafe ",
     "tags": [
       "Tech"
@@ -1202,7 +1202,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 Terminal Vs Ide Why Cli Is Better For Programming ",
+    "title": "Terminal vs IDE: Why CLI is better for programming with AI | Peter Steinberger and Lex Fridman",
     "excerpt": "In this discussion, Peter Steinberger shares his journey transitioning from traditional IDE-based de",
     "tags": [
       "Tech"
@@ -1212,7 +1212,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 The Smartest Ai Investment Isnt Nvidia Its Japanes",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
     "excerpt": "This video reveals one of the most unexpected and ironic AI investment stories you'll ever hear. Tot",
     "tags": [
       "Tech"
@@ -1222,7 +1222,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 The Two Businesses Id Start In To Make Millio",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
     "excerpt": "In this video, the speaker addresses the question of what business opportunities they would pursue i",
     "tags": [
       "Tech"
@@ -1232,7 +1232,7 @@ const posts = [
   {
     "date": "February 25, 2026",
     "category": "Tech",
-    "title": "02 25 This Simple Formula Will Make You A Millionaire Sc",
+    "title": "This Simple Formula Will Make You a Millionaire | Scott Galloway",
     "excerpt": "Galloway pulls no punches when discussing consumer culture, calling out companies that try to convin",
     "tags": [
       "Tech"
@@ -1242,7 +1242,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 Career Advice For Programmers Peter Steinberger An",
+    "title": "Career advice for programmers | Peter Steinberger and Lex Fridman",
     "excerpt": "In this conversation between Peter Steinberger and Lex Fridman, they explore what programmers and bu",
     "tags": [
       "Tech"
@@ -1252,7 +1252,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 Dont Chase Your Passion Do This Instead Scott Gall",
+    "title": "Don't Chase Your Passion, Do This Instead | Scott Galloway",
     "excerpt": "In this video, professor and entrepreneur Scott Galloway challenges the popular advice to \"follow yo",
     "tags": [
       "Tech"
@@ -1262,7 +1262,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 How The Fck Did It Do That The First Ai Agent Mind",
+    "title": "\"How the f*ck did it do that?\" - The first AI agent mind-blowing moment | Peter Steinberger",
     "excerpt": "Peter Steinberger shares his experience with an early AI agent that completely astonished him with i",
     "tags": [
       "Tech"
@@ -1272,7 +1272,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "In this video, developer Atesh aims to demystify AI agents and help viewers understand not just what",
     "tags": [
       "Tech"
@@ -1282,7 +1282,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 Its Boring But Ill Make You A Millionaire Scott Ga",
+    "title": "It's Boring, But I'll Make You a Millionaire | Scott Galloway",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Tech"
@@ -1292,7 +1292,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 Openai Just Acquired Openclaw Why This Is A Huge D",
+    "title": "OpenAI Just Acquired OpenClaw: Why This Is A Huge Deal",
     "excerpt": "OpenAI has just acquired OpenClaw, the personal AI agent project founded by Peter Steinberger, in wh",
     "tags": [
       "Tech"
@@ -1302,7 +1302,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 System Design Performance",
+    "title": "System Design - Performance",
     "excerpt": "In this video, Atesh explains the critical concept of performance in system design, following up on ",
     "tags": [
       "Tech"
@@ -1312,7 +1312,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 System Design Scalability The Ultimate Guide",
+    "title": "System Design: Scalability - The Ultimate Guide",
     "excerpt": "In this video, presenter Atesh breaks down the often-confusing concept of scalability in system desi",
     "tags": [
       "Tech"
@@ -1322,7 +1322,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 Terminal Vs Ide Why Cli Is Better For Programming ",
+    "title": "Terminal vs IDE: Why CLI is better for programming with AI | Peter Steinberger and Lex Fridman",
     "excerpt": "In this discussion, Peter Steinberger shares his journey transitioning from traditional IDEs to a te",
     "tags": [
       "Tech"
@@ -1332,7 +1332,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 The Smartest Ai Investment Isnt Nvidia Its Japanes",
+    "title": "The Smartest AI Investment Isn\u2019t NVIDIA: It's Japanese Toilet Maker Toto",
     "excerpt": "In what might be the most unexpected AI investment story of the year, Japanese toilet manufacturer T",
     "tags": [
       "Tech"
@@ -1342,7 +1342,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 The Two Businesses Id Start In To Make Millio",
+    "title": "The Two Businesses I'd Start in 2026 to Make Millions",
     "excerpt": "This video explores business opportunities for 2026, but with an important caveat: the speaker empha",
     "tags": [
       "Tech"
@@ -1352,7 +1352,7 @@ const posts = [
   {
     "date": "February 24, 2026",
     "category": "Tech",
-    "title": "02 24 We Used Openclaw For A Week This Is The Harsh Trut",
+    "title": "We Used OpenClaw for a Week. This is the Harsh Truth.",
     "excerpt": "This video explores OpenClaw (likely referring to Claude/Anthropic's AI agent capabilities), examini",
     "tags": [
       "Tech"
@@ -1362,7 +1362,7 @@ const posts = [
   {
     "date": "February 23, 2026",
     "category": "Tech",
-    "title": "02 23 I Built A Vibe Translator One Idea 4 Frontend Stac",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "excerpt": "*Note: The transcript provided appears to be a brief description rather than the full transcript con",
     "tags": [
       "Tech"
@@ -1372,7 +1372,7 @@ const posts = [
   {
     "date": "February 23, 2026",
     "category": "Tech",
-    "title": "02 23 Openclaw Heal Script",
+    "title": "OpenClaw Heal Script: Self-Healing Infrastructure",
     "excerpt": "The script is a ~1000 line bash script that handles the entire lifecycle of an OpenClaw deployment:",
     "tags": [
       "Tech"
@@ -1382,7 +1382,7 @@ const posts = [
   {
     "date": "February 23, 2026",
     "category": "Tech",
-    "title": "02 23 Tech Roundup",
+    "title": "Tech Roundup",
     "excerpt": "# \ud83d\udd25 The Ultimate Tech Roundup: AI, System Design & More\n\nWelcome to this week's tech curation! If yo",
     "tags": [
       "Tech"
@@ -1392,7 +1392,7 @@ const posts = [
   {
     "date": "February 22, 2026",
     "category": "Tech",
-    "title": "02 22 Clawsync Backup System",
+    "title": "Building an Automated Backup System for OpenClaw",
     "excerpt": "I've been meaning to sort out the backup system for OpenClaw for a while. This week I finally cleane",
     "tags": [
       "Tech"
@@ -1402,7 +1402,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Ai Secret Daily",
+    "title": "Apple's AI Wearables, Grok Takes on Lovable, Google I/O Dates",
     "excerpt": "Apple is reportedly planning AI-powered smart glasses, a wearable pendant, and camera-equipped AirPo",
     "tags": [
       "Tech"
@@ -1412,7 +1412,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Apple Anthropic",
+    "title": "Apple's AI Wearables + Anthropic's $380B Valuation",
     "excerpt": "Two big stories dropped this week that signal where AI is heading: Apple is getting into AI hardware",
     "tags": [
       "Tech"
@@ -1422,7 +1422,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Claude Code Projects",
+    "title": "8 Insane Claude Code Projects You Need to Know",
     "excerpt": "I recently came across a list of hot Claude Code projects gaining massive traction. Here's my breakd",
     "tags": [
       "Tech"
@@ -1432,7 +1432,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Lex Fridman Openclaw",
+    "title": "Lex Fridman Podcast: OpenClaw with Peter Steinberger",
     "excerpt": "Lex Fridman just dropped a new podcast with Peter Steinberger, the creator of OpenClaw. If you want ",
     "tags": [
       "Tech"
@@ -1442,7 +1442,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Limitless Toto Nvidia",
+    "title": "The Smartest AI Investment Isn't NVIDIA: It's Japanese Toilet Maker Toto",
     "excerpt": "Toto, known for their high-tech toilets, has been quietly positioning itself in the AI chip space. T",
     "tags": [
       "Tech"
@@ -1452,7 +1452,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Mac Productivity Stack",
+    "title": "Mac Productivity Utilities: The Ultimate Stack for 2026",
     "excerpt": "I recently came across a curated list of Mac utilities and decided to research each one thoroughly. ",
     "tags": [
       "Tech"
@@ -1462,7 +1462,7 @@ const posts = [
   {
     "date": "February 21, 2026",
     "category": "Tech",
-    "title": "02 21 Openclaw Pro Tips",
+    "title": "OpenClaw Pro Tips: Get the Most Out of Your AI Agent",
     "excerpt": "OpenClaw has exploded in popularity - 160K+ GitHub stars in weeks. But most people are only scratchi",
     "tags": [
       "Tech"
@@ -1472,7 +1472,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Ai Agent 41K",
+    "title": "This AI Agent Made $41K in a Week!",
     "excerpt": "The AI agent revolution just got very real. In what might be the most significant demonstration of a",
     "tags": [
       "Tech"
@@ -1482,7 +1482,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Ai Breaking Saas",
+    "title": "How AI Is Breaking the SaaS Business Model",
     "excerpt": "Fireship is back with another must-watch breakdown: how recent AI updates are fundamentally breaking",
     "tags": [
       "Tech"
@@ -1492,7 +1492,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Ai Secret Daily",
+    "title": "AI Secret: The Daily AI News Source You Need",
     "excerpt": "If you want to stay current on AI without doomscrolling X, AI Secret is the answer. The format is cl",
     "tags": [
       "Tech"
@@ -1502,7 +1502,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Claude Code Future Coding",
+    "title": "Head of Claude Code: What Happens After Coding Is Solved",
     "excerpt": "Boris Cherny, creator and head of Claude Code at Anthropic, sat down with Lenny's Podcast to discuss",
     "tags": [
       "Tech"
@@ -1512,7 +1512,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Counterclaw Email Protection",
+    "title": "Building Email Protection for AI Agents",
     "excerpt": "One of the biggest risks with AI agents that have email access is prompt injection through emails. S",
     "tags": [
       "Tech"
@@ -1522,7 +1522,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Minimax M2 5",
+    "title": "MiniMax M2.5: The $1/Hour AI Model That's Changing Everything",
     "excerpt": "Just discovered MiniMax dropped M2.5 and it's absolutely wild. This thing is solving coding problems",
     "tags": [
       "Tech"
@@ -1532,7 +1532,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Nanoclaw Analysis",
+    "title": "NanoClaw - A Different Approach to Personal AI Assistants",
     "excerpt": "The creator makes a compelling argument that resonated with me:",
     "tags": [
       "Tech"
@@ -1542,7 +1542,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Naval On Ai",
+    "title": "Naval: On Artificial Intelligence",
     "excerpt": "Naval returns with his latest thinking on AI\u2014covering everything from \"vibe coding\" to why the hotte",
     "tags": [
       "Tech"
@@ -1552,7 +1552,7 @@ const posts = [
   {
     "date": "February 20, 2026",
     "category": "Tech",
-    "title": "02 20 Openclaw Week Honest",
+    "title": "We Used OpenClaw for a Week: The Honest Verdict",
     "excerpt": "Limitless just dropped their real-world test of OpenClaw - and it's not all glowing reviews. Here's ",
     "tags": [
       "Tech"
@@ -1562,7 +1562,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Ai Deepmind Moral",
+    "title": "Google DeepMind's Moral AI Research + More AI News",
     "excerpt": "Google DeepMind is calling for rigorous evaluation of large language models' moral reasoning capabil",
     "tags": [
       "Tech"
@@ -1572,7 +1572,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Ai Limitless",
+    "title": "This AI Agent Made $41K in a Week",
     "excerpt": "The AI landscape is evolving faster than most of us can keep up with. The latest development that's ",
     "tags": [
       "Tech"
@@ -1582,7 +1582,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Ai News Roundup",
+    "title": "AI News Roundup: DeepMind's Moral AI",
     "excerpt": "Here's what's happening in the world of AI:",
     "tags": [
       "Tech"
@@ -1592,7 +1592,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Fpl Gw27 Tips",
+    "title": "FPL Gameweek 27 Tips",
     "excerpt": "We're into GW27 and there's plenty of movement in the market. Here's the latest from Fantasy Footbal",
     "tags": [
       "Tech"
@@ -1602,7 +1602,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Prompt Guard Input",
+    "title": "Building Prompt Guard: Input Protection for AI Agents",
     "excerpt": "As AI agents become more prevalent in customer communication, protecting them from malicious inputs ",
     "tags": [
       "Tech"
@@ -1612,7 +1612,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Prompt Guard Output",
+    "title": "Prompt Guard: Output Protection - The Real Opportunity",
     "excerpt": "While everyone focuses on protecting AI from malicious inputs, the bigger opportunity is protecting ",
     "tags": [
       "Tech"
@@ -1622,7 +1622,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Prompt Guard Tests",
+    "title": "Building the Prompt Guard Test Suite",
     "excerpt": "A security skill needs rigorous testing. Here's how we built a test suite with 100+ scenarios that a",
     "tags": [
       "Tech"
@@ -1632,7 +1632,7 @@ const posts = [
   {
     "date": "February 19, 2026",
     "category": "Tech",
-    "title": "02 19 Training",
+    "title": "Full Body (Strength)",
     "excerpt": "Good return to heavier loading without aggravating the neck. Feeling stronger each week.",
     "tags": [
       "Tech"
@@ -1642,7 +1642,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Fpl Captain Strategy",
+    "title": "FPL Captain Strategy: How to Maximise Your Points",
     "excerpt": "25% of your total FPL points come from your captain. That's huge. Get it right and you're laughing. ",
     "tags": [
       "Tech"
@@ -1652,7 +1652,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Greg Isenberg Directory",
+    "title": "Claude Code Built a $273/Day Directory: The Startup Idea Goldmine",
     "excerpt": "Greg Isenberg sat down with Frey Chu to discuss building AI-coded directories \u2014 and the results are ",
     "tags": [
       "Tech"
@@ -1662,7 +1662,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Huberman Women Training",
+    "title": "The Most Effective Weight Training, Cardio & Nutrition for Women",
     "excerpt": "Dr. Lauren Colenso-Semple is an expert in the science of strength and muscle building and nutrition.",
     "tags": [
       "Tech"
@@ -1672,7 +1672,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Meta Acquires Limitless",
+    "title": "Meta Acquires Limitless AI - What This Means for the Industry",
     "excerpt": "In a move that's sending ripples through the AI industry, Meta has acquired Limitless AI \u2014 the start",
     "tags": [
       "Tech"
@@ -1682,7 +1682,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Uk Directory Niches",
+    "title": "UK Directory Niches: Startup Ideas Research",
     "excerpt": "Electricians, plumbers, locksmiths rated by location and specialty",
     "tags": [
       "Tech"
@@ -1692,7 +1692,7 @@ const posts = [
   {
     "date": "February 18, 2026",
     "category": "Tech",
-    "title": "02 18 Uk Lead Gen Deep Dive",
+    "title": "UK Lead Gen Deep Dive: Where to Make \u00a3\u00a3\u00a3",
     "excerpt": "Following the UK directory niches research, I dug deeper into which ones have active lead gen networ",
     "tags": [
       "Tech"
