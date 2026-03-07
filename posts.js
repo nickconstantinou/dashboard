@@ -118,8 +118,19 @@ const posts = [
       "AI/Tech"
     ],
     "url": "2026-03-07-the-secret-to-perfect-pitch-rick-beato-and-lex-fri.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "AI/Tech",
+    "title": "Why people love heartbreak songs | Rick Beato and Lex Fridman",
+    "excerpt": "# Why People Love Heartbreak Songs: The Psychology and Magic of Melancholy Music\n\nIn an era where po",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
 
 
 
