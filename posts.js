@@ -1,5 +1,138 @@
 const posts = [
   {
+    "date": "March 07, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-07-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Tech",
+    "title": "System Design - Performance",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-07-system-design-performance.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Tech",
+    "title": "System Design: Scalability - The Ultimate Guide",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-07-system-design-scalability-the-ultimate-guide.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Tech/Business",
+    "title": "India\u2019s Warren Buffet Shares $1M Investing Strategy | Mohnish Pabrai",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-07-indias-warren-buffet-shares-1m-investing-strategy-.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Tech/Business",
+    "title": "Mr Beast's Brutal Business Lessons",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-07-mr-beasts-brutal-business-lessons.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Tech/Business",
+    "title": "How Mr Beast Makes Millions By Cloning Himself",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-07-how-mr-beast-makes-millions-by-cloning-himself.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Crypto",
+    "title": "Anthropic Dethrones OpenAI and Breaks Records. Is ChatGPT Over?",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-07-anthropic-dethrones-openai-and-breaks-records-is-c.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Crypto",
+    "title": "Apple's Biggest AI Announcement This Week (Not MacBook Neo)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-07-apples-biggest-ai-announcement-this-week-not-macbo.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "Crypto",
+    "title": "Forget NVIDIA | This 24-Year-Old's $4.5B Bet on AI's Real Problem (Leopold Aschenbrenner)",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-07-forget-nvidia-this-24-year-olds-45b-bet-on-ais-rea.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "AI/Tech",
+    "title": "Lex Fridman on Tom Waits interview: He's a dream guest, but I've given up on it",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-07-lex-fridman-on-tom-waits-interview-hes-a-dream-gue.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "AI/Tech",
+    "title": "Why Miles Davis is one of the greatest musicians ever | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-07-why-miles-davis-is-one-of-the-greatest-musicians-e.html"
+  },
+  {
+    "date": "March 07, 2026",
+    "category": "AI/Tech",
+    "title": "The secret to perfect pitch | Rick Beato and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-07-the-secret-to-perfect-pitch-rick-beato-and-lex-fri.html"
+  }
+];
+
+
+
+
+
+
+
+
+
+
+
+onst posts = [
+  {
     "date": "March 06, 2026",
     "category": "Tech",
     "title": "Why Bach is the most influential musician ever | Rick Beato and Lex Fridman",
