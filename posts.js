@@ -120,6 +120,16 @@ const posts = [
     "url": "2026-03-10-australia-grants-asylum-to-5-members-of-iranian-wo.html"
   },
   {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Iran war stifles shipping through Hormuz: \u2018Unprecedented\u2019 fallout for oil markets & global economy",
+    "excerpt": "# Iran War Stifles Shipping Through Hormuz: 'Unprecedented' Fallout for Oil Markets & Global Economy",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-iran-war-stifles-shipping-through-hormuz-unprecede.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -250,6 +260,7 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
 
 
 
