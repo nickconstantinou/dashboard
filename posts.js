@@ -70,6 +70,26 @@ const posts = [
     "url": "2026-03-10-trump-says-iran-war-could-end-soon-but-threatens-i.html"
   },
   {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "'You can smell the explosives': Inside the Beirut subrubs targeted by Israel \u2022 FRANCE 24 English",
+    "excerpt": "# 'You Can Smell the Explosives': Inside the Beirut Suburbs Targeted by Israel\n\n## Introduction\n\nThe",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-you-can-smell-the-explosives-inside-the-beirut-sub.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "\u2018Our hopes have been crushed\u2019: Exclusive interviews from inside Iran \u2022 FRANCE 24 English",
+    "excerpt": "# 'Our Hopes Have Been Crushed': Exclusive Interviews from Inside Iran\n\n## A FRANCE 24 Report on Civ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-our-hopes-have-been-crushed-exclusive-interviews-f.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -200,6 +220,8 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
+
 
 
 
