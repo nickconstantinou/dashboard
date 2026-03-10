@@ -90,6 +90,36 @@ const posts = [
     "url": "2026-03-10-our-hopes-have-been-crushed-exclusive-interviews-f.html"
   },
   {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Trump says will waive some oil sanctions after talks with Putin \u2022 FRANCE 24 English",
+    "excerpt": "# Trump Signals Willingness to Waive Oil Sanctions Following Talks with Putin\n\n## Introduction\n\nIn a",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-trump-says-will-waive-some-oil-sanctions-after-tal.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "UNESCO sounds alarm over war threat to Middle East's heritage sites \u2022 FRANCE 24 English",
+    "excerpt": "# UNESCO Sounds Alarm Over War Threat to Middle East's Heritage Sites\n\n## Introduction\n\nThe escalati",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-unesco-sounds-alarm-over-war-threat-to-middle-east.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Australia grants asylum to 5 members of Iranian women's football team \u2022 FRANCE 24 English",
+    "excerpt": "# Australia Grants Asylum to Five Members of Iran's Women's Football Team\n\n## Introduction\n\nIn a dev",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-australia-grants-asylum-to-5-members-of-iranian-wo.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -220,6 +250,9 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
+
+
 
 
 
