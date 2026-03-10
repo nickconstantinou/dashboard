@@ -86,29 +86,40 @@
     
     <script src="posts.js"></script>
     <script>
-        try {
+        (function() {
             var container = document.getElementById('posts-container');
             var blogCard = document.getElementById('blog-card');
             var blogCount = document.getElementById('blog-count');
             
-            if (typeof posts === 'undefined' || !posts || posts.length === 0) {
-                container.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px;">No posts found. Check console for errors.</p>';
-                blogCard.href = 'index.html';
-            } else {
-                blogCount.textContent = posts.length + ' POSTS';
-                var recentPosts = posts.slice(0, 20);
-                var html = '';
-                for (var i = 0; i < recentPosts.length; i++) {
-                    var p = recentPosts[i];
-                    var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '') + '...' : '';
-                    html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
-                }
-                container.innerHTML = html;
+            console.log('posts var:', typeof posts, posts);
+            
+            if (typeof posts === 'undefined') {
+                container.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px;">posts.js not loaded</p>';
+                return;
             }
-        } catch(e) {
-            console.error('Error loading posts:', e);
-            document.getElementById('posts-container').innerHTML = '<p style="color:red;text-align:center;padding:40px;">Error: ' + e.message + '</p>';
-        }
+            
+            if (!Array.isArray(posts)) {
+                container.innerHTML = '<p style="color:red;text-align:center;padding:40px;">posts is not an array: ' + typeof posts + '</p>';
+                console.error('posts is not an array:', posts);
+                return;
+            }
+            
+            if (posts.length === 0) {
+                container.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px;">No posts found</p>';
+                blogCard.href = 'index.html';
+                return;
+            }
+            
+            blogCount.textContent = posts.length + ' POSTS';
+            var recentPosts = posts.slice(0, 20);
+            var html = '';
+            for (var i = 0; i < recentPosts.length; i++) {
+                var p = recentPosts[i];
+                var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '') + '...' : '';
+                html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
+            }
+            container.innerHTML = html;
+        })();
     </script>
 </body>
 </html>
