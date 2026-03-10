@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Someone Almost Rewrote Bitcoin in 17 Hours | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    <article>
+      <p class="meta">2026-03-10 • Crypto</p>
+      <h1>Someone Almost Rewrote Bitcoin in 17 Hours</h1>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/VXNZjAsF_9c" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Someone Almost Rewrote Bitcoin in 17 Hours</h1>
+
+<h2>The $5.29 Billion Proposal That Shook Crypto's Foundation</h2>
+
+<p>On February 27, 2026, the Bitcoin community witnessed what can only be described as a governance stress test of unprecedented scale. Former Mt. Gox CEO Mark Capellis published a controversial pull request on the Bitcoin Core GitHub repository, proposing a hard fork to recover approximately 69,369 BTC—worth roughly $5.29 billion at current prices—from one of the most infamous wallets in cryptocurrency history. The proposal sought to bypass Bitcoin's fundamental cryptographic rules by implementing a recovery signature that would override the original private key, effectively allowing those specific coins to be spent despite being locked for fifteen years.</p>
+
+<p>The proposal was automatically closed by GitHub within roughly seventeen hours, dismissed as spam. Yet the incident has ignited fierce debate within the cryptocurrency community about the true nature of Bitcoin's immutability, the growing influence of institutional capital, and whether the "digital gold" thesis remains viable in an era of ETF-dominated markets. The presenter, Lewis of the Coin Bureau, frames this as a pivotal moment that reveals hidden vulnerabilities in Bitcoin's social consensus model—vulnerabilities that may prove far more dangerous than any technical flaw in the code itself.</p>
+
+<p>This incident deserves close attention from anyone invested in cryptocurrency because it represents the first time a credible figure has formally attempted to rewrite Bitcoin's ledger for recovery purposes, while simultaneously exposing how the introduction of spot ETFs has fundamentally altered the network's governance dynamics. The implications extend far beyond this single proposal.</p>
+
+<p>---</p>
+
+<h2>The Mt. Gox Legacy and the 1FEX Wallet</h2>
+
+<p>To understand the gravity of this proposal, one must first appreciate the historical significance of the wallet in question. Known as 1FEX, this address has held approximately 69,369 BTC since March 1, 2011, when the coins were stolen during a compromise of Mt. Gox's internal systems. For fifteen years, these funds have sat completely dormant—effectively frozen in plain sight because the private keys are either lost or held by the original attacker. The coins represent the largest single cache of stolen Bitcoin still intact, a perpetual reminder of one of the industry's most devastating security breaches.</p>
+
+<p>Mt. Gox, once the world's largest Bitcoin exchange, collapsed in 2014 after revealing that approximately 850,000 BTC had been stolen over years of security failures. The collapse devastated thousands of creditors and fundamentally scarred the industry's reputation. After years of legal proceedings, creditors have been gradually repaid, but the 1FEX wallet has remained perpetually out of reach—until Capellis proposed otherwise.</p>
+
+<p>The technical mechanism Capellis proposed was surprisingly elegant in its simplicity. The patch consisted of fewer than fifty lines of code that would implement a consensus rule change allowing those specific coins to be spent using a new designated recovery signature. This represented a direct proposal to override Bitcoin's cryptographic foundations—not through a formal Bitcoin Improvement Proposal (BIP), but through a direct pull request to the Bitcoin Core repository. The implications of such an exception, even if well-intentioned, could fundamentally alter how we understand the blockchain's immutability.</p>
+
+<p>---</p>
+
+<h2>The Doom Loop of Contentious Hard Forks</h2>
+
+<p>Lewis explains that the true danger of such a proposal lies not in its technical implementation, but in the "doom loop" that would inevitably follow any attempt to implement it. When a contentious hard fork gains traction, it requires near-unanimous agreement from miners, node operators, and exchanges—parties with wildly divergent interests and incentives. If even a significant minority refuses to adopt the rule change, the network fractures into what is known as a chain split.</p>
+
+<p>The mechanics of such a split are devastatingly predictable. When a split appears imminent, the first action major exchanges take is to freeze deposits and withdrawals to prevent replay attacks, where transactions on one chain could be replayed on the other. This freezing triggers market makers to pull their liquidity immediately, causing order books to thin by eighty to ninety percent. With depth evaporated, the derivatives market implodes as leverage positions become impossible to manage. The resulting cascade of forced liquidations and panic selling creates what Lewis describes as "a self-reinforcing machine of absolute carnage."</p>
+
+<p>The crypto market of 2026, Lewis argues, is far more vulnerable to such an event than the market of 2017 or 2018, when the Bitcoin Cash split and subsequent hash wars demonstrated the destructive potential of contentious forks. Today's market is vastly more leveraged and interconnected, with derivative products and algorithmic trading strategies that would amplify any disruption exponentially. The presenter points to the flash crash of February 5, 2026, when Bitcoin briefly touched $60,000 and triggered $2.67 billion in liquidations in a single day—describing this as merely "a macroeconomic shakeout" compared to what a contentious hard fork would produce.</p>
+
+<p>---</p>
+
+<h2>The Rapid Rejection and What It Masks</h2>
+
+<p>Perhaps the most striking aspect of this entire episode is how quickly the proposal was rejected. GitHub automatically closed the pull request within seventeen hours, classifying it as spam. Prominent Bitcoin Core contributors including Matt Coralo and Peter Woola quickly pointed out that GitHub wasn't even the appropriate forum for such a proposal—Capellis hadn't submitted a formal Bitcoin Improvement Proposal, the standard mechanism for proposing protocol changes.</p>
+
+<p>Lewis suggests, however, that this rapid rejection masks a more troubling reality. The immediate threat may be over, but the vulnerability exposed is "absolutely real." The fact that a one-time exception was seriously drafted for a $5.2 billion honeypot demonstrates that the temptation to rewrite history, however well-intended, will never truly go away. Each future crisis involving significant trapped funds will face the same temptation.</p>
+
+<p>There's also historical precedent suggesting that such a recovery fork could technically succeed. In July 2016, the Ethereum network hard forked to recover approximately $50 to $60 million stolen in the infamous DAO attack. Ethereum survived the fork and continued operating, while Ethereum Classic emerged as the non-recovered chain. The sky did not fall. Lewis argues this proves the social consensus mechanism can work—when the community overwhelmingly rejects a change, it fails. But it also proves that when the community accepts such a change, the chain simply continues.</p>
+
+<p>---</p>
+
+<h2>The Institutional Kingmakers: How ETFs Changed Everything</h2>
+
+<p>Perhaps the most significant revelation in this analysis concerns the role of institutional capital in Bitcoin governance. Since the launch of US spot Bitcoin ETFs in early 2024, the plumbing of Bitcoin has become deeply entangled with Wall Street. BlackRock's IBIT alone holds over $50.15 billion in Bitcoin, representing roughly fifty-six percent of the entire US spot ETF market. Combined with similar products from Fidelity and Bitwise, these ETFs now represent an enormous voting bloc in any future governance dispute.</p>
+
+<p>Lewis draws attention to language buried in the legal prospectuses of these ETFs. The IBIT prospectus states that "in the event of a hard fork, the sponsor shall determine which network shall constitute the Bitcoin network." The sponsor, of course, is BlackRock. Fidelity and Bitwise have similar discretionary language in their filings. This means that in a contentious fork scenario, it isn't the miners or node operators who ultimately decide the winner anymore—it's Larry Fink and his team at BlackRock.</p>
+
+<p>If BlackRock declares that a forked chain represents the "real" Bitcoin, fifty billion dollars in institutional capital instantly follows that decision. Lewis argues this "fundamentally breaks the decentralized consensus model" that Bitcoin was designed to operate under. The network that was supposed to be immune to central authority has quietly ceded governance power to traditional finance institutions whose primary obligation is to their shareholders, not to the ideological foundations of cryptocurrency.</p>
+
+<p>---</p>
+
+<h2>The Legal Shield at Risk</h2>
+
+<p>Beyond the governance implications, Lewis raises a crucial point about the legal architecture surrounding Bitcoin. In November 2024, a US appeals court ruled that Tornado Cash smart contracts could not be sanctioned by OFAC because they were immutable—no one could alter the code, and therefore it couldn't be classified as controllable property. Immutability, Lewis emphasizes, is literally Bitcoin's legal defense against government seizure.</p>
+
+<p>If the Bitcoin community proves that it can rewrite the ledger to recover funds for Mt. Gox creditors, regulators will immediately demand the exact same treatment for sanctioned addresses. The precedent would be catastrophic for the "digital gold" thesis, which relies entirely on the premise that no CEO, no developer, and no government can change the rules. Once that illusion is shattered, institutional capital will flee—and the presenter notes that we're already seeing how skittish this capital can be, with US spot ETFs suffering approximately $6.39 billion in outflows over the last few months.</p>
+
+<p>---</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The proposal was poorly executed but the temptation remains.</strong> Capellis submitted his recovery patch to the wrong forum, failed to follow proper governance procedures, and was rejected within seventeen hours. However, the existence of a $5.29 billion pool of recoverable funds means this exact scenario will be proposed again. The community held the line this time, but future crises involving large trapped funds will face the same temptation.</p>
+
+<p><strong>Institutional ETF holders now control Bitcoin's governance destiny.</strong> With $50 billion in Bitcoin held by BlackRock alone, and explicit language in ETF prospectuses giving sponsors discretion to determine which chain represents "Bitcoin" in a fork, traditional finance institutions have become the ultimate kingmakers. This fundamentally alters the decentralization premise that underlies Bitcoin's value proposition.</p>
+
+<p><strong>Immutability serves as both technical feature and legal defense.</strong> The Tornado Cash ruling demonstrated that immutable code cannot be classified as controllable property. A successful recovery fork would destroy this legal shield, potentially exposing Bitcoin to regulatory seizure powers it has thus far avoided. This creates powerful incentives for the community to resist any precedent-setting fork.</p>
+
+<p><strong>The doom loop of hard forks is more dangerous in 2026 than ever before.</strong> The February 2026 flash crash, triggering $2.67 billion in liquidations from a relatively minor event, demonstrates how leveraged and fragile the modern crypto market has become. A contentious hard fork would create a liquidity vacuum that would make this look like a minor dip.</p>
+
+<p><strong>Social consensus, not code, determines Bitcoin's fate.</strong> Lewis concludes that Bitcoin is only as immutable as its community wants it to be. The technical robustness remains intact, but the psychological damage of realizing how fragile social consensus can be is profound. This incident revealed that what was thought to be absolute immutability is actually contingent on human agreement—which can be tested again.</p>
+
+<p>---</p>
+
+<h2>Who This Is For</h2>
+
+<p>This analysis is essential reading for anyone holding Bitcoin or other cryptocurrencies, particularly those who have allocated capital through spot ETFs. Institutional investors and asset managers should pay close attention to the governance implications discussed, as the ETF prospectus language represents a material risk factor that could affect their holdings in a contentious fork scenario.</p>
+
+<p>Cryptocurrency developers and protocol researchers will find value in the detailed discussion of hard fork mechanics and the doom loop phenomenon. The analysis provides a framework for understanding how future governance disputes might unfold and what conditions could trigger catastrophic network splits.</p>
+
+<p>Finally, anyone interested in the intersection of traditional finance and cryptocurrency should understand how the ETF structural changes have quietly transferred enormous governance power to Wall Street institutions. This represents one of the most significant shifts in Bitcoin's thirteen-year history, and its implications are still being digested by the broader community.</p>
+
+<p>The video ultimately serves as a cautionary tale: Bitcoin's immutability is not a technical guarantee but a social contract, and that contract is only as strong as the community's willingness to defend it—which may be tested again sooner than many expect.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

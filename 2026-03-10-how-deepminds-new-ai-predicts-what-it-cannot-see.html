@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How DeepMind’s New AI Predicts What It Cannot See | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <a href="index.html" class="back-link">← Back to Blog</a>
+    <article>
+      <p class="meta">2026-03-10 • AI</p>
+      <h1>How DeepMind’s New AI Predicts What It Cannot See</h1>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/ssbHkYB0jYM" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>How DeepMind's New AI Predicts What It Cannot See</h1>
+
+<h2>Introduction</h2>
+
+<p>In the rapidly evolving landscape of artificial intelligence research, few developments capture the imagination quite like systems that can reconstruct the physical world from mere observations. Dr. Károly Zsolnai-Fehér, host of the popular YouTube channel "Two Minute Papers," has long been renowned for making complex AI research accessible to curious audiences. In this episode, he unpacks a groundbreaking paper from Google DeepMind that tackles one of computer vision's most challenging problems: creating a complete 4D reconstruction of dynamic scenes from ordinary video footage.</p>
+
+<p>The research represents what Zsolnai-Fehér describes as something that "sounds like science fiction" — a system capable of taking any video of a scene and producing a virtual, interactive representation where objects can move freely through space and time. Unlike the fictional dimensional mechanics of games like Miegakure, this technology operates entirely within our familiar three spatial dimensions plus the dimension of time, making it not just conceptually possible but practically revolutionary. The implications extend far beyond academic curiosity: everything from video game development to autonomous vehicles could benefit from systems that can understand and predict scene dynamics with this level of sophistication.</p>
+
+<p>What makes this particular development noteworthy is not merely its technical achievement but the elegant simplicity of its approach. Previous methods for achieving similar 4D reconstruction required stitching together multiple specialized AI systems — one for depth estimation, another for motion tracking, and yet another for understanding camera positions. The new technique, called D4RT (pronounced "dart"), accomplishes all of this with a single unified transformer architecture, achieving speeds up to 300 times faster than existing approaches while handling the notoriously difficult problem of tracking objects through occlusion.</p>
+
+<h2>Key Concepts and Arguments</h2>
+
+<h3>Understanding 4D Reconstruction</h3>
+
+<p>At its core, 4D reconstruction refers to the process of capturing a scene in three spatial dimensions while simultaneously tracking how everything changes over time. This means creating a digital twin of reality where not only the shapes and positions of objects are known, but their complete motion trajectories are understood as well. The practical applications are staggering: imagine being able to rewind a recorded scene and view it from any angle, or to predict where a moving object will be milliseconds into the future.</p>
+
+<p>Zsolnai-Fehér expresses his continuing amazement at the fundamental capability underlying all this work: the ability of AI systems to look at a flat, two-dimensional photograph and intuitively understand the three-dimensional world it represents. "I am always fascinated by the fact that an AI can look at a 2D photograph and understand the underlying spatial reality," he notes. "This is just a bunch of numbers for them, yet they understand what is close and what is far away." He draws a striking comparison between artificial neural networks and the evolutionary development of human spatial reasoning, pointing out that humans have had millions of years of evolution to develop depth perception, while these systems are relatively recent creations — "a bunch of sand that learned to think."</p>
+
+<h3>The Problem with Previous Approaches</h3>
+
+<p>Before D4RT, achieving 4D reconstruction required what Zsolnai-Fehér colorfully describes as an "abomination" — a Frankenstein assembly of multiple specialized models glued together. Researchers would need separate AI systems for depth estimation, motion tracking, and camera pose determination, each trained on different data and optimized for different objectives. The real challenge came during deployment, where a technique called "test-time optimization" forced these disparate systems to negotiate with each other, with the computer "sitting there sweating for minutes, trying to make the different models agree with each other so the geometry doesn't fall apart."</p>
+
+<p>This approach was not only computationally expensive but conceptually fragmented. When a scene contained rapidly moving objects or complex interactions — such as the dynamic judo sequences demonstrated in the paper — these multi-model systems would struggle to maintain coherent geometry. Objects might ghost or leave artifacts as they moved, and any gaps in observation due to occlusion would result in incomplete, hole-ridden reconstructions. The fundamental issue was that each component model operated in isolation, without a unified understanding of the scene's complete spatiotemporal structure.</p>
+
+<h3>How D4RT Works: The Encoder-Decoder Architecture</h3>
+
+<p>D4RT represents a paradigm shift by consolidating all these capabilities into a single transformer-based architecture. Zsolnai-Fehér employs a memorable analogy to explain the system: building IKEA furniture where the cabinet keeps running away. The encoder acts as a "master carpenter" that observes the entire video from start to finish, developing what researchers call a "global scene representation" — understanding both the past and present state of everything in the scene.</p>
+
+<p>The decoder functions as what Zsolnai-Fehér describes as "magic elves," small query-based units that can be dispatched to reconstruct specific points at specific times. The key innovation lies in how these elves work: rather than attempting to construct the entire cabinet (scene) simultaneously — which would be computationally heavy and slow — the system simply points to a location and asks: "Where is this specific point at timestamp 10?" The elf then retrieves the relevant information and "zaps" that point into existence.</p>
+
+<p>This query-based approach provides remarkable flexibility. As Zsolnai-Fehér emphasizes, "Elves don't need to talk to each other. Oh yes, finally!" This means the technique is completely parallelizable — whether you have 10 elves or 1,000,000 elves working simultaneously, the system scales efficiently. This architectural choice explains the dramatic speed improvements, with D4RT running up to 300 times faster than previous methods depending on what it's compared against.</p>
+
+<h3>Handling Occlusion: The Cabinet That Hides</h3>
+
+<p>Perhaps the most impressive capability of D4RT is its ability to track points through occlusion — that is, to accurately predict where objects are even when they disappear from view. In a normal 3D scan, if a camera cannot see a particular object or object part, the computer simply gives up, leaving "a giant hole in your geometry. Total disaster."</p>
+
+<p>D4RT solves this by having the master carpenter (encoder) watch the entire video before reconstruction begins. When a point disappears behind another object, the system doesn't panic. As Zsolnai-Fehér explains through his elaborate analogy: "The wise carpenter smiles and says: 'Relax. I saw that screw five seconds ago, and I see it pop out the other side five seconds later. Based on that, right now, it is hiding... exactly here!'" The system makes educated guesses about occluded positions based on what it has observed before and will observe afterward, essentially filling in the gaps in its understanding of the scene's temporal continuity.</p>
+
+<h3>The Resolution Enhancement Trick</h3>
+
+<p>An additional innovation pushes the system's capabilities even further. The decoder "elves" inherently see the scene in a somewhat blurry manner — they have "terrible eyesight," as Zsolnai-Fehér puts it. Rather than accepting this limitation, researchers fed the original high-resolution video pixels back into the decoder alongside the learned representations. This allows the system to reconstruct details finer than what its own internal "brain" would normally permit. The technique essentially gives the elves "magic glasses" by providing them with direct access to the source material, enabling unprecedented detail in the final reconstruction.</p>
+
+<h3>Trade-offs: Why Point Clouds Aren't Everything</h3>
+
+<p>Despite these remarkable capabilities, Zsolnai-Fehér carefully outlines three significant limitations of the D4RT approach. First, because the output is a point cloud — essentially just a collection of dots in space — the data is what he calls "unintelligent." You cannot directly 3D print the result or use it for physics simulations without an additional meshing step to convert the points into connected surfaces.</p>
+
+<p>Second, the system is not designed for visual beauty. While 3D meshes and Gaussian Splats (an alternative rendering technique) excel at producing photorealistic reflections and appearances, D4RT focuses strictly on geometric accuracy. It captures where things are and how they move, not necessarily how they should look.</p>
+
+<p>Third, the lack of structured faces (which meshes provide) makes the output poorly suited for editing. You cannot easily import a D4RT point cloud into Blender and sculpt it like digital clay — the representation simply doesn't support those operations. For these visual and interactive applications, traditional meshes and splatting techniques remain superior.</p>
+
+<h3>The Life Lesson in Parallel Processing</h3>
+
+<p>In a charming departure from pure technical discussion, Zsolnai-Fehér draws a broader life lesson from the technical architecture. The elves don't need to communicate with each other, and this is precisely what makes the system so fast. He reflects: "Sometimes collaboration has a tax. Sometimes instead you need to create a few hours of zero-communication deep work blocks where you are unreachable. Whenever I do that, I am often surprised by how much I can get done in little time." This insight about the value of independent, parallel work extends beyond computer vision into productivity and workflow optimization.</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The unification of multiple AI tasks into a single architecture represents a major trend in computer vision.</strong> D4RT's achievement of combining depth estimation, motion tracking, and camera pose recovery into one transformer is not merely an engineering convenience — it reflects a deeper principle that unified models often outperform systems of specialized components. The system doesn't need to spend computational resources negotiating between separate models, and it develops a more holistic understanding of scenes. This suggests that future AI systems may increasingly move away from modular pipelines toward comprehensive, end-to-end solutions.</p>
+
+<p><strong>Parallelizable query-based processing enables dramatic speed improvements.</strong> The 300x speedup achieved by D4RT relative to previous methods isn't just about better algorithms — it's about fundamentally different computational architecture. By allowing independent queries to run simultaneously without synchronization overhead, the system can scale across many processing units. This principle has implications far beyond 4D reconstruction: any task that can be decomposed into independent subtasks might benefit from similar query-based, parallel approaches.</p>
+
+<p><strong>Temporal context is essential for handling incomplete information.</strong> The system's ability to track through occlusion demonstrates that understanding the full context of a scene — its past and future states — provides crucial information for interpreting present observations. This mirrors human cognition: we can predict where a ball will emerge from behind a wall because we saw it enter and understand the physics of motion. AI systems that consider temporal sequences rather than static snapshots will likely prove more robust in real-world applications.</p>
+
+<p><strong>Reconstruction quality and rendering quality are different problems requiring different solutions.</strong> D4RT excels at geometric accuracy but intentionally sacrifices visual fidelity. This distinction matters practically: if you need photorealistic renderings for movies or games, Gaussian Splats and meshes remain superior. If you need precise measurements, motion tracking, or scene understanding for robotics or analysis, D4RT's point cloud approach may be ideal. Understanding which type of output a given application requires is crucial for selecting the right tool.</p>
+
+<p><strong>Direct access to source data can enhance learned representations.</strong> The technique of feeding high-resolution video back into the decoder demonstrates that learned representations don't exist in isolation. By combining the neural network's understanding with direct pixel access, the system achieves detail levels beyond what its internal representations alone would permit. This hybrid approach — combining learned priors with direct data access — may prove valuable in other domains where fine-grained detail matters.</p>
+
+<h2>Who This Is For</h2>
+
+<p>This content proves most valuable for several distinct audiences. Technology enthusiasts and AI researchers will appreciate the accessible yet technically accurate explanation of cutting-edge computer vision research, gaining insight into current directions in 4D scene understanding without needing to wade through academic papers. Game developers, visual effects artists, and anyone working in 3D content creation will find the discussion of reconstruction techniques directly relevant to their work, particularly the nuanced comparison between point clouds, meshes, and Gaussian splatting approaches.</p>
+
+<p>Students studying computer science, machine learning, or computer vision will benefit from seeing how complex research gets translated into understandable concepts, along with the architectural principles that make such systems work. Perhaps most broadly, anyone curious about the frontiers of artificial intelligence and wondering "what's next" will find this episode satisfying — it demonstrates that despite the systems we have today, genuinely surprising capabilities continue to emerge from research laboratories.</p>
+
+<p>The ultimate value lies in understanding not just what this technology can do, but how it achieves it — and recognizing that the principles underlying D4RT, particularly the power of unified models, temporal context, and parallel processing, will likely shape AI development for years to come.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

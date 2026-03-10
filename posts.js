@@ -130,6 +130,156 @@ const posts = [
     "url": "2026-03-10-iran-war-stifles-shipping-through-hormuz-unprecede.html"
   },
   {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "Apple Studio Display XDR Review: We're All Pros Now!",
+    "excerpt": "# Apple Studio Display XDR Review: We're All Pros Now!\n\n## A Comprehensive Analysis of Apple's New F",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-apple-studio-display-xdr-review-were-all-pros-now.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "Samsung Galaxy S26 Ultra Review: There's a Catch",
+    "excerpt": "# Samsung Galaxy S26 Ultra Review: There's a Catch\n\n## A Comprehensive Analysis of Samsung's Latest ",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-samsung-galaxy-s26-ultra-review-theres-a-catch.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "Macbook Neo Impressions: Reincarnated!",
+    "excerpt": "# MacBook Neo Impressions: Reincarnated!\n\n## Apple's New $599 Laptop Aims to Dominate Education Mark",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-macbook-neo-impressions-reincarnated.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "AI",
+    "title": "NVIDIA\u2019s New AI Just Cracked The Hardest Part Of Self Driving",
+    "excerpt": "# NVIDIA's New AI Just Cracked The Hardest Part Of Self-Driving\n\n## Introduction\n\nThe race toward fu",
+    "tags": [
+      "AI"
+    ],
+    "url": "2026-03-10-nvidias-new-ai-just-cracked-the-hardest-part-of-se.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "AI",
+    "title": "The Physics Bug That Stumped Everyone Is Finally Gone!",
+    "excerpt": "# The Physics Bug That Stumped Everyone Is Finally Gone!\n\n## A Breakthrough in Fluid Simulation That",
+    "tags": [
+      "AI"
+    ],
+    "url": "2026-03-10-the-physics-bug-that-stumped-everyone-is-finally-g.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "AI",
+    "title": "How DeepMind\u2019s New AI Predicts What It Cannot See",
+    "excerpt": "# How DeepMind's New AI Predicts What It Cannot See\n\n## Introduction\n\nIn the rapidly evolving landsc",
+    "tags": [
+      "AI"
+    ],
+    "url": "2026-03-10-how-deepminds-new-ai-predicts-what-it-cannot-see.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "Tech Upgrades Where Are They Now - David Gauthier",
+    "excerpt": "# The Future of 4D Scene Reconstruction: Inside Google DeepMind's Revolutionary D4RT System\n\n## Intr",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-tech-upgrades-where-are-they-now-david-gauthier.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "TikTok Tech Tips are TERRIBLE",
+    "excerpt": "# TikTok Tech Tips are TERRIBLE: A Deep Dive into False Viral Tech Advice\n\nIn an era where TikTok ha",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-tiktok-tech-tips-are-terrible.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech",
+    "title": "I said YES to every Bloatware Pop-up",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-10-i-said-yes-to-every-bloatware-pop-up.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Europe\u2019s borders under threat from Russia: Baltic states gear up for war \u2022 FRANCE 24 English",
+    "excerpt": "# Europe's Borders Under Threat from Russia: Baltic States Gear Up for War\n\n## A Comprehensive Repor",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-europes-borders-under-threat-from-russia-baltic-st.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Israel's Netanyahu warns 'we are not done yet' in Iran in break with Trump \u2022 FRANCE 24 English",
+    "excerpt": "# Israel's Netanyahu Warns 'We Are Not Done Yet' in Iran, Signals Prolonged Conflict While Public Su",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-israels-netanyahu-warns-we-are-not-done-yet-in-ira.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "REPLAY: Pentagon chief Hegseth says Iran 'badly losing', strikes to intensify \u2022 FRANCE 24 English",
+    "excerpt": "# Pentagon Chief Hegseth Declares Iran \"Badly Losing\" as Operation Epic Fury Enters Day 11 With Inte",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-replay-pentagon-chief-hegseth-says-iran-badly-losi.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Crypto",
+    "title": "95% of New ETH Wallets Are Scams",
+    "excerpt": "# 95% of New ETH Wallets Are Scams: Inside the Bearish Case Against Ethereum\n\n## Introduction\n\nThe c",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-10-95-of-new-eth-wallets-are-scams.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Crypto",
+    "title": "Someone Almost Rewrote Bitcoin in 17 Hours",
+    "excerpt": "# Someone Almost Rewrote Bitcoin in 17 Hours\n\n## The $5.29 Billion Proposal That Shook Crypto's Foun",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-10-someone-almost-rewrote-bitcoin-in-17-hours.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Crypto",
+    "title": "$150 Billion Is Coming For Crypto",
+    "excerpt": "# $150 Billion Is Coming For Crypto: How Tax Refunds Could Reshape the Market\n\n## Introduction\n\nThe ",
+    "tags": [
+      "Crypto"
+    ],
+    "url": "2026-03-10-150-billion-is-coming-for-crypto.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -260,6 +410,21 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
