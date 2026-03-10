@@ -280,6 +280,36 @@ const posts = [
     "url": "2026-03-10-150-billion-is-coming-for-crypto.html"
   },
   {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "The Louvre heist: Security flaws and deeper cracks at France\u2019s top museum \u2022 FRANCE 24 English",
+    "excerpt": "# The Louvre Heist: Security Flaws and Deeper Cracks at France's Top Museum\n\n## An Investigation int",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-the-louvre-heist-security-flaws-and-deeper-cracks-.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Why are ships linked to China getting through the Strait of Hormuz? \u2022 FRANCE 24 English",
+    "excerpt": "# Why Are Ships Linked to China Getting Through the Strait of Hormuz?\n\n## The Mystery of the KLS Han",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-why-are-ships-linked-to-china-getting-through-the-.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "'Real fear' among ordinary Iranians at prospect of Trump deal with regime \u2022 FRANCE 24 English",
+    "excerpt": "# 'Real Fear' Among Ordinary Iranians at Prospect of Trump Deal with Regime\n\n## An Inside Look at Ho",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-real-fear-among-ordinary-iranians-at-prospect-of-t.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -410,6 +440,9 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
+
+
 
 
 
