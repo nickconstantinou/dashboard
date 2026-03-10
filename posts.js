@@ -1,5 +1,75 @@
 const posts = [
   {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "3 Tells Your Teen Will Be A Millionaire | Mohnish Pabrai",
+    "excerpt": "# The Three Tells That Predict Whether Your Teen Will Become a Millionaire\n\n## An Inside Look at Wha",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-3-tells-your-teen-will-be-a-millionaire-mohnish-pa.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "India's Warren Buffet Shares All You Need to Know About Investing",
+    "excerpt": "# India's Warren Buffett Shares All You Need to Know About Investing\n\n## Introduction\n\nIn the world ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-indias-warren-buffet-shares-all-you-need-to-know-a.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "AI/Tech",
+    "title": "How The Beatles had so many | Rick Beato and Lex Fridman",
+    "excerpt": "# How The Beatles Had So Many Great Songs: Rick Beato and Lex Fridman on Musical Genius and Producti",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-10-how-the-beatles-had-so-many-rick-beato-and-lex-fri.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "AI/Tech",
+    "title": "Is AI destroying music? | Rick Beato and Lex Fridman",
+    "excerpt": "# Is AI Destroying Music? Rick Beato and Lex Fridman Debate the Future of AI-Generated Music\n\n## Int",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-10-is-ai-destroying-music-rick-beato-and-lex-fridman.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Trump's mixed messages on Iran: 'Still unclear what US wants to achieve' \u2022 FRANCE 24 English",
+    "excerpt": "# Trump's Mixed Messages on Iran: 'Still Unclear What US Wants to Achieve'\n\n## Introduction\n\nIn the ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-trumps-mixed-messages-on-iran-still-unclear-what-u.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Oil prices fall, stocks rise as Trump says military goals \u2018pretty well complete\u2019 \u2022 FRANCE 24",
+    "excerpt": "# Oil Prices Slide as Trump Signals Progress in Iran Conflict; Venezuela Opens Mining Sector to Fore",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-oil-prices-fall-stocks-rise-as-trump-says-military.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Trump says Iran war could end 'soon', but threatens Iran over oil disruption \u2022 FRANCE 24 English",
+    "excerpt": "# Trump Says Iran War Could End 'Soon,' But Threatens Tehran Over Oil Disruption\n\n## Introduction\n\nI",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-trump-says-iran-war-could-end-soon-but-threatens-i.html"
+  },
+  {
     "date": "March 07, 2026",
     "category": "Tech",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
@@ -130,6 +200,13 @@ const posts = [
     "url": "2026-03-07-why-people-love-heartbreak-songs-rick-beato-and-le.html"
   }
 ];
+
+
+
+
+
+
+
 
 
 
