@@ -79,27 +79,41 @@
         </footer>
     </div>
     
-    <script src="posts.js"></script>
     <script>
-        (function() {
-            var container = document.getElementById('posts-container');
-            var blogCount = document.getElementById('blog-count');
+        fetch('posts.js?t=' + Date.now()).then(r => r.text()).then(code => {
+            const container = document.getElementById('posts-container');
+            const blogCount = document.getElementById('blog-count');
             
-            if (typeof posts === 'undefined' || !Array.isArray(posts) || posts.length === 0) {
-                container.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px;">Loading posts...</p>';
-                return;
+            try {
+                // Extract array from "var posts = [...]" or "const posts = [...]"
+                const match = code.match(/(?:var|const) posts = (\[[\s\S]*\]);?/);
+                if (!match) {
+                    container.innerHTML = '<p>Could not parse posts</p>';
+                    return;
+                }
+                const posts = JSON.parse(match[1]);
+                
+                if (!Array.isArray(posts) || posts.length === 0) {
+                    container.innerHTML = '<p>No posts found</p>';
+                    return;
+                }
+                
+                blogCount.textContent = posts.length + ' POSTS';
+                var recentPosts = posts.slice(0, 20);
+                var html = '';
+                for (var i = 0; i < recentPosts.length; i++) {
+                    var p = recentPosts[i];
+                    var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '').replace(/\n/g, ' ') + '...' : '';
+                    html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
+                }
+                container.innerHTML = html;
+            } catch(e) {
+                container.innerHTML = '<p>Error: ' + e.message + '</p>';
+                console.error(e);
             }
-            
-            blogCount.textContent = posts.length + ' POSTS';
-            var recentPosts = posts.slice(0, 20);
-            var html = '';
-            for (var i = 0; i < recentPosts.length; i++) {
-                var p = recentPosts[i];
-                var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '').replace(/\n/g, ' ') + '...' : '';
-                html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
-            }
-            container.innerHTML = html;
-        })();
+        }).catch(e => {
+            document.getElementById('posts-container').innerHTML = '<p>Failed to load posts: ' + e.message + '</p>';
+        });
     </script>
 </body>
 </html>
