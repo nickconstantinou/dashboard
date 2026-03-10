@@ -1,4 +1,4 @@
-const posts = [
+var posts = [
   {
     "date": "March 10, 2026",
     "category": "Tech/Business",
