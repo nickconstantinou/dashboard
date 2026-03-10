@@ -23,6 +23,8 @@
         .card-desc { font-size: 14px; color: #64748b; }
         .card-count { font-size: 12px; color: #94a3b8; margin-top: 8px; }
         
+        .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 16px; font-weight: 600; }
+        
         .posts { display: flex; flex-direction: column; gap: 16px; }
         .post { background: white; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0; }
         .post:hover { border-color: #cbd5e1; }
@@ -30,8 +32,6 @@
         .post-meta { font-size: 13px; color: #94a3b8; margin-bottom: 6px; }
         .post-title { font-size: 20px; font-weight: 600; color: #0f172a; margin-bottom: 8px; }
         .post-excerpt { font-size: 15px; color: #475569; line-height: 1.5; }
-        
-        .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 16px; font-weight: 600; }
         
         footer { text-align: center; padding: 48px 0; color: #94a3b8; font-size: 14px; }
     </style>
@@ -44,7 +44,7 @@
         </header>
         
         <div class="cards">
-            <a href="#posts-title" class="card blog">
+            <a href="#posts" class="card blog" id="blog-card">
                 <div class="card-icon">📝</div>
                 <div class="card-title">Blog</div>
                 <div class="card-desc">Daily posts from AI sources</div>
@@ -76,10 +76,8 @@
             </a>
         </div>
         
-        <div class="section-title" id="posts-title">Latest Posts</div>
-        <div class="posts" id="posts-container" id="posts">
-            <!-- Posts loaded dynamically -->
-        </div>
+        <div class="section-title" id="posts">Latest Posts</div>
+        <div class="posts" id="posts-container"></div>
         
         <footer>
             <p>Built with OpenClaw • Auto-updated daily</p>
@@ -88,27 +86,29 @@
     
     <script src="posts.js"></script>
     <script>
-        // Get unique categories and counts
-        const categories = {};
-        posts.forEach(p => {
-            const cat = p.category || 'Other';
-            categories[cat] = (categories[cat] || 0) + 1;
-        });
-        
-        // Update blog count
-        document.getElementById('blog-count').textContent = posts.length + ' POSTS';
-        
-        // Render posts
-        const container = document.getElementById('posts-container');
-        const recentPosts = posts.slice(0, 20);
-        
-        recentPosts.forEach(post => {
-            const div = document.createElement('div');
-            div.className = 'post';
-            const excerpt = post.excerpt ? post.excerpt.substring(0, 150).replace(/[#*]/g, '') + '...' : '';
-            div.innerHTML = '<a href="' + post.url + '"><div class="post-meta">' + post.date + ' • ' + post.category + '</div><div class="post-title">' + post.title + '</div><div class="post-excerpt">' + excerpt + '</div></a>';
-            container.appendChild(div);
-        });
+        try {
+            var container = document.getElementById('posts-container');
+            var blogCard = document.getElementById('blog-card');
+            var blogCount = document.getElementById('blog-count');
+            
+            if (typeof posts === 'undefined' || !posts || posts.length === 0) {
+                container.innerHTML = '<p style="color:#94a3b8;text-align:center;padding:40px;">No posts found. Check console for errors.</p>';
+                blogCard.href = 'index.html';
+            } else {
+                blogCount.textContent = posts.length + ' POSTS';
+                var recentPosts = posts.slice(0, 20);
+                var html = '';
+                for (var i = 0; i < recentPosts.length; i++) {
+                    var p = recentPosts[i];
+                    var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '') + '...' : '';
+                    html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
+                }
+                container.innerHTML = html;
+            }
+        } catch(e) {
+            console.error('Error loading posts:', e);
+            document.getElementById('posts-container').innerHTML = '<p style="color:red;text-align:center;padding:40px;">Error: ' + e.message + '</p>';
+        }
     </script>
 </body>
 </html>
