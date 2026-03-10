@@ -1,4 +1,4 @@
-var posts = [
+const posts = [
   {
     "date": "March 10, 2026",
     "category": "Tech/Business",
@@ -2193,4 +2193,4 @@ onst posts = [
     ],
     "url": "2026-02-18-fpl-captain-strategy.html"
   }
-];
+]
