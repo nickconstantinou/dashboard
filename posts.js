@@ -2159,8 +2159,41 @@ var posts = [
       "Tech"
     ],
     "url": "2026-03-10-we-built-the-ultimate-gaming-firetruck.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "'Radical acceleration' in targenting cycle through AI points to lack of human oversight",
+    "excerpt": "# The Anthropic-Pentagon Dispute: AI, Autonomous Weapons, and the Crisis of Human Oversight\n\n## Intr",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-radical-acceleration-in-targenting-cycle-through-a.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "EU chief says turning away from nuclear energy was 'a strategic mistake' \u2022 FRANCE 24 English",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-eu-chief-says-turning-away-from-nuclear-energy-was.html"
+  },
+  {
+    "date": "March 10, 2026",
+    "category": "Tech/Business",
+    "title": "Video shows US Tomahawk missile strike next to bombed Iranian school \u2022 FRANCE 24 English",
+    "excerpt": "# Video Reveals US Tomahawk Missile Struck Iranian Girls School, Killing 168 People\n\n## New Evidence",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-10-video-shows-us-tomahawk-missile-strike-next-to-bom.html"
   }
 ];
+
+
+
 
 ar posts = [
   {
