@@ -2141,6 +2141,26 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 11, 2026",
+    "category": "Tech",
+    "title": "Macbook Neo Review: Better than you Think!",
+    "excerpt": "# MacBook Neo Review: Better Than You Think\n\n## Introduction: A Budget Laptop That Changes Everythin",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-11-macbook-neo-review-better-than-you-think.html"
+  },
+  {
+    "date": "March 11, 2026",
+    "category": "Tech/Business",
+    "title": "Trump says US destroying Iranian mine-laying boats \u2022 FRANCE 24 English",
+    "excerpt": "# Trump Warns Iran Over Strait of Hormuz Mines as Tensions Escalate\n\n## Introduction\n\nThe geopolitic",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-11-trump-says-us-destroying-iranian-mine-laying-boats.html"
+  },
+  {
     "date": "March 10, 2026",
     "category": "Tech/Business",
     "title": "Why The Best Entrepreneurs HATE Risk | Mohnish Pabrai",
@@ -2191,6 +2211,8 @@ var posts = [
     "url": "2026-03-10-video-shows-us-tomahawk-missile-strike-next-to-bom.html"
   }
 ];
+
+
 
 
 
