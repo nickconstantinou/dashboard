@@ -1,4 +1,4 @@
-[
+var posts = [
   {
     "date": "March 11, 2026",
     "category": "Tech",
