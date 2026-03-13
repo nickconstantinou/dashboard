@@ -2001,6 +2001,46 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 13, 2026",
+    "category": "AI/Tech",
+    "title": "Best Overwatch heroes - game design lead Jeff Kaplan picks his favorites | Lex Fridman Podcast Clips",
+    "excerpt": "# Building a Hopeful Future: Jeff Kaplan's Design Philosophy for Overwatch\n\nIn the world of competit",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-13-best-overwatch-heroes-game-design-lead-jeff-kaplan.html"
+  },
+  {
+    "date": "March 13, 2026",
+    "category": "AI/Tech",
+    "title": "Greatest video game of all time | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# The Greatest Video Games of All Time: Jeff Kaplan's Ultimate List\n\nIn the world of video game deve",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-13-greatest-video-game-of-all-time-jeff-kaplan-and-le.html"
+  },
+  {
+    "date": "March 13, 2026",
+    "category": "Tech/Business",
+    "title": "Israel widens Lebanon bombing campaign to target north and central Beirut \u2022 FRANCE 24 English",
+    "excerpt": "# Israel Widens Lebanon Bombing Campaign to Target North and Central Beirut\n\n## An Escalating Crisis",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-13-israel-widens-lebanon-bombing-campaign-to-target-n.html"
+  },
+  {
+    "date": "March 13, 2026",
+    "category": "Tech/Business",
+    "title": "30% of Europe\u2019s cocaine routed through West Africa region \u2022 FRANCE 24 English",
+    "excerpt": "Summary not available",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-13-30-of-europes-cocaine-routed-through-west-africa-r.html"
+  },
+  {
     "date": "March 12, 2026",
     "category": "AI/Tech",
     "title": "New Video Game from the creator of Overwatch: The Legend of California | Jeff Kaplan and Lex Fridman",
@@ -2091,6 +2131,10 @@ var posts = [
     "url": "2026-03-12-a-war-just-proved-cryptos-whole-point.html"
   }
 ];
+
+
+
+
 
 
 
