@@ -2041,6 +2041,16 @@ var posts = [
     "url": "2026-03-13-30-of-europes-cocaine-routed-through-west-africa-r.html"
   },
   {
+    "date": "March 13, 2026",
+    "category": "AI/Tech",
+    "title": "Origin of World of Warcraft: The early days of WoW development | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# The Origin of World of Warcraft: How Ignorance and Passion Built an Empire\n\nIn the pantheon of vid",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-13-origin-of-world-of-warcraft-the-early-days-of-wow-.html"
+  },
+  {
     "date": "March 12, 2026",
     "category": "AI/Tech",
     "title": "New Video Game from the creator of Overwatch: The Legend of California | Jeff Kaplan and Lex Fridman",
@@ -2131,6 +2141,8 @@ var posts = [
     "url": "2026-03-12-a-war-just-proved-cryptos-whole-point.html"
   }
 ];
+
+
 
 
 
