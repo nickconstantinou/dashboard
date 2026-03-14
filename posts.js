@@ -2001,6 +2001,156 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 14, 2026",
+    "category": "Tech/Business",
+    "title": "If You Have No Customers & No Revenue You Need This | My First Million",
+    "excerpt": "# How to Get Your First Customers When You Have Nothing: The Playbook from a $30 Million Founder\n\n##",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-14-if-you-have-no-customers-no-revenue-you-need-this-.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "AI/Tech",
+    "title": "Overcoming depression and alcoholism | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# Overcoming Depression and Alcoholism: Jeff Kaplan's Journey Through Darkness to Finding Purpose\n\n#",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-14-overcoming-depression-and-alcoholism-jeff-kaplan-a.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "AI/Tech",
+    "title": "Overwatch 2 was a big mistake - Overwatch creator explains | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# Overwatch 2 Was a Big Mistake: Jeff Kaplan's Raw Post-Mortem on What Went Wrong\n\n## Introduction\n\n",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-14-overwatch-2-was-a-big-mistake-overwatch-creator-ex.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "The Weekender ep. 27 | Planet FPL 2025/26",
+    "excerpt": "# Planet FPL Weekender Ep. 27: Navigating the Manchester City-Crystal Palace Fixture Chaos and Europ",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-the-weekender-ep-27-planet-fpl-202526.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Chips & Strategy Again | Planet FPL S. 9 Ep. 44 | Fantasy Premier League",
+    "excerpt": "# Chips & Strategy Again: Navigating the FPL Minefield as Cup Competitions Collide\n\n## Introduction\n",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-chips-strategy-again-planet-fpl-s-9-ep-44-fantasy-.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26\n\n## A Com",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Az Discusses His Latest Draft & Rank History: An Honest Look at Fantasy Premier League Success and",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-az-discusses-his-latest-draft-rank-history-pre-sea.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Let's Get Back On Track | #FPL GW30",
+    "excerpt": "# Let's Get Back On Track: FPL Gameweek 30 Strategy and FA Cup Implications\n\n## Introduction\n\nThe la",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-lets-get-back-on-track-fpl-gw30.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Midweek Madness | #FPL Gameweek 29",
+    "excerpt": "# Midweek Madness: FPL Gameweek 28 Recap and Gameweek 29 Preview\n\n*This comprehensive breakdown capt",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-midweek-madness-fpl-gameweek-29.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Zophar's Gameweek 30 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Zophar's Gameweek 30 Team Selection | Fantasy Premier League Tips 2025/26\n\n## Introduction\n\nFantas",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-zophars-gameweek-30-team-selection-fantasy-premier.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "Pras' Gameweek 30 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Pras' Gameweek 30 Team Selection | Fantasy Premier League Tips 2025/26\n\n## Introduction\n\nThe Fanta",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-pras-gameweek-30-team-selection-fantasy-premier-le.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "FPL GW30 RANK 1 TEAM SELECTION \ud83c\udf0d MEET THE MANAGER \ud83e\udd1d",
+    "excerpt": "# How an Everton Fan Reached World Number One: Inside the FPL Strategy of a First-Season Manager\n\nTh",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-fpl-gw30-rank-1-team-selection-meet-the-manager-.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "FPL GW30 EXPERTS TEAM \u2705 HAALAND BENCH? \u26a0\ufe0f",
+    "excerpt": "# FPL Gameweek 30 Experts Team Analysis: Haaland Bench Dilemma, Blank Week Strategy, and Behind-the-",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-fpl-gw30-experts-team-haaland-bench-.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "FPL GW30 COMPLETE GUIDE \u2049\ufe0f PREDICTING MINUTES & ROTATION... \ud83d\ude28 | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# FPL Gameweek 30 Complete Guide: Rotation Risks, Predicted Lineups, and Strategic Advice for Fantas",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-fpl-gw30-complete-guide-predicting-minutes-rotatio.html"
+  },
+  {
+    "date": "March 14, 2026",
+    "category": "FPL",
+    "title": "WHO TO CAPTAIN? \ud83d\udc51 MY FPL 30 TEAM SELECTION! \ud83d\udcf1 | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Who to Captain? FPL Harry's Gameweek 30 Team Selection and Strategic Analysis for 2025/26\n\n## Intr",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-14-who-to-captain-my-fpl-30-team-selection-fantasy-pr.html"
+  },
+  {
     "date": "March 13, 2026",
     "category": "AI/Tech",
     "title": "Best Overwatch heroes - game design lead Jeff Kaplan picks his favorites | Lex Fridman Podcast Clips",
@@ -2141,6 +2291,21 @@ var posts = [
     "url": "2026-03-12-a-war-just-proved-cryptos-whole-point.html"
   }
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
