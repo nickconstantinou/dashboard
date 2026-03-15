@@ -2001,6 +2001,46 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 15, 2026",
+    "category": "Tech/Business",
+    "title": "What to Ask Your Early Customers for Hyper Growth | My First Million",
+    "excerpt": "# What to Ask Your Early Customers for Hyper Growth\n\n## The Hidden Engine Behind Twitch's Billion-Do",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-15-what-to-ask-your-early-customers-for-hyper-growth-.html"
+  },
+  {
+    "date": "March 15, 2026",
+    "category": "AI/Tech",
+    "title": "Future of video games: Can AI replace game designers? | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# The Future of Video Games: Can AI Replace Game Designers? | Jeff Kaplan and Lex Fridman\n\n## Introd",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-15-future-of-video-games-can-ai-replace-game-designer.html"
+  },
+  {
+    "date": "March 15, 2026",
+    "category": "AI/Tech",
+    "title": "The psychology of video games: What motivates gamers | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# The Psychology of Video Games: What Motivates Gamers\n\n## An In-Depth Exploration with Jeff Kaplan ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-15-the-psychology-of-video-games-what-motivates-gamer.html"
+  },
+  {
+    "date": "March 15, 2026",
+    "category": "Tech",
+    "title": "Reviewing Everything on my Desk! (2026)",
+    "excerpt": "# Reviewing Everything on My Desk (2026): A Deep Dive Into One Creator's Workstation\n\n## Introductio",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-15-reviewing-everything-on-my-desk-2026.html"
+  },
+  {
     "date": "March 14, 2026",
     "category": "Tech/Business",
     "title": "If You Have No Customers & No Revenue You Need This | My First Million",
@@ -2291,6 +2331,10 @@ var posts = [
     "url": "2026-03-12-a-war-just-proved-cryptos-whole-point.html"
   }
 ];
+
+
+
+
 
 
 
