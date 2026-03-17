@@ -1,5 +1,4 @@
-// Post index - minimal metadata for cards
-// Full content available in /posts/{slug}.md
+// Post index
 const posts = [
   {
     "date": "March 17, 2026",
