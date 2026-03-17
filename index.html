@@ -161,7 +161,7 @@
         }
         
         // Load posts
-        fetch('posts.json')
+        fetch('posts.json?v=' + Date.now())
             .then(function(r) { return r.json(); })
             .then(function(posts) {
                 allPosts = posts;
