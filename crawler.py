@@ -85,13 +85,32 @@ def crawl_sources():
     """Crawl various sources - add your sources here"""
     new_posts = []
     
-    # Example: Add a manual post
-    # new_posts.append(create_markdown_post(
-    #     "my-new-post",
-    #     "My New Post Title",
-    #     "Tech",
-    #     "Post content in markdown..."
-    # ))
+    # Test post - demonstrates the system works
+    new_posts.append(create_markdown_post(
+        "test-post-ada",
+        "Testing the New Blog Architecture",
+        "Tech",
+        """# Testing the New Blog Architecture
+
+This is a test post to verify the markdown blog system is working correctly.
+
+## What Changed
+
+1. Posts are now stored as markdown files
+2. Index is minimal JSON
+3. Clicking a post loads markdown dynamically
+
+## How It Works
+
+- `posts.js` contains the index (title, date, slug)
+- `posts/*.md` contains the full content
+- JavaScript fetches and renders markdown on click
+
+## Next Steps
+
+Add real content sources to the crawler!
+"""
+    ))
     
     return new_posts
 

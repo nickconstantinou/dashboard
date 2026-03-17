@@ -42,6 +42,14 @@ const posts = [
     "slug": "these-simple-tactics-compound-to-millions-my-first-million"
   },
   {
+    "date": "March 17, 2026",
+    "title": "Testing the New Blog Architecture",
+    "excerpt": "",
+    "category": "Tech",
+    "url": "test-post-ada.html",
+    "slug": "test-post-ada"
+  },
+  {
     "date": "March 16, 2026",
     "title": "FPL GW31 Transfer Plans, Team Selection",
     "excerpt": "",
