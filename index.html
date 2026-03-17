@@ -2,33 +2,163 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick's Blog</title>
     <style>
-        body { font-family: system-ui, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
-        h1 { text-align: center; color: #333; }
-        .post { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; cursor: pointer; }
-        .post:hover { background: #f0f0f0; }
-        .date { color: #888; font-size: 12px; }
-        .title { font-size: 18px; font-weight: bold; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background: #f8fafc; 
+            color: #1e293b; 
+            line-height: 1.6; 
+        }
+        .container { max-width: 720px; margin: 0 auto; padding: 24px; }
+        
+        header { 
+            text-align: center; 
+            padding: 48px 0 32px; 
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 32px;
+        }
+        header h1 { 
+            font-size: 42px; 
+            font-weight: 800; 
+            margin-bottom: 8px; 
+        }
+        header h1 span { color: #f97316; }
+        header p { color: #64748b; font-size: 16px; }
+        
+        .post { 
+            background: white; 
+            border-radius: 12px; 
+            padding: 20px; 
+            margin-bottom: 12px; 
+            border: 1px solid #e2e8f0; 
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .post:hover { 
+            border-color: #f97316; 
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .post-meta { 
+            font-size: 13px; 
+            color: #94a3b8; 
+            margin-bottom: 6px; 
+        }
+        .post-title { 
+            font-size: 18px; 
+            font-weight: 600; 
+            color: #0f172a; 
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+        .filter-btn:hover, .filter-btn.active {
+            background: #f97316;
+            color: white;
+            border-color: #f97316;
+        }
+        
+        footer { 
+            text-align: center; 
+            padding: 32px 0; 
+            color: #94a3b8; 
+            font-size: 14px;
+            border-top: 1px solid #e2e8f0;
+            margin-top: 32px;
+        }
+        
+        .loading { 
+            text-align: center; 
+            padding: 40px; 
+            color: #64748b; 
+        }
     </style>
 </head>
 <body>
-    <h1>Nick's Blog</h1>
-    <div id="posts">Loading...</div>
+    <div class="container">
+        <header>
+            <h1>Nick's <span>Blog</span></h1>
+            <p>Daily thoughts, learnings and insights</p>
+        </header>
+        
+        <div class="filter-bar" id="filters">
+            <button class="filter-btn active" data-cat="all">All</button>
+            <button class="filter-btn" data-cat="FPL">FPL</button>
+            <button class="filter-btn" data-cat="Tech">Tech</button>
+            <button class="filter-btn" data-cat="Business">Business</button>
+            <button class="filter-btn" data-cat="Sports">Sports</button>
+        </div>
+        
+        <div id="posts">
+            <div class="loading">Loading posts...</div>
+        </div>
+        
+        <footer>
+            <p>Built with OpenClaw • Auto-updated daily</p>
+        </footer>
+    </div>
     
     <script type="module">
-        // Load posts directly as JSON
-        const resp = await fetch('posts.json');
-        const posts = await resp.json();
+        let allPosts = [];
         
-        let html = '';
-        for (const p of posts.slice(0, 15)) {
-            html += `<div class="post" onclick="location.href='${p.url}'">
-                <div class="date">${p.date} • ${p.category || 'Blog'}</div>
-                <div class="title">${p.title}</div>
-            </div>`;
+        function renderPosts(filter = 'all') {
+            const container = document.getElementById('posts');
+            
+            const filtered = filter === 'all' 
+                ? allPosts 
+                : allPosts.filter(p => p.category && p.category.includes(filter));
+            
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="loading">No posts found</div>';
+                return;
+            }
+            
+            let html = '';
+            for (const p of filtered.slice(0, 30)) {
+                html += `<div class="post" onclick="location.href='${p.url}'">
+                    <div class="post-meta">${p.date} • ${p.category || 'Blog'}</div>
+                    <div class="post-title">${p.title}</div>
+                </div>`;
+            }
+            container.innerHTML = html;
         }
-        document.getElementById('posts').innerHTML = html;
+        
+        // Filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                renderPosts(btn.dataset.cat);
+            };
+        });
+        
+        // Load posts
+        const resp = await fetch('posts.json?v=' + Date.now());
+        allPosts = await resp.json();
+        
+        // Extract categories from posts
+        const cats = new Set();
+        allPosts.forEach(p => {
+            if (p.category) cats.add(p.category);
+        });
+        
+        renderPosts();
     </script>
 </body>
 </html>
