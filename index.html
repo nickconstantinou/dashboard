@@ -1,175 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick's Blog</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
-        .container { max-width: 800px; margin: 0 auto; padding: 24px; }
-        header { text-align: center; padding: 32px 0 24px; }
-        header h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
-        header h1 span { color: #f97316; }
-        header p { color: #64748b; font-size: 16px; }
-        .back-link { display: inline-block; margin-bottom: 24px; color: #f97316; text-decoration: none; font-weight: 600; }
-        .back-link:hover { text-decoration: underline; }
-        .post-view { background: white; border-radius: 12px; padding: 40px; border: 1px solid #e2e8f0; }
-        .post-view h1 { font-size: 32px; margin-bottom: 8px; color: #0f172a; }
-        .post-view .meta { font-size: 14px; color: #64748b; margin-bottom: 24px; }
-        .post-view .content { font-size: 17px; line-height: 1.8; }
-        .post-view .content h1, .post-view .content h2, .post-view .content h3 { margin-top: 24px; margin-bottom: 12px; color: #0f172a; }
-        .post-view .content p { margin-bottom: 16px; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 32px; }
-        .card { background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 2px solid #e2e8f0; transition: all 0.2s; }
-        .card:hover { border-color: #f97316; transform: translateY(-2px); }
-        .card-icon { font-size: 28px; margin-bottom: 8px; }
-        .card-title { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
-        .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 16px; font-weight: 600; }
-        .posts { display: flex; flex-direction: column; gap: 12px; }
-        .post { background: white; border-radius: 12px; padding: 16px 20px; border: 1px solid #e2e8f0; cursor: pointer; transition: all 0.2s; }
-        .post:hover { border-color: #cbd5e1; }
-        .post-meta { font-size: 12px; color: #94a3b8; margin-bottom: 4px; }
-        .post-title { font-size: 18px; font-weight: 600; color: #0f172a; margin-bottom: 6px; }
-        .hidden { display: none !important; }
-        footer { text-align: center; padding: 32px 0; color: #94a3b8; font-size: 13px; }
-        .error { background: #fef2f2; border: 1px solid #fecaca; color: #dc2626; padding: 16px; border-radius: 8px; }
-        .loading { text-align: center; padding: 40px; color: #64748b; }
+        body { font-family: system-ui, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+        h1 { text-align: center; color: #333; }
+        .post { background: white; padding: 15px; margin: 10px 0; border-radius: 8px; cursor: pointer; }
+        .post:hover { background: #f0f0f0; }
+        .date { color: #888; font-size: 12px; }
+        .title { font-size: 18px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Post View -->
-        <div id="post-view" class="hidden">
-            <a href="#" class="back-link" onclick="showHome(); return false;">← Back to all posts</a>
-            <div class="post-view">
-                <h1 id="post-title"></h1>
-                <div class="meta" id="post-meta"></div>
-                <div class="content" id="post-content"></div>
-            </div>
-        </div>
-        
-        <!-- Home View -->
-        <div id="home-view">
-            <header>
-                <h1>Nick's <span>Blog</span></h1>
-                <p>Daily thoughts and insights</p>
-            </header>
-            
-            <div class="section-title">Latest Posts</div>
-            <div class="posts" id="posts-container">
-                <div class="loading">Loading posts...</div>
-            </div>
-        </div>
-        
-        <footer>
-            <p>Built with OpenClaw</p>
-        </footer>
-    </div>
+    <h1>Nick's Blog</h1>
+    <div id="posts">Loading...</div>
     
-    <script>
-        let allPosts = [];
+    <script type="module">
+        // Load posts directly as JSON
+        const resp = await fetch('posts.json');
+        const posts = await resp.json();
         
-        function renderPosts() {
-            const container = document.getElementById('posts-container');
-            
-            if (allPosts.length === 0) {
-                container.innerHTML = '<div class="error">No posts found</div>';
-                return;
-            }
-            
-            var html = '';
-            for (var i = 0; i < Math.min(allPosts.length, 20); i++) {
-                var p = allPosts[i];
-                var slug = p.slug || p.url.replace('.html', '');
-                html += '<div class="post" data-slug="' + slug + '"><div class="post-meta">' + p.date + ' • ' + (p.category || 'Blog') + '</div><div class="post-title">' + p.title + '</div></div>';
-            }
-            container.innerHTML = html;
-            
-            // Add click handlers
-            document.querySelectorAll('.post').forEach(function(el) {
-                el.onclick = function() { loadPost(this.dataset.slug); };
-            });
+        let html = '';
+        for (const p of posts.slice(0, 15)) {
+            html += `<div class="post" onclick="location.href='${p.url}'">
+                <div class="date">${p.date} • ${p.category || 'Blog'}</div>
+                <div class="title">${p.title}</div>
+            </div>`;
         }
-        
-        function loadPost(slug) {
-            const view = document.getElementById('post-view');
-            const home = document.getElementById('home-view');
-            const titleEl = document.getElementById('post-title');
-            const metaEl = document.getElementById('post-meta');
-            const contentEl = document.getElementById('post-content');
-            
-            // Find post
-            const post = allPosts.find(function(p) { 
-                return (p.slug || p.url.replace('.html', '')) === slug; 
-            });
-            
-            if (!post) {
-                contentEl.innerHTML = '<div class="error">Post not found</div>';
-                return;
-            }
-            
-            home.classList.add('hidden');
-            view.classList.remove('hidden');
-            
-            titleEl.textContent = post.title;
-            metaEl.textContent = post.date + ' • ' + (post.category || 'Blog');
-            contentEl.innerHTML = '<div class="loading">Loading content...</div>';
-            
-            // Try markdown first
-            fetch('posts/' + slug + '.md')
-                .then(function(r) { 
-                    if (!r.ok) throw new Error('Not found');
-                    return r.text();
-                })
-                .then(function(md) {
-                    contentEl.innerHTML = parseMarkdown(md);
-                })
-                .catch(function() {
-                    // Fall back to HTML
-                    fetch(post.url)
-                        .then(function(r) { return r.text(); })
-                        .then(function(html) {
-                            var match = html.match(/<body[^>*>([\s\S]*)<\/body>/);
-                            contentEl.innerHTML = match ? match[1] : html;
-                        })
-                        .catch(function(e) {
-                            contentEl.innerHTML = '<div class="error">Failed to load: ' + e.message + '</div>';
-                        });
-                });
-            
-            window.scrollTo(0, 0);
-        }
-        
-        function showHome() {
-            document.getElementById('post-view').classList.add('hidden');
-            document.getElementById('home-view').classList.remove('hidden');
-            window.scrollTo(0, 0);
-        }
-        
-        function parseMarkdown(text) {
-            if (!text) return '';
-            text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-            text = text.replace(/^### (.+)$/gm, '<h3>$1</h3>');
-            text = text.replace(/^## (.+)$/gm, '<h2>$1</h2>');
-            text = text.replace(/^# (.+)$/gm, '<h1>$1</h1>');
-            text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-            text = text.replace(/\*(.+?)\*/g, '<em>$1</em>');
-            text = text.replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" target="_blank">$1</a>');
-            text = text.replace(/\n\n/g, '</p><p>');
-            return '<p>' + text + '</p>';
-        }
-        
-        // Load posts
-        fetch('posts.json?v=' + Date.now())
-            .then(function(r) { return r.json(); })
-            .then(function(posts) {
-                allPosts = posts;
-                renderPosts();
-            })
-            .catch(function(e) {
-                document.getElementById('posts-container').innerHTML = '<div class="error">Failed to load: ' + e.message + '</div>';
-            });
+        document.getElementById('posts').innerHTML = html;
     </script>
 </body>
 </html>
