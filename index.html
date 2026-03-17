@@ -237,23 +237,26 @@
         }
         
         // Load posts
-        console.log('Loading posts...');
-        fetch('posts.js?t=' + Date.now()).then(r => {
-            console.log('Fetch status:', r.status);
-            return r.text();
-        }).then(code => {
-            console.log('Got code, length:', code.length);
-            const container = document.getElementById('posts-container');
-            
-            try {
-                // Extract array from "var posts = [...]" or "const posts = [...]"
-                const match = code.match(/(?:var|const) posts = (\[[\s\S]*\]);?/);
-                console.log('Regex match:', match ? 'found' : 'not found');
-                if (!match) {
-                    container.innerHTML = '<div class="error">Could not parse posts</div>';
-                    return;
-                }
-                allPosts = JSON.parse(match[1]);
+        fetch('posts.js?t=' + Date.now())
+            .then(r => {
+                if (!r.ok) throw new Error('Fetch failed: ' + r.status);
+                return r.text();
+            })
+            .then(code => {
+                console.log('Got posts.js, length:', code.length);
+                const container = document.getElementById('posts-container');
+                
+                try {
+                    // Extract array from "var posts = [...]" or "const posts = [...]"
+                    const match = code.match(/(?:var|const) posts = (\[[\s\S]*\]);?/);
+                    console.log('Regex match:', match ? 'found' : 'not found');
+                    if (!match) {
+                        container.innerHTML = '<div class="error">Could not parse posts - no match</div>';
+                        return;
+                    }
+                    const parsed = JSON.parse(match[1]);
+                    console.log('Parsed posts:', parsed.length);
+                    allPosts = parsed;
                 
                 if (!Array.isArray(allPosts) || allPosts.length === 0) {
                     container.innerHTML = '<p>No posts found</p>';

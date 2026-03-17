@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nick's Blog</title>
+<style>
+body { font-family: system-ui; max-width: 800px; margin: 0 auto; padding: 20px; background: #f8fafc; }
+.post { background: white; padding: 16px; margin-bottom: 12px; border-radius: 8px; border: 1px solid #e2e8f0; cursor: pointer; }
+.post:hover { border-color: #f97316; }
+.meta { font-size: 12px; color: #64748b; }
+h1 { color: #0f172a; }
+</style>
+</head>
+<body>
+<h1>Nick's Blog</h1>
+<div id="posts"></div>
+<script>
+var posts = [{"date": "March 17, 2026", "title": "And That's The Bottom Line | Planet FPL's 9 | EP 45 | GW31", "excerpt": "", "category": "Sports", "url": "and-thats-the-bottom-line-planet-fpl-s-9-ep-45-gw3.html", "slug": "and-thats-the-bottom-line-planet-fpl-s-9-ep-45-gw3"}, {"date": "March 17, 2026", "title": "FPL Players to Buy GW31+", "excerpt": "", "category": "Sports", "url": "fpl-players-to-buy-gw31-.html", "slug": "fpl-players-to-buy-gw31"}, {"date": "March 17, 2026", "title": "John Carmack: DOOM & Quake Changed Video Games Forever", "excerpt": "", "category": "Tech", "url": "john-carmack-doom-quake-changed-video-games-foreve.html", "slug": "john-carmack-doom-quake-changed-video-games-forever"}, {"date": "March 17, 2026", "title": "Lex Fridman on Blizzard", "excerpt": "", "category": "Tech", "url": "lex-fridman-on-blizzard.html", "slug": "lex-fridman-on-blizzard"}, {"date": "March 17, 2026", "title": "These Simple Tactics Compound to Millions | My First Million", "excerpt": "# These Simple Tactics Compound to Millions\n\n## Introduction\n\nIn the world of sta", "category": "Tech/Business", "url": "these-simple-tactics-compound-to-millions-my-first-mill.html", "slug": "these-simple-tactics-compound-to-millions-my-first-million"}, {"date": "March 17, 2026", "title": "Testing the New Blog Architecture", "excerpt": "", "category": "Tech", "url": "test-post-ada.html", "slug": "test-post-ada"}, {"date": "March 16, 2026", "title": "FPL GW31 Transfer Plans, Team Selection", "excerpt": "", "category": "Sports", "url": "fpl-gw31-transfer-plans-team-selection-.html", "slug": "fpl-gw31-transfer-plans-team-selection"}, {"date": "March 16, 2026", "title": "How To Make So Much Money Your Accountant Asks Questions", "excerpt": "", "category": "Business", "url": "how-to-make-so-much-money-your-accountant-asks-que.html", "slug": "how-to-make-so-much-money-your-accountant-asks-questions"}, {"date": "March 16, 2026", "title": "My FPL Blank GW31 Transfer Plans, Haaland, 1 Flag", "excerpt": "", "category": "Sports", "url": "my-fpl-blank-gw31-transfer-plans-haaland-1-flag-4-.html", "slug": "my-fpl-blank-gw31-transfer-plans-haaland-1-flag"}, {"date": "March 16, 2026", "title": "One of Us: How a Sh*t Talking Gamer Troll Became a Millionaire", "excerpt": "", "category": "Tech", "url": "one-of-us-how-a-sht-talking-gamer-troll-became-a-l.html", "slug": "one-of-us-how-a-shit-talking-gamer-troll-became-a-millionaire"}];
+var html = '';
+for (var i = 0; i < posts.length; i++) {
+  var p = posts[i];
+  html += '<div class="post" onclick="alert('Click: ' + p['slug'] + '')"><div class="meta">' + p['date'] + ' • ' + p['category'] + '</div><div>' + p['title'] + '</div></div>';
+}
+document.getElementById('posts').innerHTML = html;
+</script>
+</body>
+</html>
