@@ -2001,6 +2001,56 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 17, 2026",
+    "category": "Tech/Business",
+    "title": "These Simple Tactics Compound to Millions | My First Million",
+    "excerpt": "# These Simple Tactics Compound to Millions | My First Million\n\n## Introduction\n\nIn the world of sta",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-17-these-simple-tactics-compound-to-millions-my-first.html"
+  },
+  {
+    "date": "March 17, 2026",
+    "category": "AI/Tech",
+    "title": "John Carmack, Doom & Quake changed video games forever | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# John Carmack, Doom & Quake Changed Video Games Forever | Jeff Kaplan and Lex Fridman\n\n## A Deep Di",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-17-john-carmack-doom-quake-changed-video-games-foreve.html"
+  },
+  {
+    "date": "March 17, 2026",
+    "category": "AI/Tech",
+    "title": "Lex Fridman on Blizzard",
+    "excerpt": "# Inside Blizzard's Golden Era: A Former Developer's Oral History\n\n## Introduction\n\nIn the world of ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-17-lex-fridman-on-blizzard.html"
+  },
+  {
+    "date": "March 17, 2026",
+    "category": "FPL",
+    "title": "And That's The Bottom Line... | Planet FPL S. 9 Ep. 45 | GW30 Review | Fantasy Premier League",
+    "excerpt": "# And That's The Bottom Line... | Planet FPL S. 9 Ep. 45 | GW30 Review\n\n## Introduction\n\nWelcome bac",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-17-and-thats-the-bottom-line-planet-fpl-s-9-ep-45-gw3.html"
+  },
+  {
+    "date": "March 17, 2026",
+    "category": "FPL",
+    "title": "FPL PLAYERS TO BUY | GW31 \u2705",
+    "excerpt": "# FPL Players to Buy for Gameweek 31: Complete Strategy Guide\n\n## Introduction\n\nFantasy Premier Leag",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-17-fpl-players-to-buy-gw31-.html"
+  },
+  {
     "date": "March 16, 2026",
     "category": "Tech/Business",
     "title": "How to Make So Much Money Your Accountant Asks Questions | My First Million",
@@ -2051,6 +2101,11 @@ var posts = [
     "url": "2026-03-16-my-fpl-blank-gw31-transfer-plans-haaland-1-flag-4-.html"
   }
 ];
+
+
+
+
+
 
 
 
