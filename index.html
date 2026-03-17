@@ -7,118 +7,262 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
-        .container { max-width: 900px; margin: 0 auto; padding: 24px; }
-        header { text-align: center; padding: 48px 0 32px; }
-        header h1 { font-size: 48px; font-weight: 800; margin-bottom: 8px; }
+        .container { max-width: 800px; margin: 0 auto; padding: 24px; }
+        header { text-align: center; padding: 32px 0 24px; }
+        header h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; }
         header h1 span { color: #f97316; }
-        header p { color: #64748b; font-size: 18px; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 40px; }
-        .card { background: white; border-radius: 12px; padding: 24px; text-decoration: none; color: inherit; border: 2px solid #e2e8f0; transition: all 0.2s; }
-        .card:hover { border-color: #f97316; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        header p { color: #64748b; font-size: 16px; }
+        .back-link { display: inline-block; margin-bottom: 24px; color: #f97316; text-decoration: none; font-weight: 600; }
+        .back-link:hover { text-decoration: underline; }
+        .post-view { background: white; border-radius: 12px; padding: 40px; border: 1px solid #e2e8f0; }
+        .post-view h1 { font-size: 32px; margin-bottom: 8px; color: #0f172a; }
+        .post-view .meta { font-size: 14px; color: #64748b; margin-bottom: 24px; }
+        .post-view .content { font-size: 17px; line-height: 1.8; }
+        .post-view .content h1, .post-view .content h2, .post-view .content h3 { margin-top: 24px; margin-bottom: 12px; color: #0f172a; }
+        .post-view .content p { margin-bottom: 16px; }
+        .post-view .content a { color: #f97316; }
+        .post-view .content img { max-width: 100%; border-radius: 8px; margin: 16px 0; }
+        .post-view .content ul, .post-view .content ol { margin: 16px 0; padding-left: 24px; }
+        .post-view .content li { margin-bottom: 8px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 32px; }
+        .card { background: white; border-radius: 12px; padding: 20px; text-decoration: none; color: inherit; border: 2px solid #e2e8f0; transition: all 0.2s; }
+        .card:hover { border-color: #f97316; transform: translateY(-2px); }
         .card.blog { border-color: #f97316; }
-        .card-icon { font-size: 32px; margin-bottom: 12px; }
-        .card-title { font-weight: 600; font-size: 18px; margin-bottom: 4px; }
-        .card-desc { font-size: 14px; color: #64748b; }
-        .card-count { font-size: 12px; color: #94a3b8; margin-top: 8px; }
+        .card-icon { font-size: 28px; margin-bottom: 8px; }
+        .card-title { font-weight: 600; font-size: 16px; margin-bottom: 4px; }
+        .card-desc { font-size: 13px; color: #64748b; }
         .section-title { font-size: 14px; text-transform: uppercase; letter-spacing: 0.05em; color: #94a3b8; margin-bottom: 16px; font-weight: 600; }
-        .posts { display: flex; flex-direction: column; gap: 16px; }
-        .post { background: white; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0; }
+        .posts { display: flex; flex-direction: column; gap: 12px; }
+        .post { background: white; border-radius: 12px; padding: 16px 20px; border: 1px solid #e2e8f0; cursor: pointer; transition: all 0.2s; }
         .post:hover { border-color: #cbd5e1; }
         .post a { text-decoration: none; color: inherit; display: block; }
-        .post-meta { font-size: 13px; color: #94a3b8; margin-bottom: 6px; }
-        .post-title { font-size: 20px; font-weight: 600; color: #0f172a; margin-bottom: 8px; }
-        .post-excerpt { font-size: 15px; color: #475569; line-height: 1.5; }
-        footer { text-align: center; padding: 48px 0; color: #94a3b8; font-size: 14px; }
+        .post-meta { font-size: 12px; color: #94a3b8; margin-bottom: 4px; }
+        .post-title { font-size: 18px; font-weight: 600; color: #0f172a; margin-bottom: 6px; }
+        .post-excerpt { font-size: 14px; color: #475569; }
+        .hidden { display: none !important; }
+        footer { text-align: center; padding: 32px 0; color: #94a3b8; font-size: 13px; }
+        .error { background: #fef2f2; border: 1px solid #fecaca; color: #dc2626; padding: 16px; border-radius: 8px; }
+        .loading { text-align: center; padding: 40px; color: #64748b; }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Nick's <span>Blog</span></h1>
-            <p>Daily thoughts, learnings, and training</p>
-        </header>
-        
-        <div class="cards">
-            <a href="#posts" class="card blog">
-                <div class="card-icon">📝</div>
-                <div class="card-title">Blog</div>
-                <div class="card-desc">Daily posts from AI sources</div>
-                <div class="card-count" id="blog-count">Loading...</div>
-            </a>
-            <a href="behind-scenes.html" class="card">
-                <div class="card-icon">🎬</div>
-                <div class="card-title">Behind The Scenes</div>
-                <div class="card-desc">Long-form building posts</div>
-                <div class="card-count">UPDATES</div>
-            </a>
-            <a href="changelog.html" class="card">
-                <div class="card-icon">📋</div>
-                <div class="card-title">Changelog</div>
-                <div class="card-desc">What we've built</div>
-                <div class="card-count">UPDATES</div>
-            </a>
-            <a href="training.html" class="card">
-                <div class="card-icon">🏋️</div>
-                <div class="card-title">Training</div>
-                <div class="card-desc">Zone 2 + Strength</div>
-                <div class="card-count">WORKOUTS</div>
-            </a>
-            <a href="signals.html" class="card">
-                <div class="card-icon">🔥</div>
-                <div class="card-title">Thesis Signals</div>
-                <div class="card-desc">Investment themes</div>
-                <div class="card-count">NEW</div>
-            </a>
-            <a href="fpl.html" class="card">
-                <div class="card-icon">⚽</div>
-                <div class="card-title">FPL</div>
-                <div class="card-desc">Fantasy Premier League</div>
-                <div class="card-count">TIPS</div>
-            </a>
+        <!-- Post View (hidden by default) -->
+        <div id="post-view" class="hidden">
+            <a href="#" class="back-link" onclick="showHome(); return false;">← Back to all posts</a>
+            <div class="post-view">
+                <h1 id="post-title"></h1>
+                <div class="meta" id="post-meta"></div>
+                <div class="content" id="post-content"></div>
+            </div>
         </div>
         
-        <div class="section-title" id="posts">Latest Posts</div>
-        <div class="posts" id="posts-container"></div>
+        <!-- Home View -->
+        <div id="home-view">
+            <header>
+                <h1>Nick's <span>Blog</span></h1>
+                <p>Daily thoughts, learnings, and insights</p>
+            </header>
+            
+            <div class="cards">
+                <a href="#" class="card blog" onclick="filterPosts(null); return false;">
+                    <div class="card-icon">📝</div>
+                    <div class="card-title">Blog</div>
+                    <div class="card-desc">All posts</div>
+                </a>
+                <a href="#" class="card" onclick="filterPosts('Sports'); return false;">
+                    <div class="card-icon">⚽</div>
+                    <div class="card-title">Sports</div>
+                    <div class="card-desc">FPL & more</div>
+                </a>
+                <a href="#" class="card" onclick="filterPosts('Tech'); return false;">
+                    <div class="card-icon">💻</div>
+                    <div class="card-title">Tech</div>
+                    <div class="card-desc">AI & software</div>
+                </a>
+                <a href="#" class="card" onclick="filterPosts('Business'); return false;">
+                    <div class="card-icon">💰</div>
+                    <div class="card-title">Business</div>
+                    <div class="card-desc">Startups & investing</div>
+                </a>
+            </div>
+            
+            <div class="section-title" id="section-title">Latest Posts</div>
+            <div class="posts" id="posts-container">
+                <div class="loading">Loading posts...</div>
+            </div>
+        </div>
         
         <footer>
-            <p>Built with OpenClaw • Auto-updated daily</p>
+            <p>Built with OpenClaw</p>
         </footer>
     </div>
     
     <script>
+        // Simple markdown to HTML converter
+        function parseMarkdown(text) {
+            if (!text) return '';
+            
+            // Escape HTML first
+            text = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            
+            // Headers
+            text = text.replace(/^### (.+)$/gm, '<h3>$1</h3>');
+            text = text.replace(/^## (.+)$/gm, '<h2>$1</h2>');
+            text = text.replace(/^# (.+)$/gm, '<h1>$1</h1>');
+            
+            // Bold and italic
+            text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            text = text.replace(/\*(.+?)\*/g, '<em>$1</em>');
+            
+            // Links
+            text = text.replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" target="_blank">$1</a>');
+            
+            // Images
+            text = text.replace(/!\[(.+?)\]\((.+?)\)/g, '<img src="$2" alt="$1">');
+            
+            // Code blocks
+            text = text.replace(/```([\s\S]*?)```/g, '<pre><code>$1</code></pre>');
+            text = text.replace(/`(.+?)`/g, '<code>$1</code>');
+            
+            // Line breaks
+            text = text.replace(/\n\n/g, '</p><p>');
+            text = text.replace(/\n/g, '<br>');
+            
+            // Wrap in paragraphs
+            text = '<p>' + text + '</p>';
+            
+            // Clean up empty paragraphs
+            text = text.replace(/<p><\/p>/g, '');
+            text = text.replace(/<p><h/g, '<h');
+            text = text.replace(/<\/h\d><\/p>/g, '</h2>');
+            text = text.replace(/<p><pre>/g, '<pre>');
+            text = text.replace(/<\/pre><\/p>/g, '</pre>');
+            
+            return text;
+        }
+        
+        let allPosts = [];
+        let currentFilter = null;
+        
+        function filterPosts(category) {
+            currentFilter = category;
+            renderPosts();
+            document.getElementById('section-title').textContent = category ? category + ' Posts' : 'Latest Posts';
+        }
+        
+        function renderPosts() {
+            const container = document.getElementById('posts-container');
+            const posts = currentFilter ? allPosts.filter(p => p.category && p.category.includes(currentFilter)) : allPosts;
+            
+            if (posts.length === 0) {
+                container.innerHTML = '<p>No posts found</p>';
+                return;
+            }
+            
+            var html = '';
+            for (var i = 0; i < Math.min(posts.length, 30); i++) {
+                var p = posts[i];
+                var excerpt = p.excerpt ? p.excerpt.substring(0, 120).replace(/[#*]/g, '').replace(/\n/g, ' ') + '...' : '';
+                html += '<div class="post" onclick="loadPost(\'' + p.slug + '\')"><a><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
+            }
+            container.innerHTML = html;
+        }
+        
+        function loadPost(slug) {
+            const view = document.getElementById('post-view');
+            const home = document.getElementById('home-view');
+            const titleEl = document.getElementById('post-title');
+            const metaEl = document.getElementById('post-meta');
+            const contentEl = document.getElementById('post-content');
+            
+            // Find post metadata
+            const post = allPosts.find(p => p.slug === slug);
+            if (!post) {
+                contentEl.innerHTML = '<div class="error">Post not found</div>';
+            }
+            
+            // Show post view
+            home.classList.add('hidden');
+            view.classList.remove('hidden');
+            
+            titleEl.textContent = post.title;
+            metaEl.textContent = post.date + ' • ' + post.category;
+            contentEl.innerHTML = '<div class="loading">Loading...</div>';
+            
+            // Try to load markdown first, then fall back to HTML
+            fetch('posts/' + slug + '.md')
+                .then(r => {
+                    if (!r.ok) throw new Error('Markdown not found');
+                    return r.text();
+                })
+                .then(md => {
+                    contentEl.innerHTML = parseMarkdown(md);
+                })
+                .catch(() => {
+                    // Fall back to HTML file
+                    fetch(post.url)
+                        .then(r => r.text())
+                        .then(html => {
+                            // Extract body content
+                            const match = html.match(/<body[^>*>([\s\S]*)<\/body>/);
+                            if (match) {
+                                contentEl.innerHTML = match[1];
+                            } else {
+                                contentEl.innerHTML = html;
+                            }
+                        })
+                        .catch(e => {
+                            contentEl.innerHTML = '<div class="error">Failed to load post: ' + e.message + '</div>';
+                        });
+                });
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+        
+        function showHome() {
+            document.getElementById('post-view').classList.add('hidden');
+            document.getElementById('home-view').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+        
+        // Check for slug in URL hash
+        function checkUrlHash() {
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#post:')) {
+                const slug = hash.substring(6);
+                loadPost(slug);
+            }
+        }
+        
+        // Load posts
         fetch('posts.js?t=' + Date.now()).then(r => r.text()).then(code => {
             const container = document.getElementById('posts-container');
-            const blogCount = document.getElementById('blog-count');
             
             try {
                 // Extract array from "var posts = [...]" or "const posts = [...]"
                 const match = code.match(/(?:var|const) posts = (\[[\s\S]*\]);?/);
                 if (!match) {
-                    container.innerHTML = '<p>Could not parse posts</p>';
+                    container.innerHTML = '<div class="error">Could not parse posts</div>';
                     return;
                 }
-                const posts = JSON.parse(match[1]);
+                allPosts = JSON.parse(match[1]);
                 
-                if (!Array.isArray(posts) || posts.length === 0) {
+                if (!Array.isArray(allPosts) || allPosts.length === 0) {
                     container.innerHTML = '<p>No posts found</p>';
                     return;
                 }
                 
-                blogCount.textContent = posts.length + ' POSTS';
-                var recentPosts = posts.slice(0, 20);
-                var html = '';
-                for (var i = 0; i < recentPosts.length; i++) {
-                    var p = recentPosts[i];
-                    var excerpt = p.excerpt ? p.excerpt.substring(0, 150).replace(/[#*]/g, '').replace(/\n/g, ' ') + '...' : '';
-                    html += '<div class="post"><a href="' + p.url + '"><div class="post-meta">' + p.date + ' • ' + p.category + '</div><div class="post-title">' + p.title + '</div><div class="post-excerpt">' + excerpt + '</div></a></div>';
-                }
-                container.innerHTML = html;
+                renderPosts();
+                checkUrlHash();
+                
             } catch(e) {
-                container.innerHTML = '<p>Error: ' + e.message + '</p>';
+                container.innerHTML = '<div class="error">Error: ' + e.message + '</div>';
                 console.error(e);
             }
         }).catch(e => {
-            document.getElementById('posts-container').innerHTML = '<p>Failed to load posts: ' + e.message + '</p>';
+            document.getElementById('posts-container').innerHTML = '<div class="error">Failed to load posts: ' + e.message + '</div>';
         });
     </script>
 </body>
