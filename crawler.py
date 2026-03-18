@@ -53,31 +53,22 @@ excerpt: ""
         "slug": slug
     }
 
-def load_posts_js():
-    """Load existing posts from posts.js"""
+def load_posts_json():
+    """Load existing posts from posts.json"""
     try:
-        with open(POSTS_JS, 'r') as f:
-            content = f.read()
-            # Extract JSON array
-            match = re.search(r'(?:var|const) posts = (\[[\s\S]*\]);?', content)
-            if match:
-                return json.loads(match.group(1))
+        with open('posts.json', 'r') as f:
+            return json.load(f)
     except Exception as e:
-        print(f"Could not load posts.js: {e}")
+        print(f"Could not load posts.json: {e}")
     return []
 
-def save_posts_js(posts):
-    """Save posts to posts.js"""
+def save_posts_json(posts):
+    """Save posts to posts.json"""
     # Sort by date (newest first)
     posts.sort(key=lambda x: x.get('date', ''), reverse=True)
     
-    js_content = f"""// Post index - minimal metadata for cards
-// Full content available in /posts/{{slug}}.md
-const posts = {json.dumps(posts, indent=2)};
-"""
-    
-    with open(POSTS_JS, 'w') as f:
-        f.write(js_content)
+    with open('posts.json', 'w') as f:
+        json.dump(posts, f, indent=2)
     
     print(f"✓ Updated posts.js with {len(posts)} posts")
 
@@ -114,6 +105,21 @@ Add real content sources to the crawler!
     
     return new_posts
 
+def auto_categorize(title):
+    """Auto-categorize based on title keywords"""
+    title = title.lower()
+    
+    if 'fpl' in title or 'fantasy' in title or 'captain' in title or 'gw' in title:
+        return 'FPL'
+    elif 'ai' in title or 'tech' in title or 'claude' in title or 'coding' in title or 'software' in title or 'nvidia' in title or 'google' in title or 'openai' in title:
+        return 'Tech'
+    elif 'business' in title or 'startup' in title or 'money' in title or 'million' in title or 'invest' in title:
+        return 'Business'
+    elif 'sport' in title or 'training' in title or 'workout' in title or 'health' in title:
+        return 'Sports'
+    else:
+        return 'Blog'
+
 def main():
     """Main entry point"""
     os.makedirs(POSTS_DIR, exist_ok=True)
@@ -124,19 +130,26 @@ def main():
     new_posts = crawl_sources()
     
     # Load existing posts
-    existing_posts = load_posts_js()
+    existing_posts = load_posts_json()
     
     # Add new posts (avoid duplicates by slug)
     existing_slugs = {p.get('slug') for p in existing_posts}
     
     for post in new_posts:
         if post['slug'] not in existing_slugs:
+            # Auto-categorize new posts
+            if 'category' not in post:
+                post['category'] = auto_categorize(post['title'])
             existing_posts.append(post)
             print(f"Added: {post['title']}")
     
+    # Re-categorize all posts (in case title keywords changed)
+    for post in existing_posts:
+        post['category'] = auto_categorize(post.get('title', ''))
+    
     # Save updated posts
     if new_posts:
-        save_posts_js(existing_posts)
+        save_posts_json(existing_posts)
     else:
         print("No new posts to add")
     
