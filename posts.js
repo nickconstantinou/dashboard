@@ -53,10 +53,10 @@ var posts = [
     "date": "March 18, 2026",
     "title": "What Should You Do With Money Once You're Rich? | Scott Galloway | Nick's Blog",
     "excerpt": "",
-    "category": "Tech",
+    "category": "Business",
     "url": "2026-03-18-what-should-you-do-with-money-once-youre-rich-scot.html",
     "tags": [
-      "Tech"
+      "Business"
     ]
   },
   {
@@ -351,16 +351,6 @@ var posts = [
   },
   {
     "date": "March 13, 2026",
-    "title": "30% of Europe\u2019s cocaine routed through West Africa region \u2022 FRANCE 24 English | ",
-    "excerpt": "",
-    "category": "AI",
-    "url": "2026-03-13-30-of-europes-cocaine-routed-through-west-africa-r.html",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "March 13, 2026",
     "title": "Best Overwatch heroes - game design lead Jeff Kaplan picks his favorites | Lex F",
     "excerpt": "",
     "category": "Tech",
@@ -431,30 +421,10 @@ var posts = [
   },
   {
     "date": "March 12, 2026",
-    "title": "Iran trolls Trump with AI-generated Lego propaganda video \u2022 FRANCE 24 English | ",
-    "excerpt": "",
-    "category": "AI",
-    "url": "2026-03-12-iran-trolls-trump-with-ai-generated-lego-propagand.html",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "March 12, 2026",
     "title": "Morgan Stanley Just Declared War On BlackRock's Bitcoin Empire | Nick's Blog",
     "excerpt": "",
     "category": "Tech",
     "url": "2026-03-12-morgan-stanley-just-declared-war-on-blackrocks-bit.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 12, 2026",
-    "title": "Netanyahu says new Iran leader 'can't show his face in public' \u2022 FRANCE 24 Engli",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-12-netanyahu-says-new-iran-leader-cant-show-his-face-.html",
     "tags": [
       "Tech"
     ]
@@ -493,10 +463,10 @@ var posts = [
     "date": "March 12, 2026",
     "title": "Warren Buffet's Advice for Entrepreneurs Becoming Investors  | Mohnish Pabrai | ",
     "excerpt": "",
-    "category": "Tech",
+    "category": "Business",
     "url": "2026-03-12-warren-buffets-advice-for-entrepreneurs-becoming-i.html",
     "tags": [
-      "Tech"
+      "Business"
     ]
   },
   {
@@ -525,16 +495,6 @@ var posts = [
     "excerpt": "",
     "category": "Tech",
     "url": "2026-03-11-macbook-neo-review-better-than-you-think.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 11, 2026",
-    "title": "Trump says US destroying Iranian mine-laying boats \u2022 FRANCE 24 English | Nick's ",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-11-trump-says-us-destroying-iranian-mine-laying-boats.html",
     "tags": [
       "Tech"
     ]
@@ -643,10 +603,10 @@ var posts = [
     "date": "March 10, 2026",
     "title": "India's Warren Buffet Shares All You Need to Know About Investing | Nick's Blog",
     "excerpt": "",
-    "category": "Tech",
+    "category": "Business",
     "url": "2026-03-10-indias-warren-buffet-shares-all-you-need-to-know-a.html",
     "tags": [
-      "Tech"
+      "Business"
     ]
   },
   {
@@ -707,16 +667,6 @@ var posts = [
     "url": "2026-03-10-oil-prices-fall-stocks-rise-as-trump-says-military.html",
     "tags": [
       "Tech"
-    ]
-  },
-  {
-    "date": "March 10, 2026",
-    "title": "\u2018Our hopes have been crushed\u2019: Exclusive interviews from inside Iran \u2022 FRANCE 24",
-    "excerpt": "",
-    "category": "Podcast",
-    "url": "2026-03-10-our-hopes-have-been-crushed-exclusive-interviews-f.html",
-    "tags": [
-      "Podcast"
     ]
   },
   {
@@ -821,16 +771,6 @@ var posts = [
   },
   {
     "date": "March 10, 2026",
-    "title": "Trump says will waive some oil sanctions after talks with Putin \u2022 FRANCE 24 Engl",
-    "excerpt": "",
-    "category": "AI",
-    "url": "2026-03-10-trump-says-will-waive-some-oil-sanctions-after-tal.html",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "March 10, 2026",
     "title": "Trump's mixed messages on Iran: 'Still unclear what US wants to achieve' \u2022 FRANC",
     "excerpt": "",
     "category": "Tech",
@@ -841,40 +781,10 @@ var posts = [
   },
   {
     "date": "March 10, 2026",
-    "title": "UNESCO sounds alarm over war threat to Middle East's heritage sites \u2022 FRANCE 24 ",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-10-unesco-sounds-alarm-over-war-threat-to-middle-east.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 10, 2026",
-    "title": "Video shows US Tomahawk missile strike next to bombed Iranian school \u2022 FRANCE 24",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-10-video-shows-us-tomahawk-missile-strike-next-to-bom.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 10, 2026",
     "title": "We Built the ULTIMATE Gaming Firetruck | Nick's Blog",
     "excerpt": "",
     "category": "Tech",
     "url": "2026-03-10-we-built-the-ultimate-gaming-firetruck.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 10, 2026",
-    "title": "Why are ships linked to China getting through the Strait of Hormuz? \u2022 FRANCE 24 ",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-10-why-are-ships-linked-to-china-getting-through-the-.html",
     "tags": [
       "Tech"
     ]
@@ -1993,10 +1903,100 @@ var posts = [
     "date": "February 26, 2026",
     "title": "2 Underrated Areas to Invest in 2026 to Print Money | Scott Galloway | Nick's Bl",
     "excerpt": "",
-    "category": "Tech",
+    "category": "Business",
     "url": "2026-02-26-2-underrated-areas-to-invest-in-2026-to-print-mone.html",
     "tags": [
+      "Business"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Anthropic HACKED: Here's What China Stole. | Nick's Blog",
+    "excerpt": "",
+    "category": "Tech",
+    "url": "2026-02-26-anthropic-hacked-heres-what-china-stole.html",
+    "tags": [
       "Tech"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Anthropic Just Got Hacked by China. But Was This illegal? | Nick's Blog",
+    "excerpt": "",
+    "category": "AI",
+    "url": "2026-02-26-anthropic-just-got-hacked-by-china-but-was-this-il.html",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Brutally Honest Career Advice for Young People | Scott Galloway | Nick's Blog",
+    "excerpt": "",
+    "category": "Business",
+    "url": "2026-02-26-brutally-honest-career-advice-for-young-people-sco.html",
+    "tags": [
+      "Business"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Google\u2019s New AI Tools Are Actually Insane (We Tried Them All) | Nick's Blog",
+    "excerpt": "",
+    "category": "AI",
+    "url": "2026-02-26-googles-new-ai-tools-are-actually-insane-we-tried-.html",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "How Khabib smeshes EVERYONE | Lex Fridman | Nick's Blog",
+    "excerpt": "",
+    "category": "Tech",
+    "url": "2026-02-26-how-khabib-smeshes-everyone-lex-fridman.html",
+    "tags": [
+      "Tech"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "I Built a Meta-Learning System for My AI Agent \u2014 Here's What Happened | Nick's B",
+    "excerpt": "",
+    "category": "AI",
+    "url": "2026-02-26-i-built-a-meta-learning-system-for-my-ai-agent.html",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle) | Nick's Blog",
+    "excerpt": "",
+    "category": "Tech",
+    "url": "2026-02-26-i-built-a-vibe-translator-one-idea-4-frontend-stac.html",
+    "tags": [
+      "Tech"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Khabib smeshes Lex Fridman: ROUND 2 | Nick's Blog",
+    "excerpt": "",
+    "category": "Tech",
+    "url": "2026-02-26-khabib-smeshes-lex-fridman-round-2.html",
+    "tags": [
+      "Tech"
+    ]
+  },
+  {
+    "date": "February 26, 2026",
+    "title": "Lex Fridman trains w/ Khabib Nurmagomedov - ROUND 1 | Nick's Blog",
+    "excerpt": "",
+    "category": "AI",
+    "url": "2026-02-26-lex-fridman-trains-w-khabib-nurmagomedov-round-1.html",
+    "tags": [
+      "AI"
     ]
   }
 ];
