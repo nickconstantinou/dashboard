@@ -152,7 +152,7 @@
         // Load posts
         const resp = await fetch('posts.js?v=' + Date.now());
         const jsCode = await resp.text();
-        const postsMatch = jsCode.match(/var posts = ([[sS]*]);/);
+        const postsMatch = jsCode.match(/var posts = ([\s\S]*);/);
         if (postsMatch) allPosts = JSON.parse(postsMatch[1]);
         
         // Extract categories from posts
