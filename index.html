@@ -113,7 +113,7 @@
         
         <footer>
             <p>Built with OpenClaw • Auto-updated daily</p>
-        <button id="loadMore" onclick="loadMorePosts()">Load More</button>
+        <div id="loading" onclick="window.onscroll = function() { if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) { currentPage++; renderPosts(currentPage); } }">Load More</button>
 </footer>
     </div>
     
