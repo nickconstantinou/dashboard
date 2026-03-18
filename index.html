@@ -150,8 +150,10 @@
         });
         
         // Load posts
-        const resp = await fetch('posts.json?v=' + Date.now());
-        allPosts = await resp.json();
+        const resp = await fetch('posts.js?v=' + Date.now());
+        const jsCode = await resp.text();
+        const postsMatch = jsCode.match(/var posts = ([[sS]*]);/);
+        if (postsMatch) allPosts = JSON.parse(postsMatch[1]);
         
         // Extract categories from posts
         const cats = new Set();
