@@ -1,6 +1,66 @@
 // Post index
 const posts = [
   {
+    "date": "March 18, 2026",
+    "category": "Tech/Business",
+    "title": "What Should You Do With Money Once You're Rich? | Scott Galloway",
+    "excerpt": "# What Should You Do With Money Once You're Rich? | Scott Galloway\n\n## Introduction\n\nIn a world obse",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-18-what-should-you-do-with-money-once-youre-rich-scot.html"
+  },
+  {
+    "date": "March 18, 2026",
+    "category": "AI/Tech",
+    "title": "The brutal world of Rust video game - explained by Overwatch creator | Jeff Kaplan and Lex Fridman",
+    "excerpt": "Summary not available",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-18-the-brutal-world-of-rust-video-game-explained-by-o.html"
+  },
+  {
+    "date": "March 18, 2026",
+    "category": "AI/Tech",
+    "title": "Small teams vs Big teams: The secret to great video game design | Jeff Kaplan and Lex Fridman",
+    "excerpt": "# Small Teams vs. Big Teams: The Secret to Great Video Game Design\n\n## A Conversation with Jeff Kapl",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-18-small-teams-vs-big-teams-the-secret-to-great-video.html"
+  },
+  {
+    "date": "March 18, 2026",
+    "category": "FPL",
+    "title": "Everton v Chelsea | CotC with Sean Norton & Gary Mantle | Planet FPL 2025/26",
+    "excerpt": "# Everton v Chelsea | Clash of the Correspondents Preview | Planet FPL 2025/26\n\n## Introduction\n\nThe",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-18-everton-v-chelsea-cotc-with-sean-norton-gary-mantl.html"
+  },
+  {
+    "date": "March 18, 2026",
+    "category": "FPL",
+    "title": "The Blank Is Nigh | #FPL BGW31",
+    "excerpt": "# The Blank Is Nigh | #FPL BGW31\n\n## A Comprehensive Summary of Fantasy Premier League Gameweek 30 a",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-18-the-blank-is-nigh-fpl-bgw31.html"
+  },
+  {
+    "date": "March 18, 2026",
+    "category": "FPL",
+    "title": "FPL BLANK GW31 GAMEWEEK PREVIEW \ud83d\udd2e FREE HIT DRAFT \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# FPL Blank Gameweek 31 Preview: Strategic Guide for Fantasy Managers\n\n## Introduction: Navigating t",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-18-fpl-blank-gw31-gameweek-preview-free-hit-draft-fan.html"
+  },
+  {
     "date": "March 17, 2026",
     "title": "And That's The Bottom Line | Planet FPL's 9 | EP 45 | GW31",
     "excerpt": "",
@@ -121,3 +181,9 @@ const posts = [
     "slug": "what-to-ask-your-early-customers-for-hyper-growth"
   }
 ];
+
+
+
+
+
+
