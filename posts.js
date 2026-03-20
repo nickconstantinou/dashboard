@@ -2001,6 +2001,86 @@ var posts = [
   }
 ];const posts = [
   {
+    "date": "March 20, 2026",
+    "category": "Tech/Business",
+    "title": "The Secret to Becoming a Master Communicator | Scott Galloway",
+    "excerpt": "# The Secret to Becoming a Master Communicator: Inside Scott Galloway's Content Machine\n\n## Introduc",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-20-the-secret-to-becoming-a-master-communicator-scott.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "AI/Tech",
+    "title": "Single-player vs Multi-player video games - Overwatch creator explains | Jeff Kaplan and Lex Fridman",
+    "excerpt": "Summary not available",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-20-single-player-vs-multi-player-video-games-overwatc.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "AI/Tech",
+    "title": "Worst video game quest ever created: World of Warcraft's Green Hills of Stranglethorn | Jeff Kaplan",
+    "excerpt": "# The Infamous Green Hills of Stranglethorn: Jeff Kaplan on Designing WoW's Most Hated Quest\n\nIn the",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-20-worst-video-game-quest-ever-created-world-of-warcr.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "Tech",
+    "title": "Nothing Phone 4A/Pro Review: I Have a Theory",
+    "excerpt": "# Nothing Phone 4A/Pro Review: I Have a Theory\n\n## Introduction\n\nNothing, the London-based smartphon",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-03-20-nothing-phone-4apro-review-i-have-a-theory.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "FPL",
+    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# Pras' Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26\n\n## Introduction: Navigatin",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-20-pras-gameweek-31-team-selection-fantasy-premier-le.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "FPL",
+    "title": "Chip Strategy? Lateriser's Gameweek 31 Team Selection | Top 200x3 | Fantasy Premier League Tips",
+    "excerpt": "# Chip Strategy? Lateriser's Gameweek 31 Team Selection | Top 200x3 | Fantasy Premier League Tips\n\n#",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-20-chip-strategy-laterisers-gameweek-31-team-selectio.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "FPL",
+    "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
+    "excerpt": "# FPL Gameweek 31 Experts Team Analysis: Strategies for the Blank Gameweek\n\n## Introduction: Navigat",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-20-fpl-gw31-experts-team-620x-top-10k-finishes-.html"
+  },
+  {
+    "date": "March 20, 2026",
+    "category": "FPL",
+    "title": "MY FPL 31 TEAM SELECTION! \ud83d\udcf1 HAALAND STARTING? \ud83e\udd14 | Fantasy Premier League Tips 2025/26",
+    "excerpt": "# My FPL Gameweek 31 Team Selection: Haaland Mystery, Chip Strategies, and a Defender Dilemma\n\n## In",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-20-my-fpl-31-team-selection-haaland-starting-fantasy-.html"
+  },
+  {
     "date": "March 19, 2026",
     "category": "Tech/Business",
     "title": "The Best 2026 Investment Strategy is Betting AGAINST America | Scott Galloway",
@@ -2071,6 +2151,14 @@ var posts = [
     "url": "2026-03-19-my-fpl-blank-gw31-transfer-targets-timber-replacem.html"
   }
 ];
+
+
+
+
+
+
+
+
 
 
 
