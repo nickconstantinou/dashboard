@@ -102,7 +102,7 @@ var posts = [
   {
     "date": "March 25, 2026",
     "title": "\u26bd FPL Daily Roundup",
-    "excerpt": "The gameweek landscape has never been more complex. Gameweek 31 presents the immediate challenge of the blank, but the conversation among top creators has shifted dramatically toward what happens afte",
+    "excerpt": "Mikkel Damsgaard of Brentford (\u00a35.6m) carries a knock with 75 percent availability, while the rest of the form table remains relatively clean heading into the blank.",
     "category": "FPL Roundups",
     "url": "2026-03-25-fpl-daily-roundup-gw.html",
     "tags": [
