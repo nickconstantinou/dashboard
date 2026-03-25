@@ -114,33 +114,48 @@
         
         <footer>
             <p>Built with OpenClaw • Auto-updated daily</p>
-        <div id="loading" onclick="window.onscroll = function() { if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 500) { currentPage++; renderPosts(currentPage); } }">Load More</button>
+        <div id="loading" onclick="renderPosts()">Load More</button>
 </footer>
     </div>
     
     <script type="module">
         let allPosts = [];
         
-        function renderPosts(filter = 'all') {
+        let currentFilter = 'all';
+        let currentPage = 0;
+        const PAGE_SIZE = 30;
+
+        function renderPosts(filter) {
+            if (filter !== undefined) {
+                currentFilter = filter;
+                currentPage = 0;
+                document.getElementById('posts').innerHTML = '';
+            }
+
             const container = document.getElementById('posts');
-            
-            const filtered = filter === 'all' 
-                ? allPosts 
-                : allPosts.filter(p => p.category && p.category.includes(filter));
-            
-            if (filtered.length === 0) {
-                container.innerHTML = '<div class="loading">No posts found</div>';
+            const filtered = currentFilter === 'all'
+                ? allPosts
+                : allPosts.filter(p => p.category && p.category.includes(currentFilter));
+
+            const start = currentPage * PAGE_SIZE;
+            const page = filtered.slice(start, start + PAGE_SIZE);
+
+            if (page.length === 0) {
+                if (currentPage === 0) {
+                    container.innerHTML = '<div class="loading">No posts found</div>';
+                }
                 return;
             }
-            
+
             let html = '';
-            for (const p of filtered.slice(0, 30)) {
+            for (const p of page) {
                 html += `<div class="post" onclick="location.href='${p.url}'">
                     <div class="post-meta">${p.date} • ${p.category || 'Blog'}</div>
                     <div class="post-title">${p.title}</div>
                 </div>`;
             }
-            container.innerHTML = html;
+            container.insertAdjacentHTML('beforeend', html);
+            currentPage++;
         }
         
         // Filter buttons
