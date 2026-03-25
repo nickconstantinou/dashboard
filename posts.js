@@ -11,56 +11,6 @@ var posts = [
   },
   {
     "date": "March 25, 2026",
-    "title": "The Truth About Jay Shetty | My First Million",
-    "excerpt": "",
-    "category": "Tech/Business",
-    "url": "2026-03-25-the-truth-about-jay-shetty-my-first-million.html",
-    "tags": [
-      "Tech/Business"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
-    "title": "Reviewing Everything on my Desk! (2026)",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-25-reviewing-everything-on-my-desk-2026.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
-    "title": "NVIDIA CEO says AGI is already here | Jensen Huang and Lex Fridman",
-    "excerpt": "",
-    "category": "AI/Tech",
-    "url": "2026-03-25-nvidia-ceo-says-agi-is-already-here-jensen-huang-a.html",
-    "tags": [
-      "AI/Tech"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
-    "title": "NVIDIA CEO on why TSMC and Taiwan are incredibly successful | Jensen Huang and Lex Fridman",
-    "excerpt": "",
-    "category": "AI/Tech",
-    "url": "2026-03-25-nvidia-ceo-on-why-tsmc-and-taiwan-are-incredibly-s.html",
-    "tags": [
-      "AI/Tech"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
-    "title": "Nothing Phone 4A/Pro Review: I Have a Theory",
-    "excerpt": "",
-    "category": "Tech",
-    "url": "2026-03-25-nothing-phone-4apro-review-i-have-a-theory.html",
-    "tags": [
-      "Tech"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
     "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
     "excerpt": "",
     "category": "FPL",
@@ -87,16 +37,6 @@ var posts = [
     "url": "2026-03-25-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
     "tags": [
       "Tech"
-    ]
-  },
-  {
-    "date": "March 25, 2026",
-    "title": "How to Spot a Fake Self-Help Guru | My First Million",
-    "excerpt": "",
-    "category": "Tech/Business",
-    "url": "2026-03-25-how-to-spot-a-fake-self-help-guru-my-first-million.html",
-    "tags": [
-      "Tech/Business"
     ]
   },
   {
@@ -337,16 +277,6 @@ var posts = [
     "url": "2026-03-20-the-secret-to-becoming-a-master-communicator-scott.html",
     "tags": [
       "Tech/Business"
-    ]
-  },
-  {
-    "date": "March 20, 2026",
-    "title": "Single-player vs Multi-player video games - Overwatch creator explains | Jeff Kaplan and Lex Fridman",
-    "excerpt": "",
-    "category": "AI/Tech",
-    "url": "2026-03-20-single-player-vs-multi-player-video-games-overwatc.html",
-    "tags": [
-      "AI/Tech"
     ]
   },
   {
