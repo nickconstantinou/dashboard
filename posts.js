@@ -102,7 +102,7 @@ var posts = [
   {
     "date": "March 25, 2026",
     "title": "\u26bd FPL Daily Roundup",
-    "excerpt": "Today's FPL content from 4 top creators covers the key topics:",
+    "excerpt": "FP Harry, a Chelsea fan, confessed: *\"Although as a Chelsea fan, I really wish he hadn't ended up being [the hero of my gameweek]\"* \u2014 referring to mudarkic. Both Chelsea and Spurs had \"the worst weeke",
     "category": "FPL",
     "url": "2026-03-25-fpl-daily-roundup-gw.html",
     "tags": [
