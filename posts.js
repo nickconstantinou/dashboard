@@ -190,6 +190,56 @@ var posts = [
     "url": "2026-03-26-does-money-and-power-corrupt-jensen-huang-and-lex-.html"
   },
   {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "Mohamed Salah: The story of an all-time FPL legend",
+    "excerpt": "# Mohamed Salah: The Story of an All-Time FPL Legend\n\n## The Full Story\n\nMohamed Salah's illustrious",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-ffs-mohamed-salah-the-story-of-an-all-time-fpl-legend.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "Who are FPL\u2019s best all-round midfielders?",
+    "excerpt": "# FPL's Best All-Round Midfielders: A Complete Guide for the 2025/26 Season Run-In\n\n## The Full Stor",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-ffs-who-are-fpl\u2019s-best-all-round-midfielders?.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "What each Premier League club has left to play for",
+    "excerpt": "# Premier League Run-In: What Each Club Has Left to Play For as Title Race Heats Up\n\n## The Full Sto",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-ffs-what-each-premier-league-club-has-left-to-play-for.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "The latest FFS Members Cup results + second-round draw",
+    "excerpt": "# Fantasy Football Scout Members Cup: Round One Results See Six Former Winners Fall, 128 Managers Ad",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-ffs-the-latest-ffs-members-cup-results-+-second-round-draw.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "Every FPL player on international duty in March \u2013 and when",
+    "excerpt": "# FPL Managers Face International Break as World Cup Qualifying Complicates Gameweek 32 Plans\n\n**The",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-ffs-every-fpl-player-on-international-duty-in-march-\u2013-and-when.html"
+  },
+  {
     "date": "March 25, 2026",
     "title": "FPL Daily Roundup \u2014 2026-03-25",
     "url": "2026-03-25-fpl-daily-roundup-gw.html",
@@ -3429,4 +3479,4 @@ var posts = [
       "FPL"
     ]
   }
-];;;
+];;;;;;;;
