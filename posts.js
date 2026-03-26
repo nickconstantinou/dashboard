@@ -170,6 +170,26 @@ var posts = [
     ]
   },
   {
+    "date": "March 26, 2026",
+    "category": "Tech/Business",
+    "title": "Weird Habits to Live Your Dream Life | Tim Ferriss",
+    "excerpt": "# Weird Habits to Live Your Dream Life: Tim Ferriss on Lifestyle Sampling, Intentional Serendipity, ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-26-weird-habits-to-live-your-dream-life-tim-ferriss.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "AI/Tech",
+    "title": "Does money and power corrupt? | Jensen Huang and Lex Fridman",
+    "excerpt": "# Does Money and Power Corrupt? Jensen Huang on Humility, Reasoning, and Staying Open-Minded at the ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-26-does-money-and-power-corrupt-jensen-huang-and-lex-.html"
+  },
+  {
     "date": "March 25, 2026",
     "title": "FPL Daily Roundup \u2014 2026-03-25",
     "url": "2026-03-25-fpl-daily-roundup-gw.html",
@@ -3409,4 +3429,4 @@ var posts = [
       "FPL"
     ]
   }
-];
+];;;
