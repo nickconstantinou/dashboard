@@ -101,16 +101,6 @@ var posts = [
   },
   {
     "date": "March 26, 2026",
-    "title": "Fantasy Football Scout News",
-    "url": "2026-03-26-fantasy-football-scout-news.html",
-    "category": "FPL",
-    "excerpt": "Fantasy Football Scout News",
-    "tags": [
-      "FPL"
-    ]
-  },
-  {
-    "date": "March 26, 2026",
     "title": "Why the Self-Help Industry Is Built on Lies | My First Million",
     "url": "2026-03-26-why-the-self-help-industry-is-built-on-lies-my-fir.html",
     "category": "Blog",
