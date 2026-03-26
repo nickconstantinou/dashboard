@@ -1,6 +1,56 @@
 var posts = [
   {
     "date": "March 26, 2026",
+    "title": "Every FPL player on international duty in March \u2013 and when",
+    "url": "2026-03-26-ffs-every-fpl-player-on-international-duty-in-march-\u2013-and-when.html",
+    "category": "FPL",
+    "excerpt": "The World Cup play-off participants with Premier League representation include:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 26, 2026",
+    "title": "The latest FFS Members Cup results + second-round draw",
+    "url": "2026-03-26-ffs-the-latest-ffs-members-cup-results-+-second-round-draw.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 26, 2026",
+    "title": "What each Premier League club has left to play for",
+    "url": "2026-03-26-ffs-what-each-premier-league-club-has-left-to-play-for.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 26, 2026",
+    "title": "Who are FPL\u2019s best all-round midfielders?",
+    "url": "2026-03-26-ffs-who-are-fpl\u2019s-best-all-round-midfielders?.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 26, 2026",
+    "title": "Mohamed Salah: The story of an all-time FPL legend",
+    "url": "2026-03-26-ffs-mohamed-salah-the-story-of-an-all-time-fpl-legend.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 26, 2026",
     "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
     "url": "2026-03-26-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
     "category": "FPL",
@@ -168,76 +218,6 @@ var posts = [
     "tags": [
       "Blog"
     ]
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "Tech/Business",
-    "title": "Weird Habits to Live Your Dream Life | Tim Ferriss",
-    "excerpt": "# Weird Habits to Live Your Dream Life: Tim Ferriss on Lifestyle Sampling, Intentional Serendipity, ",
-    "tags": [
-      "Tech/Business"
-    ],
-    "url": "2026-03-26-weird-habits-to-live-your-dream-life-tim-ferriss.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "AI/Tech",
-    "title": "Does money and power corrupt? | Jensen Huang and Lex Fridman",
-    "excerpt": "# Does Money and Power Corrupt? Jensen Huang on Humility, Reasoning, and Staying Open-Minded at the ",
-    "tags": [
-      "AI/Tech"
-    ],
-    "url": "2026-03-26-does-money-and-power-corrupt-jensen-huang-and-lex-.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "FPL",
-    "title": "Mohamed Salah: The story of an all-time FPL legend",
-    "excerpt": "# Mohamed Salah: The Story of an All-Time FPL Legend\n\n## The Full Story\n\nMohamed Salah's illustrious",
-    "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-26-ffs-mohamed-salah-the-story-of-an-all-time-fpl-legend.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "FPL",
-    "title": "Who are FPL\u2019s best all-round midfielders?",
-    "excerpt": "# FPL's Best All-Round Midfielders: A Complete Guide for the 2025/26 Season Run-In\n\n## The Full Stor",
-    "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-26-ffs-who-are-fpl\u2019s-best-all-round-midfielders?.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "FPL",
-    "title": "What each Premier League club has left to play for",
-    "excerpt": "# Premier League Run-In: What Each Club Has Left to Play For as Title Race Heats Up\n\n## The Full Sto",
-    "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-26-ffs-what-each-premier-league-club-has-left-to-play-for.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "FPL",
-    "title": "The latest FFS Members Cup results + second-round draw",
-    "excerpt": "# Fantasy Football Scout Members Cup: Round One Results See Six Former Winners Fall, 128 Managers Ad",
-    "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-26-ffs-the-latest-ffs-members-cup-results-+-second-round-draw.html"
-  },
-  {
-    "date": "March 26, 2026",
-    "category": "FPL",
-    "title": "Every FPL player on international duty in March \u2013 and when",
-    "excerpt": "# FPL Managers Face International Break as World Cup Qualifying Complicates Gameweek 32 Plans\n\n**The",
-    "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-26-ffs-every-fpl-player-on-international-duty-in-march-\u2013-and-when.html"
   },
   {
     "date": "March 25, 2026",
@@ -3479,4 +3459,4 @@ var posts = [
       "FPL"
     ]
   }
-];;;;;;;;
+];
