@@ -3319,8 +3319,19 @@ var posts = [
       "Tech"
     ],
     "url": "2026-03-26-nothing-phone-4apro-review-i-have-a-theory.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "FPL Daily Roundup",
+    "excerpt": "# FPL Gameweek Roundup: Salah's Farewell, Cherki's Rise, and the Run-In Strategy\n\n## The Premier Lea",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-fpl-daily-roundup-gw.html"
   }
 ];
+
 
 
 
