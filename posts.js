@@ -220,6 +220,16 @@ var posts = [
     ]
   },
   {
+    "date": "March 26, 2026",
+    "category": "FPL",
+    "title": "Mohamed Salah: The story of an all-time FPL legend",
+    "excerpt": "# Mohamed Salah: The Story of an All-Time FPL Legend\n\n## The Full Story\n\nMohamed Salah's unprecedent",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-26-mohamed-salah-the-story-of-an-all-time-fpl-legend.html"
+  },
+  {
     "date": "March 25, 2026",
     "title": "FPL Daily Roundup \u2014 2026-03-25",
     "url": "2026-03-25-fpl-daily-roundup-gw.html",
@@ -3459,4 +3469,4 @@ var posts = [
       "FPL"
     ]
   }
-];
+];;;
