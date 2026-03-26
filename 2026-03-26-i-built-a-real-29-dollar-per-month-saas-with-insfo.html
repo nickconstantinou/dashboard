@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I built a real 29 dollar per month SAAS with Insforge | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-03-26 • Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/gxYcGipGCYA" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Building a $29/Month SaaS with AI: A Real-Time Demonstration Using Insforge</h1>
+
+<h2>Introduction</h2>
+
+<p>In the increasingly unreliable landscape of cloud services, a developer and content creator has discovered both a pressing problem and a promising business opportunity. The creator, who produces coding-related content, noticed that major technology platforms—including Google's Gemini, Anthropic's Claude, and even infrastructure providers like Supabase—have been experiencing frequent outages. What makes these disruptions particularly frustrating is that the companies responsible often fail to accurately update their own status pages, leaving users without reliable information about whether a service is truly down or if the issue lies with their own setup.</p>
+
+<p>This frustration led to a critical insight: what if a third-party service could monitor uptime and downtime more reliably than companies monitoring themselves? The creator realized that this could represent a legitimate SaaS business opportunity, especially given recent market activity. Notably, Accenture acquired Okla, which owns Downdetector and Speedtest, demonstrating that reliable monitoring services command significant value. The real experiment, however, comes from the methodology: building this entire SaaS product using AI agents, specifically leveraging Insforge as the backend and Cursor as the development environment. The goal was to see whether AI could genuinely build a functional, market-ready product without human intervention—and the results offer fascinating insights into the current state of AI-assisted development.</p>
+
+<h2>The Problem with Status Pages</h2>
+
+<p>The catalyst for this project emerged from firsthand experience with unreliable status reporting. When Gemini experienced a significant outage, the creator found themselves manually verifying whether the service was truly down, only to discover that Claude was also experiencing issues simultaneously. Rather than providing definitive answers, status pages often displayed vague information like "some things are degraded" rather than clearly stating that services were completely unavailable.</p>
+
+<p>The fundamental issue is one of incentive misalignment. When companies monitor their own services, they have a natural tendency to downplay problems or delay updates while they work on solutions. This creates a situation where users receive unreliable information precisely when they need it most—during outages. The creator's frustration crystallized into a simple but powerful question: what if users could monitor services themselves, or rely on independent third-party monitors that have no stake in downplaying service disruptions?</p>
+
+<p>This observation reveals a genuine market gap. Existing solutions like Uptime Robot charge $7 per month for solopreneurs and offer only 10 monitors with 60-second monitoring intervals. While this represents a reasonable entry point, there's clearly room for more accessible or more feature-rich alternatives that could serve individual developers and small teams at various price points.</p>
+
+<h2>Insforge: An AI-Native Backend Alternative</h2>
+
+<p>The chosen technology stack centers on Insforge, an open-source project that has gained significant traction with nearly 1,900 stars on its repository. The platform makes a bold claim right in its description: it is "AI-native" and positions itself as a Supabase alternative. This combination of being open-source while targeting the growing market for AI-assisted development creates an interesting value proposition.</p>
+
+<p>What distinguishes Insforge for this use case is its deployment philosophy. The platform emphasizes that users can deploy with Docker in a single click, giving them full control over their infrastructure. This self-hosting capability addresses a common concern with managed services—vendor lock-in—while still providing the convenience of modern backend features. The creator appreciated this approach, noting that having everything under their control was essential for a project where reliability was paramount.</p>
+
+<p>Insforge's pricing structure offers accessible entry points for developers wanting to experiment. The free tier provides $1 in AI model credits, allowing developers to test AI integration without financial commitment. The $25 per month plan offers $10 in model credits monthly, along with 100,000 monthly active users and substantial storage allocations. The creator made a pragmatic observation about these pricing tiers: any SaaS product with 100,000 active users would likely be generating far more than $25 in revenue, making this an extraordinarily generous offering for legitimate businesses.</p>
+
+<h2>Building with AI Agents: The Cursor Integration</h2>
+
+<p>The core experiment involved using Cursor, an AI-powered code editor, to build the entire down detector application. This approach represents a significant departure from traditional development methodology—the creator explicitly stated they had no script and no existing code, wanting to see exactly how far AI could take the project and where it might fail.</p>
+
+<p>The integration between Insforge and Cursor works through MCP (Model Context Protocol), which allows the AI agent to interact directly with the backend infrastructure. Upon setup, the system loaded 17 distinct tools, including capabilities for fetching documentation, SDK references, templates, and CRUD operations on functions. The creator found the copy-paste functionality particularly useful, allowing them to quickly provide context to the AI agent without manual configuration.</p>
+
+<p>When the AI agent began executing, it demonstrated sophisticated planning capabilities, pulling up documentation, outlining concrete steps, and even fetching machine-matching resources to inform its approach. The creator embraced an experimental mindset, granting the AI autonomy to act on their behalf rather than micromanaging every decision. This hands-off approach, while risky, provided a genuine test of current AI development capabilities.</p>
+
+<p>The agent interface includes pre-built prompt templates for various application types, including CRM AI chatbots, e-commerce platforms, Notion clones, and Reddit-style community applications. These templates serve as starting points that developers can customize for their specific needs. The creator copied an example Reddit clone prompt and began modifying it for their down detector concept, preserving the community-based discussion structure while adapting it for service status tracking.</p>
+
+<h2>The Down Detector Concept</h2>
+
+<p>The application being built follows the logic of a community-powered status monitoring system. The core idea mirrors Downdetector's approach: rather than relying solely on a company's self-reported status, users can report and verify when services are experiencing issues. This crowdsourced approach provides multiple benefits: faster detection of outages, independent verification, and community-driven documentation of service reliability over time.</p>
+
+<p>The technical requirements the creator outlined for the project included user authentication and login functionality, along with the ability to track downtime status for any endpoint. Using Insforce as the backend would handle the data persistence and user management, while the frontend—built with AI assistance—would provide an intuitive interface for monitoring and reporting.</p>
+
+<p>The choice to model the interface after Reddit reflects an understanding of how community-driven platforms can effectively aggregate information. Rather than presenting a single source of truth, the application would allow users to contribute their own observations, creating a richer picture of service status that reflects real-world user experience rather than corporate spin.</p>
+
+<h2>The Significance of Third-Party Monitoring</h2>
+
+<p>Beyond the immediate business opportunity, the creator's project touches on a broader theme in technology: the importance of independent verification. The market has already recognized this value, as demonstrated by Accenture's acquisition of Okla. Companies that have built reliable, long-running services for monitoring internet speed and service availability have proven that independent monitoring represents genuine business value.</p>
+
+<p>The creator's insight about AI potentially building this type of system serves as a test of AI reliability itself. Building a monitoring service with AI probes an interesting philosophical territory—can the tool we need to monitor reliability itself be trusted to build something reliable? The answer will likely reveal both the current capabilities and limitations of AI-assisted development.</p>
+
+<h2>Key Insights for Developers and Entrepreneurs</h2>
+
+<p><strong>The infrastructure-as-a-commodity trend continues to accelerate.</strong> Platforms like Insforge demonstrate that sophisticated backend infrastructure is becoming increasingly accessible. The barrier to building a SaaS product has shifted from technical capability to product-market fit and customer acquisition. Developers who can identify genuine pain points—like unreliable status reporting—have more tools than ever to build solutions.</p>
+
+<p><strong>AI-assisted development excels at scaffolding but requires human direction.</strong> The Cursor agent demonstrated impressive capabilities in fetching documentation, planning implementation steps, and executing code generation. However, the creator's intervention in modifying the Reddit clone prompt for their specific use case shows that human creativity and domain knowledge remain essential for creating differentiated products. AI accelerates implementation; humans still need to define what to build and why.</p>
+
+<p><strong>The $25/month SaaS model remains viable for specialized tools.</strong> With infrastructure costs continuing to drop and AI assistance reducing development time, solopreneurs can now build and launch products at price points that would have been impractical just a few years ago. The key is identifying niches where existing solutions are either too expensive, too generic, or owned by the companies whose services need monitoring.</p>
+
+<h2>Who Should Watch This</h2>
+
+<p>This content proves most valuable for developers considering AI-assisted development workflows, entrepreneurs exploring low-cost SaaS concepts, and technical creators interested in the practical applications of tools like Insforge and Cursor. The real-time demonstration format provides transparency about both successes and potential failure points in the AI development process.</p>
+
+<p>Product managers and technical leads will benefit from understanding the current state of AI coding assistants and what tasks they can reliably handle versus where human oversight remains necessary. The demonstration of integrating multiple tools—Cursor, Insforge, Docker—also offers practical guidance for developers building modern AI-powered applications.</p>
+
+<p>The creator's informal approach, including references to "sipping tea" while the AI works, conveys an important message about changing development workflows. The question is no longer whether AI can help build software, but rather which parts of the development process AI handles most effectively and where human judgment remains irreplaceable.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
