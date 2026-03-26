@@ -3239,8 +3239,19 @@ var posts = [
       "Tech"
     ],
     "url": "2026-03-26-the-windows-laptop-problem.html"
+  },
+  {
+    "date": "March 26, 2026",
+    "category": "AI/Tech",
+    "title": "NVIDIA CEO responds to DLSS 5 drama about AI slop | Jensen Huang and Lex Fridman",
+    "excerpt": "Summary not available (no API key)",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-26-nvidia-ceo-responds-to-dlss-5-drama-about-ai-slop-.html"
   }
 ];
+
 
 
 
