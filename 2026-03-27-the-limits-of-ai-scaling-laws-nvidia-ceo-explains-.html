@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The limits of AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-03-27 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/WoNSsBWFyEk" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>The Limits of AI Scaling Laws: Jensen Huang's Vision for the Next Frontier</h1>
+
+<p>In a wide-ranging conversation that reveals the strategic thinking behind one of the most influential companies in artificial intelligence, NVIDIA CEO Jensen Huang sat down with Lex Fridman to explore the past, present, and future of AI scaling laws. The discussion, which spans from fundamental questions about how intelligence scales to the intricate hardware decisions that will shape the next decade of AI development, offers a rare glimpse into the mind of someone who has watched—and enabled—some of the most significant technological shifts in computing history.</p>
+
+<p>The conversation arrives at a pivotal moment in AI's development. After years of seemingly endless exponential growth driven by the original scaling law—that larger models trained on more data produce smarter AI—many observers have grown anxious about hitting ceiling after ceiling. First came fears that the world had run out of high-quality training data. Then came doubts about whether inference could ever match the importance of training. Now, as agentic systems begin to emerge, new questions are arising about whether the industry can sustain its pace of improvement. Huang's perspective, shaped by his company's unique position at the intersection of every major AI development, offers a compelling counter-narrative to these concerns—one that suggests the scaling laws are far from exhausted, and that the industry's best days may still lie ahead.</p>
+
+<h2>The Four Scaling Laws: A New Framework for Understanding AI Progress</h2>
+
+<p>Huang's central contribution to this conversation is a framework he has developed that identifies four distinct scaling laws, each representing a different axis along which AI capabilities can and will continue to grow. This framework is not merely academic—it represents the strategic map that guides NVIDIA's hardware development and the predictions that Huang uses to anticipate where the industry is heading.</p>
+
+<p><strong>The first and most familiar is pre-training scaling</strong>, which Huang describes as fundamentally about "memorization and generalization, looking for patterns and relationships." This is the original scaling law that drove the deep learning revolution—the observation that feeding massive amounts of data into increasingly large neural networks produces systems with emergent capabilities that smaller, less-trained models cannot match. Huang notes that this was the law everyone understood from the beginning, and it was the source of both tremendous excitement and considerable anxiety. Many researchers and industry observers worried, quite reasonably, that the world would simply run out of high-quality data to train on. The logic seemed inescapable: if intelligence scales with data, and data is finite, then intelligence must eventually plateau.</p>
+
+<p>Huang dismisses these concerns with characteristic directness. "The industry panicked, you know, that this is the end of AI," he recalls. "And of course, of course, that's obviously not true." The key insight that Huang offers is a reframe of what "synthetic data" actually means. Most people, he argues, have a narrow understanding of the term—they imagine it as artificial data generated by algorithms to fill gaps in human-created datasets. But this view misses a fundamental truth about how intelligence has always been transmitted among humans. "What people don't realize," Huang explains, "is they've kind of forgotten that most of the data that we are training, that we teach each other with, inform each other with—this is synthetic. You know, I it's synthetic because it didn't come out of nature. You created it. I'm consuming it. I modify it, augment it, regenerate it, somebody else consumes it."</p>
+
+<p>This reframing is significant because it dissolves the apparent data constraint. The amount of human-generated data may indeed be finite, but the amount of synthetic data—information that has been created, modified, augmented, and shared—is effectively unlimited. As AI systems become capable of generating high-quality synthetic data that can be used for further training, the bottleneck shifts from data availability to compute availability. And compute, Huang is quick to point out, is something that can be manufactured through engineering.</p>
+
+<p><strong>The second scaling law is post-training scaling</strong>, which encompasses all the techniques applied after the initial pre-training phase: fine-tuning, reinforcement learning from human feedback (RLHF), and the generation of synthetic training data. This is where models are refined to be helpful, safe, and aligned with human values. Huang emphasizes that post-training scaling is far from exhausted. The amount of data available for post-training continues to grow, much of it generated through the interaction between AI systems and human evaluators. Crucially, the synthetic data generated during post-training itself becomes input for future training runs, creating a virtuous cycle.</p>
+
+<p><strong>The third scaling law is test-time or inference scaling</strong>, and this is where Huang's perspective becomes particularly interesting. Early in the development of large language models, many observers dismissed inference as a relatively simple operation—surely nothing compared to the massive computational burden of training. The argument was that inference chips could be simple, cheap, and ubiquitous, while training would always require the most sophisticated hardware money could buy. Huang remembers this era with evident satisfaction: "I still remember people telling me that inference, oh yeah, that's easy. Pre-training that's hard. These are giant systems that people are talking about, inference must be easy, and so inference chips are going to be little tiny chips and you know they're not—they're not like Nvidia's chips. Oh, those are going to be complicated and expensive, and you know we could make this—and in the future inference is going to be the biggest market and it's going to be easy and we're going to commoditize and you know everybody can build their own chips."</p>
+
+<p>Huang found this reasoning "always illogical" because it misunderstood the fundamental nature of inference. "Inference is thinking," he states simply, "and I think thinking is hard. Thinking is way harder than reading." Pre-training, in his framework, is analogous to reading—absorbing vast amounts of information and finding patterns. But inference, when done properly, involves reasoning, planning, decomposition of problems into solvable pieces, search through possible solutions, and often extensive exploration and experimentation. This is not a simple pattern-matching exercise; it is the hard cognitive work that humans associate with genuine intelligence.</p>
+
+<p>The implications of this insight are profound. If inference is where the real thinking happens, then test-time scaling—allocating more compute to inference to enable deeper reasoning—is not just a nice-to-have but an essential frontier for AI progress. And this is precisely what the industry is discovering with techniques like chain-of-thought reasoning and extended thinking processes. "So test time scaling is intensely compute intensive," Huang confirms, and this recognition has profound implications for hardware design.</p>
+
+<p><strong>The fourth and newest scaling law is agentic scaling</strong>, which represents perhaps the most dramatic expansion of the AI scaling paradigm. Huang describes how modern AI agents, when given a complex task, do not simply produce a single response. Instead, they decompose the problem, spin off sub-agents to work on different components, access external databases and tools, conduct research, and coordinate their efforts toward a common goal. "One of the most important things it does is spins off and spawns off a whole bunch of sub-agents, which means we're now creating large teams."</p>
+
+<p>Huang draws an analogy that illuminates both the power and the scalability of this approach: "It's so much easier to scale Nvidia by hiring more employees than it is to scale myself." The same principle applies to AI agents. Rather than trying to create a single, superintelligent AI that can do everything, the agentic approach creates scalable teams of specialized agents that can work together. And the scaling law here is equally compelling: "The next scaling law is the agentic scaling law. It's kind of like multiplying AI. We could spin off agents as fast as you want to spin off agents."</p>
+
+<h2>The Virtuous Cycle: How the Four Laws Reinforce Each Other</h2>
+
+<p>One of the most illuminating aspects of Huang's framework is how the four scaling laws interconnect to create a self-reinforcing system for continued progress. The conversation reveals a vision of AI development as a continuous loop rather than a one-directional march forward.</p>
+
+<p>The process works as follows: Pre-training provides the foundational intelligence—the general knowledge and reasoning capabilities that the model has absorbed from its training data. Post-training refines this foundation, aligning the model with human preferences and generating high-quality synthetic data. Test-time inference allows the model to think deeply about specific problems, breaking them down and solving them through extended reasoning. And agentic systems put these capabilities to work in the world, creating experiences, interacting with tools, conducting research, and generating new data through their activities.</p>
+
+<p>Crucially, this generated data does not disappear. As Huang explains, some of what agentic systems produce is so valuable that it gets "memorized"—fed back into the pre-training corpus to expand the model's foundational knowledge. "That data set then comes all the way back to pre-training," Huang describes. "We memorize and generalize it. We then refine it and fine-tune it back into post-training. Then we enhance it even more with test time. You know, and the agent agents agentic systems you know put it onto the industry, and so this loop, the cycle, is going to go on and on and on."</p>
+
+<p>This vision suggests that concerns about AI hitting a wall are premature. The four scaling laws create multiple engines of progress that can sustain improvement for the foreseeable future. When one scaling law encounters constraints—whether the data ceiling that worried pre-training or the computational demands that challenge test-time inference—the other scaling laws provide alternative pathways for continued advancement.</p>
+
+<h2>The Hardware Challenge: Anticipating the Future in a World of Mismatched Timelines</h2>
+
+<p>If the four scaling laws represent the strategic terrain that AI must traverse, the hardware decisions that enable this traversal are the tactical moves that determine whether the journey succeeds. And this is where Huang's perspective becomes particularly revealing, because the relationship between AI model development and hardware development is characterized by a fundamental mismatch that makes accurate prediction extraordinarily difficult.</p>
+
+<p>Huang articulates this challenge with striking precision: "These AI model architectures are being invented about once every six months. System architectures and hardware architectures kind of every three years." This creates a temporal compression problem: by the time hardware is designed, manufactured, and deployed, the AI landscape may have shifted dramatically. Models that were state-of-the-art when hardware planning began may be obsolete before the hardware reaches customers.</p>
+
+<p>The example Huang returns to throughout the conversation illustrates this challenge perfectly. The Grace Blackwell architecture, NVIDIA's flagship system designed around the time of this discussion, was "completely focused on doing one thing, processing the LLM." It was optimized for the dominant workload of its era: running large language model inference at massive scale. But Huang anticipated that the next major workload would be different. One year later, the Vera Rubin architecture represents a fundamentally different design. "It has storage accelerators. It has this incredible new CPU called Vera. It has Vera Rubin and NVLink 72 to run the LLMs. It also has this new additional rack called Grok." This new system is designed not just for running language models but for running agents—systems that bang on tools, access databases, spawn sub-agents, and generate experiences that feed back into the training pipeline.</p>
+
+<p>The remarkable aspect of this evolution is that the Vera Rubin design had to be completed before the agentic era had clearly arrived in the public consciousness. "Obviously the design of the system had to have been done before Claude Code, Codeium, OpenClaw," Huang notes. "So you were anticipating the future essentially."</p>
+
+<p>How does NVIDIA make these predictions? Huang outlines a three-pronged approach. First, the company conducts extensive internal research, creating its own AI models to develop hands-on experience with emerging techniques and requirements. "We have basic research, we have applied research, we create our own models," Huang explains. "And so we have we have hands-on life experience right here. This is part of the code design that I'm talking about." Second, NVIDIA's unique position as the infrastructure provider for essentially every major AI company in the world gives it unparalleled visibility into the challenges and priorities across the entire industry. "We're also the only AI company in the world that works with literally every AI company in the world," Huang notes. "And to the extent that we can, we try to get a sense of what are the challenges that people are experiencing. So you're listening to the whispers across the industry."</p>
+
+<p>Third, and perhaps most importantly, NVIDIA invests heavily in creating flexible architectures that can adapt to changing requirements. "The last part is to have an architecture that's flexible that can adapt and move with the wind," Huang explains. The CUDA ecosystem is central to this flexibility. CUDA is, on one hand, "an incredible accelerator"—highly optimized for the specific computations that AI workloads require. But it is also "really flexible," capable of adapting to new algorithms and approaches without requiring fundamental redesign. This balance between specialization and generalization is what Huang describes as "the reason why CUDA has been so resilient."</p>
+
+<p>The hardware implications of different scaling laws create specific challenges that this flexibility must address. For instance, mixture of experts models, which route inputs through different subsets of a model's parameters based on the nature of the task, require different hardware characteristics than dense models. When this architecture emerged, NVIDIA responded by developing NVLink 72, which can "take an entire 4 trillion, 10 trillion parameter model and put it in one computing domain as if it's running on one GPU." This capability addresses the memory and bandwidth challenges that mixture of experts models create, allowing them to be trained and deployed efficiently.</p>
+
+<h2>The Limits of Scaling: What Remains Constrained</h2>
+
+<p>Despite his optimism about continued progress through the four scaling laws, Huang is clear that constraints do exist. The question is not whether limits will eventually be reached, but which limits will become binding at each stage of development.</p>
+
+<p>The most fundamental constraint, in Huang's framework, is compute. While data availability has been reframed from a hard ceiling to a manageable challenge through synthetic data generation, compute remains a genuine physical constraint. Building more powerful AI systems requires more silicon, more energy, and more sophisticated infrastructure. And while NVIDIA has consistently delivered exponential improvements in compute capability, this trajectory cannot continue indefinitely.</p>
+
+<p>The coordination challenge between different scaling timelines creates another category of constraints. When model architectures evolve every six months but hardware takes three years to design and deploy, the industry must make long-term investments based on imperfect predictions about what will be important. Huang's confidence in NVIDIA's ability to navigate this challenge comes from the company's comprehensive engagement with the AI ecosystem—listening to researchers, building internal models, and maintaining flexible architectures. But he acknowledges that this remains "scary and difficult to do."</p>
+
+<p>There are also domain-specific constraints that the four scaling laws do not fully address. Certain types of reasoning, certain forms of common sense understanding, and certain types of physical world interaction may not scale in the same way that language processing or pattern recognition do. The four scaling laws represent the current frontier of AI capability, but they are not necessarily a complete description of all forms of intelligence or all pathways to improvement.</p>
+
+<h2>Why Software and Tools Are Not Going Away</h2>
+
+<p>One of the more unexpected threads of the conversation addresses a claim that has gained some currency in AI discussions: that the rise of capable AI agents will make traditional software and tools obsolete. The argument goes that if AI can do anything, why would we need the complex systems that humans have built to extend their capabilities?</p>
+
+<p>Huang finds this reasoning "ridiculous" and approaches the question through a thought experiment. Consider what would be required to create "the most amazing agent that we can imagine in the next 10 years." To be genuinely useful, that agent would need access to ground truth—systems of record like file systems and databases that contain reliable information about the world. The agent would need to be able to conduct research, accessing external information rather than relying solely on what it was trained on. And critically, the agent would need to use tools—the existing infrastructure of human civilization—to accomplish its goals.</p>
+
+<p>"I don't want to wait until this AI becomes, you know, universally smart about everything past, present, and future before I make it useful," Huang explains. The practical solution is to give AI access to tools that extend its capabilities. Rather than trying to train a model that knows everything, we can train a model that knows how to find information, use software, and interact with the world. This is not a limitation of AI capability; it is a design principle that reflects how intelligence actually works.</p>
+
+<p>The tools that humans have built represent accumulated knowledge and capability that AI can leverage. A coding assistant that can use a version control system, submit pull requests, and run tests is far more useful than one that must rely entirely on its training. An agent that can search the web, read documentation, and interact with APIs is far more capable than one that can only reason from first principles. "If it wants to help me, it's got to use my tools," Huang states simply.</p>
+
+<p>This perspective suggests that the future of AI is not about replacement but about augmentation and integration. The most capable AI systems will be those that can effectively leverage the vast ecosystem of existing tools and infrastructure, extending their reach beyond what any single model could accomplish alone.</p>
+
+<h2>Key Takeaways</h2>
+
+<p><strong>The four scaling laws extend the frontier of AI progress beyond pre-training.</strong> Jensen Huang's framework identifies pre-training, post-training, test-time inference, and agentic scaling as four distinct pathways for continued AI improvement. Each scaling law addresses different aspects of intelligence and</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
