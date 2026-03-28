@@ -1,5 +1,125 @@
 var posts = [
   {
+    "date": "March 28, 2026",
+    "title": "Villa contest March break friendly v Elche",
+    "url": "2026-03-28-villa-contest-march-break-friendly-v-elche.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "Gameweek 35 TV fixtures announced \u2013 but no provisional Double Gameweek",
+    "url": "2026-03-28-gameweek-35-tv-fixtures-announced-but-no-provision.html",
+    "category": "Blog",
+    "excerpt": "This scenario would require Leeds to complete three matches in approximately six days with 72-hour turnarounds between each.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "How to be a MAGNET for the Right Audience | Tim Ferriss",
+    "url": "2026-03-28-how-to-be-a-magnet-for-the-right-audience-tim-ferr.html",
+    "category": "Blog",
+    "excerpt": "2026-03-28 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "Kroupi injury latest after France under-21 withdrawal",
+    "url": "2026-03-28-kroupi-injury-latest-after-france-under-21-withdra.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "category": "AI/Tech",
+    "title": "NVIDIA CEO's leadership lessons from failure, embarrassment, suffering | Jensen Huang",
+    "excerpt": "# The Mind of a Founder: Jensen Huang's Unconventional Wisdom on Leadership, Suffering, and Resilien",
+    "tags": [
+      "AI/Tech"
+    ],
+    "url": "2026-03-28-nvidia-ceos-leadership-lessons-from-failure-embarr.html"
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "FPL Gameweek 32 Wildcard bus team drafts",
+    "url": "2026-03-27-fpl-gameweek-32-wildcard-bus-team-drafts.html",
+    "category": "FPL",
+    "excerpt": "The Man City-focused draft includes several specific recommendations:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "What each Premier League club has left to play for",
+    "url": "2026-03-27-what-each-premier-league-club-has-left-to-play-for.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-03-27",
+    "url": "2026-03-27-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-03-27 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "The latest FFS Members Cup results + second-round draw",
+    "url": "2026-03-27-the-latest-ffs-members-cup-results-second-round-dr.html",
+    "category": "Blog",
+    "excerpt": "The \u00a3300 prize pool, while modest, carries significant symbolic value, and the Amazon voucher structure (first place: \u00a3150, second: \u00a3100, third: \u00a350) ensures meaningful rewards for the top performers.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "Who are FPL\u2019s best all-round midfielders?",
+    "url": "2026-03-27-who-are-fpls-best-all-round-midfielders.html",
+    "category": "FPL",
+    "excerpt": "The 1,700-minute threshold ensures analysis focuses on players who have been regular starters rather than rotational options, filtering out those with inflated per-90 stats from limited appearances.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "Mohamed Salah: The story of an all-time FPL legend",
+    "url": "2026-03-27-mohamed-salah-the-story-of-an-all-time-fpl-legend.html",
+    "category": "FPL",
+    "excerpt": "His 29-point haul against Watford in 2017/18 remains the FPL single-match record, matched only by his own performance in Double Gameweek 24 of 2024/25.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 27, 2026",
+    "title": "The limits of AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-03-27-the-limits-of-ai-scaling-laws-nvidia-ceo-explains-.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-27 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
     "date": "March 26, 2026",
     "title": "Every FPL player on international duty in March \u2013 and when",
     "url": "2026-03-26-every-fpl-player-on-international-duty-in-march-an.html",
