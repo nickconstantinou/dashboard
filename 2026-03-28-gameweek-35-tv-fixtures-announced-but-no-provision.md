@@ -2,74 +2,64 @@
 title: "Gameweek 35 TV fixtures announced – but no provisional Double Gameweek"
 date: 2026-03-28
 type: blog
+source: "Fantasy Football Scout"
 source_url: "https://www.fantasyfootballscout.co.uk/2026/03/27/gameweek-35-tv-fixtures-announced-but-no-provisional-double-gameweek"
 category: "FPL"
 ---
 
-# Gameweek 35 TV Fixtures Confirmed: Fantasy Managers Left Waiting on Double Gameweek Clarity
+# Fantasy Football Community Awaits Clarity on Double Gameweek Possibilities After Premier League Confirms Gameweek 35 TV Fixtures
 
-**By Skonto Rigga | March 27, 2026**
+## Full Story
 
----
+The Premier League released its television-selected fixtures for Gameweek 35 on Friday, confirming new dates and broadcast arrangements—but disappointed fantasy football managers still waiting on whether a provisional Double Gameweek will materialise. The announcement revealed a full schedule spanning from Friday, May 1 through Monday, May 4, with eight Premier League matches selected for television coverage across Sky Sports and TNT Sports. Notably absent from the announcement was any confirmation of a provisional Double Gameweek, dashing hopes that the league might provide early clarity on potential fixture rearrangements stemming from cup commitments.
 
-## The Full Story
+The confirmed Gameweek 35 fixture list begins with Leeds United's home clash against Burnley on Friday, May 1 at 20:00 BST on Sky Sports. This represents a notable shift from the traditional Saturday scheduling, with the fixture pushed to Friday evening to accommodate broadcast requirements. The weekend's marquee matchups include Arsenal's London derby against Fulham on Saturday evening (17:30, Sky Sports) and Manchester United's heavyweight clash with Liverpool on Sunday afternoon (15:30, Sky Sports). Monday night's closer sees Chelsea host Nottingham Forest at Stamford Bridge (20:00, Sky Sports), with the evening's action rounded out by Everton's fixture against Manchester City.
 
-Fantasy Premier League managers hoping for clarity on a provisional Double Gameweek received disappointing news on Friday as the Premier League confirmed only the television picks and rescheduled dates for Gameweek 35—without announcing any provisional doubles. The full fixture list for Gameweek 35 runs from Friday, May 1 through Monday, May 4, with eight matches spread across the bank holiday weekend and highlighted by high-profile clashes including Arsenal hosting Fulham and Manchester United welcoming Liverpool to Old Trafford.
-
-The confirmed fixtures include Leeds United versus Burnley on Friday, May 1 at 20:00 BST (Sky Sports), followed by Aston Villa versus Tottenham on Saturday, May 2 at 12:30 BST (TNT Sports)—though that Villa-Spurs fixture will shift to Sunday, May 3 at 19:00 BST if Villa progress to the Europa League semi-finals. The weekend's marquee matchup sees Manchester United host Liverpool on Sunday, May 3 at 15:30 BST (Sky Sports), while the round concludes with Chelsea versus Nottingham Forest and Everton versus Manchester City on Monday, May 4.
-
-The most complex situation involves Leeds United, who are one of the Premier League teams that could see their Gameweek 34 matches postponed if they reach the FA Cup semi-finals on Saturday, April 25. Should Leeds advance, their fixture against Bournemouth would be pushed back, potentially creating a scenario where Farke's side faces three matches in seven days—Bournemouth on Tuesday, April 28, followed by Burnley on Friday, May 1, with just 72 hours between those fixtures. Fantasy managers holding Leeds assets have been left in limbo, as Bournemouth versus Leeds shifting to create a double gameweek for both clubs remains a real possibility, though this will only be confirmed after the FA Cup quarter-finals play out over the coming days.
-
----
+A significant scheduling caveat applies to the Aston Villa versus Tottenham Hotspur encounter. The Saturday, May 2 (12:30) kickoff will shift to Sunday, May 3 at 19:00 BST if Villa progress to the Europa League semi-finals. This potential adjustment highlights the ongoing fixture congestion facing clubs competing across multiple competitions as the season reaches its critical phase.
 
 ## Why This Matters
 
-For the millions of Fantasy Premier League managers worldwide, the timing and structure of Blank and Double Gameweeks can make or break a season. Double Gameweeks offer the chance to accumulate massive point returns by playing matches twice in a single gameweek, while Blank Gameweeks—where certain teams have no fixtures—can decimate otherwise well-constructed squads. The uncertainty surrounding Gameweek 35 creates significant strategic challenges heading into the season's crucial final stretch, as managers cannot yet plan their chip usage or transfer strategies with confidence.
+For the millions of Fantasy Premier League (FPL) managers worldwide, the announcement carries substantial strategic implications. Double Gameweeks represent golden opportunities to accumulate points, as captains and premium players can be deployed twice within a single gameweek. Conversely, Blank Gameweeks—where certain teams have no fixture—create squad management challenges, forcing managers to field weakened sides or accept hits to their team value. The lack of a provisional Double Gameweek announcement means managers cannot yet plan their chip strategies or identify which players warrant investment for upcoming double fixtures.
 
-The Leeds situation exemplifies the cascading effects of cup competitions on the domestic league schedule. With Premier League survival still on the line for Leeds and the FA Cup representing a potential historic achievement, the club faces difficult decisions about prioritization. For Fantasy managers, this uncertainty directly impacts player selection, budget allocation, and wildcard timing. The tight turnaround scenario—with potential 72-hour gaps between matches—also raises genuine concerns about player fitness and rotation, making Leeds assets particularly risky investments until the schedule situation is resolved.
+Beyond individual fantasy considerations, the Leeds United situation underscores the broader fixture congestion problem facing English football's top tier. With the season entering its decisive stretch, clubs simultaneously navigating Premier League survival battles, FA Cup commitments, and European competitions face impossible scheduling scenarios. Daniel Farke's side, currently fighting to avoid relegation, could be asked to complete three matches within 72-hour windows—a physically and strategically demanding prospect with significant implications for player welfare and competitive integrity.
 
----
+The uncertainty also affects betting markets, sports journalism, and the broader fantasy sports industry, where fixture information drives content creation, transfer strategies, and player valuation models. Until the Premier League confirms its Blank/Double Gameweek schedule, an estimated 8-10 million active FPL managers cannot finalise their strategies for the season's run-in.
 
 ## Key Details
 
 **Gameweek 35 Confirmed Fixtures:**
 
 - Friday, May 1, 20:00 BST: Leeds United v Burnley (Sky Sports)
-- Saturday, May 2, 12:30 BST: Aston Villa v Tottenham Hotspur (TNT Sports)\*
+- Saturday, May 2, 12:30 BST: Aston Villa v Tottenham Hotspur (TNT Sports) *moves to Sunday 19:00 if Villa reach Europa League semi-finals*
 - Saturday, May 2, 15:00 BST: AFC Bournemouth v Crystal Palace
 - Saturday, May 2, 15:00 BST: Brentford v West Ham United
-- Saturday, May 2, 15:00 BST: Newcastle United v Brighton Hove Albion
+- Saturday, May 2, 15:00 BST: Newcastle United v Brighton & Hove Albion
 - Saturday, May 2, 15:00 BST: Wolverhampton Wanderers v Sunderland
 - Saturday, May 2, 17:30 BST: Arsenal v Fulham (Sky Sports)
 - Sunday, May 3, 15:30 BST: Manchester United v Liverpool (Sky Sports)
 - Monday, May 4, 15:00 BST: Chelsea v Nottingham Forest (Sky Sports)
 - Monday, May 4, 20:00 BST: Everton v Manchester City (Sky Sports)
 
-*Aston Villa v Tottenham will move to Sunday, May 3, 19:00 BST if Villa reach the Europa League semi-finals.
+**Critical Leeds United Timeline:**
 
-**The Leeds Overload Scenario:**
-Should Leeds reach the FA Cup semi-finals (April 25), their potential schedule becomes:
+- Saturday, April 25: Potential FA Cup semi-final (pending quarter-final progression)
+- Tuesday, April 28: Gameweek 34 fixture against Bournemouth (potentially postponed if Leeds reach semi-finals)
+- Friday, May 1: Gameweek 35 fixture against Burnley (72-hour turnaround from Gameweek 34 if both proceed)
 
-- Saturday, April 25: FA Cup semi-final
-- Tuesday, April 28: Gameweek 34 v Bournemouth (postponed)
-- Friday, May 1: Gameweek 35 v Burnley
-
-This represents just 72 hours between competitive matches—something Leeds manager Daniel Farke's side would likely find "not too enamoured" with, particularly given the high-stakes nature of their Premier League survival battle.
-
----
+**Leeds Manager Daniel Farke's concerns:** Successive 72-hour turnarounds with Premier League survival stakes.
 
 ## Context & Background
 
-The Fantasy Premier League season reaches its climax in the final weeks of April and into May, with the fixture schedule increasingly disrupted by cup competitions, European commitments, and television scheduling demands. The Blank Gameweek/Double Gameweek phenomenon occurs when certain teams have matches postponed due to cup involvement, creating uneven fixture distributions across the league.
+Fantasy Premier League has grown into one of the world's largest fantasy sports games, with participation swelling particularly during the COVID-19 pandemic. The game mirrors the real Premier League season, awarding points based on player performances, and becomes increasingly strategic as the season concludes and Blank/ Double Gameweeks emerge. These irregular fixtures result from broadcast requirements, cup competitions, and international breaks, creating complex scheduling puzzles that directly impact manager decisions.
 
-Leeds United's situation is particularly complex because they remain in both the FA Cup and are fighting to avoid relegation. The club's participation in the FA Cup quarter-finals creates a cascade effect: if they advance, their Gameweek 34 fixture against Bournemouth must be rescheduled, potentially pushing it into an already congested period. This interconnectedness between cup runs and league schedules has become a recurring challenge for Fantasy managers, who must constantly monitor cup results and their implications for the fixture list.
+The current uncertainty stems from Leeds United's potential FA Cup semi-final involvement. Should Leeds defeat their quarter-final opponents and subsequently reach the semi-finals, their Gameweek 34 fixture against Bournemouth would require postponement. This creates a cascade of scheduling complications: the rearranged fixture would either slot into the midweek following Gameweek 34 or potentially become a Double Gameweek opportunity for both Leeds and Bournemouth if integrated into a subsequent gameweek. The Premier League traditionally announces Blank/Double Gameweek confirmations following cup round completions, explaining why no provisional announcement accompanied the Gameweek 35 fixture release.
 
-The Premier League typically announces provisional Double Gameweeks in advance to help managers plan their squads and chip strategies, making Friday's announcement—confirming only the television picks without any provisional doubles—a notable departure from standard practice that left the Fantasy community without the clarity they had anticipated.
-
----
+Leeds currently sit in a precarious league position, making the physical demands of compressed scheduling particularly concerning. Farke's squad faces the prospect of fighting relegation while simultaneously managing fixture congestion that could disadvantage them relative to less-constrained competitors.
 
 ## What's Next
 
-Fantasy managers should expect resolution on the Leeds situation within the next 10 days. The FA Cup quarter-finals are scheduled to conclude over the coming week, at which point the Premier League will firm up the Blank/Double Gameweek schedule. Once Leeds' FA Cup fate is determined, the league will confirm whether Bournemouth v Leeds shifts to a different gameweek, which would create a Double Gameweek for both clubs.
+Fantasy managers and Premier League followers should expect definitive clarification within the next ten days. Two key developments will trigger the Premier League's Blank/Double Gameweek announcement: the completion of FA Cup quarter-final fixtures and the subsequent confirmation of semi-final pairings. If Leeds progress to the FA Cup semi-finals, their Gameweek 34 fixture against Bournemouth will indeed require rearrangement—most likely shifting to create double fixtures for both clubs in a subsequent gameweek.
 
-In the meantime, managers holding Aston Villa assets should monitor the club's Europa League progress, as advancement to the semi-finals would shift their Gameweek 35 fixture against Tottenham to Sunday, May 3 at 19:00 BST. The compressed timeline between confirmed fixtures and potential postponements means Fantasy managers should avoid making hasty decisions about Leeds assets until the schedule is finalized. The next major update from the Premier League regarding the confirmed Blank/Double Gameweek structure is expected shortly after the FA Cup quarter-finals conclude.
+The outcome of Villa's Europa League quarter-final ties will also determine whether their Tottenham fixture requires rescheduling to Sunday, May 3. Managers holding assets from either club should monitor these developments closely, as either scenario could significantly alter the strategic landscape for the season's run-in.
+
+Once the Premier League confirms the Blank/Double Gameweek schedule, FPL managers will gain the clarity needed to plan their remaining chip usage, transfer strategies, and captaincy selections. The announcement is expected to drive significant market movement, with premium players from confirmed double-gameweek teams likely to increase in selection percentage and price.
