@@ -1,5 +1,105 @@
 var posts = [
   {
+    "date": "March 29, 2026",
+    "title": "Greatest game of all time - according to NVIDIA CEO | Jensen Huang and Lex Fridman",
+    "url": "2026-03-29-greatest-game-of-all-time-according-to-nvidia-ceo-.html",
+    "category": "Blog",
+    "excerpt": "2026-03-29 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 29, 2026",
+    "title": "Gameweek 35 TV fixtures announced \u2013 but no provisional Double Gameweek",
+    "url": "2026-03-29-gameweek-35-tv-fixtures-announced-but-no-provision.html",
+    "category": "Blog",
+    "excerpt": "This scenario represents just 72 hours between the cup semi-final and the league match, with potentially another 72 hours until the Burnley fixture.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 29, 2026",
+    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
+    "url": "2026-03-29-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
+    "category": "FPL",
+    "excerpt": "Fantasy Football Scout has published a range of complementary content for Gameweek 32, including:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 29, 2026",
+    "title": "Villa contest March break friendly v Elche",
+    "url": "2026-03-29-villa-contest-march-break-friendly-v-elche.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 29, 2026",
+    "title": "5 ways to boost rank in the final seven Gameweeks",
+    "url": "2026-03-29-5-ways-to-boost-rank-in-the-final-seven-gameweeks.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 29, 2026",
+    "category": "FPL",
+    "title": "FPL Daily Roundup",
+    "excerpt": "# FPL Gameweek Roundup: The Home Stretch Begins \u2014 Wildcards, Doubles, and the Race for Glory\n\nThe fi",
+    "tags": [
+      "FPL"
+    ],
+    "url": "2026-03-29-fpl-daily-roundup-gw.html"
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-03-28",
+    "url": "2026-03-28-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-03-28 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "How to Find Meaning Outside of Money & Work | Tim Ferriss",
+    "url": "2026-03-28-how-to-find-meaning-outside-of-money-work-tim-ferr.html",
+    "category": "Blog",
+    "excerpt": "2026-03-28 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "Why NVIDIA is 3 years ahead of everyone - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-03-28-why-nvidia-is-3-years-ahead-of-everyone-nvidia-ceo.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-28 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
+    "title": "5 ways to boost rank in the final seven Gameweeks",
+    "url": "2026-03-28-5-ways-to-boost-rank-in-the-final-seven-gameweeks.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "March 28, 2026",
     "title": "Villa contest March break friendly v Elche",
     "url": "2026-03-28-villa-contest-march-break-friendly-v-elche.html",
@@ -11,10 +111,20 @@ var posts = [
   },
   {
     "date": "March 28, 2026",
+    "title": "Nemotron 3: NVIDIA's new open-source AI model explained | Jensen Huang and Lex Fridman",
+    "url": "2026-03-28-nemotron-3-nvidias-new-open-source-ai-model-explai.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-28 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
     "title": "Gameweek 35 TV fixtures announced \u2013 but no provisional Double Gameweek",
     "url": "2026-03-28-gameweek-35-tv-fixtures-announced-but-no-provision.html",
     "category": "Blog",
-    "excerpt": "This scenario would require Leeds to complete three matches in approximately six days with 72-hour turnarounds between each.",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Blog"
     ]
@@ -31,23 +141,33 @@ var posts = [
   },
   {
     "date": "March 28, 2026",
+    "title": "Can AI be conscious? - NVIDIA CEO | Jensen Huang and Lex Fridman",
+    "url": "2026-03-28-can-ai-be-conscious-nvidia-ceo-jensen-huang-and-le.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-28 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "March 28, 2026",
     "title": "Kroupi injury latest after France under-21 withdrawal",
     "url": "2026-03-28-kroupi-injury-latest-after-france-under-21-withdra.html",
     "category": "Blog",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "For now, managers should monitor the situation closely and prepare contingency plans should the injury prove more significant than initially suggested.",
     "tags": [
       "Blog"
     ]
   },
   {
     "date": "March 28, 2026",
-    "category": "AI/Tech",
-    "title": "NVIDIA CEO's leadership lessons from failure, embarrassment, suffering | Jensen Huang",
-    "excerpt": "# The Mind of a Founder: Jensen Huang's Unconventional Wisdom on Leadership, Suffering, and Resilien",
+    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
+    "url": "2026-03-28-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
-      "AI/Tech"
-    ],
-    "url": "2026-03-28-nvidia-ceos-leadership-lessons-from-failure-embarr.html"
+      "FPL"
+    ]
   },
   {
     "date": "March 27, 2026",
