@@ -1,5 +1,15 @@
 var posts = [
   {
+    "date": "March 30, 2026",
+    "category": "Tech/Business",
+    "title": "Why Your Greatest Strengths Create Your Weaknesses | Tim Ferriss",
+    "excerpt": "# Why Your Greatest Strengths Create Your Weaknesses: Tim Ferriss on the Paradox of Superpowers\n\n## ",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-03-30-why-your-greatest-strengths-create-your-weaknesses.html"
+  },
+  {
     "date": "March 29, 2026",
     "title": "Greatest game of all time - according to NVIDIA CEO | Jensen Huang and Lex Fridman",
     "url": "2026-03-29-greatest-game-of-all-time-according-to-nvidia-ceo-.html",
@@ -51,13 +61,13 @@ var posts = [
   },
   {
     "date": "March 29, 2026",
-    "category": "FPL",
-    "title": "FPL Daily Roundup",
-    "excerpt": "# FPL Gameweek Roundup: The Home Stretch Begins \u2014 Wildcards, Doubles, and the Race for Glory\n\nThe fi",
+    "title": "FPL Daily Roundup \u2014 2026-03-29",
+    "url": "2026-03-29-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-03-29 \u2022 FPL Roundups",
     "tags": [
-      "FPL"
-    ],
-    "url": "2026-03-29-fpl-daily-roundup-gw.html"
+      "FPL Roundups"
+    ]
   },
   {
     "date": "March 28, 2026",
