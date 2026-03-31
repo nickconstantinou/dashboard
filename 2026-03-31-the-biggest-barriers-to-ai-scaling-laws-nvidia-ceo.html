@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-03-31 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/Mf2u2b1bogE" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>The Future of AI Scaling: Jensen Huang on Power, Supply Chains, and the Art of Persuasion</h1>
+
+<h2>How NVIDIA's CEO Sees the Biggest Barriers to AI's Next Chapter</h2>
+
+<p>In a wide-ranging conversation with Lex Fridman, NVIDIA CEO Jensen Huang offered a rare glimpse into the strategic thinking behind one of the most consequential companies in the technology industry. Rather than focusing solely on product announcements or competitive positioning, Huang revealed the deeper challenges—and surprisingly, the deeper optimism—that drive AI's continued exponential growth.</p>
+
+<p>The conversation touched on questions that are reshaping how the tech industry thinks about the future: What happens when power becomes the new clock speed? How do you coordinate hundreds of suppliers across multiple continents when your company is growing faster than any in history? And perhaps most intriguingly, what does it mean to "inform and shape" an entire supply chain when your predictions about the future can literally move billions of dollars in capital investment?</p>
+
+<h2>Power: The New Frontier of AI Constraint</h2>
+
+<h3>Understanding the Energy Equation</h3>
+
+<p>The conversation turned early to what Huang sees as the central challenge of this generation of AI computing: power consumption. Unlike previous eras where transistor density or clock speed defined the boundaries of what's possible, the AI era is increasingly bounded by watts.</p>
+
+<p>"We've progressed and scaled up computing by a million times in the last 10 years," Huang explained. This figure is staggering when compared to what Moore's Law would have predicted—approximately 100 times improvement over the same period. The gap between actual progress and historical expectation illustrates the extraordinary demands AI places on infrastructure.</p>
+
+<p>Yet Huang frames this not as a crisis but as a design problem. The solution, he argues, lies in what he calls "extreme code design"—fundamentally rethinking how computing systems consume and utilize energy. The key metric isn't just raw performance but "tokens per second per watt," a measure that captures both speed and efficiency.</p>
+
+<p>"We're pushing so hard on extreme code design so that we can improve the tokens per second per watt orders of magnitude every single year," Huang said. This isn't merely an engineering aspiration—it directly affects the economics of AI deployment. Huang is explicit about this connection: "Energy efficiency per watt completely affects the revenues of a company. It affects the revenues of a factory."</p>
+
+<p>The relationship between efficiency and economics creates a powerful incentive structure. As Huang describes it, NVIDIA's computer price may be increasing, but "our token generation effectiveness is going up so much faster that token cost is coming down." The result is that "token cost is coming down an order of magnitude every year."</p>
+
+<h3>Beyond Efficiency: The Power Grid Question</h3>
+
+<p>When Fridman pressed on whether power availability keeps Huang up at night, the NVIDIA CEO offered a perspective that challenges conventional wisdom about energy constraints.</p>
+
+<p>"Our power grid is designed for the worst case condition with some margin," Huang explained. The grid must handle peak demand during extreme weather events—a few days in winter, a few days in summer. But 99% of the time, we're operating nowhere near those peak conditions.</p>
+
+<p>"We're probably running around 60% of peak," Huang noted. The implications are significant: the infrastructure that worried observers often frame as a bottleneck is, in practice, significantly underutilized. Rather than needing entirely new power generation capacity, there may be substantial headroom in existing infrastructure waiting to be tapped.</p>
+
+<p>This reframing matters because it suggests that the power constraint isn't simply a question of building more generation capacity. It's also about better utilization, smarter scheduling, and recognizing that AI workloads don't need to run at peak demand simultaneously with other intensive uses.</p>
+
+<h2>The Supply Chain: A Million Components, Two Hundred Partners</h2>
+
+<h3>Living at the Edge of Feasibility</h3>
+
+<p>Huang also addressed the supply chain dynamics that have become central to understanding AI's constraints. No company in history has grown at the scale NVIDIA is growing while simultaneously accelerating that growth rate. The complexity is staggering: each NVIDIA rack system contains 1.3 to 1.5 million individual components, sourced from approximately 200 different suppliers across what Huang describes as the "Verubein rack."</p>
+
+<p>"The deep science, the deep engineering, the incredible manufacturing—and so much of the manufacturing is already robotics," Huang observed. Yet despite this complexity, the system functions. "It feels scary how intricate the supply chain is, how many components there are, but it works somehow."</p>
+
+<p>The key players in this ecosystem include ASML, which manufactures the extreme ultraviolet (EUV) lithography machines essential for chip production, TSMC, which handles advanced packaging through technologies like chip-on-wafer-on-substrate (CoWoS), and SK Hynix, which produces high bandwidth memory (HBM). These companies, some of them 45 years old, have experienced record years precisely because of the AI boom.</p>
+
+<h3>Shifting Architecture, Shifting Responsibility</h3>
+
+<p>One of the most revealing aspects of Huang's discussion concerned how the architecture of AI computing has fundamentally changed—and what that means for supply chain relationships.</p>
+
+<p>"When you're doing rack scale computing, you also have to recognize you're going to move one gigawatt of power," Huang explained. The shift from NVIDIA's original DGX1 design to the NVLink 72 rack-scale system represented not just a technical change but a relocation of where supercomputer integration occurs.</p>
+
+<p>"Supercomputer integration at the data center moved into the supply chain," Huang noted. The density of modern NVLink 72 systems makes it impossible to assemble them inside data centers as was done with earlier DGX systems. Instead, these multi-ton racks arrive pre-built from manufacturing partners.</p>
+
+<p>This architectural shift required Huang to do something unusual: fly to supplier facilities and essentially ask them to retool their operations. "I said, guess what? This is the way we used to build our DGXs. We're going to build them this way," Huang recalled describing to partners. The pitch included not just technical specifications but market reasoning: "The market for inference is coming. The inflection point for inference is coming. It's going to be a big market."</p>
+
+<p>The ask was substantial. Partners needed to make "several billion dollars of capital investments each." Huang describes his approach as deeply respectful, giving partners "every opportunity to question me" and spending time "drawing them pictures" while reasoning about the future using first principles.</p>
+
+<h2>The Art of Persuasion at Industrial Scale</h2>
+
+<h3>Informing and Shaping the Future</h3>
+
+<p>What emerges from Huang's discussion is a portrait of a CEO whose role extends far beyond managing a single company. He describes his job explicitly as "to inform and shape, inform and inspire" not just NVIDIA's engineers, but the entire ecosystem of suppliers and partners whose capital decisions make the future possible.</p>
+
+<p>"I spent a lot of time informing all the CEOs that I work with what are the dynamics that's going to cause the growth to continue or even accelerate," Huang explained. This communication isn't a one-way broadcast—it involves genuine dialogue about what technology paths make sense and why.</p>
+
+<p>Huang described a specific example from several years ago when he was trying to convince DRAM manufacturers that HBM memory, then used "quite scarcely" in supercomputers, would become "mainstream memory for data centers in the future." The suggestion initially "sounded ridiculous" to some of the CEOs, but several believed in the vision and invested accordingly. Similarly, Huang advocated for adapting low-power cell phone memory (LPDDR5) for use in supercomputers and data centers—a counterintuitive suggestion that seemed odd at the time but has since proven prescient.</p>
+
+<p>"All three of them—DDR, LPDDR5, HBM4—had record years in history," Huang noted, referring to these different memory technologies. "These are 45-year-old companies."</p>
+
+<h3>Building Trust Through Transparency</h3>
+
+<p>The key to Huang's approach appears to be radical transparency about both the opportunities and the reasoning behind NVIDIA's predictions. Rather than simply demanding commitments, he describes explaining the market dynamics driving demand, the technical reasons particular choices make sense, and the timeline over which returns might be expected.</p>
+
+<p>"I give them every opportunity to question me and I spend time to explain things to people and I reason about it," Huang said. "I draw them pictures and I reason about it in first principles and by the time I'm done with them, there's no what to do."</p>
+
+<p>This approach has apparently built sufficient trust that Huang says he doesn't lie awake worrying about supply chain bottlenecks. "I told them what I needed, they understood what I need. They told me what they're going to go do and I believe in what they're going to do."</p>
+
+<h2>Key Insights for Understanding AI's Trajectory</h2>
+
+<h3>1. The Efficiency Imperative is Economic, Not Just Technical</h3>
+
+<p>Huang's emphasis on tokens per second per watt isn't merely an engineering metric—it reflects a fundamental truth about how AI adoption will proceed. If efficiency improvements continue to outpace price increases, the economic case for AI deployment becomes stronger every year. Organizations planning AI strategies should recognize that the cost of intelligence is declining faster than hardware prices suggest.</p>
+
+<h3>2. Power Constraints May Be Overstated</h3>
+
+<p>The framing of power as an insurmountable barrier may be obscuring opportunities for optimization. The existing power grid operates at roughly 60% of capacity 99% of the time, and efficiency improvements continue to reshape what "power constraints" mean. Leaders should evaluate their power strategies not just in terms of total capacity but in terms of utilization patterns and scheduling flexibility.</p>
+
+<h3>3. Supply Chain Relationships Are Strategic Assets</h3>
+
+<p>NVIDIA's ability to coordinate with 200 suppliers—including companies that have been in business for 45 years—isn't just operational efficiency. It's a form of competitive advantage that's difficult to replicate. For organizations building AI systems, the quality of supplier relationships may matter as much as technical specifications.</p>
+
+<h3>4. First-Principles Reasoning Scales</h3>
+
+<p>Huang's description of "reasoning about it in first principles" and "drawing pictures" to explain multi-billion dollar decisions suggests that sophisticated thinking isn't just for technical problems. The ability to communicate underlying logic clearly—even across organizational boundaries—is essential when coordinating complex ecosystems.</p>
+
+<h3>5. Architecture Decisions Cascade Through Entire Systems</h3>
+
+<p>The shift from data-center assembly to factory integration represents a profound change in what "building AI systems" means. This architectural evolution had implications not just for manufacturing but for testing, logistics, power requirements, and supplier relationships. Organizations should think systemically about how architectural choices propagate through entire operational contexts.</p>
+
+<h2>Who Should Pay Attention to This Conversation</h2>
+
+<p>This discussion is essential reading for technology executives and investors trying to understand the structural dynamics shaping AI's future. The perspective Huang offers—from inside the company most central to AI infrastructure—provides insight into constraints, timelines, and strategic priorities that aren't visible from the outside.</p>
+
+<p>Product managers and engineers working on AI systems will find Huang's emphasis on efficiency metrics and architectural evolution particularly valuable. Understanding how computing density is changing, and what that means for integration strategies, can inform decisions about everything from hardware selection to data center design.</p>
+
+<p>Policy analysts and energy planners should note Huang's observations about power grid utilization. The assumption that AI growth requires proportional increases in generation capacity may not account for the efficiency improvements and load-shifting opportunities Huang describes.</p>
+
+<p>Finally, anyone studying leadership in complex organizations will find Huang's description of "informing and shaping" an entire supply chain illuminating. The skills required to coordinate industrial ecosystems at scale—transparency, first-principles reasoning, relationship-building, and the willingness to ask others to make billion-dollar bets based on your vision—represent a form of executive capability that receives less attention than it deserves.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
