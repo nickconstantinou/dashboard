@@ -1,13 +1,163 @@
 var posts = [
   {
-    "date": "March 30, 2026",
-    "category": "Tech/Business",
-    "title": "Why Your Greatest Strengths Create Your Weaknesses | Tim Ferriss",
-    "excerpt": "# Why Your Greatest Strengths Create Your Weaknesses: Tim Ferriss on the Paradox of Superpowers\n\n## ",
+    "date": "March 31, 2026",
+    "title": "The \u2018biggest FPL disappointments of 2025/26\u2019 \u2013 so far\u2026",
+    "url": "2026-03-31-the-biggest-fpl-disappointments-of-202526-so-far.html",
+    "category": "FPL",
+    "excerpt": "The data tells a damning story for each player:",
     "tags": [
-      "Tech/Business"
-    ],
-    "url": "2026-03-30-why-your-greatest-strengths-create-your-weaknesses.html"
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-03-31",
+    "url": "2026-03-31-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-03-31 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "Big Numbers: 23 stand-out stats for FPL Gameweek 32",
+    "url": "2026-03-31-big-numbers-23-stand-out-stats-for-fpl-gameweek-32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-03-31-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-31 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "Tudor leaves as Spurs hunt for next new manager",
+    "url": "2026-03-31-tudor-leaves-as-spurs-hunt-for-next-new-manager.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "Eight England withdrawals + more Arsenal injuries",
+    "url": "2026-03-31-eight-england-withdrawals-more-arsenal-injuries.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "5 Lessons in Business Negotiation from an FBI Hostage Negotiator | Christopher Voss",
+    "url": "2026-03-31-5-lessons-in-business-negotiation-from-an-fbi-host.html",
+    "category": "Blog",
+    "excerpt": "2026-03-31 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "So This is Peak Foldable",
+    "url": "2026-03-31-so-this-is-peak-foldable.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 31, 2026",
+    "title": "Austin, Michu, Lundstram + more: The FPL \u2018one-season wonders\u2019",
+    "url": "2026-03-31-austin-michu-lundstram-more-the-fpl-one-season-won.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-03-30",
+    "url": "2026-03-30-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-03-30 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "Austin, Michu, Lundstram + more: The FPL \u2018one-season wonders\u2019",
+    "url": "2026-03-30-austin-michu-lundstram-more-the-fpl-one-season-won.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "Eight England withdrawals + more Arsenal injuries",
+    "url": "2026-03-30-eight-england-withdrawals-more-arsenal-injuries.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "Jensen Huang: $3 trillion in revenue is possible for NVIDIA in the near-future | Lex Fridman",
+    "url": "2026-03-30-jensen-huang-3-trillion-in-revenue-is-possible-for.html",
+    "category": "Blog",
+    "excerpt": "2026-03-30 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
+    "url": "2026-03-30-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "Tudor leaves as Spurs hunt for next new manager",
+    "url": "2026-03-30-tudor-leaves-as-spurs-hunt-for-next-new-manager.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "How NVIDIA works - explained by NVIDIA CEO | Jensen Huang and Lex Fridman",
+    "url": "2026-03-30-how-nvidia-works-explained-by-nvidia-ceo-jensen-hu.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-03-30 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
   },
   {
     "date": "March 29, 2026",
@@ -3758,5 +3908,45 @@ var posts = [
     "tags": [
       "Blog"
     ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "Who are FPL\u2019s best all-round defenders?",
+    "url": "2026-04-01-who-are-fpls-best-all-round-defenders.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "Big Numbers: 23 stand-out stats for FPL Gameweek 32",
+    "url": "2026-04-01-big-numbers-23-stand-out-stats-for-fpl-gameweek-32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "The top-scoring FPL XI of 2026 so far",
+    "url": "2026-04-01-the-top-scoring-fpl-xi-of-2026-so-far.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "category": "Tech/Business",
+    "title": "FBI Negotiator: The 5 Steps to Becoming a Better Listener | Christopher Voss",
+    "excerpt": "# The Art of True Listening: What FBI Hostage Negotiators Teach Us About Connection\n\n*Christopher Vo",
+    "tags": [
+      "Tech/Business"
+    ],
+    "url": "2026-04-01-fbi-negotiator-the-5-steps-to-becoming-a-better-li.html"
   }
 ];
