@@ -3911,13 +3911,243 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "category": "Tech",
-    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
-    "excerpt": "# Building a Vibe Translator: How AI Agents Are Transforming Frontend Development\n\n## Introduction\n\n",
+    "title": "FPL GW31 RANK 1 TEAM SELECTION \ud83c\udf0d 1ST IN WORLD \ud83c\udfc6",
+    "url": "2026-04-02-fpl-gw31-rank-1-team-selection-1st-in-world-.html",
+    "category": "FPL",
+    "excerpt": "This philosophy\u2014protecting transfer resources rather than spending them on marginal goalkeeper upgrades\u2014demonstrates Eric's long-term thinking about resource allocation.",
     "tags": [
-      "Tech"
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-02",
+    "url": "2026-04-02-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-02 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FPL\u2019s biggest xG underachievers so far",
+    "url": "2026-04-02-fpls-biggest-xg-underachievers-so-far.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
+    "url": "2026-04-02-fpl-gw31-experts-team-620x-top-10k-finishes-.html",
+    "category": "FPL",
+    "excerpt": "Perhaps the most valuable strategic discussion centers on chip deployment for the upcoming double gameweeks. Two primary strategies have emerged among the expert community:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FBI Hostage Negotiator Shares How He Prepares for Every Deal | Christopher Voss",
+    "url": "2026-04-02-fbi-hostage-negotiator-shares-how-he-prepares-for-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-02 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Who's Going Down? | The People's Poll ep. 163 | Planet FPL 2025/26",
+    "url": "2026-04-02-whos-going-down-the-peoples-poll-ep-163-planet-fpl.html",
+    "category": "FPL",
+    "excerpt": "Within the remaining seven matches for both clubs, one fixture stands out as potentially decisive: Tottenham versus Leeds at Tottenham's home ground. The logic is brutal but compelling.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
+    "url": "2026-04-02-the-season-so-far-fpl-international-break-with-tom.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "The Ultimate Minimal Phone",
+    "url": "2026-04-02-the-ultimate-minimal-phone.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Spurs appoint De Zerbi as new head coach",
+    "url": "2026-04-02-spurs-appoint-de-zerbi-as-new-head-coach.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
+    "category": "Blog",
+    "excerpt": "\"Midfield is just stacked with all the money,\" he admits. \"And maybe I'm spending too much there, but I feel like midfield is like the place where you get your points, where you earn your coin.\"",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Can Roberto De Zerbi make Spurs players buyable in FPL?",
+    "url": "2026-04-02-can-roberto-de-zerbi-make-spurs-players-buyable-in.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "The top-scoring FPL XI of 2026 so far",
+    "url": "2026-04-02-the-top-scoring-fpl-xi-of-2026-so-far.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-az-discusses-his-latest-draft-rank-history-pre-sea.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-04-02-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-02 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-pras-gameweek-31-team-selection-fantasy-premier-le.html",
+    "category": "Blog",
+    "excerpt": "Pras identifies three distinct chip strategies that FPL managers are likely employing during this blank gameweek period, each with its own logic, risk profile, and player targeting implications.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Arsenio Hall",
+    "url": "2026-04-02-arsenio-hall.html",
+    "category": "Blog",
+    "excerpt": "2026-04-02 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "MY FPL GW32 FIRST THOUGHTS! \ud83d\udcdd WILDCARD DRAFT \ud83c\udf5f & Fa Cup Impact | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-my-fpl-gw32-first-thoughts-wildcard-draft-fa-cup-i.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Anderson v Gibbs-White: Who is the best Forest midfielder in FPL?",
+    "url": "2026-04-02-anderson-v-gibbs-white-who-is-the-best-forest-midf.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "I built a real 29 dollar per month SAAS with Insforge",
+    "url": "2026-04-02-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "So This is Peak Foldable",
+    "url": "2026-04-02-so-this-is-peak-foldable.html",
+    "category": "Blog",
+    "excerpt": "Charging speeds are equally impressive: 80 watts wired charging and 50 watts wireless charging mean you can replenish the substantial battery quickly when needed.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Jensen Huang: $3 trillion in revenue is possible for NVIDIA in the near-future | Lex Fridman",
+    "url": "2026-04-02-jensen-huang-3-trillion-in-revenue-is-possible-for.html",
+    "category": "Blog",
+    "excerpt": "2026-04-02 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-02-zophars-gameweek-31-team-selection-fantasy-premier.html",
+    "category": "Blog",
+    "excerpt": "Having analyzed the fixture landscape, Zophar reveals his overarching tactical framework for the season's decisive phase.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "category": "Tech/Business",
+    "title": "The Side Hustle King: \"Make $20K+/month without money, luck, or experience\"",
+    "excerpt": "# Important Note Before Proceeding\n\nI need to flag a significant issue with this request: **the prov",
+    "tags": [
+      "Tech/Business"
     ],
-    "url": "2026-04-02-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+    "url": "2026-04-02-the-side-hustle-king-make-20kmonth-without-money-l.html"
   },
   {
     "date": "April 01, 2026",

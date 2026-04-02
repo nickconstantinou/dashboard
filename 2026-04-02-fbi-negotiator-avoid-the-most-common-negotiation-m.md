@@ -1,0 +1,99 @@
+---
+title: "FBI Negotiator: "Avoid the Most Common Negotiation Mistakes" | Christopher Voss"
+date: 2026-04-02
+type: youtube
+category: "Tech/Business"
+video_id: "FG5B4AeyArE"
+channel: "My First Million"
+video_url: "https://www.youtube.com/watch?v=FG5B4AeyArE"
+---
+
+# The Hidden Architecture of Influence: What FBI Hostage Negotiators Teach Us About the Art of Listening
+
+**Christopher Voss, the former FBI international hostage negotiator, has spent decades in situations where the margin for error was zero and the stakes were measured in human lives. But the lessons he extracted from those high-pressure scenarios extend far beyond crisis situations—they reshape how we understand every negotiation we enter, whether we're haggling over a car price, pitching investors, or simply trying to connect with a colleague. In a candid conversation that reveals the counterintuitive nature of true negotiation skill, Voss argues that the most powerful technique isn't anything we say—it's something we stop doing entirely.**
+
+The fundamental premise Voss establishes early is both simple and radical: negotiation is a skill we all desperately need, yet virtually none of us were ever taught. We move through life negotiating constantly—with investors and employees, with customers and spouses, with strangers and ourselves—yet we approach these interactions with instincts that often work against us. The gap between how we naturally negotiate and how expert negotiators actually operate is the space where Voss has built his life's work.
+
+What makes this conversation particularly compelling is Voss's willingness to expose his own vulnerabilities. He freely admits that even he struggles with the most fundamental negotiation skill, and he reveals techniques he uses deliberately to exploit the weaknesses in others. This isn't a polished TED talk about positive thinking—it's a ground-level examination of human psychology and why we're so easily derailed from our own goals.
+
+---
+
+## The Hijack Points: Where Listening Goes to Die
+
+Voss identifies what he calls "five or six steps" to becoming a better listener, but emphasizes that the real challenge emerges at step two—a moment he terms the "hijack point." This is the precise instant when we stop genuinely listening and start preparing our response. For most people, this hijack happens almost instantaneously; the moment the other person begins speaking, we're already formulating what we'll say next.
+
+But Voss goes deeper, identifying two distinct flavors of the hijack that plague even well-intentioned listeners. The first he calls the "hijack to correct"—an almost irresistible psychological impulse to jump in and set the record straight. He describes this urge as "insanely impossible to overcome," and he doesn't say this metaphorically. Voss has weaponized this knowledge: he deliberately says things wrong during negotiations because he knows the other person cannot resist the urge to correct him. When they do, they reveal information they wouldn't otherwise share, and here's the psychological trick—they never regret sharing it.
+
+The reason, Voss explains, is rooted in how human memory works. "We don't remember what was said, we remember how we felt in the moment." The satisfaction of correcting someone is so pleasurable that it overwrites any regret about the information disclosed. This is why Voss can extract hidden details from someone who would otherwise remain guarded—the person leaves the conversation feeling smart and validated, not exploited.
+
+The second hijack type is what Voss calls "story stealing"—the moment when someone shares an experience that triggers an incredible memory of your own. The impulse to exclaim "the same thing happened to me!" and launch into your own tale is, Voss notes, nearly impossible to resist. He describes this as "one of the fallacies of common ground"—we believe we're building connection and finding shared experience, but we're actually committing a subtle form of theft.
+
+"Their experience gets squashed," Voss explains. "You had to one-up me. You had to do better than me." The person sharing their story feels diminished, even though they might struggle to articulate why. The storyteller feels incredible in the moment—their own experience was triggered, after all—but they often can't imagine that what they're doing is harmful. The memory triggered in them was so good that they assume everyone feels the same satisfaction. This phenomenon explains why so many conversations that seem like connection end up leaving one party feeling hollow and unheard.
+
+---
+
+## The Difference Between Being Understood and Feeling Understood
+
+This distinction sits at the heart of Voss's entire philosophy, and it's one of the most counterintuitive insights in the conversation. We tend to assume that if we've genuinely understood someone, they'll feel understood. Voss argues this assumption is fundamentally wrong—and the evidence he provides is striking.
+
+To illustrate, Voss shares a personal story from a wedding in Ireland. The bride was exhausted, moving through the reception on her feet after the ceremony, obligated to speak with dozens of guests. When Voss approached her for their first real conversation, he did something unusual: he didn't share anything about himself or his own experiences. Instead, he reflected back to her what she had just been through.
+
+"I'm telling her what she went through," Voss explains. He described how pulling off a wedding is harder than running a small country, how she was there celebrating the union of two families while her husband was present because he had to be. He laid out her entire day back to her, demonstrating complete understanding of what she was experiencing.
+
+The bride ran into Voss the next night at dinner, walked up to him, and gave him a big hug. Her exact words, which Voss quotes directly: "I have no memory of what you said to me last night. I just remember how good it made me feel."
+
+This story encapsulates the entire principle. Voss had said nothing memorable—he had simply made her feel understood at a deep level. She couldn't recall the specifics, but she felt bonded to him because she had been thoroughly heard. The distinction between "being heard" and "feeling heard" is not semantic—it's the difference between mediocre relationships and powerful ones.
+
+Voss emphasizes that listening through the hijack moments—resisting the urge to correct, resisting the urge to relate—is the "single biggest challenge of becoming a better negotiator." You have to let the other person finish. You have to stay present. And then you have to reflect back what you heard in a way that makes them feel truly understood, not just technically comprehended.
+
+---
+
+## The Collaborative Case for Trust
+
+The interview then pivots to a broader philosophical question: is negotiation fundamentally about connecting with people, or are these skills simply applicable across domains? Voss's answer is unequivocal. If your objective is a "long-term relationship of trust where we both prosper," then negotiation and relationship-building are identical. The skills are not separate domains—they are the same skill set viewed from different angles.
+
+This is where Voss makes a counterintuitive argument that challenges conventional wisdom about negotiation. He suggests that even if you are "a complete sociopath"—someone with zero interest in other people's wellbeing—collaborative negotiation should still be your strategy. Why? Because "it's low maintenance and it's the least amount of effort and it's the maximum amount of money."
+
+One of Voss's top-level coaching clients, whose identity he doesn't reveal, told him: "I have made so much more money being collaborative than I ever made being cutthroat." This client didn't describe a moral awakening—they described a strategic optimization. Collaboration works not because it's virtuous but because it works better.
+
+The mechanics are straightforward. When you approach negotiations collaboratively, your relationships move faster, deals close more smoothly, and you maintain the network that enables future opportunities. Cutthroat negotiators—the "power negotiations" approach where you "put someone over a barrel" and "force them to do what you want"—eventually run out of people willing to negotiate with them. As Voss puts it bluntly: "That puts you out of business. You lose friends, you lose collaborators, you lose colleagues."
+
+The common mental model of a great negotiator—that powerful, slightly intimidating figure who manipulates and charms their way to victory—is exactly backwards, according to Voss. The best negotiators aren't trying to win. They're trying to create relationships where both parties prosper.
+
+---
+
+## Tactical Empathy: The FBI Approach
+
+When the conversation turns to hostage negotiation specifically, Voss describes three foundational principles he learned, beginning with what is now called "tactical empathy." This isn't the soft, warm-fuzzy version of empathy—it's a precise technique for making the other person feel heard while drawing them into voluntary disclosure.
+
+The first move in any negotiation, Voss explains, is to remove yourself as a threat. "Why would they make a great deal with you if you're a threat?" he asks. They might make a deal with a threat, but they won't make a great deal. The hostage negotiator accomplishes this through a non-threatening voice—Voss describes it as a "calming, soothing, late-night FM DJ voice"—combined with the expression of genuine concern for everyone involved, including the person who might be classified as the "bad guy."
+
+This last point is crucial for understanding the FBI approach. Voss's opening message isn't "give me what I want"—it's "I'm here to get everybody out. That includes you, Mr. Bad Guy. Whether or not you let me get you out is going to be up to you, but that's my objective first of all."
+
+The emphasis on "that includes you" is deliberate and powerful. It removes the negotiator from the category of adversary and repositions them as someone whose interests might actually align with the other person's survival. The bad guy becomes a problem to be solved together, not an enemy to be defeated. This reframing is only possible after the person feels understood—not after they've been lectured, threatened, or cajoled.
+
+---
+
+## Five Key Takeaways for Transforming Your Negotiation Approach
+
+**The first and most foundational principle is to let the other side go first and then actually listen.** This sounds simple, but Voss makes clear that genuine listening—listening without preparing your response, without hijacking the conversation to correct or relate—is the rare exception rather than the rule. Most of us listen to rebut. Making a conscious commitment to hear the other person completely before responding is the starting point for everything else.
+
+**The second insight is that understanding someone is not the same as making them feel understood.** You can intellectually grasp what someone is saying while they still feel unheard. The skill isn't comprehension—it's reflection. Paraphrasing what you've heard in a way that validates the other person's experience, as Voss did with the bride at the wedding, creates bonds that transcend memory. Practice the discipline of reflecting back, especially when every instinct tells you to add your own perspective.
+
+**The third takeaway concerns the hijack moments themselves.** The urge to correct and the urge to relate are psychological vulnerabilities that can be both your undoing and your tool. Recognizing that others will exploit these tendencies helps you guard against manipulation. And recognizing that you experience them helps you pause before acting on them. When you feel the impulse to correct someone, consider what information that correction might reveal and whether you want to share it.
+
+**The fourth principle is that collaboration outperforms competition as a strategy, even for purely mercenary purposes.** If your only goal is maximum financial gain with zero regard for relationships, you still make more money long-term by building trust and collaborating rather than by dominating and extracting. Cutthroat tactics generate short-term wins at the cost of sustainable prosperity. Every negotiation should be approached with the assumption that you'll encounter this person again.
+
+**The fifth and final insight is that the first move in any negotiation is removing yourself as a threat.** People don't make their best deals with adversaries. A calm, non-threatening presence combined with demonstrated concern for the other person's interests—even when those interests conflict with yours—creates the conditions for genuine problem-solving. Position yourself as someone trying to help everyone get what they need, including yourself.
+
+---
+
+## Who Benefits Most from This Approach
+
+This content is essential viewing for anyone who negotiates regularly, which, as Voss points out, is essentially everyone. Sales professionals, business development executives, investors, managers, and entrepreneurs will find the most immediate application—the principles directly improve outcomes in deal-making contexts. But the insights extend far beyond transactional negotiations.
+
+Anyone in relationship-driven work—therapists, coaches, consultants, customer success managers—will benefit from understanding the difference between being understood and feeling understood. Parents, educators, and leaders of all kinds will recognize how story stealing and the urge to correct damage connection in ways that undermine their actual goals.
+
+The audience that will find this most transformative, however, is people who currently view negotiation as adversarial. If your instinct is to win, to get the upper hand, to maximize your position at the expense of the other party, Voss's framework offers not just better techniques but a fundamentally better mental model. The goal isn't to defeat the other side—it's to create enough safety that they voluntarily collaborate with you toward solutions that serve everyone's interests.
+
+What makes Voss's approach so compelling is that he learned it in the most extreme environment imaginable. When the stakes are life and death, there's no room for manipulation or power plays. What works is genuine human connection, the creation of safety, and the careful construction of mutual understanding. The remarkable thing isn't that these principles work in business—it's that we ever abandoned them in the first place.
