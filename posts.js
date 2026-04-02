@@ -3910,13 +3910,53 @@ var posts = [
     ]
   },
   {
+    "date": "April 02, 2026",
+    "category": "Tech",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "excerpt": "# Building a Vibe Translator: How AI Agents Are Transforming Frontend Development\n\n## Introduction\n\n",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-04-02-i-built-a-vibe-translator-one-idea-4-frontend-stac.html"
+  },
+  {
     "date": "April 01, 2026",
     "title": "Who are FPL\u2019s best all-round defenders?",
     "url": "2026-04-01-who-are-fpls-best-all-round-defenders.html",
     "category": "FPL",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "*Note: Detailed attacking statistics for the last six matches are available exclusively to Fantasy Football Scout Chief Scout members.*",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "Spurs appoint De Zerbi as new head coach",
+    "url": "2026-04-01-spurs-appoint-de-zerbi-as-new-head-coach.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-01",
+    "url": "2026-04-01-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-01 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "WUCL Fantasy Matchday 10 team reveal",
+    "url": "2026-04-01-wucl-fantasy-matchday-10-team-reveal.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -3924,7 +3964,7 @@ var posts = [
     "title": "Big Numbers: 23 stand-out stats for FPL Gameweek 32",
     "url": "2026-04-01-big-numbers-23-stand-out-stats-for-fpl-gameweek-32.html",
     "category": "FPL",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "The top five for xG prevented reads like a who's-who of the league's most reliable goalkeepers:",
     "tags": [
       "FPL"
     ]
@@ -3938,15 +3978,5 @@ var posts = [
     "tags": [
       "FPL"
     ]
-  },
-  {
-    "date": "April 01, 2026",
-    "category": "Tech/Business",
-    "title": "FBI Negotiator: The 5 Steps to Becoming a Better Listener | Christopher Voss",
-    "excerpt": "# The Art of True Listening: What FBI Hostage Negotiators Teach Us About Connection\n\n*Christopher Vo",
-    "tags": [
-      "Tech/Business"
-    ],
-    "url": "2026-04-01-fbi-negotiator-the-5-steps-to-becoming-a-better-li.html"
   }
 ];
