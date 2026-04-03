@@ -6,7 +6,7 @@
 | Source | URL | Frequency | Notes |
 |--------|-----|-----------|-------|
 | **TBPN** | https://feeds.transistor.fm/technology-brother | Daily | Tech talk show — Robert Coogan & Jordi Hays. Interviews tech leaders. RSS feed: `https://feeds.transistor.fm/technology-brother` |
-| **My First Million** | @myfirstmillion | Weekly | Startup ideas, business, tech trends |
+| **My First Million** | @myfirstmillion | — | ⚠️ INACTIVE — podcast discontinued, no working RSS found |
 | **Greg Isenberg** | @GregIsenberg | Weekly | Startup ideas, building with AI |
 | **Huberman Lab** | @hubermanlab | Weekly | Health, neuroscience, fitness |
 | **Lex Fridman Podcast** | lexfridman.com | Weekly | AI, tech, long-form interviews |
@@ -82,9 +82,6 @@
 | **Fantasy Football Scout** | fantasyfootballscout.co.uk | ✅ WORKS | FPL tips, price predictions |
 | **The Verge AI** | theverge.com/ai | ✅ WORKS | AI news, tech |
 | **TechCrunch AI** | techcrunch.com/category/artificial-intelligence/ | ✅ WORKS | AI news |
-| **Limitless** | limitless.ai/featured | ❌ FAILED | 404 - page not found |
-| **My First Million** | mypodcast.fm/myfirstmillion | ❌ FAILED | DNS resolution failed |
-| **The Rundown AI** | therundown.ai | ❌ NOT TESTED | - |
 
 ---
 
@@ -133,5 +130,7 @@ For Nick's training insights, I'll create a structured format:
 
 | Source | URL | Status | Notes |
 |--------|-----|--------|-------|
-| **AI Secret** | https://aisecret.us/rss/ | ✅ NEW | Daily AI news, video summaries |
+| **AI Secret** | https://aisecret.us/rss/ | ✅ WORKS | Daily AI news, video summaries |
+| **Limitless (Bankless)** | https://feeds.transistor.fm/limitless | ✅ FIXED | AI podcast — prev: limitless.ai/featured (404) |
+| **The Rundown AI** | https://rss.buzzsprout.com/2189775.rss | ✅ FIXED | AI interviews — prev: therundown.ai (403) |
 
