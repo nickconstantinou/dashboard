@@ -5,6 +5,7 @@
 ### Tech & AI
 | Source | URL | Frequency | Notes |
 |--------|-----|-----------|-------|
+| **TBPN** | https://feeds.transistor.fm/technology-brother | Daily | Tech talk show — Robert Coogan & Jordi Hays. Interviews tech leaders. RSS feed: `https://feeds.transistor.fm/technology-brother` |
 | **My First Million** | @myfirstmillion | Weekly | Startup ideas, business, tech trends |
 | **Greg Isenberg** | @GregIsenberg | Weekly | Startup ideas, building with AI |
 | **Huberman Lab** | @hubermanlab | Weekly | Health, neuroscience, fitness |
@@ -12,6 +13,10 @@
 | **The AI Edge** | @TheAIEdge | 2x/week | AI news + insights |
 | **Acquired** | @acquired | Weekly | Tech companies & strategy |
 | **All-In Podcast** | @allinthepodcast | Weekly | Tech, politics, business |
+
+**TBPN also on:**
+- Spotify: https://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/tbpn/id1772360235
 
 ### Health & Fitness
 | Source | URL | Frequency | Notes |
@@ -120,7 +125,7 @@ For Nick's training insights, I'll create a structured format:
 
 ---
 
-*Last updated: 2026-02-19*
+*Last updated: 2026-04-03*
 
 ---
 
