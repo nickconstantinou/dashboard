@@ -6,7 +6,7 @@
 | Source | URL | Frequency | Notes |
 |--------|-----|-----------|-------|
 | **TBPN** | https://feeds.transistor.fm/technology-brother | Daily | Tech talk show — Robert Coogan & Jordi Hays. Interviews tech leaders. RSS feed: `https://feeds.transistor.fm/technology-brother` |
-| **My First Million** | @myfirstmillion | — | ⚠️ INACTIVE — podcast discontinued, no working RSS found |
+| **My First Million** | https://feeds.megaphone.fm/HS2300184645 | Weekly | Startup ideas, business, tech trends. Also on: https://podcasts.apple.com/us/podcast/my-first-million/id1469759170 |
 | **Greg Isenberg** | @GregIsenberg | Weekly | Startup ideas, building with AI |
 | **Huberman Lab** | @hubermanlab | Weekly | Health, neuroscience, fitness |
 | **Lex Fridman Podcast** | lexfridman.com | Weekly | AI, tech, long-form interviews |
