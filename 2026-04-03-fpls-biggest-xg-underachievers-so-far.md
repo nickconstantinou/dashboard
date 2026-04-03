@@ -1,0 +1,79 @@
+---
+title: "FPL’s biggest xG underachievers so far"
+date: 2026-04-03
+type: blog
+source: "Fantasy Football Scout"
+source_url: "https://www.fantasyfootballscout.co.uk/2026/04/01/who-are-the-biggest-xg-underachievers-of-2025-26-so-far"
+category: "FPL"
+---
+
+# FPL's Biggest xG Underachievers: The Players Who Should Be Scoring More
+
+## The Full Story
+
+Fantasy Premier League managers have been crunching the numbers on expected goals (xG) to find players who deserve better returns—and the data reveals some shocking underperformers in the 2025/26 season. Crystal Palace emerges as the most damning case study, with the team collectively underperforming their xG by a staggering -12.75 goals, the worst mark in the entire league. Leading this unfortunate charge is Jean-Philippe Mateta (£7.5m), whose individual underperformance has been catastrophic despite his continued presence in the squad.
+
+Mateta's situation is particularly concerning. The 28-year-old French striker has managed only five actual goals despite an xG of 10, creating a -5.59 differential that places him at the top of the underachievement charts. Perhaps most troubling is that he's missed 17 of his 24 big chances—and crucially, none of these were penalties, meaning he bears full responsibility for each miss. To add insult to injury, Mateta has fallen so far out of favor that he's played just 30 minutes across Crystal Palace's last seven matches. However, the xG On Target metric suggests he's been genuinely unlucky; his shots on target should have yielded 7.48 goals rather than five, indicating his placement and shot quality have been solid—it's simply not bouncing his way.
+
+Looking at the recent eight-gameweek window (Gameweeks 24-31), Marcus Tavernier (£5.4m) has emerged as the most frustrating individual case. Despite Bournemouth fans and FPL managers expecting him to take penalties, Tavernier hasn't started most matches but has still managed to top the underperformance table. In that span, he's hit the woodwork three times and notably refused to take the Cherries' Gameweek 31 spot kick. Meanwhile, Anthony Gordon (£7.4m) was third on the overall underachievement list until breaking out with three consecutive goals—though this came after a year-long drought without scoring in open play.
+
+## Why This Matters
+
+For the millions of FPL managers worldwide, xG underperformance represents both a warning sign and a potential opportunity. Players consistently underperforming their underlying metrics often represent "buy low" candidates—if their underlying numbers remain strong, regression to the mean suggests goals are coming. Conversely, players who've been lucky may be due for a correction. The data separates genuine performers from those riding wave after wave of good or bad fortune.
+
+For FPL managers specifically, identifying underachievers matters because the game rewards predicting who will score points. A player like Tavernier, who has the underlying numbers but isn't converting, becomes a calculated risk—his low price tag (£5.4m) masks potential if he returns to form. Similarly, Gordon's recent form combined with penalty duties and a potential Double Gameweek 33 makes him an attractive option despite his season-long struggles. Understanding xG delta helps managers make informed decisions rather than chasing recent form or reputation alone.
+
+## Key Details
+
+**Crystal Palace Team Struggles:**
+- Total team xG underperformance: -12.75 (worst in league)
+
+**Jean-Philippe Mateta Individual Stats:**
+- Actual goals: 5
+- xG: 10 (differential: -5.59)
+- Big chances missed: 17 of 24
+- Minutes played in last 7 matches: 30
+- xG On Target suggests 7.48 goals should have resulted from his shots on target (instead of 5)
+
+**Marcus Tavernier (GW24-31):**
+- Position: Top of underperformance table over this period
+- Only started latest four matches
+- Hit woodwork: 3 times
+- Did not take Bournemouth's Gameweek 31 penalty
+
+**Three Players Who've Been Single-Gameweek's Biggest Underperformer Twice:**
+- Evanilson (£6.8m)
+- Thierno Barry (£5.7m) - both occurrences in recent Gameweeks 28 and 30
+- Dominic Calvert-Lewin (£5.6m)
+
+**Dominic Calvert-Lewin Historical Context:**
+- Combined xG deficit across his Leeds United campaign and final four seasons at Everton: -16.66 goals
+- Actual career goals across this span: 27
+
+**Highest Big Chance Miss Rates (among players with 10+ big chances):**
+- Harvey Barnes (£6.1m): 81.8%
+- Tolu Arokodare (£5.3m): 80.0%
+- Mohamed Salah (£14.0m): 76.9%
+
+**David Brooks (£5.0m):**
+- Missed 8 of 9 big chances
+
+## Context and Background
+
+Expected goals (xG) has become the foundational metric for both football analytics and FPL strategy. The statistic measures the quality of scoring chances, assigning each shot a probability based on factors like distance, angle, and defensive pressure. When a player's actual goals fall significantly below their xG, analysts label them an "underperformer"—and historically, most players regress toward their xG over larger sample sizes.
+
+This analysis comes during an FPL international break, a period when managers traditionally reassess their squads using underlying statistics rather than recent form alone. The 2025/26 season has seen several high-profile underperformers become major discussion points in the FPL community. Notably, Salah's inclusion among the worst big chance missers (76.9%) highlights how even the league's most prolific scorer experiences conversion issues—though his 12+ goals still make him essential.
+
+Anthony Gordon's trajectory illustrates the volatility FPL managers face. After an entire year without scoring from open play, the Newcastle attacker suddenly found form with three consecutive goals. His case demonstrates why xG analysis matters: despite his drought, his underlying numbers suggested chances were coming. Now, with Gordon playing as a centre-forward, taking penalties, and benefiting from favorable fixtures, his ownership is likely to surge—particularly if Newcastle receive a Double Gameweek 33.
+
+Dominic Calvert-Lewin's historical xG data spans multiple clubs and seasons, revealing a persistent pattern of underperformance that has become almost legendary in FPL circles. Across his Leeds campaign and previous Everton seasons, he's accumulated a -16.66 xG delta against his actual 27 goals, making him one of the most notorious "big chance missers" in Premier League history.
+
+## What's Next
+
+FPL managers should watch several developments stemming from this underperformance data. Anthony Gordon appears positioned for increased ownership heading into Gameweek 33, especially if Newcastle receive a double gameweek—his recent goals, penalty duties, and central attacking position make him an increasingly attractive option at £7.4m.
+
+For those seeking budget options, Marcus Tavernier's underlying numbers suggest he's worth monitoring despite recent frustration. If Bournemouth's £5.4m midfielder starts taking penalties and receives more regular minutes, his low price could prove transformative for managers struggling to fit premium assets.
+
+Jean-Philippe Mateta remains a complicated case. Despite leading the underperformance charts, his lack of playing time makes him virtually unselectable unless Palace's managerial situation changes dramatically. His continued absence from the starting lineup—even after returning to the matchday squad—suggests internal issues that pure xG analysis cannot capture.
+
+Finally, the xG data serves as a reminder that FPL success requires balancing statistics with real-world factors. Players like Calvert-Lewin may never convert at their expected rates, making them perpetual traps for optimistic managers. Meanwhile, temporary underperformers like Gordon represent the opportunities that separate successful seasons from the pack. As the season reaches its crucial final stretch, managers who understand these nuances will have the edge in their quest for FPL glory.

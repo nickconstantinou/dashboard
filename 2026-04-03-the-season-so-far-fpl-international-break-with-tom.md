@@ -1,0 +1,127 @@
+---
+title: "The Season So Far | #FPL International Break (with Tom Campbell)"
+date: 2026-04-03
+type: youtube
+category: "FPL"
+video_id: "R81HUxu1ir0"
+channel: "Who got the assist"
+video_url: "https://www.youtube.com/watch?v=R81HUxu1ir0"
+---
+
+# The Season So Far: An International Break Deep Dive with Tom Campbell
+
+## A Comprehensive Podcast Summary
+
+---
+
+The international break presents FPL managers with a rare opportunity to step back from the relentless weekly pressure of deadline day decisions. For many, this three-week hiatus is a chance to reset, recharge, and remind themselves that there's life beyond their fantasy squads. However, on this particular episode of *Who Got The Assist*—recorded on Tuesday, March 24th—hosts Sam and Tom take a different approach. Rather than fully disconnecting, they use this period of calm to conduct a broader, more philosophical review of the season thus far, inviting long-time FPL community figure Tom Campbell (known online as Tom C on X) to share his unique perspective on navigating the game with both competitive ambition and genuine enjoyment.
+
+Tom Campbell's appearance on the podcast marks what the hosts describe as a "pinch me moment"—a chance to finally have someone who has been a fixture across the FPL podcasting landscape appear as a guest rather than a host. Campbell has previously appeared on *The Always Cheating* and *Planet FPL*, making this appearance the completion of what Sam terms "the hat-trick of OG FPL podcasts." The timing is particularly significant as it allows for a relaxed, unstructured conversation that differs from the usual weekly breakdown format. The discussion ranges from personal season reviews and unexpected data revelations to the looming departure of one of the game's most iconic figures and a tentative look at the wildcard strategies that might define the season's crucial run-in.
+
+---
+
+## A Season of Deliberate Contrarianism: Tom Campbell's Unconventional Campaign
+
+### The Decision to Play (Almost) Against the Grain
+
+When Tom Campbell reflects on his 2024-25 Fantasy Premier League season, he doesn't reach for the usual descriptors of success or failure. Instead, he characterizes his campaign as "relatively catastrophic"—language that immediately signals he's approaching his FPL experience differently than most. This self-assessment comes with important context: Campbell nearly didn't play the game at all this season. After experiencing what he describes as a pervasive sense of ambivalence throughout the previous campaign, he found himself questioning whether continuing was worthwhile.
+
+The breakthrough came when friends essentially coerced him into giving the game another go, but with one crucial stipulation: he would approach the season on entirely different terms. Rather than chasing points through conventional methods, Campbell decided to embrace what he calls "taking huge swings for the fences." This wasn't random chaos—Campbell still maintained that essential strategic sensibility that years of FPL experience provide—but it was a deliberate rejection of the safest, most optimized paths that dominate conventional wisdom.
+
+From game week one, Campbell made his intentions clear: Erling Haaland would not be in his squad. This was a controversial call when Haaland was scoring goals for fun, and Campbell openly admits the decision was "pretty miserable to go against the grain for the first half of the season." Haaland's early-season form was, in Campbell's words, "like an absolute train," making the contrarian approach particularly painful to maintain. Mohamed Salah was similarly excluded from the initial strategy, though Campbell notes that Salah's own quieter season relative to his usual standards meant this particular decision didn't prove as significant an impediment as it might have in other years.
+
+### Finding the Scenic Route
+
+When Sam describes having reached a point where he wants to pursue FPL "side quests" and just "go on a bit of a scenic route," Campbell immediately identifies with the sentiment. He explains that after years of playing the game, there are really only two paths available: the conventional optimization route that most serious managers follow, or the scenic route that prioritizes entertainment and personal satisfaction alongside competitive results. For Campbell this season, the scenic route was the only viable option.
+
+This philosophy manifested most dramatically in game week 31, where Campbell played his free hit chip—a chip he has since burned through, alongside all his other chips including the wildcard and bench boost. His free hit selections included a treble Fulham defense with captaincy placed on a Fulham defender, a move that drew laughter from the hosts when revealed. Campbell also deliberately omitted two Tottenham players from his lineup, adding further contrarian selections to his squad.
+
+The results, as Campbell freely acknowledges, were not kind to his overall rank. He peaked at approximately 5.6 million in game week 10, coinciding with his hosting duties on the Planet FPL podcast—a fact he jokes might suggest he's cursed as a guest. By the time of this recording, he had fallen to somewhere in the "top 500k," though he graciously accepts Sam's attempt to reframe this as "relative respectability" rather than the harsh reality of significant rank deterioration.
+
+What's notable is Campbell's insistence that despite the chaotic, unconventional approach, he hasn't been playing without thought or care. The spirit underpinning his decisions was always about potentially creating something spectacular—those moments where taking a big risk produces a massive points haul that feels earned rather than algorithmic. He's essentially trying to manufacture the kind of memorable FPL experience that keeps the game feeling alive rather than becoming another source of routine stress.
+
+---
+
+## The Data Reveals: Points Distribution and Its Shocking Realities
+
+### Campbell's Analytical Deep Dive
+
+One of the episode's planned segments focuses on data that Campbell has compiled specifically for this conversation. While the exact figures aren't fully revealed in the transcript's opening discussion, the hosts build anticipation around what Sam describes as "some quite shocking realizations" that Campbell has uncovered through his analysis of points distribution across the FPL player base.
+
+The data apparently reveals patterns or truths about the FPL population that challenge common assumptions. Given Campbell's reputation for thoughtful content creation and his analytical approach to the game, these findings likely touch on questions like how many managers actually follow the模板 picks, where the majority of points come from, or perhaps how elite performance actually breaks down in statistical terms. The episode promises to do "justice" to this data later in the show, positioning it as a centerpiece of the broader seasonal review.
+
+This kind of analysis reflects a broader trend in the FPL community: the desire to understand not just individual player decisions, but the collective behavior of millions of managers making simultaneous choices. Such data can reveal inefficiencies in popular thinking, expose hidden opportunities, or simply provide fascinating insight into human behavior under competitive pressure.
+
+---
+
+## The 200 Club: Elite Company at Season's Halfway Point
+
+### Identifying the Season's Most Prolific Point Scorers
+
+With no manager having yet reached the milestone this season, the podcast discussion turns to identifying which players are best positioned to achieve what would be a remarkable feat. The "200 club" represents a psychological barrier in FPL circles—a threshold that implies both consistency and exceptional performance across the season's challenges.
+
+This segment represents the kind of zoomed-out thinking that the international break allows. Rather than obsessing over next week's matchups, there's space to consider which players have demonstrated the sustained excellence required to cross such a significant points threshold. The conversation likely involves assessing not just current totals but projecting forward based on fixture runs, team form, and individual trajectory.
+
+For managers planning ahead, understanding which players are on pace for such milestones can inform both immediate decisions and long-term strategy. It forces consideration of players who might be overlooked in weekly analysis but who offer exceptional value over the full season rather than just the immediate gameweek.
+
+---
+
+## A Fond Farewell: Mo Salah's Impending Departure
+
+### The End of an Era in FPL's Most Iconic Asset
+
+The most significant news revealed just before recording begins is Mohamed Salah's announcement that he will be leaving the Premier League at the end of the current season. While the transcript doesn't elaborate extensively on this moment, its placement as a "special mention" indicates the gravity with which both hosts regard this development.
+
+Salah has been, for multiple seasons running, one of the most essential assets in FPL. His consistency, his penalty-taking responsibilities, his position flexibility, and his seemingly endless capacity for goal involvements have made him a fixture in countless squads. His announcement fundamentally changes the calculus for the season's run-in and especially for the preparation of squads for next season.
+
+The discussion of Salah's legacy in FPL serves as both a tribute to his remarkable contributions and a practical consideration for how managers should navigate his final weeks in the Premier League. How do you maximize value from an asset you know is leaving? Do you prioritize his points potential or begin investing in his replacement? These questions take on particular urgency given the timing of his announcement during the crucial pre-run-in period.
+
+---
+
+## Looking Ahead: Wildcard Strategies for the Run-In
+
+### Planning the Return from International Duty
+
+The episode's final planned segment involves taking "a very tentative look" at potential wildcard strategies for when managers return to active FPL management. This forward-looking discussion recognizes that while the international break offers respite, the game never truly stops for those invested in their squads.
+
+With the FA Cup final serving as the implicit deadline before things resume, the hosts presumably discuss fixture swings, form players, and the strategic considerations that should inform wildcard deployment. The word "tentative" suggests they're not making firm commitments—indeed, Sam explicitly advises listeners "not to do anything with your FPL teams for the next couple of weeks" until after the FA Cup is decided.
+
+This segment bridges the gap between the reflective mood of the international break and the competitive reality that will return soon enough. It acknowledges that even in rest periods, the best managers are thinking several moves ahead, planning for scenarios that may or may not materialize while maintaining flexibility in their thinking.
+
+---
+
+## Key Takeaways for FPL Managers
+
+### 1. Managing the Psychological Burden of FPL
+
+Tom Campbell's decision to nearly quit the game due to fatigue highlights an underappreciated aspect of fantasy management: the psychological toll of constant decision-making. His solution—deliberately embracing unconventional strategies to rediscover fun—represents one valid approach to this common problem. Managers experiencing similar fatigue might consider whether their current approach serves their enjoyment or merely their competitive ranking, recognizing that the two don't always align.
+
+### 2. The Value of Contrarian Thinking (Even When It Hurts)
+
+Campbell's sustained campaign against popular wisdom—particularly his decision to avoid Haaland—demonstrates both the risks and potential rewards of contrarian thinking. While his specific decisions didn't work out optimally, the underlying principle remains valid: significant rank improvement often requires differentiating from the herd. The key is ensuring such decisions stem from genuine conviction rather than random contrariness.
+
+### 3. Sustainable Engagement Requires Intentionality
+
+The scenic route philosophy that both hosts embrace suggests that long-term FPL success requires intentional decisions about engagement level. Some managers thrive on maximum optimization; others need the freedom to experiment and enjoy. Neither approach is inherently superior—the important thing is matching your approach to your genuine preferences rather than defaulting to what you think you "should" be doing.
+
+### 4. Data-Driven Self-Awareness Matters
+
+Campbell's preparation of points distribution data for the episode underscores the value of understanding the broader FPL landscape, not just individual player selection. What most managers think is happening in the game may differ substantially from reality, and data analysis can reveal both opportunities and blind spots in collective thinking.
+
+### 5. The Championship Is Won in the Run-In
+
+The episode's structure—saving detailed strategic discussion for after the international break—reflects the seasonal rhythm of FPL. The remaining weeks after the break represent the most important period for rank improvement, making the planning done now potentially transformative for final standings. This is the time to identify fixture swings, assess chip strategies, and position yourself for a strong finish.
+
+---
+
+## Who This Episode Is For
+
+This international break special will prove most valuable for FPL managers who have experienced any degree of the fatigue Tom Campbell describes—those who find themselves going through the motions rather than engaging meaningfully with their squads. It's equally valuable for data enthusiasts who appreciate seeing the game analyzed from unexpected angles, and for managers seeking perspective on their own season trajectory.
+
+The episode offers particular resonance for those who have struggled with the tension between competitive ambition and genuine enjoyment. Campbell's explicit discussion of choosing the "scenic route" provides permission to prioritize fun alongside results, which can be liberating for managers who have felt guilty about sub-optimal decisions made in service of entertainment rather than pure optimization.
+
+For those purely focused on week-to-week tactical decisions, the zoomed-out nature of this episode may feel less immediately useful—but even these managers can benefit from the strategic framework it provides and the reminder that sustainable success requires managing energy as well as points.
+
+---
+
+*This summary reflects content recorded during game week 31 of the 2024-25 Fantasy Premier League season, with the episode released during the three-week international break preceding the FA Cup final. Mo Salah's announced departure represents a significant development affecting long-term FPL planning for managers across all levels of the game.*

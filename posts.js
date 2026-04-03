@@ -3910,6 +3910,56 @@ var posts = [
     ]
   },
   {
+    "date": "April 03, 2026",
+    "title": "Do Not Make These Early Career Mistakes | Robert Greene",
+    "url": "2026-04-03-do-not-make-these-early-career-mistakes-robert-gre.html",
+    "category": "Blog",
+    "excerpt": "2026-04-03 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 03, 2026",
+    "title": "Master Your Mind & Watch What Happens | Robert Greene",
+    "url": "2026-04-03-master-your-mind-watch-what-happens-robert-greene.html",
+    "category": "Blog",
+    "excerpt": "2026-04-03 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 03, 2026",
+    "title": "FBI Negotiator: How to Prepare for Any Negotiation in Life | Christopher Voss",
+    "url": "2026-04-03-fbi-negotiator-how-to-prepare-for-any-negotiation-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-03 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 03, 2026",
+    "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-04-03-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-03 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 03, 2026",
+    "category": "Tech",
+    "title": "Bluey Phone Review",
+    "excerpt": "# Bluey Phone Review: MKBHD's Honest Take on the Most Honest Phone Money Can Buy\n\n## A Deep Dive int",
+    "tags": [
+      "Tech"
+    ],
+    "url": "2026-04-03-bluey-phone-review.html"
+  },
+  {
     "date": "April 02, 2026",
     "title": "FPL GW31 RANK 1 TEAM SELECTION \ud83c\udf0d 1ST IN WORLD \ud83c\udfc6",
     "url": "2026-04-02-fpl-gw31-rank-1-team-selection-1st-in-world-.html",
@@ -3947,6 +3997,16 @@ var posts = [
     "excerpt": "Perhaps the most valuable strategic discussion centers on chip deployment for the upcoming double gameweeks. Two primary strategies have emerged among the expert community:",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "The Side Hustle King: \"Make $20K+/month without money, luck, or experience\"",
+    "url": "2026-04-02-the-side-hustle-king-make-20kmonth-without-money-l.html",
+    "category": "Blog",
+    "excerpt": "2026-04-02 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -4138,16 +4198,6 @@ var posts = [
     "tags": [
       "Blog"
     ]
-  },
-  {
-    "date": "April 02, 2026",
-    "category": "Tech/Business",
-    "title": "The Side Hustle King: \"Make $20K+/month without money, luck, or experience\"",
-    "excerpt": "# Important Note Before Proceeding\n\nI need to flag a significant issue with this request: **the prov",
-    "tags": [
-      "Tech/Business"
-    ],
-    "url": "2026-04-02-the-side-hustle-king-make-20kmonth-without-money-l.html"
   },
   {
     "date": "April 01, 2026",
