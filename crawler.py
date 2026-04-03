@@ -32,6 +32,7 @@ YOUTUBE_CHANNELS = [
 ]
 
 RSS_FEEDS = [
+    {"url": "https://feeds.transistor.fm/technology-brother", "name": "TBPN", "category": "Tech"},
     {"url": "https://feeds.simplecast.com/dHoohVNH", "name": "Lex Fridman", "category": "Tech"},
     {"url": "https://feeds.megaphone.fm/HS2300184645", "name": "My First Million", "category": "Business"},
     {"url": "https://www.fantasyfootballscout.co.uk/feed", "name": "Fantasy Football Scout", "category": "FPL"},
