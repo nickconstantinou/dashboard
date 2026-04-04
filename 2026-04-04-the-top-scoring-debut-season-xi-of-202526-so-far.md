@@ -1,0 +1,63 @@
+---
+title: "The top-scoring debut season XI of 2025/26 so far"
+date: 2026-04-04
+type: blog
+source: "Fantasy Football Scout"
+source_url: "https://www.fantasyfootballscout.co.uk/2026/04/02/the-top-scoring-debut-season-xi-of-2025-26-so-far"
+category: "FPL"
+---
+
+# The Top-Scoring Debut Season XI of 2025/26 So Far: Complete FPL Guide
+
+## The Full Story
+
+With seven Gameweeks remaining in the 2025/26 Fantasy Premier League season, 14 players have already surpassed the 100-point milestone in their first-ever FPL campaign, delivering exceptional value to managers who took a chance on untested Premier League talent. According to Fantasy Football Scout's analysis, these debutants have defied expectations, with a cluster of Sunderland defenders leading the charge alongside select stars from Newcastle, Bournemouth, and several imported midfielders.
+
+Sunderland's remarkable defensive resilience sits at the heart of this season's standout debut performances. The Black Cats, last season's play-off winners, have conceded the third-most shots in the league (455) while letting in only the fifth-fewest goals (36) — a statistical anomaly their goalkeeper Robin Roefs (£4.8m) has been central to. The Dutch shot-stopper, signed from NEC Nijmegen for an initial £9 million, immediately justified his budget price tag with an opening-day clean sheet, followed by a penalty save against Kevin Schade in Gameweek 3. By Gameweek 6, Roefs had accumulated 39 points before a hamstring injury curtailed his momentum.
+
+The standout defender of the debut crop is Nordi Mukiele (£4.5m), who began the season at just £4.0m after arriving from Paris Saint-Germain. Despite not debuting until Gameweek 3 and falling out of the lineup significantly from Gameweek 26 onwards, Mukiele has contributed one goal and five assists, including a remarkable 17-point haul against Wolverhampton Wanderers. He ranks second among defenders for creating big chances (seven) and endured a nine-match stretch where only one fixture yielded fewer than four points. Teammate Daniel Ballard (£4.7m) — who started at £4.5m — announced himself with a 17-point Gameweek 1 performance and ranks among the best all-round defenders with 30 DefCon points, 24 shots in the box, and 19 headed attempts. Meanwhile, Newcastle's Malick Thiaw (£5.1m) has created the most big chances among defenders (nine), including a 17-pointer against Crystal Palace after earlier scoring twice at Everton in Gameweek 13. Rounding out the defensive contingent is Bournemouth's Adrien Truffert (£4.7m), brought in as a Milos Kerkez replacement, who has contributed to the Cherries' league-best home defence for big chances conceded (17) and ranks joint-third for crosses (123).
+
+In midfield, Hoffenheim import Anton Stach (£4.8m) leads the debutant crop at 122 points, demonstrating the kind of all-round capability that Fantasy Football Scout highlighted in their comprehensive midfielders analysis. Martin Zubimendi has accumulated 117 points, while Enzo Le Fee (108) and Florian Wirtz (105) round out a strong showing from imported talent in the middle of the park. Notably, several high-profile debutants have struggled to deliver, with Xavi Simons (£6.5m), Randal Kolo Muani (£6.9m), and Maxim De Cuyper (£4.3m) among those who have disappointed despite their premium price tags.
+
+## Why This Matters
+
+For the millions of FPL managers worldwide, the debut season presents a unique puzzle: players with no Premier League track record, priced based on previous league performance or transfer fee, offer both opportunity and significant risk. The 2025/26 campaign has validated the aggressive approach many managers took with Sunderland assets in particular, as the club's unexpected defensive solidity has transformed budget-friendly players into essential squad members.
+
+The success of these debutants carries broader implications for how we evaluate FPL strategy. Players arriving from continental leagues or being promoted from the Championship have historically been treated with caution, yet this season has demonstrated that the right environment — combined with favourable fixtures and role clarity — can produce immediate returns. Sunderland's counterintuitive statistics (high shots faced, few goals conceded) suggest that identifying systems rather than reputations may be the key to unearthing value among unknowns.
+
+For the clubs themselves, the performances of players like Roefs, Mukiele, and Stach validate aggressive transfer strategies that brought Premier League-tested talent to newly-promoted sides. Sunderland's willingness to invest £9 million in a goalkeeper, and PSG's willingness to sanction Mukiele's departure at a reduced fee, have paid dividends for both clubs — and for the FPL managers who capitalized on their adjusted price points.
+
+## Key Details
+
+**Goalkeeper:**
+- Robin Roefs (Sunderland) — 110 points, £4.8m, signed from NEC Nijmegen for £9m, kept opening-day clean sheet, saved penalty in GW3
+
+**Defenders:**
+- Adrien Truffert (Bournemouth) — 122 points, £4.7m, Milos Kerkez replacement, 123 crosses (joint-third among defenders), 17 big chances conceded at home (best in league)
+- Daniel Ballard (Sunderland) — 118 points, £4.7m, 17-point Gameweek 1, 30 DefCon points, 24 shots in box, 19 headed attempts
+- Nordi Mukiele (Sunderland) — 115 points, £4.5m (started at £4.0m), 1 goal + 5 assists, 7 big chances created (2nd among defenders), 17-pointer vs Wolves
+- Malick Thiaw (Newcastle) — 114 points, £5.1m, 9 big chances created (most among defenders), brace at Everton, 17-pointer vs Crystal Palace
+
+**Midfielders:**
+- Anton Stach (Sunderland) — 122 points, £4.8m, signed from Hoffenheim
+- Martin Zubimendi — 117 points
+- Enzo Le Fee — 108 points
+- Florian Wirtz — 105 points
+
+**Season Context:** 14 debutants have reached 100+ points; seven Gameweeks remain.
+
+## Context & Background
+
+The 2025/26 season marks the second consecutive campaign featuring significant managerial upheaval and transfer market activity, with several clubs undergoing transitions that opened doors for untested players. Sunderland's promotion via the play-offs meant the club entered the top flight with minimal Premier League experience, forcing managerismatic decisions about squad composition. Their investment in Roefs represented a calculated gamble on Championship-tested goalkeeping, while the retention of Mukiele — despite PSG's willingness to move him on — provided defensive stability at a fraction of the cost of established alternatives.
+
+Bournemouth's pursuit of Truffert as a Kerkez replacement reflects a broader trend of clubs seeking continuity through direct positional replacements rather than stylistic overhauls, a strategy that has paid immediate dividends for FPL managers seeking defensive assets. Meanwhile, Newcastle's Thiaw has benefited from consistent gametime in a system that creates chances for central defenders, a trend Fantasy Football Scout's visual analysis (referenced in their main image) specifically highlighted.
+
+The struggles of high-profile imports like Simons, Kolo Muani, and De Cuyper serve as reminders that reputation and price tag do not guarantee FPL returns. All three were drafted by managers expecting premium output, only to find themselves sidelined by rotation, tactical mismatch, or simple adjustment difficulties to English football's unique demands.
+
+## What's Next
+
+With seven Gameweeks remaining, the fitness of Robin Roefs looms as a pivotal factor for Sunderland's defensive assets. His current hamstring injury has disrupted what was shaping as an exceptional season, and his return could determine whether Sunderland's budget defenders remain viable options or whether rotation concerns will diminish their appeal. Managers holding Roefs should monitor press conferences closely, while those without exposure must weigh the risk of a potential comeback against the ceiling of alternatives.
+
+The absence of Ballard, Mukiele, and Roefs from the recent Tyne-Wear derby lineups raises questions about potential injuries or tactical decisions, though this may simply reflect the international break and recovery protocols. Thiaw's continued involvement at Newcastle appears secure given his creative output, making him perhaps the most reliable of the debut defender cohort for the run-in.
+
+For midfield, Stach's 122-point tally suggests continued involvement, though managers should verify his fixture schedule and any rotation risks as Newcastle pushes for European qualification. The season's final stretch historically favours players in teams with something to play for, making the promotion battlers and Champions League contenders among the debutants attractive prospects for those navigating the critical final Gameweeks.
