@@ -14,7 +14,7 @@ var posts = [
     "title": "Chelsea + Brighton to have Double Gameweek 33 + Blank Gameweek 34",
     "url": "2026-04-05-chelsea-brighton-to-have-double-gameweek-33-blank-.html",
     "category": "Blog",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "Fantasy Football Scout is monitoring several other potential Double Gameweek 33 scenarios pending FA Cup quarter-final results:",
     "tags": [
       "Blog"
     ]
@@ -44,7 +44,7 @@ var posts = [
     "title": "Minutes played + late returns: Every FPL player on international duty",
     "url": "2026-04-05-minutes-played-late-returns-every-fpl-player-on-in.html",
     "category": "FPL",
-    "excerpt": "The article's core feature is its detailed table showing:",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "FPL"
     ]
@@ -64,7 +64,7 @@ var posts = [
     "title": "Man City + Burnley to have Double Gameweek 33 + Blank Gameweek 34",
     "url": "2026-04-05-man-city-burnley-to-have-double-gameweek-33-blank-.html",
     "category": "Blog",
-    "excerpt": "The article was published on April 4, 2026, by Neale, Editor of Fantasy Football Scout, with additional reporting from Skonto Rigga.",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Blog"
     ]
@@ -104,7 +104,7 @@ var posts = [
     "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-05-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
     "category": "FPL",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "The video outlines two primary chip strategies that most FPL managers are likely to deploy depending on one crucial factor: the outcome of the FA Cup semifinal between Liverpool and Manchester City.",
     "tags": [
       "FPL"
     ]
@@ -114,7 +114,7 @@ var posts = [
     "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-05-pras-gameweek-31-team-selection-fantasy-premier-le.html",
     "category": "Blog",
-    "excerpt": "The real value lies in the framework Pras provides for thinking about chip strategy rather than specific player",
+    "excerpt": "This patience-first philosophy represents Pras' personal approach. He's waiting for the international break results before making his final chip decisions.",
     "tags": [
       "Blog"
     ]
@@ -134,7 +134,7 @@ var posts = [
     "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-05-az-discusses-his-latest-draft-rank-history-pre-sea.html",
     "category": "Blog",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "Az is unflinching in his assessment of the past three seasons, calling them \"a complete disaster\" with \"no two ways of looking at it.\"",
     "tags": [
       "Blog"
     ]
