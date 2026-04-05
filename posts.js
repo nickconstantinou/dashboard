@@ -1,5 +1,145 @@
 var posts = [
   {
+    "date": "April 05, 2026",
+    "title": "How to Discover Who You Really Are | Robert Greene",
+    "url": "2026-04-05-how-to-discover-who-you-really-are-robert-greene.html",
+    "category": "Blog",
+    "excerpt": "2026-04-05 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Chelsea + Brighton to have Double Gameweek 33 + Blank Gameweek 34",
+    "url": "2026-04-05-chelsea-brighton-to-have-double-gameweek-33-blank-.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Enzo, Alisson, Timber: FPL team news ahead of the FA Cup",
+    "url": "2026-04-05-enzo-alisson-timber-fpl-team-news-ahead-of-the-fa-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "How to Disappear to Make People Want You More | Robert Greene",
+    "url": "2026-04-05-how-to-disappear-to-make-people-want-you-more-robe.html",
+    "category": "Blog",
+    "excerpt": "2026-04-05 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-05-zophars-gameweek-31-team-selection-fantasy-premier.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Man City + Burnley to have Double Gameweek 33 + Blank Gameweek 34",
+    "url": "2026-04-05-man-city-burnley-to-have-double-gameweek-33-blank-.html",
+    "category": "Blog",
+    "excerpt": "Beyond this double, the article confirms City are expected to receive another double gameweek later in the season, likely in Gameweek 36, giving managers a strategic window for investment decisions.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "No Blank or Double Gameweek for Arsenal or Newcastle",
+    "url": "2026-04-05-no-blank-or-double-gameweek-for-arsenal-or-newcast.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "The Step-by-Step Blueprint to Learning Your Life's Purpose | Robert Greene",
+    "url": "2026-04-05-the-step-by-step-blueprint-to-learning-your-lifes-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-05 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-05",
+    "url": "2026-04-05-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-05 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-05-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-05-pras-gameweek-31-team-selection-fantasy-premier-le.html",
+    "category": "Blog",
+    "excerpt": "The real value lies in the framework Pras provides for thinking about chip strategy rather than specific player",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
+    "url": "2026-04-05-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-05 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-05-az-discusses-his-latest-draft-rank-history-pre-sea.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
+    "title": "Be a Master of Silence & Gain Immense Power | Robert Greene",
+    "url": "2026-04-05-be-a-master-of-silence-gain-immense-power-robert-g.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-05 \u2022 Tech/Business",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
     "date": "April 04, 2026",
     "title": "Double Gameweek 33 confirmed for up to eight teams",
     "url": "2026-04-04-double-gameweek-33-confirmed-for-up-to-eight-teams.html",

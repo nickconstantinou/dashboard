@@ -1,0 +1,24 @@
+---
+title: "No Blank or Double Gameweek for Arsenal or Newcastle"
+date: 2026-04-05
+type: blog
+source: "Fantasy Football Scout"
+source_url: "https://www.fantasyfootballscout.co.uk/2026/04/04/no-blank-or-double-gameweek-for-arsenal-or-newcastle"
+category: "FPL"
+---
+
+# Arsenal FA Cup Exit Reshapes FPL Fixture Calendar, Forcing Managers to Rethink Chip Strategies
+
+Arsenal's shocking elimination from the FA Cup by Championship side Southampton has sent ripples through the Fantasy Premier League community, fundamentally altering the fixture landscape for the season's critical run-in. Mikel Arteta's side suffered a 2-1 defeat at St Mary's Stadium on Saturday night, bowing out of the competition at a stage that will now force significant adjustments to both the Premier League fixture list and the strategic calculations of millions of FPL managers. The result means that what was expected to be a pivotal Double Gameweek 33—featuring both Arsenal and Newcastle—will no longer include either club, dramatically reducing the number of doubling assets available for the crucial period.
+
+## The Fixture Domino Effect
+
+The consequences of Southampton's upset extend far beyond one club's cup ambitions. With Arsenal's exit, the Premier League confirmed that the North London club's fixture against Newcastle in Gameweek 34 will proceed as scheduled rather than being postponed, removing what was expected to be the largest single blank of the season for FPL purposes. Originally, managers were bracing for widespread postponements affecting both Arsenal and Newcastle supporters, but the current outlook shows only three confirmed blanks in Gameweek 34: Brighton versus Chelsea, Burnley versus Manchester City, and potentially West Ham versus Everton, depending on Sunday's FA Cup quarter-final result between West Ham and Leeds. Meanwhile, Arsenal's match against Newcastle, Liverpool's fixture with Crystal Palace, Fulham's game against Aston Villa, Manchester United's matchup with Brentford, Sunderland's encounter with Nottingham Forest, and Wolves' game against Tottenham will all proceed as normal. The reduction from potential widespread postponements to just three blanks represents a significant tactical shift for managers planning their season-ending moves.
+
+## Strategic Repercussions for FPL Managers
+
+The elimination of Arsenal and Newcastle from the Double Gameweek 33 equation has forced a wholesale reevaluation of chip deployment strategies. When eight teams were expected to double—including the Premier League's two form teams—many managers had tentatively planned a Gameweek 32 Wildcard to acquire assets from those clubs, followed by a Bench Boost in Gameweek 33 to maximize the fixture congestion. A Free Hit would then have been deployed to navigate the Blank Gameweek 34. That entire framework now requires reconsideration, as Double Gameweek 33 will now feature only six doubling teams instead of eight, and Arsenal—who appeared to have the most attractive assets—will be playing only once that week against Manchester City. The article suggests that managers may now be able to navigate Gameweek 34 without employing a Free Hit at all, as the reduced blank means fewer forced transfers. Some managers are now weighing whether to deploy the Free Hit in Gameweek 33 instead, allowing them to Wildcard in Gameweek 35 and Bench Boost in Gameweek 36, when Manchester City and Crystal Palace are expected to feature in the season's final Double Gameweek.
+
+## What This Means Going Forward
+
+Fantasy Football Scout's editorial team has acknowledged that the changing landscape warrants further analysis, with follow-up articles promised to weigh the pros and cons of various chip strategies. A Gameweek 32 Wildcard draft article is also in the pipeline, suggesting that despite the reduced appeal of the Double Gameweek, there remain valuable opportunities for managers who adapt quickly. The key variable still hanging in the balance is Sunday's FA Cup quarter-final between West Ham and Leeds United. That result will determine whether West Ham or Leeds adds to the blank list in Gameweek 34, and which club advances to potentially create further postponements later in the season. For now, managers should resist hasty decisions based on the initial shock of Arsenal's exit, as the fixture list—while less favorable than anticipated—still presents actionable pathways to FPL success. The article emphasizes that while the "cat has been let among the pigeons," as author Skonto Rigga put it, careful analysis of the revised landscape will reveal that all is not lost for those with flexible chip strategies.
