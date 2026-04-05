@@ -41,6 +41,16 @@ var posts = [
   },
   {
     "date": "April 05, 2026",
+    "title": "Minutes played + late returns: Every FPL player on international duty",
+    "url": "2026-04-05-minutes-played-late-returns-every-fpl-player-on-in.html",
+    "category": "FPL",
+    "excerpt": "The article's core feature is its detailed table showing:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 05, 2026",
     "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-05-zophars-gameweek-31-team-selection-fantasy-premier.html",
     "category": "Blog",
@@ -54,7 +64,7 @@ var posts = [
     "title": "Man City + Burnley to have Double Gameweek 33 + Blank Gameweek 34",
     "url": "2026-04-05-man-city-burnley-to-have-double-gameweek-33-blank-.html",
     "category": "Blog",
-    "excerpt": "Beyond this double, the article confirms City are expected to receive another double gameweek later in the season, likely in Gameweek 36, giving managers a strategic window for investment decisions.",
+    "excerpt": "The article was published on April 4, 2026, by Neale, Editor of Fantasy Football Scout, with additional reporting from Skonto Rigga.",
     "tags": [
       "Blog"
     ]
