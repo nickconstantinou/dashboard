@@ -1,5 +1,75 @@
 var posts = [
   {
+    "date": "April 06, 2026",
+    "title": "Leeds + Bournemouth to have Double Gameweek 33 + Blank Gameweek 34",
+    "url": "2026-04-06-leeds-bournemouth-to-have-double-gameweek-33-blank.html",
+    "category": "Blog",
+    "excerpt": "Manager awaiting team news from Daniel Farke, described as \"at least one of the league's most helpful managers when it comes to team news.\"",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "FPL GW32 CHIP STRATEGY GUIDE! \ud83d\udcdd DOUBLE GW33 CONFIRMED! \ud83d\udea8 \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-06-fpl-gw32-chip-strategy-guide-double-gw33-confirmed.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "What 50 Cent Taught Me About Power & Courage | Robert Greene",
+    "url": "2026-04-06-what-50-cent-taught-me-about-power-courage-robert-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-06 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-06",
+    "url": "2026-04-06-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-06 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "FPL notes: Enzo latest, Palmer on his fitness + Pedro goal",
+    "url": "2026-04-06-fpl-notes-enzo-latest-palmer-on-his-fitness-pedro-.html",
+    "category": "FPL",
+    "excerpt": "The sight of Enzo at Stamford Bridge on Saturday supporting his teammates from the sidelines has been interpreted as a positive step toward potential reconciliation and return.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "No Blank or Double Gameweek for Arsenal or Newcastle",
+    "url": "2026-04-06-no-blank-or-double-gameweek-for-arsenal-or-newcast.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 06, 2026",
+    "title": "Lateriser on Double Gameweek 33, Man City + chip strategy",
+    "url": "2026-04-06-lateriser-on-double-gameweek-33-man-city-chip-stra.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "April 05, 2026",
     "title": "How to Discover Who You Really Are | Robert Greene",
     "url": "2026-04-05-how-to-discover-who-you-really-are-robert-greene.html",
