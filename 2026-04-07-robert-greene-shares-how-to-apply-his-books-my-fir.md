@@ -1,0 +1,121 @@
+---
+title: "Robert Greene Shares How to Apply His Books | My First Million"
+date: 2026-04-07
+type: youtube
+category: "Tech/Business"
+video_id: "nNwUs4PJX8I"
+channel: "My First Million"
+video_url: "https://www.youtube.com/watch?v=nNwUs4PJX8I"
+---
+
+# How to Actually Apply Robert Greene's Books to Your Daily Life: Insights from "My First Million"
+
+## Introduction
+
+In a world where self-help books line our shelves but rarely change our behavior, the question of practical application becomes paramount. Robert Greene, author of seminal works like *The 48 Laws of Power*, *The Art of Seduction*, and *The Laws of Human Nature*, has built a career on distilling historical wisdom into actionable psychological insights. But what happens after you close the book? How do you transform abstract principles into daily practice?
+
+This question sits at the heart of a conversation on the "My First Million" podcast, where hosts Sam Parr and Sean Everett sit down with Greene to explore how readers can move beyond mere intellectual agreement with his ideas into genuine behavioral change. The discussion reveals a counterintuitive truth: the path to power, influence, and mastery doesn't begin with learning new tactics or strategies—it begins with learning to see. Specifically, Greene argues that the single most transformative skill anyone can develop is the ability to step outside their own self-absorption and become an acute observer of the people around them.
+
+What makes this conversation particularly valuable is its grounded, practical orientation. Rather than discussing philosophical abstractions, Greene walks through concrete scenarios—from the mundane (getting coffee at Starbucks) to the potentially adversarial (receiving a parking ticket)—demonstrating how his frameworks translate into real-world situations. The hosts, meanwhile, bring their own experiences to bear, testing Greene's ideas against the realities of modern business and personal interaction.
+
+## Key Concepts and Arguments
+
+### The Foundational Skill: Observing Instead of Reacting
+
+Greene opens by identifying what he considers the number one skill for anyone seeking to apply his work: the ability to get outside of yourself and become a "supreme acute observer of people." This isn't merely a nice-to-have quality—it forms the foundation upon which all other skills in his books rest.
+
+The core problem, Greene explains, is that most people exist in a state of constant reactivity. They're absorbed in their own thoughts, their own emotions, their own problems. When interacting with others, they're not truly listening or observing—they're waiting for their turn to speak, mentally rehearsing their response, or caught up in their own internal narrative. This self-absorption, Greene argues, pervades almost every daily interaction, from casual conversations to high-stakes negotiations.
+
+The alternative he proposes requires a deliberate shift in attention: instead of listening to yourself, you direct your full mental capacity toward the person or people in front of you. Greene describes this as "absorbing your interest, your mind, your spirit in the people you're dealing with." This applies equally to power dynamics, seduction, strategy, and understanding human nature broadly—it's the foundational skill underlying all his work.
+
+What makes this particularly powerful is that it simultaneously serves multiple functions. It calms you down internally by redirecting your focus outward. It functions as a form of therapy by breaking the cycle of rumination. And it makes you genuinely better at reading people—not just their words, but their body language, their unspoken feelings, their underlying motivations.
+
+### The Starbucks Exercise: Practicing Observation Everywhere
+
+To make this concrete, Greene offers a deceptively simple exercise: the next time you go to Starbucks, instead of being lost in your own thoughts while waiting for your coffee, actually look at the barista and wonder about their inner world. What is it like to be them? What is their life outside this job? What might be going on in their mind in this moment?
+
+This might feel strange or even intrusive at first, but Greene frames it as a training exercise. You're essentially building a muscle—the muscle of genuine observation and curiosity about other people. You're creating a mental story about them: what their apartment looks like, what their relationships are like, what their dreams and frustrations might be.
+
+The key insight here is that this practice should extend to every situation, not just when you're waiting for coffee. In traffic, at the grocery store, in meetings, at a coffee shop—anywhere you're interacting with other people, you can consciously choose to step outside your own experience and become genuinely curious about theirs.
+
+The benefits compound over time. As you practice this repeatedly, you become a "superior observer of human nature." You start noticing things others miss—the discrepancy between what someone says and what their body language reveals, the subtle cues that indicate genuine interest versus polite dismissal. You become harder to deceive because you're no longer simply accepting surface-level information. And you become far more effective at navigating social situations because you genuinely understand what makes other people tick.
+
+### The Parking Ticket: Applying Observation Under Pressure
+
+The hosts push for even more practical applications, and Greene delivers with a vivid example involving a parking ticket scenario—something the hosts can relate to from their own lives.
+
+Sam Parr shares his own experience: receiving a parking ticket, feeling the immediate surge of anger and the desire to confront the officer, and then catching himself. He describes the internal dialogue: "I want to yell at you. I want to do this. I want to do that." But then he shifted perspective, thinking about what the officer actually wanted to be doing with his time, and how he might use insight into that person's perspective to improve the outcome rather than escalate conflict.
+
+Greene builds on this by fleshing out the full psychological picture. That parking ticket officer has his own life, his own problems, his own world. He's stuck in what is probably a miserable job—everyone hates him, he receives constant negative energy from people all day long, and then he goes home to his apartment somewhere (maybe in Queens) where he's also dealing with the difficulties of daily life. He's internalizing all this anguish and anxiety.
+
+When you understand this about the person, your entire approach to the interaction changes. Instead of contributing to the stream of negative attention he receives all day—which will only make him more determined to write your ticket—you can actually disarm him. Greene describes the contrast: if you approach with "aggressive energy," the officer thinks, "I deal with that every single person. I'm going to write your ticket just to spite you, you ahole." But if you approach with genuine empathy—acknowledging that this must be a terrible job, expressing real sympathy—you create an opening for a different outcome.
+
+This demonstrates the practical power of what Greene calls "getting into the story of other people." It's not about manipulation or fake concern; it's about genuinely understanding what's happening with the other person so that you can respond effectively. If you need to seduce someone, if you need to get a parking ticket dismissed, if you need to convince someone to fund your project—you can only do this effectively when you understand who they actually are and what they actually want.
+
+### The Parallel to FBI Negotiation Techniques
+
+The conversation draws a direct connection between Greene's framework and the techniques taught by Chris Voss, a former FBI hostage negotiator and author of *Never Split the Difference*. Sean Everett, who has read Voss's book, identifies the striking similarity: Voss's core teaching is to not simply react to what you hear, but to put yourself in the other person's shoes and actually verbalize and label how they feel.
+
+This "labeling" technique—stating out loud what you perceive the other person is feeling—is described as an "immediate disarming thing" that helps you get what you want. It's a practical application of the same principle Greene emphasizes: understanding the other person's internal world and acknowledging it explicitly rather than remaining wrapped up in your own perspective.
+
+The convergence between Greene's historical/philosophical approach and Voss's real-world law enforcement experience suggests that this skill of perspective-taking isn't just theoretical—it's been proven effective in some of the highest-stakes interpersonal situations imaginable.
+
+### Reframing Seduction: It's Not Just About Romance
+
+The conversation then shifts to Greene's book *The Art of Seduction*, which Sean Everett describes as having wish he had read it when he was younger. The hosts reference Neil Strauss's book *The Game*, which they describe as a "poppy" introduction to pickup artistry that was hugely influential for 14-year-old boys desperate to meet girls.
+
+Greene clarifies the distinction: *The Art of Seduction* is fundamentally different from books about pickup techniques. It's a book about making people fall in love with you—not just romantically, but in a broader sense. It's about making people interested in you. It's about making people want to fund your project, hire you, believe in your vision, or follow your lead.
+
+This reframing is crucial to understanding Greene's work. Seduction, in his framework, isn't a narrow technique for sexual conquest—it's a fundamental human skill that you exercise every single day. "You're always constantly having to make people like you in some way or other," Greene observes. Whether you're trying to get a client to sign a contract, convince a team to follow your direction, or maintain a romantic relationship, you're engaged in seduction.
+
+This perspective transforms the entire conversation around his seduction book from something that might seem trivial or manipulative into a serious study of what draws people to others and what repels them—the ultimate psychology of human connection and influence.
+
+### Greene's Personal Origin Story
+
+Greene shares that his own interest in seduction began in the 1980s when, at age 22, he was working at a hotel in Paris. The hotel hosted models during fashion weeks, meaning some of the most beautiful women in the world were staying there. A tall, good-looking Brazilian man who frequented the hotel was extraordinarily successful with these women—going on dates with one after another while Greene, despite being in the same environment, couldn't get anywhere.
+
+This experience sparked Greene's fascination with the mechanics of seduction. What made this man so effective when others weren't? What was he doing differently? This curiosity eventually led to Greene's deep study of the topic, resulting in *The Art of Seduction*.
+
+This personal anecdote illustrates something important about Greene's approach: he doesn't just study these topics academically—he's motivated by real-world experiences of failure and confusion, by wanting to understand why certain people succeed where others don't. His books emerge from genuine questions about human behavior, not abstract intellectual exercise.
+
+## Detailed Takeaways
+
+### Takeaway 1: Self-Absorption Is Your Primary Obstacle
+
+The single greatest barrier to applying any of Greene's ideas—or to succeeding in any interpersonal situation—is self-absorption. Most people walk through life caught in their own mental noise: their problems, their emotions, their planned responses. They are not truly present in their interactions with others.
+
+This isn't a moral failing—it's simply the default human state. But recognizing it as the problem opens the door to change. The first step isn't learning a new tactic or strategy; it's developing the habit of redirecting your attention outward, toward genuine curiosity about the people you're interacting with. This shift is both simple and profound—you don't need to learn anything new, you just need to change where you point your existing mental capacity.
+
+### Takeaway 2: Practice Observation in Mundane Situations
+
+You don't need a high-stakes scenario to develop the skill of observation—you can practice it everywhere, all the time. The Starbucks example Greene provides is deliberately mundane. You're not trying to extract anything from the barista; you're simply training yourself to see people as full human beings with their own inner lives, rather than as functionaries there to serve you.
+
+This practice compounds. The more you do it, the better you get at it, and the more you'll notice in all situations. Eventually, you won't have to consciously decide to observe— it'll become your natural mode of engaging with the world. But this happens only through deliberate, consistent practice in low-pressure situations.
+
+### Takeaway 3: Understanding People Gives You Power
+
+The practical payoff for becoming a superior observer is the ability to navigate interpersonal situations more effectively. When you understand what others want, what they're feeling, what their vulnerabilities and desires are, you can respond in ways that actually work—rather than reacting in ways that escalate problems or close off opportunities.
+
+The parking ticket example demonstrates this clearly. Most people's instinct when receiving a ticket is anger and confrontation—which almost never improves the outcome. But someone who understands that this officer receives hostility all day and might actually welcome a moment of genuine human connection can use that insight to change the interaction's trajectory. This isn't manipulation; it's intelligent response based on genuine understanding.
+
+### Takeaway 4: Seduction Is a Daily Skill, Not a Specialized Technique
+
+Reframing seduction as a general competency rather than a narrow technique changes how you approach all your relationships. Every interaction involves some degree of making people interested in you, inclined to trust you, or motivated to help you. The principles in *The Art of Seduction*—understanding what draws people to others, what creates attraction, what builds rapport—apply in boardrooms, networking events, romantic relationships, and family gatherings alike.
+
+This means there's no separating "seduction" from "real life"—it's woven into everything. The choice isn't whether to engage with these dynamics, but whether to do so consciously and skillfully or by accident and default.
+
+### Takeaway 5: Emotional Control Starts With Perspective-Shifting
+
+Sam Parr notes that before you can effectively observe others and respond intelligently, you need to control your own emotions—and he admits he fails at this "all the time." Greene's response doesn't contradict this but reframes it: the path to emotional control isn't suppressing your feelings but rather shifting your attention outward.
+
+When you're angry about a parking ticket and immediately start thinking about how to express that anger, you're trapped in your own reaction. But when you shift to genuine curiosity about the person who's annoyed you—what their life is like, what they're going through—you break the cycle of reactivity. This is what Greene means by "don't react, reflect." It's not about bottling up emotions but about creating a gap between stimulus and response that allows for intelligent action.
+
+## Who This Is For
+
+This conversation will be most valuable for readers who have read Robert Greene's books—particularly *The 48 Laws of Power* or *The Art of Seduction*—and found themselves stuck at the level of intellectual understanding. If you've highlighted passages and nodded along but struggled to translate the ideas into changed behavior, this discussion directly addresses that gap.
+
+It's also valuable for anyone interested in the practical mechanics of influence, persuasion, and human interaction. While Greene's books draw on history and philosophy, this conversation strips away the academic distance to focus on what you can actually do starting today—from your next trip to a coffee shop to your next conflict at work.
+
+The audience likely includes entrepreneurs, executives, salespeople, and anyone whose success depends on their ability to navigate interpersonal dynamics effectively. But Greene's framework applies more broadly than that—to anyone who wants to understand people better, control their own emotional reactions, and become more effective at getting what they want through genuine understanding rather than manipulation.
+
+Finally, this conversation will appeal to those who appreciate intellectual honesty about the nature of influence. Rather than pretending that pure benevolence is all you need to succeed, Greene acknowledges that understanding human psychology—including the aspects that might feel uncomfortable—is essential for anyone serious about achieving their goals. The skill he teaches isn't about becoming a schemer; it's about becoming more fully human, more present, more capable of seeing and understanding the people around you.

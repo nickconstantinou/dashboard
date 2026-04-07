@@ -1,5 +1,115 @@
 var posts = [
   {
+    "date": "April 07, 2026",
+    "title": "FPL Gameweek 32 Wildcard: 3 drafts to consider",
+    "url": "2026-04-07-fpl-gameweek-32-wildcard-3-drafts-to-consider.html",
+    "category": "FPL",
+    "excerpt": "The article confirms a follow-up piece comparing Gameweek 32 versus Gameweek 35 Wildcard timing, plus dedicated content for managers who have already used their Wildcard.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL notes: Will Stach + Rodon make Double Gameweek 33?",
+    "url": "2026-04-07-fpl-notes-will-stach-rodon-make-double-gameweek-33.html",
+    "category": "FPL",
+    "excerpt": "Also absent from the match was Gabriel Gudmundsson (\u00a33.8m) due to a minor groin issue.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "Robert Greene Shares How to Apply His Books | My First Million",
+    "url": "2026-04-07-robert-greene-shares-how-to-apply-his-books-my-fir.html",
+    "category": "Blog",
+    "excerpt": "2026-04-07 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "Who are the teams with a Double Gameweek 33 + Blank Gameweek 34?",
+    "url": "2026-04-07-who-are-the-teams-with-a-double-gameweek-33-blank-.html",
+    "category": "Blog",
+    "excerpt": "FPL managers should now be finalising their strategies for these consecutive gameweeks. Key decisions include:",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-07",
+    "url": "2026-04-07-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-07 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL notes: Why Isak didn\u2019t play + Haaland back in the groove",
+    "url": "2026-04-07-fpl-notes-why-isak-didnt-play-haaland-back-in-the-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "Robert Greene Teaches the Laws of Power & Art of Seduction",
+    "url": "2026-04-07-robert-greene-teaches-the-laws-of-power-art-of-sed.html",
+    "category": "Blog",
+    "excerpt": "2026-04-07 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL PLAYERS TO BUY | GW32 \u2705",
+    "url": "2026-04-07-fpl-players-to-buy-gw32-.html",
+    "category": "FPL",
+    "excerpt": "The recommended keeper combination for wildcard managers involves starting with either Buneman or Ryan, then using Darlow as the bench option to enable bench boost activation in Gameweek 33.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL GW32 WILDCARD DRAFT! \ud83d\udcdd Wildcard Template!\ud83c\udccf\ud83c\udf5f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-07-fpl-gw32-wildcard-draft-wildcard-template-fantasy-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "Elizabeth Banks Returns",
+    "url": "2026-04-07-elizabeth-banks-returns.html",
+    "category": "Blog",
+    "excerpt": "2026-04-07 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 07, 2026",
+    "title": "FPL team news: Gabriel, Saka, Rice + Timber injury latest",
+    "url": "2026-04-07-fpl-team-news-gabriel-saka-rice-timber-injury-late.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "April 06, 2026",
     "title": "Leeds + Bournemouth to have Double Gameweek 33 + Blank Gameweek 34",
     "url": "2026-04-06-leeds-bournemouth-to-have-double-gameweek-33-blank.html",
