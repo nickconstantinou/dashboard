@@ -1,5 +1,135 @@
 var posts = [
   {
+    "date": "April 08, 2026",
+    "title": "We asked a $15B Investor how to survive the AI bubble",
+    "url": "2026-04-08-we-asked-a-15b-investor-how-to-survive-the-ai-bubb.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-08 \u2022 Tech/Business",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "Play Those Chips | #FPL GW32",
+    "url": "2026-04-08-play-those-chips-fpl-gw32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "Gameweek 32 v 35 Wildcard: The pros + cons",
+    "url": "2026-04-08-gameweek-32-v-35-wildcard-the-pros-cons.html",
+    "category": "Blog",
+    "excerpt": "Key players mentioned for the Gameweek 32 Wildcard approach:",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "MY FPL GW32 TRANSFER TARGETS! \u267b\ufe0f Every Chip Strategy Discussed | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-08-my-fpl-gw32-transfer-targets-every-chip-strategy-d.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "Chips & Strategy: End Game | Planet FPL S. 9 Ep. 47 | Fantasy Premier League",
+    "url": "2026-04-08-chips-strategy-end-game-planet-fpl-s-9-ep-47-fanta.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "FPL team news: Gabriel, Saka, Rice + Timber injury latest",
+    "url": "2026-04-08-fpl-team-news-gabriel-saka-rice-timber-injury-late.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "WILDCARD 32 VS WILDCARD 35 \ud83d\udcc6 MY FPL GW32 TRANSFER PLANS! \ud83d\udcdd | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-08-wildcard-32-vs-wildcard-35-my-fpl-gw32-transfer-pl.html",
+    "category": "FPL",
+    "excerpt": "This flexibility is precisely why carrying transfers forward can be valuable\u2014it allows managers to be more aggressive when opportunities arise rather than forcing changes early.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "FPL team news: Isak fit to play \u2013 but not start",
+    "url": "2026-04-08-fpl-team-news-isak-fit-to-play-but-not-start.html",
+    "category": "FPL",
+    "excerpt": "The news represents a significant boost for Liverpool's attacking options, though the Dutch manager is managing expectations carefully given the striker's recent return from injury.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "MY FPL GW32 TRANSFER PLANS! \ud83d\udcdd WILDCARD 32 VS WILDCARD 35 \ud83d\udcc6 | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-08-my-fpl-gw32-transfer-plans-wildcard-32-vs-wildcard.html",
+    "category": "FPL",
+    "excerpt": "Regardless of which wildcard strategy you choose, Harry outlines the specific transfers he's considering for gameweek 32 given his current constraints.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "Best fixtures from FPL Gameweek 32 \u2013 whatever your strategy",
+    "url": "2026-04-08-best-fixtures-from-fpl-gameweek-32-whatever-your-s.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "FPL Double Gameweek 33 fixtures officially confirmed",
+    "url": "2026-04-08-fpl-double-gameweek-33-fixtures-officially-confirm.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "How to Stop Being the Bottleneck in Your Business | Ryan Deiss",
+    "url": "2026-04-08-how-to-stop-being-the-bottleneck-in-your-business-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-08 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 08, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-08",
+    "url": "2026-04-08-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-08 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "April 07, 2026",
     "title": "FPL Gameweek 32 Wildcard: 3 drafts to consider",
     "url": "2026-04-07-fpl-gameweek-32-wildcard-3-drafts-to-consider.html",
