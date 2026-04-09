@@ -1,5 +1,115 @@
 var posts = [
   {
+    "date": "April 09, 2026",
+    "title": "BEST PLAYERS TO TARGET! \u267b\ufe0f FPL GW32 TRANSFER TARGETS! \u267b\ufe0f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-09-best-players-to-target-fpl-gw32-transfer-targets-f.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "No FPL chips left? The best players + teams to target",
+    "url": "2026-04-09-no-fpl-chips-left-the-best-players-teams-to-target.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "FPL Gameweek 32 team news: Wednesday\u2019s injury updates",
+    "url": "2026-04-09-fpl-gameweek-32-team-news-wednesdays-injury-update.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "FPL notes: Gabriel + Rice fit, Raya superb, still no Saka or Timber",
+    "url": "2026-04-09-fpl-notes-gabriel-rice-fit-raya-superb-still-no-sa.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "That Show With Nico ep. 7 | Planet FPL 2025/26",
+    "url": "2026-04-09-that-show-with-nico-ep-7-planet-fpl-202526.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "FPL GW32 RANK 1 TEAM SELECTION \ud83c\udf0d 1ST IN THE WORLD \ud83c\udfc6",
+    "url": "2026-04-09-fpl-gw32-rank-1-team-selection-1st-in-the-world-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "MY FPL GW32 TEAM SELECTION \u2705 MY CHIP STRATEGY \ud83c\udfaf",
+    "url": "2026-04-09-my-fpl-gw32-team-selection-my-chip-strategy-.html",
+    "category": "FPL",
+    "excerpt": "Thiago, meanwhile, continues his remarkable season: \"One shot of a 20-goal campaign in the league. Crazy output having started the season at 6 million as well.\" He's playing at home to Everton.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "Best chip strategy? Which Man City picks? FPL Gameweek 32 Q&A",
+    "url": "2026-04-09-best-chip-strategy-which-man-city-picks-fpl-gamewe.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "Tom Hadley\u2019s Gameweek 32 Wildcard team reveal + chip strategy",
+    "url": "2026-04-09-tom-hadleys-gameweek-32-wildcard-team-reveal-chip-.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "These Hiring Mistakes Will Break Your Business | Ryan Deiss",
+    "url": "2026-04-09-these-hiring-mistakes-will-break-your-business-rya.html",
+    "category": "Blog",
+    "excerpt": "2026-04-09 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-09",
+    "url": "2026-04-09-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-09 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "April 08, 2026",
     "title": "We asked a $15B Investor how to survive the AI bubble",
     "url": "2026-04-08-we-asked-a-15b-investor-how-to-survive-the-ai-bubb.html",
