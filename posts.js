@@ -191,6 +191,16 @@ var posts = [
   },
   {
     "date": "April 09, 2026",
+    "title": "Avoid These Common Scaling Mistakes & Make Millions | Ryan Deiss",
+    "url": "2026-04-09-avoid-these-common-scaling-mistakes-make-millions-.html",
+    "category": "Blog",
+    "excerpt": "April 09, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
     "title": "MY FPL GW32 TEAM SELECTION \u2705 MY CHIP STRATEGY \ud83c\udfaf",
     "url": "2026-04-09-my-fpl-gw32-team-selection-my-chip-strategy-.html",
     "category": "FPL",
@@ -217,6 +227,16 @@ var posts = [
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Blog"
+    ]
+  },
+  {
+    "date": "April 09, 2026",
+    "title": "How I'm building my FPL Wildcard for Bench Boost 33",
+    "url": "2026-04-09-how-im-building-my-fpl-wildcard-for-bench-boost-33.html",
+    "category": "FPL",
+    "excerpt": "April 09, 2026 \u2022 Blog",
+    "tags": [
+      "FPL"
     ]
   },
   {
@@ -921,6 +941,16 @@ var posts = [
   },
   {
     "date": "April 03, 2026",
+    "title": "Bluey Phone Review",
+    "url": "2026-04-03-bluey-phone-review.html",
+    "category": "Blog",
+    "excerpt": "April 03, 2026 \u2022 Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 03, 2026",
     "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
     "url": "2026-04-03-fpl-gw31-experts-team-620x-top-10k-finishes-.html",
     "category": "FPL",
@@ -1077,6 +1107,16 @@ var posts = [
     "excerpt": "2026-04-02 \u2022 FPL Roundups",
     "tags": [
       "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "FBI Negotiator: Avoid the Most Common Negotiation Mistakes | Christopher Voss",
+    "url": "2026-04-02-fbi-negotiator-avoid-the-most-common-negotiation-m.html",
+    "category": "Blog",
+    "excerpt": "April 02, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -1251,6 +1291,26 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
+    "title": "FBI Negotiator: The 5 Steps to Becoming a Better Listener | Christopher Voss",
+    "url": "2026-04-02-fbi-negotiator-the-5-steps-to-becoming-a-better-li.html",
+    "category": "Blog",
+    "excerpt": "April 02, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "url": "2026-04-02-i-built-a-vibe-translator-one-idea-4-frontend-stac.html",
+    "category": "AI/Tech",
+    "excerpt": "April 02, 2026 \u2022 Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 02, 2026",
     "title": "Anderson v Gibbs-White: Who is the best Forest midfielder in FPL?",
     "url": "2026-04-02-anderson-v-gibbs-white-who-is-the-best-forest-midf.html",
     "category": "Blog",
@@ -1327,6 +1387,26 @@ var posts = [
     "excerpt": "2026-04-01 \u2022 FPL Roundups",
     "tags": [
       "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "FBI Negotiator: The 5 Steps to Becoming a Better Listener | Christopher Voss",
+    "url": "2026-04-01-fbi-negotiator-the-5-steps-to-becoming-a-better-li.html",
+    "category": "Blog",
+    "excerpt": "April 01, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 01, 2026",
+    "title": "Test",
+    "url": "2026-04-01-test.html",
+    "category": "Blog",
+    "excerpt": "Test",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -1505,6 +1585,16 @@ var posts = [
     "url": "2026-03-30-tudor-leaves-as-spurs-hunt-for-next-new-manager.html",
     "category": "Blog",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "March 30, 2026",
+    "title": "Why Your Greatest Strengths Create Your Weaknesses | Tim Ferriss",
+    "url": "2026-03-30-why-your-greatest-strengths-create-your-weaknesses.html",
+    "category": "Blog",
+    "excerpt": "March 30, 2026 \u2022 Tech/Business",
     "tags": [
       "Blog"
     ]
@@ -4691,6 +4781,16 @@ var posts = [
   },
   {
     "date": "February 25, 2026",
+    "title": "Test Video",
+    "url": "2026-02-25-test-video.html",
+    "category": "Blog",
+    "excerpt": "February 25, 2026 \u2022 AI",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "February 25, 2026",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "url": "2026-02-25-i-built-a-vibe-translator-one-idea-4-frontend-stac.html",
     "category": "AI/Tech",
@@ -5217,6 +5317,16 @@ var posts = [
     "excerpt": "Which directory niches have active affiliate networks and real monetisation opportunity?",
     "tags": [
       "Blog"
+    ]
+  },
+  {
+    "date": "February 18, 2026",
+    "title": "AI in 2026: The Year It Becomes Your Actual Colleague",
+    "url": "2026-02-18-ai-trends-2026.html",
+    "category": "AI/Tech",
+    "excerpt": "February 18, 2026 \u2022 Blog",
+    "tags": [
+      "AI/Tech"
     ]
   },
   {

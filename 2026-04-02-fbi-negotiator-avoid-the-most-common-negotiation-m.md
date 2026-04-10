@@ -1,5 +1,5 @@
 ---
-title: "FBI Negotiator: "Avoid the Most Common Negotiation Mistakes" | Christopher Voss"
+title: "FBI Negotiator: Avoid the Most Common Negotiation Mistakes | Christopher Voss"
 date: 2026-04-02
 type: youtube
 category: "Tech/Business"
