@@ -61,6 +61,16 @@ var posts = [
   },
   {
     "date": "April 10, 2026",
+    "title": "Ex-Tesla President: The Unconventional Ideas Behind Tesla's Hypergrowth",
+    "url": "2026-04-10-ex-tesla-president-the-unconventional-ideas-behind.html",
+    "category": "Blog",
+    "excerpt": "2026-04-10 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
     "title": "MY FPL 32 TEAM SELECTION! \ud83d\udcf1 Could I Change Strategy... \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-10-my-fpl-32-team-selection-could-i-change-strategy-f.html",
     "category": "FPL",
