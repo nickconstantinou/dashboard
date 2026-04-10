@@ -1,5 +1,125 @@
 var posts = [
   {
+    "date": "April 10, 2026",
+    "title": "FPL GW32 EXPERTS TEAM \u2705 WILDCARD SPECIAL \ud83d\udca5",
+    "url": "2026-04-10-fpl-gw32-experts-team-wildcard-special-.html",
+    "category": "FPL",
+    "excerpt": "The video provided detailed statistics on how top managers are using their chips this week, revealing fascinating patterns:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "FPL Gameweek 32 team news: Thursday\u2019s live injury updates",
+    "url": "2026-04-10-fpl-gameweek-32-team-news-thursdays-live-injury-up.html",
+    "category": "FPL",
+    "excerpt": "The remaining 15 Premier League managers are expected to provide their updates on Friday, completing the picture of available players for Gameweek 32.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "FPL notes: Isak fit, why Salah was a sub + is Ekitike at risk?",
+    "url": "2026-04-10-fpl-notes-isak-fit-why-salah-was-a-sub-is-ekitike-.html",
+    "category": "FPL",
+    "excerpt": "For FPL managers, key decisions include:",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26",
+    "url": "2026-04-10-burnley-v-brighton-cotc-with-jack-toner-sam-murray.html",
+    "category": "Blog",
+    "excerpt": "The comparison leads naturally to questions about Parker's future and what Burnley fans want from their next manager.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "Legendary Investor - How To Escape a Career You Hate | Bill Gurley",
+    "url": "2026-04-10-legendary-investor-how-to-escape-a-career-you-hate.html",
+    "category": "Blog",
+    "excerpt": "2026-04-10 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "Stach, Rodon, Gudmundsson + Bijol injury updates for Gameweek 32",
+    "url": "2026-04-10-stach-rodon-gudmundsson-bijol-injury-updates-for-g.html",
+    "category": "Blog",
+    "excerpt": "Daniel James has also been ruled out with an adductor strain sustained in the training session before the cup game.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "MY FPL 32 TEAM SELECTION! \ud83d\udcf1 Could I Change Strategy... \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-10-my-fpl-32-team-selection-could-i-change-strategy-f.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "The Scout Squad: Our top picks for FPL Gameweek 32",
+    "url": "2026-04-10-the-scout-squad-our-top-picks-for-fpl-gameweek-32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "If You Have Career Regrets... Watch This | Bill Gurley",
+    "url": "2026-04-10-if-you-have-career-regrets-watch-this-bill-gurley.html",
+    "category": "Blog",
+    "excerpt": "2026-04-10 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "The ultimate FPL chip strategy guide \u2013 for all 16 scenarios!",
+    "url": "2026-04-10-the-ultimate-fpl-chip-strategy-guide-for-all-16-sc.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "The Freedom Reader",
+    "url": "2026-04-10-the-freedom-reader.html",
+    "category": "Blog",
+    "excerpt": "2026-04-10 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-10",
+    "url": "2026-04-10-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-10 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "April 09, 2026",
     "title": "BEST PLAYERS TO TARGET! \u267b\ufe0f FPL GW32 TRANSFER TARGETS! \u267b\ufe0f | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-09-best-players-to-target-fpl-gw32-transfer-targets-f.html",
