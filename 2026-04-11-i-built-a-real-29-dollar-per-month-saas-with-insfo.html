@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I built a real 29 dollar per month SAAS with Insforge | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-04-11 • Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/gxYcGipGCYA" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Building a Real $29/month SAAS with Insforge: A Live Coding Experiment</h1>
+
+<h2>Introduction</h2>
+
+<p>The software-as-a-service landscape has become increasingly volatile, with major AI platforms experiencing frequent outages that leave users frustrated and without clear answers. In this video, a developer documents their attempt to build a functional down detector SAAS from scratch using Insforge—an open-source backend platform—and Cursor, an AI-powered code editor, without writing a single line of code manually. The entire process unfolds in real-time, presenting a compelling case study in how modern AI tools are transforming the traditional软件开发工作流程.</p>
+
+<p>The core problem driving this project is straightforward yet significant: services like Gemini, Claude, Superbase, Twitter, and GitHub have all experienced downtime, yet their official status pages often fail to provide accurate, timely information. The developer recognized an opportunity to create a third-party monitoring service—one that gives users independent verification of whether their critical tools are functioning or experiencing issues. This isn't just a theoretical exercise; downtime monitoring represents a proven SAAS category with demonstrated market demand, as evidenced by Accenture's acquisition of Okla, which owns both Down Detector and Speed Test.</p>
+
+<h2>The Problem: unreliable Status Pages and Growing Service Instability</h2>
+
+<p>The video opens by acknowledging a reality that many developers and businesses have reluctantly accepted: modern cloud services go down, and they go down often. The speaker points to recent incidents involving Gemini, Claude, Superbase, and even foundational platforms like Twitter and GitHub, noting that their status pages frequently fail to provide meaningful updates during outages. There's a noticeable frustration in the description—users are left posting frantically on Twitter, trying to determine whether a service failure is on their end or the provider's end, with no reliable way to verify the status quickly.</p>
+
+<p>This creates a genuine market need. When developers lose access to AI coding assistants or backend services during critical work, the minutes spent troubleshooting cost real productivity. The ideal solution would be a service that independently monitors these endpoints and provides clear, real-time status information—not filtered through the company's own PR and communications teams, but objectively tracking uptime and downtime from external servers. The speaker articulates this as a fundamental shift: instead of companies monitoring their own downtime and then remembering to update status pages, what if independent third parties handled this verification?</p>
+
+<h2>The Market Opportunity: Downtime Monitoring as SAAS</h2>
+
+<p>The video makes a compelling case that downtime monitoring represents a legitimate, proven SAAS category. The speaker references Accenture's acquisition of Okla, which owns Down Detector and Speed Test—both services that have operated reliably for years and clearly demonstrate market value. This isn't a novelty idea; it's a category with established revenue models and clear use cases.</p>
+
+<p>Existing solutions like Uptime Robot offer monitoring services, but the pricing structure—$7 per month for solopreneurs with 10 monitors and 60-second intervals—represents a significant barrier for casual users or small teams just wanting to check if their critical tools are operational. The gap in the market is clear: a simpler, more affordable alternative that specifically targets individual developers and small teams who need basic endpoint monitoring without enterprise-level pricing or complexity.</p>
+
+<h2>The Technical Approach: Insforge and Cursor</h2>
+
+<p>The centerpiece of this project is Insforge, described as "the backend built for agentic development AI native" and positioned as a Supabase alternative. The platform has gained significant traction, accumulating 1.9K stars on its repository, and makes a bold claim of being "AI native"—designed from the ground up to work seamlessly with AI agents and automated development workflows.</p>
+
+<p>The key advantage the speaker highlights is deployment flexibility: everything can be deployed with Docker in one click, giving users complete control over their infrastructure. This self-hosted approach appeals to developers who want ownership of their data and services without depending entirely on third-party APIs.</p>
+
+<p>For the actual building process, the developer uses Cursor, an AI-powered code editor that integrates with Insforge through MCP (Model Context Protocol) tools. The setup is notably hands-off—Cursor installs MCP, configures API keys and base URLs automatically, and loads 17 tools including fetch docs, SDK documentation, templates, metadata, and function management. The developer explicitly states they don't want to write any code; they want to see if AI can genuinely build an entire functional application.</p>
+
+<h2>The Project Setup: Building Down Detector</h2>
+
+<p>The practical demonstration begins with creating a new Insforge project called "downdetector"—a straightforward name that clearly communicates the service's purpose. The developer selects the nearest region for deployment and chooses the free tier ($0 per month), which includes $1 in AI model credits. They note that if the SAAS proves successful, upgrading to the $25 monthly plan with $10 in model credits would be a trivial investment given the potential revenue.</p>
+
+<p>The project creation process is smooth: a few clicks set up the foundation, and then the developer opens Cursor to begin the actual building process. The critical moment comes when they grant the AI agents full autonomy to act on their behalf—a deliberate choice to test the limits of what AI-assisted development can achieve without human intervention at every step.</p>
+
+<h2>Key Features and the Build Process</h2>
+
+<p>The demonstration explores Cursor's capabilities by first examining example prompts from the platform—Reddit clones, e-commerce stores, CRM chatbots—to understand how to structure requests for AI code generation. The goal is to create a down detector service that can track the downtime status of any endpoint, using Insforge as the backend.</p>
+
+<p>The feature list the developer intends to implement begins with authentication (login functionality), but the transcript cuts off before fully outlining the complete specification. The underlying ambition is clear: build a service where users can register endpoints they want to monitor, receive alerts when those endpoints go down, and access historical uptime data—all while maintaining independence from the services being monitored.</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>First, AI-assisted development has reached a practical tipping point.</strong> The video demonstrates that it's now possible to build functional applications without manual coding, using tools like Cursor and Insforge. For developers hesitant to write code or those looking to move quickly on ideas, this represents a paradigm shift in how SAAS products can be conceived and launched.</p>
+
+<p><strong>Second, the market gap for simple monitoring tools remains unfilled.</strong> While enterprise solutions exist, the $7+ monthly pricing for even basic monitoring creates a barrier. A focused, affordable alternative targeted specifically at developers rather than enterprises could capture significant market share among the millions of individual developers and small teams.</p>
+
+<p><strong>Third, self-hosted options retain strong appeal.</strong> The emphasis on Docker deployment and maintaining complete control resonates with many developers who have grown wary of depending entirely on managed platforms. Insforge's approach of combining open-source flexibility with AI-native features positions it uniquely in this space.</p>
+
+<p><strong>Fourth, the "build in public" approach creates inherent value.</strong> By documenting the entire process live, the developer creates educational content, generates audience engagement, and builds credibility—all while simultaneously developing the product itself. This metaapproach to building SAAS products has become a recognized strategy in the developer community.</p>
+
+<p><strong>Fifth, the free-to-paid upgrade path matters critically for SAAS viability.</strong> Starting on the free tier allows validation of the concept before financial commitment. The $25 monthly Insforge plan becomes justified only if the resulting SAAS generates revenue, representing a sensible approach to product development that minimizes initial risk.</p>
+
+<h2>Who This Is For</h2>
+
+<p>This video primarily appeals to developers interested in building their own SAAS products, particularly those curious about AI-assisted development workflows. Whether you're a non-programmer looking to bring an idea to life without hiring developers, or an experienced engineer exploring new tools and workflows, the demonstration provides practical insights into what's possible with current AI tooling.</p>
+
+<p>The content also matters for entrepreneurs evaluating market opportunities in the developer tools space. The downtime monitoring category specifically represents an area with clear demand, proven competitors, and room for new entrants who can differentiate through pricing, features, or target audience. Finally, anyone interested in the broader trend of AI-native infrastructure platforms will find Insforge an interesting case study in how backend services are evolving to support automated development workflows.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

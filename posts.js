@@ -1,5 +1,175 @@
 var posts = [
   {
+    "date": "April 11, 2026",
+    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-11-pras-gameweek-31-team-selection-fantasy-premier-le.html",
+    "category": "Blog",
+    "excerpt": "In defense for a free hit 34, Arsenal remains the highest despite the blank\u2014doubles matter, and they will have one. Newcastle, Brighton, and Aston Villa are the secondary targets.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
+    "url": "2026-04-11-the-season-so-far-fpl-international-break-with-tom.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Play Those Chips | #FPL GW32",
+    "url": "2026-04-11-play-those-chips-fpl-gw32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "The Freedom Reader",
+    "url": "2026-04-11-the-freedom-reader.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "The Weekender ep. 30 | Planet FPL 2025/26",
+    "url": "2026-04-11-the-weekender-ep-30-planet-fpl-202526.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Bluey Phone Review",
+    "url": "2026-04-11-bluey-phone-review.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Ex-Tesla President: The Unconventional Ideas Behind Tesla's Hypergrowth",
+    "url": "2026-04-11-ex-tesla-president-the-unconventional-ideas-behind.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "How to Find a Career That Feels Fun & Meaningful | Bill Gurley",
+    "url": "2026-04-11-how-to-find-a-career-that-feels-fun-meaningful-bil.html",
+    "category": "Blog",
+    "excerpt": "2026-04-11 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "So This is Peak Foldable",
+    "url": "2026-04-11-so-this-is-peak-foldable.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "The Viking Warlord who built modern Europe | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-11-the-viking-warlord-who-built-modern-europe-lars-br.html",
+    "category": "Blog",
+    "excerpt": "2026-04-11 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
+    "url": "2026-04-11-i-built-a-vibe-translator-one-idea-4-frontend-stac.html",
+    "category": "AI/Tech",
+    "excerpt": "April 11, 2026 \u2022 Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26",
+    "url": "2026-04-11-burnley-v-brighton-cotc-with-jack-toner-sam-murray.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "If You Have Career Regrets... Watch This | Bill Gurley",
+    "url": "2026-04-11-if-you-have-career-regrets-watch-this-bill-gurley.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "How Vikings discovered North America 500 years before Columbus | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-11-how-vikings-discovered-north-america-500-years-bef.html",
+    "category": "Blog",
+    "excerpt": "April 11, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "I built a real 29 dollar per month SAAS with Insforge",
+    "url": "2026-04-11-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-11-zophars-gameweek-31-team-selection-fantasy-premier.html",
+    "category": "Blog",
+    "excerpt": "Crystal Palace's narrow advancement clears up the short-term landscape for FPL managers, as their fixture cannot be rearranged into Gameweek 32 as some had feared.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-11-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "April 10, 2026",
     "title": "FPL GW32 EXPERTS TEAM \u2705 WILDCARD SPECIAL \ud83d\udca5",
     "url": "2026-04-10-fpl-gw32-experts-team-wildcard-special-.html",
@@ -95,6 +265,16 @@ var posts = [
     "url": "2026-04-10-if-you-have-career-regrets-watch-this-bill-gurley.html",
     "category": "Blog",
     "excerpt": "2026-04-10 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 10, 2026",
+    "title": "Test",
+    "url": "2026-04-10-test.html",
+    "category": "Blog",
+    "excerpt": "Test",
     "tags": [
       "Blog"
     ]
