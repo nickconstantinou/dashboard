@@ -61,6 +61,36 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
+    "title": "FPL GW32 EXPERTS TEAM \u2705 WILDCARD SPECIAL \ud83d\udca5",
+    "url": "2026-04-11-fpl-gw32-experts-team-wildcard-special-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "What is the best Free Hit team for FPL Double Gameweek 33?",
+    "url": "2026-04-11-what-is-the-best-free-hit-team-for-fpl-double-game.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "FPL GW32 RANK 1 TEAM SELECTION \ud83c\udf0d WILDCARD TEAM \ud83c\udfc6",
+    "url": "2026-04-11-fpl-gw32-rank-1-team-selection-wildcard-team-.html",
+    "category": "FPL",
+    "excerpt": "The goalkeeper selection mirrors this pragmatic approach, with fixtures generally aligning favourably despite some uncertainty around certain club performances.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
     "title": "Ex-Tesla President: The Unconventional Ideas Behind Tesla's Hypergrowth",
     "url": "2026-04-11-ex-tesla-president-the-unconventional-ideas-behind.html",
     "category": "Blog",
@@ -101,6 +131,16 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
+    "title": "West Ham v Wolves team news: Summerville starts, Mane benched",
+    "url": "2026-04-11-west-ham-v-wolves-team-news-summerville-starts-man.html",
+    "category": "Blog",
+    "excerpt": "The lineups in full:",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
     "title": "I Built a Vibe Translator One Idea 4 Frontend Stacks (AI Battle)",
     "url": "2026-04-11-i-built-a-vibe-translator-one-idea-4-frontend-stac.html",
     "category": "AI/Tech",
@@ -111,10 +151,30 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
+    "title": "MY FPL 32 TEAM SELECTION! \ud83d\udcf1 Could I Change Strategy... \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-11-my-fpl-32-team-selection-could-i-change-strategy-f.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
     "title": "Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26",
     "url": "2026-04-11-burnley-v-brighton-cotc-with-jack-toner-sam-murray.html",
     "category": "Blog",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "The Pre-Match Preamble \u2013 Gameweek 32",
+    "url": "2026-04-11-the-pre-match-preamble-gameweek-32.html",
+    "category": "Blog",
+    "excerpt": "It was, admittedly, the most fitting advice: do nothing yet. Wait. Let the break pass and see what emerges. But knowing that didn't make it any less painful to sit through.",
     "tags": [
       "Blog"
     ]
@@ -141,6 +201,16 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
+    "title": "FPL Challenge best picks + team reveal \u2013 Gameweek 32",
+    "url": "2026-04-11-fpl-challenge-best-picks-team-reveal-gameweek-32.html",
+    "category": "FPL",
+    "excerpt": "Here's how to approach Gameweek 32.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
     "title": "I built a real 29 dollar per month SAAS with Insforge",
     "url": "2026-04-11-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
     "category": "Blog",
@@ -161,12 +231,32 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-11",
+    "url": "2026-04-11-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-11 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
     "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-11-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
     "category": "Blog",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "Blog"
+    ]
+  },
+  {
+    "date": "April 11, 2026",
+    "title": "SHOULD WE WILDCARD? \ud83d\udea8 \ud83d\udcdd FPL GW32 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-11-should-we-wildcard-fpl-gw32-complete-guide-fantasy.html",
+    "category": "FPL",
+    "excerpt": "For managers who don't want to wildcard in 32 but have a strong team this week, Harry offers two alternatives.",
+    "tags": [
+      "FPL"
     ]
   },
   {
