@@ -1,10 +1,30 @@
 var posts = [
   {
     "date": "April 12, 2026",
+    "title": "Greenland in not \"Green\": The Viking origin story of the name | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-12-greenland-in-not-green-the-viking-origin-story-of-.html",
+    "category": "Blog",
+    "excerpt": "2026-04-12 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
     "title": "FPL Gameweek 32: Saturday\u2019s goals, assists, bonus + DefCon",
     "url": "2026-04-12-fpl-gameweek-32-saturdays-goals-assists-bonus-defc.html",
     "category": "FPL",
-    "excerpt": "*Neale is the Editor of Fantasy Football Scout. Follow for more FPL analysis ahead of Gameweek 33.*",
+    "excerpt": "This result also has ripple effects for captains. Liverpool's comfortable win makes their assets more attractive again, while Brighton beneficiaries get a boost from their away victory.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "FPL notes: Alisson injury latest, Ekitike unused, Salah + Rio bright",
+    "url": "2026-04-12-fpl-notes-alisson-injury-latest-ekitike-unused-sal.html",
+    "category": "FPL",
+    "excerpt": "The question worth asking after Liverpool's Saturday showing isn't about the result\u2014it's about what Arne Slot might finally have unlocked.",
     "tags": [
       "FPL"
     ]
@@ -17,6 +37,16 @@ var posts = [
     "excerpt": "2026-04-12 \u2022 FPL Roundups",
     "tags": [
       "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "FPL notes: Arsenal injuries, Iraola on Kroupi + Hill superb again",
+    "url": "2026-04-12-fpl-notes-arsenal-injuries-iraola-on-kroupi-hill-s.html",
+    "category": "FPL",
+    "excerpt": "The injuries tell the story.",
+    "tags": [
+      "FPL"
     ]
   },
   {
@@ -34,7 +64,7 @@ var posts = [
     "title": "Liverpool v Fulham team news: Ekitike benched, Salah starts",
     "url": "2026-04-12-liverpool-v-fulham-team-news-ekitike-benched-salah.html",
     "category": "Blog",
-    "excerpt": "Gravenberch had started every Premier League match since his benching last May. Saturday marks the end of that run.",
+    "excerpt": "Ryan Gravenberch has been dropped to the Liverpool bench for Saturday evening's Premier League meeting with Fulham \u2014 the Dutchman's first start omission in the league since May 2024.",
     "tags": [
       "Blog"
     ]
