@@ -1,5 +1,75 @@
 var posts = [
   {
+    "date": "April 12, 2026",
+    "title": "FPL Gameweek 32: Saturday\u2019s goals, assists, bonus + DefCon",
+    "url": "2026-04-12-fpl-gameweek-32-saturdays-goals-assists-bonus-defc.html",
+    "category": "FPL",
+    "excerpt": "*Neale is the Editor of Fantasy Football Scout. Follow for more FPL analysis ahead of Gameweek 33.*",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-12",
+    "url": "2026-04-12-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-12 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "Brutal revenge by Viking army: The Blood Eagle | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-12-brutal-revenge-by-viking-army-the-blood-eagle-lars.html",
+    "category": "Blog",
+    "excerpt": "April 12, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "Liverpool v Fulham team news: Ekitike benched, Salah starts",
+    "url": "2026-04-12-liverpool-v-fulham-team-news-ekitike-benched-salah.html",
+    "category": "Blog",
+    "excerpt": "Gravenberch had started every Premier League match since his benching last May. Saturday marks the end of that run.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "The Truth About Learning to Lead as a Founder | Bill Gurley",
+    "url": "2026-04-12-the-truth-about-learning-to-lead-as-a-founder-bill.html",
+    "category": "Blog",
+    "excerpt": "2026-04-12 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "FPL Gameweek 32 team news: Saturday\u2019s injury updates",
+    "url": "2026-04-12-fpl-gameweek-32-team-news-saturdays-injury-updates.html",
+    "category": "FPL",
+    "excerpt": "Manchester United's trip to Dublin this week brought some bodies to the Irish capital\u2014but the questions around Old Trafford's backline remain largely unanswered.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 12, 2026",
+    "title": "How Vikings discovered Greenland | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-12-how-vikings-discovered-greenland-lars-brownworth-a.html",
+    "category": "Blog",
+    "excerpt": "April 12, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "April 11, 2026",
     "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-11-pras-gameweek-31-team-selection-fantasy-premier-le.html",
