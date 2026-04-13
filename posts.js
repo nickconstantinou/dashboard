@@ -1,5 +1,85 @@
 var posts = [
   {
+    "date": "April 13, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-13",
+    "url": "2026-04-13-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-13 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "The secret weapon of the Vikings | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-13-the-secret-weapon-of-the-vikings-lars-brownworth-a.html",
+    "category": "Blog",
+    "excerpt": "April 13, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "The Truth About Selling Your Startup | My First Million",
+    "url": "2026-04-13-the-truth-about-selling-your-startup-my-first-mill.html",
+    "category": "Blog",
+    "excerpt": "2026-04-13 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "FPL Gameweek 32: Sunday\u2019s goals, assists, bonus + DefCon",
+    "url": "2026-04-13-fpl-gameweek-32-sundays-goals-assists-bonus-defcon.html",
+    "category": "FPL",
+    "excerpt": "Sunday's Gameweek 32 action delivered some dramatic scorelines that will reshape the FPL landscape heading into a crucial double gameweek.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "Lessons from the Vikings and the Roman Empire - Historian explains | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-13-lessons-from-the-vikings-and-the-roman-empire-hist.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-13 \u2022 AI/Tech",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "2pm team news: Sarr, Burn + Konsa benched, Thiaw starts",
+    "url": "2026-04-13-2pm-team-news-sarr-burn-konsa-benched-thiaw-starts.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "FPL notes: Williams told to \u201cshoot more\u201d + Martinez injury latest",
+    "url": "2026-04-13-fpl-notes-williams-told-to-shoot-more-martinez-inj.html",
+    "category": "FPL",
+    "excerpt": "\"The manager has been telling me to shoot outside the box more and that's what I did today,\" Williams said afterward. \"I took a few and one went in, so I'm pleased with that.\"",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "FPL notes: O\u2019Reilly injury, Cherki praise + Enzo ban latest",
+    "url": "2026-04-13-fpl-notes-oreilly-injury-cherki-praise-enzo-ban-la.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "April 12, 2026",
     "title": "Greenland in not \"Green\": The Viking origin story of the name | Lars Brownworth and Lex Fridman",
     "url": "2026-04-12-greenland-in-not-green-the-viking-origin-story-of-.html",
