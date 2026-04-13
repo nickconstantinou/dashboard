@@ -7,20 +7,42 @@ source_url: "https://www.fantasyfootballscout.co.uk/2026/04/12/2pm-team-news-sar
 category: "FPL"
 ---
 
-# De Zerbi Era Begins as Tottenham Rotate Heavily for Sunderland Trip
+# De Zerbi Kicks Off Tottenham Era as Sarr, Mateta Head to Bench in 2pm Shake-Up
 
-Roberto De Zerbi's first match in charge of Tottenham Hotspur comes at the City of Sunderland Stadium on Sunday, and the Italian has wasted no time stamping his authority on the squad. The new head coach has made five alterations to the side that started under the previous regime, handing starts to Antonin Kinsky, Destiny Udogie, Lucas Bergvall, Conor Gallagher, and Randal Kolo Muani. That means Kevin Danso, Djed Spence, Pape Matar Sarr, and Mathys Tel begin on the bench. Guglielmo Vicario is absent through injury.
+Roberto De Zerbi takes charge of Tottenham for the first time on Sunday, and his debut XI reads like a statement of intent: five changes, including Kolo Muani and Conor Gallagher promoted from the start, while Sarr, Tel, Danso, and Spence drop to the bench. Guglielmo Vicario remains absent through injury.
 
-The scale of the clearout is notable. Sarr's demotion to the bench in particular stands out given his recent involvement, and the decision to start Kolo Muani over Mathys Tel represents a firm statement of intent about who fits De Zerbi's vision.
+De Zerbi's fingerprints are immediately visible. The French striker Kolo Muani starts in behind Solanke, with Bergvall anchoring midfield alongside Gray. Udogie returns at left-back after missing recent fixtures. The message is clear: this is a new project, not a gentle transition.
 
-At St James' Park, Eddie Howe has responded to Newcastle's derby defeat to Sunderland by making six changes — the most aggressive rotation of any club in Sunday's 2pm batch. Tino Livramento, Malick Thiaw, Sandro Tonali, Lewis Miley, Jacob Murphy, and Will Osula come into the side. That means Kieran Trippier, Dan Burn, Jacob Ramsey, Anthony Elanga, Harvey Barnes, and Nick Woltemade all drop to the bench. The message is clear: that result hurt, and Howe is not afraid to act on it.
+**Crystal Palace overhaul**
 
-Crystal Palace manager Oliver Glasner is also rotating freely after Thursday's 3-0 victory over Fiorentina. He makes five changes, with Jefferson Lerma and Will Hughes preferred over Adam Wharton and Daichi Kamada in midfield. Up front, it is a complete overhaul: Brennan Johnson, Yeremy Pino, and Jorgen Strand Larsen form a new-look frontline, with Ismaila Sarr and Jean-Philippe Mateta benched. Evann Guessand misses out entirely. **Crystal Palace XI:** Henderson, Richards, Lacroix, Canvot, Munoz, Lerma, Hughes, Mitchell, Johnson, Pino, Strand Larsen. **Subs:** Benitez, Clyne, Sosa, Riad, Kamada, Wharton, Devenny, Sarr, Mateta.
+Oliver Glasner has wielded an equally heavy hand after Thursday's 3-0 win over Fiorentina. Five changes go in, and two of them are significant for fantasy managers: Sarr and Mateta are benched. Jefferson Lerma and Will Hughes come into midfield, displacing Adam Wharton and Daichi Kamada. Up front, the entire frontline is refreshed—Brennan Johnson, Yeremy Pino, and Jorgen Strand Larsen start, with Guessand omitted entirely.
 
-At the City Ground, Vitor Pereira has reverted to the Nottingham Forest XI that thrashed Tottenham prior to the international break — a signal of confidence in the side that produced that statement result. **Nottingham Forest XI:** Sels, Aina, Milenkovic, Murillo, Williams, Sangare, Anderson, Hutchinson, Gibbs-White, Hudson-Odoi, Jesus. **Subs:** Ortega, Morato, Wood, Ndoye, Dominguez, Yates, McAtee, Netz, Bakwa.
+For anyone holding Sarr or Mateta in FPL, this is a unwelcome Saturday morning surprise. Glasner has clearly decided Europa League Thursday fatigue warrants a full reset.
 
-For Aston Villa, Unai Emery makes two changes: Victor Lindelof and Ross Barkley come in for Ezri Konsa and Emiliano Buendia. But the bigger news broke late: Emiliano Martinez has pulled out of the starting XI, so Marco Bizot will start in goal. That is a significant development for Villa's defensive setup and for anyone with Villa assets in their side. **Aston Villa XI:** Bizot, Cash, Lindelof, Pau, Digne, Onana, Tielemans, McGinn, Barkley, Rogers, Watkins. **Subs:** Wright, Konsa, Buendia, Garcia, Abraham, Luiz, Maatsen, Bogarde, Bailey.
+**Newcastle respond to derby defeat with six changes**
 
-On Wearside, Regis Le Bris has recalled Robin Roefs, Nordi Mukiele, Reinildo Mandatory, and Enzo Le Fee. Melker Ellborg, Lutsharel Geertruida, Trai Hume, and Chemsdine Talbi drop to the bench. **Sunderland XI:** Roefs, Mukiele, O'Nien, Alderete, Reinildo, Xhaka, Diarra, Sadiki, Rigg, Le Fee, Brobbey. **Subs:** Ellborg, Hume, Geertruida, Cirkin, J Jones, H Jones, Talbi, Mayenda, Isidor.
+Eddie Howe reacts to the loss against Sunderland by making six alterations. Thiaw comes back into defence, Tonali and Miley return to midfield, and Will Osula leads the line. Livramento also returns at right-back. The casualties are notable: Dan Burn, Jacob Ramsey, Anthony Elanga, Harvey Barnes, and Nick Woltemade all drop out. Kieran Trippier, a usual starter, is on the bench.
 
-Five Premier League matches kick off at 14:00 BST on Sunday. With wholesale changes at four of the five clubs involved, the immediate practical value is simple: check your Fantasy teams before the deadlines. The benching of Sarr, Burn, and Konsa alone affects a significant chunk of FPL squads. De Zerbi's Tottenham lineup will be watched particularly closely — his debut formation and personnel choices will offer the first real clue about how this new era will be shaped.
+This is Newcastle's biggest XI shuffle in some time. Anyone who backed Trippier or Barnes on recent form should brace for the bench.
+
+**Villa crisis compounds as Martinez pulls out**
+
+Aston Villa's build-up has gone from bad to worse. Not only have Lindelof and Barkley replaced Konsa and Buendia in the XI—Onana is now the only recognisable defender from the side that started against Fiorentina—but Emiliano Martinez has pulled out of the starting XI entirely just before kick-off. Marco Bizot will start in goal.
+
+Villa's defensive setup is unrecognisable. McGinn and Tielemans will need to carry heavy creative load with a backline featuring Cash, Lindelof, Pau, and Digne.
+
+**Forest stick with winning formula**
+
+In contrast, Nottingham Forest travel to Sunderland unchanged from the side that thrashed Tottenham before the international break. Sels, Aina, Milenkovic, and the rest remain in place. Gibbs-White and Hudson-Odoi continue to flanks Sangare in midfield. There's value here if you're hunting attacking returns from Forest.
+
+**Tottenham XI:** Kinsky, Porro, Romero, van de Ven, Udogie, Gray, Bergvall, Kolo Muani, Gallagher, Richarlison, Solanke
+
+**Crystal Palace XI:** Henderson, Richards, Lacroix, Canvot, Munoz, Lerma, Hughes, Mitchell, Johnson, Pino, Strand Larsen
+
+**Newcastle XI:** Ramsdale, Livramento, Thiaw, Botman, Hall, Tonali, Miley, Joelinton, Murphy, Gordon, Osula
+
+**Aston Villa XI:** Bizot, Cash, Lindelof, Pau, Digne, Onana, Tielemans, McGinn, Barkley, Rogers, Watkins
+
+**Nottingham Forest XI:** Sels, Aina, Milenkovic, Murillo, Williams, Sangare, Anderson, Hutchinson, Gibbs-White, Hudson-Odoi, Jesus
+
+**Sunderland XI:** Roefs, Mukiele, O'Nien, Alderete, Reinildo, Xhaka, Diarra, Sadiki, Rigg, Le Fee, Brobbey

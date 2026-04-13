@@ -34,7 +34,7 @@ var posts = [
     "title": "FPL Gameweek 32: Sunday\u2019s goals, assists, bonus + DefCon",
     "url": "2026-04-13-fpl-gameweek-32-sundays-goals-assists-bonus-defcon.html",
     "category": "FPL",
-    "excerpt": "Sunday's Gameweek 32 action delivered some dramatic scorelines that will reshape the FPL landscape heading into a crucial double gameweek.",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "FPL"
     ]
@@ -54,7 +54,7 @@ var posts = [
     "title": "2pm team news: Sarr, Burn + Konsa benched, Thiaw starts",
     "url": "2026-04-13-2pm-team-news-sarr-burn-konsa-benched-thiaw-starts.html",
     "category": "Blog",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "For anyone holding Sarr or Mateta in FPL, this is a unwelcome Saturday morning surprise. Glasner has clearly decided Europa League Thursday fatigue warrants a full reset.",
     "tags": [
       "Blog"
     ]
@@ -64,9 +64,19 @@ var posts = [
     "title": "FPL notes: Williams told to \u201cshoot more\u201d + Martinez injury latest",
     "url": "2026-04-13-fpl-notes-williams-told-to-shoot-more-martinez-inj.html",
     "category": "FPL",
-    "excerpt": "\"The manager has been telling me to shoot outside the box more and that's what I did today,\" Williams said afterward. \"I took a few and one went in, so I'm pleased with that.\"",
+    "excerpt": "Neco Williams has been told to shoot more. More significantly, he's doing exactly that.",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "April 13, 2026",
+    "title": "Chelsea v Man City team news: Estevao starts",
+    "url": "2026-04-13-chelsea-v-man-city-team-news-estevao-starts.html",
+    "category": "Blog",
+    "excerpt": "Chelsea's teenage Brazilian sensation Estevao has been handed his first Premier League start for Sunday's clash with Manchester City at Stamford Bridge, with kick-off at 16:30 BST.",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -74,7 +84,7 @@ var posts = [
     "title": "FPL notes: O\u2019Reilly injury, Cherki praise + Enzo ban latest",
     "url": "2026-04-13-fpl-notes-oreilly-injury-cherki-praise-enzo-ban-la.html",
     "category": "FPL",
-    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "excerpt": "Nico O'Reilly scored again. Then he went off injured. And nobody at Manchester City is saying a word about how serious it is.",
     "tags": [
       "FPL"
     ]
