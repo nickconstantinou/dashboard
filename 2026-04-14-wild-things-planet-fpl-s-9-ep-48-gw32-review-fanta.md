@@ -1,0 +1,65 @@
+---
+title: "Wild Things | Planet FPL S. 9 Ep. 48 | GW32 Review | Fantasy Premier League"
+date: 2026-04-14
+type: youtube
+category: "FPL"
+video_id: "dMn-r3xaKX4"
+channel: "Planet FPL"
+video_url: "https://www.youtube.com/watch?v=dMn-r3xaKX4"
+---
+
+# Wild Things | Planet FPL Season 9 Episode 48: Gameweek 32 Review
+
+## The Return of the Wildcard: Navigating the Post-International Break FPL Landscape
+
+After a three-week absence that saw him on the other side of the world during one of the most pivotal wildcard windows of the season, Serge made his triumphant return to Planet FPL. The extended break—spanning the international period and an FA Cup weekend—provided many managers with valuable breathing room from the relentless demands of FPL, and Serge acknowledges that it was indeed a strange experience to be so disconnected from the game while knowing his wildcard would be deployed. The timing couldn't have been more dramatic: not only did Serge miss the action, but he returned to find North London literally ablaze with football drama, his YouTube timeline exploding with content from both the red and white sides of the city. Meanwhile, Manchester City continue their march toward the title in what Serge describes as "sky blue" form, making the weekend's developments even more complex for FPL managers trying to navigate the final stretches of the season.
+
+James, ever the Tottenham supporter, found himself in a particularly interesting position during the break. The club's decision to part ways with their previous manager and appoint Robert Derby—someone James notes he had been "wet dream" about for more weeks than not—came as a genuine surprise while Serge was away. James admits he's not currently living that particular dream, particularly after watching the match that unfolded the following day. The appointment raises fascinating questions about Tottenham's direction for the remainder of the season and their status as potential relegation threats, though James was quick to clarify that the Sunderland result deserves separate discussion from the broader Tottenham narrative. The situation in North London has become so dire that Serge's response—"things can only get better"—quickly became "things can yet get worse," capturing the bleakness of the current Tottenham faithful experience.
+
+## West Ham's Statement Victory and the Sunderland Gameweek Experience
+
+For James, the highlight of his FPL week came from a rather unexpected source: West Ham's dominant 4-0 victory over Sunderland on Friday night. Rather than watching more tactically interesting fixtures like Nottingham Forest versus Aston Villa, James found himself drawn to the match as a Tottenham supporter monitoring his "closest relegation rivals." The result, James insists, was "of no surprise whatsoever," having discussed with co-host Shane on the Tottenham special that West Ham winning Friday night was essentially a foregone conclusion. What made the victory particularly satisfying wasn't just the three points but the manner in which they were achieved—a clean sheet combined with four goals demonstrates there's genuine quality and fighting spirit within the West Ham squad rather than luck carrying them toward survival as has happened in previous seasons.
+
+James watched the match via in-flight entertainment on Sport 24, a service that offered live Premier League football as part of seat-back programming. The ability to follow the game while traveling made the rest of his weekend "such relaxed viewing," knowing that West Ham had secured a crucial result. The performance itself showed the kind of resilience that separates teams who genuinely deserve to stay up from those simply fortunate enough to scrape by. For FPL purposes, this result had implications for anyone holding Sunderland assets, but more importantly, it reinforced James's belief that West Ham are genuine safety threats rather than relegation candidates who will inevitably fall away.
+
+## James's Chip Strategy and Wildcard Approach
+
+The core of this episode revolves around James's strategic thinking heading into the crucial run-in. He started the episode by revealing that he rolled a single transfer rather than wildcarding, with his primary deliberation being whether to sell Hugo Echeverri for Jared Bowen. After careful consideration, James determined this was "probably a one week decision" because he hasn't activated his wildcard or free hit yet—those remain his options for the immediate future, with wildcard being "probably more likely." The reasoning behind selling Echeverri wasn't simply about Bowen as a direct replacement but rather about facilitating a Bowen-for-Harry Wilson move, as James had benched Echeverri anyway and felt Wilson offered better value given Liverpool's recent form.
+
+The irony, as Serge pointed out, is that Bowen absolutely exploded in the gameweek, hitting the post on multiple occasions and potentially scoring more had certain chances fallen differently. James acknowledged this, noting that his one-week transfer strategy didn't fully account for Bowen's ceiling potential. The discussion revealed the perpetual FPL dilemma: balancing short-term gains against longer-term planning, and recognizing that even carefully considered moves can be outperformed by the randomness of football. James had been watching Bowen closely, recognizing his "fantastic" consistency, but underestimated the likelihood of him absolutely exploding in a particular fixture.
+
+## The Price Movement Mystery and Market Dynamics
+
+One of the more technical discussions centered on FPL price movements, which James described as "very slow" throughout the gameweek. Originally, the prediction was that 10-12 players would rise in price, but an update around 1:00 AM completely reversed this forecast to "no one's going up." James admits he had already begun making moves based on the initial prediction, adjusting his strategy as the market shifted beneath him. Serge, who works with price prediction tools alongside people like Raabaly, noted that wild card transfers don't create the same volume pressure as regular transfers, meaning the market impact is somewhat muted compared to standard weeks.
+
+The disconnect between expected and actual price movements highlights an important consideration for FPL managers: the wild card window creates different dynamics than regular gameweeks. When many managers are simultaneously wildcarding, the ownership changes don't register the same way in the price calculation formula, leading to situations where anticipated rises don't materialize. This explains why so many managers found themselves with unexpected budget remaining or players failing to gain the value they expected during their wild card window.
+
+## Live FPL Data and the Chip Advantage
+
+Serge presented some compelling live data comparing chip usage versus no-chip strategies for the gameweek. Those who didn't deploy a chip averaged 45.15 points, while wild carders averaged 48.73—a swing of nearly 3.5 points that becomes significant when trying to gain ranks. Serge's wildcard was ultimately affected by Nico O'Reilly's performance in the Chelsea versus Manchester City match, which "burnt more than the not owning Jared Bowen Friday night." The Chelsea game had seen 10,000 managers going in with a green arrow before that result, and O'Reilly's contributions essentially erased that advantage.
+
+James clarified that he knows "100%" he's using a chip this week—either wildcard or free hit—because his current setup with players like Bryan Hill, Seno, and Harland is "nowhere near enough to compete" when facing bench boosters. The math is straightforward: without deploying chips, managers are essentially fighting with one hand tied behind their backs during the most chip-heavy period of the season. James's current rank of 14K, combined with his nine-place climb (a "gray arrow" rather than the red he expects after Monday Night Football), shows that even without spectacular hauls, the structural advantage of chip usage can help maintain position or make slight gains.
+
+## The Long-Term Strategy: Chaining Chips Through the Run-In
+
+James revealed his strategic framework for the season's remaining weeks: wildcard followed by bench boost, then free hit in Gameweek 34, then another wildcard in Gameweek 32. This sequencing requires careful management of free transfers and a clear understanding of fixture swings. The crucial advantage of holding two free transfers going into the gameweek meant James could "keep some single gameweek players" that he can move on in Gameweek 33 depending on how Gameweek 32 played out, rather than rolling those transfers into the following week. This flexibility is essential when navigating the fixture congestion and international call-ups that characterize the business end of the season.
+
+The strategy acknowledges that some weeks will be "single gameweek" situations while others offer double gameweeks or more favorable fixtures, and being able to pivot between these states requires maintaining transfer capacity. James recognizes that his current squad needs significant restructuring to compete with those deploying bench boosters, but he's doing so with a long-term view that considers the full run-in rather than optimizing for any single gameweek in isolation.
+
+## Key Insights for FPL Managers
+
+**The Wild Card Window Creates Unique Market Dynamics**: When many managers wildcard simultaneously, the price movement calculations behave differently than in standard weeks. Players who were expected to rise may not do so because the ownership changes are distributed across a larger pool of managers, making individual transfers less impactful on the market. This means that early wildcarding based on price predictions can backfire if the market shifts dramatically before the deadline.
+
+**Chip Strategy Requires Total Commitment**: James emphasizes that entering the run-in without deploying chips—whether wildcard, bench boost, or free hit—puts managers at a structural disadvantage. The 3.5-point average gap between chip and no-chip strategies can translate to hundreds of thousands of rank positions over a season, making chip deployment essentially mandatory for those with serious rank ambitions.
+
+**Short-Term Transfers Need Maximum Flexibility**: The best one-week transfers require not just correct fixture assessment but also the ability to pivot quickly if player form or situation changes unexpectedly. James's Bowen decision was sound based on the information available, but Bowen exceeding expectations highlights how even well-researched moves can be outperformed by pure variance.
+
+**Fixture Awareness Must Consider Team Context, Not Just Table Position**: James's investment in West Ham wasn't just about favorable fixtures but about genuine belief in the team's direction following their Sunderland performance. The 4-0 victory demonstrated something about squad character and capability that goes beyond simple fixture optimization.
+
+**The Final Run-In Rewards Sequential Thinking**: Rather than optimizing for any individual gameweek, successful managers think in sequences—how does this move set up the next move? James's approach of wildcard-bench boost-free hit-wildcard creates a chain of flexibility that allows him to adapt to changing circumstances while maintaining competitive squads throughout the season's crucial phase.
+
+## Who This Episode Is For
+
+This Planet FPL episode is essential listening for FPL managers in the middle-to-early stages of the season who are beginning to plan their chip deployment strategy. The discussion around chaining multiple chips through the run-in provides a framework that many managers can adapt to their own squads and fixture circumstances. Casual players who haven't yet committed to their chip timing will benefit from understanding how professional FPL analysts think about sequencing, market dynamics, and the tradeoffs between short-term optimization and long-term flexibility.
+
+The episode particularly resonates with managers who've found themselves in the 10K-50K rank range and are looking for ways to break into the top brackets, as Serge and James's discussions around chip strategy and structural squad building speak directly to this ambition. Additionally, those dealing with Tottenham assets or considering Newcastle and West Ham coverage will find the hands-on examples particularly useful for making their own transfer decisions in the coming gameweeks.

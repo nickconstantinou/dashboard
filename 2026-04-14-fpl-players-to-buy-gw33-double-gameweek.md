@@ -1,0 +1,95 @@
+---
+title: "FPL PLAYERS TO BUY | GW33 ✅ DOUBLE GAMEWEEK!"
+date: 2026-04-14
+type: youtube
+category: "FPL"
+video_id: "zhDSUVrv37k"
+channel: "FPL Focal"
+video_url: "https://www.youtube.com/watch?v=zhDSUVrv37k"
+---
+
+# Double Gameweek 33: The Complete FPL Strategy Guide for Fantasy Managers
+
+## Introduction: Why Gameweek 33 Matters More Than Ever
+
+Fantasy Premier League managers are facing one of the most consequential weeks of the season as Double Gameweek 33 arrives with a stacked fixture list featuring seven teams playing twice. With the season entering its crucial final stretch, this gameweek presents a golden opportunity for managers equipped with chips like the Free Hit and Bench Boost, while simultaneously creating complex roster decisions for those who have already deployed their assets elsewhere. The video provides a comprehensive breakdown of the best players to target, strategic considerations for chip usage, and detailed statistical analysis to help managers maximize their points potential.
+
+The double gameweek includes matches from Bournemouth, Newcastle, Leeds, Brighton, Tottenham, Burnley, Nottingham Forest, Manchester City, Arsenal, Wolves, Chelsea, Manchester United, and Liverpool, with each team receiving one home and one away fixture. This symmetry in fixture distribution creates unique opportunities for managers to load up on attacking assets from teams with favorable matchups while still maintaining squad flexibility for the blank gameweek that follows in Gameweek 34.
+
+Understanding fixture quality becomes paramount when constructing a Free Hit team or deciding which double gameweek players warrant investment. The video ranks the eight teams in the double gameweek by fixture difficulty, providing a framework for where managers should concentrate their attention and resources. Beyond the fixture analysis, the video addresses pressing questions about injured players, value options at each price point, and the eternal FPL dilemma of when to deploy the precious Triple Captain chip.
+
+## The Double Gameweek Fixture Landscape
+
+When ranking the eight teams by fixture quality, Leeds United emerges as the standout option, followed by Manchester City, Chelsea, Bournemouth, Brighton, Tottenham, and Burnley in that order. This ranking considers both the defensive vulnerabilities and offensive potentials of each opponent, giving managers a clear hierarchy for player prioritization. The home fixtures are particularly valuable given the historical correlation between home matches and both clean sheet probability and goal-scoring opportunities.
+
+Leeds' position at the top of the fixture ranking reflects their attacking potential against both Wolves at home and Bournemouth away. The Whites have demonstrated goalscoring capability throughout the season, and their opponents present contrasting defensive profiles that should yield attacking returns for Leeds assets. Manchester City's second-place ranking comes despite their difficult opening fixture against Arsenal, with the favorable Burnley home match later in the gameweek providing substantial point-scoring potential that balances out the challenging start.
+
+Chelsea's placement in the middle of the fixture rankings reflects their recent poor form, with both Manchester United at home and Brighton away representing mixed difficulties. The analysis emphasizes that despite Chelsea's struggles, the double gameweek still presents targeting opportunities, and Fantasy managers should not be scared away from Chelsea assets purely based on recent form. The double gameweek structure essentially amplifies the law of averages, making even mediocre fixtures worth considering when multiplied across two matches.
+
+## Goalkeeper Analysis: Donnarumma's Dilemma and Budget Options
+
+Gianluigi Donnarumma leads the goalkeeper projections with 7.6 expected points, coming off a convincing win and clean sheet at Stamford Bridge against Chelsea. However, the analysis raises concerns about his opening fixture against Arsenal at home, which could potentially become a goals-conceded scenario that negatively impacts his points total. For managers on a Free Hit, the recommendation is to avoid using a valuable City spot on Donnarumma and instead allocate those funds to attacking defenders or midfielders who have higher ceiling potential.
+
+Nick Pope's Newcastle career continues to face uncertainty, making him a difficult recommendation despite Newcastle's involvement in the double gameweek. The video suggests managers seek alternatives if they need Newcastle coverage, as Pope's lack of guaranteed starts undermines his value proposition in a crucial double gameweek.
+
+Karl Darlow emerges as the standout budget option at 3.9 million, presenting as the perfect double gameweek enabler for managers needing to balance their budgets. His projected points from a promising Wolves home fixture to start the double provides excellent value at his price point, allowing managers to allocate funds elsewhere for more impactful attacking assets. The analysis compares Darlow favorably to City defenders, noting that while City defenders have higher goal involvement potential, Darlow represents better value for managers working with limited budgets.
+
+Brayden Spear finishes third among goalkeepers with 6.5 projected points, though the analysis expresses surprise that he's so far ahead of Prajz, particularly given Tottenham's recent dire form. The analysis acknowledges that Burnley's survival fight means they will not go down without a battle, and a clean sheet against Tottenham could potentially relegate Spurs, creating additional motivation for Burnley's defensive efforts.
+
+## Defender Deep Dive: Budget Gold and Premium Picks
+
+For Leeds defenders, the analysis reveals that Ben Doak, valued at 3.9 million, is a strong option averaging 10.27 ICT index points per 90 minutes, which ranks top among all defenders for Leeds. The video notes that Doak was a doubt in press conferences but appeared to have a chance of making the starting eleven, and if he does, he represents exceptional value at his budget price. He leads all Leeds defenders with 3.77 expected goal involvement (xG) based on underlying statistics.
+
+Strake emerges as the premium pick for managers with budget flexibility, though a slight risk exists as Rodon is expected back around the end of April or early May. This timeline could potentially impact his involvement in the Burnley home fixture in Gameweek 35, when managers will desperately want their Leeds defenders starting. The analysis compares underlying attacking data across Leeds defenders, with Bogle leading at 3.77 xG, followed by Strake at 3.28, and Gson at similar levels.
+
+Evan Ferguson continues his rise as a budget option at 5.3 million, tied on 7.7 projected points with Sessegnon. The video highlights his consistency when getting 90 minutes in both games, noting he's just missed out on making the main table but remains a strong option for managers seeking value. For Free Hit teams, combining Bogle with other budget defenders allows managers to load up on premium attacking midfielders and forwards while maintaining defensive coverage.
+
+The analysis also touches on Bournemouth's contrasting home and away defensive records, with their away form being particularly poor at 35.6 expected goals conceded on the road, ranking worst in the league. However, their home record of 13.4 xGC ranks second best after Arsenal, making the Newcastle away fixture challenging while the home match against Newcastle presents an opportunity for clean sheet potential.
+
+## Midfield Masterclass: Palmer Dominates and Budget Alternatives
+
+Cole Palmer tops the midfield projections with 10.2 expected points, and despite Chelsea's recent poor form, the analysis strongly recommends including him on Free Hit teams or even purchasing him for regular use. The video addresses concerns from Chelsea fans who believe Pochettino is out of his depth, but emphasizes that the double gameweek structure makes targeting Chelsea assets still worthwhile, as two matches provide sufficient opportunity for returns even against decent opposition.
+
+Szoboszlai and Saka round out the top three midfield options, with the analysis providing detailed breakdowns of their underlying statistics and recent form. Szoboszlai has returned to the conversation after four consecutive starts, with Manchester City playing their best football of the season during this period. His performance has been particularly impressive, with two assists against Chelsea most recently and three assists in his last three matches. The assist for Kevin De Bruyne's goal was described as absolutely brilliant, demonstrating his creative capabilities.
+
+The analysis makes a case for a triple Manchester City attacking setup featuring Szoboszlai, De Bruyne, and Erling Haaland for managers with Free Hit chips, though it acknowledges this is ultimately down to personal preference. The video personally leans toward this combination while noting Nunez as an alternative option depending on squad construction and budget constraints.
+
+For budget midfield options, Amadou presents exceptional value at 4.9 million, averaging 12.22 ICT points per 90 minutes with a 54% success rate for goal involvement. If he gains assists in both double gameweek matches, he could score eight or nine points, representing excellent value. In contrast, Arnfield, while having goal threat with ten goals this season, should be avoided due to his minutes being completely inconsistent, having played 90 minutes only once since Gameweek 23.
+
+Scott McTominay scores 7.1 projected points but misses out on the main table, with the analysis noting his double-digit return against Arsenal last match. Similarly, Doughty scores 7.0 points after scoring a brace last match, while Gross scores 6.9 with an assist. For managers out of chips and not using one in Gameweek 34, the video suggests Kuna and Gordon as worth examining, as they have good fixtures remaining and do not blank in Gameweek 34.
+
+## Forward Analysis: Haaland's Ceiling and the Triple Captain Question
+
+Erling Haaland leads all forwards with 12.0 projected points for the double gameweek, prompting the analysis to address the critical question of whether managers should deploy their Triple Captain chip now. The recommendation is a clear and emphatic no, as there is approximately a 90% chance that the Manchester City versus Crystal Palace match, currently scheduled for Gameweek 32, will be postponed and played in Gameweek 36.
+
+This postponed fixture would create an incredibly strong double gameweek for City and Haaland, with home matches against both Brentford and Crystal Palace. Palace's involvement in Europa League competition around that time suggests they may have distracted fixtures, further improving City's attacking potential. The analysis notes that Haaland's projected points would be even higher in Gameweek 36 than they are now, making delaying the Triple Captain chip the mathematically superior choice.
+
+Alexander Isak and Darwin Núñez occupy the second and third spots in the forward projections, both at 8.0 points. The analysis reveals that if O'Reilly is unavailable due to injury, Núñez and Gay represent the obvious replacement options, with both players having strong underlying statistics that suggest sustainable attacking returns. Núñez leads all Liverpool options for crosses, while Gay leads for shots taken, creating a complementary attacking profile for Liverpool assets.
+
+Cali Edwards finishes second among forwards with 8.7 projected points, followed by Isak at 7.9 and Evan Ferguson at 7.7. Wilson at 6.1 million remains a sound pick for managers seeking value, with Brentford away and Villa home in the blank gameweek, plus additional favorable fixtures against Wolves home and away later in the season. The analysis suggests that Xiao Pedro has struggled recently with three blanks in a row, though he previously had an eight-game stretch with eight goals and six assists totaling 14 goal involvements, indicating potential for form reversal.
+
+## Strategic Considerations: Chip Usage and Roster Construction
+
+One of the most valuable pieces of advice in the video addresses managers who have already used their chips and must now navigate double gameweek players alongside others who do not double but do play in Gameweek 34. The analysis emphasizes that managers should not go all in on double gameweek picks if they are not using a chip in Gameweek 34, as this could necessitate taking hits later to field competitive teams.
+
+This creates different strategies depending on chip availability. Managers with the Free Hit active can completely restructure their squads for Gameweek 33 without long-term consequences, while managers without chips must balance maximizing double gameweek returns against maintaining squad flexibility for the blank gameweek. The advice to avoid bringing in players like McTominay if it means taking a minus four hit later applies particularly to managers without chip options.
+
+The video also addresses the uncertainty around injured players, specifically highlighting the case of Rodrigo, who went off injured against Chelsea. The analysis notes that not a single journalist thought to ask Guardiola about Rodrigo's status in the post-match press conference, leaving managers without solid updates and forced to speculate. He has received a yellow flag in FPL, which adds a penalty to his projected points in the review, moving him down the rankings and opening opportunities for Núñez and Gay.
+
+## Key Strategic Takeaways for FPL Managers
+
+The first critical takeaway involves the strategic timing of the Triple Captain chip, which should absolutely be saved for Gameweek 36 when Manchester City's postponed fixture against Crystal Palace creates an exceptionally strong double gameweek opportunity with both Brentford and Palace at home. The approximately 90% probability of this fixture rearrangement makes waiting the mathematically superior choice over using the chip immediately on Haaland in Gameweek 33.
+
+The second takeaway relates to the Free Hit chip strategy, where managers should prioritize loading up on attacking assets from the best fixture teams rather than spending valuable budget on goalkeepers. The analysis specifically recommends using the City spot on defenders or midfielders rather than Donnarumma, as attacking players have higher ceiling potential that gets multiplied across two matches.
+
+The third takeaway emphasizes the exceptional value available at budget price points, particularly Ben Doak at 3.9 million for Leeds and Amadou at 4.9 million for Leicester City. Both players offer elite underlying statistics that make them essential components of Free Hit teams, allowing managers to allocate more funds toward premium forwards like Haaland and midfielders like Palmer and Szoboszlai.
+
+The fourth takeaway cautions against overreacting to recent form when making double gameweek decisions, using Chelsea and their recent poor performances as the primary example. The double gameweek structure essentially amplifies the law of averages, making even mediocre fixtures worth considering when multiplied across two matches, and managers should focus on fixture quality and underlying statistics rather than recency bias.
+
+The fifth takeaway addresses the importance of squad planning beyond Gameweek 33, with specific attention to Gameweek 34 blank gameweek implications. Managers without chips must carefully balance double gameweek investments against blank gameweek needs, potentially avoiding certain players whose fixtures do not justify the roster disruption required to accommodate them.
+
+## Who Benefits Most From This Analysis
+
+This video content serves Fantasy Premier League managers at all levels, from casual players to serious competitors in mini-leagues and global rankings. The detailed statistical breakdowns, fixture analysis, and strategic advice provide actionable insights that can be immediately applied to squad construction decisions. Managers preparing to use their Free Hit chip in Gameweek 33 will find particular value in the comprehensive player rankings and team construction examples, while those navigating the gameweek without chips will benefit from the balanced perspective on roster construction across the double and blank gameweeks.
+
+The content is especially valuable for managers in competitive mini-league positions who need to gain every point possible, as the detailed analysis of budget options and premium picks provides the framework for optimal point maximization. The underlying statistics referenced throughout the video, including xGI totals, shot counts, and cross data, give managers confidence that the recommendations are based on sustainable performance metrics rather than recent form or intuition.

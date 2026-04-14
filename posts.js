@@ -1,5 +1,125 @@
 var posts = [
   {
+    "date": "April 14, 2026",
+    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 33?",
+    "url": "2026-04-14-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
+    "category": "FPL",
+    "excerpt": "As FPL managers plot their Double Gameweek 33 strategy, the question isn't just about who plays twice\u2014it's about who might finally deliver on promise.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "Wild Things | Planet FPL S. 9 Ep. 48 | GW32 Review | Fantasy Premier League",
+    "url": "2026-04-14-wild-things-planet-fpl-s-9-ep-48-gw32-review-fanta.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "This 19 Year Old Made $50M But Got Rejected from College | My First Million",
+    "url": "2026-04-14-this-19-year-old-made-50m-but-got-rejected-from-co.html",
+    "category": "Blog",
+    "excerpt": "2026-04-14 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "How the Vikings conquered England | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-14-how-the-vikings-conquered-england-lars-brownworth-.html",
+    "category": "Blog",
+    "excerpt": "April 14, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "Best Wildcard team for FPL Double Gameweek 33",
+    "url": "2026-04-14-best-wildcard-team-for-fpl-double-gameweek-33.html",
+    "category": "FPL",
+    "excerpt": "The decisions you've already made \u2014 or haven't made \u2014 are now working for or against you.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "FPL team news: Jones + Alisson injury latest, Slot on Ngumoha",
+    "url": "2026-04-14-fpl-team-news-jones-alisson-injury-latest-slot-on-.html",
+    "category": "FPL",
+    "excerpt": "There is no ambiguity surrounding Alisson Becker. The Brazilian goalkeeper remains absent with a muscle problem and has not yet returned to full training with the squad.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "David Oyelowo Returns",
+    "url": "2026-04-14-david-oyelowo-returns.html",
+    "category": "Blog",
+    "excerpt": "2026-04-14 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "Man Utd v Leeds team news: Mbeumo benched",
+    "url": "2026-04-14-man-utd-v-leeds-team-news-mbeumo-benched.html",
+    "category": "Blog",
+    "excerpt": "Notably, Gudmundsson, Jaka Bijol, and Noah Okafor have all overcome minor issues to take their places in the starting XI.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "Why the Vikings were so terrifying | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-14-why-the-vikings-were-so-terrifying-lars-brownworth.html",
+    "category": "Blog",
+    "excerpt": "April 14, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "FPL PLAYERS TO BUY | GW33 \u2705 DOUBLE GAMEWEEK!",
+    "url": "2026-04-14-fpl-players-to-buy-gw33-double-gameweek.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "WILDCARD NIGHTMARE \ud83d\ude2d BENCH BOOST ACTIVE \ud83c\udf5f FPL GW33 TRANSFER PLANS! | Fantasy Premier League 2025/26",
+    "url": "2026-04-14-wildcard-nightmare-bench-boost-active-fpl-gw33-tra.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 14, 2026",
+    "title": "FPL notes: Romero injury, Mukiele haul + Glasner on rotation",
+    "url": "2026-04-14-fpl-notes-romero-injury-mukiele-haul-glasner-on-ro.html",
+    "category": "FPL",
+    "excerpt": "But that goal\u2014survival\u2014looks increasingly fragile.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "April 13, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-13",
     "url": "2026-04-13-fpl-daily-roundup-gw.html",
