@@ -8,80 +8,90 @@ channel: "My First Million"
 video_url: "https://pdst.fm/e/traffic.megaphone.fm/HS2084820395.mp3"
 ---
 
-<p># FPL Free Hit Strategy for the Double Gameweek: FPL Harry's Complete Guide
+<p># FPL Free Hit Strategy for the Double Gameweek: A Complete Guide
 
 ## Introduction
 
-With almost 40% of Fantasy Premier League managers poised to play their Free Hit chip during an upcoming double gameweek, the strategic decisions surrounding team selection have never felt more consequential. FPL Harry, a prominent FPL content creator, breaks down the data, the logic, and the specific player picks that should shape how managers approach one of the most exciting — and potentially rank-defining — gameweeks of the season.
+For Fantasy Premier League managers, double gameweeks represent some of the highest-stakes decision points of the entire season — and the Free Hit chip, which allows players to make unlimited transfers for a single week before reverting to their previous squad, is the weapon of choice for maximizing those opportunities. In this video, FPL content creator FPL Harry breaks down exactly how to approach the Free Hit chip during a week when six Premier League teams are playing twice, offering a detailed draft, data-driven analysis of attacking and defensive prospects, and a discussion of differential options for managers chasing mini-league rivals.
 
-The Free Hit chip is unique in that it allows managers to field a completely temporary team for a single gameweek, reverting back to their existing squad the following week. When six teams are playing twice in the same gameweek, this chip becomes especially powerful, essentially doubling the floor of every player selected from those clubs. The core principle FPL Harry establishes from the outset is simple but worth stating clearly: if you're playing the Free Hit, you are playing it to maximize exposure to double gameweek players. Any deviation from that philosophy — including starting single-gameweek players no matter how tempting they may be — undermines the entire point of the chip.
+The stakes are clear: nearly 40% of all FPL managers are planning to activate their Free Hit chip this particular gameweek, making it one of the most commonly used chip weeks of the season. With six teams doubling — meaning 18 players could theoretically be picked, three from each club — the challenge is identifying the best possible starting XI rather than simply stacking the most popular names. FPL Harry, who has already played his own wildcard in Gameweek 32 and is therefore on a different chip strategy himself, provides an outsider's perspective grounded in the data.
 
-This video is particularly relevant for managers still holding their Free Hit chip who are trying to choose not just *which* teams to target, but *how many* players to take from each, which individual picks represent the best value, and whether there's any room to diverge from the consensus in pursuit of a mini-league advantage.
-
----
-
-## The Core Rule: No Single-Gameweek Players in Your Starting XI
-
-FPL Harry is unequivocal on one point that many managers still get wrong: single-gameweek players should not be starting in a Free Hit team. Names like Bruno Fernandes, Elliott Anderson, and Gibbs-White might be tempting, given their form or fixtures, but the mathematical reality works against them. A double-gameweek player starts with an effective floor of four points simply through two sets of appearance points, compared to just two for a single-gameweek player. That two-point gap before a ball is even kicked is a structural disadvantage that is very hard to overcome.
-
-Harry does allow a narrow exception — if a manager is desperate to have such a player *somewhere* in the squad, a bench slot might be acceptable. But starting them? He won't consider it. The opportunity cost is too high when there are 18 players across six high-quality double-gameweek clubs to choose from.
+This breakdown matters because the decisions made during a Free Hit week can dramatically swing FPL rank in both directions. Get it right, and a manager can leap hundreds of thousands of places in the global standings. Get it wrong — by chasing the wrong fixtures, misreading rotation risk, or being seduced by single-gameweek players — and the chip is wasted entirely.
 
 ---
 
-## Attacking Data: Which Teams Are Best to Target Offensively?
+## The Core Rule: Ignore Single Gameweek Players
 
-The first major analytical lens Harry applies is projected goals across the double, and the results reveal a clear hierarchy. **Manchester City** sit at the top with a projected 4.1 goals across their two fixtures — nearly a full goal ahead of second-placed **Chelsea at 3.2**. **Bournemouth** sit third at 3.0, with **Leeds and Brighton** both level at 2.9, and **Burnley** anchoring the bottom.
+The first and most fundamental principle FPL Harry establishes is deceptively simple but often violated: **do not include single-gameweek players in your Free Hit starting XI.** The logic is rooted in floor value. A player with a double gameweek fixture has a baseline of approximately four appearance points available (two per game), whereas a player with only one fixture sits at an effective ceiling of two appearance points from appearances alone. When there are so many quality options available from the six doubling teams, there is simply no justification for accepting that reduced floor.
 
-However, Harry adds an important nuance here that separates good FPL analysis from simplistic number-reading. While Leeds and Brighton are projected to score the same number of goals across the double, the *distribution* of those goals matters enormously. Brighton's 2.9 is spread fairly evenly: approximately 1.5 against Spurs and 1.4 against Chelsea — two moderate fixtures. Leeds, by contrast, are heavily weighted toward one game, projected at 1.7 at home to Wolves but only 1.2 away at Bournemouth.
-
-This creates a genuine strategic fork. Do you prefer a player with one standout "banker" fixture, accepting that the second game is weaker? Or do you prefer two reasonably good fixtures that reduce variance? Harry presents this not as a settled question but as a framework for how managers should think about player selection depending on their own risk tolerance and rank position.
+Harry specifically names some tempting options — Bruno Fernandes of Manchester United, Harvey Elliott of Liverpool, and Morgan Gibbs-White of Nottingham Forest — all players who might ordinarily attract Free Hit consideration. His verdict is firm: he would not start any of them. He does soften slightly by conceding that if a manager desperately wants exposure to one of these players, placing them on the bench as squad cover is a marginal concession, but they should not feature in the starting lineup under any circumstances.
 
 ---
 
-## Defensive Data: Clean Sheet Probability and Why It's Not the Whole Story
+## Analyzing the Six Doubling Teams: Attack
 
-When it comes to defenders and goalkeepers, clean sheet probability becomes the central metric — but again, Harry pushes past surface-level analysis. Manchester City lead the pack here too, with a 60% chance of registering at least one clean sheet across the double. **Leeds are second at 51%**, which is notably close to City and significantly higher than the other teams.
+To make sense of which clubs to prioritize, Harry walks through projected goals scored across the double gameweek, drawing on statistical modeling data rather than gut feel alone.
 
-Chelsea come third at 41%, Brighton at 40%, and Bournemouth at 38%, with Burnley at the bottom. But Harry highlights a key split in Bournemouth's numbers that illustrates why you can't simply look at the aggregate figure. Bournemouth have just a 14% chance of a clean sheet away at Newcastle, but a much stronger 29% chance at home to Leeds. Brighton, by comparison, have 24% and 22% — a more balanced but less spiked profile.
+**Manchester City** lead the attacking projections by a significant margin, with an expected 4.1 goals across their double. That figure sits nearly a full goal above second-placed **Chelsea**, who are projected at 3.2. **Bournemouth** come in third at 3.0, with **Leeds** and **Brighton** level in fourth at 2.9 each, and **Burnley** trailing far behind at the bottom.
 
-Critically, Harry argues that clean sheet odds alone don't capture the full value of defensive picks. The concept of **defensive contribution bonus points (Defcon)** — awarded to defenders who make tackles, clearances, and blocks — adds significant value to certain defenders regardless of whether a clean sheet is kept. Bournemouth's Sessi and Hill are specifically named as players who consistently earn these bonus points. Leeds play a "very direct" style, Harry notes, which tends to generate exactly the kind of defensive actions that trigger Defcon rewards. He expects both Hill and Sessi to earn Defcon across both of their double gameweek fixtures, making Bournemouth defenders considerably more appealing than their raw clean sheet odds might suggest.
-
----
-
-## The Draft: Harry's Full Free Hit Team Selection
-
-Having laid out the analytical groundwork, Harry walks through his specific Free Hit draft — one deliberately structured around double-ups in certain areas to maximize exposure to his preferred teams.
-
-**In goal**, Harry selects **Darlow** from Leeds, a pick that aligns with his doubled-up Leeds defensive strategy.
-
-**In defense**, the team features a deliberate double-up on Leeds, with **Pascal Struijk** named as the most "nailed" option from that backline. Harry acknowledges alternatives like James Justin or Goodmanson but rates Struijk's starting certainty highest. He pairs these Leeds defenders with selections from **Bournemouth**, specifically leaning on the Defcon potential of Hill and Sessi. Notably absent from the defense is any Brighton representation — Harry explicitly moves those players to the bench because he doesn't expect Brighton to keep a clean sheet in either of their double fixtures, regardless of how good their attacking outlook may be.
-
-On the subject of **O'Reilly** — the Manchester City midfielder who scored twice in the Carabao Cup Final — Harry explains why he's left out of the draft despite being an obvious candidate. The issue is injury uncertainty and Pep Guardiola's historically opaque communication around fitness. Harry's view: unless categorical confirmation of O'Reilly's availability emerges before the deadline, the risk of starting him is too high on a chip you only get to play once. He also declines to replace O'Reilly with other City defensive options like Matts Nunez or Mark Gage, suggesting the City defensive picks aren't worth the squad space compared to midfield options.
-
-**In midfield**, Harry goes with a double-up on **Manchester City** by selecting both **De Bruyne-style creative players — specifically Savinho (Semeno) and Bernardo-type option (Turkey)** — reflecting his view that the City vs. Arsenal fixture is one of the most compelling of the double. He expects City to score a goal or two in that match, and with a trip to Burnley to follow, he anticipates minimal rotation given the title implications of that fixture. He reasons that if City beat Arsenal and then rotated against Burnley and dropped points, it would be an embarrassment of historic proportions — making full strength selection at Burnley almost certain. **Cole Palmer** from Chelsea completes the midfield, included despite Harry's measured skepticism about Chelsea as a team. Palmer's set piece and penalty-taking responsibilities give him a ceiling that justifies the pick even in a slightly underperforming side.
-
-**In attack**, Harry includes **Evanilson (Tavanir)** from Bournemouth as his third Bournemouth selection. He acknowledges differential alternatives like Ryan or Alex Scott but rates Tavanir as the most reliable attacking option given his involvement in set pieces and his central role in Bournemouth's offense.
-
-Interestingly, **Brighton have no representation anywhere in Harry's starting XI**, despite him expecting them to win both of their double gameweek matches. The reasoning is consistent with his earlier analysis: he can't confidently identify which Brighton attacker will deliver the points, and the team's defensive frailty makes their defenders poor picks. He references the uncertainty around whether Mitoma will return to the starting lineup after being dropped in the Liverpool win as a prime example of the selection unpredictability surrounding Brighton's attack.
+However, Harry offers an important nuance here that separates his analysis from surface-level rankings. While Leeds and Brighton project identically at 2.9 goals, their underlying fixture profiles are very different. Brighton's goal expectation is relatively evenly spread — 1.5 against Spurs and 1.4 against Chelsea — making them a more consistent, lower-variance play. Leeds, by contrast, are heavily weighted toward a single game: 1.7 projected goals at home to Wolves versus just 1.2 away at Bournemouth. The philosophical question this raises is whether FPL managers prefer a "banker" fixture with a higher ceiling in one game (Leeds at home to Wolves) or the comfort of two reasonably balanced fixtures (Brighton's double). There is no definitively correct answer — it depends on your appetite for variance and your positional needs in the standings.
 
 ---
 
-## Key Takeaways and How to Apply Them
+## Analyzing the Six Doubling Teams: Defense and Clean Sheets
 
-**1. Floor matters more than ceiling on the Free Hit.** The guaranteed double appearance points create a structural advantage for double-gameweek players that simply can't be matched by even a high-ceiling single-gameweek selection. This isn't about pessimism — it's about probability. Maximize your expected floor before chasing your upside ceiling.
+The defensive picture tells a somewhat different story, and Harry makes a point of distinguishing it from the attacking analysis.
 
-**2. Fixture distribution matters, not just fixture totals.** Two teams can have identical projected goal tallies but wildly different risk profiles based on how those goals are distributed across their two games. A manager who understands this can align their picks with their risk tolerance — backing a "banker + weak" fixture profile if they want a floor, or an "even fixture" profile if they want to reduce variance.
+Manchester City retain their top spot with a 60% chance of keeping at least one clean sheet across their double. Leeds, interestingly, jump to second with a 51% clean sheet probability — a notably stronger showing than their attacking numbers might suggest. Chelsea are third at 41%, Brighton fourth at 40%, Bournemouth fifth at 38%, and Burnley last.
 
-**3. Defcon is a hidden multiplier for certain defenders.** Clean sheet odds published by external models don't account for the bonus point contributions that physically aggressive, high-action defenders generate. Teams like Bournemouth, whose defensive style generates high tackle and clearance counts, produce defenders who score even in defeat. This makes raw clean sheet probability an incomplete metric.
+Again, the fixture-level breakdown is critical. Bournemouth and Brighton have similar overall clean sheet probabilities, but Bournemouth's is unevenly distributed: just 14% away at Newcastle but a much more promising 29% at home against Leeds. Brighton, by contrast, hold steady at 24% and 22% across their two games, offering more balance. This shapes the decision of which defenders to target — a Bournemouth defender is effectively a high-variance play where you're banking heavily on the home fixture.
 
-**4. Double-ups are a feature, not a bug, on Free Hit.** Rather than seeking maximum team diversity as one might on a Wildcard, the Free Hit — especially for a multi-team double gameweek — rewards concentration in your best-performing targets. Harry's three Bournemouth picks and doubled-up Leeds defenders reflect this philosophy deliberately.
-
-**5. Injury uncertainty is a dealbreaker for chip games.** The Free Hit is irreplaceable. A player who is 60% likely to start normally might be worth the risk in a standard gameweek, but on a chip — where you have no ability to make transfers if things go wrong before kickoff — that 40% risk of non-appearance is simply too high to accept, as Harry's O'Reilly decision demonstrates.
+Harry also introduces an important supplementary factor: **defensive contribution (Defcon) bonuses**. Even when clean sheet odds are modest, certain defenders — particularly from Bournemouth, where he highlights Dango Ouattara (referred to as "Sessi") and Illia Zabarnyi (referred to as "Hill") — are consistently involved in defensive actions that generate bonus points regardless of the clean sheet result. This makes Bournemouth defenders more valuable than raw clean sheet percentages suggest, and it is a key reason Harry weighs them favorably despite their Newcastle fixture.
 
 ---
 
-## Who This Content Is For
+## The Free Hit Draft: Position by Position
 
-This video is aimed squarely at active FPL managers who are either holding their Free Hit chip or are in the final stages of deciding whether to play it during a specific double gameweek. It will resonate most strongly with mid-to-experienced players who already understand the basic mechanics of chips but want a data-backed framework for navigating the more complex decisions — particularly around fixture weighting, defensive player selection, and balancing consensus picks against differentials for mini-league purposes.
+With the data as a foundation, Harry constructs a concrete draft for the week — one deliberately different from the wildcard drafts most managers will have played the previous week, and shaped around doubling up in key areas to maximize ceiling.
 
-Managers chasing rank in their mini-leagues will find particular value in the section on differentials, where Harry hints at the tension between safe, consensus Free Hit builds and the slightly riskier picks that might separate your score from the rest of the field. The analytical approach — using both attacking projections and clean sheet probabilities while layering in Defcon expectations — provides a replicable decision-making framework applicable beyond this specific gameweek.</p>
+**Goalkeeper:** Harry selects **Darlow** of Leeds, a direct complement to his defensive strategy of doubling up on Leeds assets. With Leeds sitting second for clean sheet probability and Darlow relatively cheap, it locks in the double appearance points while providing genuine upside.
+
+**Defense:** This is where the draft becomes most distinctive. Harry goes heavy on Leeds and Bournemouth while notably excluding Brighton entirely from the starting XI. For Leeds, he picks **Pascal Struijk** (referred to as "Stra") as the most reliably nailed defender in that backline, over alternatives like James Justin or Goodmanson. For Bournemouth, he selects multiple defenders — specifically Hill and Sessi — based on their track record for defensive bonus points and the attractive home fixture against Leeds. Brighton defenders, despite decent numbers, end up on the bench based on Harry's expectation that clean sheets are unlikely in either of their games (against Spurs away and Chelsea at home).
+
+**Midfield:** Harry doubles up on **Manchester City** in the middle of the park, selecting both **Savinho** (referred to as "Semeno") and **Phil Foden** (referred to as "Turkey"). City's double involves a massive home fixture against Arsenal — which Harry believes they will win — followed by a trip to Burnley. Critically, he argues that City will not rotate for the Burnley game: if they beat Arsenal and go top of the Premier League table, rotating against a relegation-threatened Burnley side and dropping points would be unthinkable from a title-race perspective. The FA Cup fixture against Southampton, often cited as a rotation risk, is also factored in, and Harry still backs both players to feature in both league games.
+
+**Cole Palmer** of Chelsea rounds out the midfield picks. Harry admits he has not been overly impressed by Chelsea as a unit but acknowledges that their double fixtures offer decent goal-scoring upside, and Palmer's penalty-taking responsibilities make him the standout individual option from that squad.
+
+The Bournemouth midfield slot goes to **Antoine Semenyo** (referred to as "Tavanir"), who Harry describes as the most focal attacking player in Bournemouth's system, involved in set pieces and penalties, and therefore the most reliable choice over more differential options like Tyler Adams (Ryan) or Alex Scott.
+
+**Forwards:** By the time Harry reaches the forward line, his double-up strategy has already locked in City, Leeds, and Bournemouth players. Notably, **Brighton have no representation in the starting XI** despite Harry actually expecting them to win both their double gameweek games. His reasoning is twofold: he does not believe Brighton will keep clean sheets in either fixture, which limits their defenders' value; and predicting which of their attackers will score is genuinely difficult, particularly with Evan Ferguson (referred to as "MTO") having been dropped even when they beat Liverpool.
+
+**On O'Reilly:** One notable absentee from the draft is Manchester City midfielder Kevin De Bruyne-adjacent figure O'Reilly, who scored twice in the Carabao Cup Final against Arsenal but was carrying an injury doubt at the time of recording. Harry explains that Pep Guardiola is not always forthcoming about injury information, meaning there was no certainty O'Reilly would feature in both games. For a Free Hit — where every starting slot must be maximized — carrying that uncertainty was deemed too risky. Harry leaves the door open: if categorical confirmation of O'Reilly's fitness emerged, he would find a way to fit him in, but absent that clarity, the player stays out.
+
+---
+
+## Differential Options for Mini-League Chasers
+
+For managers not focused on overall rank but instead looking to close gaps on mini-league leaders who are likely playing the same conventional Free Hit template, Harry acknowledges that differentiation is possible — and sometimes necessary. Players like Ryan and Alex Scott from Bournemouth, or a punt on a less-obvious City asset, could be the difference-maker if the conventional picks underdeliver. The caveat is that differentials on a Free Hit come with real cost: you are sacrificing expected value for variance, and in a week where the popular template is likely to score heavily regardless, falling further behind by chasing the wrong differential can be catastrophic.
+
+---
+
+## Detailed Takeaways
+
+**1. Free Hit chip should be used exclusively for doubling teams.** The appearance-point floor differential between a single-fixture player (effective two points) and a double-fixture player (effective four points) is too significant to ignore. Even attractive single-gameweek assets should be left out of the starting XI. The chip exists precisely to capture double gameweek value, and diluting that with one-game players undermines the entire exercise.
+
+**2. Fixture distribution within the double matters as much as the total projection.** A club projecting 2.9 goals with a 1.7/1.2 split (Leeds) is a fundamentally different proposition from one projecting 2.9 with a 1.5/1.4 split (Brighton). If you want a high-ceiling "banker" game, Leeds is the play. If you want reduced variance across both fixtures, Brighton is safer. Understanding this distinction allows managers to tailor their selections to their risk tolerance and positional context.
+
+**3. Defensive bonus points (Defcon) should supplement — not replace — clean sheet analysis.** Clean sheet probability is not the only metric for evaluating defenders. Bournemouth's Hill and Sessi generate consistent defensive bonuses through tackles, interceptions, and clearances regardless of clean sheet outcomes. Buying defenders purely on clean sheet odds without considering this layer of value leads to systematically undervaluing certain assets.
+
+**4. Rotation risk analysis requires thinking about team motivation, not just fixture congestion.** The conventional wisdom says that City will rotate with FA Cup and European fixtures upcoming. Harry flips this: if City beat Arsenal to go top of the table, they would never rotate for a winnable game at Burnley with title implications. Contextual motivation — the meaning of the result, not just the number of games being played — is the correct lens for assessing rotation risk.
+
+**5. Double-ups create conviction, not just volume.** Rather than spreading across all six doubling teams for diversity, Harry argues for concentrating on the two or three he feels strongest about (City, Leeds, Bournemouth) and taking multiple players from each. This approach is more intellectually honest — if you genuinely believe a team will perform, taking one player is a hedge; taking two or three is actual conviction. On a chip week where the squad resets afterward, hedging is unnecessary.
+
+---
+
+## Who This Is For
+
+This content is specifically designed for active FPL managers who are planning to use their Free Hit chip during the relevant double gameweek and want a data-informed, structured approach rather than relying on social media consensus. It is particularly valuable for managers who have already exhausted their wildcard and want to understand how a Free Hit draft should differ from a wildcard squad — and why those differences matter.
+
+More broadly, any FPL manager looking to improve their strategic framework — understanding why not to include single-gameweek players on a Free Hit, how to read fixture distributions within a double, and how to think about rotation risk — will find Harry's analysis genuinely instructive. The video is less useful for casual players who simply want a quick list of names, as the real value lies in the reasoning process rather than the conclusions alone.</p>
