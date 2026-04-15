@@ -1,5 +1,135 @@
 var posts = [
   {
+    "date": "April 15, 2026",
+    "title": "The Unreleased Rollable Smartphone!",
+    "url": "2026-04-15-the-unreleased-rollable-smartphone.html",
+    "category": "Blog",
+    "excerpt": "April 15, 2026 \u2022 Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Best Chelsea players for FPL Double Gameweek 33",
+    "url": "2026-04-15-best-chelsea-players-for-fpl-double-gameweek-33.html",
+    "category": "FPL",
+    "excerpt": "Two goals across the double feels like a floor, not a ceiling. For managers navigating the run-in with limited free transfers and budget locked elsewhere, that floor is worth building around.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "FPL team news: Rice, Saka + Timber injury updates",
+    "url": "2026-04-15-fpl-team-news-rice-saka-timber-injury-updates.html",
+    "category": "FPL",
+    "excerpt": "\"We have to wait till tomorrow morning to see how a few of the boys are and make the right decision with them,\" Arteta said when pressed on Rice's absence.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "FPL notes: DCL wasteful, Mbeumo benched + Leeds injury boost",
+    "url": "2026-04-15-fpl-notes-dcl-wasteful-mbeumo-benched-leeds-injury.html",
+    "category": "FPL",
+    "excerpt": "Whatever the broader theories about Monday's loss\u2014rustiness after a three-week break, Carrick being found out\u2014the defeat exposed a troubling lack of squad depth.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "From Barbarians to Kings: The Rise of the Viking Empire | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-15-from-barbarians-to-kings-the-rise-of-the-viking-em.html",
+    "category": "Blog",
+    "excerpt": "April 15, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Ex-Tesla President Reveals Elon's Intense Hiring Process",
+    "url": "2026-04-15-ex-tesla-president-reveals-elons-intense-hiring-pr.html",
+    "category": "Blog",
+    "excerpt": "April 15, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Twin Doubles | #FPL DGW33",
+    "url": "2026-04-15-twin-doubles-fpl-dgw33.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "UCL Fantasy: Matchday 14 Scout Picks",
+    "url": "2026-04-15-ucl-fantasy-matchday-14-scout-picks.html",
+    "category": "Blog",
+    "excerpt": "That's the real story here. Everything else flows from there.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "The secret weapon of the Byzantine Empire: Greek fire | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-15-the-secret-weapon-of-the-byzantine-empire-greek-fi.html",
+    "category": "Blog",
+    "excerpt": "April 15, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Ex-Tesla President on Elon's BS-Proof Hiring Method",
+    "url": "2026-04-15-ex-tesla-president-on-elons-bs-proof-hiring-method.html",
+    "category": "Blog",
+    "excerpt": "April 15, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Steph Smith: \u201cThis opportunity is totally overlooked\u201d",
+    "url": "2026-04-15-steph-smith-this-opportunity-is-totally-overlooked.html",
+    "category": "Blog",
+    "excerpt": "2026-04-15 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "Bournemouth v Leeds | CotC with Neil Grover & Ed Salinger | Planet FPL 2025/26",
+    "url": "2026-04-15-bournemouth-v-leeds-cotc-with-neil-grover-ed-salin.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 15, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-15",
+    "url": "2026-04-15-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-15 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "April 14, 2026",
     "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 33?",
     "url": "2026-04-14-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
