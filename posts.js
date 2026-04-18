@@ -1,5 +1,215 @@
 var posts = [
   {
+    "date": "April 18, 2026",
+    "title": "The Weekender ep. 31 | Planet FPL 2025/26",
+    "url": "2026-04-18-the-weekender-ep-31-planet-fpl-202526.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Crystal Palace v West Ham predicted line-ups + FPL team news",
+    "url": "2026-04-18-crystal-palace-v-west-ham-predicted-line-ups-fpl-t.html",
+    "category": "FPL",
+    "excerpt": "A fixture that rarely sets pulses racing has quietly become one of Gameweek 33's most consequential matchups \u2014 at least for Fantasy Premier League managers weighing their final moves.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "FPL GW33 RANK 1 TEAM SELECTION \ud83c\udf0d FREE HIT + BENCH BOOST TEAM \ud83c\udfc6",
+    "url": "2026-04-18-fpl-gw33-rank-1-team-selection-free-hit-bench-boos.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Everton v Liverpool predicted line-ups + FPL team news",
+    "url": "2026-04-18-everton-v-liverpool-predicted-line-ups-fpl-team-ne.html",
+    "category": "FPL",
+    "excerpt": "The Merseyside derby has a history of defying script. Form goes out the window. Differential picks become must-haves\u2014or disasters\u2014based on 90 minutes that answer to no algorithm.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Zophar's Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-18-zophars-gameweek-33-team-selection-fantasy-premier.html",
+    "category": "Blog",
+    "excerpt": "The alternative strategy involves playing the wildcard immediately, building a team optimized for the Gameweek 35 double gameweeks while accepting a potentially weaker Gameweek 33 side.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-18",
+    "url": "2026-04-18-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-18 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-18-the-afterlife-according-to-vikings-valhalla-and-ra.html",
+    "category": "Blog",
+    "excerpt": "2026-04-18 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Why the Vikings refused to turn back: The psychology of great explorers | Lars Brownworth",
+    "url": "2026-04-18-why-the-vikings-refused-to-turn-back-the-psycholog.html",
+    "category": "Blog",
+    "excerpt": "2026-04-18 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Ex-Tesla President: How AI Will Affect Your Business",
+    "url": "2026-04-18-ex-tesla-president-how-ai-will-affect-your-busines.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-18 \u2022 Tech/Business",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "FPL GW33 EXPERTS TEAM \u2705 BENCH BOOST + FREE HIT SPECIAL \ud83d\udca5",
+    "url": "2026-04-18-fpl-gw33-experts-team-bench-boost-free-hit-special.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Decision Making Process That Helped 19 Year Old Sell for $100M | My First Million",
+    "url": "2026-04-18-decision-making-process-that-helped-19-year-old-se.html",
+    "category": "Blog",
+    "excerpt": "2026-04-18 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Hall of Famer Dan Wright\u2019s Gameweek 33 Wildcard team reveal",
+    "url": "2026-04-18-hall-of-famer-dan-wrights-gameweek-33-wildcard-tea.html",
+    "category": "Blog",
+    "excerpt": "For Dan Wright, FPL decision-making often comes down to a single variable. This Gameweek 33, that variable was Nico O'Reilly.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "O'REILLY IS FINE \ud83d\udc4c FPL GW33 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-18-oreilly-is-fine-fpl-gw33-complete-guide-fantasy-pr.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Conan Vs. Edibles Part I",
+    "url": "2026-04-18-conan-vs-edibles-part-i.html",
+    "category": "Blog",
+    "excerpt": "2026-04-18 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Ex Tesla President Shares His AI Predictions for 2026",
+    "url": "2026-04-18-ex-tesla-president-shares-his-ai-predictions-for-2.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-18 \u2022 Tech/Business",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Man City v Arsenal predicted line-ups + FPL team news",
+    "url": "2026-04-18-man-city-v-arsenal-predicted-line-ups-fpl-team-new.html",
+    "category": "FPL",
+    "excerpt": "Double Gameweeks are rare and valuable. Every FPL manager faces the same calculation: do you overload on City and Arsenal assets now, or preserve transfers for the run-in when fixtures turn again?",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-18-pras-gameweek-33-team-selection-fantasy-premier-le.html",
+    "category": "Blog",
+    "excerpt": "#### The Symmetry of the Schedule",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Nott\u2019m Forest v Burnley predicted line-ups + FPL team news",
+    "url": "2026-04-18-nottm-forest-v-burnley-predicted-line-ups-fpl-team.html",
+    "category": "FPL",
+    "excerpt": "So why would any rational FPL manager target either side?",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "#1 Habit Expert: Here's how you become dramatically better",
+    "url": "2026-04-18-1-habit-expert-heres-how-you-become-dramatically-b.html",
+    "category": "Blog",
+    "excerpt": "2026-04-18 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "BENCH BOOST ACTIVE \ud83c\udf5f O'REILLY? \u267b\ufe0f MY FPL 33 TEAM SELECTION! \ud83d\udcf1 | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-18-bench-boost-active-oreilly-my-fpl-33-team-selectio.html",
+    "category": "FPL",
+    "excerpt": "Harry ultimately leans toward Pascal Stra as the safer long-term option, valuing his apparent nailedness and the potential penalty upside over Bijl's slightly better defensive numbers this season.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Programming in the Age of AI: What You Need to Know",
+    "url": "2026-04-18-programming-in-the-age-of-ai-what-you-need-to-know.html",
+    "category": "AI/Tech",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
     "date": "April 15, 2026",
     "title": "The Unreleased Rollable Smartphone!",
     "url": "2026-04-15-the-unreleased-rollable-smartphone.html",

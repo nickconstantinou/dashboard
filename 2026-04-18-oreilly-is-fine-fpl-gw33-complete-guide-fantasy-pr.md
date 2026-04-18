@@ -1,0 +1,123 @@
+---
+title: "O'REILLY IS FINE 👌 FPL GW33 COMPLETE GUIDE ⁉️ | Fantasy Premier League Tips 2025/26"
+date: 2026-04-18
+type: youtube
+category: "FPL"
+video_id: "JjFhR-3Eo3s"
+channel: "FPL Harry"
+video_url: "https://www.youtube.com/watch?v=JjFhR-3Eo3s"
+---
+
+# Gameweek 33 Is the Biggest Week of the FPL Season—Here's Your Complete Guide
+
+## Introduction
+
+Fantasy Premier League gameweek 33 represents perhaps the most consequential week of the entire season for managers across the globe. Whether you're holding a wildcard, preparing a free hit, activating a bench boost, or considering triple captain options, this gameweek demands strategic precision unlike any other. The reason is simple: six Premier League teams face a double gameweek, creating an unprecedented opportunity for managers to accumulate massive point returns if they position themselves correctly across the fixture congestion.
+
+In this comprehensive guide, FPL Harry—drawing from the Manchester City press conference held on Friday afternoon—delivers the most current analysis on player availability, team projections, and optimal strategies for each chip variant. The timing of this content is critical because injury updates and fixture odds continue to shift as matchday approaches, making it essential for managers to stay ahead of the curve. The video covers everything from the encouraging news regarding Nico O'Reilly's fitness to updated goal projections across the six doubling teams, culminating in Harry's own team strategy with bench boost active.
+
+The significance of gameweek 33 extends beyond mere fixture manipulation. With the Premier League title race tightening toward its conclusion, the outcomes of key matches—particularly Manchester City versus Arsenal—could reshape the entire Champions League qualification picture. This creates both opportunity and risk for FPL managers, as team selection and rotation patterns become increasingly difficult to predict when stakes are this high. Harry emphasizes that understanding the broader football context is just as important as analyzing FPL-specific metrics when making your final decisions.
+
+---
+
+## The O'Reilly Update: Positive News for City Owners
+
+The most pressing news heading into gameweek 33 centered on Nico O'Reilly, who limped off during Manchester City's match against Chelsea last weekend. For managers who had invested in the emerging midfielder—Harry himself included—concern mounted throughout the week as the extent of the injury remained unclear. However, the Manchester City press conference delivered the verdict that City supporters and FPL managers wanted to hear: O'Reilly is fine.
+
+Pep Guardiola confirmed that while Rúben Dias would remain unavailable for the weekend's fixture, O'Reilly has passed his fitness assessment and will be available for selection. This represents a significant boost for managers targeting Manchester City assets, particularly given their favorable double gameweek fixture list. Harry notes that there remains a slight possibility O'Reilly might not complete both matches if the knock proves more problematic than initially assessed—he might play against Arsenal but sit out the Burnley matchup—but the manager's explicit confirmation that O'Reilly is "fine" suggests this is unlikely to be a major limiting factor.
+
+The context matters here: Manchester City are in a genuine title race that could go down to the wire. A loss to Arsenal would effectively end their championship aspirations, while a win or draw maintains their mathematical chance. Guardiola acknowledged this pressure directly when asked whether the Arsenal fixture feels like a final, stating that a defeat would essentially conclude the title race for City. This suggests City will field their strongest possible eleven against Arsenal, making any available player—including O'Reilly—highly valuable for this critical fixture.
+
+---
+
+## The Six Teams of the Double: Projections and Priorities
+
+Gameweek 33 features six teams with double fixtures, and the updated projections reveal meaningful differences in expected returns. Harry walks through the predicted goal totals for each doubling side, providing FPL managers with data-driven guidance on where to allocate their resources.
+
+Manchester City lead the projections with an expected 4.4 goals across their two matches against Arsenal and Burnley. This figure represents a slight increase from earlier estimates, suggesting that both the betting markets and analytical models have grown more confident in City's attacking output. The remarkable element of this projection is that City are essentially predicted to score twice against Arsenal—widely regarded as one of the league's stingiest defensive units this season. Harry acknowledges this feels "crazy high" given the narrative around Arsenal's defensive solidity, but the data supports it.
+
+Chelsea sit second with 3.2 projected goals across their fixtures against Manchester United (home) and Brighton (away). This figure remained relatively stable throughout the week, with no significant news emerging to shift expectations in either direction. Bournemouth occupy third position with 3.1 projected goals, facing Leeds at home and Newcastle away. The Newcastle fixture presents genuine difficulty for those considering Bournemouth defenders, though Harry notes that attacking assets like Evanilson remain viable if the attacking upside materializes.
+
+Brighton have emerged as an interesting option, with their projections increasing meaningfully since the beginning of the week. They now sit just above Leeds in the attacking rankings, though the difference remains minute. Harry specifically mentions Brighton's improved form and fixture outlook, suggesting they've become more favored with their current style of play and opponent quality. Leeds round out the top six with their double against Wolves (home) and Bournemouth (away), though Harry observes that their favorable home fixture against Wolves carries significantly more weight than the difficult away trip to Bournemouth.
+
+---
+
+## Clean Sheet Probability: Defense Still Matters
+
+Beyond raw goal projections, Harry analyzes clean sheet percentages across the double gameweek, providing FPL managers with a more complete picture of defensive asset value. Manchester City top this metric at 62 percent, a slight increase from earlier estimates reflecting growing confidence in their defensive performance against Arsenal.
+
+Leeds claim second position with a 52 percent chance of keeping at least one clean sheet, though Harry cautions that this figure is heavily skewed toward their home fixture against Wolves, where they hold approximately 40 percent clean sheet probability compared to just 22 percent away at Bournemouth. For managers considering heavy investment in Leeds defense—potentially triple-ups given their double status—the distribution of clean sheet probability suggests concentrating ownership on the home fixture rather than assuming returns across both games.
+
+The most notable shift in clean sheet projections involves Chelsea's away match at Brighton. Harry reports that odds have "started to swing in favor of Brighton scoring more goals" while Chelsea's clean sheet prospects have decreased accordingly. This development has pushed Brighton into third position for clean sheet probability at 41 percent, with Chelsea falling to 39 percent. For managers heavily invested in Chelsea defenders like Levi Colwill or Marc Cucurella, this news warrants reassessment of expectations.
+
+Bournemouth occupy a lower position on the clean sheet table at 15 percent away at Newcastle, though their home fixture against Leeds offers better prospects. Harry emphasizes that Bournemouth defenders remain viable picks despite their overall low clean sheet percentage because of their attacking potential—particularly if Huijsen and Sessegnon hit DFCON across both matches, which would unlock significant bonus point potential alongside clean sheet points.
+
+---
+
+## Captaincy Conundrums: Haaland Dominance Versus Differential Alternatives
+
+The captaincy question for gameweek 33 presents FPL managers with a familiar dilemma: back the apparent consensus or pivot toward differential options. Erling Haaland dominates the conversation, commanding approximately 80 percent of captaincy votes in Harry's YouTube poll—a figure Harry describes as "very high" and likely to translate into significant triple captain usage across the global FPL community.
+
+The case for Haaland remains compelling despite concerning underlying numbers. The Norwegian striker has managed just one open-play goal in his last ten Premier League matches, with his recent scoring sustained primarily by penalty conversions. However, Harry reminds viewers that Haaland scored a hat-trick against Liverpool in the FA Cup just two weeks ago, demonstrating that his goal-scoring ability transcends competition boundaries. Manchester City's 4.4 projected goals across the double—the highest of any team—translate to Haaland holding the highest probability for goals and assists combined, making him the statistically optimal captain choice.
+
+The data becomes more nuanced when examining FPL form statistics. Harry observes that his top four captaincy options all find themselves in "horrible form" regarding recent scoring returns, creating a situation where the apparent consensus pick lacks the momentum that would typically inspire confidence. When managers expand their search to differential alternatives, names like Danny Welbeck and Dominic Solanke emerge with superior recent goal-scoring form—particularly Welbeck, whose actual scoring record excluding penalties compares favorably to Cole Palmer when penalty contributions are stripped from the analysis.
+
+Cole Palmer represents the primary alternative for managers choosing to "go against" Haaland. Manchester United's defensive situation—without Lisandro Martínez and Harry Maguire through suspension, plus the likely absence of Kobbie Mainoo—creates an inviting fixture for Chelsea's set-piece specialists. Palmer's penalty involvement and consistent chance creation make him a viable captaincy option, though Harry notes that managers backing alternatives effectively need Haaland to blank, creating significant pressure on differential strategies.
+
+The Manchester City differential question extends beyond captaincy to ownership of attacking assets. Players like Kevin De Bruyne and Jeremy Doku offer genuine point-scoring potential if City outperform their projections, but Harry identifies the fundamental issue with these picks: managers are essentially backing Manchester City to score without backing Haaland, who remains the most likely individual beneficiary of any City goal-scoring opportunity. The opportunity cost of excluding Haaland for a City teammate represents a calculated risk that few managers can justify given Haaland's ownership and captaincy percentages.
+
+---
+
+## Press Conference Insights and Title Race Implications
+
+Beyond the immediate FPL considerations, the Manchester City press conference revealed context that shapes optimal decision-making for gameweek 33 and beyond. Guardiola's acknowledgment that the Arsenal match functions as a "final" for City's title hopes carries significant implications for team selection and rotation patterns across the double.
+
+If Manchester City lose to Arsenal—a result few observers predict—their title challenge effectively ends. Guardiola suggested this outcome would allow City to "rotate" in their subsequent fixture against Burnley, potentially preserving key players for the FA Cup semi-final against Southampton. However, Harry notes that Southampton's exceptional Championship form makes them a far more challenging opponent than their league position suggests, meaning City cannot afford complete complacency even with one eye on cup competitions.
+
+Conversely, if City win or draw against Arsenal, they maintain their title challenge with a game in hand against Crystal Palace still to be rescheduled. Harry mentions that Palace's progression to the next Europa League round on Thursday night creates a small possibility that the City-Palace fixture could be rescheduled imminently, though no formal announcement has emerged. This uncertainty adds another layer to FPL decision-making, as managers must consider not just gameweek 33 but the cascading effects on subsequent fixtures.
+
+The most likely scenario—City winning or drawing against Arsenal—suggests minimal rotation against Burnley, reinforcing the case for City assets across the double. Harry explicitly states he doesn't "expect much rotation against Burnley" if City maintain their title challenge, making Erling Haaland and company even more attractive for managers trying to maximize returns from this critical gameweek.
+
+---
+
+## Manchester United Defensive Crisis and Differential Opportunities
+
+Manchester United's fixture against Chelsea presents one of the most attractive attacking matchups of the double gameweek, but their defensive crisis creates both opportunities and complications for FPL managers. Harry reports that Martínez and Maguire are both suspended, while Kobbie Mainoo appears likely to miss the match through injury.
+
+This combination of absences significantly weakens United's defensive structure, creating genuine hope for Chelsea attackers beyond Cole Palmer. Harry specifically mentions Noni Madueke as an intriguing differential given his recent form and United's susceptibility to wide attacks. The broader implication is that Chelsea's attacking assets—regardless of their place in the offensive hierarchy—carry elevated expected value against a depleted United defense.
+
+For Manchester United themselves, Harry identifies Joao Pedro as a fascinating differential option. Leeds' defensive vulnerabilities became apparent during their Monday night match against Manchester United, and Joao Pedro's recent goal-scoring form arguably exceeds that of Cole Palmer when penalties are excluded from consideration. Managers seeking true differential captaincy options—or simply looking to maximize returns from their bench—might find Joao Pedro's ownership percentage too attractive to ignore.
+
+---
+
+## Harry's Strategy: Bench Boost Active and Final Recommendations
+
+Throughout the video, Harry weaves references to his own team strategy, culminating in the revelation that he has the bench boost chip active for gameweek 33. This personal approach demonstrates how all the analytical considerations—O'Reilly's fitness, fixture projections, captaincy decisions—combine into cohesive team management at the highest levels of FPL play.
+
+Harry confirms he maintains Nico O'Reilly in his squad despite the injury scare, viewing his availability as confirmed enough to justify retention. This decision reflects the broader principle that managers shouldn't overreact to minor injury concerns when the underlying data and managerial confirmation support continued ownership. Selling O'Reilly before his fitness was confirmed would have created unnecessary disruption and potentially cost managers the ability to capitalize on his double gameweek returns.
+
+The final recommendations balance the statistical optimality of Haaland captaincy against the strategic value of differential plays. Harry identifies Danny Welbeck as increasingly likely to start both matches in Brighton's double, with his form, minutes, and underlying data all supporting investment. However, he maintains that the captaincy choice ultimately narrows to two options: Haaland for maximum expected value, or Palmer for managers willing to accept higher variance in exchange for potential rank-altering differential returns.
+
+---
+
+## Detailed Takeaways
+
+**The O'Reilly situation resolves positively, but with qualification.** While Guardiola confirmed O'Reilly is available, managers should remain aware that playing both fixtures isn't guaranteed if the injury proves more troublesome than presented. However, given the title race stakes and the favorable double, O'Reilly remains a hold for existing owners rather than a sell. The distinction between "fine" and "fully fit across two matches" matters for those considering him for free hit or wildcard strategies.
+
+**Manchester City defense offers the best clean sheet-floor despite Arsenal fixture.** The 62 percent probability of at least one clean sheet across the double—combined with City's attacking potential—makes their defenders premium options. However, the distribution matters: City are more likely to keep their clean sheet against Burnley than Arsenal, suggesting that attacking assets carry more value from the Arsenal fixture while defensive assets derive more value from the Burnley fixture.
+
+**Brighton have emerged as genuine double gameweek targets.** Their improved projections represent the most significant shift in the analytical data, making them worth serious consideration alongside the traditional favorites like City and Chelsea. Danny Welbeck in particular deserves attention as a starter likely to play both matches with favorable underlying numbers.
+
+**The Haaland consensus is overwhelming but not irrational.** While 80 percent captaincy percentage creates uncomfortable rank correlation for differential managers, the statistical case for Haaland remains strong. Managers choosing alternatives need to accept that they require Haaland to blank rather than simply hoping their differential outperforms—a higher bar that limits the scenarios where going against the consensus pays off.
+
+**Leeds defense requires fixture-weighted ownership.** The 52 percent clean sheet probability masks significant fixture variance, with the home match against Wolves accounting for the majority of expected returns. Managers should consider this distribution when deciding how heavily to invest in Leeds defenders, potentially using their bench boost or free hit to concentrate ownership on the favorable fixture rather than spreading risk evenly across both matches.
+
+---
+
+## Who This Is For
+
+This comprehensive guide serves FPL managers across all commitment levels, though it delivers maximum value to those actively managing chips during the critical gameweek 33 window. Casual players who haven't engaged their wildcard or free hit will find the captaincy analysis and player recommendations useful for their regular squad management, while hardcore managers optimizing bench boost strategies will appreciate the granular fixture analysis and clean sheet probability breakdowns.
+
+The content proves particularly valuable for managers sitting on the fence regarding chip usage—those who haven't committed to a strategy but retain flexibility to act. Harry's synthesis of press conference information, updated projections, and strategic recommendations provides the framework these managers need to make confident decisions before deadline.
+
+Most importantly, this guide serves managers who understand that FPL success requires balancing statistical analysis with contextual interpretation. The title race implications, injury updates, and fixture-specific considerations all interact in ways that pure data cannot fully capture. Harry's approach—combining analytical rigor with practical experience—offers a model for FPL decision-making that viewers can apply to future gameweeks beyond gameweek 33.
