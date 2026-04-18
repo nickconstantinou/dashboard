@@ -161,10 +161,40 @@ var posts = [
   },
   {
     "date": "April 18, 2026",
+    "title": "FPL General\u2019s Haaland-less Free Hit for Gameweek 33",
+    "url": "2026-04-18-fpl-generals-haaland-less-free-hit-for-gameweek-33.html",
+    "category": "FPL",
+    "excerpt": "FPL General isn't loading up. He's Free Hitting around the big man entirely.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
     "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-18-pras-gameweek-33-team-selection-fantasy-premier-le.html",
     "category": "Blog",
     "excerpt": "#### The Symmetry of the Schedule",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "FPL in 5 minutes: All you need to know about Double Gameweek 33",
+    "url": "2026-04-18-fpl-in-5-minutes-all-you-need-to-know-about-double.html",
+    "category": "FPL",
+    "excerpt": "Here's where the game is won or lost: fitting premium assets around cheap enablers who still produce.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Brentford v Fulham team news: Robinson + King benched",
+    "url": "2026-04-18-brentford-v-fulham-team-news-robinson-king-benched.html",
+    "category": "Blog",
+    "excerpt": "Kelleher, Kayode, van den Berg, Collins, Lewis-Potter, Yarmoliuk, Jensen, Ouattara, Damsgaard, Schade, Thiago.",
     "tags": [
       "Blog"
     ]
@@ -191,6 +221,16 @@ var posts = [
   },
   {
     "date": "April 18, 2026",
+    "title": "The Pre-Match Preamble \u2013 Gameweek 33",
+    "url": "2026-04-18-the-pre-match-preamble-gameweek-33.html",
+    "category": "Blog",
+    "excerpt": "Check your O'Reilly news one last time. Then make the call and move on. Humanity's counting on you.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
     "title": "BENCH BOOST ACTIVE \ud83c\udf5f O'REILLY? \u267b\ufe0f MY FPL 33 TEAM SELECTION! \ud83d\udcf1 | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-18-bench-boost-active-oreilly-my-fpl-33-team-selectio.html",
     "category": "FPL",
@@ -207,6 +247,16 @@ var posts = [
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 18, 2026",
+    "title": "Best Bournemouth players for FPL Double Gameweek 33",
+    "url": "2026-04-18-best-bournemouth-players-for-fpl-double-gameweek-3.html",
+    "category": "FPL",
+    "excerpt": "Bournemouth's doubleheader pairs a trip to St James' Park with a home game against Leeds. Neither opponent inspires dread.",
+    "tags": [
+      "FPL"
     ]
   },
   {
