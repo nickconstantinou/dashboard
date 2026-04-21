@@ -94,7 +94,7 @@ var posts = [
     "title": "Dan Levy",
     "url": "2026-04-21-dan-levy.html",
     "category": "Blog",
-    "excerpt": "April 21, 2026 \u2022 AI/Tech",
+    "excerpt": "2026-04-21 \u2022 AI/Tech",
     "tags": [
       "Blog"
     ]
