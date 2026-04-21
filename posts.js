@@ -1,5 +1,265 @@
 var posts = [
   {
+    "date": "April 21, 2026",
+    "title": "FPL Gameweek 33 team news: Monday\u2019s live injury updates",
+    "url": "2026-04-21-fpl-gameweek-33-team-news-mondays-live-injury-upda.html",
+    "category": "FPL",
+    "excerpt": "> \"With Este, he's definitely out for tomorrow, which is a real shame. We're doing our further tests and investigation into his injury.\"",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Joao Pedro, Enzo, Estevao: Chelsea injury news for Brighton game",
+    "url": "2026-04-21-joao-pedro-enzo-estevao-chelsea-injury-news-for-br.html",
+    "category": "Blog",
+    "excerpt": "\"Joao will be a late call,\" Rosenior said. \"He was out on the pitch today and we'll make a decision on him tomorrow morning. So, a good positive, because he will be back sooner rather than later.\"",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Lose One's Temper | Planet FPL S. 9 Ep. 49 | GW33 Review | Fantasy Premier League",
+    "url": "2026-04-21-lose-ones-temper-planet-fpl-s-9-ep-49-gw33-review-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Crystal Palace v West Ham team news: Sarr benched again",
+    "url": "2026-04-21-crystal-palace-v-west-ham-team-news-sarr-benched-a.html",
+    "category": "AI/Tech",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-21",
+    "url": "2026-04-21-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-21 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Play Those Chips | #FPL GW32",
+    "url": "2026-04-21-play-those-chips-fpl-gw32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "I built a real 29 dollar per month SAAS with Insforge",
+    "url": "2026-04-21-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "How to Validate Great Business Ideas in Age of AI | My First Million",
+    "url": "2026-04-21-how-to-validate-great-business-ideas-in-age-of-ai-.html",
+    "category": "AI/Tech",
+    "excerpt": "2026-04-21 \u2022 Tech/Business",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-21-az-discusses-his-latest-draft-rank-history-pre-sea.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Dan Levy",
+    "url": "2026-04-21-dan-levy.html",
+    "category": "Blog",
+    "excerpt": "April 21, 2026 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "FPL PLAYERS TO BUY | GW34 \u2705",
+    "url": "2026-04-21-fpl-players-to-buy-gw34-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "FREE HIT ACTIVE \ud83d\udea8 MY FPL GW34 FREE HIT DRAFT! \ud83c\udccf| Fantasy Premier League 2025/26",
+    "url": "2026-04-21-free-hit-active-my-fpl-gw34-free-hit-draft-fantasy.html",
+    "category": "FPL",
+    "excerpt": "*Fantasy Premier League 2025/26*",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Why the Vikings refused to turn back: The psychology of great explorers | Lars Brownworth",
+    "url": "2026-04-21-why-the-vikings-refused-to-turn-back-the-psycholog.html",
+    "category": "Blog",
+    "excerpt": "2026-04-21 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Decision Making Process That Helped 19 Year Old Sell for $100M | My First Million",
+    "url": "2026-04-21-decision-making-process-that-helped-19-year-old-se.html",
+    "category": "Blog",
+    "excerpt": "2026-04-21 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "The Unreleased Rollable Smartphone!",
+    "url": "2026-04-21-the-unreleased-rollable-smartphone.html",
+    "category": "Blog",
+    "excerpt": "April 21, 2026 \u2022 Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Best Free Hit team for FPL Blank Gameweek 34",
+    "url": "2026-04-21-best-free-hit-team-for-fpl-blank-gameweek-34.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "The Weekender ep. 31 | Planet FPL 2025/26",
+    "url": "2026-04-21-the-weekender-ep-31-planet-fpl-202526.html",
+    "category": "FPL",
+    "excerpt": "James draws particular attention to the fact that Leeds dominated Manchester United at Old Trafford while missing key personnel, suggesting their ceiling remains high when fully operational.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "O'REILLY IS FINE \ud83d\udc4c FPL GW33 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-21-oreilly-is-fine-fpl-gw33-complete-guide-fantasy-pr.html",
+    "category": "FPL",
+    "excerpt": "Beyond attacking returns, clean sheet probabilities offer crucial guidance for managers deciding which defenders to prioritize this week.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-21-the-afterlife-according-to-vikings-valhalla-and-ra.html",
+    "category": "Blog",
+    "excerpt": "2026-04-21 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-21-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "#1 Habit Expert: Here's how you become dramatically better",
+    "url": "2026-04-21-1-habit-expert-heres-how-you-become-dramatically-b.html",
+    "category": "Blog",
+    "excerpt": "April 21, 2026 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Bluey Phone Review",
+    "url": "2026-04-21-bluey-phone-review.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Twin Doubles | #FPL DGW33",
+    "url": "2026-04-21-twin-doubles-fpl-dgw33.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Programming in the Age of AI: What You Need to Know",
+    "url": "2026-04-21-programming-in-the-age-of-ai-what-you-need-to-know.html",
+    "category": "AI/Tech",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "FPL notes: Gibbs-White hat-trick, Rodri injury + will Pep rotate?",
+    "url": "2026-04-21-fpl-notes-gibbs-white-hat-trick-rodri-injury-will-.html",
+    "category": "FPL",
+    "excerpt": "Morgan Gibbs-White went off. Nottingham Forest went absolutely wild.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 21, 2026",
+    "title": "Zophar's Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-21-zophars-gameweek-33-team-selection-fantasy-premier.html",
+    "category": "Blog",
+    "excerpt": "\"It could be a very flattish bench boost as well.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "April 18, 2026",
     "title": "The Weekender ep. 31 | Planet FPL 2025/26",
     "url": "2026-04-18-the-weekender-ep-31-planet-fpl-202526.html",
