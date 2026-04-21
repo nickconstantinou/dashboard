@@ -204,7 +204,7 @@ var posts = [
     "title": "#1 Habit Expert: Here's how you become dramatically better",
     "url": "2026-04-21-1-habit-expert-heres-how-you-become-dramatically-b.html",
     "category": "Blog",
-    "excerpt": "April 21, 2026 \u2022 Tech/Business",
+    "excerpt": "2026-04-21 \u2022 Tech/Business",
     "tags": [
       "Blog"
     ]
