@@ -1,5 +1,55 @@
 var posts = [
   {
+    "date": "April 22, 2026",
+    "title": "Twin Doubles | #FPL DGW33",
+    "url": "2026-04-22-twin-doubles-fpl-dgw33.html",
+    "category": "FPL",
+    "excerpt": "*Everything you need to know about the biggest DGW of the season*",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-22-pras-gameweek-33-team-selection-fantasy-premier-le.html",
+    "category": "Blog",
+    "excerpt": "The European Cup competitions introduce significant uncertainty into team selection, and PR breaks down the specific implications for each affected team.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
+    "url": "2026-04-22-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
+    "category": "Blog",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
+    "url": "2026-04-22-the-afterlife-according-to-vikings-valhalla-and-ra.html",
+    "category": "Blog",
+    "excerpt": "2026-04-22 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "Lose One's Temper | Planet FPL S. 9 Ep. 49 | GW33 Review | Fantasy Premier League",
+    "url": "2026-04-22-lose-ones-temper-planet-fpl-s-9-ep-49-gw33-review-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "April 21, 2026",
     "title": "FPL Gameweek 33 team news: Monday\u2019s live injury updates",
     "url": "2026-04-21-fpl-gameweek-33-team-news-mondays-live-injury-upda.html",
