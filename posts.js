@@ -31,6 +31,16 @@ var posts = [
   },
   {
     "date": "April 22, 2026",
+    "title": "Who is suspended in FPL \u2013 and can anyone still get a yellow card ban?",
+    "url": "2026-04-22-who-is-suspended-in-fpl-and-can-anyone-still-get-a.html",
+    "category": "FPL",
+    "excerpt": "So while the stat-sheet threat persists in the abstract, there's nothing actionable for FPL managers in either direction.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
     "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-22-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
     "category": "Blog",
@@ -51,8 +61,28 @@ var posts = [
   },
   {
     "date": "April 22, 2026",
+    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 34?",
+    "url": "2026-04-22-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
+    "category": "FPL",
+    "excerpt": "Those weren't lucky guesses. They were calculated projections based on shot volume, chance quality, and underlying numbers that historically precede regression.",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
     "title": "FPL PLAYERS TO BUY | GW34 \u2705",
     "url": "2026-04-22-fpl-players-to-buy-gw34-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "FREE HIT ACTIVE \ud83d\udea8 MY FPL GW34 FREE HIT DRAFT! \ud83c\udccf| Fantasy Premier League 2025/26",
+    "url": "2026-04-22-free-hit-active-my-fpl-gw34-free-hit-draft-fantasy.html",
     "category": "FPL",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
     "tags": [
@@ -65,6 +95,16 @@ var posts = [
     "url": "2026-04-22-lose-ones-temper-planet-fpl-s-9-ep-49-gw33-review-.html",
     "category": "FPL",
     "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "FPL Gameweek 33 team news: Tuesday\u2019s live injury updates",
+    "url": "2026-04-22-fpl-gameweek-33-team-news-tuesdays-live-injury-upd.html",
+    "category": "FPL",
+    "excerpt": "\"For tomorrow, he will not be ready,\" Guardiola said on Tuesday. \"Then we'll see the next games, the semi-final against Southampton or the one in 12-13 days against Everton.\"",
     "tags": [
       "FPL"
     ]
