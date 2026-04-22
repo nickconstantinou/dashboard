@@ -11,6 +11,16 @@ var posts = [
   },
   {
     "date": "April 22, 2026",
+    "title": "Play Those Chips | #FPL GW32",
+    "url": "2026-04-22-play-those-chips-fpl-gw32.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
     "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
     "url": "2026-04-22-pras-gameweek-33-team-selection-fantasy-premier-le.html",
     "category": "Blog",
@@ -37,6 +47,16 @@ var posts = [
     "excerpt": "2026-04-22 \u2022 AI/Tech",
     "tags": [
       "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "FPL PLAYERS TO BUY | GW34 \u2705",
+    "url": "2026-04-22-fpl-players-to-buy-gw34-.html",
+    "category": "FPL",
+    "excerpt": "Nick's Blog \u2014 Built with Griptide \ud83e\uddd9\u200d\u2642\ufe0f",
+    "tags": [
+      "FPL"
     ]
   },
   {

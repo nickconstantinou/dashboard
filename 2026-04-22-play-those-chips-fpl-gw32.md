@@ -1,0 +1,137 @@
+---
+title: "Play Those Chips | #FPL GW32"
+date: 2026-04-22
+type: youtube
+category: "FPL"
+video_id: "pu8vROgG5FQ"
+channel: "Who got the assist"
+video_url: "https://www.youtube.com/watch?v=pu8vROgG5FQ"
+---
+
+# Play Those Chips: A Comprehensive Guide to FPL Gameweek 32 Strategy
+
+## Introduction
+
+Welcome to this edition of Who Got the Assist?, the beloved Fantasy Premier League podcast hosted by Tom and Sam. This episode, recorded on Tuesday, April 7th, arrives at a pivotal moment in the FPL season—just as managers approach the business end of their campaigns. The discussion centers on chip strategy, wildcard deployments, and how the recent FA Cup results have dramatically reshaped the fixture landscape.
+
+Tom opens the episode under less-than-ideal circumstances, battling a chest infection that has left him "a bit croakier than usual." He jokes that his illness might have been caused by Arsenal's quadruple being halved down to a double following Southampton's stunning FA Cup victory over the Gunners. Sam joins in, gleefully admitting that this was "probably the most happy I've been watching football in a long, long time," comparing it to the playoff final excitement from a couple of years prior. The chemistry between the hosts remains infectious despite Tom's condition, with Sam offering to "take the lead" where needed.
+
+The episode addresses several critical questions facing FPL managers: How do the removed double game weeks affect our strategies? Which players offer the best value as we approach the season's climax? And, crucially, which wildcard strategies should we employ? The hosts also perform a live reveal of their own wildcard drafts, offering viewers a rare glimpse into their decision-making processes.
+
+---
+
+## Gameweek 31 Recap: Where We Stand
+
+### Tom's Performance
+
+Tom enters the episode having "clung on to top 100k" by the narrowest of margins. His gameweek 31 strategy involved three transfers, including a hit to his overall points total. He brought in Joao Pedro as a "coverage move," Wilson for his attacking potential, and Morgan Gibbs-White as a "vibes-based punt." This marked his first hit of the entire season—a significant admission given how conservative most successful managers tend to be with their chips.
+
+The weekend's frustration extended beyond Tom's transfer decisions. James Hill scored an own goal that "took off minus one," while he admits to benching TCHOUAMENI—who subsequently came on and scored just before Tom lost signal at the game. This painful sequence illustrates the brutal randomness of FPL, where even the most logical decisions can be undermined by timing and circumstance. "I think he played 44 games in a row before getting finally benched by Howe," Tom explains, clearly still annoyed at Newcastle manager Eddie Howe. "So, you're very glad Newcastle aren't in a double game week next 'cuz I just hate Eddie Howe's guts right now."
+
+Despite the setbacks, Tom remains "just inside top 100k," describing it as "a fine place to be" as he approaches chip season. His team is "pretty much gone now, apart from like two or three players," but he views this position as a solid foundation from which to launch his final assault on the rankings.
+
+### Sam's Performance
+
+Sam enjoyed what he describes as "a really good birthday" that resulted in a green arrow. He scored 63 points, climbing to 332k—a movement of approximately 50-60k places upward. Despite this success, Sam reveals a frustrating pattern: "I still haven't broken my streak of no top 1 million ranks in any single game week this season."
+
+The near-miss came down to a matter of points. If he'd secured the death con on Alderete, who played in one of the final games, Sam would have achieved his first top 1 million finish. "That would have been my first top 1 million rank of the season, but alas, no cigar," he reflects. This serves as a reminder about the importance of death con management, particularly for players with uncertain start statuses.
+
+Sam's key moves included bringing in Harry Wilson for his goal (captaining him), with Wilson picking up two bonus points. Morgan Rogers also delivered an assist, which was "very welcome news after a long period of blanking for him." Sam expresses relief at holding onto Rogers through his difficult spell.
+
+Perhaps most revealing is Sam's admission that his three transfers essentially amounted to wasted energy. "If I did nothing this week, started Elliot Anderson, captained Bruno Fernandes, I think I would have netted out at almost identical points." This confession highlights a crucial FPL truth: sometimes doing nothing produces nearly identical results to aggressive transfer-making, especially when the differentials don't materialize.
+
+---
+
+## The Fixture Landscape: How the FA Cup Reshaped Our Strategy
+
+### Arsenal and Newcastle: The Double That Never Was
+
+The episode's most significant revelation centers on how Southampton's FA Cup victory over Arsenal has fundamentally altered the fixture landscape. "We've removed a very likely double game week for Arsenal from the calendar and for Newcastle as well, which has had pretty significant knock-on effects to everyone's strategy," Tom explains.
+
+This news arrived during the Easter break, which Sam notes felt like "a proper lifetime ago" after the long gap between gameweeks. The removal of these doubles means managers who had planned around Arsenal and Newcastle assets must now pivot. Players who were expected to become essential during a double game week—potentially featuring twice in a single gameweek—are now far less attractive, at least in the traditional double-focused strategy.
+
+### The Six Doubles
+
+Sam clarifies that "there are six teams doubling" in the upcoming period, representing the primary source of chip strategy planning. This concentration of doubles creates both opportunity and risk, as managers must decide when to deploy their valuable chips to maximize returns from these fixture clusters.
+
+The discussion then turns to the West Ham-Leeds FA Cup fixture, which provided a pleasant surprise for many managers. "Whichever team progressed would actually get their fixture postponed, fixture moved forward into game week 33," Sam explains. "A lot of the predictors weren't necessarily expecting to happen, which was a nice surprise. It meant the double game week was a little bit bolstered."
+
+This scenario demonstrates how FPL managers must remain flexible, as even seemingly confirmed fixture information can change based on external circumstances—cup competitions, postponements, and scheduling conflicts all play their part.
+
+### Gameweek 36: The Likely Final Double
+
+One of the episode's key takeaways is that the final double game week appears destined for gameweek 36. While one fixture still needs to be placed somewhere else to create that double, the hosts suggest this feels like a certainty at this stage. This timeline gives managers a clear target date for planning their chip deployment, particularly those holding the wildcard or free hit chips.
+
+The implication is clear: those with viable teams now have more time to plan their wildcard activation, potentially waiting until information about later gameweeks becomes clearer before committing to transfers. This is a significant strategic consideration, as wildcarding too early can leave managers with outdated information about team news and fixture changes.
+
+---
+
+## Wildcard Strategy: Live Reveals and Thought Processes
+
+### Tom's Approach
+
+Tom reveals he "hit the button late yesterday," indicating he spent considerable time deliberating before committing to his wildcard. Interestingly, he mentions there was "another strategy I like the look of," but ultimately chose to proceed with the wildcard for reasons that "will become clear later" during the episode.
+
+Tom's wildcard decision comes after previously suggesting he might employ a different chip strategy altogether. This speaks to the dynamic nature of FPL decision-making—plans formulated weeks ago often must be abandoned when new information emerges. His late activation suggests he wanted to incorporate the latest possible information into his decisions, particularly regarding the fixture changes and player form.
+
+### Sam's Approach
+
+Sam reveals he hit his wildcard "quite a while ago," having spent more time thinking through his strategy earlier. This difference in approach—one manager acting decisively early, the other waiting until the last moment—highlights how there is no single correct way to deploy this powerful chip.
+
+The hosts then discuss the differences between their respective squads, noting they haven't actually viewed each other's teams yet. "We haven't actually looked at each other's drafts yet, so that will be interesting," Sam admits. This adds an element of surprise to their analysis, as they'll be discovering each other's strategies simultaneously with the audience.
+
+### The Chip Strategy Conversation
+
+Beyond discussing their own wildcards, the hosts engage in what they describe as "a general chat around all of those" chip strategies. They acknowledge that managers may have "a different combination of chips or a different chip team setup, which might mean a different chip strategy might be more suitable for you."
+
+This nuanced approach recognizes that FPL is not a one-size-fits-all endeavor. A manager sitting at 50k with multiple chips available will have different strategic options than someone at 2 million who has already used their bench boost. The discussion aims to cover the various scenarios managers might face, offering tailored advice for different situations.
+
+---
+
+## Form vs. Fixture: The Single Game Week Opportunity
+
+### When Singles Make Sense
+
+The episode includes a discussion about "whether there are some single game week players who could work well to differentiate us, but also other FPL players out there." This represents a strategic pivot from the conventional wisdom that only doubles matter in the season's closing weeks.
+
+Tom and Sam consider scenarios where investing in a player from a team without a double might actually be advantageous. If that player has exceptional form and favorable individual fixtures, they might outperform double-game-week players whose teams are facing tougher opposition. This is particularly relevant for captains—differential captain options from single-game-week teams can be the difference between gaining and losing ground in mini-leagues.
+
+### The Importance of Differentiation
+
+As the season reaches its climax, differentiation becomes increasingly valuable. When most managers are stacked with the same double-game-week assets, owning a unique player who delivers big points can be the key to climbing ranks. The hosts discuss how this principle applies not just to their own teams but to the broader FPL population—understanding what others are doing helps managers identify opportunities to exploit template strategies.
+
+---
+
+## Key Insights and Strategic Takeaways
+
+### 1. Fixture Changes Require Flexibility
+
+The removal of Arsenal and Newcastle doubles demonstrates how FPL strategy must remain fluid. Plans made weeks ago may no longer apply when cup results, postponements, or other factors alter the fixture landscape. Managers should continually reassess their strategies rather than rigidly adhering to original plans. Tom's approach of wildcarding at the last possible moment reflects this adaptive philosophy.
+
+### 2. Death Con Management Is Crucial
+
+Sam's near-miss on a top 1 million rank—lost by not having death con on the right player at the right time—illustrates the compounding value of death con decisions. In the final gameweeks, where every point matters immensely, ensuring your key players are protected with death con can be the difference between achieving and missing your season goals. This is especially important for players in teams with uncertain lineups or recent rotation patterns.
+
+### 3. Sometimes Doing Nothing Is Optimal
+
+Sam's confession that his aggressive transfer strategy produced nearly identical results to doing nothing highlights a critical point: action isn't always beneficial. Managers should evaluate whether their transfers actually improve their lineup rather than simply chasing the excitement of movement. With limited transfers remaining in the season, each decision carries heightened importance.
+
+### 4. Gameweek 36 Target Allows Extended Planning
+
+With the final double appearing to settle around gameweek 36, managers with viable teams have a window to wait and gather information before deploying their wildcard. This extended timeline rewards patience and information-gathering while still providing a clear deadline for action. However, managers in more precarious positions may need to wildcard earlier to remain competitive.
+
+### 5. Single Game Week Players Can Differentiate
+
+In a sea of double-game-week stacking, owning a differential from a single-game-week team can provide unique advantages. If that player has exceptional form and faces favorable opposition, they might outscore popular double-game-week options. This principle applies particularly to captaincy decisions, where going against the grain can yield significant mini-league advantages.
+
+---
+
+## Who Should Listen to This Episode
+
+This episode is essential listening for FPL managers anywhere between approximately 50k and 500k ranks who are preparing for the season's final stretch. The discussion around wildcard timing, chip deployment, and fixture planning is particularly valuable for those who still hold their wildcard and are deciding when to play it.
+
+ Managers who have already used their wildcard will still benefit from the form versus fixture discussion and the analysis of which single-game-week players might differentiate their squads. The conversation also provides insight into common strategy patterns, helping managers understand what their rivals are likely doing so they can exploit template choices.
+
+Those in head-to-head or draft formats will appreciate the discussion of captaincy options and differential plays, while mini-league competitors will find value in understanding how to gain advantages over opponents who might be following the crowd. Even managers outside the target rank range who simply want to improve their FPL knowledge will benefit from the hosts' thoughtful analysis of chip strategy dynamics.
+
+The episode strikes a balance between serious strategic discussion and the casual banter that makes the Who Got the Assist? podcast consistently engaging. Tom's illness adds an element of vulnerability that humanizes the hosts, while Sam's continued celebration of Southampton's victory injects genuine joy into what could otherwise be dry tactical analysis. This combination of expertise and personality makes the content both informative and entertaining—exactly what FPL managers need as they navigate the most important weeks of their seasons.
