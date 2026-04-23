@@ -1,5 +1,45 @@
 var posts = [
   {
+    "date": "April 23, 2026",
+    "title": "The Power of Habit Summarized by the Author | Charles Duhigg",
+    "url": "2026-04-23-the-power-of-habit-summarized-by-the-author-charle.html",
+    "category": "Blog",
+    "excerpt": "2026-04-23 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 23, 2026",
+    "title": "So This is Peak Smartphone",
+    "url": "2026-04-23-so-this-is-peak-smartphone.html",
+    "category": "Blog",
+    "excerpt": "Let's examine each pillar in detail.",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "#1 Habit Expert: Here's how you become dramatically better",
+    "url": "2026-04-22-1-habit-expert-heres-how-you-become-dramatically-b.html",
+    "category": "Blog",
+    "excerpt": "2026-04-22 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "Test",
+    "url": "2026-04-22-test.html",
+    "category": "Blog",
+    "excerpt": "Test",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
     "date": "April 22, 2026",
     "title": "Twin Doubles | #FPL DGW33",
     "url": "2026-04-22-twin-doubles-fpl-dgw33.html",
@@ -107,6 +147,16 @@ var posts = [
     "excerpt": "\"For tomorrow, he will not be ready,\" Guardiola said on Tuesday. \"Then we'll see the next games, the semi-final against Southampton or the one in 12-13 days against Everton.\"",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "April 22, 2026",
+    "title": "Dan Levy",
+    "url": "2026-04-22-dan-levy.html",
+    "category": "Blog",
+    "excerpt": "2026-04-22 \u2022 AI/Tech",
+    "tags": [
+      "Blog"
     ]
   },
   {
@@ -6725,6 +6775,16 @@ var posts = [
     "url": "sources.html",
     "category": "Blog",
     "excerpt": "Daily automated content for the blog",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "January 1, 2025",
+    "title": "25% Of My Portfolio Is One Overvalued Stock, Here's Why",
+    "url": "Wed, 22 Apr 2026 14:28:00 -0000-25-of-my-portfolio-is-one-overvalued-stock-heres-w.html",
+    "category": "Blog",
+    "excerpt": "Wed, 22 Apr 2026 14:28:00 -0000 \u2022 Tech/Business",
     "tags": [
       "Blog"
     ]
