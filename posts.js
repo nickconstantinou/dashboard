@@ -1,6 +1,16 @@
 var posts = [
   {
     "date": "April 23, 2026",
+    "title": "Supercommunicators Summarized by the Author | Charles Duhigg",
+    "url": "2026-04-23-supercommunicators-summarized-by-the-author-charle.html",
+    "category": "Blog",
+    "excerpt": "2026-04-23 \u2022 Tech/Business",
+    "tags": [
+      "Blog"
+    ]
+  },
+  {
+    "date": "April 23, 2026",
     "title": "The Power of Habit Summarized by the Author | Charles Duhigg",
     "url": "2026-04-23-the-power-of-habit-summarized-by-the-author-charle.html",
     "category": "Blog",
