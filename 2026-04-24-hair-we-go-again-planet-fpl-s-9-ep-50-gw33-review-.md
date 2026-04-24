@@ -1,0 +1,111 @@
+---
+title: "Hair We Go Again | Planet FPL S. 9 Ep. 50 | GW33 Review (Part 2) | Fantasy Premier League"
+date: 2026-04-24
+type: youtube
+category: "FPL"
+video_id: "KHISmdE6I_k"
+channel: "Planet FPL"
+video_url: "https://www.youtube.com/watch?v=KHISmdE6I_k"
+---
+
+# Hair We Go Again: Planet FPL Breaks Down GW33 Results and Previews Free Hit Strategy for Gameweek 34
+
+## Introduction
+
+The FPL season is hurtling toward its dramatic conclusion, and managers across the globe are navigating one of the most complex run-in periods in recent memory. In Episode 50 of Planet FPL Season 9, hosts David and James reconvened for a special midweek edition that blended gameweek 33 review with forward-looking strategy discussion. The episode arrived on the eve of a unique fixture situation—Manchester United versus West Ham served as a "hangover" match from the previous weekend, while most managers now turn their attention toward gameweek 34 with free hit chips ready to deploy.
+
+For those unfamiliar with the format, Planet FPL is one of the leading Fantasy Premier League podcasts, offering strategic analysis, game-by-game breakdowns, and draft team discussions. David and James bring distinct perspectives—David tends toward more conservative, proven strategies, while James has shown willingness to take calculated risks with differential picks. Both hosts have reached impressive heights this season, sitting in the top 20,000 overall, which makes their decision-making process particularly valuable to aspiring managers seeking to maximize their final rankings.
+
+The timing of this episode matters significantly because the blank gameweek 34—where several teams have no fixture—forces almost every committed manager to use their free hit chip. This creates a unique opportunity to reassess squad construction not just for this week, but with an eye toward the crucial gameweeks 35 and 36, where double gameweeks and favorable fixtures could separate the elite managers from the pack.
+
+## Gameweek 33 Results: Two Paths, Two Outcomes
+
+### David's Journey: The 124-Point Benchmark
+
+David entered the midweek fixtures in a strong position and emerged with a creditable 124 points—a score he acknowledges was competitive but notes that many managers achieved higher totals this gameweek. His team was built around a bench boost strategy, featuring double Brighton defense with Van Hecke and Van Hecke anchoring his backline. The double clean sheet from Brighton's fixtures proved valuable, though David admits the potential was there for even more substantial returns.
+
+Several individual performances shaped his night. Nico O'Reilly, who had been a slight injury doubt heading into the fixtures, ultimately secured two starts and contributed meaningfully to the Brighton clean sheets. David chose to captain Bruno Fernandes over the injured Pedro, a decision that paid off as Fernandes returned 26 points across the two gameweeks when combined with his captaincy. Tavenier delivered a solid nine-point haul, while Calvert-Lewin did his bit before James Hill appeared from the bench.
+
+The bench boost ultimately yielded 13 points—disappointing relative to expectations but understandable given the circumstances. As David explains, "There was no way of knowing that Cole Palmer and Pedro weren't going to turn up prior to the deadline," referring to the late injury news that disrupted many managers' plans. The hosts also discussed the infamous Chelsea team leak that emerged from Mark Kuchar's barber, though David clarifies the barber simply revealed the team news rather than injuring any players—the damage came from Enzo Maresca's unexpected selections.
+
+### James's Descent: From 14K to 19K
+
+James's gameweek 33 proved more painful, as he watched his overall rank drop from 14,000 to 19,000 despite finishing with 104 points. The experience highlighted a crucial truth about this phase of the season: with so many managers deploying chips like wildcards and bench boosts, even competent decision-making can result in falling ranks if others execute better.
+
+"I was always kind of liable to be a loser as a wild carder this week," James admits, recognizing that his wildcard deployment in gameweek 32 positioned him differently than managers who had used their chip earlier. His frustration was compounded by James Hill's performance on Monday night, where the defender accumulated two own goals—essentially negating any value Hill had provided in preceding gameweeks.
+
+James's biggest regret centers on the auto-substitution mechanics that cost him dearly. When Pedro was confirmed as not starting, Bruno Fernandes automatically subbed into his team, and James found himself forced to navigate a six-pointer against managers who had prepared differently. "As soon as he auto subbed back in, I kind of jumped back to where I was," James explains, but by then, competitors had already capitalised on the Tuesday night fixtures, particularly those with Brighton exposure.
+
+## The Brighton Boom: How Double Defense Changed Everything
+
+The episode spends considerable time analyzing Brighton's extraordinary double gameweek performance, which emerged as the defining factor separating successful from unsuccessful managers in GW33.
+
+Those who loaded up on Brighton defenders—particularly Van Hecke and Van Hecke—were rewarded handsomely. Pascal Gross delivered the standout performance, scoring and contributing to clean sheets across both fixtures. Danny Welbeck came off the bench to score a very late goal that added further value. The hosts calculate that having both Braun and Gross on your bench would have yielded approximately 24 additional points—essentially the difference between a green arrow and a significant red one.
+
+David reflects on this from his own perspective: "So that's 24 points just from those two players. That's essentially the difference." He acknowledges that if he had set up his bench boost optimally, he would have included Braun and Gross in his starting eleven rather than on the bench, potentially transforming his bench boost score from 13 points to something substantially higher.
+
+The success of Brighton assets raises broader questions about fixture planning. As James notes, "Brighton have really delivered 32 and 33." The fixtures that appeared attractive when planning—the double gameweek against Bournemouth and Arsenal—delivered exactly as hoped. This success story extends to differential picks like Kadoglu, who some managers selected as a budget option, and Morgan Gibbs-White, who continued his strong form for Nottingham Forest.
+
+## The Strategy Debate: Wildcard Timing and Chip Deployment
+
+The hosts engage in a fascinating retrospective analysis of wildcard timing decisions, which has become one of the most debated topics in FPL circles this season.
+
+David admits that his alternative wildcard strategy in GW32—the one he described as "stitching James up" by going a different direction—ended up scoring essentially the same points as his original team. "The real one would have basically scored the same as my team that I had in gameweek 32. I think one point swing basically no difference," he explains. This admission is significant because it suggests that for many managers, the stress and complexity of wildcard decision-making may not yield substantial advantages over holding steady.
+
+James takes a different view, suggesting that the wildcard-plus-bench-boost combination worked well for the majority of managers who employed it. "For those who wild carded 32 and bench boost 33, for the majority of you, you've won," he asserts. The reasoning is straightforward: the teams managers wanted to target—Brighton, Chelsea, Bournemouth, Manchester City—all performed well in the double gameweeks, meaning the theoretical edge translated into practical points.
+
+However, James acknowledges a limitation that emerges every season: "This kind of comes up every year about oh you know surely there'll be some single gameweek players. The reality is though it's hard to find the single gameweek players that will do well in a double gameweek." This reflects a fundamental tension in FPL strategy—the desire to use blank gameweeks as opportunities to load up on double gameweek players often means carrying assets that contribute nothing in the blank itself.
+
+## Manchester United vs West Ham: The Monday Hangover Fixture
+
+The episode briefly reviews the Manchester United versus West Ham match that technically belonged to the previous gameweek but was played Monday night, affecting late-transfer-window decisions.
+
+The hosts found the match somewhat underwhelming, with both teams generating less than one expected goal (xG) and creating only one big chance between them. James notes that a draw was probably the correct outcome, and David observes that "it would have been harsh on West Ham if they lost." Neither side showed the form that would make their assets attractive for free hit considerations, though managers with Bruno Fernandes or Mohammed Kudus will have monitored the fixture for captaincy purposes.
+
+## The Free Hit Conundrum: Planning for GW34 and Beyond
+
+With gameweek 34 presenting a blank for several teams—including Chelsea, whose situation the hosts acknowledge deserves attention without dwelling on it extensively—the discussion turns to free hit strategy.
+
+The key decision points for free hit teams include:
+
+**Pedro and Cole Palmer availability**: Both Chelsea assets are likely unavailable for the GW34 fixture but may return for the cup semi-final on Sunday. James notes the vibe in the community suggests both will be available for that match. The question becomes whether to invest free hit capital in Chelsea assets now or wait until their fixtures become more favorable in GW35, when Chelsea faces a more forgiving schedule.
+
+**Future fixture planning**: Much of the free hit discussion acknowledges that GW34 is somewhat transitional. The real strategic consideration is GW35, where Chelsea players and Brighton players—both crucial to recent strategies—may offer improved opportunities. The hosts preview that their free hit drafts will consider not just this week's fixtures but the cascading implications for the season's final stretch.
+
+**Differential opportunities**: Managers willing to take risks might find value in players like Morgan Gibbs-White or Ollie Watkins, whom fewer managers have retained through the recent wildcards. James notes that "at least you didn't sell those two players on wildcard David," suggesting that certain premium assets have become de facto holds that separate the differential hunters from the template builders.
+
+## Key Strategic Takeaways
+
+### The Bench Boost Gap: Timing and Execution Matter More Than Expected
+
+David's revelation that having Braun and Gross on his bench rather than in his starting XI cost him approximately 24 points underscores a crucial truth about chip execution. The difference between a good bench boost and a great one often lies not in the chips you play but in how you construct the squad around them. Managers who planned to start Brighton assets rather than bench them likely experienced a materially different gameweek 33. The lesson here is that bench boost strategy should begin during wildcard planning, not at the Sunday deadline when it's too late to adjust.
+
+### Rank Inflation Makes Red Arrows Feel Worse Than They Are
+
+James dropped from 14K to 19K despite scoring 104 points—a solid return by most measures. His observation that being in the top 800,000 and still seeing a red arrow illustrates how chip usage concentrates the top of the leaderboard. "It shows how many people at the top end of the engaged community are obviously playing chips," he explains. Managers should calibrate their expectations accordingly: a red arrow in a chip-heavy gameweek doesn't necessarily indicate poor decisions but rather that competitors were better positioned.
+
+### Template Teams May Outperform Differentials in Double Gameweeks
+
+James's statement that "for those who wild carded 32 and bench boost 33, for the majority of you, you've won" carries an important implication. The teams most managers wanted—Brighton, Bournemouth, Manchester City—delivered. This suggests that in high-variance situations like double gameweeks, the theoretical efficiency of template teams can match or exceed the gains from differentials. The risk-reward calculation for differentials may shift when fixtures are favorable for the most popular assets.
+
+### Long-Term Asset Value Trumps Short-Term Gamesmanship
+
+Both hosts acknowledge that carrying premium assets like Cole Palmer, Pedro, Ollie Watkins, and Morgan Gibbs-White through the wildcard has opportunity costs but preserves optionality. With 35 potentially offering good fixtures for these teams, managers who haven't sold these players maintain flexibility that could prove valuable in the final stretch. The discussion around whether to free hit Chelsea assets reflects this tension: immediate returns must be weighed against future fixture schedules.
+
+### Single Gameweek Players Rarely Justify Double Gameweek Investment
+
+James's observation that "it's hard to find the single gameweek players that will do well in a double gameweek" articulates a persistent challenge in FPL chip strategy. Managers who load their bench with single gameweek players to maximise a double gameweek often discover that the marginal players they acquired don't perform as well as expected. The lesson is that bench construction for double gameweeks should prioritize players who might play anyway—Brighton's success this week partly reflects their underlying form rather than mere fixture certainty.
+
+## Who Benefits Most from This Episode
+
+This episode of Planet FPL serves managers in the upper echelons of the game most directly. Those sitting between 5,000 and 50,000 overall will find the chip strategy discussion particularly valuable, as this is the range where managers are most likely to be actively managing their teams and deploying chips strategically. The detailed analysis of how specific player decisions—particularly the Braun and Gross choices—created point differentials helps managers understand the margins that separate green arrows from red ones.
+
+Mid-tier managers (50,000 to 200,000) will benefit from the broader strategic framework around wildcard timing and the acknowledgment that many managers who made sensible decisions still experienced negative outcomes due to chip concentration at the top. The episode provides reassurance that rank movements in chip-heavy gameweeks may reflect competitive dynamics rather than individual errors.
+
+Both hosts demonstrate the importance of reviewing decisions objectively: David's honest assessment of his bench boost execution and James's acceptance of his rank drop illustrate the psychological discipline required to navigate the season's final phase. For managers seeking to improve their decision-making process, watching how experienced managers evaluate their own choices offers educational value beyond any specific tactical recommendation.
+
+## Looking Ahead to Gameweek 35 and the Season's Final Stretch
+
+The episode concludes with preview content pointing toward GW35, where Chelsea's improved fixture run and Brighton's continued involvement in European competition could create further double gameweek opportunities. Both hosts signal that their free hit discussions will prioritise players who maintain value through the season's end rather than purely reacting to immediate fixture swings.
+
+For committed FPL managers, the message is clear: the decisions made around the blank gameweek 34 will shape squads for the crucial GW35 and GW36, where the remaining double gameweeks and favorable fixtures will determine final rankings. Those who plan with both immediate and long-term horizons—preserving assets like Cole Palmer and Pedro while exploiting free hit flexibility—position themselves best for the season's final push.
