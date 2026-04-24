@@ -91,16 +91,6 @@ var posts = [
   },
   {
     "date": "April 24, 2026",
-    "title": "Test",
-    "url": "2026-04-24-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "April 24, 2026",
     "title": "The Scout Squad: Our top picks for FPL Gameweek 34",
     "url": "2026-04-24-the-scout-squad-our-top-picks-for-fpl-gameweek-34.html",
     "category": "FPL",
@@ -261,16 +251,6 @@ var posts = [
   },
   {
     "date": "April 23, 2026",
-    "title": "Test",
-    "url": "2026-04-23-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "April 23, 2026",
     "title": "The Power of Habit Summarized by the Author | Charles Duhigg",
     "url": "2026-04-23-the-power-of-habit-summarized-by-the-author-charle.html",
     "category": "Tech/Business",
@@ -387,16 +367,6 @@ var posts = [
     "excerpt": "# Pras' Gameweek 33 Team Selection | Fantasy Premier League Tips 2025/26 --- ## Introduction The Fantasy Premier League landscape has reached one of its most critical junctures of the season, and for ",
     "tags": [
       "FPL"
-    ]
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Test",
-    "url": "2026-04-22-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
     ]
   },
   {
@@ -617,16 +587,6 @@ var posts = [
     "excerpt": "# Programming in the Age of AI: What You Need to Know ## Introduction Hitesh, a GitHub Star, opens this video with a candid acknowledgment: this is an important conversation he personally wanted to ha",
     "tags": [
       "Tech"
-    ]
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Test",
-    "url": "2026-04-21-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
     ]
   },
   {
@@ -1687,16 +1647,6 @@ var posts = [
     "excerpt": "# Leeds United Injury Crisis Deepens Ahead of Crucial Double Gameweek ## Multiple key players ruled out as Leeds face potential fixture pile-up Leeds United manager Daniel Farke has confirmed that mid",
     "tags": [
       "FPL"
-    ]
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "Test",
-    "url": "2026-04-10-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
     ]
   },
   {
@@ -2917,16 +2867,6 @@ var posts = [
   },
   {
     "date": "April 01, 2026",
-    "title": "Test",
-    "url": "2026-04-01-test.html",
-    "category": "AI",
-    "excerpt": "Summary",
-    "tags": [
-      "AI"
-    ]
-  },
-  {
-    "date": "April 01, 2026",
     "title": "The top-scoring FPL XI of 2026 so far",
     "url": "2026-04-01-the-top-scoring-fpl-xi-of-2026-so-far.html",
     "category": "FPL",
@@ -3233,16 +3173,6 @@ var posts = [
     "excerpt": "# Why NVIDIA is Years Ahead: Jensen Huang's Vision for the Future of AI Infrastructure ## Introduction In a revealing conversation that offers rare insight into the strategic thinking behind one of th",
     "tags": [
       "AI/Tech"
-    ]
-  },
-  {
-    "date": "February 25, 2026",
-    "title": "Test Video",
-    "url": "2026-02-25-test-video.html",
-    "category": "AI",
-    "excerpt": "This is a **test** summary.",
-    "tags": [
-      "AI"
     ]
   },
   {
