@@ -1,5 +1,5 @@
 ---
-title: "Greenland in not "Green": The Viking origin story of the name | Lars Brownworth and Lex Fridman"
+title: 'Greenland in not "Green": The Viking origin story of the name | Lars Brownworth and Lex Fridman'
 date: 2026-04-12
 type: youtube
 category: "AI/Tech"

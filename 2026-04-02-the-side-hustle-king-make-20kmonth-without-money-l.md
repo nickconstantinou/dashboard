@@ -1,5 +1,5 @@
 ---
-title: "The Side Hustle King: "Make $20K+/month without money, luck, or experience""
+title: 'The Side Hustle King: "Make $20K+/month without money, luck, or experience"'
 date: 2026-04-02
 type: youtube
 category: "Tech/Business"

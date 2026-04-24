@@ -101,11 +101,6 @@
         
         <div class="filter-bar" id="filters">
             <button class="filter-btn active" data-cat="all">All</button>
-            <button class="filter-btn" data-cat="FPL Roundups">FPL Roundups</button>
-            <button class="filter-btn" data-cat="FPL">FPL</button>
-            <button class="filter-btn" data-cat="Tech">Tech</button>
-            <button class="filter-btn" data-cat="Business">Business</button>
-            <button class="filter-btn" data-cat="Sports">Sports</button>
         </div>
         
         <div id="posts">
@@ -114,16 +109,29 @@
         
         <footer>
             <p>Built with OpenClaw • Auto-updated daily</p>
-        <div id="loading" onclick="renderPosts()">Load More</button>
-</footer>
+            <button id="loadMore" type="button">Load More</button>
+        </footer>
     </div>
     
     <script type="module">
         let allPosts = [];
-        
+
         let currentFilter = 'all';
         let currentPage = 0;
         const PAGE_SIZE = 30;
+        const categoryPriority = ['FPL Roundups', 'FPL', 'AI/Tech', 'Tech/Business', 'Tech', 'AI', 'Blog'];
+
+        function getFilteredPosts() {
+            return currentFilter === 'all'
+                ? allPosts
+                : allPosts.filter(p => (p.category || 'Blog') === currentFilter);
+        }
+
+        function updateLoadMoreVisibility() {
+            const loadMore = document.getElementById('loadMore');
+            if (!loadMore) return;
+            loadMore.style.display = currentPage * PAGE_SIZE < getFilteredPosts().length ? 'block' : 'none';
+        }
 
         function renderPosts(filter) {
             if (filter !== undefined) {
@@ -133,10 +141,7 @@
             }
 
             const container = document.getElementById('posts');
-            const filtered = currentFilter === 'all'
-                ? allPosts
-                : allPosts.filter(p => p.category && p.category.includes(currentFilter));
-
+            const filtered = getFilteredPosts();
             const start = currentPage * PAGE_SIZE;
             const page = filtered.slice(start, start + PAGE_SIZE);
 
@@ -144,6 +149,7 @@
                 if (currentPage === 0) {
                     container.innerHTML = '<div class="loading">No posts found</div>';
                 }
+                updateLoadMoreVisibility();
                 return;
             }
 
@@ -156,29 +162,48 @@
             }
             container.insertAdjacentHTML('beforeend', html);
             currentPage++;
+            updateLoadMoreVisibility();
         }
-        
-        // Filter buttons
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.onclick = () => {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                renderPosts(btn.dataset.cat);
-            };
-        });
-        
-        // Load posts
+
+        function buildFilters() {
+            const filters = document.getElementById('filters');
+            const seen = new Set();
+            const categories = allPosts
+                .map(p => p.category || 'Blog')
+                .filter(cat => {
+                    if (seen.has(cat)) return false;
+                    seen.add(cat);
+                    return true;
+                })
+                .sort((a, b) => {
+                    const ai = categoryPriority.indexOf(a);
+                    const bi = categoryPriority.indexOf(b);
+                    if (ai !== -1 || bi !== -1) {
+                        return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
+                    }
+                    return a.localeCompare(b);
+                });
+
+            filters.innerHTML = '<button class="filter-btn active" data-cat="all">All</button>' +
+                categories.map(cat => `<button class="filter-btn" data-cat="${cat}">${cat}</button>`).join('');
+
+            filters.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.onclick = () => {
+                    filters.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    renderPosts(btn.dataset.cat);
+                };
+            });
+        }
+
+        document.getElementById('loadMore').onclick = () => renderPosts();
+
         const resp = await fetch('posts.js?v=' + Date.now());
         const jsCode = await resp.text();
         const postsMatch = jsCode.match(/var posts = ([\s\S]*);/);
         if (postsMatch) allPosts = JSON.parse(postsMatch[1]);
-        
-        // Extract categories from posts
-        const cats = new Set();
-        allPosts.forEach(p => {
-            if (p.category) cats.add(p.category);
-        });
-        
+
+        buildFilters();
         renderPosts();
     </script>
 </body>
