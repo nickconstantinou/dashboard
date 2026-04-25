@@ -11,6 +11,16 @@ var posts = [
   },
   {
     "date": "April 25, 2026",
+    "title": "FPL notes: Gibbs-White\u2019s form, Forest 4-4-2 + Sunderland drop-off",
+    "url": "2026-04-25-fpl-notes-gibbs-whites-form-forest-4-4-2-sunderlan.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Gibbs-White's Red-Hot Form and Forest's Tactical Setup ## Morgan Gibbs-White Continues Explosion Morgan Gibbs-White remains one of Fantasy Premier League's most essential assets. The Nott",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 25, 2026",
     "title": "Glass is glass",
     "url": "2026-04-25-glass-is-glass.html",
     "category": "Tech",
