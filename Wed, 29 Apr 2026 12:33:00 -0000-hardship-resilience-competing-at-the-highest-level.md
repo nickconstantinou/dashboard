@@ -1,0 +1,141 @@
+---
+title: Hardship, Resilience & Competing at the Highest Level | Ken Rideout
+date: Wed, 29 Apr 2026 12:33:00 -0000
+type: podcast
+category: Health/Science
+video_id: SCIM9345795529.mp3
+channel: Perform with Dr. Andy Galpin
+video_url: https://traffic.megaphone.fm/SCIM9345795529.mp3
+---
+
+<p># Hardship, Resilience & Competing at the Highest Level: The Ken Rideout Story
+
+---
+
+## Key Insights
+
+- **Zero-to-155 in four weeks:** Rideout had never completed an ultra-marathon before signing up for the 155-mile, six-day self-supported Racing the Planet event in Mongolia, yet he won the entire race — defeating experienced ultra-runners including a Swiss mountaineer (Reinhold Hugo) and an Israeli special forces soldier (David Denno).
+
+- **Tactical race execution over raw fitness:** Despite lacking ultra-specific training, Rideout won a stage by 90 minutes by psychologically destabilizing competitors — specifically telling David Denno mid-race "I never get tired, and I feel fucking great today," after which Denno began walking and lost his competitive edge.
+
+- **Heart rate metrics are irrelevant to elite performance:** Rideout explicitly rejects data-driven training approaches, noting he "never get tired" based on perceived effort rather than physiological monitoring — a perspective that challenges conventional sports science orthodoxy.
+
+- **Marathon tactics over talent:** Despite running only a 2:28 marathon personally (while competitors ran 2:25), Rideout won the 50-and-over world championship in Tokyo by outmaneuvering faster runners tactically — finishing less than a minute ahead of two athletes who had run three minutes faster than his personal best.
+
+- **Mental framework as primary weapon:** Rideout describes how stepping onto the plane to Mongolia triggered existential fear ("I wanted to cry"), which he deliberately reframed through self-talk: "Whatever you think in your mind is the truth... it's much more fun to picture yourself the hero than the goat."
+
+---
+
+## Introduction
+
+Andy Galpin opens the Perform podcast by positioning this conversation as something genuinely different — a guest who defies categorization. Ken Rideout is an author, elite endurance athlete, and what Galpin describes as "a tremendous storyteller." The conversation that follows traverses terrain rarely explored in sports science contexts: the raw, unfiltered psychology of someone who has lived multiple lives within one lifetime.
+
+Rideout's trajectory reads like fiction. Born into severe hardship as a child, he achieved early career success, accumulated millions of dollars, and then spent a decade battling drug addiction before rebuilding himself into one of the most accomplished endurance athletes on the planet. His book — *Everything You Want's on the Other Side of Hard* — encapsulates the philosophy that has guided his second act: nothing worth having comes without suffering.
+
+The centerpiece of this conversation is Rideout's experience at the Racing the Planet event in Mongolia — a 155-mile, six-day self-supported stage race across some of the world's most unforgiving terrain. The race required competitors to carry everything they needed plus mandatory safety equipment while navigating pastures, uneven footing, and extreme conditions. Rideout had zero ultra-marathon experience. He had four weeks of preparation. He won the entire race by a commanding margin.
+
+What makes this story extraordinary isn't just the physical accomplishment — it's the psychological architecture Rideout reveals throughout the conversation. His approach to fear, self-doubt, competition, and personal narrative offers lessons that transcend athletics entirely. Galpin notes that despite lacking technical knowledge about training metrics, Rideout delivers something more valuable: inspiration and a window into the mindset that separates those who compete from those who win.
+
+---
+
+## Key Concepts & Arguments
+
+### The Mongolia Decision: Audacious Belief Meets Calculated Risk
+
+Rideout's path to the Mongolia race began through a connection with Scott DeRue, then CEO of Equinox (now CEO of Ironman), who called to discuss running mechanics. During the conversation, DeRue mentioned the Racing the Planet event — a multi-stage ultramarathon series held across extreme deserts worldwide.
+
+The moment Rideout heard about the race, something shifted. He describes his internal response not as "I'm going to do this" but as "I'm winning that." This distinction matters enormously. Rideout explains that when he started winning races in his late forties, "I never did another race not thinking I could win in some way, shape, or form — some capacity." Whether competing in age-group divisions at World Marathon Majors or winning the Myrtle Beach Marathon the day before his 50th birthday outright in 2:30, Rideout had developed an identity around victory rather than participation.
+
+His justification for attempting a 155-mile race on four weeks notice reveals strategic thinking. Rideout's reasoning centered on a fundamental truth about endurance: "I know there's no way that someone had cumulatively more miles run than me." He understood that while ultra runners might possess specialized knowledge and training protocols for extreme events, raw endurance capacity could compensate. His logic was straightforward: "I know I have endurance, and I know I have toughness, and I know I can acquire the knowledge about what to bring, what to do, and the rest is experience — and experience counts for everything in marathoning, Ironman."
+
+This approach reflects what Rideout calls "the mediocrity trap." Earlier in the conversation, he reflects that "I had tried the mediocre route in life... and it didn't pay very well, meaning it wasn't very fulfilling. The only things that have been fulfilling to me as a person, as a man, has had come with suffering and struggling." The Mongolia race represented another iteration of this philosophy — choosing difficulty over comfort because difficulty delivers meaning.
+
+### The Art of Psychological Warfare in Competition
+
+What distinguishes Rideout's Mongolia performance isn't just fitness — it's his deliberate deployment of psychological tactics during competition. The race included elite competitors: Hugo Reinhold, described as a Swiss mountaineer and "superstar athlete" who held a 12-minute lead at one point, and David Denno, an Israeli soldier described as "just a real tough guy. Little tiny guy, but just a savage."
+
+During a 50-mile stage, Rideout executed what he describes as a calculated psychological move. Running alongside Denno, he made eye contact and delivered a message: "You know something? I never get tired, and I feel fucking great today. Let's do this." The effect was immediate and measurable. Looking back minutes later, Rideout saw Denno walking — a telltale sign of psychological disengagement. "I look back and he was walking, and he's been a competitor. He came in second, I think, overall in this race."
+
+The result was decisive. Rideout won that stage by 90 minutes. "That day, I won that stage by ninety minutes and ended up winning the race." This performance illustrates his core belief: competing at the highest level requires more than physical preparation. It demands emotional architecture that can destabilize opponents while maintaining personal momentum.
+
+### The Four-Week Preparation: What Rideout Did (And Didn't Do)
+
+Galpin probes the preparation strategy, and Rideout's answers reveal counterintuitive wisdom. He had zero ultra-marathon experience. His longest previous race was a standard marathon at 26.2 miles — roughly one-sixth of the Mongolia distance. He didn't know how to select camping food, had no experience hunting, and had never been camping as an adult.
+
+What did he do? He bought backpacks and began running with 20 pounds of simulated weight (water and towels) in Nashville. He researched extensively to determine "what the hell do I need, what do I eat?" He discovered freeze-dried camping food and learned basic logistics for self-supported racing.
+
+Critically, Rideout explicitly rejected conventional training metrics. "Everything with me is never heart rate. It's all perceived effort." He didn't structure his preparation around physiological data or structured periodization. Instead, he relied on accumulated endurance from his marathon and Ironman background — what he calls "cumulative miles" as his competitive advantage.
+
+This approach reveals Rideout's philosophy about expertise: "You just don't know what you don't know... people go into Hawaii saying, 'oh, so hot and so windy.' I'm like, yeah. No shit. Same thing every year. Never changes. You did exactly what everyone else did. Welcome to the fucking world." Experience can't be simulated; it must be earned through direct participation.
+
+### The Flight to Mongolia: Fear as Catalyst
+
+The journey to Mongolia provided Rideout's most revealing psychological moment. He describes his wife driving him to the airport: "Yo, you excited for Mongolia?" His response was blunt: "No, I'm not excited. I'm feeling more of the effing electric chair. What have I done?"
+
+Walking onto the plane, Rideout experienced what he describes as almost uncontrollable fear: "I wanted to cry... like, my parents just dropped me off at summer camp, and I'm like, you guys are leaving me here? And I'm walking to the walking the plank."
+
+The transformation came through conscious reframing. Rideout decided: "You know what? F this. I'm no victim, and I'm not gonna get bullied around by anyone." He explains the principle explicitly: "Whatever you think in your mind is the truth. If you think that you're scared and you're gonna get killed, then maybe so. But if you think you can kill everyone else and you can go and dominate, then that might be true too. And it's much more fun to picture yourself the hero than the goat."
+
+This moment crystallizes Rideout's core psychological framework. He doesn't deny fear; he weaponizes it. He doesn't pretend discomfort doesn't exist; he reinterprets it through an identity of strength. The contrast between his emotional reality (terror) and his chosen self-talk ("I'm no victim") reveals the gap between experienced emotion and chosen response — and the power of choosing response over reaction.
+
+### The Mental Game: Perception Over Data
+
+Throughout the conversation, Rideout consistently positions mental approach as more valuable than physiological optimization. He jokes that this will be "the least technical conversations you've ever had on the Perform podcast" due to his "lack of information about heart rate, all my training metrics."
+
+His philosophy centers on perceived effort rather than metrics. When Galpin asks about his preparation, Rideout responds: "So let's say at the time and I was in shape. And my rationale is... everything with me is never heart rate. It's all perceived effort." This perspective challenges conventional sports science — the field Galpin represents — by suggesting that internal calibration matters more than external measurement.
+
+Rideout does acknowledge his limitations: "I'm a big baby when I travel. Like, I wanna stay at the Four Seasons. I don't try to pretend to be a hard guy... I don't wanna rough it. I roughed it my whole first half of my life. I'm done with roughing." This self-awareness adds dimension to his toughness — it's chosen rather than inherent. He has experienced real hardship (his battle with addiction, childhood adversity) and knows the difference between performed difficulty and actual suffering.
+
+### The Camping Anxiety: Noble Suffering vs. Mundane Discomfort
+
+Rideout reveals a telling detail about his psychological state before the race. Despite being comfortable with extreme physical exertion, his anxiety centered on the accommodation: "I'm thinking, I start running with the backpacks, trying different ones in Nashville... 20 pounds is effing heavy." He describes his main concern as "waiting in the line to board the airplane and sleeping in a sleeping bag" — not the 155-mile race itself.
+
+Why? Rideout explains: "I'm comfortable with, like, physical suffering. That part is, like, there's almost, like, some salvation there. It's almost like a noble cause. There's nothing noble about sleeping uncomfortably." This distinction reveals his framework for meaning: suffering that serves a purpose (racing, competition, self-improvement) is acceptable. Suffering without purpose (uncomfortable camping) is to be avoided.
+
+The irony isn't lost on Rideout: "Even thinking about it now, I couldn't I couldn't get out of my mind. I'm like, I can't believe I'm doing this. That part's okay... No. Because that was, like, I'm comfortable with, like, physical suffering... I'm not worried about the 155 miles you're about to race." His psychological energy was misdirected toward trivial discomfort while ignoring the massive challenge ahead — a pattern he recognizes in hindsight but couldn't control in the moment.
+
+### Competition as Recognition: The Field Effect
+
+Rideout describes arriving at the race as an outsider with no established reputation in ultra-running. "I definitely didn't feel like part of the crowd... I didn't probably didn't say two words to people for the first, like, day and a half."
+
+The dynamic shifted once competitors learned his background. "And then once we got the thing and people started to say, oh, that guy is like, you know, blah blah blah, he's this is who that guy is." One competitor, Killian Ryan (whose family owns Ryanair), offered tactical advice after Rideout's poor first stage performance: "Those guys think that they're gonna wear you down every day. They know you're a marathoner and don't have experience with this."
+
+Rideout's response reveals his psychological approach: "I'm like, they're gonna wear me down? No one fucking wears me down. I'm killing everyone." He acknowledges this was partly self-deception — "Even though I was, like, I'm gonna get killed. I was just trying to project and, like, I was almost subconsciously trying to talk myself in to the place where I knew I had to get to emotionally."
+
+This reflects his earlier principle: "Whatever you think in your mind is the truth." Projecting dominance wasn't accurate prediction — it was emotional preparation for the challenge ahead.
+
+---
+
+## Detailed Takeaways
+
+**1. Identity Creates Performance: Compete as a Winner to Perform as a Winner**
+
+Rideout's entire approach to competition rests on pre-existing identity. He doesn't approach races hoping to do well; he approaches them knowing he will win. This isn't delusion — it's a chosen psychological starting point that shapes every subsequent decision. When he told Denno "I never get tired," he wasn't stating a fact; he was performing an identity. The statement served his own psychology as much as Denno's. This suggests that elite performance begins not with training or strategy, but with the identity you adopt before the event begins. Ask yourself: are you competing as someone who hopes to survive, or as someone who expects to dominate?
+
+**2. Physical Preparation Creates Floor; Mental Preparation Creates Ceiling**
+
+Rideout demonstrates that four weeks of minimal preparation can defeat years of specialized training when combined with superior psychological architecture. His accumulated marathon miles gave him a baseline (the floor), but his mindset during competition determined how high he could rise (the ceiling). This doesn't mean preparation is irrelevant — it means preparation without mental strength is insufficient, while mental strength can partially compensate for preparation gaps. The practical implication: invest heavily in both domains, but recognize that mental training may offer greater marginal returns for those who've already built physical competence.
+
+**3. Fear is Universal; Response is Optional**
+
+The journey to Mongolia reveals that elite performers experience the same fear as everyone else. Rideout wanted to cry before boarding the plane. His terror was visceral and genuine. What distinguished him wasn't fear's absence — it was his response to fear's presence. He chose not to be a victim. He chose to reinterpret his circumstances through an identity of strength. This suggests that fear management isn't about eliminating fear; it's about developing a reliable framework for responding to fear in ways that serve performance rather than undermine it. The question isn't "how do I stop feeling afraid?" but "when I feel afraid, who do I choose to be?"
+
+**4. The Difference Between Hard and Meaningful Shapes Sustainable Excellence**
+
+Rideout's distinction between noble suffering (physical challenge in service of goals) and meaningless suffering (unnecessary discomfort without purpose) reveals a sophisticated framework for sustainable high performance. He doesn't seek difficulty for its own sake; he pursues difficulty in service of meaningful outcomes. This suggests that long-term excellence requires ongoing alignment between suffering and purpose. Suffering without purpose leads to burnout; refusing all suffering prevents growth. The skill lies in distinguishing which difficulties serve your larger goals and which are simply noise.
+
+**5. Tactical Intelligence Often Outperforms Pure Capability**
+
+Rideout won the Tokyo world championship despite competitors being faster on paper. He beat runners who ran 2:25 by executing superior race strategy while running 2:28 personally. His psychological tactics in Mongolia (the "I never get tired" comment) further illustrate how intelligence deployed strategically can overcome capability gaps. This suggests that developing tactical awareness — understanding when to push, when to conserve, how to influence competitors' psychology — may be as valuable as physical training. The question isn't just "how fast can I run?" but "how smart can I race?"
+
+---
+
+## Who This Is For
+
+This conversation delivers maximum value for endurance athletes seeking to understand the psychological dimensions of elite performance — particularly those who feel held back despite physical preparation. Rideout's explicit rejection of data-driven metrics while achieving record-breaking results offers a counterpoint to conventional sports science approaches that may resonate with athletes overwhelmed by measurement and optimization culture.
+
+Beyond athletes, anyone navigating significant challenges — career transitions, addiction recovery, late-in-life reinvention, or high-stakes competition — will find Rideout's framework instructive. His emphasis on identity over circumstance, response over reaction, and purpose over comfort translates across domains. The central insight — "whatever you think in your mind is the truth" — applies to business negotiations, creative projects, and personal relationships as readily as athletic competition.
+
+For coaches and performance specialists, the conversation offers a case study in psychological intervention. Rideout's self-talk techniques, his deliberate reframing of fear, and his strategic deployment of psychological pressure against competitors demonstrate mental skills that can be explicitly taught rather than left to intuition.
+
+The content has specific limitations: Rideout provides no training protocols, no physiological data, and no recovery strategies. Galpin explicitly notes this will be "the least technical conversation" on the podcast. Readers seeking exercise science will find limited value here. But those seeking insight into the psychology of excellence — the interior architecture that transforms capability into accomplishment — will discover treasures throughout this remarkable conversation.</p>

@@ -1,5 +1,95 @@
 var posts = [
   {
+    "date": "April 30, 2026",
+    "title": "Elon Said Death is Solvable",
+    "url": "2026-04-30-elon-said-death-is-solvable.html",
+    "category": "Tech/Business",
+    "excerpt": "# Key Insights - **Cryonics is a real, operational business**: Alcor charges $200,000 for full-body freezing or $80,000 for head-only, has frozen approximately 200 people, and has 1,500 additional peo",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "FPL Gameweek 35 team news: Wednesday\u2019s live injury updates",
+    "url": "2026-04-30-fpl-gameweek-35-team-news-wednesdays-live-injury-u.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 35 Team News: Wednesday's Live Injury Updates ## Leeds United **Gabriel Gudmundsson (\u00a33.8m)** has been ruled out of Gameweek 35 after suffering a hamstring injury at Wembley last weeken",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "FPL News Roundup \u2014 2026-04-30",
+    "url": "2026-04-30-fpl-news-roundup-2026-04-30.html",
+    "category": "FPL",
+    "excerpt": "Liverpool have confirmed that Mohamed Salah is expected to be fit before the end of the season, easing concerns over his recent injury absence. The Egyptian has been sidelined in recent Gameweeks, but",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "Is there an alternative to GW35 Wildcard + GW36 Bench Boost?",
+    "url": "2026-04-30-is-there-an-alternative-to-gw35-wildcard-gw36-benc.html",
+    "category": "FPL",
+    "excerpt": "# Is There an Alternative to GW35 Wildcard + GW36 Bench Boost? ## The Chip Landscape Heading into Gameweek 35, over six million Fantasy Premier League managers still have a Wildcard chip in hand. This",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "Liverpool provide new Salah injury update",
+    "url": "2026-04-30-liverpool-provide-new-salah-injury-update.html",
+    "category": "FPL",
+    "excerpt": "# Liverpool Provide New Mohamed Salah Injury Update ## Injury Diagnosis Liverpool have confirmed that Mohamed Salah (\u00a314.0m) has been diagnosed with a muscle injury. The issue forced the forward off d",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "My Take on The New Apple",
+    "url": "2026-04-30-my-take-on-the-new-apple.html",
+    "category": "Tech",
+    "excerpt": "# Apple Announces Major Leadership Shift: What Tim Cook's Departure Means for the Company's Future **Key Insights** - John Ternus, previously Apple's Senior Vice President of Hardware Engineering, wil",
+    "tags": [
+      "Tech"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "The latest FFS Members Cup results + fifth-round draw",
+    "url": "2026-04-30-the-latest-ffs-members-cup-results-fifth-round-dra.html",
+    "category": "FPL",
+    "excerpt": "# FFS Members Cup: Round Four Results and Fifth-Round Draw The Fantasy Football Scout (FFS) Members Cup continues to deliver dramatic moments as round five approaches. With 16 managers remaining, the ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "What\u2019s left to play for in 2025/26 \u2013 and how it could affect FPL",
+    "url": "2026-04-30-whats-left-to-play-for-in-202526-and-how-it-could-.html",
+    "category": "FPL",
+    "excerpt": "# What's Left to Play for in 2025/26 \u2013 and How It Could Affect FPL With the Premier League season reaching its business end, there are still significant matters to be decided across the division. Ther",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "April 30, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-04-30",
+    "url": "2026-04-30-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-04-30 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "April 29, 2026",
     "title": "Double Gameweek 36 confirmed for Man City + Crystal Palace",
     "url": "2026-04-29-double-gameweek-36-confirmed-for-man-city-crystal-.html",
