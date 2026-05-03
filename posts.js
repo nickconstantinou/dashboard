@@ -1,5 +1,75 @@
 var posts = [
   {
+    "date": "May 03, 2026",
+    "title": "FPL Gameweek 35: Saturday\u2019s goals, assists, bonus + DefCon",
+    "url": "2026-05-03-fpl-gameweek-35-saturdays-goals-assists-bonus-defc.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 35: Saturday's Goals, Assists, Bonus + DefCon When you're grinding through a title race or fighting to protect your rank, the difference between good FPL decisions and great ones often ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 03, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-03",
+    "url": "2026-05-03-fpl-news-roundup-2026-05-03.html",
+    "category": "FPL",
+    "excerpt": "Newcastle's \u00a35.4m striker Osula continued his remarkable run of form with another goal in the 3-1 victory over Brighton, meaning he has now scored three times in his last four appearances. While Brigh",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 03, 2026",
+    "title": "FPL notes: 3 in 4 for \u00a35.4m Osula + positives for Brighton",
+    "url": "2026-05-03-fpl-notes-3-in-4-for-54m-osula-positives-for-brigh.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Will Osula's Starting Streak and Brighton's Positives ## Will Osula's Emerging Role at Newcastle Will Osula has become an intriguing option for FPL managers following a remarkable run in ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 03, 2026",
+    "title": "How to Earn Connections to High Net-Worth Decision Makers",
+    "url": "2026-05-03-how-to-earn-connections-to-high-net-worth-decision.html",
+    "category": "Tech/Business",
+    "excerpt": "# How to Earn Connections to High Net-Worth Decision Makers ## Key Insights - **Seven-sibling background**: The speaker grew up in a bottom middle-class household with seven children, and among thirte",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 03, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-03",
+    "url": "2026-05-03-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-03 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "3pm team news: Welbeck starts, Gordon + Hall subs",
+    "url": "2026-05-02-3pm-team-news-welbeck-starts-gordon-hall-subs.html",
+    "category": "FPL",
+    "excerpt": "# Team News Round-Up: Welbeck Returns as Gordon and Hall Remain Substitutes ## Brighton: Welbeck Back in Starting XI Danny Welbeck returns to Brighton's starting lineup after missing the midweek Doubl",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "Arsenal v Fulham team news: Eze + Saka start, Odegaard out",
+    "url": "2026-05-02-arsenal-v-fulham-team-news-eze-saka-start-odegaard.html",
+    "category": "FPL",
+    "excerpt": "# Arsenal v Fulham: Saka and Eze Return as Arteta Makes Five Changes ## Saka and Eze Back in the Starting XI Bukayo Saka returns to the Arsenal starting XI this evening after recovering from injury. T",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "May 02, 2026",
     "title": "Aston Villa v Tottenham predicted line-ups + FPL team news",
     "url": "2026-05-02-aston-villa-v-tottenham-predicted-line-ups-fpl-tea.html",
@@ -94,7 +164,7 @@ var posts = [
     "title": "FPL News Roundup \u2014 2026-05-02",
     "url": "2026-05-02-fpl-news-roundup-2026-05-02.html",
     "category": "FPL",
-    "excerpt": "Leeds United delivered a statement performance in Gameweek 35, dismantling Burnley 3-1 at Elland Road to give FPL managers plenty to smile about. Joao Pedro Stach was the standout performer, putting i",
+    "excerpt": "Saka and Eze both start for Arsenal against Fulham, but captain Odegaard misses out through injury. Arteta has made five changes from the midweek fixture, suggesting rotation as the season reaches its",
     "tags": [
       "FPL"
     ]
@@ -151,6 +221,26 @@ var posts = [
   },
   {
     "date": "May 02, 2026",
+    "title": "Test",
+    "url": "2026-05-02-test.html",
+    "category": "AI",
+    "excerpt": "Summary",
+    "tags": [
+      "AI"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "The Endless Pain Of Emotionally Mature Partners - Mercedes Coffman - #1092",
+    "url": "2026-05-02-the-endless-pain-of-emotionally-mature-partners-me.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p># The Endless Pain of Emotionally Mature Partners: Why Readiness Doesn't Guarantee Romance **Key Insights:** - Avoidant attachment patterns have become culturally normalized, making emotionally ava",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
     "title": "The Pre-Match Preamble \u2013 Gameweek 35",
     "url": "2026-05-02-the-pre-match-preamble-gameweek-35.html",
     "category": "FPL",
@@ -161,12 +251,42 @@ var posts = [
   },
   {
     "date": "May 02, 2026",
+    "title": "Trust Issues",
+    "url": "2026-05-02-trust-issues.html",
+    "category": "Science/Health",
+    "excerpt": "<p># Trust Issues ## Key Insights \u2022 Trust issues are defined as a persistent lack of confidence in others' reliability or honesty, often rooted in betrayal or trauma that has accumulated over time rat",
+    "tags": [
+      "Science/Health"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "What Does Tucker Carlson Really Believe? I Went to Maine to Find Out.",
+    "url": "2026-05-02-what-does-tucker-carlson-really-believe-i-went-to-.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[0:00\u201325:00]</strong> <em>Carlson's Break With Trump Over Iran War</em> \u2014 Tucker Carlson describes his extensive conversations with Pr",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
     "title": "Who is the best captain for FPL Gameweek 35?",
     "url": "2026-05-02-who-is-the-best-captain-for-fpl-gameweek-35.html",
     "category": "FPL",
     "excerpt": "# Best Captain for FPL Gameweek 35: A Data-Driven Analysis ## Overview Fantasy Premier League managers face a pivotal captaincy decision heading into Gameweek 35. With the poll data now available, the",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "Why You\u2019re Obsessed, Anxious, & Still Single - Mercedes Coffman - #1092",
+    "url": "2026-05-02-why-youre-obsessed-anxious-still-single-mercedes-c.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p># Why You're Obsessed, Anxious, & Still Single: A Deep Dive into Modern Dating Psychology ## 0. Key Insights - **Dating apps are architecturally designed to reward avoidance**: They optimize for no",
+    "tags": [
+      "Self-help/Society"
     ]
   },
   {
