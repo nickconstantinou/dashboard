@@ -1,0 +1,124 @@
+---
+title: Why cultivating agency matters more than cultivating skills in the AI era |
+  Max Schoening (Head of Product, Notion)
+date: '2026-05-03'
+type: podcast
+category: Product/Business
+video_id: dbc888ab1401263654a598dbf1b0e1d2.mp3
+channel: Lenny's Podcast
+video_url: https://api.substack.com/feed/podcast/194566669/dbc888ab1401263654a598dbf1b0e1d2.mp3
+---
+
+<p># Key Insights
+
+- **"First 10% of every project is now free"** — Schoening observes that the initial phase of any project (building first versions, prototypes, getting started) has become nearly effortless with AI tools, meaning the bottleneck has shifted entirely to taste, direction, and execution quality.
+- **Agency now outweighs skills** — With AGI-adjacent models providing skills on demand, the differentiating factor is whether someone believes they can effect change ("agency") versus someone who defaults to "I'll never be able to do this because [skill gap]."
+- **"Drive Notion like it's stolen"** — This internal philosophy at Notion encapsulates the idea that you can contribute meaningfully to a company even after it's achieved product-market fit, rather than waiting for founder status to matter.
+- **Understanding agent loops requires building in the material** — Schoening explicitly values designers and PMs learning to code not for production utility, but because the only path to understanding how AI agents work is to build with them directly.
+- **Malleable software = software aligned with user interests over corporation interests** — Schoening defines this as software that works closer to how the person using it wants it to work, not how the company decided it should work.
+
+---
+
+# Introduction
+
+The emergence of large language models has fundamentally restructured assumptions about who can build software, how quickly teams can move, and what skills actually matter in product development. Max Schoening, Head of Product at Notion, occupies a rare vantage point from which to observe these shifts firsthand. His career trajectory—from product management at Google, to leading design at Heroku, to design leadership and engineering at GitHub under Nat Friedman, to co-founding two companies—has made him a person who has genuinely lived the convergence of disciplines that everyone now talks about theoretically.
+
+When Notion's designers began shipping code, when their product managers started building prototypes instead of writing lengthy PRDs, these weren't theoretical experiments. They were practical responses to a changed landscape. And as model capabilities continue to improve, the questions that product teams face are no longer "Can we do this?" but "What should we be doing, and who should be doing it?"
+
+The conversation with Lenny Rachitsky on the Product Podcast explores these questions with unusual depth. Rather than offering predictions about specific tools or timelines, Schoening focuses on the deeper human and organizational dynamics that will determine success: agency, taste, the relationship between making and understanding, and what we stand to lose if we conflate faster shipping with better outcomes.
+
+---
+
+# The Origin Story: How Notion's Designers Started Coding
+
+The transformation at Notion began not with a grand strategy but with a practical problem. Schoening and a small group were building chat interfaces and realized they were designing dead fish. The reference comes from a talk by Bret Victor called "Stop Drawing Dead Fish," which argues that static representations of interactive experiences—Figma mockups of chat threads—fundamentally miss the medium. You cannot feel how a conversation flows when you're looking at frozen screenshots.
+
+The solution was pragmatic: build the worst possible prototype environment imaginable. It needed to be a small, contained codebase optimized specifically for LLM friendliness—easy for AI models to understand and modify. They called this the "playground" concept, where designers and PMs could work in a separate, controlled space with AI tools rather than immediately touching Notion's decade-old production codebase full of accumulated complexity.
+
+The approach deliberately lowered the barrier to entry. The biggest obstacle wasn't technical ability; it was fear of the terminal, the discomfort of moving from visual manipulation in Figma to text-based interaction. Once people overcame that initial barrier, "it just becomes chatting," Schoening explains. They recreated UI patterns in this playground environment, got designers and PMs on the treadmill of actually building, and as model capabilities improved, those same people began contributing directly to the production codebase.
+
+What makes this noteworthy isn't the technical achievement but the philosophy behind it. Schoening explicitly states he doesn't care whether designers write code that lands in production. The value is in thinking in the medium. This distinction—between coding to ship versus coding to understand—pervades his entire approach to product development in the AI era.
+
+---
+
+# Agency: The Differentiator That Skills Cannot Replace
+
+As AI capabilities make traditional skills more accessible, Schoening argues that something less tangible becomes the true differentiator: agency. He defines this as the belief that the world around you is malleable—that you can actually change things rather than being a function within a machine.
+
+The contrast he draws is stark. Previously, it was easy to retreat behind skill gaps. "I'll never be able to do this because I don't know how to code," someone might say. Now, with models that can help bridge those gaps, the excuse dissolves. What's left is the fundamental question: does this person believe they can effect change?
+
+Schoening is direct about his view that agency is not evenly distributed in the world. The people who thrive will be those who understand the world is made up of people "no smarter than you"—a Steve Jobs quote that he credits as the reason he entered software in the first place. This isn't arrogance; it's the recognition that most people who build significant things are not exceptional in any innate sense. They simply refused to accept that things had to be a certain way.
+
+The person who embodies this at Notion is Brian Levin, whom Schoening specifically cites as an example. Brian already blurs engineering and design, but beyond that, he operates with what Schoening describes as "way above average agency" compared to other places he's worked. When Brian sees organizational needs—a gap in hiring, a process that could be improved—he acts. He's probably Notion's number one recruiter, Schoening says, not because it's his job, but because he saw a need and filled it. "I want to affect change. I don't care how it happens."
+
+Another example is Eric Liu, who transformed his own career trajectory through demonstrated agency. When Schoening told him he wouldn't hire him in the first ten people for a hypothetical startup because he didn't need a PM, Liu didn't argue about role definitions. Instead, he asked what skills he would need to be in the first five. He shifted from writing strategy documents to spending time in Figma, then questioned why he was still doing Figma work when he could build prototypes directly. Each step was an act of agency—redefining his role based on what the work actually required, not what a job description said.
+
+---
+
+# Why Tinkering and Making Are Not Optional
+
+Schoening's prescription for developing agency is characteristically practical: make things. He sees this as the through-line connecting everyone who develops genuine agency rather than just believing they have it. "I think if you tinker and if you make things, then you are now on this treadmill of just creating," he explains.
+
+The examples he gives are deliberately mundane and accessible. You could learn to make a chair for your office. You could cook a meal at home. The specific activity matters less than the practice of creation. The act of making changes your relationship to the world from one of consumption to production, from passive acceptance to active shaping.
+
+This connects to his earlier point about code. He would rather work with a designer or PM who deeply understands how agent loops work—who can design for AI interactions—than someone who can simply tweak styles in a codebase. And the only path to understanding agent loops, he argues, is to build in the material they're made of: code. Not because they'll necessarily ship production code, but because the medium teaches you things that visual design alone cannot.
+
+This is why he resists the framing of "designers should ship code" purely as a delivery optimization. Yes, at Notion, designers now mostly code and prototype in code. Yes, other teams sometimes ask them to reverse-engineer their work into Figma for marketing materials—a process Schoening describes as "silly" and "busy work." But the deeper value is that thinking in code forces you to interrogate the material you're working with at a fundamental level.
+
+---
+
+# The Tension Between Merging Roles and Retaining Specialists
+
+As roles merge and generalists become more capable, Schoening raises an important concern about what we stand to lose if we're not careful: specialists. His framework uses physical metaphors to illuminate software development, and the analogy is instructive.
+
+In hardware startups, the prototype phase is obviously different from production. Early versions have visible layer lines from 3D printing. Everyone understands this isn't a product to sell. There's a long road to manufacturing that reaches millions of people, and that phase—optimizing yield, ensuring precision, engineering for scale—is fundamentally different work than prototyping.
+
+Schoening sees this clarity as largely absent from current software discourse. The conversation focuses entirely on shipping speed and feature counts—how many tokens can we spend, how many features can we launch. "Where's the engineering part?" he asks. The engineering part is making sure software works reliably for a hundred million users or a billion users. It's the craft that makes the difference between something that functions in a demo and something that functions at scale.
+
+Similarly, on the design side, anyone can now quickly assemble a usable interface from design systems and AI tools. "You get to the core of what's really important," Schoening acknowledges. But "where is the delight, the craft?" The concern is that in the rush toward general capability, the specialized depth that produces exceptional work gets undervalued.
+
+His position is nuanced: he's not arguing against role merging or against AI tools. He's arguing that we need to be intentional about not losing specialists at the edges—the people who care deeply about the engineering that makes things work at scale, or the design craft that makes products delightful. The merging of roles can be healthy, but it shouldn't mean the complete erosion of deep expertise in specific dimensions.
+
+---
+
+# Malleable Software: Ownership Over Your Computing Life
+
+The concept of malleable software represents one of Schoening's core philosophical commitments, and AI has brought it from theoretical possibility to practical reality for many users.
+
+He defines it simply: software that works closer to the interests of the people who use it than the interests of the corporation that makes it. The contrast he draws is with our physical environments. We take for granted that we can rearrange our living rooms, customize our kitchens, adapt our spaces to how we actually want to live. But in software, we inhabit a world of apps—little squares on our phones—where every layer is glued together: the user interface, the data ownership, the logic. The moment you want to change something, you typically cannot. The behavior is fixed by whoever built it.
+
+The alternative path—running your own Linux distribution, for instance—gives you complete malleability but requires so much overhead that most people abandon it. You spend all your time configuring rather than actually working. There's a middle ground that most software currently fails to provide: enough malleability to adapt tools to your workflow without requiring you to become a systems administrator.
+
+Schoening sees AI as potentially enabling this middle ground. People are beginning to awaken to the idea that they can just make tools—customize their computing environment, build small utilities for their specific needs. But this requires platforms and operating systems that encourage this behavior rather than preventing it. The vision is communal tools that people can shape collectively, not isolated individual customization.
+
+This connects to his broader philosophy about ownership. "Do you have ownership over your computing life?" he asks. Increasingly, he believes, people do not. Malleable software is the answer to restoring that ownership while maintaining the collaborative benefits of shared tools.
+
+---
+
+# Taste: The Ability to Predict What Others Will Value
+
+One of the more intriguing concepts Schoening touches on is taste, which he describes as the ability to "run a virtual machine in your head." Given an idea, someone with taste can predict how a specific group will respond—whether they'll find it valuable, compelling, or confusing.
+
+This becomes increasingly important as the first 10% of any project becomes free. When anyone can build a first version with minimal effort, the constraint shifts to knowing whether that first version is actually good—worth developing further or fundamentally misaligned with what people need. "Taste comes up a lot now," Schoening notes, and the reason is structural: with low barriers to building, the scarce resource becomes judgment.
+
+Developing taste requires "just doing reps," he says, comparing it to training a model. You develop your predictive ability by repeatedly putting ideas in front of people and learning how they respond. The virtual machine in your head—the ability to simulate reactions without actually running the experiment—only develops through extensive practice. This is why the traditional path of shipping products, observing reactions, and iterating remains valuable even as the technical barriers to building decrease.
+
+---
+
+# The Hot Take on Universal Basic Income
+
+Asked for a hot take on universal basic income, Schoening offers a reframing that cuts through typical debates: "We already have universal basic income. It's called knowledge work."
+
+The insight is that knowledge workers already experience many of the conditions UBI proponents describe. They have flexible schedules, significant autonomy over how they spend their time, and work that engages cognitive capacities rather than purely physical labor. Whether or not one agrees with this framing, it suggests that the real question isn't about income guarantees but about the nature of work itself—what it means for human flourishing, and how societies should structure the relationship between labor and meaning.
+
+---
+
+# Who This Conversation Is For
+
+This episode will be most valuable for **product managers, designers, and engineers** who are navigating or anticipating the transformation of their roles by AI tools. If you're wondering whether you should learn to code, whether your job description is becoming obsolete, or how to maintain career relevance as model capabilities improve, Schoening's perspective offers both philosophical grounding and practical direction.
+
+**Startup founders and builders** will benefit from his framework around agency and the importance of making—his argument that tinkering and creation are not just professional skills but fundamental orientations toward the world that determine whether you can effect change.
+
+**Design and product leaders** will find his nuanced take on role merging particularly valuable. He's not on either extreme of the debate (either "everyone should ship code" or "specialization is dead"). His position—that understanding the medium matters more than production output, and that we risk losing valuable specialists if we're not careful—provides a framework for making hiring and organizational decisions.
+
+Finally, anyone interested in the future of software development, ownership of computing environments, or the human dimensions of AI deployment will find this conversation a welcome depth beneath the typical discourse of features and model capabilities.</p>
