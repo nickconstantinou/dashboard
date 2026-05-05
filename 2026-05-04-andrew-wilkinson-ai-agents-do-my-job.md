@@ -1,0 +1,112 @@
+---
+title: 'Andrew Wilkinson: AI Agents Do My Job'
+date: '2026-05-04'
+type: podcast
+category: Business/Startups
+video_id: 01KQT1CED6D3RCSDC8WMMBY8YE.mp3
+channel: Startup Ideas Podcast
+video_url: https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3
+---
+
+<p># Key Insights
+
+- **Wilkinson's time split reveals AI's current reality**: He spends roughly **50% debugging, 30% improving, and only 20% actually productive**—showing that while AI agents are transformative, they still require significant human oversight and iteration to work reliably.
+- **Vector databases enable "eye of Sauron" oversight**: Using Pinecone, he built databases on his family office (Folly Partners) and holding company (Tiny), allowing him to query complex questions like "break down how many minority venture investments I've made and how many are in the money, bankrupt, or declined"—revealing **132 direct investments, $16M invested, now worth $36M**.
+- **The marketing agent is the breakthrough use case**: His marketing agent is hooked into Posthog for data, manages Meta and Reddit ads autonomously, handles multivariate testing, creates ad creative, and sets budgets—though Deep Personality is still small at **$20,000 in revenue**.
+- **Full autonomy is 3-6 months away, but partial autonomy is now**: While support agent fixes (including security breaches) and merges PRs autonomously work "basically perfectly," he estimates **3-6 months** until AI can run basic businesses, not the fully autonomous "hang out on the beach" promises being sold today.
+- **VibeCoding collapses the creative execution gap**: He describes the Hollywood screenwriter problem—having brilliant vision but needing 100 people and $50M to execute. VibeCoding lets him build Deep Personality (a 100-page AI personality report app) in "a few manic days" with no employees.
+
+---
+
+# Introduction
+
+Andrew Wilkinson is a serial entrepreneur best known for building MetaLab, a design agency, and Tiny, a conglomerate that owns over 20 businesses. On this podcast appearance, he delivers an unusually candid look at how he's deploying AI agents—not as a future hypothetical, but as his actual operational infrastructure for running companies, a family office, and even a new startup he built entirely through "VibeCoding."
+
+The conversation is notable for its unvarnished honesty. Wilkinson doesn't frame this as a success story; he describes AI agents as "like a baby, a genius baby, but you have to teach them how to do every single thing." His self-described setup involves spending roughly half his time debugging and another 30% making improvements, with only 20% of his time being genuinely productive. Yet he persists because the potential is unmistakable.
+
+What makes this episode particularly valuable is Wilkinson's breadth of application. He demonstrates how he's using AI to manage a $36M venture portfolio, oversee a 24-business conglomerate, run a marketing campaign for a new product, handle customer support autonomously, and even navigate an entire business trip while writing every email from the back of Ubers. It's a comprehensive tour of where autonomous AI stands today—not as a polished product, but as a powerful, temperamental tool that rewards deep investment.
+
+# Key Concepts & Arguments
+
+## The "Chasing the Dragon" Moment
+
+Wilkinson traces his AI agent journey to December 2025, when he experienced what he calls a revelatory moment. While traveling to a conference in Arizona, he forgot his laptop but had set up an OpenClaw agent remotely. What followed was the ability to run his entire business from the back of Ubers using only his phone, with every email written by the AI and nobody detecting the automation. He describes this as akin to the "first hit" of heroin—intensely powerful—and admits he's been "chasing that moment" ever since, repeatedly attempting to recreate the experience of seamless autonomous operation.
+
+This framing is deliberately honest about the emotional psychology of working with AI tools. The power is real, but so is the frustration of the intervening reality. The systems work brilliantly in controlled conditions but require constant attention to function reliably.
+
+## VibeCoding and the Death of the Creative Middleman
+
+Wilkinson makes a compelling case for VibeCoding—the practice of building software through AI coding assistants rather than hiring developers. He uses a Hollywood screenwriting analogy to explain why: screenwriters have brilliant ideas, but between the script and the final film stand "100 people... $50 million... a million middlemen." Every person introduced between vision and execution compromises the original creative intent.
+
+With VibeCoding, Wilkinson can think of an idea, write it himself, and use AI to refine it—all without the translation loss that occurs when explaining your vision to a designer who can't code, or a developer who doesn't understand copywriting. He built Deep Personality, a personality testing app with AI-generated 100-page reports, in "a few manic days" using this approach. The key advantage is speed and fidelity to his original vision, though he acknowledges this comes with the trade-off of being limited by his own technical capabilities.
+
+## Deep Personality: VibeCoding a Business
+
+The Deep Personality app serves as a concrete case study in his VibeCoding philosophy. The project began personally—Wilkinson wanted to build a custom AI tool for understanding his relationship with his girlfriend. The system asked him to take 15 different psychological tests, scored the results into a JSON file, and then fed that to ChatGPT for analysis. The output was startlingly accurate, correctly identifying every major conflict point in their relationship.
+
+Wilkinson immediately recognized the business opportunity and spent a few manic days building the full product. Users complete a 40-minute multiple-choice personality assessment, then receive a 100-page report covering their archetypes, superpowers, "kryptonite" traits, optimal career paths, relationship compatibility, attachment styles, and even clinical screens for ADHD, OCD, and autism spectrum traits. The report is written in the style of Robert Greene—impactful, provocative, and deeply personal.
+
+However, Wilkinson candidly acknowledges a credibility problem: the app uses psychological assessments meant to be interpreted by licensed professionals, but he's not a psychologist. He wonders whether partnering with a credible figure in the psychology or wellness space (he mentions someone like Jay Shetty) could solve this trust gap, suggesting the app is "one of those one plus one equals five" opportunities.
+
+## Harbor: Managing Multiple AI Agents
+
+Wilkinson's operational setup uses a tool called Harbor (built by a friend, available at GitHub/geekforbrains/harbor) as a harness for managing multiple AI agents simultaneously. He demonstrates the system running three distinct agents for Deep Personality: a developer agent, a marketing agent, and a support agent.
+
+The support agent handles customer inquiries autonomously—either responding directly or, if the issue requires code fixes, routing to the developer agent. For critical security issues (P0 incidents), the agent fixes the problem and merges the PR without human intervention. For less critical issues, it creates PRs overnight for human review, then emails customers notifying them of the fix. Wilkinson describes this as working "basically perfectly" and predicts that customer support will "not be a job very, very soon."
+
+The marketing agent is the most sophisticated: it's hooked into Posthog for analytics data and manages both Meta and Reddit advertising accounts. Wilkinson simply messages it instructions like "increase the budget by $1,000" or approves major initiatives. The agent handles multivariate testing, creates ad creative, and manages budgets autonomously. His excitement centers on what happens when they scale to a $100,000/month ad budget and find creative that truly converts.
+
+## Vector Databases: The "Eye of Sauron" for Business Oversight
+
+Wilkinson describes a fundamental problem with running a conglomerate: the data is too vast for one person to process. With 24 businesses at Tiny and extensive venture investments through Folly Partners (his family office), he needed a way to query complex organizational questions that would normally require hours of manual research.
+
+He built vector databases on both entities using Pinecone, which can store and search millions of tokens. This allows him to query his portfolio conversationally. When he asked the Folly Partners database to "break down how many minority venture investments I've made and how many are in the money, bankrupt, or declined," it returned: 132 direct investments, $16 million invested, now worth $36 million, with a complete breakdown of write-offs and performance.
+
+At Tiny, the vector database serves as his continuous monitoring system. He can ask questions like "review the last quarter and give me any icebergs or issues" or "how many accounting staff do we have in head office?" The system isn't perfect—sometimes it names the wrong CEO or provides slightly incorrect numbers—but for strategic oversight of a complex portfolio, Wilkinson finds it "incredibly powerful."
+
+## The Honest Assessment: AI Agents Are "Genius Babies"
+
+Wilkinson's core argument is that current AI agents function like extremely intelligent but completely inexperienced interns. They have vast capabilities but require explicit instruction for every procedural detail. He describes them as analogous to hiring an intern and having to specify not just tasks but the entire operating procedure: check email every 15 minutes, reply using the following criteria, escalate issues according to these rules.
+
+This contrasts sharply with the autonomous AI vision being marketed today by companies like Pulsia (which promises fully autonomous companies). Wilkinson believes these promises are premature—"selling a dream"—while acknowledging that partial autonomy is genuinely achievable today. The distinction matters: support functions can run autonomously, marketing can be largely delegated, and data analysis can be automated, but product development still requires human strategic direction.
+
+His practical framework for the near future: "pretty soon, Anthropic and OpenAI are gonna launch like, basically, like, CEOs. So you just be like, I'm just gonna hire a CEO for my company, give me your data, I'll figure it out, I'll run it, I'll run the whole business." He believes we're close to this capability but that current systems are limited by their inability to maintain persistent, reliable memory and judgment across complex situations.
+
+---
+
+# Detailed Takeaways
+
+**The 20% Productivity Rule Reveals Where We Actually Are**
+
+Wilkinson's candid admission that he spends only 20% of his time being productive when working with AI agents is the most important data point in this conversation. It suggests that while AI tools have crossed the threshold of usefulness, they remain temperamental systems requiring constant debugging and refinement. Anyone entering this space expecting seamless automation will be disappointed; the real value comes from investing the 80% of effort required to get the 20% productivity gain. This ratio will likely improve, but understanding it upfront prevents the demoralization that comes from inflated expectations.
+
+**Vertical Agent Teams Beat Horizontal Solutions**
+
+Wilkinson's setup at Deep Personality demonstrates a principle: specific agents trained on specific domains outperform general-purpose solutions. The support agent handles customer inquiries; the dev agent fixes code; the marketing agent manages advertising. This mirrors how successful companies build org charts—not one generalist doing everything poorly, but specialists with clear domains. Anyone building AI systems should think about agent architecture the way they'd think about hiring: what are the distinct roles, what does each role need to know, and how do they hand off to each other?
+
+**Vector Databases Transform Business Intelligence for Non-Technical Leaders**
+
+For executives managing complex portfolios, Wilkinson demonstrates that vector databases solve a real problem: information overload. Being able to ask natural language questions about a 132-investment portfolio or 24-company conglomerate and receive synthesized answers changes how leaders can oversee their organizations. The implication is that this technology isn't just for technical users—it's a strategic tool for anyone with complex organizational oversight.
+
+**The Credibility Gap in AI-Powered Consumer Products**
+
+Deep Personality's challenge illustrates a broader problem in AI startups: building something technically impressive doesn't guarantee users will trust it. Psychological assessments carry professional weight only when delivered by credentialed experts. AI can replicate the technical output of these assessments but can't replicate the trust that comes from professional credentials. Any founder building AI products in regulated or expertise-based domains faces this challenge and should consider partnership strategies with established credibility early.
+
+**Context Windows Are the Current Bottleneck, Memory Is the Missing Feature**
+
+Wilkinson describes current AI models as "like a super genius who has Alzheimer's"—powerful in brief moments but unable to maintain coherent context over time. He's optimistic that as context windows expand to 5-10 million tokens, AI will be able to run entire companies autonomously. For builders, this suggests investing in systems that work around current memory limitations rather than betting on solutions that require persistent long-term memory. The workaround is vector databases and explicit procedural documentation—treating AI agents as requiring the same onboarding that would be given to a new employee.
+
+---
+
+# Who This Is For
+
+This episode is essential listening for **founders, operators, and executives** who are actively experimenting with or considering deploying AI agents in their businesses. Wilkinson speaks directly to people who have experimented with AI coding tools and felt both the excitement and frustration of working with systems that almost-but-don't-quite work reliably.
+
+**What they should specifically learn:**
+
+- Founders of early-stage startups should pay close attention to the Harbor/agent architecture model, as it provides a blueprint for running lean operations with minimal human staff.
+- Executives managing complex portfolios or conglomerates should note how vector databases enable oversight at scales previously impossible.
+- Anyone building AI-powered consumer products should absorb the credibility challenge Wilkinson identifies for Deep Personality.
+- Product builders exploring VibeCoding will gain a realistic framework for what this approach can and cannot achieve.
+
+The episode is less relevant for casual observers of AI who aren't planning to build with these tools, or for audiences seeking definitive answers about AI's future—the conversation is deliberately grounded in current, messy implementation rather than speculation. It is most valuable as a tactical guide for the practitioner actively building.</p>

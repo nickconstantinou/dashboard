@@ -1,0 +1,156 @@
+---
+title: “Finding Satoshi”—How a Private Investigator Solved the Mystery of Bitcoin’s
+  Creator | Bill Cohan & Tyler Maroney
+date: '2026-05-04'
+type: podcast
+category: Crypto/Web3
+video_id: 01KQS501XN8DKHPWX2Q0HXMP64.mp3
+channel: Bankless
+video_url: https://episode.flightcast.com/01KQS501XN8DKHPWX2Q0HXMP64.mp3
+---
+
+<p># Key Insights
+
+- Bill Cohan spent **18 months interviewing crypto OGs** (Michael Saylor, Joe Lubin, and others) during COVID before realizing this approach wasn't yielding results and needed to pivot
+- Tyler's breakthrough methodology was **securing on-camera testimony from relatives, friends, and coworkers** of the identified Satoshi—something no prior investigation had accomplished
+- Michael Saylor refused to engage on the Satoshi question, offering this rationale: **"Prometheus showed up with fire and gave it to us. Who do we care who Prometheus was?"**
+- Some sources required **8-10 in-person meetings before agreeing to go on camera**, reflecting the extreme secrecy and distrust baked into the cypherpunk community
+- The public interest angle centers on roughly **1.1 million BTC worth $80-150 billion** controlled by Satoshi—making identity disclosure a significant question of wealth concentration and power
+
+---
+
+# Finding Satoshi: How Investigative Journalism and Private Investigation Converged on Bitcoin's Greatest Mystery
+
+The question of who created Bitcoin has haunted the cryptocurrency world since the white paper landed in 2008. Satoshi Nakamoto—a name behind which dozens of candidates have been proposed, debated, and discarded—remains one of the most compelling unsolved mysteries in the history of technology and finance. But a new documentary titled *Finding Satoshi*, produced over four years by financial journalist and best-selling author Bill Cohan and private investigator Tyler Maroney, claims to have finally cracked the case.
+
+Appearing on the Bankless podcast, Cohan and Maroney discussed not only their conclusions but the extraordinary methodology required to pursue a question that thousands of researchers, journalists, and enthusiasts had already attempted to answer. The conversation offered a rare behind-the-scenes look at investigative journalism meeting old-school private investigation, with both men detailing their process, their setbacks, and ultimately the confidence they have in their findings. For crypto natives who have wondered about this question for years—and for newcomers curious about Bitcoin's origins—the documentary represents the most thorough attempt yet to solve the mystery.
+
+---
+
+# The Genesis of the Documentary
+
+Bill Cohan begins by acknowledging the unconventional origin story of *Finding Satoshi*. He was deep in work on another book when a producer and director approached him with a proposal: would he be interested in serving as the on-camera interviewer for a documentary investigating Bitcoin's creator? Cohan agreed, but with a crucial characteristic that shaped the entire project: he entered with no agenda and, surprisingly, limited knowledge of how Bitcoin actually functioned.
+
+"I think one of the reasons it works is because neither Tyler nor I had any agenda when we started this, and I don't think, frankly, knew all that much about how Bitcoin really worked," Cohan explains. "And so it was kind of an investigative journalistic mission, starting to sponge up as much as we could along the way."
+
+For the next year and a half, Cohan conducted interviews across the country during COVID, speaking with the so-called OG Bitcoin community—the Michael Saylors, the Joe Lubins, and other prominent figures who had been present since Bitcoin's early days. His assumption was straightforward: these people, given their proximity to the technology and its earliest circles, would possess leads or insights about Satoshi's identity.
+
+The approach yielded almost nothing.
+
+---
+
+# Why Crypto OGs Refused to Engage
+
+What Cohan discovered surprised him. The very people who had the most riding on Bitcoin's success were the least interested in discussing its origins. When pressed on why they wouldn't engage, these figures offered a consistent but ultimately unsatisfying set of explanations.
+
+The first reason, Cohan suspects, involves financial self-interest. "Either they were heavily invested, and therefore anything—if we found out that Satoshi was a criminal or a bad guy or notoriously bad guy, a sadist or an axe murderer—then the value of their investment would be pretty discredited and the value of their huge investment might go down the tubes."
+
+The second reason was philosophical: these OGs simply didn't believe the question mattered. Cohan describes their position as essentially utilitarian—if the technology exists and functions, interrogating its origins is an intellectual luxury rather than a necessity. He recalls their dismissals: "Do we know who was the founder of AI? Do we know who the founder of the Internet was? Do we know who the founder of credit default swaps? We have credit default swaps. Use them."
+
+Michael Saylor, whom Cohan describes as "probably the most captivating person I've ever interviewed," embodied this stance perfectly. When asked about Satoshi, Saylor's response became something of a touchstone for the documentary: Prometheus brought fire to humanity, and nobody expends energy investigating Prometheus's biography. The fire itself is what matters.
+
+Cohan notes that Saylor's influence is almost gravitational—he describes ending interviews feeling compelled to liquidate everything and invest in Bitcoin, only to "sleep on it and wake up the next morning and think, okay. Maybe not."
+
+But beyond financial anxiety or philosophical indifference, Cohan observes something more interesting about the reluctance: "There's something about the mystery of not knowing, which it allows you to fill in the blank and propagate your own person in the space. And that person doesn't have the flaws and imperfections of a regular human living at two thousand eight, two thousand nine on planet Earth. And so you can kind of insert whatever myth you want in there."
+
+This willingness to preserve a blank space—to keep Satoshi as an idealized figure rather than a real human being with documented flaws—explains much of the resistance Cohan encountered.
+
+---
+
+# The Pivot to Private Investigation
+
+After eighteen months of diminishing returns, Cohan realized he needed different tools. The journalist's approach—networking through industry connections, securing high-profile interviews, building narrative from prominent voices—wasn't producing results. He needed a private investigator.
+
+"I think Tyler's skills come through on the private investigator side of things," Cohan explains. "When you looked at the word analysis, the programming of the original Bitcoin client, how that was designed, looked at different time zone changes. There's all of this evidence that Tyler brings to bear."
+
+Tyler Maroney's background positioned him uniquely for this investigation. As a private investigator who frames his work as being "in the public interest," Maroney approaches cases with methods that extend well beyond traditional journalism. His work involves historical research, pattern analysis, and crucially, the slow and patient work of building trust with reluctant sources.
+
+---
+
+# The Cryptographer Community's Unexpected Openness
+
+One of the documentary's counterintuitive findings was the receptiveness of the cryptographer and cypherpunk community—the world from which Satoshi emerged. Maroney had expected resistance from people who "often live under pseudonyms" and "very much feel that privacy is a basic human right," as John Callas states in the film. Instead, he found intellectual curiosity.
+
+"These are people who are their engineers, their academics, they're toiling away in the background. These are not people with brand names who I think really appreciated the question of who Satoshi is."
+
+Maroney spent years building relationships in this community, meeting some potential interview subjects eight or ten times before they agreed to appear on camera. He describes the process not as convincing people to betray secrets but as demonstrating that he had "done your homework"—that his questions were "intellectually curious questions, not just yes or no questions to try to get them to give me a sound bite."
+
+Bram Cohen, inventor of BitTorrent and creator of the cryptocurrency Chia, exemplifies this dynamic. Maroney had a four-hour lunch with Cohen before ever broaching the possibility of an on-camera interview. Only after Cohen observed that Maroney had clearly read not just the Bitcoin white paper but many other white papers, and had spoken with relevant sources, did he agree to participate.
+
+The contrast between the cypherpunk community's eventual openness and the crypto OG establishment's resistance became one of the documentary's structural tensions. Those closest to Bitcoin's technical foundations engaged; those with the most financial stakes in its success did not.
+
+---
+
+# The Complexity of Bitcoin as an Investigative Obstacle
+
+Maroney notes that even defining Bitcoin proved challenging for interview subjects, requiring him to ask multiple times for clearer explanations. This complexity—the layered technical, economic, and political dimensions of the invention—made the investigation extraordinarily difficult.
+
+"Even Bitcoin alone, I mean, there's a number of interviews where I would ask people, can you just define Bitcoin for me? And people would do it two or three times, and they'd have to stop themselves and do it again. And some of these people are investors in Bitcoin who understand it very clearly because they realize that it depends on who your audience is."
+
+The technical complexity wasn't merely an obstacle for explaining Bitcoin to general audiences—it shaped every aspect of the investigation, from understanding the code's authorship to interpreting Satoshi's communications.
+
+---
+
+# The Methodology That Changed Everything
+
+The critical methodological distinction Maroney emphasizes is what *Finding Satoshi* achieved that previous investigations did not: securing on-camera testimony from people who knew the identified Satoshi personally—relatives, friends, and coworkers who could speak to his character, his circumstances, and his capabilities.
+
+"Meaning, it wasn't simply an effort in using AI or doing some kind of linguistic analysis, which many people have done for the last ten or fifteen years or so. So in that sense, it's also the methodology that we used that gives us a lot of confidence in the conclusion."
+
+This represents a fundamental shift in evidentiary standards. Previous "Satoshi investigations" had relied primarily on textual analysis, stylistic comparison, and circumstantial evidence. *Finding Satoshi* brings direct human testimony into the equation—people willing to go on record and speak about their personal knowledge of the individual.
+
+---
+
+# The Public Interest Rationale
+
+Maroney articulates why he believes this investigation belongs in the public interest, a framework that guided his approach:
+
+"I think the public interest is—you know, it's it seems like a kind of obvious concept that we can all agree on, but I think the definition will vary depending on who you ask."
+
+He centers the argument on wealth concentration: if Bitcoin's creator controls approximately 1.1 million BTC—worth somewhere between $80 billion and $150 billion depending on market conditions—then the question of who holds that wealth is fundamentally a question about power and prosperity.
+
+"Let's assume that Bitcoin is created by one person and all that person owns the value of roughly 1.1 million bitcoins. So they're worth anywhere between $80 billion and $150 billion. For that reason alone, I think it's an interesting question about who controls that much."
+
+The comparison to Elon Musk is instructive: Musk's public profile derives not from personality alone but from the wealth that gives him influence. Similarly, understanding who controls a significant portion of Bitcoin's supply matters for questions of market influence, governance, and economic power.
+
+Cohan reinforces this perspective, noting that understanding "where is capital coming from" and "who's got it" represents core journalistic work in covering finance.
+
+---
+
+# Why This Documentary Differs From Its Predecessors
+
+The Bankless hosts—who describe the documentary as "probably the best [content on this subject] that I've ever seen"—highlight the comprehensive nature of the investigation. After watching countless attempts to answer the Satoshi question, they find *Finding Satoshi* distinctive in its thoroughness.
+
+"I think one of the reasons why Ron and I think this is the best documentary to come out on the subject was just the level of thoroughness and commitment that the whole team put into just looking in every nook and cranny for any possible hinting clue. So it just feels when you finish the documentary, you feel like, oh, this was a complete story."
+
+Four years of work, multiple pivots in methodology, and the eventual integration of investigative journalism with traditional private investigation produced what both hosts and guests believe is the most complete treatment of the question yet attempted.
+
+---
+
+# Takeaways for Crypto Community Members
+
+The documentary's greatest value may not be its specific conclusion but what its methodology demonstrates about rigorous investigation in a space defined by pseudonymity and suspicion. Several principles emerge from the Cohan-Maroney approach that apply broadly to anyone investigating crypto's origins.
+
+**Building trust requires patience beyond typical timelines.** Sources in the crypto and cypherpunk communities won't engage based on credentials alone. Maroney's experience meeting some subjects eight to ten times before recording interviews suggests that genuine relationship-building, not reputation or access, opens doors. Anyone attempting similar investigations should expect timelines measured in years, not weeks.
+
+**The cypherpunk community is more accessible than the financial community.** Paradoxically, those with the strongest privacy ethos proved more willing to discuss Bitcoin's origins than those with the strongest financial stakes. Investigators should prioritize technical community members over business figures when pursuing questions about crypto's history.
+
+**Financial self-interest creates investigative blinders.** The crypto OGs' reluctance wasn't mere indifference—it was strategic protection of their holdings. Anyone investigating questions that could affect asset valuations should expect resistance proportional to the wealth at stake.
+
+**Human testimony outperforms algorithmic analysis.** Fifteen years of linguistic analysis and AI-powered text comparison failed to produce consensus. *Finding Satoshi*'s breakthrough came from human sources willing to speak on record. Future investigations should prioritize direct testimony over computational methods.
+
+---
+
+# Who This Conversation Is For
+
+This discussion—and the documentary it promotes—serves several distinct audiences with particular needs.
+
+**Crypto investors and enthusiasts** will find the documentary a more satisfying exploration of Bitcoin's origins than anything previously available. The thorough methodology provides intellectual grounding for those who've wondered about this question without access to rigorous analysis. Beyond satisfying curiosity, understanding who created Bitcoin and why they remained anonymous illuminates the philosophy embedded in the protocol itself.
+
+**Journalists and investigators** interested in covering crypto's history will benefit from studying the methodology Cohan and Maroney employed—the pivot from industry interviews to private investigation, the patient trust-building with reluctant sources, and the integration of historical research with direct testimony.
+
+**Skeptics who believe the question is unanswerable** may find the documentary's methodology compelling regardless of its specific conclusion. The bar the filmmakers set—getting personal associates to go on camera—represents a meaningful evidentiary standard that previous attempts didn't achieve.
+
+**Anyone interested in the intersection of privacy, finance, and public interest** will find Maroney's framing of the investigation as a public interest matter thought-provoking. The question of who controls significant wealth is never purely academic, and Bitcoin's largest holder represents an extreme case of anonymous economic power.
+
+The documentary *Finding Satoshi* ultimately represents more than a solved mystery. It demonstrates that even in a space defined by pseudonymity, privacy, and suspicion, patient and rigorous investigation can penetrate those barriers—not by hacking systems or cracking encryption, but by building genuine human relationships with those who possess relevant knowledge. For a community that often dismisses its own history as irrelevant to its future, the film offers a corrective: understanding where Bitcoin came from may be essential to understanding where it's going.</p>

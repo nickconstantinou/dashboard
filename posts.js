@@ -1,5 +1,155 @@
 var posts = [
   {
+    "date": "May 05, 2026",
+    "title": "Chelsea v Forest team news: Derry starts, eight Forest changes",
+    "url": "2026-05-05-chelsea-v-forest-team-news-derry-starts-eight-fore.html",
+    "category": "FPL",
+    "excerpt": "# Chelsea v Nottingham Forest: Team News Breakdown ## Jesse Derry Earns First Professional Start The headline news from Chelsea is that winger Jesse Derry makes his first professional start. The young",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Everton v Man City team news: Semenyo starts, no Rodri",
+    "url": "2026-05-05-everton-v-man-city-team-news-semenyo-starts-no-rod.html",
+    "category": "FPL",
+    "excerpt": "# Everton v Man City: Team News Analysis ## Key Lineup Changes ### Everton Starting XI Tim Iroegbunam receives a rare start for Everton in this fixture. The midfielder is priced at \u00a34.8m for Fantasy P",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Fantasy EFL Play-Offs 2025/26: Everything you need to know",
+    "url": "2026-05-05-fantasy-efl-play-offs-202526-everything-you-need-t.html",
+    "category": "FPL",
+    "excerpt": "# Fantasy EFL Play-Offs 2025/26: Everything You Need to Know ## What Are the Fantasy EFL Play-Offs? The Fantasy EFL Play-Offs provides a focused three-Gameweek competition that runs alongside the real",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL Gameweek 36 early Scout Picks: Five \u2018doublers\u2019 included",
+    "url": "2026-05-05-fpl-gameweek-36-early-scout-picks-five-doublers-in.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 36 Early Scout Picks: Five 'Doublers' Included ## Man City Assets Leading the Way With five teams set to play twice in Gameweek 36, Fantasy Football Scout has identified key players to ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-05",
+    "url": "2026-05-05-fpl-news-roundup-2026-05-05.html",
+    "category": "FPL",
+    "excerpt": "**Double Gameweek 36** is fast approaching, and Fantasy Football Scout's early scout picks have identified five players with double fixtures \u2014 prime targets for the \"bus team\" strategy. Managers holdi",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL notes: Sesko + Isak injury latest, Szoboszlai haul",
+    "url": "2026-05-05-fpl-notes-sesko-isak-injury-latest-szoboszlai-haul.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Sesko and Isak Injury Updates, Szoboszlai Haul Fantasy Premier League managers face key decisions around Liverpool and Manchester United assets following the latest injury updates and sta",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL notes: Shot-shy Villa rotate + is Richarlison worth a punt?",
+    "url": "2026-05-05-fpl-notes-shot-shy-villa-rotate-is-richarlison-wor.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Shot-Shy Villa Rotate + Is Richarlison Worth a Punt? ## Tottenham's Valuable Assets Deliver Tottenham Hotspur gave their survival prospects a huge boost with an impressive away victory at",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL notes: West Ham luckless + Lewis-Potter a threat",
+    "url": "2026-05-05-fpl-notes-west-ham-luckless-lewis-potter-a-threat.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: West Ham Luckless Against Brentford; Keane Lewis-Potter Impresses ## Match Overview Brentford secured a convincing 3-0 victory over West Ham United in Gameweek 35, but the result arguably",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Havertz, Odegaard + Timber injury latest ahead of Arsenal v Atleti",
+    "url": "2026-05-05-havertz-odegaard-timber-injury-latest-ahead-of-ars.html",
+    "category": "FPL",
+    "excerpt": "# Arsenal Team News: Havertz and Odegaard Fit for Atletico Showdown ## Key Players Return to Fitness Arsenal have received a significant boost ahead of their Champions League clash with Atletico Madri",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "UCL Fantasy: Matchday 16 best captains",
+    "url": "2026-05-05-ucl-fantasy-matchday-16-best-captains.html",
+    "category": "FPL",
+    "excerpt": "# UCL Fantasy: Matchday 16 Captain Options ## Bukayo Saka \u2013 The Standout Choice Bukayo Saka emerges as a compelling captaincy option for Matchday 16 of the UEFA Champions League Fantasy game. At a pri",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "UCL Fantasy: Matchday 16 best differentials",
+    "url": "2026-05-05-ucl-fantasy-matchday-16-best-differentials.html",
+    "category": "FPL",
+    "excerpt": "# UCL Fantasy: Matchday 16 Best Differentials ## Overview Matchday 16 presents UCL Fantasy managers with critical decisions as the knockout stage intensifies. Several players offer differential value ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "UCL Fantasy: Matchday 16 clean sheet odds",
+    "url": "2026-05-05-ucl-fantasy-matchday-16-clean-sheet-odds.html",
+    "category": "FPL",
+    "excerpt": "# UCL Fantasy: Matchday 16 Clean Sheet Odds For UCL Fantasy managers preparing for Matchday 16, clean sheet potential varies dramatically across the remaining teams in the competition. Here is a break",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-05",
+    "url": "2026-05-05-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-05 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "A House Divided (PODCAST EXCLUSIVE EPISODE)",
+    "url": "2026-05-04-a-house-divided-podcast-exclusive-episode.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[31:30\u201333:00]</strong> <em>Beatrice Matisse Revealed as the Killer</em> \u2014 DNA analysis reveals the killer was a woman, matching Beatri",
+    "tags": [
+      "Mystery/Suspense"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "Andrew Wilkinson: AI Agents Do My Job",
+    "url": "2026-05-04-andrew-wilkinson-ai-agents-do-my-job.html",
+    "category": "Business/Startups",
+    "excerpt": "<p># Key Insights - **Wilkinson's time split reveals AI's current reality**: He spends roughly **50% debugging, 30% improving, and only 20% actually productive**\u2014showing that while AI agents are trans",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
     "date": "May 04, 2026",
     "title": "Aston Villa v Spurs team news: Konsa + Watkins benched, no McGinn",
     "url": "2026-05-04-aston-villa-v-spurs-team-news-konsa-watkins-benche.html",
@@ -11,12 +161,42 @@ var posts = [
   },
   {
     "date": "May 04, 2026",
+    "title": "Cheap, Unloved, Profitable: The Case for Value Investing Today?",
+    "url": "2026-05-04-cheap-unloved-profitable-the-case-for-value-invest.html",
+    "category": "Finance",
+    "excerpt": "<p># Cheap, Unloved, Profitable: The Case for Value Investing Today? ## Key Insights - Temple Bar Investment Trust has delivered standout performance since 2020, demonstrating that disciplined value i",
+    "tags": [
+      "Finance"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "\"Colin Jost\"",
+    "url": "2026-05-04-colin-jost.html",
+    "category": "Comedy/Interview",
+    "excerpt": "<p># Key Insights - **Colin Jost didn't speak his first word until age 3.5** \u2014 His first word was \"Will,\" and his second word five years later was \"Chase\" (his middle name). He presented no developmen",
+    "tags": [
+      "Comedy/Interview"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
     "title": "Fantasy EFL Play-Offs is LIVE!",
     "url": "2026-05-04-fantasy-efl-play-offs-is-live.html",
     "category": "FPL",
     "excerpt": "# Fantasy EFL Play-Offs is LIVE! The Fantasy EFL Play-Offs is now available as a separate event from the regular Fantasy EFL game. This competition runs independently, meaning every participant starts",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "\u201cFinding Satoshi\u201d\u2014How a Private Investigator Solved the Mystery of Bitcoin\u2019s Creator | Bill Cohan & Tyler Maroney",
+    "url": "2026-05-04-finding-satoshihow-a-private-investigator-solved-t.html",
+    "category": "Crypto/Web3",
+    "excerpt": "<p># Key Insights - Bill Cohan spent **18 months interviewing crypto OGs** (Michael Saylor, Joe Lubin, and others) during COVID before realizing this approach wasn't yielding results and needed to piv",
+    "tags": [
+      "Crypto/Web3"
     ]
   },
   {
@@ -47,6 +227,56 @@ var posts = [
     "excerpt": "# FPL Notes: Palace \"Tank Was Empty\" After Thursday's Shakhtar Defeat Bournemouth moved into the top six and European places with a routine 3-0 win over Crystal Palace at Vitality Stadium. ## Match Su",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "How To Have The Hardest Conversations Of Your Life - Jefferson Fisher - #1093",
+    "url": "2026-05-04-how-to-have-the-hardest-conversations-of-your-life.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p># Key Insights - **\"Your emotions aren't too big for me\"** \u2014 Connor Beaton's phrase provides permission for partners to express fully without fear of being \"too much,\" which is often the hidden fea",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "Scott Galloway: AI Wasn\u2019t Built For You. The Rich Don\u2019t Need You Anymore!",
+    "url": "2026-05-04-scott-galloway-ai-wasnt-built-for-you-the-rich-don.html",
+    "category": "Business/Interview",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[15:00\u201330:00]</strong> <em>AI Job Displacement Reality Check</em> \u2014 Scott challenges the catastrophist narrative about AI replacing al",
+    "tags": [
+      "Business/Interview"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti",
+    "url": "2026-05-04-tools-to-bolster-your-mental-health-confidence-dr-.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti --- ## Key Insights - **Start from a position of strength**: Dr. Conti emphasizes that \"there's far more going right in any of us",
+    "tags": [
+      "Health/Science"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "What Drives Political Violence in America",
+    "url": "2026-05-04-what-drives-political-violence-in-america.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[10:00\u201316:00]</strong> <em>Survey Data on Rising Political Violence Support</em> \u2014 Pape presents data from 20 nationally representativ",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "Zach Galifianakis Returns",
+    "url": "2026-05-04-zach-galifianakis-returns.html",
+    "category": "AI/Tech",
+    "excerpt": "<p># Key Insights - **Zach worked as a busboy at Stringfellows strip club in NYC until age 28**, a job requiring formal wear with a cummerbund, where he served customers he describes as people he \"wou",
+    "tags": [
+      "AI/Tech"
     ]
   },
   {
@@ -347,6 +577,16 @@ var posts = [
     "excerpt": "Summary",
     "tags": [
       "AI"
+    ]
+  },
+  {
+    "date": "May 02, 2026",
+    "title": "The Endless Pain Of Emotionally Immature Partners - Mercedes Coffman - #1092",
+    "url": "2026-05-02-the-endless-pain-of-emotionally-immature-partners-.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p># The Endless Pain Of Emotionally Immature Partners ## A Comprehensive Summary of the Modern Wisdom Podcast with Mercedes Coffman --- ## 0. Key Insights - **Avoidant culture rewards disposability**",
+    "tags": [
+      "Self-help/Society"
     ]
   },
   {
