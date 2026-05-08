@@ -1,0 +1,38 @@
+---
+title: 'Solanke, Richarlison, Vicario: Tottenham injury latest for FPL Gameweek 36'
+date: '2026-05-08'
+type: blog
+source: Fantasy Football Scout
+source_url: https://www.fantasyfootballscout.co.uk/2026/05/08/solanke-richarlison-vicario-tottenham-injury-latest-for-fpl-gameweek-36
+category: FPL
+---
+
+# Tottenham Injury Latest for FPL Gameweek 36
+
+## Overview
+
+Tottenham Hotspur head into Gameweek 36 with no new injury concerns, according to the latest update from the club. Manager Roberto De Zerbi confirmed there are no fresh injury issues within the squad as the team continues its push for a European finish.
+
+## Guglielmo Vicario
+
+Goalkeeper Guglielmo Vicario remains unavailable for selection. The Italian shot-stopper is recovering from a hernia issue and has not yet returned to training. The club has not provided a specific timeline for his return, with De Zerbi stating that Vicario is "not ready yet" and expressing uncertainty about the plan going forward. Vicario continues to work towards recovery while dealing with the frustration of being unable to help his teammates.
+
+## Richarlison
+
+Richarlison is fit and available despite reports of his absence from training on Wednesday. The Brazilian forward has no injury concerns and participated in team sessions as normal. De Zerbi expressed satisfaction with the squad's preparation, noting that the team is working well with all players and entering an important week.
+
+## Dominic Solanke
+
+Dominic Solanke is recovering from a hamstring injury and showing promising signs of progress. The striker is "improving very quickly" according to the manager. However, Gameweek 36 appears to come too soon for Solanke's return. The club is hopeful he will be available for the fixture at Stamford Bridge, making Gameweek 37 a more realistic target for his comeback.
+
+## James Maddison
+
+Midfielder James Maddison has featured as a non-playing substitute in each of the last three Gameweeks, indicating he is not yet fully integrated into the matchday squad. Concerns remain about his physical readiness, with De Zerbi suggesting Maddison may not be prepared for the demands of Premier League intensity and rhythm. The England international continues his recovery, but the medical team appears cautious about rushing him back to action.
+
+## Other Absentees
+
+Several players remain unavailable as they continue their recovery from various injuries. Xavi Simons (knee), Cristian Romero (knee), Mohammed Kudus (thigh), Wilson Odobert (knee), Ben Davies (ankle), and Dejan Kulusevski (knee) all remain on the sidelines and are not yet available for selection.
+
+## FPL Implications
+
+For Fantasy Premier League managers, the situation at Tottenham presents limited options for immediate Gameweek 36 investment. Vicario remains unavailable between the posts, Solanke is not expected back until at least Gameweek 37, and Maddison appears to be several weeks away from regular action. Richarlison's availability provides a viable budget option for managers seeking coverage in attack, though his training absence on Wednesday raised concerns that have now been allayed. The clean sheet potential may be slightly reduced without Vicario, making clean sheet projections dependent on the backup goalkeeper's performance.

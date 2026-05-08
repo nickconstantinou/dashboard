@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Should programmers learn how to code in assembly? | Lex Fridman Podcast | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-08 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/_x3JYd1KW60" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Should Programmers Learn Assembly Language? A Deep Dive into Low-Level Programming</h1>
+
+<h2>Key Insights</h2>
+
+<li><strong>FFmpeg requires assembly</strong>: Many codecs in FFmpeg remain only partially assembly-optimized, creating ongoing opportunities for contributors with low-level programming skills</li>
+<li><strong>Minimal prerequisites work</strong>: High school mathematics and C pointers are sufficient—evidence includes high schooler Daniel Kang successfully writing FFmpeg assembly code</li>
+<li><strong>LLMs fail at assembly writing</strong>: Despite surprisingly decent comprehension, large language models "hallucinate" when generating assembly code because training data is too sparse compared to languages like Python or JavaScript</li>
+<li><strong>Itanium's hidden lesson</strong>: Intel/HP's failed 64-bit processor achieved 6 billion operations/second but the memory bus only allowed 1.5, illustrating why manual optimization matters when CPU outpaces memory by 4×</li>
+<li><strong>Rust's 85% problem</strong>: The speaker draws a "Esperanto vibe" parallel, noting Rust rewrites often deliver only 85-90% feature parity—the final 1% consumes 99% of development time</li>
+
+<p>---</p>
+
+<h2>Introduction</h2>
+
+<p>In a conversation that spans from the philosophical foundations of learning to the gritty realities of performance optimization, a veteran systems programmer makes the case that assembly language remains relevant—not as a daily driver, but as essential understanding for anyone who wants to truly master computing. The setting is the Lex Fridman Podcast, and the speaker is someone who has spent years maintaining some of the world's most performance-critical software: FFmpeg.</p>
+
+<p>The discussion emerges from the speaker's own project—ASM-lessons—a repository designed to teach assembly programming through practicalFFmpeg problems rather than through grammar-focused instruction. This distinction becomes the central thesis: traditional assembly education fails because it treats instruction sets like foreign language syntax, when in reality, low-level programming is better learned through direct communication with real problems. The conversation ventures into territory few programming discussions dare to go—examining whether artificial intelligence can assist with assembly, what modern languages like Rust get wrong about adoption, and why understanding your computer's memory hierarchy makes you a fundamentally better programmer.</p>
+
+<p>This matters because the industry has largely abandoned assembly in favor of high-level abstractions. Yet video codecs, cryptography implementations, and embedded systems still depend on hand-optimized code running at the absolute limits of hardware capability. The question isn't whether everyone should write assembly—it's whether understanding it makes you better at everything else.</p>
+
+<p>---</p>
+
+<h2>The Problem with How Assembly Is Currently Taught</h2>
+
+<p>The speaker opens with a critique that will resonate with anyone who has tried to learn assembly from traditional resources: textbooks and online courses approach instruction sets like grammar in a foreign language, walking through every instruction sequentially even when most won't be encountered in practice. "You learn a language by asking someone what their name is and you start from there and you solve real problems that you want to communicate," the speaker explains. "You don't learn sentence structure. This is the interrogative and the adverb." Yet this grammar-first approach dominates virtually all assembly instruction.</p>
+
+<p>The speaker identifies a second problem equally damaging: assembly knowledge has been transmitted exclusively through apprenticeship. "Assembly is taught sort of hand-to-hand like person-to-person like blacksmithing one-by-one," the speaker observes. "That's the only logical sort of analogy and that doesn't really scale online." This means the community of assembly programmers has remained small precisely because there was no scalable pathway into the craft. Knowledge stayed locked in mentor-student relationships, passed down from "wizards" and "sages"—an image the speaker wryly embraces by wearing a wizard's hat during the discussion.</p>
+
+<p>This apprenticeship model works when you have unlimited time and dedicated teachers, but it collapses when trying to build a community. The speaker notes that code contributed to X264 through these lessons came from students who had learned through the targeted, problem-first approach rather than through comprehensive instruction manuals. The contrast reveals something fundamental about how humans learn complex technical skills: we grasp concepts in service of solving problems we care about, not in isolation.</p>
+
+<p>---</p>
+
+<h2>ASM-Lessons: A New Approach Through FFmpeg</h2>
+
+<p>Rather than teaching assembly syntax from the ground up, the ASM-lessons repository takes students directly into FFmpeg's codebase, where vector-focused optimizations perform operations across multiple data points simultaneously. The approach describes registers—general purpose and vector variants—using practical examples rather than abstract reference material. It skips irrelevant instructions and focuses on what actually matters for video codec development: the kind of register manipulation and instruction scheduling that makes playback smooth at extremely low bitrates.</p>
+
+<p>The framework underpinning these lessons is called X86 Inc, written by Laurent, who previously worked on X264. This framework abstracts away some of the tedium around different calling conventions—the rules governing how functions pass parameters and return values—allowing students to focus on the algorithmic challenges rather than bookkeeping. Students have successfully submitted patches to X264 using this approach, with contributors explicitly citing the lessons as their entry point into low-level programming.</p>
+
+<p>The speaker emphasizes that prerequisites are deliberately minimal: high school mathematics and a solid understanding of pointers in C. "Not even C really is pointers," the speaker clarifies. This accessibility challenges the mystique that has grown around assembly programming—the belief that only elite programmers with decades of experience can work at this level. Daniel Kang, a high schooler, stands as concrete proof that the barriers to entry have been artificially high, not inherently so.</p>
+
+<p>The motivation extends beyond pedagogy. "It's really about trying to get this dying art to continue because we've shown it's possible with David to produce something amazing," the speaker says, referencing a collaborator whose FFmpeg contributions demonstrate the heights achievable through careful assembly optimization. The implication is clear: if no one learns assembly, the codebases that depend on it will eventually rot, and the ecosystem of performance-critical software will suffer.</p>
+
+<p>---</p>
+
+<h2>The Beauty of Assembly: Flying a Spitfire</h2>
+
+<p>When the conversation turns to what assembly programming actually feels like, the speaker's language becomes almost reverential. "Some of this assembly language is really beautiful," the speaker says. "It's kind of like flying a Spitfire. It's really aviation at its purest but also pushing the aircraft beyond what the designer thought was possible."</p>
+
+<p>This metaphor captures something essential about low-level programming: the directness of the interface. "It's really you and the processor. There's nothing in between. It's you and the joystick of the cockpit and you move that joystick and it's physically connected to the ailerons." When writing assembly, there are no runtime interpreters, no garbage collectors waking up at inconvenient moments, no abstract virtual machines. The programmer speaks directly to silicon.</p>
+
+<p>The beauty emerges specifically from constraint. FFmpeg contributors sometimes "abuse" instructions—using operations designed for one purpose (cryptography, for instance) to accomplish entirely different tasks. This creative misuse of hardware reveals the hardware designers' assumptions, finds the gaps between their mental model and reality, and exploits those gaps for performance gains. The speaker describes this as both art and engineering, a form of expression that happens to run at billions of cycles per second.</p>
+
+<p>The Spitfire comparison also captures the physicality of manual optimization. Aircraft pilots of that era could feel every control surface through mechanical linkages. Modern assembly programmers similarly feel the cache misses, the pipeline stalls, the branch mispredictions—though through profiling tools rather than physical vibration. The abstraction layers that make programming easier also make it harder to understand what's actually happening inside the machine.</p>
+
+<p>---</p>
+
+<h2>Can LLMs Help Write Assembly?</h2>
+
+<p>The question of artificial intelligence's role in low-level programming yields an unexpected answer: LLMs understand more assembly than expected but cannot yet generate it reliably. "They have more of an understanding than I expected but they are still—I've asked it questions and it still goes and starts making modifications and then I go 'is it bit exact?' No, fix it—and then it just goes and does the same thing."</p>
+
+<p>The fundamental problem is data scarcity. Stack Overflow contains millions of questions and answers for mainstream languages, giving LLMs abundant training material. Assembly programming communities, however, are tiny by comparison, and much relevant knowledge exists in private repositories or undocumented tribal wisdom. "There is not enough data to train on," the speaker explains flatly. "This is the biggest issue."</p>
+
+<p>This creates a paradox: the domain where AI assistance would be most valuable—where errors are subtle and consequences severe—is precisely where current AI capabilities are weakest. Bit-exactness matters in codec development in ways that are difficult to verify automatically. A single wrong bit can corrupt an entire video frame, and the debugging process requires understanding not just the algorithm but the microarchitectural details of how the CPU executes it.</p>
+
+<p>The speaker's experience with Itanium, a now-extinct processor architecture developed by Intel and HP for the ill-fated transition to 64-bit computing, illustrates why assembly remains resistant to automation. "Those were processors who had a ton of computing power to do floats FMAs which is similar to what we need now for LLMs," the speaker explains. "You could pack three operations per line that could be loaded. So basically you had an output of basically 6 billion of operation per seconds. But the memory bus only allowed 1.5, right? So you CPU was four times faster."</p>
+
+<p>This bandwidth asymmetry required programmers to manually orchestrate memory reuse, register allocation, and instruction scheduling in ways that no compiler could manage automatically. The techniques required understanding the complete pipeline from application logic through memory hierarchy to actual silicon execution—and they were developed through painstaking individual experimentation rather than accumulated documentation. This knowledge exists more in people's heads than in any searchable corpus.</p>
+
+<p>---</p>
+
+<h2>Understanding Architecture Makes Better Programmers</h2>
+
+<p>The conversation makes a broader argument for low-level literacy independent of whether anyone actually writes assembly professionally. "I believe it's necessary to understand assembly language even if you don't do it much to understand what's going on inside your computer," the speaker asserts, "and that will make you a better programmer."</p>
+
+<p>The mechanism operates through the memory hierarchy. Understanding assembly forces confrontation with the reality of registers—L1, L2, and L3 cache levels—and how data moves between them and main memory. "RAMs, SSDs, disk and so on—which are very important because then you have a good programming culture that will make you a better programmer." Programmers who understand these hierarchies make different design choices: they pre-fetch data, they structure access patterns to maximize cache hits, they batch operations to reduce memory traffic.</p>
+
+<p>This understanding changes how one thinks about performance generally. A programmer who has manually managed register allocation develops intuition about when allocation matters and when compilers handle it adequately. Someone who has felt the pain of cache misses develops habits around data structure design that pay dividends even in garbage-collected languages. The abstraction layers don't disappear, but their costs become visible.</p>
+
+<p>The speaker connects this to the Rust discussion that follows, suggesting that languages which promise to eliminate entire categories of errors can paradoxically worsen performance intuition. If memory safety errors are prevented automatically, programmers lose motivation to understand why those errors occur—which means they miss opportunities to write code that the runtime would handle inefficiently even if safely.</p>
+
+<p>---</p>
+
+<h2>Rust's Esperanto Problem</h2>
+
+<p>The conversation shifts to Rust, and the speaker's assessment is blunt: "I think it's valuable what they're doing in terms of memory safety as a concept. Can it achieve some of the speed up that assembly achieves? No, not by hand. I think that's a given. C potentially but I see it very—it has a very big Esperanto vibe about it."</p>
+
+<p>The Esperanto comparison cuts to the heart of the critique. Esperanto was designed as a universal second language—logically structured, easy to learn, politically neutral. It never achieved mainstream adoption despite linguistic elegance because natural languages evolve to solve real problems and accumulate millions of speakers who have built culture around them. Rust, the speaker suggests, suffers from similar overconfidence in design purity over practical integration with existing ecosystems.</p>
+
+<p>"It's like we're going to solve this and we're doing this in a particular way. Meaning it's a bit too utopian? There's a lot of focus on the self-importance rather than solving real world problems." The speaker draws a parallel to the Sinclair C5, an electric vehicle designed by Sir Clive Sinclair that was technologically interesting but practically useless. "I think the community doesn't quite understand that in order to get people to move, you have to build something that's as good as—if not better than—what you have now."</p>
+
+<p>The specific complaint centers on incomplete rewrites. Projects like coreutils written in Rust achieve perhaps 85-90% of the original feature set, and this gap consumes disproportionate effort. "That last 1% takes 99% of the time," the speaker notes, referencing a formulation often attributed to Elon Musk about prototypes versus production. The irony is that this principle—which explains why startups can move faster than incumbents—applies equally to rewrites. The easy parts are easy; the hard parts reveal that the original implementers understood their domains in ways that aren't always documented.</p>
+
+<p>This doesn't mean Rust is worthless. Memory safety as a concept matters enormously, and languages that enforce it correctly eliminate entire vulnerability classes. But the speaker suggests the community needs to reckon with practical constraints: programmers won't abandon tools that work for tools that promise to be better while delivering less.</p>
+
+<p>---</p>
+
+<h2>Who This Discussion Is For</h2>
+
+<p>This conversation serves several audiences differently. <strong>Systems programmers</strong> already comfortable with C will find validation for their low-level instincts plus practical encouragement to maintain assembly literacy even as they work primarily in higher-level languages. The discussion of memory hierarchy and register allocation provides vocabulary for explaining to others why the choices systems programmers make matter.</p>
+
+<p><strong>FFmpeg contributors and aspiring codec developers</strong> will find the most direct value in understanding the ASM-lessons approach and the X86 Inc framework. The speaker makes clear that opportunities exist—many codecs remain only partially optimized—and that the pathway to contributing has been deliberately cleared of unnecessary obstacles.</p>
+
+<p><strong>Language designers and advocates</strong> will encounter uncomfortable questions about their approaches. Whether one agrees with the speaker's assessment of Rust or not, the underlying logic about adoption barriers and the cost of incomplete rewrites deserves serious engagement. Anyone building tools meant to displace existing solutions should reckon with why the existing solutions won.</p>
+
+<p><strong>Programmers in general</strong> will benefit from understanding why low-level literacy matters even without writing assembly professionally. The memory hierarchy discussion provides mental models that improve programming in any language, and the warning about abstraction's cost applies everywhere.</p>
+
+<p>Finally, <strong>those curious about programming philosophy</strong> will appreciate the Spitfire metaphor and the broader argument about directness versus abstraction. The speaker makes a case that computing has progressively hidden its substrate, and that understanding the substrate makes you better at working with abstractions—even if you never throw away the abstractions entirely.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

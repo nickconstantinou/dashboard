@@ -1,6 +1,16 @@
 var posts = [
   {
     "date": "May 08, 2026",
+    "title": "Are Palace players really worth buying? Saka or Gyokeres? FPL Q&A",
+    "url": "2026-05-08-are-palace-players-really-worth-buying-saka-or-gyo.html",
+    "category": "FPL",
+    "excerpt": "# FPL Q&A: Evaluating Palace and Comparing Leeds Assets ## Palace Player Viability When assessing Crystal Palace players for FPL purposes, the evidence presents a mixed picture. Jean-Philippe Mateta h",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "\u2018Beach\u2019 teams, cups + Arsenal: Who will prosper in Gameweeks 36-38?",
     "url": "2026-05-08-beach-teams-cups-arsenal-who-will-prosper-in-gamew.html",
     "category": "FPL",
@@ -21,12 +31,42 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
+    "title": "Everything Vitor Pereira said about Gibbs-White + Forest injuries",
+    "url": "2026-05-08-everything-vitor-pereira-said-about-gibbs-white-fo.html",
+    "category": "FPL",
+    "excerpt": "# Vitor Pereira Provides Injury Updates on Gibbs-White and Forest Players ## Morgan Gibbs-White's Facial Injury Morgan Gibbs-White of Nottingham Forest suffered a facial injury on Monday, according to",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Fan Favorite - \"The Shadow in the Doorway\"",
+    "url": "2026-05-08-fan-favorite-the-shadow-in-the-doorway.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[10:00\u201310:53]</strong> <em>Breakthrough and James arrest</em> \u2014 Security footage from a 7-Eleven shows James, who was romantically inv",
+    "tags": [
+      "Mystery/Suspense"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "FFmpeg drama on Twitter/X | Lex Fridman Podcast",
     "url": "2026-05-08-ffmpeg-drama-on-twitterx-lex-fridman-podcast.html",
     "category": "AI/Tech",
     "excerpt": "# Key Insights - **FFmpeg controversy generated measurable positive outcomes**: The social media drama surrounding the open-source multimedia framework led to increased donations and significantly hei",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "\u00ad\u00ad\u00adFPL Gameweek 36 differentials: 3 low-owned City, Arsenal + Spurs picks",
+    "url": "2026-05-08-fpl-gameweek-36-differentials-3-low-owned-city-ars.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 36 Differentials: 3 Low-Owned City, Arsenal + Spurs Picks Fantasy managers looking for an edge in Gameweek 36 might consider three players with single-digit ownership who are positioned",
+    "tags": [
+      "FPL"
     ]
   },
   {
@@ -44,9 +84,59 @@ var posts = [
     "title": "FPL News Roundup \u2014 2026-05-08",
     "url": "2026-05-08-fpl-news-roundup-2026-05-08.html",
     "category": "FPL",
-    "excerpt": "Nottingham Forest could be boosted by the return of several injured players for the run-in, with Morgan Gibbs-White among those named on the bench in a recent match \u2014 a promising sign ahead of a cruci",
+    "excerpt": "With the season nearing its conclusion, FPL managers face crucial captaincy decisions heading into Gameweek 36, and the standout picks remain consistent with recent form. Erling Haaland continues to d",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Gomez, Wieffer, Milner: Brighton injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-gomez-wieffer-milner-brighton-injury-latest-for-fp.html",
+    "category": "FPL",
+    "excerpt": "# Brighton Injury Latest for FPL Gameweek 36 ## Captain's Return on the Horizon Lewis Dunk, Brighton's captain and priced at \u00a34.5m, has had limited minutes recently due to knee niggles and a suspensio",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Guessand + Glasner on rotation: Palace injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-guessand-glasner-on-rotation-palace-injury-latest-.html",
+    "category": "FPL",
+    "excerpt": "# Crystal Palace Rotation Watch: FPL Gameweek 36 Implications ## Shakhtar Friendly: No Fresh Concerns Crystal Palace emerged from their Shakhtar Donetsk friendly without any new injury concerns, accor",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Gueye, Branthwaite, Grealish: Everton injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-gueye-branthwaite-grealish-everton-injury-latest-f.html",
+    "category": "FPL",
+    "excerpt": "# Gueye, Branthwaite, Grealish: Everton Injury Latest for FPL Gameweek 36 Idrissa Gana Gueye remains a doubt for Gameweek 36, according to the latest update from Fantasy Football Scout. The Senegalese",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Hire a team of AI Agents",
+    "url": "2026-05-08-hire-a-team-of-ai-agents.html",
+    "category": "Business/Startups",
+    "excerpt": "<p># Key Insights - **Nebula uses sub-agent architecture to solve AI memory problems**: Rather than relying on a single AI with persistent memory (like Hermes's self-learning loop), Nebula handles thi",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "How CIA spied on people using fake VLC video player | Lex Fridman Podcast",
+    "url": "2026-05-08-how-cia-spied-on-people-using-fake-vlc-video-playe.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **The CIA embedded their malware in a single DLL** (psapi.dll) added to otherwise legitimate VLC binaries, exploiting the fact that watching a movie for 2 hours generates sustained n",
+    "tags": [
+      "AI/Tech"
     ]
   },
   {
@@ -61,6 +151,136 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
+    "title": "Kluivert, Cook, Jimenez: Bournemouth injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-kluivert-cook-jimenez-bournemouth-injury-latest-fo.html",
+    "category": "FPL",
+    "excerpt": "# Bournemouth Injury Update: Kluivert Close to Return, Cook Targeting Final Fixtures ## Justin Kluivert Nearing Comeback Justin Kluivert looks set to make his return to the Bournemouth matchday squad ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Melt-Up or Mirage? Markets Ignore Everything but Earnings",
+    "url": "2026-05-08-melt-up-or-mirage-markets-ignore-everything-but-ea.html",
+    "category": "Finance",
+    "excerpt": "<p>**Key Insights** - **Nasdaq surged 11% since the Iran conflict began**, demonstrating that markets are currently indifferent to geopolitical turmoil and focused solely on corporate earnings perform",
+    "tags": [
+      "Finance"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Miley, Livramento, Schar: Newcastle injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-miley-livramento-schar-newcastle-injury-latest-for.html",
+    "category": "FPL",
+    "excerpt": "# Newcastle Injury Latest for FPL Gameweek 36 Newcastle United faces a significant injury crisis heading into the crucial stages of the season, with several key players ruled out for the remainder of ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Most Replayed Moment: This Is The Best Exercise Protocol For Women!",
+    "url": "2026-05-08-most-replayed-moment-this-is-the-best-exercise-pro.html",
+    "category": "Business/Interview",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[7:51\u20138:42]</strong> <em>Modern chronic stress vs ancestral episodic stress</em> \u2014 Discussion of how modern chronic stress differs fro",
+    "tags": [
+      "Business/Interview"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Okafor, Struijk, Gudmundsson: Leeds injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-okafor-struijk-gudmundsson-leeds-injury-latest-for.html",
+    "category": "FPL",
+    "excerpt": "# Leeds Injury Latest for FPL Gameweek 36 *Okafor, Struijk, and Gudmundsson remain concerns heading into a pivotal week for Leeds United's Premier League survival hopes.* --- ## Leeds United Injury Li",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "People Are Going to Print Money with GTA6",
+    "url": "2026-05-08-people-are-going-to-print-money-with-gta6.html",
+    "category": "Tech/Business",
+    "excerpt": "# Key Insights - **$1 billion in 3 days**: GTA V achieved this milestone, making it the fastest entertainment product in history to reach that revenue threshold\u2014outpacing any film, book franchise, or ",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Pras' Gameweek 36 Team Selection  | Fantasy Premier League Tips 2025/26",
+    "url": "2026-05-08-pras-gameweek-36-team-selection-fantasy-premier-le.html",
+    "category": "FPL",
+    "excerpt": "# Pras' Gameweek 36 Team Selection | Fantasy Premier League Tips 2025/26 ## Current Season Context We are now in Gameweek 36, which is a double gameweek. There are three game weeks remaining in the se",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Rodri, Ruben, Gvardiol: Man City injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-rodri-ruben-gvardiol-man-city-injury-latest-for-fp.html",
+    "category": "FPL",
+    "excerpt": "# Rodri, Ruben, Gvardiol: Man City Injury Latest for FPL Gameweek 36 ## Rodri Remains a Doubt Manchester City midfielder Rodri continues to be a doubt for the club's Double Gameweek 36 fixtures. Accor",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "ROLLUP: Crypto\u2019s Nasdaq Problem | The CLARITY Act | Saylor Selling? | ETH L1 Scaling",
+    "url": "2026-05-08-rollup-cryptos-nasdaq-problem-the-clarity-act-sayl.html",
+    "category": "Crypto/Web3",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[54:50\u201356:10]</strong> <em>US-Iran Relations and Oil Market Impact</em> \u2014 Iran struck a UAE oil facility with missiles and drones, tho",
+    "tags": [
+      "Crypto/Web3"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Salah, Alisson, Wirtz: Liverpool injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-salah-alisson-wirtz-liverpool-injury-latest-for-fp.html",
+    "category": "FPL",
+    "excerpt": "# Liverpool Injury News Ahead of FPL Gameweek 36 ## Key Attacking Assets Mohamed Salah (\u00a314.0m) remains sidelined with a hamstring injury. Liverpool manager Arne Slot confirmed that Salah has not yet ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Should programmers learn how to code in assembly? | Lex Fridman Podcast",
+    "url": "2026-05-08-should-programmers-learn-how-to-code-in-assembly-l.html",
+    "category": "AI/Tech",
+    "excerpt": "# Should Programmers Learn Assembly Language? A Deep Dive into Low-Level Programming ## Key Insights - **FFmpeg requires assembly**: Many codecs in FFmpeg remain only partially assembly-optimized, cre",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Solanke, Richarlison, Vicario: Tottenham injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-solanke-richarlison-vicario-tottenham-injury-lates.html",
+    "category": "FPL",
+    "excerpt": "# Tottenham Injury Latest for FPL Gameweek 36 ## Overview Tottenham Hotspur head into Gameweek 36 with no new injury concerns, according to the latest update from the club. Manager Roberto De Zerbi co",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Steal This $1 BILLION D2C Marketing Playbook",
+    "url": "2026-05-08-steal-this-1-billion-d2c-marketing-playbook.html",
+    "category": "Tech/Business",
+    "excerpt": "## Key Insights - **Test 5-6 simultaneous ad angles, each with a tailored landing page**, running them all in parallel rather than killing underperformers\u2014different customer segments genuinely respond",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "The latest FFS Members Cup results + quarter-final draw",
     "url": "2026-05-08-the-latest-ffs-members-cup-results-quarter-final-d.html",
     "category": "FPL",
@@ -71,10 +291,60 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
+    "title": "The Resurrection of Michael Jackson",
+    "url": "2026-05-08-the-resurrection-of-michael-jackson.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[20:00\u201321:50]</strong> <em>The Michael Jackson Biopic Production and Controversy</em> \u2014 The estate hired director Antoine Fuqua to cre",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "The Scout Squad: Our top picks for FPL Double Gameweek 36",
     "url": "2026-05-08-the-scout-squad-our-top-picks-for-fpl-double-gamew.html",
     "category": "FPL",
     "excerpt": "# The Scout Squad: Our Top Picks for FPL Double Gameweek 36 Fantasy Premier League managers face a crucial decision point as Double Gameweek 36 approaches. The Scout Squad analysis highlights players ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "The Weekender ep. 33 | Planet FPL 2025/26",
+    "url": "2026-05-08-the-weekender-ep-33-planet-fpl-202526.html",
+    "category": "FPL",
+    "excerpt": "# Arsenal's Champions League Progress: FPL Implications ## Arsenal Advance to Champions League Final Arsenal secured their place in the Champions League final by defeating Atletico Madrid in Tuesday n",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "THIS WEEK IN AI: Anthropic SpaceXAI Deal | Elon vs OpenAI Trial",
+    "url": "2026-05-08-this-week-in-ai-anthropic-spacexai-deal-elon-vs-op.html",
+    "category": "AI/Tech",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[2:11\u20134:30]</strong> <em>XAI Depreciated Into SpaceX AI Division</em> \u2014 XAI has been depreciated and consolidated into SpaceX AI. The ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Timber + Merino: Arsenal injury latest for FPL Gameweek 36",
+    "url": "2026-05-08-timber-merino-arsenal-injury-latest-for-fpl-gamewe.html",
+    "category": "FPL",
+    "excerpt": "# Arsenal Injury Latest: Timber and Merino Ruled Out for GW36 ## Overview Arsenal manager Mikel Arteta confirmed there are no fresh injury concerns following the club's midweek Champions League victor",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Triple Captain! Lateriser's Gameweek 36 Team Selection | Top 200x3 | Fantasy Premier League Tips",
+    "url": "2026-05-08-triple-captain-laterisers-gameweek-36-team-selecti.html",
+    "category": "FPL",
+    "excerpt": "# Triple Captain Strategy: Lateriser's Gameweek 36 Team Selection Analysis ## Introduction: The Triple Captain Decision Fantasy Premier League managers approaching Gameweek 36 face critical decisions,",
     "tags": [
       "FPL"
     ]
@@ -91,6 +361,26 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
+    "title": "Video codecs explained: H.264, AV1, HEVC, VVC | Lex Fridman Podcast",
+    "url": "2026-05-08-video-codecs-explained-h264-av1-hevc-vvc-lex-fridm.html",
+    "category": "AI/Tech",
+    "excerpt": "## Video Codecs Explained: Understanding H.264, AV1, HEVC, and VVC **Key Insights:** - Video codecs achieve **100x to 1000x compression** by identifying and removing redundant visual information that ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Video compression explained: H.264, AV1, ProRes | Lex Fridman Podcast",
+    "url": "2026-05-08-video-compression-explained-h264-av1-prores-lex-fr.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **ProRes is an \"intra-only\" codec** with zero temporal compression\u2014every frame is a complete, self-contained image\u2014which makes it ideal for editing where random seeking is required, b",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "VLC video player can open anything - VLC lead developer explains | Lex Fridman Podcast",
     "url": "2026-05-08-vlc-video-player-can-open-anything-vlc-lead-develo.html",
     "category": "AI/Tech",
@@ -101,12 +391,32 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
+    "title": "What Glasner said about Palace\u2019s Gameweek 36 clash vs Everton",
+    "url": "2026-05-08-what-glasner-said-about-palaces-gameweek-36-clash-.html",
+    "category": "FPL",
+    "excerpt": "# What Glasner Said About Palace's Gameweek 36 Clash vs Everton ## Conference League Progress Sets Up Busy Fixture Run Crystal Palace secured their place in the UEFA Conference League final on Thursda",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
     "title": "Why Did OpenAI Spend $100M to Buy a Podcast?",
     "url": "2026-05-08-why-did-openai-spend-100m-to-buy-a-podcast.html",
     "category": "Tech/Business",
     "excerpt": "## Why Did OpenAI Spend $100M+ to Buy a Podcast? An Analysis of the TBPN Acquisition **Key Insights:** - OpenAI reportedly acquired TBPN (a tech live show/podcast) for **$100-200 million** \u2014 for a med",
     "tags": [
       "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Zophar Gameweek 36 Team Selection - 4 Free Transfers! | Fantasy Premier League Tips 2025/26",
+    "url": "2026-05-08-zophar-gameweek-36-team-selection-4-free-transfers.html",
+    "category": "FPL",
+    "excerpt": "# Zophar's Gameweek 36 Strategy: Four Free Transfers and Bench Boost Results ## Overview FPL Wire released a Gameweek 36 team selection video featuring creator Zophar, who enters the penultimate gamew",
+    "tags": [
+      "FPL"
     ]
   },
   {
