@@ -1,10 +1,550 @@
 var posts = [
   {
+    "date": "May 08, 2026",
+    "title": "\u2018Beach\u2019 teams, cups + Arsenal: Who will prosper in Gameweeks 36-38?",
+    "url": "2026-05-08-beach-teams-cups-arsenal-who-will-prosper-in-gamew.html",
+    "category": "FPL",
+    "excerpt": "# Beach Teams, Cups + Arsenal: Who Will Prosper in Gameweeks 36-38? ## The Run-In Context As the Fantasy Premier League season approaches its climax, managers face a uniquely challenging set of fixtur",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Best cheap players for a Gameweek 36 Bench Boost",
+    "url": "2026-05-08-best-cheap-players-for-a-gameweek-36-bench-boost.html",
+    "category": "FPL",
+    "excerpt": "# Best Cheap Players for Gameweek 36 Bench Boost ## Introduction Gameweek 36 presents an opportunity for Fantasy Premier League managers to deploy a Bench Boost chip. Selecting the right budget player",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "FFmpeg drama on Twitter/X | Lex Fridman Podcast",
+    "url": "2026-05-08-ffmpeg-drama-on-twitterx-lex-fridman-podcast.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **FFmpeg controversy generated measurable positive outcomes**: The social media drama surrounding the open-source multimedia framework led to increased donations and significantly hei",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "FPL Gameweek 36 team news: Thursday\u2019s live injury updates",
+    "url": "2026-05-08-fpl-gameweek-36-team-news-thursdays-live-injury-up.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 36 Team News: Thursday's Live Injury Updates This article provides verified and reported injury updates from Gameweek 36, sourced from Fantasy Football Scout's Thursday team news covera",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-08",
+    "url": "2026-05-08-fpl-news-roundup-2026-05-08.html",
+    "category": "FPL",
+    "excerpt": "Nottingham Forest could be boosted by the return of several injured players for the run-in, with Morgan Gibbs-White among those named on the bench in a recent match \u2014 a promising sign ahead of a cruci",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "\"Jonah Hill LIVE\"",
+    "url": "2026-05-08-jonah-hill-live.html",
+    "category": "Comedy/Interview",
+    "excerpt": "<p>**Key Insights** - **The Smartless podcast format operates on pure improvisation**: The hosts genuinely never know who the guest will be until they walk on stage, and they never pre-discuss topics ",
+    "tags": [
+      "Comedy/Interview"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "The latest FFS Members Cup results + quarter-final draw",
+    "url": "2026-05-08-the-latest-ffs-members-cup-results-quarter-final-d.html",
+    "category": "FPL",
+    "excerpt": "# FFS Members Cup Quarter-Finals Set After Gameweek 35 Results ## Quarter-Final Overview Gameweek 36 brings the quarter-finals of the latest FFS Members Cup, where eight Fantasy Premier League (FPL) m",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "The Scout Squad: Our top picks for FPL Double Gameweek 36",
+    "url": "2026-05-08-the-scout-squad-our-top-picks-for-fpl-double-gamew.html",
+    "category": "FPL",
+    "excerpt": "# The Scout Squad: Our Top Picks for FPL Double Gameweek 36 Fantasy Premier League managers face a crucial decision point as Double Gameweek 36 approaches. The Scout Squad analysis highlights players ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Updated: Who is the best Crystal Palace defender for Double Gameweek 36?",
+    "url": "2026-05-08-updated-who-is-the-best-crystal-palace-defender-fo.html",
+    "category": "FPL",
+    "excerpt": "# Best Crystal Palace Defender for Double Gameweek 36 ## Crystal Palace's Double Gameweek 36 Fixtures Crystal Palace face two fixtures in Gameweek 36. They will play Everton at home and Manchester Cit",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "VLC video player can open anything - VLC lead developer explains | Lex Fridman Podcast",
+    "url": "2026-05-08-vlc-video-player-can-open-anything-vlc-lead-develo.html",
+    "category": "AI/Tech",
+    "excerpt": "**Key Insights** - **25% of VLC's website traffic comes from searches for \"cone player\"** \u2014 many users don't know the software name but recognize the orange cone icon, demonstrating how a deliberately",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "Why Did OpenAI Spend $100M to Buy a Podcast?",
+    "url": "2026-05-08-why-did-openai-spend-100m-to-buy-a-podcast.html",
+    "category": "Tech/Business",
+    "excerpt": "## Why Did OpenAI Spend $100M+ to Buy a Podcast? An Analysis of the TBPN Acquisition **Key Insights:** - OpenAI reportedly acquired TBPN (a tech live show/podcast) for **$100-200 million** \u2014 for a med",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 08, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-08",
+    "url": "2026-05-08-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-08 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "267: Relationship PROBLEMS!",
+    "url": "2026-05-07-267-relationship-problems-.html",
+    "category": "Comedy/Relationships",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[102:12\u2013103:36]</strong> <em>Sleep Science and Historical Light Patterns</em> \u2014 Exploration of how darkness triggers melatonin product",
+    "tags": [
+      "Comedy/Relationships"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "DEBATE: Why Do Gen Z Women Hate Men So Much? - #1094",
+    "url": "2026-05-07-debate-why-do-gen-z-women-hate-men-so-much-1094.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p># Key Insights - Women perceive themselves as less happy, less healthy, and less safe than men globally\u2014a pattern explained through evolutionary vulnerability signaling, not merely social construct",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Differential FPL captains for the final three Gameweeks",
+    "url": "2026-05-07-differential-fpl-captains-for-the-final-three-game.html",
+    "category": "FPL",
+    "excerpt": "# Differential FPL Captains for the Final Three Gameweeks With the season entering its decisive phase, managers seeking to climb the overall rankings must look beyond the obvious captain choices. The ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Don't Chase Your Passion - Do This Instead",
+    "url": "2026-05-07-dont-chase-your-passion-do-this-instead.html",
+    "category": "Tech/Business",
+    "excerpt": "# Don't Chase Your Passion \u2014 Do This Instead ## A Deep Dive into the \"Bliss vs. Blisters\" Framework for Finding Your Calling --- ## Key Insights - **Etymology of \"passion\"**: The word derives from \"su",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern",
+    "url": "2026-05-07-essentials-compulsive-behaviors-deep-brain-stimula.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern ## Key Insights - **Deep brain stimulation (DBS) achieves immediate tremor relief in Parkinson's patients** \u2014 when el",
+    "tags": [
+      "Health/Science"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "FFS Mini-Leagues and Community Competitions \u2013 Gameweek 35",
+    "url": "2026-05-07-ffs-mini-leagues-and-community-competitions-gamewe.html",
+    "category": "FPL",
+    "excerpt": "# FFS Mini-Leagues and Community Competitions \u2013 Gameweek 35 ## Hall of Fame Highlights The FFS Live Hall of Fame now ranks 55,802 FPL managers based on results through Gameweek 35. Ben Crellin has sec",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "FPL Double Gameweek 36 Wildcard: 2 drafts to consider",
+    "url": "2026-05-07-fpl-double-gameweek-36-wildcard-2-drafts-to-consid.html",
+    "category": "FPL",
+    "excerpt": "# FPL Double Gameweek 36 Wildcard: Key Draft Considerations ## Arsenal's Favorable Finish Arsenal face West Ham (away), Burnley (home), and Crystal Palace (away) to end the season, with all matches re",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-07",
+    "url": "2026-05-07-fpl-news-roundup-2026-05-07.html",
+    "category": "FPL",
+    "excerpt": "With the season entering its decisive phase, Saka's recent brace against Villarreal in Arsenal's Champions League semi-final victory should catch the eye of managers still weighing their captain optio",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "FPL notes: Saka nets again, Gyokeres \u201cimmense\u201d + is Eze\u2019s game-time a concern?",
+    "url": "2026-05-07-fpl-notes-saka-nets-again-gyokeres-immense-is-ezes.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Saka Nets Again, Gyokeres \"Immense\" + Is Eze's Game-Time a Concern? ## Arsenal's Defensive Record Arsenal secured their 30th clean sheet of the campaign against Atletico Madrid, marking a",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Gibbs-White, Palace + Villa injury updates ahead of Gameweek 36",
+    "url": "2026-05-07-gibbs-white-palace-villa-injury-updates-ahead-of-g.html",
+    "category": "FPL",
+    "excerpt": "# Gameweek 36 Injury Updates: Gibbs-White, Palace and Villa Fitness Check With Fantasy Premier League managers weighing up their squads ahead of Gameweek 36, several key players across Nottingham Fore",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 36?",
+    "url": "2026-05-07-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 36: Players Who Delivered in Gameweek 35 ## Overview Fantasy Football Scout's \"Goals + assists imminent!\" column examines Fantasy Premier League players who may be due for returns based",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "How FPL Harry, Pras, Mark Sutherns + more did in Gameweek 35",
+    "url": "2026-05-07-how-fpl-harry-pras-mark-sutherns-more-did-in-gamew.html",
+    "category": "FPL",
+    "excerpt": "# How Top FPL Managers Navigated Gameweek 35 ## Chip Strategies in Gameweek 35 Gameweek 35 saw significant chip activity among elite FPL managers. Six managers from the group known as \"The Great and T",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "How Replit Agent made $1M on day one (then $250M in a year)",
+    "url": "2026-05-07-how-replit-agent-made-1m-on-day-one-then-250m-in-a.html",
+    "category": "Tech/Business",
+    "excerpt": "<p># How Replit Agent Made $1M on Day One (Then $250M in a Year): A Founder's Raw Journey Through Doubt, Breakthrough, and Billion-Dollar Growth **Key Insights:** - Replit grew revenue from **$2.5 mil",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "How video compression works - VLC lead developer explains | Lex Fridman Podcast",
+    "url": "2026-05-07-how-video-compression-works-vlc-lead-developer-exp.html",
+    "category": "AI/Tech",
+    "excerpt": "# How Video Compression Works: A Deep Dive with VLC and FFmpeg's Lead Developers ## Key Insights - **Up to 45% of video files cannot be decoded by GPU hardware acceleration**, requiring fallback to so",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "In Plain Sight",
+    "url": "2026-05-07-in-plain-sight.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[5:00\u201310:30]</strong> <em>Serial Cardiac Arrests at Medical Center</em> \u2014 Dr. Chad Marsden at a Dallas Surgicare Center is caught in a",
+    "tags": [
+      "Mystery/Suspense"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Liverpool v Chelsea | CotC with Dan Lord & Gary Mantle | Planet FPL 2025/26",
+    "url": "2026-05-07-liverpool-v-chelsea-cotc-with-dan-lord-gary-mantle.html",
+    "category": "FPL",
+    "excerpt": "# Liverpool v Chelsea Preview: FPL Implications from Planet FPL ## Liverpool's Weekend Setback Liverpool suffered a disappointment at the weekend, losing to Manchester United. This result adds extra w",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Making Sense of the AI Cycle: Where are We Now?",
+    "url": "2026-05-07-making-sense-of-the-ai-cycle-where-are-we-now.html",
+    "category": "AI/Tech",
+    "excerpt": "<p># Key Insights - **The $800B-to-$1T CapEx waterfall**: Four hyperscalers (Google, Amazon, Microsoft, Meta) committed to spending $800 billion in 2026, growing to $1.1 trillion in 2027\u2014unprecedented",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "Peeping Cooper",
+    "url": "2026-05-07-peeping-cooper.html",
+    "category": "AI/Tech",
+    "excerpt": "<p>**Key Insights** - Cooper works for a cultural resource management firm where government-mandated surveys are triggered whenever a U.S. project uses federal money, requiring assessment of whether c",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "The End of Human Trading?",
+    "url": "2026-05-07-the-end-of-human-trading.html",
+    "category": "Crypto/Finance",
+    "excerpt": "<p># The End of Human Trading? AI Agents, Tokenization, and the Democratization of Global Finance ## Key Insights - **eToro launched the first web trading platform before Interactive Brokers**, and be",
+    "tags": [
+      "Crypto/Finance"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "What the End of Spirit Airlines Means for the Future of Flying",
+    "url": "2026-05-07-what-the-end-of-spirit-airlines-means-for-the-futu.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[8:40\u20139:30]</strong> <em>Failed JetBlue Merger Attempt</em> \u2014 Spirit attempted to merge with Frontier, then pivoted to a JetBlue acqui",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 07, 2026",
+    "title": "WW3 Expert: This Could Trigger Global Starvation",
+    "url": "2026-05-07-ww3-expert-this-could-trigger-global-starvation.html",
+    "category": "Business/Interview",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[31:40\u201334:20]</strong> <em>Russia's Ukraine Invasion and Global Alliance Threat</em> \u2014 Examination of Russia's 2022 invasion of Ukrain",
+    "tags": [
+      "Business/Interview"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "667. The Mystery of the Mona Lisa",
+    "url": "2026-05-06-667-the-mystery-of-the-mona-lisa.html",
+    "category": "History",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[13:40\u201313:55]</strong> <em>The 1911 Theft and Return of the Mona Lisa</em> \u2014 The Mona Lisa's theft from the Louvre in 1911 made it a g",
+    "tags": [
+      "History"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "#864: How to Simplify Your Life in 2026 \u2014 New Tips from Anne Lamott, Claire Hughes Johnson, David Yarrow, and Diana Chapman",
+    "url": "2026-05-06-864-how-to-simplify-your-life-in-2026-new-tips-fro.html",
+    "category": "Business/Self-help",
+    "excerpt": "<p>## Key Insights - **David Yarrow** limited his inner circle to **7-8 truly close friends** (outside immediate family), rejecting the notion that having 60-70 \"close friends\" is possible\u2014describing ",
+    "tags": [
+      "Business/Self-help"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Best Crystal Palace players for FPL Double Gameweek 36: Updated!",
+    "url": "2026-05-06-best-crystal-palace-players-for-fpl-double-gamewee.html",
+    "category": "FPL",
+    "excerpt": "# Best Crystal Palace Players for FPL Double Gameweek 36: Updated! ## Crystal Palace Double Gameweek 36 Overview Crystal Palace will have a Double Gameweek in Gameweek 36, facing Everton away and Manc",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Cherki v Semenyo v Doku: Who is the best Man City midfielder in FPL?",
+    "url": "2026-05-06-cherki-v-semenyo-v-doku-who-is-the-best-man-city-m.html",
+    "category": "FPL",
+    "excerpt": "# Cherki v Semenyo v Doku: Who is the Best Man City Midfielder in FPL? ## Pricing Context Rayan Cherki (\u00a36.6m), Antoine Semenyo (\u00a38.1m) and Jeremy Doku (\u00a36.4m) are the three names in question for FPL ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Eagles Landing? | #FPL DGW36 (with Mo (FPL Trophy))",
+    "url": "2026-05-06-eagles-landing-fpl-dgw36-with-mo-fpl-trophy.html",
+    "category": "FPL",
+    "excerpt": "# Eagles Landing? | #FPL DGW36 Podcast Recap ## Overview The Eagles Landing? podcast returned for a special episode covering Gameweek 35 and previewing the crucial Double Gameweek 36. Recorded on Tues",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Fantasy EFL Play-Offs: Join our mini-league \u2013 and win prizes!",
+    "url": "2026-05-06-fantasy-efl-play-offs-join-our-mini-league-and-win.html",
+    "category": "FPL",
+    "excerpt": "# Fantasy EFL Play-Offs Mini-League: How to Join and Win Prizes ## What is the Fantasy EFL Play-Offs? Fantasy Football Scout has announced an exciting opportunity for Fantasy EFL managers. The Fantasy",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-06",
+    "url": "2026-05-06-fpl-news-roundup-2026-05-06.html",
+    "category": "FPL",
+    "excerpt": "Jeremy Doku is making a strong case for Double Gameweek 36 consideration after his display in Everton's 3-3 draw with Chelsea. His form has put him squarely in the conversation alongside other Manches",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "FPL notes: Doku states his Double Gameweek 36 case",
+    "url": "2026-05-06-fpl-notes-doku-states-his-double-gameweek-36-case.html",
+    "category": "FPL",
+    "excerpt": "# FPL Analysis: Doku States His Double Gameweek 36 Case ## Jeremy Doku's Recent FPL Returns Jeremy Doku (\u00a36.4m) has emerged as a compelling FPL asset ahead of Double Gameweek 36. The Manchester City w",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "FPL notes: Gibbs-White + Sanchez injury latest, Pereira on rotation",
+    "url": "2026-05-06-fpl-notes-gibbs-white-sanchez-injury-latest-pereir.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Gibbs-White and Sanchez Injury Latest, Pereira on Rotation ## Head Collision Rules FPL Assets Out Morgan Gibbs-White (\u00a37.7m) and Robert Sanchez (\u00a34.8m) collided head-on during the match a",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Free Booze to Real Power: Why Shareholder Perks Matter",
+    "url": "2026-05-06-free-booze-to-real-power-why-shareholder-perks-mat.html",
+    "category": "Finance",
+    "excerpt": "<p># Free Booze to Real Power: Why Shareholder Perks Matter --- ## Key Insights \u2022 **Chapel Down wine discounts are tiered by shareholding**: Silver shareholders (1-1,999 shares) receive 25% off wine; ",
+    "tags": [
+      "Finance"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Gyokeres, Thiago, Palace players: Buy, keep or sell in Gameweek 36?",
+    "url": "2026-05-06-gyokeres-thiago-palace-players-buy-keep-or-sell-in.html",
+    "category": "FPL",
+    "excerpt": "# Gyokeres, Thiago, Palace Players: Buy, Keep or Sell in Gameweek 36 ## Viktor Gyokeres: Buy Viktor Gyokeres enters Gameweek 36 in excellent form, having contributed five goals across his last eight m",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Man City v Crystal Palace | CotC with Jonny Pringle & Ruaidhri McLaughlin-Dowd | Planet FPL 2025/26",
+    "url": "2026-05-06-man-city-v-crystal-palace-cotc-with-jonny-pringle-.html",
+    "category": "FPL",
+    "excerpt": "# Man City v Crystal Palace: FPL Captaincy Analysis ## Context: The Final Double Game Week This episode of Captain of the Coast represents the last double game week preview of the season, featuring Jo",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "My AI Design Workflow That Doesn't Ship Slop",
+    "url": "2026-05-06-my-ai-design-workflow-that-doesnt-ship-slop.html",
+    "category": "Business/Startups",
+    "excerpt": "<p># Key Insights - **Google's design.md is an open-source \"blueprint\" format** that captures a design system's soul\u2014typography, colors, spacing, components\u2014and packages it as a portable markdown file",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "The OpenAI Phone is Coming... With an AI Operating System",
+    "url": "2026-05-06-the-openai-phone-is-coming-with-an-ai-operating-sy.html",
+    "category": "AI/Tech",
+    "excerpt": "<p>**Key Insights** - OpenAI is targeting 40-50 million units in year one\u2014larger than the original iPhone's opening sales\u2014with production allegedly beginning in 2027 using TSMC's cutting-edge 2nm tran",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Tragedy by Design (PODCAST EXCLUSIVE EPISODE)",
+    "url": "2026-05-06-tragedy-by-design-podcast-exclusive-episode.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[8:55\u201310:21]</strong> <em>Dream Space Inflatable Structure Catastrophe</em> \u2014 Dream Space was an inflatable art exhibit made of plasti",
+    "tags": [
+      "Mystery/Suspense"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "UCL Fantasy: Matchday 16 Scout Picks",
+    "url": "2026-05-06-ucl-fantasy-matchday-16-scout-picks.html",
+    "category": "FPL",
+    "excerpt": "# UCL Fantasy: Matchday 16 Scout Picks Matchday 16 presents fantasy managers with several compelling options across the Champions League fixture list. Here's a focused breakdown of the key picks based",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Who is suspended in FPL \u2013 and can anyone still get a yellow card ban?",
+    "url": "2026-05-06-who-is-suspended-in-fpl-and-can-anyone-still-get-a.html",
+    "category": "FPL",
+    "excerpt": "# Who Is Suspended in FPL \u2013 and Can Anyone Still Get a Yellow Card Ban? ## Current Suspensions in Fantasy Premier League A handful of Premier League players are currently serving bans that affect thei",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Will there be a FIFA World Cup 2026 Fantasy game + when will it go live?",
+    "url": "2026-05-06-will-there-be-a-fifa-world-cup-2026-fantasy-game-w.html",
+    "category": "FPL",
+    "excerpt": "# Will There Be a FIFA World Cup 2026 Fantasy Game? ## The Short Answer Yes, there will almost certainly be an official FIFA World Cup 2026 Fantasy game. FIFA has a established pattern of launching Fa",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 06, 2026",
+    "title": "Your Kids Asked the Artemis Astronauts Questions. They Answered.",
+    "url": "2026-05-06-your-kids-asked-the-artemis-astronauts-questions-t.html",
+    "category": "News",
+    "excerpt": "<p># Your Kids Asked the Artemis Astronauts Questions. They Answered. ## Key Insights - **Orientale Basin visibility**: Human eyes had never before seen the Orientale Basin on the moon's far side\u2014the ",
+    "tags": [
+      "News"
+    ]
+  },
+  {
     "date": "May 05, 2026",
     "title": "Chelsea v Forest team news: Derry starts, eight Forest changes",
     "url": "2026-05-05-chelsea-v-forest-team-news-derry-starts-eight-fore.html",
     "category": "FPL",
     "excerpt": "# Chelsea v Nottingham Forest: Team News Breakdown ## Jesse Derry Earns First Professional Start The headline news from Chelsea is that winger Jesse Derry makes his first professional start. The young",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Democratic Anger and Republican Revenge: Welcome to the Primaries",
+    "url": "2026-05-05-democratic-anger-and-republican-revenge-welcome-to.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[25:10\u201326:30]</strong> <em>Thomas Massie Defies Trump in Kentucky</em> \u2014 Trump traveled to Kentucky to campaign against Representative",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Double Trouble | Planet FPL S. 9 Ep. 52 | GW35 Review | Fantasy Premier League",
+    "url": "2026-05-05-double-trouble-planet-fpl-s-9-ep-52-gw35-review-fa.html",
+    "category": "FPL",
+    "excerpt": "# Double Trouble: GW35 Review and Season Run-In Strategy ## The Title Race and Arsenal's Margin for Error The Premier League title race remains finely poised as we approach the business end of the sea",
     "tags": [
       "FPL"
     ]
@@ -17,6 +557,16 @@ var posts = [
     "excerpt": "# Everton v Man City: Team News Analysis ## Key Lineup Changes ### Everton Starting XI Tim Iroegbunam receives a rare start for Everton in this fixture. The midfielder is priced at \u00a34.8m for Fantasy P",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
+    "title": "Everyone Needs to Use OpenAI Codex... Until Claude Mythos Comes Out",
+    "url": "2026-05-05-everyone-needs-to-use-openai-codex-until-claude-my.html",
+    "category": "AI/Tech",
+    "excerpt": "<p>## Key Insights - **OpenAI Codex has pulled dramatically ahead in downloads**: Over 46 million installs in recent weeks versus under 500,000 for Claude Code, flipping a historical trend where Claud",
+    "tags": [
+      "AI/Tech"
     ]
   },
   {
@@ -91,6 +641,16 @@ var posts = [
   },
   {
     "date": "May 05, 2026",
+    "title": "Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza",
+    "url": "2026-05-05-spotting-billion-dollar-investments-was-hard-until.html",
+    "category": "Tech/Business",
+    "excerpt": "<p># Key Insights - **The 1-in-10 Rule**: One in 10 Americans influence the other nine, making influencer marketing fundamentally about finding and activating that minority rather than attempting mass",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 05, 2026",
     "title": "UCL Fantasy: Matchday 16 best captains",
     "url": "2026-05-05-ucl-fantasy-matchday-16-best-captains.html",
     "category": "FPL",
@@ -127,6 +687,16 @@ var posts = [
     "excerpt": "2026-05-05 \u2022 FPL Roundups",
     "tags": [
       "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 04, 2026",
+    "title": "#390 \u2012 AMA #84: Family health history, preventing heart disease, metabolic health, strength training efficiency, dementia risk reduction, NAD supplements, and hydration",
+    "url": "2026-05-04-390-ama-84-family-health-history-preventing-heart-.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Key Insights - **Family history outperforms genetic testing for polygenic conditions**: Most diseases (heart disease, diabetes, cancer) arise from multiple gene variants with variable penetration",
+    "tags": [
+      "Health/Science"
     ]
   },
   {
@@ -781,6 +1351,16 @@ var posts = [
   },
   {
     "date": "May 01, 2026",
+    "title": "Hegseth in the Hot Seat",
+    "url": "2026-05-01-hegseth-in-the-hot-seat.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[10:37\u201313:07]</strong> <em>60-Day Congressional War Authorization Deadline</em> \u2014 Democrats press Hegseth on the 60-day legal deadline",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 01, 2026",
     "title": "I built a real 29 dollar per month SAAS with Insforge",
     "url": "2026-05-01-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
     "category": "Tech",
@@ -1071,6 +1651,16 @@ var posts = [
   },
   {
     "date": "April 29, 2026",
+    "title": "Hardship, Resilience & Competing at the Highest Level | Ken Rideout",
+    "url": "2026-04-29-hardship-resilience-competing-at-the-highest-level.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Hardship, Resilience & Competing at the Highest Level: The Ken Rideout Story ## Key Insights \u2022 Ken won the **Masters Marathon World Championship** at age 50+ and the **Gobi March** \u2014 a grueling 1",
+    "tags": [
+      "Health/Science"
+    ]
+  },
+  {
+    "date": "April 29, 2026",
     "title": "How Does Oz Pearlman Do It?",
     "url": "2026-04-29-how-does-oz-pearlman-do-it.html",
     "category": "Tech/Business",
@@ -1207,6 +1797,16 @@ var posts = [
     "excerpt": "2026-04-28 \u2022 FPL Roundups",
     "tags": [
       "FPL Roundups"
+    ]
+  },
+  {
+    "date": "April 27, 2026",
+    "title": "#389 - Thinking scientifically: why it's hard, why it matters, and a practical toolkit",
+    "url": "2026-04-27-389-thinking-scientifically-why-its-hard-why-it-ma.html",
+    "category": "Health/Science",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[22:00\u201324:00]</strong> <em>The Semmelweis Case: When Evidence Threatens Identity</em> \u2014 Ignaz Semmelweis discovered that doctors were ",
+    "tags": [
+      "Health/Science"
     ]
   },
   {

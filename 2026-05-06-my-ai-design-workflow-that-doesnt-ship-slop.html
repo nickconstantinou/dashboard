@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My AI Design Workflow That Doesn't Ship Slop | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-06 • Business/Startups</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/01KQZ87BRE98FFJ57RKAERNBWH.mp3" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <p><p># Key Insights</p>
+
+<li><strong>Google's design.md is an open-source "blueprint" format</strong> that captures a design system's soul—typography, colors, spacing, components—and packages it as a portable markdown file that can be attached to AI prompts, solving the problem of inconsistent design across pages and platforms.</li>
+<li><strong>Design.md functions as a "recipe" while HTML output is the "finished dish"</strong>—the markdown file contains structured tables, titles, and code that serves as ingredients your AI agent uses to generate consistent outputs across React, HTML, motion design, and slides.</li>
+<li><strong>"Design drift" is the core problem this solves</strong>: Most builders create a beautiful first screen via AI, then watch subsequent pages devolve into generic purple-gradient templates as the AI loses the thread of the original vision.</li>
+<li><strong>Varian.com</strong> (mentioned as an example) enables a "remix" workflow where designers find inspiration, click one button to remix, and iteratively build a design system—rather than copying entire templates wholesale.</li>
+<li><strong>Design systems as "design memory"</strong> can transfer between platforms (Lovable → Framer → Figma → Cursor → Codecs) because the .md file is platform-agnostic, unlike closed templates from v0, Framer, or Figma community.</li>
+
+<p>---</p>
+
+<h1>Introduction</h1>
+
+<p>In the era of vibe coding and AI-assisted development, building functional products has become democratized—but building *beautiful* ones remains an elusive goal for most builders. The problem isn't access to tools; it's coherence. You can generate a stunning landing page with a single prompt, but ask the same AI to create ten subsequent pages, and you'll watch your visual identity dissolve into generic, purple-gradient monotony. This phenomenon—where initial design excellence erodes into template-like平庸—has a name in the design community: "design drift."</p>
+
+<p>This episode of the podcast features Greg Isenberg in conversation with Meng To, a designer and educator best known for Design+Code and the Aura design system. Meng To has built his reputation on teaching developers and non-designers how to achieve professional-quality visual work. He's also a living case study in the power of design-driven marketing: he credits Greg's podcast with helping his revenue grow from $3,000 MRR to $15,000 MRR after a single appearance. The conversation centers on a relatively new open-source tool from Google called <strong>design.md</strong>—and how it can function as a portable design memory that keeps your AI agents aligned with your aesthetic vision across every screen, medium, and platform.</p>
+
+<p>The timing matters because we're at an inflection point. AI coding tools now produce functional code at remarkable speed, but visual consistency remains their Achilles' heel. Meanwhile, the baseline for "good design" has risen dramatically. As Meng To notes, what impressed audiences five to ten years ago—purple gradients, for instance—is now an immediate signal that you've vibe-coded your way to generic. This episode offers a workflow for those who want jaw-dropping design without spending years mastering Figma.</p>
+
+<p>---</p>
+
+<h1>The Problem: Why Your AI-Generated Designs Fall Apart</h1>
+
+<p>The conversation opens with a diagnosis of the core issue. Meng To explains that most builders experience a familiar pattern: they start with something beautiful—often generated by copying a striking prompt they found online—then watch helplessly as subsequent pages become "more and more generic." The first screen isn't the hard part; maintaining visual coherence across an entire product is.</p>
+
+<p>This is what Meng To calls "design drift." The AI doesn't have a persistent memory of your aesthetic choices, so each new page or section starts from a generic baseline rather than building upon the specific system you've established. You become a human router, constantly telling the AI to make things match—but without a concrete reference, your instructions remain vague, and the AI fills gaps with whatever it defaults to, which is typically whatever every other builder is also prompting for.</p>
+
+<p>Greg Isenberg frames this as a fundamental control problem. When you rely purely on prompts, you're always telling the AI what to do without having real leverage to change or direct it. You lack "control" in the way a designer would. The question becomes: how do you solve design drift without spending a decade learning design yourself?</p>
+
+<p>---</p>
+
+<h1>The Solution: design.md as a Portable Design Memory</h1>
+
+<p>Meng To introduces Google's design.md as "one way to create a blueprint to take one beautiful design—whether you made it or not—and then spread it throughout all the formats and mediums for your startup idea."</p>
+
+<p>The concept draws from parallel frameworks that developers already use. Just as agents.md or skill.md allow you to package procedural knowledge for AI systems, design.md lets you package visual and typographic knowledge into a structured text file. The format contains tables, titles, and code that describe:</p>
+
+<li><strong>Typography</strong> (font families, sizes, weights, line heights)</li>
+<li><strong>Colors</strong> (primary, secondary, accent, with hex codes)</li>
+<li><strong>Spacing</strong> (the grid system, padding conventions)</li>
+<li><strong>Components</strong> (button styles, input fields, cards, navigation patterns)</li>
+<li><strong>Motion</strong> (animation timing, easing curves)</li>
+
+<p>This markdown file can be attached directly to an AI prompt. When your agent receives it, it has the complete "recipe" for maintaining visual consistency—not just a finished result, but the underlying system that produced it.</p>
+
+<p>Meng To offers an analogy that makes this immediately intuitive: <strong>"The HTML is more like the sort of finished dish, and the .md file is more like the recipe. The skills are like the ingredients. So you put it all together and it becomes your design."</strong></p>
+
+<p>This distinction matters because finished designs (HTML, React components, Framer pages) are rigid artifacts. You can't easily extract the underlying principles from them to generate something new. But a recipe—written in structured markdown—is readable by any AI, portable to any platform, and modifiable without losing its core logic.</p>
+
+<p>---</p>
+
+<h1>How design.md Solves Design Drift</h1>
+
+<p>The core value proposition is that design.md gives your AI agent a persistent visual memory. Instead of generating each page in isolation, your agent can reference the complete design system with every new request. This means:</p>
+
+<p><strong>Consistency across pages</strong>: Every section, every new screen, every component inherits from the same system. The AI doesn't have to guess or default—it follows the blueprint.</p>
+
+<p><strong>Flexibility across mediums</strong>: The same .md file can generate a landing page in HTML, a slide deck, a promotional video, and a mobile interface. The "DNA" stays constant even as the medium changes.</p>
+
+<p><strong>Portability between tools</strong>: If you start in Lovable and decide to move to Framer, or from Framer to Cursor, you carry your design.md with you. Unlike template files that are locked to specific platforms, markdown is platform-agnostic. "You can carry this design.md," Meng To explains, "and then you can commit it to memory by telling your AI, your agent to remember."</p>
+
+<p>This also enables a new kind of workflow: <strong>committing design systems to agent memory</strong>. Meng To describes using this technique constantly—"Remember this, remember that"—because the workflow he builds is "unique to him." Agents now do a "pretty good job at trying to remember the workflow that you've just done."</p>
+
+<p>---</p>
+
+<h1>The Taste Problem: Rising Baselines and the Death of the Purple Gradient</h1>
+
+<p>Beyond the technical solution, the conversation addresses a philosophical question: in an age where AI can generate functional code instantly, what differentiates good products from forgettable ones?</p>
+
+<p>Meng To argues that the baseline for design has risen so dramatically that yesterday's "wow" is today's generic. He points to purple gradients as an example: "What used to be wow five, ten years ago now is generic, which is funny because if you look at the purple gradient, everyone was like wow, purple gradient, I want to use that. But nowadays if you see something with purple gradients, you just run."</p>
+
+<p>This creates a paradox: the same tools that make design accessible also make generic design accessible to everyone. When anyone can generate a competent landing page in seconds, the landing page loses its ability to capture attention. The differentiator shifts from "can you make something decent?" to "can you make something with genuine taste?"</p>
+
+<p>Greg echoes this concern with an observation about urban architecture: "You know, you go into a downtown core city and all the buildings look the same. You feel like there's homogeneous cityscapes that are existing now." The risk with AI-assisted design isn't just technical inconsistency—it's cultural homogeneity, where every startup website looks like every other startup website.</p>
+
+<p>The answer isn't to reject AI tools but to use them with greater intentionality. As Meng To puts it, "Humans have a way to solve new problems and to adapt, and I think that's the real intelligence." Design.md is one tool in that adaptation—helping you bring intentional taste into the AI workflow rather than surrendering to the AI's tendency to default to the mean.</p>
+
+<p>---</p>
+
+<h1>Finding and Remixing Design Inspiration</h1>
+
+<p>For non-designers, the hardest part isn't implementing a system—it's discovering one in the first place. Where do you find aesthetic direction when you lack formal training?</p>
+
+<p>Meng To walks through a practical workflow using <strong>Varian.com</strong> (varian.com), a design tool that enables what he calls a "remix" workflow. Instead of copying entire templates wholesale—exactly the behavior that produces cookie-cutter websites—you explore the design community, find elements that resonate with your vision, and iteratively remix them into something new.</p>
+
+<p>The process is deliberate:</p>
+
+<p>1. <strong>Explore</strong>: Browse community designs that appeal to you
+2. <strong>Remix</strong>: Click to remix elements you like (not copy wholesale)
+3. <strong>Iterate</strong>: Continue remixing until you have a foundation that feels genuinely yours
+4. <strong>Extract</strong>: Take the underlying system (typography, colors, spacing) and formalize it as a design.md</p>
+
+<p>This approach solves two problems simultaneously. First, it prevents pure template duplication—instead of shipping "another Framer site," you're building on top of multiple influences. Second, it gives you ownership of the underlying system, so you can describe it to an AI agent and generate new screens that maintain your visual logic.</p>
+
+<p>Greg raises a valid concern: "What I would wanna refrain from is duplicating that and just creating the same cookie cutter website... I've seen this website before, but it's another brand." The remix workflow addresses this directly—you're taking inspiration, not theft, and creating something that has your fingerprints on the underlying system.</p>
+
+<p>---</p>
+
+<h1>Platforms, Tools, and the Open Ecosystem</h1>
+
+<p>The conversation touches on the expanding ecosystem of AI-assisted building tools. Meng To mentions several platforms by name, noting that design.md works across most of them:</p>
+
+<li><strong>Lovable</strong> and <strong>v0</strong> (for generating React components)</li>
+<li><strong>Framer</strong> and <strong>Webflow</strong> (for no-code site building)</li>
+<li><strong>Figma</strong> (for design professionals)</li>
+<li><strong>Cursor</strong> and <strong>Codecs</strong> (for code-first development)</li>
+<li><strong>Cloud Design</strong> and <strong>Google Stitch</strong> (for AI-native workflows)</li>
+
+<p>The key insight is that design.md's portability becomes more valuable as this ecosystem fragments. You don't want to be locked into one platform. A design system you build in Framer should be usable when you move to Cursor. A landing page you create in Codecs should translate when you need a slide deck in Google Slides.</p>
+
+<p>Most template marketplaces (Figma community, Framer templates, Webflow templates) share closed artifacts—beautiful finished work, but with the underlying principles locked inside the platform's format. Design.md represents a shift toward open blueprints: "Most places they share templates... [but] the problem with those is that they are highly close behind the techniques and the rectangles and the pixels of Figma or Framer or Webflow. How do you tell that to an agent?"</p>
+
+<p>Open design.md resources now exist specifically to solve this gap. Meng To mentions creating and sharing these files himself (though his internet was too slow to demonstrate the download during the recording), noting that the design systems are "totally free. You can just download them."</p>
+
+<p>---</p>
+
+<h1>Local Tools and the Moat of Ownership</h1>
+
+<p>Meng To makes a point that underscores a deeper strategic consideration: the value of <strong>local tools that you own</strong>.</p>
+
+<p>His own workflow relies heavily on local generation—creating markdown files across nested folders that he can open directly in Codecs. This approach offers several advantages over purely cloud-based AI tools:</p>
+
+<p>1. <strong>Cost efficiency</strong>: No token costs or per-generation billing
+2. <strong>Privacy</strong>: Your workflow and assets stay local
+3. <strong>Portability</strong>: The folder structure is yours to organize, back up, and migrate
+4. <strong>Integration</strong>: You can embed your own workflow directly into your development environment</p>
+
+<p>This represents what he describes as his current "moat"—not a single feature or technology, but a complete system that cloud-based tools cannot easily replicate because they don't have access to your local files, your specific folder structure, or the integrated workflow you've built around them.</p>
+
+<p>---</p>
+
+<h1>Detailed Takeaways</h1>
+
+<p><strong>1. Use design.md to create persistent visual memory for your AI agents.</strong></p>
+
+<p>The primary technical insight from this conversation is that design.md functions as a portable design specification that you can attach to any AI prompt. Rather than repeatedly describing your aesthetic preferences in every prompt (which leads to drift), you define your system once—typography, colors, spacing, components—and reference that file consistently. The markdown format is readable by any AI system, platform-agnostic, and easily editable as your system evolves.</p>
+
+<p><strong>2. Think of your design assets as recipes, not finished dishes.</strong></p>
+
+<p>When you generate a beautiful landing page, you're looking at a finished dish—but the recipe that produced it is what you need for consistency. Meng To's analogy is instructive: HTML/React output is the finished dish (delicious but rigid), the .md file is the recipe (reproducible and modifiable), and skills are ingredients (combinable in new ways). Invest in building robust recipes, and your ability to generate consistent, beautiful outputs multiplies.</p>
+
+<p><strong>3. Adopt a remix workflow rather than template duplication.</strong></p>
+
+<p>The danger with accessible AI design tools is that they make generic design equally accessible. To avoid producing "another purple-gradient website," adopt a remix workflow: find multiple sources of inspiration, extract their underlying systems (not their outputs), and combine those systems into something that's genuinely yours. Tools like Varian.com support this by enabling element-by-element remixing rather than whole-template copying.</p>
+
+<p><strong>4. Commit your design system to AI agent memory explicitly.</strong></p>
+
+<p>Modern AI agents can maintain context across conversation turns, but design consistency requires explicit reinforcement. Tell your agent to "remember this design.md," reference it in subsequent prompts, and build workflows that reload the specification when starting new screens or features. This transforms your agent from a fresh-start generator into a continuous collaborator.</p>
+
+<p><strong>5. Prioritize taste and intentionality as your competitive advantage.</strong></p>
+
+<p>As AI makes functional competence ubiquitous, taste becomes the scarce resource. The purple gradient that dazzled in 2015 is a red flag in 2024. Greg and Meng To both emphasize that the real differentiator isn't access to tools but the intentionality you bring to using them. Study design systems, develop your eye, and bring that taste into your AI workflows—otherwise you'll blend into the homogeneous mass of vibe-coded products.</p>
+
+<p>---</p>
+
+<h1>Who This Is For</h1>
+
+<p>This episode is essential listening for <strong>founders, indie hackers, and builders</strong> who are comfortable with AI-assisted development but recognize that their products look and feel like everyone else's. If you're using Cursor, Codecs, Lovable, or any vibe-coding tool and finding that your outputs are technically functional but visually forgettable, this conversation provides both a diagnostic framework (design drift) and a practical solution (design.md).</p>
+
+<p>It's also valuable for <strong>developers who want to ship better-designed products without learning design professionally</strong>. Meng To's approach isn't about mastering Figma or understanding color theory academically—it's about borrowing systems from people who have already solved these problems, extracting their underlying logic, and applying that logic consistently through AI agents.</p>
+
+<p>Finally, <strong>designers who want to make their systems portable</strong> will find validation for a philosophy that's been gaining traction: open, structured design specifications that work across platforms and tools. The design.md movement represents a shift from closed template economies toward open, agent-readable blueprints.</p>
+
+<p>If you've ever shipped a product that felt generic despite your best efforts, or found yourself endlessly tweaking prompts trying to get AI outputs to "feel right," this episode offers a systematic approach to solving the root cause: lack of persistent visual memory in your AI workflow.</p></p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
