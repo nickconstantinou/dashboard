@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New video codecs explained: AV2, H.265, H.266 | Lex Fridman Podcast | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-10 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/BkJjEk7mSjI" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>New Video Codecs Explained: AV2, H.265, H.266 | Lex Fridman Podcast</h1>
+
+<h2>Key Insights</h2>
+
+<li><strong>AV2 delivers 30% bandwidth reduction</strong> compared to AV1 while maintaining identical quality, following the same generational improvement pattern as H.264→H.265→H.266</li>
+<li><strong>HEVC/H.265 licensing became commercially untenable</strong>: HP removed H.265 support from Windows laptops due to escalating, uncapped patent costs; large platforms like YouTube/Netflix faced <strong>hundreds of millions of dollars annually</strong> in licensing fees</li>
+<li><strong>Two distinct codec ecosystems exist</strong>: The MPEG/ITU family (H.264, H.265, H.266/VVC) with patent pools via MPEG LA, versus the Alliance for Open Media family (AV1, AV2) designed to be royalty-free</li>
+<li><strong>AV1 patent clearance occurred during standardization</strong> through the Alliance for Open Media, whereas MPEG explicitly keeps patents "off topic" during standards development—creating fundamentally different legal risk profiles</li>
+<li><strong>The codec ecosystem splits cleanly into specification documents, encoders, and decoders</strong>: AV2 specification → AVM encoder → David 2 decoder; similarly H.264 → x264 encoder → FFH.264 decoder in FFmpeg</li>
+
+<p>---</p>
+
+<h2>Introduction</h2>
+
+<p>In this technical deep-dive from a Lex Fridman Podcast conversation with what appears to be a senior figure from the FFmpeg and VideoLAN communities, listeners receive a masterclass in the rapidly evolving landscape of video compression technology. The discussion centers on the critical distinction between two dominant codec families: the traditional MPEG/ITU standards and the newer royalty-free alternatives emerging from the Alliance for Open Media.</p>
+
+<p>Video codecs—the algorithms that compress and decompress video data—represent one of the most consequential yet invisible technologies shaping our digital experience. Every streaming video, video call, and digital recording relies on codecs developed through decades of mathematical innovation. However, the codec landscape is fragmenting in ways that have profound implications for content creators, platform operators, hardware manufacturers, and everyday viewers.</p>
+
+<p>The conversation arrives at a pivotal moment. AV1, the royalty-free codec developed by a coalition including Google, Netflix, Amazon, Apple, and VideoLAN, is now transitioning from specification to practical deployment. Meanwhile, its successor AV2 is already emerging on the horizon, and the traditional MPEG codec family continues its own progression through H.264, H.265 (HEVC), and H.266 (VVC). Understanding the trade-offs between these options—particularly around compression efficiency, licensing costs, and implementation complexity—has become essential knowledge for anyone working in video technology.</p>
+
+<p>---</p>
+
+<h2>The Two Codec Families: Understanding the Fundamental Split</h2>
+
+<p>The podcast opens by establishing a crucial framework: the modern codec landscape divides into two distinct families with fundamentally different business models and philosophical approaches.</p>
+
+<p><strong>The MPEG/ITU Family</strong></p>
+
+<p>The first family traces its lineage through the MPEG (Moving Picture Experts Group, working under ISO) and ITU (International Telecommunication Union, a United Nations agency) standards bodies. This includes the ubiquitous H.264/AVC (Advanced Video Coding), its successor H.265/HEVC (High Efficiency Video Coding), and the newest standard H.266/VVC (Versatile Video Coding). These standards emerged through collaborative but somewhat opaque processes where companies contributed patented technologies that later became essential to the specification.</p>
+
+<p><strong>The Alliance for Open Media Family</strong></p>
+
+<p>The second family originates from the Alliance for Open Media, a consortium formed explicitly to create royalty-free video coding standards. Members include technology giants Google, Netflix, Amazon, Apple, and VideoLAN—companies that collectively handle the majority of global internet video traffic. AV1 represents their first major codec achievement, finalized in 2018, while AV2 represents its planned successor with approximately 30% improved compression efficiency.</p>
+
+<p>The speaker emphasizes that royalty-free doesn't mean patent-free in an absolute sense, but rather that the alliance made deliberate efforts to minimize licensing encumbrances through rigorous patent clearance during the standardization process itself. This stands in stark contrast to the MPEG approach.</p>
+
+<p>---</p>
+
+<h2>Patent Minefields: The Hidden Cost of Video Compression</h2>
+
+<p>Perhaps the most illuminating portion of the conversation addresses the complex and often murky world of video codec patents—a topic the speaker describes as a "patent minefield" where the density of intellectual property claims rivals that of wireless communication standards like 3G, 4G, and 5G.</p>
+
+<p><strong>Why Video Codecs Attract So Many Patents</strong></p>
+
+<p>The underlying reason, the speaker explains, is mathematical opportunity. Video compression relies on finding clever ways to represent visual information more efficiently, and each novel technique—whether it's a different block subdivision method, a new prediction algorithm, or an innovative transform approach—represents a potentially patentable idea. The speaker uses a simple illustration: "Imagine I'm doing something where I'm going to use rectangles instead of square blocks. Every idea, somebody patents it."</p>
+
+<p>This incremental patenting has accumulated over decades, creating an increasingly tangled web of overlapping claims. For H.264, the patent situation was described as "sane" relative to what followed. However, by the time H.265/HEVC standardization occurred, so many patent holders had positioned themselves that the licensing complexity became problematic.</p>
+
+<p><strong>The H.265 Licensing Crisis</strong></p>
+
+<p>For HEVC, the patent landscape fractured into multiple competing pools. The primary organization, MPEG LA, managed one collection of patents, while a separate pool called HVC Advance operated independently. Notably, some major patent holders like Nokia remained outside both pools entirely, creating a situation where prospective licensees had to negotiate with multiple entities to ensure complete coverage.</p>
+
+<p>The financial implications proved severe. Large-scale video distributors like YouTube and Netflix faced licensing fees reaching "hundreds of millions of dollars per year." The speaker recounts how HP made the business decision to remove H.265 support from Windows laptops because "the cost was increasing... it arrived at a point where there was uncapped patent" licensing. The final impetus came when a single vendor reportedly demanded "$100 million per year"—a figure that prompted the formation of the Alliance for Open Media as an explicit response.</p>
+
+<p><strong>The Political Dimension of Standards Bodies</strong></p>
+
+<p>The speaker provides fascinating context about why the MPEG and ITU naming conventions exist. H.264's full technical designation is MPEG-4 Part 10 or H.264/AVC—the concatenation of the ISO MPEG name and the ITU's H.264 designation. Similarly, H.265 is officially MPEG-H Part 2 / H.265 / HEVC, and H.266 is MPEG-I Part 3 / H.266 / VVC.</p>
+
+<p>The speaker notes that while ISO (a private standards organization) and ITU (a UN agency) collaborate closely on these standards, the separate naming conventions persist for historical and political reasons. This dual-naming approach has created confusion but also reflects the complex stakeholder interests involved.</p>
+
+<p>---</p>
+
+<h2>AV2: The Next Generation Emerges</h2>
+
+<p>The conversation turns to AV2, positioned as the successor to AV1 with a targeted 30% improvement in compression efficiency. The discussion clarifies several important distinctions that often cause confusion even among technical practitioners.</p>
+
+<p><strong>Specification vs. Encoder vs. Decoder</strong></p>
+
+<p>The speaker emphasizes that "AV2" properly refers to the specification—the formal document describing how the codec works. This mirrors how "H.264" refers to the standard itself. However, multiple implementations can exist for any given specification:</p>
+
+<p>The <strong>encoder</strong> (the software that converts raw video into compressed form) for AV2 is called AVM, with another encoder called SVTA AV2 likely to follow. This parallels how x264 is an encoder for H.264, x265 is an encoder for H.265, and FFmpeg provides its own encoders for all these formats.</p>
+
+<p>The <strong>decoder</strong> for AV1 is named "David"—a recursive acronym where "D" stands for "David" (D=A V1), with AV2's decoder naturally becoming "David 2" (D=A V2). The speaker shares that VideoLAN demonstrated the first AV2 implementation at CES, running David 2 for decoding and AVM for encoding.</p>
+
+<p>This terminology clarity matters because different encoders and decoders can vary significantly in quality, speed, and feature support even when implementing the same standard.</p>
+
+<p>---</p>
+
+<h2>Compression Efficiency: Understanding the 30% Rule</h2>
+
+<p>The podcast discusses the consistent 30% efficiency improvement that appears across codec generations, though the speaker acknowledges this is a simplification that professionals might quibble over.</p>
+
+<p><strong>The Generational Improvement Pattern</strong></p>
+
+<p>For both the AV codec family and the MPEG family, each generation typically provides approximately 30% bandwidth reduction at equivalent quality. Thus:</p>
+
+<li>H.265/HEVC is roughly 30% more efficient than H.264</li>
+<li>H.266/VVC is roughly 30% more efficient than H.265</li>
+<li>AV2 is roughly 30% more efficient than AV1</li>
+
+<p>The speaker notes that in specific use cases—particularly screen recording and certain synthetic content—gains can be "humongous," reaching 70% or even 80% improvement. Screen content often responds exceptionally well to newer codecs because these standards increasingly include specialized tools optimized for text, UI elements, and other non-photographic content that modern screens frequently display.</p>
+
+<p><strong>Why 30% Matters Enormously</strong></p>
+
+<p>While the 30% figure might sound modest, its implications compound significantly at scale. For a platform streaming millions of hours of video daily, reducing bandwidth requirements by 30% translates to billions of dollars in infrastructure savings and dramatically reduced carbon footprint from data centers. For individual users, it means the difference between smooth 4K streaming and buffering on marginal connections.</p>
+
+<p>---</p>
+
+<h2>Technical vs. Business Considerations</h2>
+
+<p>The conversation distinguishes between the technical merits of codecs and the business factors that often determine adoption.</p>
+
+<p><strong>Encoding Cost: The Critical Difference</strong></p>
+
+<p>The speaker identifies encoding cost as the "major difference" between the codec families. Royalty-free codecs like AV1 and AV2 face a fundamental constraint: they cannot use patented techniques that would require licensing, even if those techniques are more efficient. This means AV encoders often require more computational resources to achieve equivalent quality compared to their MPEG counterparts.</p>
+
+<p>In contrast, H.265 and H.266 encoders can leverage the full range of patented tools available, potentially achieving better compression with less processing. The tradeoff is that these benefits come with licensing costs that may exceed the computational savings for large-scale deployments.</p>
+
+<p><strong>Patent Thickets and Implementation Constraints</strong></p>
+
+<p>The speaker explains that decades-old techniques have fallen out of patent protection, making them available for royalty-free codecs. However, more recent innovations remain under patent, forcing AV codec developers to find alternative approaches or accept reduced efficiency. This creates a constantly evolving landscape where codec developers must monitor patent expiration dates and track newly issued patents that might affect their implementations.</p>
+
+<p>The MPEG ecosystem, by contrast, can freely incorporate any technique into its standards regardless of patent status—though this creates the licensing burden for implementers.</p>
+
+<p>---</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>1. The codec you choose depends on your scale and licensing posture.</strong></p>
+
+<p>For small-scale or hobbyist projects, H.264 remains remarkably capable and universally supported. Its patent licensing has largely stabilized through bulk agreements. However, for platforms streaming at Netflix or YouTube scale, the cumulative licensing fees for HEVC can reach hundreds of millions of dollars annually—enough to justify investing engineering resources in royalty-free alternatives. The speaker's implication is clear: if you're paying per-unit licensing fees at scale, AV codecs become economically compelling even if they're slightly less efficient.</p>
+
+<p><strong>2. Patent clearance during standardization matters enormously.</strong></p>
+
+<p>The Alliance for Open Media's approach of conducting patent clearance as part of standardization (rather than ignoring patents like MPEG) creates a fundamentally different risk profile for implementers. While the speaker notes "there are fringe patents" that might still exist, AV1's core patents are considered cleared. This matters for companies like hardware manufacturers and software distributors who need legal certainty before committing to implementation.</p>
+
+<p><strong>3. Specific use cases may see dramatically different results than averages.</strong></p>
+
+<p>The "30% improvement" represents average case performance. Screen recording, synthetic content, and certain motion patterns can see improvements of 70-80%. This means content distributors should test actual performance on their specific content mix before projecting savings. A platform streaming primarily screen-recorded tutorials will benefit far more from H.266 or AV2 than a platform streaming sports content.</p>
+
+<p><strong>4. Encoder choice matters as much as codec choice.</strong></p>
+
+<p>The specification defines what the codec can theoretically achieve, but the encoder determines what you actually get. AV1 with AOM's reference encoder might perform very differently than withrav1e or SVT-AV1. Similarly, x264 and x265 represent dramatically different quality-speed tradeoffs. Organizations adopting new codecs should evaluate multiple encoder options and benchmark against their specific content and quality requirements.</p>
+
+<p><strong>5. The transition from specification to deployment takes years.</strong></p>
+
+<p>The podcast notes that AV1 was finalized in 2018 but "takes years to be used in wide scenarios." This lag occurs because hardware must be updated to support encoding and decoding in consumer devices, software libraries need maturation, and industry confidence must build through real-world validation. Organizations planning codec transitions should recognize this timeline and not expect immediate deployment across all platforms.</p>
+
+<p>---</p>
+
+<h2>Who This Is For</h2>
+
+<p>This discussion provides the most value for <strong>technical decision-makers</strong> at companies dealing with video at scale—streaming platform engineers, video infrastructure teams at technology companies, hardware architects designing next-generation devices, and standards body participants. The podcast offers essential context for understanding why industry giants like Google and Netflix have invested heavily in royalty-free codec development and what tradeoffs those decisions involved.</p>
+
+<p><strong>Software developers and architects</strong> working with video processing will gain particular benefit from the specification/encoder/decoder distinction, as this clarifies often-confused terminology and helps frame technical discussions accurately.</p>
+
+<p><strong>Technology investors and business development professionals</strong> will find the patent landscape discussion valuable for understanding competitive dynamics in video technology and why certain companies pursue particular standards strategies.</p>
+
+<p><strong>General technical audiences</strong> seeking to understand why "there are two kinds of codecs" and what distinguishes them will leave with a clear mental model, though some sections assume familiarity with basic video concepts.</p>
+
+<p>For viewers who found the conversation valuable, the natural next step involves deeper exploration of specific encoders for their use cases, monitoring AV2's standardization progress, and understanding how hardware support continues to evolve for these newer codecs.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>

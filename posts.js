@@ -51,6 +51,16 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
+    "title": "FPL notes: Glasner on rotation, Sarr threat + why Munoz got bonus",
+    "url": "2026-05-10-fpl-notes-glasner-on-rotation-sarr-threat-why-muno.html",
+    "category": "FPL",
+    "excerpt": "# Crystal Palace FPL Notes: Rotation Decisions, Sarr's Continued Threat, and Munoz's Bonus Point ## Palace's Season Context Crystal Palace have now played their 56th game of the season, reflecting a d",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
     "title": "FPL notes: Slot on Salah, Alisson + Wirtz fitness, Cucurella \u2018OOP\u2019",
     "url": "2026-05-10-fpl-notes-slot-on-salah-alisson-wirtz-fitness-cucu.html",
     "category": "FPL",
@@ -67,6 +77,16 @@ var posts = [
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[86:40\u201389:10]</strong> <em>The Corruption Pattern Destroying Founders</em> \u2014 Eric explains the pervasive pattern where founders become",
     "tags": [
       "Product/Business"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "New video codecs explained: AV2, H.265, H.266 | Lex Fridman Podcast",
+    "url": "2026-05-10-new-video-codecs-explained-av2-h265-h266-lex-fridm.html",
+    "category": "AI/Tech",
+    "excerpt": "# New Video Codecs Explained: AV2, H.265, H.266 | Lex Fridman Podcast ## Key Insights - **AV2 delivers 30% bandwidth reduction** compared to AV1 while maintaining identical quality, following the same",
+    "tags": [
+      "AI/Tech"
     ]
   },
   {
