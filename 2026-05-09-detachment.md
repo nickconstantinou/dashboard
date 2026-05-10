@@ -3,7 +3,6 @@ title: Detachment
 date: '2026-05-09'
 type: podcast
 category: Science/Health
-video_id: https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-6%2F423572272-44100-2-be59910624bf.m4a
 channel: STEM-Talk
 video_url: https://anchor.fm/s/27a68ca0/podcast/play/119559127/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-6%2F423572272-44100-2-be59910624bf.m4a
 ---
