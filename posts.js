@@ -1,5 +1,315 @@
 var posts = [
   {
+    "date": "May 10, 2026",
+    "title": "For Mother\u2019s Day, Classic Mom-isms",
+    "url": "2026-05-10-for-mothers-day-classic-mom-isms.html",
+    "category": "News",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[0:50\u20132:18]</strong> <em>The Good Old Days Philosophy</em> \u2014 The host and their mother Alice discuss her mantra 'These are the good ol",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "FPL notes: Casemiro + Sesko injury latest, United not \u2018on the beach\u2019",
+    "url": "2026-05-10-fpl-notes-casemiro-sesko-injury-latest-united-not-.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Casemiro and Sesko Injury Latest, United Not 'On the Beach' ## Injury Updates ### Benjamin Sesko Benjamin Sesko (\u00a37.3m) continues to be troubled by shin issues. The forward remains plague",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "FPL notes: Doku again, Cherki hooked + why no Semenyo assist?",
+    "url": "2026-05-10-fpl-notes-doku-again-cherki-hooked-why-no-semenyo-.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Doku's Continued Form, Cherki Hooked, and the Missing Semenyo Assist ## Manchester City's 3-0 Victory Over Brentford Manchester City kicked off their Gameweek 36 double-header with a 3-0 ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "FPL notes: Slot on Salah, Alisson + Wirtz fitness, Cucurella \u2018OOP\u2019",
+    "url": "2026-05-10-fpl-notes-slot-on-salah-alisson-wirtz-fitness-cucu.html",
+    "category": "FPL",
+    "excerpt": "# Fantasy Premier League: Key Injury Updates and Tactical Notes ## Liverpool Return Updates: Isak and Mamardashvili Back in Action Alexander Isak (\u00a310.3m) and Giorgi Mamardashvili (\u00a34.1m) have both re",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "\"Talk is cheap. Send patches\" - FFmpeg | Lex Fridman Podcast",
+    "url": "2026-05-10-talk-is-cheap-send-patches-ffmpeg-lex-fridman-podc.html",
+    "category": "AI/Tech",
+    "excerpt": "# \"Talk is cheap. Send patches\": FFmpeg, Multiplanetary Software & the Philosophy of Open Source --- ## Key Insights - **FFmpeg runs on the Mars 2020 rover**, where NASA engineers sought to use \"as mu",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "The impossible task of testing FFmpeg code | Lex Fridman Podcast",
+    "url": "2026-05-10-the-impossible-task-of-testing-ffmpeg-code-lex-fri.html",
+    "category": "AI/Tech",
+    "excerpt": "**Key Insights** - **FATE (FFmpeg Automated Testing Environment)** is a massive volunteer-run testing infrastructure that validates FFmpeg across an enormous matrix of configurations: multiple compile",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-10",
+    "url": "2026-05-10-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-10 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "3pm team news: Mbeumo benched, Casemiro + Sesko out",
+    "url": "2026-05-09-3pm-team-news-mbeumo-benched-casemiro-sesko-out.html",
+    "category": "FPL",
+    "excerpt": "# 3pm Team News: Mbeumo Benched, Casemiro and Sesko Out ## Key Absences at Manchester United Manchester United face notable changes heading into this Gameweek. Casemiro misses out for Manchester Unite",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "A Personal Finance Star on What Millennials Need From Their Boomer Parents",
+    "url": "2026-05-09-a-personal-finance-star-on-what-millennials-need-f.html",
+    "category": "News",
+    "excerpt": "<p># Key Insights - **Ramit's definition of \"rich\" rejects the 1980s-90s stereotype** (country club, fur coat, private jet) in favor of holistic goals like picking up kids from school daily, traveling",
+    "tags": [
+      "News"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Burnley v Aston Villa predicted line-ups + FPL team news",
+    "url": "2026-05-09-burnley-v-aston-villa-predicted-line-ups-fpl-team-.html",
+    "category": "FPL",
+    "excerpt": "# Burnley v Aston Villa: Predicted Line-Ups and FPL Team News ## Match Overview The upcoming Premier League fixture between Burnley and Aston Villa is scheduled to take place at Turf Moor. This encoun",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Crystal Palace v Everton predicted line-ups + FPL team news",
+    "url": "2026-05-09-crystal-palace-v-everton-predicted-line-ups-fpl-te.html",
+    "category": "FPL",
+    "excerpt": "# Crystal Palace v Everton: Predicted Line-ups & FPL Team News ## Fixture Overview Crystal Palace v Everton represents a key fixture for Fantasy Premier League managers as Double Gameweek 36 approache",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Detachment",
+    "url": "2026-05-09-detachment.html",
+    "category": "Science/Health",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[18:18\u201321:38]</strong> <em>Choose Yourself First: The Art of Detachment</em> \u2014 An audio excerpt from Miss Freddie discusses viewing yo",
+    "tags": [
+      "Science/Health"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Differential FPL captains for the final two Gameweeks",
+    "url": "2026-05-09-differential-fpl-captains-for-the-final-two-gamewe.html",
+    "category": "FPL",
+    "excerpt": "# Differential FPL Captains for the Final Two Gameweeks ## Jarrod Bowen \u2013 West Ham (\u00a37.7m) Jarrod Bowen has been a consistent point-scoring asset for Fantasy managers throughout the season. The West H",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "FFmpeg vs Google: Twitter drama explained by FFmpeg developer (who runs the FFmpeg X account)",
+    "url": "2026-05-09-ffmpeg-vs-google-twitter-drama-explained-by-ffmpeg.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **Google used AI to generate security reports** on FFmpeg\u2014an open source project maintained by volunteers\u2014then announced their AI's capabilities publicly *before* FFmpeg developers co",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "FPL Gameweek 36: Saturday\u2019s goals, assists, bonus + DefCon",
+    "url": "2026-05-09-fpl-gameweek-36-saturdays-goals-assists-bonus-defc.html",
+    "category": "FPL",
+    "excerpt": "The source material you've provided appears to be the structural framework and metadata for the article rather than the article itself. It contains: - The headline - A brief description of what the ar",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "FPL in 5 minutes: All you need to know about Double Gameweek 36",
+    "url": "2026-05-09-fpl-in-5-minutes-all-you-need-to-know-about-double.html",
+    "category": "FPL",
+    "excerpt": "# FPL in 5 minutes: All you need to know about Double Gameweek 36 ## Introduction Fantasy Premier League managers face a crucial Double Gameweek 36 with significant decisions to make regarding captain",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "FPL News Roundup \u2014 2026-05-09",
+    "url": "2026-05-09-fpl-news-roundup-2026-05-09.html",
+    "category": "FPL",
+    "excerpt": "Bryan Mbeumo finds himself on the bench for Saturday's 3pm fixtures, a significant blow for the thousands of managers who transferred him in ahead of the gameweek. More injury headaches come via Casem",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "From Bombing on Shark Tank to a $2 BILLION Exit | Rohan Oza",
+    "url": "2026-05-09-from-bombing-on-shark-tank-to-a-2-billion-exit-roh.html",
+    "category": "Tech/Business",
+    "excerpt": "# From Bombing on Shark Tank to a $2 BILLION Exit: Rohan Oza's Poppy Playbook ## Key Insights - **Rohan secured 25% equity** in the company (originally pitched as \"Mother\" or \"Mothers\") for his invest",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "How hackers steal your data | Lex Fridman Podcast",
+    "url": "2026-05-09-how-hackers-steal-your-data-lex-fridman-podcast.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **Supply chain attack via signed DLLs**: Chinese hackers obtained a correctly signed DLL from VLC, then replaced it with a malicious version. When VLC.exe called its legitimate librar",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "How TikTok Hijacked The Future Of Music - Nik Nocturnal - #1095",
+    "url": "2026-05-09-how-tiktok-hijacked-the-future-of-music-nik-noctur.html",
+    "category": "Self-help/Society",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[89:10\u201391:35]</strong> <em>Creator Burnout and Life Balance</em> \u2014 Personal reflection on the challenges of sustained creative work, i",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "How will Thursday\u2019s European results affect FPL?",
+    "url": "2026-05-09-how-will-thursdays-european-results-affect-fpl.html",
+    "category": "FPL",
+    "excerpt": "# How will Thursday's European results affect FPL? Thursday's European semi-finals delivered significant developments for two Premier League clubs with direct consequences for Fantasy Premier League m",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Lex Fridman on the genius of Linus Torvalds | Lex Fridman Podcast",
+    "url": "2026-05-09-lex-fridman-on-the-genius-of-linus-torvalds-lex-fr.html",
+    "category": "AI/Tech",
+    "excerpt": "# Lex Fridman on the Genius of Linus Torvalds: A Deep Dive into Open Source Excellence ## Key Insights - **Linus Torvalds's harshness targets experienced kernel maintainers**, not newcomers or occasio",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Liverpool v Chelsea team news: Wirtz out, Isak a sub",
+    "url": "2026-05-09-liverpool-v-chelsea-team-news-wirtz-out-isak-a-sub.html",
+    "category": "FPL",
+    "excerpt": "# Liverpool v Chelsea Team News ## Key Liverpool Absence Florian Wirtz will miss Liverpool's match against Chelsea after being ruled out with a stomach bug. The midfielder, priced at \u00a38.3m, was unavai",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Man City v Brentford team news: Semenyo starts, Dias a sub",
+    "url": "2026-05-09-man-city-v-brentford-team-news-semenyo-starts-dias.html",
+    "category": "FPL",
+    "excerpt": "# Man City v Brentford: Team News and Lineup Analysis ## Match Context Manchester City enter today's evening kick-off with the objective of reducing Arsenal's lead to two points. The champions face Br",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Nik Nocturnal - How TikTok Hijacked the Future of Music - #1095",
+    "url": "2026-05-09-nik-nocturnal-how-tiktok-hijacked-the-future-of-mu.html",
+    "category": "Self-help/Society",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[93:40\u201395:10]</strong> <em>Creator Burnout and Insufficient Feedback Mechanisms</em> \u2014 The host shares personal insights about creator",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Open source software explained by FFmpeg & VLC developers | Lex Fridman Podcast",
+    "url": "2026-05-09-open-source-software-explained-by-ffmpeg-vlc-devel.html",
+    "category": "AI/Tech",
+    "excerpt": "# Open Source Software Explained: A Deep Dive with FFmpeg and VLC Developers **Key Insights** - Open source projects operate like distributed recipe-sharing: FFmpeg and VLC provide not just the final ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Sunderland v Man United predicted line-ups + FPL team news",
+    "url": "2026-05-09-sunderland-v-man-united-predicted-line-ups-fpl-tea.html",
+    "category": "FPL",
+    "excerpt": "# Sunderland vs Manchester United: Predicted Line-Ups and FPL Team News ## Match Overview The upcoming fixture between Sunderland and Manchester United represents a significant Double Gameweek 36 enco",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Tottenham v Leeds predicted line-ups + FPL team news",
+    "url": "2026-05-09-tottenham-v-leeds-predicted-line-ups-fpl-team-news.html",
+    "category": "FPL",
+    "excerpt": "# Tottenham v Leeds: Predicted Line-Ups and FPL Team News ## Double Gameweek 36 Fixture Tottenham Hotspur are set to face Leeds United in what promises to be a crucial Double Gameweek 36 encounter. Th",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Why are there no Saturday matches in FPL Gameweek 37?",
+    "url": "2026-05-09-why-are-there-no-saturday-matches-in-fpl-gameweek-.html",
+    "category": "FPL",
+    "excerpt": "# Why Are There No Saturday Matches in FPL Gameweek 37? ## The FA Cup Final Agreement Fantasy Premier League managers who checked their gameweek 37 lineups this week may have noticed a complete absenc",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Why VLC never sold out, even when it almost died: Sacrificing $30+ million dollars | Lex Fridman",
+    "url": "2026-05-09-why-vlc-never-sold-out-even-when-it-almost-died-sa.html",
+    "category": "AI/Tech",
+    "excerpt": "# Why VLC Never Sold Out, Even When It Almost Died: Jean-Baptiste Kempf on Sacrificing Millions for Open Source Integrity ## Key Insights - **2005 was the crisis year**: VLC's VideoLAN project nearly ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 09, 2026",
+    "title": "Why we won\u2019t get pre-deadline team news for two clubs in Gameweek 37",
+    "url": "2026-05-09-why-we-wont-get-pre-deadline-team-news-for-two-clu.html",
+    "category": "FPL",
+    "excerpt": "# Why Pre-Deadline Team News Will Be Missing for Two Clubs in Gameweek 37 ## An Unusual Gameweek Structure Gameweek 37 breaks from the standard Premier League schedule in a significant way. According ",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
     "date": "May 08, 2026",
     "title": "Are Palace players really worth buying? Saka or Gyokeres? FPL Q&A",
     "url": "2026-05-08-are-palace-players-really-worth-buying-saka-or-gyo.html",
