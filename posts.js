@@ -1,6 +1,16 @@
 var posts = [
   {
     "date": "May 10, 2026",
+    "title": "2pm team news: Dubravka + Mateta benched, Sarr starts, no Gibbs-White",
+    "url": "2026-05-10-2pm-team-news-dubravka-mateta-benched-sarr-starts-.html",
+    "category": "FPL",
+    "excerpt": "# Fantasy Football Scout: 2pm Team News Analysis ## Newcastle United: Two Changes for Newcastle Eddie Howe has made two changes for Newcastle United from Gameweek 35. Lewis Hall and Nick Woltemade sta",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
     "title": "For Mother\u2019s Day, Classic Mom-isms",
     "url": "2026-05-10-for-mothers-day-classic-mom-isms.html",
     "category": "News",
@@ -41,6 +51,16 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
+    "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
+    "url": "2026-05-10-how-to-build-a-company-that-withstands-any-era-eri.html",
+    "category": "Product/Business",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[86:40\u201389:10]</strong> <em>The Corruption Pattern Destroying Founders</em> \u2014 Eric explains the pervasive pattern where founders become",
+    "tags": [
+      "Product/Business"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
     "title": "\"Talk is cheap. Send patches\" - FFmpeg | Lex Fridman Podcast",
     "url": "2026-05-10-talk-is-cheap-send-patches-ffmpeg-lex-fridman-podc.html",
     "category": "AI/Tech",
@@ -55,6 +75,16 @@ var posts = [
     "url": "2026-05-10-the-impossible-task-of-testing-ffmpeg-code-lex-fri.html",
     "category": "AI/Tech",
     "excerpt": "**Key Insights** - **FATE (FFmpeg Automated Testing Environment)** is a massive volunteer-run testing infrastructure that validates FFmpeg across an enormous matrix of configurations: multiple compile",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "VLC and FFmpeg: Internet's video backbone explained | Lex Fridman Podcast",
+    "url": "2026-05-10-vlc-and-ffmpeg-internets-video-backbone-explained-.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **VLC and FFmpeg operate as a \"binary star system\"**: VLC is to FFmpeg as Android is to Linux \u2014 they are interdependent, share developers, and feed off each other's success rather tha",
     "tags": [
       "AI/Tech"
     ]
