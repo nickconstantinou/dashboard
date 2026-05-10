@@ -21,6 +21,16 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
+    "title": "FPL Gameweek 36: Sunday\u2019s goals, assists, bonus + DefCon",
+    "url": "2026-05-10-fpl-gameweek-36-sundays-goals-assists-bonus-defcon.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 36: Sunday's Goals, Assists, Bonus + DefCon ## Overview Fantasy Football Scout's Gameweek 36 Scoreboard article provides a comprehensive roundup of Sunday's four matches. The piece cove",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
     "title": "FPL notes: Casemiro + Sesko injury latest, United not \u2018on the beach\u2019",
     "url": "2026-05-10-fpl-notes-casemiro-sesko-injury-latest-united-not-.html",
     "category": "FPL",
@@ -61,6 +71,16 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
+    "title": "Rust vs C vs Assembly programming languages - FFmpeg developer explains | Lex Fridman Podcast",
+    "url": "2026-05-10-rust-vs-c-vs-assembly-programming-languages-ffmpeg.html",
+    "category": "AI/Tech",
+    "excerpt": "# Rust vs C vs Assembly: An FFmpeg Developer's Candid Assessment ## Key Insights - **Memory safety alone is insufficient for adoption**: The developer notes Rust \"has a very big Esperanto vibe\" \u2014 a ut",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
     "title": "\"Talk is cheap. Send patches\" - FFmpeg | Lex Fridman Podcast",
     "url": "2026-05-10-talk-is-cheap-send-patches-ffmpeg-lex-fridman-podc.html",
     "category": "AI/Tech",
@@ -87,6 +107,16 @@ var posts = [
     "excerpt": "# Key Insights - **VLC and FFmpeg operate as a \"binary star system\"**: VLC is to FFmpeg as Android is to Linux \u2014 they are interdependent, share developers, and feed off each other's success rather tha",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "West Ham v Arsenal team news: Gunners unchanged",
+    "url": "2026-05-10-west-ham-v-arsenal-team-news-gunners-unchanged.html",
+    "category": "FPL",
+    "excerpt": "# West Ham v Arsenal Team News: Gunners Unchanged ## Arsenal Starting XI Arsenal heads into this matchup with an unchanged side from the one that secured victory against Atletico Madrid in midweek. Th",
+    "tags": [
+      "FPL"
     ]
   },
   {

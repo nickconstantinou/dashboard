@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rust vs C vs Assembly programming languages - FFmpeg developer explains | Lex Fridman Podcast | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-10 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/k92DumKjoqs" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Rust vs C vs Assembly: An FFmpeg Developer's Candid Assessment</h1>
+
+<h2>Key Insights</h2>
+
+<li><strong>Memory safety alone is insufficient for adoption</strong>: The developer notes Rust "has a very big Esperanto vibe" — a utopian language that failed to achieve mass adoption — arguing that the ecosystem must deliver feature parity (85-90% is not enough; "the last 1% takes 99% of the time") before it can displace established tools</li>
+<li><strong>Code reading is exponentially harder than code writing</strong>: The developer cites an "order of magnitude" difference in difficulty, explaining why developers who inherit complex codebases prematurely decide to rewrite rather than understand existing wisdom — a phenomenon he connects to the proliferation of "a thousand JavaScript frameworks"</li>
+<li><strong>Handwritten assembly fundamentally breaks Rust's security model</strong>: Even a complete Rust rewrite of C code cannot protect against memory exploits in inline assembly, since handwritten assembly allows jumping "anywhere in the memory" — necessitating "secure assembly" with compile-time verification</li>
+<li><strong>Interoperability remains Rust's critical weakness</strong>: While praising Rust as "a better C++" with unmatched memory ownership features for greenfield projects, the developer describes firsthand difficulty integrating Rust modules into VLC's existing C/C++/Objective-C codebase, noting that "it's very not good when you interop with existing part"</li>
+<li><strong>The Sinclair C5 parallel</strong>: The developer invokes Clive Sinclair's 1985 electric vehicle — which was technologically visionary but commercially impractical — as a cautionary analogy for Rust's current state: "In order to get people to move, you have to build something that's as good as if not better than what you have now"</li>
+
+<p>---</p>
+
+<h2>Introduction</h2>
+
+<p>When one of the core developers behind FFmpeg — the multimedia framework that powers everything from YouTube's video processing to countless professional editing tools — sits down to discuss programming languages, the industry listens. In this conversation on the Lex Fridman Podcast, the developer, who has spent decades working on performance-critical multimedia code in C and C++, offers an unusually candid assessment of Rust's current state and its viability as a replacement for established systems software.</p>
+
+<p>The timing of this discussion is significant. Rust has generated enormous enthusiasm in the programming community, with advocates frequently proposing complete rewrites of foundational tools — from operating system kernels to command-line utilities — in the name of memory safety. Meanwhile, the VideoLAN and FFmpeg projects, which this developer has contributed to extensively, represent some of the most performance-sensitive, battle-tested C code in existence. Their code runs on billions of devices, processes media in real-time, and has been optimized over decades. Understanding how an expert who has operated at this level views Rust provides crucial perspective for anyone making technology decisions.</p>
+
+<p>What emerges is not a dismissal of Rust's technical merits, but a sophisticated critique grounded in real-world engineering experience. The developer acknowledges Rust's genuine innovations in memory ownership while challenging the community's enthusiasm for wholesale rewrites. He draws on his experience integrating Rust into VLC, running a Rust-based startup called Kyber, and decades of maintaining multimedia code that operates at the bleeding edge of performance. The result is a nuanced engineering perspective that cuts through the hype.</p>
+
+<p>---</p>
+
+<h2>The Esperanto Problem: Rust's Utopian Tendency</h2>
+
+<p>The developer's primary criticism of Rust centers not on its technical capabilities but on its community's approach to adoption. He describes Rust as having "a very big Esperanto vibe about it" — a reference to the constructed international language that, despite elegant design and passionate advocacy, never achieved widespread adoption because it failed to offer practical advantages sufficient to displace existing languages people already knew.</p>
+
+<p>The analogy is deliberate and pointed. "We're going to solve this and we're doing this in a particular way," the developer explains, capturing what he perceives as an excessive focus on ideological purity over practical problem-solving. He invokes the Sinclair C5, Clive Sinclair's 1985 electric vehicle, as another cautionary parallel. "Everyone will be traveling around in one of these electric cars," Sinclair predicted — and technically, he was visionary. But the vehicle was impractical, uncomfortable, and commercially dead on arrival. The lesson, the developer argues, is that "in order to get people to move, you have to build something that's as good as if not better than what you have now."</p>
+
+<p>This critique extends to the Rust community's frequent proposals for rewriting established tools. The developer acknowledges that Rust rewrites are happening — citing coreutils as an example — but argues that the critical threshold has not been reached. "If they only do 85, 90% of the feature set of what we need, that last 1% takes 99% of the time." He quotes Elon Musk's observation that "prototypes are easy" while emphasizing that building a production-ready system is an entirely different challenge. "To get a real electric car, you have to make a car as good as if not better than what we have now. And Rust isn't in that stage yet."</p>
+
+<p>The developer is careful to note that this is not opposition to Rust's goals. "Even though we probably all agree that [memory safety is] the goal," he says, "saying 'hey, here's my utopia of memory safety' isn't enough." For FFmpeg specifically, he explains, any Rust integration must meet stringent requirements: it needs to work as well, support the same unit testing infrastructure, be "flawless," not "randomly break," and maintain stable ABIs. "Rust code in FFmpeg? I don't think anyone would object to seeing that — but it needs to be as good as if not better."</p>
+
+<p>---</p>
+
+<h2>The Architecture of Complexity: Why Rewrites Fail</h2>
+
+<p>Central to the developer's argument is a fundamental principle he articulates with conviction: "It is an order of magnitude easier to write code than read code." This asymmetry, he argues, explains why developers so frequently arrive at unfamiliar codebases and immediately conclude that rewriting is necessary — and why they're almost always wrong to do so.</p>
+
+<p>The developer connects this observation to large language models, noting that AI systems "can write code [but] analyzing is a lot more difficult." The same cognitive limitation afflicts human engineers. When encountering complex systems like H.264 codecs or audio decoders — the kind of multimedia code this developer works on — the initial impulse is to see tangled, confusing logic and assume it resulted from poor engineering. The reality, he suggests, is often the opposite: "Often I joke about some languages mostly Perl, for example, which has very complex syntax. And imagine I am at my maximum intellectual efficiency in programming, right? And I do write the best code ever. I will not be able to understand myself six months later, right? Because reading code is more difficult."</p>
+
+<p>This insight informs his skepticism toward the "rewrite everything in Rust" movement. When developers arrive at complex code they don't understand, they miss "all the wisdom, all the business logic, the reasons that were done that is maybe not documented." The result is an 80% solution that captures obvious functionality while losing subtle correctness, edge case handling, and accumulated institutional knowledge. "I'm going to rewrite coreutils in Rust," he offers as an example. "And then of course, you arrive very quickly at 80%, then 90% takes a bit more time. And then you got the last ones, right?" That final stretch — from 90% to production-ready — is where the real engineering work lives, and it's systematically undervalued by rewrite advocates.</p>
+
+<p>The developer explicitly invokes what has become a canonical principle in software engineering: Joel Spolsky's advice that "don't rewrite" should be the starting assumption, not the exception. He's witnessed this pattern repeatedly across his career as an engineer, manager, and CTO. The proliferation of JavaScript frameworks — "a thousand JavaScript frameworks" — he attributes directly to this phenomenon: developers who don't understand existing solutions concluding they can build better ones from scratch.</p>
+
+<p>---</p>
+
+<h2>Where Rust Excels: Greenfield Projects and Ownership Semantics</h2>
+
+<p>Despite his criticisms of Rust's adoption strategy, the developer is unambiguous about the language's technical merits. "What Rust is extremely good in the sense that it's a better C++ that cares about memory and allows you to do things about memory ownership that no one else can do so far," he states. This is not faint praise — the borrow checker and ownership model represent genuine innovations that solve real problems in systems programming.</p>
+
+<p>His enthusiasm is particularly strong for new projects where Rust can be the foundation rather than an addition. "However, it's great when you start a new project from scratch and you do everything in Rust." File parsing, network protocol implementations, and similar tasks that benefit from strict compile-time guarantees are ideal use cases. "There is nothing else," he says flatly. "Everything related to parsing files, networking, uh because of the memory checker borrow checker, it's amazing."</p>
+
+<p>This assessment is grounded in firsthand experience. The developer co-founded Kyber, an open-source startup project implemented primarily in Rust, where he's been able to build cleanly with the language from the beginning. He's also worked on integrating Rust modules into VLC, the open-source multimedia player. That VLC project provided particularly valuable data on Rust's interoperability limitations.</p>
+
+<p>VLC's architecture — a small core surrounded by numerous modules written in C, C++,, Objective-C, and anything interoperable with C — represents an ideal test case for language integration. The Rust modules he worked on "inside VLC" functioned, but the experience confirmed his assessment that Rust's strengths emerge most clearly in isolated contexts rather than embedded within existing systems. "It's very not good when you interop with existing part," he summarizes. The language was designed with assumptions about build systems, compilation models, and ecosystem integration that create friction when grafted onto established codebases.</p>
+
+<p>---</p>
+
+<h2>The Assembly Problem: Performance Versus Security</h2>
+
+<p>One of the most technically insightful portions of the discussion addresses a fundamental tension that Rust advocates often overlook: the relationship between memory safety and performance-critical code paths. The developer's argument here draws directly from his work on FFmpeg, H.264 codecs, and similar systems where handwritten assembly remains essential for competitive performance.</p>
+
+<p>"Imagine I take a piece of software like a decoder or H.264, right? Which has a ton of runtime in assembly, right? I rewrite the C part in Rust, right? So, it's more secure. Yes, but then you arrive into the assembly and you can jump anywhere in the memory because we are doing handwritten assembly," he explains. The security guarantees that Rust provides at the language level evaporate when code reaches hand-optimized assembly routines. "So, even if I rewrite the C part in Rust for security reason, you break all the security when you write handwritten assembly because we can jump anywhere."</p>
+
+<p>This creates a paradox for multimedia software specifically: achieving Rust's promised memory safety requires abandoning the assembly optimizations that make the software viable. The developer describes how this played out in practice: "You might rewrite a part of C in Rust, but if you want to have the same performances, you're going to have inline assembly and so you destroy your whole security model."</p>
+
+<p>The solution the developer proposes — "secure assembly" — involves instrumenting assembly code at compile time to verify that it doesn't perform unauthorized memory jumps. Projects he's working on with VideoLAN on David and H.264 are exploring this direction: "Start instrumenting your assembly at compile time to check that it's not jumping anywhere in the memory." This approach would preserve both performance and security, but requires new tooling and represents a significant research and engineering challenge that Rust's advocates have not adequately addressed.</p>
+
+<p>---</p>
+
+<h2>The Single-Compiler Limitation</h2>
+
+<p>Another practical consideration the developer raises is Rust's compiler ecosystem. "It needs to have — I think it only still has one compiler implementation," he notes. The existence of only rustc as a production-ready compiler represents a fragility that mature ecosystems don't have. C and C++ code can be compiled with GCC, Clang, MSVC, Intel compilers, and numerous specialized tools. This diversity provides resilience, enables optimization research, and creates competitive pressure that drives improvement.</p>
+
+<p>The developer doesn't dwell on this point, but the implication is clear: for foundational infrastructure that needs to compile across diverse architectures, platforms, and build environments, single-compiler dependency is a meaningful risk. Rust's advocates often counter that LLVM backend diversity provides some of this benefit, but the developer appears to view this as insufficient differentiation from the tooling diversity that C and C++ ecosystems have accumulated over decades.</p>
+
+<p>---</p>
+
+<h2>Practical Takeaways for Engineers and Technical Leaders</h2>
+
+<p>The developer's assessment offers several actionable insights for different audiences.</p>
+
+<p><strong>For engineers considering Rust rewrites of existing systems</strong>: The "don't rewrite" principle applies with special force to mature, well-tested codebases. The gap between "works functionally" and "works correctly in all edge cases" is vast, and that gap is precisely where Rust advocates underestimate the difficulty. If you're evaluating a Rust rewrite, pressure-test the feature parity claims carefully. Ask specifically about error handling parity, performance characteristics under load, and compatibility with existing tooling and workflows.</p>
+
+<p><strong>For technical leaders making ecosystem decisions</strong>: Rust's genuine technical strengths — memory ownership without garbage collection, excellent concurrency primitives, a type system that prevents entire classes of bugs — make it ideal for new projects. If you're starting a file parser, network service, or performance-critical component with a greenfield architecture, Rust deserves serious consideration. However, the decision to migrate existing systems should be driven by concrete evidence of Rust's benefits in your specific context, not ideological enthusiasm. The Sinclair C5 had excellent technology; it failed because it wasn't better than alternatives in ways that mattered to users.</p>
+
+<p><strong>For the Rust community</strong>: The developer's critique points to a gap between the language's technical merits and its adoption strategy. "The community doesn't quite understand that in order to get people to move, you have to build something that's as good as if not better than what you have now." This is a direct challenge to the "rewrite everything" ethos. If Rust is to achieve the systemic impact its advocates desire, the focus must shift from demonstrating technical superiority to achieving practical equivalence and then exceeding it — one integration at a time, with attention to the unsexy details of build systems, ABIs, test infrastructure, and documentation.</p>
+
+<p><strong>For multimedia and systems programmers</strong>: The assembly problem reveals an important truth about the limits of language-level safety guarantees. Memory safety is not binary — it's a property that must be maintained through entire call stacks and across language boundaries. If your work involves handwritten assembly, SIMD intrinsics, or other low-level optimizations, Rust alone won't solve your security challenges. The developer's proposed "secure assembly" approach — compile-time verification of assembly correctness — represents an important research direction that the broader community should watch.</p>
+
+<p>---</p>
+
+<h2>Who This Conversation Is For</h2>
+
+<p>This discussion will be most valuable for software engineers working in systems programming, particularly those maintaining or modernizing mature C/C++ codebases. If you've been evaluating Rust for a potential rewrite, been part of discussions about language migration, or are simply trying to understand the realistic strengths and limitations of Rust relative to C and C++, this conversation provides essential perspective from someone who has operated at scale in production systems.</p>
+
+<p>Technical managers and engineering leaders making platform-level technology decisions will also find the discussion valuable for calibrating expectations. The developer's emphasis on the gap between technical superiority and practical adoption — the "Esperanto problem" and "Sinclair C5 problem" — offers a useful framework for evaluating technology adoption decisions beyond the immediate technical merits.</p>
+
+<p>Finally, Rust advocates and enthusiasts will benefit from engaging seriously with this critique. The developer is not arguing that Rust is wrong about memory safety as a goal, nor dismissing the language's technical innovations. He's arguing that adoption requires meeting users where they are, achieving complete feature parity before claiming replacement, and addressing real-world integration challenges that idealism alone cannot solve. Understanding these constraints is essential for anyone who wants Rust to succeed at scale — not just in greenfield projects, but in the vast legacy systems that actually run the world.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
