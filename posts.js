@@ -31,12 +31,32 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
+    "title": "Avoid These Rookie Mistakes When Selling Your Business | Rohan Oza",
+    "url": "2026-05-11-avoid-these-rookie-mistakes-when-selling-your-busi.html",
+    "category": "Tech/Business",
+    "excerpt": "# Avoid These Rookie Mistakes When Selling Your Business | Rohan Oza --- ## Key Insights - **The final negotiation determines roughly 50% of your company's total value** \u2014 despite years of building th",
+    "tags": [
+      "Tech/Business"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "Billie Eilish Returns",
     "url": "2026-05-11-billie-eilish-returns.html",
     "category": "AI/Tech",
     "excerpt": "<p># Key Insights - **Eduardo's \"little bitch\" moment went viral** \u2014 The podcast producer called Conan \"a little bitch\" on a recent episode featuring *The Bear* cast, and the moment exploded online. E",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Doku, Dewsbury-Hall, Wilson: Buy, keep or sell in Gameweek 37?",
+    "url": "2026-05-11-doku-dewsbury-hall-wilson-buy-keep-or-sell-in-game.html",
+    "category": "FPL",
+    "excerpt": "# Doku, Dewsbury-Hall, Wilson: Buy, Keep or Sell in Gameweek 37? This article examines three Fantasy Premier League players ahead of Gameweek 37, using verified data to inform ownership decisions. ---",
+    "tags": [
+      "FPL"
     ]
   },
   {
@@ -221,6 +241,16 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
+    "title": "The hardest engineering challenge of VLC - VLC lead developer explains | Lex Fridman Podcast",
+    "url": "2026-05-11-the-hardest-engineering-challenge-of-vlc-vlc-lead-.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **500+ plugins** make up VLC's core architecture, including FFmpeg, hardware decoders for Intel/Nvidia/AMD GPUs, and third-party drivers \u2014 much of this code isn't actually VLC's own ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "The Mayor's Wife (PODCAST EXCLUSIVE EPISODE)",
     "url": "2026-05-11-the-mayors-wife-podcast-exclusive-episode.html",
     "category": "Mystery/Suspense",
@@ -237,6 +267,16 @@ var posts = [
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[7:00\u20138:00]</strong> <em>Endoscopists Study: AI Creates Skill Atrophy</em> \u2014 Research on medical endoscopists showed a dramatic 21% dr",
     "tags": [
       "Finance"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Why New Smartphone Cameras Feel Worse",
+    "url": "2026-05-11-why-new-smartphone-cameras-feel-worse.html",
+    "category": "Tech",
+    "excerpt": "# Why New Smartphone Cameras Feel Worse: A Deep Dive into Computational Photography's Unintended Consequences ## Key Insights - **The creator tested every iPhone generation from 1 to 17**, capturing i",
+    "tags": [
+      "Tech"
     ]
   },
   {
