@@ -1,0 +1,111 @@
+---
+title: '668. Greece vs Persia: The Rise of the First Superpower (Part 1)'
+date: '2026-05-10'
+type: podcast
+category: History
+video_id: '1778317141'
+channel: The Rest Is History
+video_url: https://pdst.fm/e/traffic.megaphone.fm/GLT8965800182.mp3?updated=1778317141
+---
+
+<div class="key-insights">
+<h2>Key Insights</h2>
+<ul>
+<li><strong>[26:30–28:29]</strong> <em>Darius Turns West Toward Greece</em> — With the Ionian Revolt crushed, Darius's attention turns to punishing Athens and Eretria for their audacity. Sparta callously executes Persian messengers, while Athens refuses to take back Hippias. The Persian Armada under Datis sails toward Greece, entering the bay of Marathon in July 490 BC.</li>
+<li><strong>[33:40–36:15]</strong> <em>Darius Seizes Power Amidst Rebellion</em> — After Cambyses's death, Darius dramatically rides from Egypt to Persia and claims the throne, suppressing multiple pretenders and rebellions including Elamite uprisings, establishing himself as the rightful king through decisive military action.</li>
+<li><strong>[38:35–40:20]</strong> <em>Aristagoras Plans Revolt Against Persian Rule</em> — Milesian aristocrat Aristagoras, frustrated with Persian control and sensing social tensions, plans an expedition against Naxos to unite the Ionians, but when the mission fails catastrophically, he decides to foment open rebellion against Persia.</li>
+<li><strong>[41:30–42:43]</strong> <em>Datis Leads Persian Retaliation Against Greece</em> — Persian generals Datis and Artaphernes lead a major expedition to punish Athens and Eretria, burning Naxos and sacking Eretria before sailing toward Attica, marking the beginning of the full-scale Persian invasion of Greece.</li>
+<li><strong>[42:43–47:30]</strong> <em>Cyrus the Great and the Fall of Babylon</em> — The podcast discusses Cyrus the Great's legacy and how his descendants expanded the Persian Empire. It recounts the remarkable fall of Babylon, describing how Darius's forces breached the city's defenses during a festival while the inhabitants remained unaware of the suburbs being captured.</li>
+</ul>
+<p class="signal-tags"><span class="signal-tag">persian invasion planning</span> <span class="signal-tag">greek resistance</span> <span class="signal-tag">marathon</span> <span class="signal-tag">persian wars</span> <span class="signal-tag">Persian succession</span> <span class="signal-tag">rebellion</span> <span class="signal-tag">Darius I</span> <span class="signal-tag">Ionian revolt</span> <span class="signal-tag">Milesian politics</span> <span class="signal-tag">rebellion planning</span></p>
+</div>
+
+<p># 668. Greece vs Persia: The Rise of the First Superpower (Part 1)
+
+## Key Insights
+
+- Darius, upon hearing of the burning of Sardis, asked for his bow, fitted an arrow, fired it into the heavens, and cried to Zeus: "Do not deny me the chance to punish the Athenians." He then ordered servants to repeat three times at every meal: "Master, remember the Athenians" — this moment made the Persian invasions of Greece inevitable.
+- The Persian Empire under Darius stretched from the Aegean Sea all the way to the Hindu Kush and the Indus River, making Darius by far the most powerful man who had ever lived.
+- Cyrus the Great achieved one of history's greatest winning streaks by toppling three successive empires in three decades: the Medes (his former overlords in northwest Iran), the Lydians (who had invented money and whose king Croesus remains synonymous with wealth), and Babylon.
+- Upon Cyrus's death, Cambyses married both his sisters — an unprecedented act of incest with no precedent in Persian custom — to ensure the throne remained exclusively within the family, eliminating even distant cousins from succession claims.
+- Darius held the position of lance-bearer to Cambyses, a role that served as a prestigious honorific indicating proximity to the monarch and access to sensitive royal secrets, which ultimately enabled him to recognize the impostor and orchestrate the overthrow.
+
+---
+
+## Introduction
+
+In the spring of 498 BC, a force of Athenians crossed the Aegean Sea to join their fellow Greeks, the Ionians, in a rebellion against the Persian Empire. Together, they marched inland from the Aegean coast of modern-day Turkey and captured the great city of Sardis, the capital of the Persian governor of Lydia. They could not take the citadel, but they burned everything else — including a famous temple to Cybele, the mother goddess. It was an act of devastating audacity that echoed across the ancient world.
+
+When word reached King Darius of Persia, his reaction set in motion a chain of events that would reshape the ancient world. According to the historian Herodotus — the first historian, whose great work chronicles the Persian attempt to conquer Greece and its ultimate failure — Darius first dismissed the Ionians as insignificant, knowing they could not escape retribution. But when he learned who the Athenians were, he asked for his bow, fitted an arrow, and fired it toward the heavens, invoking Zeus to grant him vengeance. He then ordered a servant to remind him of the Athenians at every meal, three times, for the rest of his reign.
+
+This episode marks the moment when the Persian invasions of Greece became inevitable. It is the ancient world's equivalent of George W. Bush being told about 9/11 — the moment when the most powerful man on earth learns of a devastating attack that seems to have emerged from nowhere, carried out by people he regards as terrorists. In this episode and the next, we trace how Darius responded: how the Persians suppressed the Ionian revolt, launched an amphibious operation across the Aegean with orders to destroy Athens and enslave its people, landed on a plain near Athens called Marathon, and fought the legendary battle whose aftermath gave us the marathon race itself.
+
+But the story begins not with Greece, but with Persia — with the extraordinary empire Cyrus the Great built and the extraordinary succession crisis that brought Darius to power.
+
+---
+
+## The Rise of the Persian Empire
+
+The Persian story is one of the most astonishing in history: in the course of a single lifetime, a people emerged from provincial obscurity in what is now Iran to become the rulers of the greatest empire the world had ever seen. The architect of this transformation was Cyrus the Great, a man who stands alongside Alexander the Great and Julius Caesar among history's greatest empire builders.
+
+Cyrus began by conquering the Medes — his own people's former overlords who occupied northwest Iran, the region where Tehran now stands. To the Persians, the Medes were cousins, and when they were conquered, the Medes were incorporated as junior partners in the imperial enterprise. To the Greeks, indeed, Persians and Medes were largely indistinguishable; they commonly referred to to Persian forces as "Medes," and this convention persists throughout ancient sources.
+
+Having secured his western flank by absorbing the Medes, Cyrus marched eastward into Anatolia — modern Turkey — and attacked Sardis, the capital of the Lydian Empire. The Lydians were fabulously wealthy, having subjected the Ionian Greeks on the Aegean shore to their rule. Their source of power was their extraordinary innovation: they had invented money itself. Their last king, Croesus, became so synonymous with wealth that his name persists in the English phrase "rich as Croesus" — a byword for fabulous riches. When Cyrus defeated Croesus and toppled the Lydian Empire, the Ionian Greeks also came under Persian rule.
+
+This left the greatest prize of all: Babylon, the richest and most magnificent city in the ancient world. Cyrus conquered it in 539 BC, and Herodotus provides a stunning account of its vastness. According to local tradition, those living in the center of the city had no idea the suburbs had fallen — for it was a festival, and everyone was dancing and indulging in pleasures. The conquest of Babylon set the seal on Cyrus's ascent to greatness, and his inscriptions reflect a certain swagger: "Every king on earth brought me heavy tribute and kissed my feet where I sat in Babylon."
+
+Cyrus's empire now stretched from modern-day Iran to encompass Iraq (ancient Babylonia), Anatolia (Turkey), the Greek-speaking Aegean coastline, and the lands of modern-day Syria, Israel, and Lebanon, all of which had been subject to Babylon. He turned his eyes toward Egypt but died before completing the conquest, killed fighting in Central Asia near the Hindu Kush and the Indus River. His son Cambyses would finish that task.
+
+---
+
+## The Succession Crisis: Cyrus's Troubled Legacy
+
+When Cyrus died in 530 BC, he left behind two sons. The elder, Cambyses, inherited the throne of King of Kings. The younger, Bardiya, was entrusted with rule over the Eastern Satrapies — the eastern provinces of the empire. Cyrus was determined to keep ultimate power within his immediate family, and to this end, Cambyses married both his sisters — an unprecedented act of royal incest with no precedent in Persian custom.
+
+This arrangement, however, created existential danger for everyone else in the Persian royal family. Even distant cousins of the dynasty faced elimination from succession claims. One such distant cousin was Darius, a young man in his twenties when Cambyses took the throne. Darius held the position of lance-bearer to Cambyses — a role that might sound menial but was actually highly prestigious. In the Persian court, proximity to the monarch indicated status and influence; Darius's position marked him as a major player at court and granted him access to the most sensitive royal secrets. He knew what was happening in the inner circle of power, and this knowledge would prove crucial when the dynasty abruptly collapsed in 522 BC.
+
+The account we have comes from Darius himself, carved in inscriptions at Behistun, and how much of it is historically accurate remains debated. But according to this official version, Cambyses went mad — a development that would become a familiar trope in stories of oriental despotism. Consumed by jealousy of his brother Bardiya, Cambyses ordered his execution. The fraternal bloodshed was standard Game of Thrones fare: the Wars of the Roses in miniature.
+
+But then came an extraordinary twist. Bardiya was murdered, and Cambyses — whooping it up in Egypt after conquering it — learned that someone had taken his brother's place in the Eastern Provinces. This replacement looked exactly like Bardiya but was not Bardiya at all. The impostor was a Magus, a member of the Persian priestly caste — the equivalent of the Brahmins in India. This false Bardiya declared himself king of kings, and the empire, deceived by his resemblance to the genuine heir, apparently accepted him.
+
+When news reached Cambyses in Egypt, he flew into a rage and immediately rode out toward Persia, leading an expedition through Syria. But fate intervened: in Syria, he paused for a meal, then mounted his horse. His sword slipped, and he accidentally stabbed himself in the thigh. The wound became septic, and Cambyses died shortly thereafter.
+
+Now the false Magus reigned as king of kings, and only seven noblemen knew the truth: that this was an impostor, not the genuine Bardiya. Among them was Darius.
+
+---
+
+## Darius's Coup: The Night at Sikyavautish
+
+Darius and his six co-conspirators understood that the moment had come. They gathered a small force and rode hard across the parched flatlands of Mesopotamia, up through the Zagros Mountains via the ancient Khorasan Highway, toward the great plateau of Iran. Their destination was Sikyavautish — a place in the heights of the Zagros, surrounded by rich fields and famous for its excellent horses. It was a beautiful spot, a royal retreat.
+
+The false Bardiya was there, enjoying his concubines, completely unprepared for what was about to happen. Darius and his men burst in on him with total surprise. The impostor reached for a chair, smashed it, and tried to use a chair leg to defend himself. It was hopeless. He was dispatched. Darius then proclaimed to the world that there had been a terrible deception — that Bardiya had been murdered and replaced by a false Magus — and that he, Darius, was now king.
+
+The account is remarkable — dramatic, improbable, full of sudden reversals. Cambyses's madness, the resemblance that enabled the switch, the accidental sword wound, the seven noblemen who happened to know the truth, the lightning ride across Mesopotamia, the ambush at a royal retreat — each element strains credibility. How much of this was genuine history, and how much was later propaganda to legitimize Darius's seizure of power? Scholars debate this endlessly. Darius, after all, had no genealogical claim to the throne; he was only a distant cousin. A story that eliminated all the legitimate heirs and placed him as the savior who restored order to the empire was enormously useful.
+
+What is clear is that Darius did become king of kings in 522 BC, and he faced immediate rebellions across his empire as various provinces sought to exploit the chaos of the succession. He suppressed them with brutal efficiency, and within a year or two, he had consolidated power and began organizing the empire into satrapies — provinces governed by satraps who reported directly to the king.
+
+And now, with his empire secured and his power absolute, Darius turned his attention westward. He had received the news about Sardis. He had fired his arrow to Zeus. His servants would remind him of the Athenians at every meal. The great invasion was coming.
+
+---
+
+## Detailed Takeaways
+
+**The Attack on Sardis Created an Inevitable Chain of Events.** When the Athenians and Ionians burned Sardis, they committed what the Persians considered an unforgivable insult — the destruction of a temple to Cybele was the equivalent of flying planes into the World Trade Center. Darius could not ignore it. The response was not optional; it was existential. Just as George W. Bush felt he had to respond to 9/11, Darius had to respond to the destruction of a major imperial city and a sacred temple. This moment illustrates a fundamental principle of great power politics: perceived weakness invites aggression, and no hegemon can afford to let an insult go unanswered without undermining the entire structure of dominance.
+
+**The Persian Empire Was Built Through a Sequence of Conquests That Transformed a Regional Power into a World Empire.** Cyrus the Great did not build his empire in a single campaign or a single decade. He systematically dismantled the existing order, beginning with his own overlords (the Medes), then expanding westward into Anatolia (defeating Croesus and the Lydians), then southward to capture the greatest city in the world (Babylon). Each conquest built upon the resources and strategic position gained from the last. The Lydians brought wealth and monetary innovation; Babylon brought prestige, religious legitimacy, and control of crucial trade routes. This incremental approach — using each conquest to fuel the next — offers a model for understanding how empires actually grow rather than springing into existence fully formed.
+
+**Darius's Rise Demonstrates the Critical Role of Information and Access in Seizing Power.** As lance-bearer to Cambyses, Darius occupied a position that granted him intimate knowledge of the royal court, the movements of key players, and the truth about the succession. When the crisis erupted, he was one of only seven people who knew the false Bardiya was an impostor. This privileged access transformed him from a distant cousin with no obvious claim into the person who could resolve an existential threat to the empire. In the aftermath of the coup, his official story cast him as the savior who rescued Persia from deception — a narrative that legitimized his rule even though he had no blood right to the throne.
+
+**The Concept of "Kings of Kings" Reveals How Empires Managed Ethnic and Political Diversity.** The Persian imperial structure was not a centralized homogeneous state but a network of peoples and territories bound together under a single supreme ruler. The Medes, Lydians, Babylonians, Egyptians, and countless other peoples retained their identities, languages, and local institutions — they were subjects, not citizens. This explains why the Persians could administer such vast territories: they did not try to make everyone Persian; they ruled through local elites who were granted autonomy in exchange for tribute and loyalty. The weakness of this system, however, was that loyalty depended on the perception that the king was strong and the rewards were worth the submission. When Darius faced rebellions across his empire after taking power, it was precisely because provinces saw an opportunity to break away when the central authority seemed temporarily vulnerable.
+
+**The Ionian Revolt and Athens's Involvement Created a Pretext That Persian Diplomacy Could Not Ignore.** The Ionians who lived on the Aegean coast of modern Turkey were subjects of Persia by virtue of having been conquered by Cyrus. Their revolt against Persian rule was dangerous enough, but Athens's participation transformed a provincial insurgency into an international incident. The Athenians were not subjects of Persia; they were free Greeks who had voluntarily crossed the sea to join a rebellion. This crossing — from outside the Persian sphere of influence into Persian territory — was an act of war by a sovereign state. Darius's vow to punish the Athenians was therefore not merely about revenge; it was about establishing that no external power could strike at the Persian Empire without consequence. The message was to all of Greece: Persia would not tolerate interference.
+
+---
+
+## Who This Is For
+
+This episode is for anyone fascinated by the origins of the classical world — the world that produced democracy in Athens, the triumph at Marathon, and the eventual confrontation between East and West that would culminate in the Persian Wars. It is particularly valuable for readers who want to understand the Persian perspective, which is so often obscured by Greek sources that painted the Persians as oriental despots. Here, we see Darius not as a cartoon villain but as a pragmatic ruler building the most sophisticated empire the world had yet seen, and responding to existential threats with the tools available to him.
+
+The story is also for those who love narrative history driven by human drama. The tale of Cyrus's conquests, Cambyses's madness, the false Bardiya, and Darius's daring coup reads like the best historical fiction, yet it comes from primary sources — Darius's own inscriptions and Herodotus's meticulous account. Understanding how power actually changes hands — through information, proximity, violence, and propaganda — offers timeless lessons about political survival that remain relevant today.
+
+Finally, for students of military history, this episode sets the stage for one of the most consequential campaigns in antiquity: the Persian attempt to conquer Greece, which would culminate in the battles of Marathon, Thermopylae, and Salamis. Understanding how Darius came to power, how he consolidated the empire, and why he felt compelled to punish Athens provides essential context for those famous battles — revealing that Marathon was not merely a Greek victory but the first great collision between a rising Persian superpower and a coalition of free Greek city-states that refused to submit.</p>

@@ -1,5 +1,35 @@
 var posts = [
   {
+    "date": "May 11, 2026",
+    "title": "FPL notes: Mitoma injury, Andersen\u2019s season over + Wilson at risk?",
+    "url": "2026-05-11-fpl-notes-mitoma-injury-andersens-season-over-wils.html",
+    "category": "FPL",
+    "excerpt": "# Brighton Tactical Shifts and Injury Concerns: FPL Notes ## Brighton's Early Dominance Brighton produced a commanding start, establishing a 2-0 lead within the opening five minutes of the match. This",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Shocking performance boost of assembly code: ~100x faster than C code | Lex Fridman Podcast",
+    "url": "2026-05-11-shocking-performance-boost-of-assembly-code-100x-f.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **62x performance gain**: Handwritten assembly achieves 62x speedup over C-compiled code for the same functions, demonstrating that modern compilers cannot match human-optimized SIMD",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-11",
+    "url": "2026-05-11-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-11 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
     "date": "May 10, 2026",
     "title": "2pm team news: Dubravka + Mateta benched, Sarr starts, no Gibbs-White",
     "url": "2026-05-10-2pm-team-news-dubravka-mateta-benched-sarr-starts-.html",
@@ -7,6 +37,16 @@ var posts = [
     "excerpt": "# Fantasy Football Scout: 2pm Team News Analysis ## Newcastle United: Two Changes for Newcastle Eddie Howe has made two changes for Newcastle United from Gameweek 35. Lewis Hall and Nick Woltemade sta",
     "tags": [
       "FPL"
+    ]
+  },
+  {
+    "date": "May 10, 2026",
+    "title": "668. Greece vs Persia: The Rise of the First Superpower (Part 1)",
+    "url": "2026-05-10-668-greece-vs-persia-the-rise-of-the-first-superpo.html",
+    "category": "History",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[26:30\u201328:29]</strong> <em>Darius Turns West Toward Greece</em> \u2014 With the Ionian Revolt crushed, Darius's attention turns to punishin",
+    "tags": [
+      "History"
     ]
   },
   {
