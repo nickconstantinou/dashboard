@@ -1,6 +1,36 @@
 var posts = [
   {
     "date": "May 11, 2026",
+    "title": "21 Harsh Truths About Why You\u2019re Still Lost - Mark Manson - #1096",
+    "url": "2026-05-11--21-harsh-truths-about-why-youre-still-lost-mark-m.html",
+    "category": "Self-help/Society",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[116:50\u2013119:18]</strong> <em>Convenience vs Significance in Relationships</em> \u2014 There's an inverse relationship between convenience a",
+    "tags": [
+      "Self-help/Society"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "#391 \u2012 Colorectal cancer screening: importance of early screening, colonoscopy as a screening and preventive tool, and how to build a personalized strategy",
+    "url": "2026-05-11-391-colorectal-cancer-screening-importance-of-earl.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Colorectal Cancer Screening: The Case for Early Intervention and Why Colonoscopy Remains Uniquely Powerful *Key insights from Peter Attia's comprehensive deep dive on The Drive Podcast* --- ## Ke",
+    "tags": [
+      "Health/Science"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Billie Eilish Returns",
+    "url": "2026-05-11-billie-eilish-returns.html",
+    "category": "AI/Tech",
+    "excerpt": "<p># Key Insights - **Eduardo's \"little bitch\" moment went viral** \u2014 The podcast producer called Conan \"a little bitch\" on a recent episode featuring *The Bear* cast, and the moment exploded online. E",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "FPL notes: Mitoma injury, Andersen\u2019s season over + Wilson at risk?",
     "url": "2026-05-11-fpl-notes-mitoma-injury-andersens-season-over-wils.html",
     "category": "FPL",
@@ -11,12 +41,52 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
+    "title": "FPL notes: Why Dubravka was benched + Burnley\u2019s Gameweek 38 appeal",
+    "url": "2026-05-11-fpl-notes-why-dubravka-was-benched-burnleys-gamewe.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Why Dubravka Was Benched + Burnley's Gameweek 38 Appeal ## Martin Dubravka's Unexpected Absence Martin Dubravka was benched for the first time this season at Turf Moor on Sunday, a signif",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "H.264 codec vs MP4 container: Difference explained | Lex Fridman Podcast",
+    "url": "2026-05-11-h264-codec-vs-mp4-container-difference-explained-l.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **H.264 is technically MPEG-4 Part 10 (AVC)**, not a container format\u2014it's one of multiple video codecs that can be encoded within an MPEG-4 specification container, alongside audio c",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Pulitzer Prize Historian: You Won't Notice Until It's Too Late!",
+    "url": "2026-05-11-pulitzer-prize-historian-you-wont-notice-until-its.html",
+    "category": "Business/Interview",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[27:10\u201330:20]</strong> <em>Democratic Erosion and Institutional Threats</em> \u2014 Discussion of how modern democracies decline through le",
+    "tags": [
+      "Business/Interview"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "Shocking performance boost of assembly code: ~100x faster than C code | Lex Fridman Podcast",
     "url": "2026-05-11-shocking-performance-boost-of-assembly-code-100x-f.html",
     "category": "AI/Tech",
     "excerpt": "## Key Insights - **62x performance gain**: Handwritten assembly achieves 62x speedup over C-compiled code for the same functions, demonstrating that modern compilers cannot match human-optimized SIMD",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "What If AI\u2019s Biggest Impact Isn\u2019t Jobs, But Minds?",
+    "url": "2026-05-11-what-if-ais-biggest-impact-isnt-jobs-but-minds-.html",
+    "category": "Finance",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[7:00\u20138:00]</strong> <em>Endoscopists Study: AI Creates Skill Atrophy</em> \u2014 Research on medical endoscopists showed a dramatic 21% dr",
+    "tags": [
+      "Finance"
     ]
   },
   {
