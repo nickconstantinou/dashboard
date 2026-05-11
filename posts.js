@@ -61,6 +61,16 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
+    "title": "FPL Gameweek 37 early Scout Picks: Arsenal attacking double-up",
+    "url": "2026-05-11-fpl-gameweek-37-early-scout-picks-arsenal-attackin.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 37 Early Scout Picks: Arsenal Attacking Double-Up ## Arsenal's Favourable Fixture There's only one place to start this week. Title favourites Arsenal are at home to relegated Burnley in",
+    "tags": [
+      "FPL"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "FPL notes: Mitoma injury, Andersen\u2019s season over + Wilson at risk?",
     "url": "2026-05-11-fpl-notes-mitoma-injury-andersens-season-over-wils.html",
     "category": "FPL",
@@ -95,6 +105,16 @@ var posts = [
     "url": "2026-05-11-h264-codec-vs-mp4-container-difference-explained-l.html",
     "category": "AI/Tech",
     "excerpt": "# Key Insights - **H.264 is technically MPEG-4 Part 10 (AVC)**, not a container format\u2014it's one of multiple video codecs that can be encoded within an MPEG-4 specification container, alongside audio c",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "How AI slop is destroying open source | Lex Fridman Podcast",
+    "url": "2026-05-11-how-ai-slop-is-destroying-open-source-lex-fridman-.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **Daniel Steinberg**, the sole maintainer of curl (one of the most widely deployed software components globally), has coined the term \"AI slop\" to describe the flood of AI-generated ",
     "tags": [
       "AI/Tech"
     ]
@@ -171,12 +191,32 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
+    "title": "Screensharing How to Start an AI Agent Business Today With Genspark Claw",
+    "url": "2026-05-11-screensharing-how-to-start-an-ai-agent-business-to.html",
+    "category": "Business/Startups",
+    "excerpt": "<p># Key Insights - **Genspark Claw runs Anthropic's Sonnet 4.6** and integrates with Slack, WhatsApp, and Telegram \u2014 the speaker configured a fully functional AI assistant in Slack in under 4 minutes",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
     "title": "Shocking performance boost of assembly code: ~100x faster than C code | Lex Fridman Podcast",
     "url": "2026-05-11-shocking-performance-boost-of-assembly-code-100x-f.html",
     "category": "AI/Tech",
     "excerpt": "## Key Insights - **62x performance gain**: Handwritten assembly achieves 62x speedup over C-compiled code for the same functions, demonstrating that modern compilers cannot match human-optimized SIMD",
     "tags": [
       "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 11, 2026",
+    "title": "Spurs v Leeds team news: Bogle out, hosts unchanged",
+    "url": "2026-05-11-spurs-v-leeds-team-news-bogle-out-hosts-unchanged.html",
+    "category": "FPL",
+    "excerpt": "# Spurs v Leeds Team News: Bogle Out, Hosts Unchanged ## Leeds United Injury Updates Leeds United head to Tottenham Hotspur Stadium with several absentees. Jayden Bogle is absent with a hamstring issu",
+    "tags": [
+      "FPL"
     ]
   },
   {
