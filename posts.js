@@ -21,6 +21,16 @@ var posts = [
   },
   {
     "date": "May 12, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-12 (v5)",
+    "url": "2026-05-12-fpl-daily-roundup-gw-v5.html",
+    "category": "FPL Roundups",
+    "excerpt": "# FPL Daily Round-Up: May 12, 2026 ## The Decision That Changes Everything Morgan Gibbs-White's facial injury has created the season's most consequential dilemma. The Nottingham Forest midfielder\u2014pric",
+    "tags": [
+      "FPL Roundups"
+    ]
+  },
+  {
+    "date": "May 12, 2026",
     "title": "How live streaming works: The challenges of low latency video streaming explained | Lex Fridman",
     "url": "2026-05-12-how-live-streaming-works-the-challenges-of-low-lat.html",
     "category": "AI/Tech",
