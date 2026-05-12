@@ -1,5 +1,25 @@
 var posts = [
   {
+    "date": "May 12, 2026",
+    "title": "Intelligence agencies vs VLC: \"No. We'll never do that\" - Lead developer responds | Lex Fridman",
+    "url": "2026-05-12-intelligence-agencies-vs-vlc-no-well-never-do-that.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **Two intelligence agencies requested backdoors in VLC; both were refused outright** \u2014 The lead developer describes responding with a firm \"No,\" later laughing that he was \"a lot less",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 12, 2026",
+    "title": "Screensharing How to Start an AI Agent Business Today with Genspark Claw",
+    "url": "2026-05-12-screensharing-how-to-start-an-ai-agent-business-to.html",
+    "category": "Business/Startups",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[18:35\u201319:32]</strong> <em>Fixing Output Bugs via AI Conversation</em> \u2014 Demonstrates fixing a bug where HTML entities were bleeding i",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
     "date": "May 11, 2026",
     "title": "21 Harsh Truths About Why You\u2019re Still Lost - Mark Manson - #1096",
     "url": "2026-05-11--21-harsh-truths-about-why-youre-still-lost-mark-m.html",

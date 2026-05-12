@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intelligence agencies vs VLC: "No. We'll never do that" - Lead developer responds | Lex Fridman | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-12 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/5_tU6EXrUcU" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>Key Insights</h1>
+
+<li><strong>Two intelligence agencies requested backdoors in VLC; both were refused outright</strong> — The lead developer describes responding with a firm "No," later laughing that he was "a lot less polite" in his actual reply, emphasizing that compromising the software would trigger an immediate shutdown of the project.</li>
+<li><strong>VLC compiles all releases on completely air-gapped machines</strong> — The project starts by compiling its own compiler on offline systems that have never been connected to the internet, with double signature verification, driven by a past incident where what they believe was a governmental agency attempted to inject a fake binary onto their servers.</li>
+<li><strong>Zero telemetry infrastructure exists in VLC</strong> — Due to the international nature of VideoLan's contributors (UK, Germany, US), any surveillance code would be immediately visible to team members, making covert data collection structurally impossible.</li>
+<li><strong>VideoLan's legal exposure is remarkably contained</strong> — In France, responding to court orders costs VideoLan under $10,000 per year in lawyer fees, compared to the US where legal defense can bankrupt individuals; the developer notes he receives "lawyers' letters every week" but handles them cost-effectively.</li>
+<li><strong>The entire legal liability of VideoLan rests on one person</strong> — Despite millions of users and military deployments, everything legally is handled solely by the lead developer, who admits he "used to stress about that a lot" but has found philosophical peace through worst-case scenario thinking.</li>
+
+<p>---</p>
+
+<h2>Introduction</h2>
+
+<p>In an era when governments increasingly pressure technology companies to compromise their products through backdoors and surveillance mechanisms, one of the world's most widely used media players has maintained an absolute position: never. In a wide-ranging conversation with Lex Fridman, the lead developer and president of VideoLan—Jean-Baptiste Kempf—offered a rare window into how a small, volunteer-driven organization navigates the enormous pressures that come with serving billions of users while refusing to compromise on the principles of privacy and open-source freedom.</p>
+
+<p>The conversation touched on themes that resonate far beyond the VLC community. Drawing direct parallels to the case of Pavel Durov, the founder of Telegram who was arrested by French authorities, Kempf explored what happens when governments blame platforms for the content users consume. The difference, he argued, is fundamental: VLC is not a platform at all. It is a tool, entirely offline, that processes media on the client side without any knowledge of what users are watching. This architectural choice, combined with rigorous security practices, creates a buffer between the software and any potential government complaint that simply does not exist for centralized services.</p>
+
+<p>The interview revealed something else equally valuable: the philosophy behind the project. For Kempf, the stress of bearing responsibility for software used by hundreds of millions of people—including military deployments—has been transformed through a disciplined approach to thinking about worst-case scenarios. His zen demeanor throughout discussions of intelligence agency pressure, potential legal liability, and the moral weight of global distribution offers a masterclass in how to build and maintain controversial technology in a hostile regulatory environment.</p>
+
+<p>---</p>
+
+<h2>The Architecture of Privacy: Why VLC Cannot Spy on Its Users</h2>
+
+<p>At the core of the conversation lay a critical distinction that often gets lost in public debates about technology and privacy: the difference between a platform and a tool. Kempf was direct about this when Fridman raised the parallel to Durov's legal troubles in France. "Sure, I don't have any platform," Kempf responded. "Everything is on the client side." This is not merely a technical detail—it is the fundamental reason why VLC exists in a different legal and ethical category than services like Telegram, YouTube, or social media platforms.</p>
+
+<p>When a user plays a video in VLC, the software processes that file entirely on their own computer. The content does not pass through any server controlled by VideoLan. There is no telemetry, no analytics, no connection back to any infrastructure that could track viewing habits or report user behavior. "We don't know anything that you're using the software for," Kempf explained. This architectural decision means that when governments come asking—which they do, in various forms—VLC simply cannot provide information it does not possess.</p>
+
+<p>The practical implications of this are significant. Fridman posed a hypothetical: if the French government decided that "anime is destructive to society" and demanded that VLC block such content, the answer is straightforward. "No, they cannot do that," Kempf said. The software does not have the capability to enforce content restrictions because it has no connection to any server that could deliver such restrictions. "We are not a platform," Kempf emphasized. "VLC is a tool."</p>
+
+<p>---</p>
+
+<h2>Intelligence Agencies and the Backdoor Question</h2>
+
+<p>The conversation took a more dramatic turn when Fridman asked directly whether intelligence agencies had ever approached VideoLan requesting backdoor access to VLC. Kempf's answer was immediate and unequivocal. "Yes, two of them," he said. When asked what his response was, the answer was simply "No." In the follow-up clarification, Kempf added with a laugh that his actual response was "a lot less polite."</p>
+
+<p>What makes this refusal credible—and not just bravado—is the technical infrastructure that backs it up. The way VLC is compiled reflects what Kempf described as a "completely paranoid" approach to security. The project compiles all releases on machines that have never been connected to the internet, starting from scratch by compiling their own compiler. This means there is no opportunity for a malicious actor—whether a hacker or a government—to inject code during the build process.</p>
+
+<p>The double signature process for releases adds another layer of protection. Even if someone managed to compromise a build, they would need both signatures to distribute it as an official release. "There is no code that gets into VLC that we don't control," Kempf said. This is not just a policy claim; it is a technical guarantee enforced through the build pipeline.</p>
+
+<p>The stakes became concrete when Kempf revealed that VideoLan has already experienced what they believe was a governmental attack. A fake binary was attempted to be pushed into their servers by what they assess was "a governmental agency that is not from the Western world." The incident "scared us a lot," Kempf admitted, but it also reinforced why the open-source, distributed nature of the project provides resilience against such attacks. "VLC is open source. How can you kill it?" he asked rhetorically. If one server or domain gets shut down, the project can move, rebuild, and continue. The code exists everywhere, maintained by a global community, and cannot be extinguished through conventional legal or technical pressure.</p>
+
+<p>---</p>
+
+<h2>Legal Realities: The Bureaucracy of Defending Open Source</h2>
+
+<p>Fridman raised an important practical concern: even if VLC bears no responsibility for content users play, could legal pressure—lawyer fees, court orders, the Kafkaesque machinery of bureaucracy—suffocate the project? The question is particularly relevant given what happened to Durov, who was arrested and held in France despite Telegram's claims that it operated from jurisdictions with limited French jurisdiction.</p>
+
+<p>Kempf acknowledged the theoretical risk. "If you had infinite trillions of dollars, you would win easily because you're on the right side," he said. "But the thing is there is a degree to which they suffocate you with paperwork." The daily reality of running VideoLan involves receiving "lawyers' letters every week." However, Kempf highlighted a crucial difference between operating in France versus the United States: responding to legal process in France does not bankrupt you.</p>
+
+<p>"In France, answering to a court order does not make you bankrupt, right? It's not like in the US where it can actually bankrupt you, right?" The actual cost of lawyer fees for VideoLan is under $10,000 per year—a manageable expense for a project of VLC's scale and importance. This legal environment means that while the project is not immune to pressure, it is not defacto killed by it either. "That's not really scary," Kempf concluded about the legal costs.</p>
+
+<p>The contrast with centralized platforms is stark. When a company operates servers that process user data, governments can demand access to those servers, metadata, and logs. VLC has none of these. When police have asked for help with specific cases—"We have a murder case, right? And the file is destructed or doesn't play in that version of VLC. Could you help us?"—the help VLC provides is exactly the same as any support request: troubleshooting why a file does not play. "We never have access to the video," Kempf clarified. "It's like a normal support, right? Oh, it's really about playing the file."</p>
+
+<p>---</p>
+
+<h2>Military Deployment and the Question of Moral Responsibility</h2>
+
+<p>One of the more surprising revelations in the conversation involved VLC's relationship with the US military. During the Afghanistan war, Kempf received an email from someone in the army asking for help with a version of VLC that did not play certain files correctly on their RTSP server. The reason for the request was striking: "VLC is very important for the moral on the troop on the ground, right? Because at night I think it might be boring, right? So they have a collection of videos to watch or movies over there."</p>
+
+<p>Kempf provided them with a custom version. And because VLC is completely open source, it was permissible for installation on US Army laptops. "I guess someone in the US military actually looked at it and said, 'Well, okay, this is okay, right?'" The documentation of how VLC processes files passed military scrutiny.</p>
+
+<p>This incident illustrates a broader theme Kempf returned to throughout the conversation: the moral ambiguity of tools. "VLC is a tool. It's a tool that is going to help people doing things. We are not a platform, and for patents, well, I'm sorry, but most of the patents like you shouldn't be able to patent math and matrices. Like this is wrong." The same software that helps soldiers watch movies during wartime can be used by anyone for any purpose. "We cannot blame a tool," Kempf argued. "Every tool is going to be used for great things and for bad things, right?"</p>
+
+<p>---</p>
+
+<h2>The Human Behind the Project: Stress, Responsibility, and Zen</h2>
+
+<p>Beyond the technical and legal architecture, the conversation revealed the human dimension of maintaining a project with VLC's global reach. Fridman pressed Kempf on the stress of the position: millions of people using the software, military deployments, government pressure, all resting on a tiny team. "How many?" Fridman asked about the core contributors. "Six, eight." And legally? "Everything that is legal is only me."</p>
+
+<p>Kempf was candid about his past. "I used to stress about that a lot." The weight of being the sole legal entity responsible for software deployed on billions of devices, in military contexts, in authoritarian regimes seeking information—these are not trivial burdens. "You feel the stress of this?" Fridman asked. The admission that stress was once overwhelming humanized the usually calm and measured developer.</p>
+
+<p>What changed? Kempf described his philosophical approach: "I have a way of thinking about what is the worst case scenario, always. Right? And the answer is at the end, if I take like a chess player, right? In the end, am I dead? Yes or no?" The rigor of this analysis—constantly asking what the actual worst-case outcome is—provides a framework for not being paralyzed by anxiety. The worst case is rarely death or destruction. It is usually something manageable, something that can be addressed. This philosophical discipline is visible in his demeanor throughout the interview: calm, direct, unruffled even when discussing intelligence agencies or legal liability.</p>
+
+<p>---</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The Architecture of Privacy is a Design Choice, Not Just a Policy</strong></p>
+
+<p>VLC's privacy properties are not the result of promises or policies that could be changed under pressure—they are embedded in the technical architecture. Because all processing happens on the client side and no telemetry exists, the project structurally cannot provide governments with information about user behavior. Organizations building privacy-sensitive products should understand that user trust requires making surveillance architecturally impossible, not just legally committing to not surveil. The latter can be reversed; the former cannot be compromised without fundamentally changing what the product is.</p>
+
+<p><strong>Open Source Provides a Different Kind of Resilience</strong></p>
+
+<p>Kempf's observation that "VLC is open source. How can you kill it?" points to a feature of open-source software that is often underappreciated. Because the code is publicly available and maintained by a distributed community, there is no single point of legal or technical control that can be targeted. If one jurisdiction attempts to shut down the project, it can relocate. If one domain is seized, mirrors exist everywhere. This resilience should inform how human rights organizations, journalists, and privacy-conscious users evaluate software. Open source is not just about cost or customization—it is about resistance to targeted shutdowns.</p>
+
+<p><strong>The Legal Shield of Being a Tool, Not a Platform</strong></p>
+
+<p>The distinction between platforms and tools has enormous legal implications. Platforms that host content or facilitate communication can be held responsible for what users do on them. Tools that process locally stored files cannot. Organizations building technology should be intentional about where they sit on this spectrum. Every feature that connects users to servers, collects data, or enables network communication creates a potential liability and a potential surveillance capability. The cleanest legal and privacy position is to avoid these features entirely, even if it means providing less functionality.</p>
+
+<p><strong>Worst-Case Thinking as a Management Practice</strong></p>
+
+<p>Kempf's approach to stress management—constantly asking "in the worst case, am I dead?"—offers a practical tool for anyone bearing responsibility for consequential projects. By rigorously evaluating what the actual worst-case outcome of any decision or threat is, it becomes possible to determine whether a threat warrants stress and action or can be dismissed as manageable. This is not fatalism; it is a discipline that enables clear thinking under pressure. Project managers, founders, and leaders dealing with controversial technology could benefit from adopting this practice explicitly.</p>
+
+<p><strong>International Teams Create Mutual Oversight</strong></p>
+
+<p>The absence of telemetry in VLC is partly a technical choice and partly enforced by the international nature of the VideoLan team. With contributors in the UK, Germany, and the US, any attempt to add surveillance code would be immediately visible to team members in jurisdictions with different legal and political pressures. This creates a form of distributed accountability that is difficult to compromise. Organizations seeking to maintain trust should consider how their team structure affects the possibility of covert changes to their products.</p>
+
+<p>---</p>
+
+<h2>Who This Is For</h2>
+
+<p>This conversation is essential listening—metaphorically speaking, since you are reading a summary—for several distinct audiences. Privacy advocates and security researchers will find in VLC a case study in what genuine privacy-preserving architecture looks like in practice, not just in theory. The technical details of air-gapped compilation, double signatures, and the absence of telemetry provide a blueprint for building systems that cannot be coerced into surveillance.</p>
+
+<p>Technology founders and product managers will benefit from understanding how VideoLan has navigated the tension between global scale and legal exposure. The small team, the single legal individual, the low legal costs in favorable jurisdictions, and the philosophical clarity about what VLC is and is not—all of this offers a model for how to position a product in an increasingly hostile regulatory environment without compromising core principles.</p>
+
+<p>Policymakers and regulators seeking to understand the difference between platforms and tools will find this conversation illuminating. Too often, legislation treats all digital intermediaries as equivalent. VLC demonstrates that a technology product can be designed in ways that make many common regulatory demands simply inapplicable—because the product cannot fulfill them, not because it refuses to, but because the architecture precludes the capability entirely.</p>
+
+<p>Finally, anyone interested in the human dimension of maintaining consequential open-source projects will find in Kempf's candid reflections on stress, responsibility, and worst-case thinking something valuable. The zen he has achieved did not come from avoiding hard decisions but from developing a rigorous philosophical framework for evaluating them. That framework is applicable far beyond the world of media players and open-source software.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
