@@ -1,10 +1,30 @@
 var posts = [
   {
     "date": "May 12, 2026",
+    "title": "7 tiny AI agent ideas I built with Genspark Claw",
+    "url": "2026-05-12-7-tiny-ai-agent-ideas-i-built-with-genspark-claw.html",
+    "category": "Business/Startups",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[1:28\u20136:16]</strong> <em>Dead Domain Flipper AI Agent Business</em> \u2014 Greg presents the first business idea: an AI agent that monitors",
+    "tags": [
+      "Business/Startups"
+    ]
+  },
+  {
+    "date": "May 12, 2026",
     "title": "Cerebras IPO: The Tech Breakthrough That Could Change Everything",
     "url": "2026-05-12-cerebras-ipo-the-tech-breakthrough-that-could-chan.html",
     "category": "AI/Tech",
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[19:51\u201321:00]</strong> <em>Investment Decision and Long-Term Thesis for Cerebras</em> \u2014 The host plans to participate in the Cerebras ",
+    "tags": [
+      "AI/Tech"
+    ]
+  },
+  {
+    "date": "May 12, 2026",
+    "title": "How live streaming works: The challenges of low latency video streaming explained | Lex Fridman",
+    "url": "2026-05-12-how-live-streaming-works-the-challenges-of-low-lat.html",
+    "category": "AI/Tech",
+    "excerpt": "# Key Insights - **Satellite broadcasting historically presented the greatest streaming complexity** due to fixed link capacities that prohibited bandwidth bursts\u2014a constraint modern internet-based st",
     "tags": [
       "AI/Tech"
     ]
