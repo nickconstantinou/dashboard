@@ -89,6 +89,17 @@ var posts = [
   },
   {
     "date": "May 12, 2026",
+    "title": "The $1M+ Solo AI Agent Business (Full Course)",
+    "url": "2026-05-12-the-1m-solo-ai-agent-business-full-course.html",
+    "category": "Business/Startups",
+    "excerpt": "<p># Key Insights - **$5,000/month pricing model** works because you charge for the \"digital employee\" experience, not for tokens, models, or infrastructure\u2014the customer never touches any of that - **",
+    "tags": [
+      "Business/Startups"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 12, 2026",
     "title": "The best programmers in the world have contributed to FFmpeg | Lex Fridman Podcast",
     "url": "2026-05-12-the-best-programmers-in-the-world-have-contributed.html",
     "category": "AI/Tech",
