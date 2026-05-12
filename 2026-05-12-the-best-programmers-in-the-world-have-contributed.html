@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The best programmers in the world have contributed to FFmpeg | Lex Fridman Podcast | Nick's Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
+    article { padding: 32px 0; }
+    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
+    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
+    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
+    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 16px; }
+    ul, ol { margin-bottom: 16px; padding-left: 24px; }
+    li { margin-bottom: 8px; }
+    strong { font-weight: 600; color: var(--primary); }
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
+    footer p { font-size: 14px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <article>
+      <p class="meta">2026-05-12 • AI/Tech</p>
+      
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/-bRqc8CP4t8" frameborder="0" allowfullscreen></iframe>
+      </div>
+      
+      <h1>The Best Programmers in the World Have Contributed to FFmpeg: Inside the Open Source Multimedia Revolution</h1>
+
+<p><strong>Key Insights</strong></p>
+
+<li>FFmpeg runs on an estimated <strong>hundreds of millions to nearly a billion CPUs simultaneously</strong> worldwide, making every single CPU instruction matter at extraordinary scale</li>
+<li>Multimedia programming operates under severe real-time constraints requiring <strong>perfect execution within 16 milliseconds per frame</strong> — missing one frame destroys visual quality with no recovery option</li>
+<li>Andrew Kelly, creator of the Zig programming language, <strong>learned to code through FFmpeg development</strong> before building his own system programming language, illustrating FFmpeg's role as a finishing school for elite programmers</li>
+<li>The speaker argues FFmpeg is "<strong>the best school ever of programming</strong>" because contributors receive code reviews from the most seasoned programmers who scrutinize every line and demand excellence</li>
+<li>Understanding computer architecture — including CPU pipelining, SIMD operations, ALU functionality, and IO systems — remains essential for multimedia work, a depth many modern software engineers lack</li>
+
+<p>---</p>
+
+<h2>Introduction</h2>
+
+<p>Jean-Baptiste Kempf has spent years at the intersection of open source software and multimedia technology, leading projects that billions of people use daily without ever knowing the names. In a conversation that delves into the philosophy behind open source contribution, Kempf reveals what truly drives the remarkable developers who have built tools like FFmpeg and VLC into the backbone of modern video processing. His insights cut through the typical narratives about open source motivation, revealing a complex interplay between passion, technical excellence, and the unique demands of real-time multimedia programming.</p>
+
+<p>The conversation centers on a question that many ask but few answer satisfyingly: what compels some of the world's most talented programmers to contribute countless hours to projects that, for most contributors, will never directly compensate them financially? The answer, according to Kempf, lies not in altruism or idealism but in something more fundamental — a love for the work itself, combined with an environment that demands and rewards excellence in ways few other coding contexts can match.</p>
+
+<h2>The Three Engines of Open Source Motivation</h2>
+
+<p>Kempf describes three distinct phases that keep developers engaged with FFmpeg and the broader multimedia open source ecosystem. The first engine is simply that video is cool. This sounds almost too simple to be profound, yet Kempf emphasizes that the personal connection to the subject matter matters enormously. Many contributors arrived in the community because they loved watching anime and wanted to understand how video encoding actually worked. When people ask Kempf how to get started in open source, his answer never wavers: work on something you love.</p>
+
+<p>For Kempf himself, that passion manifests in his love of movies. He describes watching the same films repeatedly, even when his wife finds it exasperating, because the technical problem of video reproduction remains endlessly fascinating to him. This personal investment transforms what could be merely a job into something sustainable over decades.</p>
+
+<p>The second engine is excellence. Working in FFmpeg and VLC exposes developers to the most demanding programming environment many will ever encounter. Code reviews are conducted by some of the most experienced programmers in the world, people who will examine every line of submitted code and explain precisely why it falls short of perfect. This creates what Kempf describes as the best programming education available anywhere — not because of formal curricula, but because of the relentless pressure for quality from peers who genuinely care about the craft.</p>
+
+<p>The third engine is impact. When you explain to your grandmother that you work on software that lets her watch videos on her laptop, she understands. This stands in stark contrast to the many software jobs that involve building invoice portals for utility companies — work that pays bills but fails to create the kind of tangible, human connection that makes labor meaningful. FFmpeg and VLC sit at the end of hundreds of millions of devices worldwide, and contributors can point to that reach with genuine pride.</p>
+
+<h2>FFmpeg as a Finishing School for Elite Programmers</h2>
+
+<p>The technical demands of multimedia programming are unlike almost any other domain. When you write code for FFmpeg, you are not operating in an environment where occasional sloppiness can be tolerated or recovered from gracefully. The constraints are absolute: you have 16 milliseconds to decode and display a single frame. Miss that deadline and you have destroyed the visual experience for the viewer, with no mechanism to catch up later.</p>
+
+<p>This creates a forcing function for excellence that few other environments replicate. Unlike game engines, where occasional dropped frames might be noticed but tolerated, video playback is unforgiving. And unlike many modern programming contexts that abstract away hardware details behind layers of interpretation, multimedia code must understand precisely how computers work at the most fundamental level.</p>
+
+<p>Contributors who work in FFmpeg must understand CPU pipelining, the operation of SIMD (Single Instruction, Multiple Data) instruction sets, how the Arithmetic Logic Unit actually functions, and how IO systems behave. They must write assembly code when necessary, optimizing individual instructions for specific CPU architectures. When debates arise about which assembly call to use, contributors might argue about whether one approach costs three CPU cycles more than another on particular processor generations — and that three-cycle difference matters when you're executing it billions of times per second across a billion devices.</p>
+
+<p>Kempf uses Andrew Kelly as a concrete example of this phenomenon. Kelly, who went on to create the Zig programming language, was first an FFmpeg developer. He learned to be an excellent programmer through the FFmpeg school, then applied those skills to building his own contribution to the programming language landscape. This pattern — FFmpeg as a proving ground where elite programmers develop skills they later apply elsewhere — is not coincidental. The environment simply doesn't allow mediocrity.</p>
+
+<h2>The Scale of Responsibility</h2>
+
+<p>FFmpeg's reach creates both pressure and pride. The project is likely one of the biggest CPU users in the world, running on hundreds of millions of devices as users speak. Every instruction the codebase executes matters, multiplied across that enormous installed base. A one-cycle optimization in critical video decoding paths translates into massive cumulative savings across billions of CPU-hours of daily usage.</p>
+
+<p>This scale also creates accountability. When your code runs on nearly every video playback scenario on earth, you cannot hide behind abstraction layers or blame infrastructure when things go wrong. You have nowhere to hide, as Kempf puts it. Your code stands exposed to scrutiny from the entire open source community, and any failures become immediately visible.</p>
+
+<p>Yet this same scale creates the ultimate validation. Contributors can point to their work as directly enabling billions of people to watch video content, manipulate media files, and experience digital media in countless ways. When asked what they do, the answer resonates with almost everyone they meet. There is something uniquely satisfying about building infrastructure that the world depends on without realizing it.</p>
+
+<h2>The Passion Project Acceleration</h2>
+
+<p>The conversation touches on a broader truth about open source development in the software world. John Collison's observation that "the world is a museum of passion projects" captures something essential about why open source works so well in software specifically. A passion project in the physical world — opening a cafe, for instance — requires navigating building codes, finding locations, managing supply chains, and countless other practical obstacles that slow iteration and limit reach. The network effects are inherently bounded by geography and physical constraints.</p>
+
+<p>Software passion projects face no such limitations. A developer can build something interesting, and if it provides genuine value, the network effects can spread globally within hours. Contributors from anywhere can participate. The cost of copying and distributing software approaches zero. This means that passion projects in software can achieve impact that physical passion projects simply cannot match, creating a virtuous cycle where talented people are drawn to open source precisely because their work can matter so broadly.</p>
+
+<h2>Who Should Pay Attention to This Discussion</h2>
+
+<p>This conversation offers particular value to software developers considering open source contribution for the first time. Kempf's advice about working on something you love rather than chasing perceived prestige or financial opportunity runs counter to much conventional career guidance, yet his reasoning is grounded in deep understanding of what sustains long-term engagement. The developers who thrive in open source are those who find genuine joy in their work, not those treating it as a stepping stone to something else.</p>
+
+<p>For engineering managers and technical leaders, the discussion illuminates what makes open source communities function. The peer review culture, the emphasis on excellence, and the pride in tangible impact are not accidental — they are features carefully embedded in how projects like FFmpeg operate. Creating those conditions deliberately in commercial development environments could yield similar benefits.</p>
+
+<p>Technology investors and founders might also find value in understanding how elite programmers actually develop their skills. The path from FFmpeg contributor to language creator (as with Andrew Kelly and Zig) suggests that deep technical excellence comes from working on problems with genuine constraints, not from abstract study or safe corporate environments. Companies seeking to hire genuinely elite programmers might consider what they can learn from communities that produce them.</p>
+
+<p>Finally, anyone curious about the invisible infrastructure underlying modern digital life stands to gain appreciation for the human effort behind tools they use constantly. FFmpeg is not merely software — it is a living project maintained by passionate contributors who chose to work on something they love and developed extraordinary skills in the process. Understanding that story enriches appreciation for the digital infrastructure that increasingly mediates human experience.</p>
+      
+    </article>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+    </div>
+  </footer>
+</body>
+</html>
