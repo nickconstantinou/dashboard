@@ -8,7 +8,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -19,7 +19,18 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
+  },
+  {
+    "date": "May 12, 2026",
+    "title": "Fast robot teleoperation (at ultra-low 8ms latency): Kyber explained | Lex Fridman Podcast",
+    "url": "2026-05-12-fast-robot-teleoperation-at-ultra-low-8ms-latency-.html",
+    "category": "AI/Tech",
+    "excerpt": "# Fast Robot Teleoperation at Ultra-Low 8ms Latency: Kyber Explained ## Key Insights - **Kyber achieves 7ms end-to-end latency** (Windows to Windows or Windows to Mac), with a target of 4ms glass-to-g",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -30,7 +41,18 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
+  },
+  {
+    "date": "May 12, 2026",
+    "title": "How I Got 50 Cent to Join Vitamin Water | Rohan Oza",
+    "url": "2026-05-12-how-i-got-50-cent-to-join-vitamin-water-rohan-oza.html",
+    "category": "Tech/Business",
+    "excerpt": "# Key Insights - **The 1-in-10 Rule**: In America, one in ten people influence the other nine, making influencer identification the core discipline of effective marketing\u2014and this principle has remain",
+    "tags": [
+      "Tech/Business"
+    ],
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -41,7 +63,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -52,7 +74,7 @@ var posts = [
     "tags": [
       "Crypto/Web3"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -63,7 +85,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -74,7 +96,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -85,7 +107,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -96,7 +118,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -107,7 +129,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -118,7 +140,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 12, 2026",
@@ -129,7 +151,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 12, 2026",
@@ -140,7 +162,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 11, 2026",
@@ -151,7 +173,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -162,7 +184,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -173,7 +195,7 @@ var posts = [
     "tags": [
       "Health"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -184,7 +206,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -195,7 +217,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -217,7 +239,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -283,7 +305,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -294,7 +316,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -305,7 +327,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -316,7 +338,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -327,7 +349,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -338,7 +360,7 @@ var posts = [
     "tags": [
       "Comedy/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -349,7 +371,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -371,7 +393,7 @@ var posts = [
     "tags": [
       "Business/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -382,7 +404,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -393,7 +415,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -415,7 +437,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -426,7 +448,7 @@ var posts = [
     "tags": [
       "Mystery/Suspense"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -437,7 +459,7 @@ var posts = [
     "tags": [
       "Finance"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -448,7 +470,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -459,7 +481,7 @@ var posts = [
     "tags": [
       "Crypto/Web3"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 11, 2026",
@@ -470,7 +492,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 11, 2026",
@@ -481,7 +503,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 10, 2026",
@@ -503,7 +525,7 @@ var posts = [
     "tags": [
       "History"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 10, 2026",
@@ -514,7 +536,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 10, 2026",
@@ -580,7 +602,7 @@ var posts = [
     "tags": [
       "Product/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 10, 2026",
@@ -591,7 +613,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 10, 2026",
@@ -602,7 +624,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 10, 2026",
@@ -613,7 +635,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 10, 2026",
@@ -624,7 +646,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 10, 2026",
@@ -635,7 +657,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 10, 2026",
@@ -657,7 +679,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 09, 2026",
@@ -679,7 +701,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 09, 2026",
@@ -712,7 +734,7 @@ var posts = [
     "tags": [
       "Science/Health"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 09, 2026",
@@ -734,7 +756,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -778,7 +800,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -789,7 +811,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -800,7 +822,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 09, 2026",
@@ -822,7 +844,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -855,7 +877,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 09, 2026",
@@ -866,7 +888,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -910,7 +932,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 09, 2026",
@@ -976,7 +998,7 @@ var posts = [
     "tags": [
       "Mystery/Suspense"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -987,7 +1009,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1064,7 +1086,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1075,7 +1097,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1086,7 +1108,7 @@ var posts = [
     "tags": [
       "Comedy/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1108,7 +1130,7 @@ var posts = [
     "tags": [
       "Finance"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1130,7 +1152,7 @@ var posts = [
     "tags": [
       "Business/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1152,7 +1174,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1163,7 +1185,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1185,7 +1207,7 @@ var posts = [
     "tags": [
       "Crypto/Web3"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1207,7 +1229,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1229,7 +1251,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1251,7 +1273,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1273,7 +1295,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1284,7 +1306,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 08, 2026",
@@ -1306,7 +1328,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1328,7 +1350,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1339,7 +1361,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1350,7 +1372,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1372,7 +1394,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1383,7 +1405,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 08, 2026",
@@ -1394,7 +1416,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 07, 2026",
@@ -1405,7 +1427,7 @@ var posts = [
     "tags": [
       "Comedy/Relationships"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1416,7 +1438,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1438,7 +1460,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 07, 2026",
@@ -1449,7 +1471,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1537,7 +1559,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1548,7 +1570,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 07, 2026",
@@ -1559,7 +1581,7 @@ var posts = [
     "tags": [
       "Mystery/Suspense"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1570,7 +1592,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1581,7 +1603,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1592,7 +1614,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1603,7 +1625,7 @@ var posts = [
     "tags": [
       "Crypto/Finance"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1614,7 +1636,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 07, 2026",
@@ -1625,7 +1647,7 @@ var posts = [
     "tags": [
       "Business/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1636,7 +1658,7 @@ var posts = [
     "tags": [
       "History"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1647,7 +1669,7 @@ var posts = [
     "tags": [
       "Business/Self-help"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1680,7 +1702,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 06, 2026",
@@ -1735,7 +1757,7 @@ var posts = [
     "tags": [
       "Finance"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1757,7 +1779,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1768,7 +1790,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1779,7 +1801,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1790,7 +1812,7 @@ var posts = [
     "tags": [
       "Mystery/Suspense"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 06, 2026",
@@ -1834,7 +1856,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 05, 2026",
@@ -1856,7 +1878,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 05, 2026",
@@ -1867,7 +1889,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 05, 2026",
@@ -1889,7 +1911,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 05, 2026",
@@ -1977,7 +1999,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 05, 2026",
@@ -2021,7 +2043,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 04, 2026",
@@ -2032,7 +2054,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2043,7 +2065,7 @@ var posts = [
     "tags": [
       "Mystery/Suspense"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2054,7 +2076,7 @@ var posts = [
     "tags": [
       "Business/Startups"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2076,7 +2098,7 @@ var posts = [
     "tags": [
       "Finance"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2087,7 +2109,7 @@ var posts = [
     "tags": [
       "Comedy/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2109,7 +2131,7 @@ var posts = [
     "tags": [
       "Crypto/Web3"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2153,7 +2175,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2164,7 +2186,7 @@ var posts = [
     "tags": [
       "Business/Interview"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2175,7 +2197,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2186,7 +2208,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2197,7 +2219,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 04, 2026",
@@ -2208,7 +2230,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 03, 2026",
@@ -2219,7 +2241,7 @@ var posts = [
     "tags": [
       "History"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 03, 2026",
@@ -2285,7 +2307,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 03, 2026",
@@ -2296,7 +2318,7 @@ var posts = [
     "tags": [
       "AI"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 03, 2026",
@@ -2307,7 +2329,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 03, 2026",
@@ -2318,7 +2340,7 @@ var posts = [
     "tags": [
       "Product/Business"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 03, 2026",
@@ -2329,7 +2351,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 02, 2026",
@@ -2527,7 +2549,7 @@ var posts = [
     "tags": [
       "AI"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 02, 2026",
@@ -2538,7 +2560,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 02, 2026",
@@ -2549,7 +2571,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 02, 2026",
@@ -2571,7 +2593,7 @@ var posts = [
     "tags": [
       "Science/Health"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 02, 2026",
@@ -2582,7 +2604,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 02, 2026",
@@ -2604,7 +2626,7 @@ var posts = [
     "tags": [
       "Self-help/Society"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 02, 2026",
@@ -2615,7 +2637,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "May 01, 2026",
@@ -2626,7 +2648,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2659,7 +2681,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2670,7 +2692,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2681,7 +2703,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2725,7 +2747,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2747,7 +2769,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2758,7 +2780,7 @@ var posts = [
     "tags": [
       "News"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "May 01, 2026",
@@ -2769,7 +2791,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2780,7 +2802,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2791,7 +2813,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2813,7 +2835,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2824,7 +2846,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2835,7 +2857,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2857,7 +2879,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2890,7 +2912,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2901,7 +2923,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2912,7 +2934,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "May 01, 2026",
@@ -2923,7 +2945,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 30, 2026",
@@ -2934,7 +2956,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 30, 2026",
@@ -2989,7 +3011,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 30, 2026",
@@ -3022,7 +3044,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 29, 2026",
@@ -3088,7 +3110,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "April 29, 2026",
@@ -3099,7 +3121,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 29, 2026",
@@ -3132,7 +3154,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 28, 2026",
@@ -3220,7 +3242,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 28, 2026",
@@ -3231,7 +3253,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 28, 2026",
@@ -3242,7 +3264,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 27, 2026",
@@ -3253,7 +3275,7 @@ var posts = [
     "tags": [
       "Health/Science"
     ],
-    "type": "blog"
+    "type": "podcast"
   },
   {
     "date": "April 27, 2026",
@@ -3352,7 +3374,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 25, 2026",
@@ -3363,7 +3385,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 25, 2026",
@@ -3385,7 +3407,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 25, 2026",
@@ -3407,7 +3429,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 25, 2026",
@@ -3440,7 +3462,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 25, 2026",
@@ -3473,7 +3495,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 24, 2026",
@@ -3484,7 +3506,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3539,7 +3561,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3561,7 +3583,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3572,7 +3594,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3583,7 +3605,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3627,7 +3649,7 @@ var posts = [
     "tags": [
       "AI"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 24, 2026",
@@ -3660,7 +3682,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 23, 2026",
@@ -3704,7 +3726,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3792,7 +3814,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3803,7 +3825,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3814,7 +3836,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3825,7 +3847,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3836,7 +3858,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -3858,7 +3880,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 22, 2026",
@@ -3869,7 +3891,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3880,7 +3902,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3902,7 +3924,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3913,7 +3935,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3935,7 +3957,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3946,7 +3968,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3957,7 +3979,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3968,7 +3990,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3979,7 +4001,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -3990,7 +4012,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 22, 2026",
@@ -4012,7 +4034,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4023,7 +4045,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4045,7 +4067,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4067,7 +4089,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4078,7 +4100,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4111,7 +4133,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4122,7 +4144,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4133,7 +4155,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4144,7 +4166,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4166,7 +4188,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4177,7 +4199,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4188,7 +4210,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4199,7 +4221,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4210,7 +4232,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4221,7 +4243,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4232,7 +4254,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4243,7 +4265,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4254,7 +4276,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4265,7 +4287,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4276,7 +4298,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 21, 2026",
@@ -4287,7 +4309,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 18, 2026",
@@ -4298,7 +4320,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4309,7 +4331,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4342,7 +4364,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4364,7 +4386,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4386,7 +4408,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4397,7 +4419,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4419,7 +4441,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4430,7 +4452,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4485,7 +4507,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4496,7 +4518,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4507,7 +4529,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4518,7 +4540,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4540,7 +4562,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4551,7 +4573,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4562,7 +4584,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 18, 2026",
@@ -4573,7 +4595,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 15, 2026",
@@ -4595,7 +4617,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4606,7 +4628,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4617,7 +4639,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4650,7 +4672,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4661,7 +4683,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4672,7 +4694,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4683,7 +4705,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4694,7 +4716,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -4716,7 +4738,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 14, 2026",
@@ -4738,7 +4760,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4760,7 +4782,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4793,7 +4815,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4815,7 +4837,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4826,7 +4848,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4837,7 +4859,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 14, 2026",
@@ -4848,7 +4870,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 13, 2026",
@@ -4914,7 +4936,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 13, 2026",
@@ -4925,7 +4947,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 13, 2026",
@@ -4936,7 +4958,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 13, 2026",
@@ -4947,7 +4969,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 12, 2026",
@@ -4958,7 +4980,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 12, 2026",
@@ -5013,7 +5035,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 12, 2026",
@@ -5024,7 +5046,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 12, 2026",
@@ -5046,7 +5068,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 12, 2026",
@@ -5057,7 +5079,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 11, 2026",
@@ -5068,7 +5090,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5079,7 +5101,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5090,7 +5112,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5112,7 +5134,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5123,7 +5145,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5134,7 +5156,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5145,7 +5167,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5156,7 +5178,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5167,7 +5189,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5178,7 +5200,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5189,7 +5211,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5200,7 +5222,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5211,7 +5233,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5222,7 +5244,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5233,7 +5255,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5244,7 +5266,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5255,7 +5277,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5277,7 +5299,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5288,7 +5310,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5299,7 +5321,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5332,7 +5354,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 11, 2026",
@@ -5343,7 +5365,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 10, 2026",
@@ -5354,7 +5376,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5365,7 +5387,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5387,7 +5409,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5409,7 +5431,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5420,7 +5442,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5431,7 +5453,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5453,7 +5475,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 10, 2026",
@@ -5486,7 +5508,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 09, 2026",
@@ -5497,7 +5519,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5519,7 +5541,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5541,7 +5563,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5580,7 +5602,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5602,7 +5624,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5613,7 +5635,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 09, 2026",
@@ -5635,7 +5657,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 08, 2026",
@@ -5657,7 +5679,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5712,7 +5734,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5723,7 +5745,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5734,7 +5756,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5745,7 +5767,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5756,7 +5778,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5767,7 +5789,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 08, 2026",
@@ -5778,7 +5800,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 07, 2026",
@@ -5789,7 +5811,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 07, 2026",
@@ -5811,7 +5833,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 07, 2026",
@@ -5844,7 +5866,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 07, 2026",
@@ -5866,7 +5888,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 07, 2026",
@@ -5877,7 +5899,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 07, 2026",
@@ -5899,7 +5921,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 06, 2026",
@@ -5910,7 +5932,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 06, 2026",
@@ -5965,7 +5987,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 06, 2026",
@@ -5976,7 +5998,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 05, 2026",
@@ -5987,7 +6009,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -5998,7 +6020,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6031,7 +6053,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6042,7 +6064,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6053,7 +6075,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6097,7 +6119,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6108,7 +6130,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6119,7 +6141,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6130,7 +6152,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 05, 2026",
@@ -6141,7 +6163,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 04, 2026",
@@ -6152,7 +6174,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6174,7 +6196,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6207,7 +6229,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6218,7 +6240,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6229,7 +6251,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6240,7 +6262,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6262,7 +6284,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6273,7 +6295,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6284,7 +6306,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6295,7 +6317,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6317,7 +6339,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 04, 2026",
@@ -6328,7 +6350,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 03, 2026",
@@ -6350,7 +6372,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6361,7 +6383,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6372,7 +6394,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6394,7 +6416,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6416,7 +6438,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6427,7 +6449,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6438,7 +6460,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6460,7 +6482,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6471,7 +6493,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6482,7 +6504,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6493,7 +6515,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6504,7 +6526,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6515,7 +6537,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6537,7 +6559,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -6548,7 +6570,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 02, 2026",
@@ -6570,7 +6592,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6581,7 +6603,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6603,7 +6625,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6614,7 +6636,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6625,7 +6647,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6636,7 +6658,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6647,7 +6669,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6658,7 +6680,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6680,7 +6702,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6691,7 +6713,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6702,7 +6724,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6713,7 +6735,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6724,7 +6746,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6735,7 +6757,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6746,7 +6768,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6768,7 +6790,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6779,7 +6801,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6790,7 +6812,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6812,7 +6834,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6823,7 +6845,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6834,7 +6856,7 @@ var posts = [
     "tags": [
       "FPL"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 02, 2026",
@@ -6845,7 +6867,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "April 01, 2026",
@@ -6867,7 +6889,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "April 01, 2026",
@@ -6922,7 +6944,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 31, 2026",
@@ -6933,7 +6955,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 31, 2026",
@@ -6977,7 +6999,7 @@ var posts = [
     "tags": [
       "Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 31, 2026",
@@ -6988,7 +7010,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 31, 2026",
@@ -7021,7 +7043,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 30, 2026",
@@ -7065,7 +7087,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 30, 2026",
@@ -7076,7 +7098,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 30, 2026",
@@ -7098,7 +7120,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 30, 2026",
@@ -7109,7 +7131,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 29, 2026",
@@ -7153,7 +7175,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 29, 2026",
@@ -7175,7 +7197,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 28, 2026",
@@ -7197,7 +7219,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 28, 2026",
@@ -7230,7 +7252,7 @@ var posts = [
     "tags": [
       "Tech/Business"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 28, 2026",
@@ -7241,7 +7263,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 28, 2026",
@@ -7263,7 +7285,7 @@ var posts = [
     "tags": [
       "AI/Tech"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "March 28, 2026",
@@ -7274,7 +7296,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 27, 2026",
@@ -7285,7 +7307,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 26, 2026",
@@ -7296,7 +7318,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "March 25, 2026",
@@ -7307,7 +7329,7 @@ var posts = [
     "tags": [
       "FPL Roundups"
     ],
-    "type": "blog"
+    "type": "roundup"
   },
   {
     "date": "February 25, 2026",
@@ -7318,7 +7340,7 @@ var posts = [
     "tags": [
       "AI"
     ],
-    "type": "blog"
+    "type": "youtube"
   },
   {
     "date": "February 18, 2026",

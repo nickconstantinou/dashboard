@@ -111,12 +111,30 @@
   </footer>
 
   <script type="module">
+    // Normalise categories so similar buckets merge into one filter
+    const CAT_MAP = {
+      'AI':                  'AI/Tech',
+      'Tech':                'Tech/Business',
+      'Business/Interview':  'Tech/Business',
+      'Business/Self-help':  'Tech/Business',
+      'Business/Startups':   'Tech/Business',
+      'Product/Business':    'Tech/Business',
+      'Crypto/Web3':         'Finance',
+      'Crypto/Finance':      'Finance',
+      'Health/Science':      'Science/Health',
+      'Comedy/Interview':    'Entertainment',
+      'Comedy/Relationships':'Entertainment',
+      'Mystery/Suspense':    'Entertainment',
+    };
+    function normaliseCategory(cat) {
+      return CAT_MAP[cat] || cat || 'Blog';
+    }
+
     const TYPE_ICON = {
       youtube:  '📺',
       podcast:  '🎙️',
       roundup:  '📊',
       news:     '📰',
-      blog:     '📝',
     };
     function typeIcon(type, category) {
       if (TYPE_ICON[type]) return TYPE_ICON[type];
@@ -124,6 +142,7 @@
       if (cat.includes('fpl')) return '⚽';
       return '📝';
     }
+
     function stripHtml(html) {
       return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     }
@@ -132,48 +151,49 @@
     let currentFilter = 'all';
     let currentPage = 0;
     const PAGE_SIZE = 30;
-    const categoryPriority = ['FPL Roundups', 'FPL', 'AI/Tech', 'Tech/Business', 'Tech', 'AI', 'Blog'];
+    const categoryPriority = ['FPL Roundups', 'FPL', 'AI/Tech', 'Tech/Business', 'Science/Health', 'Finance', 'Entertainment', 'History', 'News'];
 
     function getFiltered() {
       return currentFilter === 'all'
         ? allPosts
-        : allPosts.filter(p => (p.category || 'Blog') === currentFilter);
+        : allPosts.filter(p => normaliseCategory(p.category) === currentFilter);
     }
 
     function updateControls() {
       const filtered = getFiltered();
-      const shown = Math.min(currentPage * PAGE_SIZE, filtered.length);
       document.getElementById('postCount').textContent =
         currentFilter === 'all'
           ? `${allPosts.length} posts`
           : `${filtered.length} of ${allPosts.length} posts`;
       const btn = document.getElementById('loadMore');
-      btn.style.display = shown < filtered.length ? 'inline-block' : 'none';
+      btn.style.display = currentPage * PAGE_SIZE < filtered.length ? 'inline-block' : 'none';
     }
 
     function renderPosts(filter) {
       if (filter !== undefined) {
         currentFilter = filter;
         currentPage = 0;
-        document.getElementById('posts').innerHTML = '';
       }
       const filtered = getFiltered();
       const start = currentPage * PAGE_SIZE;
       const page = filtered.slice(start, start + PAGE_SIZE);
+      const container = document.getElementById('posts');
 
-      if (page.length === 0 && currentPage === 0) {
-        document.getElementById('posts').innerHTML = '<div class="loading">No posts found</div>';
+      if (currentPage === 0) container.innerHTML = '';
+
+      if (page.length === 0) {
+        if (currentPage === 0) container.innerHTML = '<div class="loading">No posts found</div>';
         updateControls();
         return;
       }
 
-      const container = document.getElementById('posts');
       let html = '';
       for (const p of page) {
         const icon = typeIcon(p.type, p.category);
+        const displayCat = normaliseCategory(p.category);
         const excerpt = p.excerpt ? stripHtml(p.excerpt).slice(0, 140) : '';
         html += `<div class="post" onclick="location.href='${p.url}'">
-          <div class="post-meta">${p.date} · ${p.category || 'Blog'}</div>
+          <div class="post-meta">${p.date} · ${displayCat}</div>
           <div class="post-type-badge" title="${p.type || ''}">${icon}</div>
           <div class="post-title">${p.title}</div>
           ${excerpt ? `<div class="post-excerpt">${excerpt}</div>` : ''}
@@ -187,7 +207,7 @@
     function buildFilters() {
       const seen = new Set();
       const categories = allPosts
-        .map(p => p.category || 'Blog')
+        .map(p => normaliseCategory(p.category))
         .filter(cat => { if (seen.has(cat)) return false; seen.add(cat); return true; })
         .sort((a, b) => {
           const ai = categoryPriority.indexOf(a), bi = categoryPriority.indexOf(b);
