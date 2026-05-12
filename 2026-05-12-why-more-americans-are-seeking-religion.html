@@ -16,25 +16,49 @@
     .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
     article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
-    .podcast-hero { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
     .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
     .podcast-hero-text { flex: 1; min-width: 0; }
-    .podcast-channel { font-size: 13px; color: var(--text-muted); font-weight: 500; margin-bottom: 4px; }
-    h1 { font-size: 28px; margin-bottom: 20px; color: var(--primary); line-height: 1.25; }
-    .podcast-hero h1 { margin-bottom: 0; font-size: 22px; }
-    h2 { font-size: 22px; margin-top: 28px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
+    .podcast-channel { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 0; }
+
+    /* Audio player */
     .audio-wrapper { margin-bottom: 28px; background: var(--bg-alt); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
     .audio-wrapper audio { width: 100%; }
-    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
-    .ts-btn:hover { opacity: 0.75; }
+
+    /* Segments / Key Moments */
+    .segments-section { margin-bottom: 28px; }
+    .segments-section h2 { font-size: 14px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+    .segment-card {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: var(--bg-alt); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 16px; margin-bottom: 8px; cursor: pointer;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+
+    /* Article body */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+
     footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -49,8 +73,9 @@
 
       <div class="podcast-hero" id="podcast-hero" data-channel="The Daily">
         <div class="podcast-hero-text">
-          <div class="podcast-channel">The Daily</div>
+          <div class="podcast-channel">The Daily · The New York Times</div>
           <h1>Why More Americans Are Seeking Religion</h1>
+          <p class="subtitle">After decades of steady decline, faith in America is showing unexpected signs of renewal — and the reasons behind it are more complex than anyone predicted.</p>
         </div>
       </div>
 
@@ -60,94 +85,40 @@
         </audio>
       </div>
 
-      <p><p><strong>Key Insights</strong></p>
+      <div class="segments-section" id="segments-section"></div>
 
-<li>The "great de-churching" has paused: Pew Research data shows that for the first time since tracking began, Americans have stopped leaving churches, reversing a decades-long trend where 90% of American adults (early 1990s) identified as Christian and that number dropped to roughly two-thirds, with an estimated 40 million people departing</li>
-<li>Young men are becoming more religious: Gallup data reveals a dramatic surge among men in their 30s who describe religion as "very important"—jumping from 28% in 2023 to 42% in 2025, upending the historical pattern where young women outpaced men in religiosity</li>
-<li>Gen Z shows signs of reversal: Contrary to expectations that each younger generation would be less religious than their predecessors, 18-23 year olds are now slightly more likely to attend religious services monthly compared to those just older than them</li>
-<li>The belief-practice gap is enormous: 92% of Americans believe in God, spirits, souls, or an afterlife, yet only 30% attend a house of worship weekly—suggesting that spiritual hunger exists far beyond institutional religion</li>
-<li>People are substituting spirituality everywhere: Journalist Lauren Jackson observed quasi-religious experiences at climate rallies, Black Lives Matter gatherings, and Taylor Swift concerts—places where people sought meaning, community, and transcendent connection outside traditional faith</li>
+      <h2>Key Insights</h2>
+      <ul>
+        <li>The "great de-churching" has paused: Pew Research data shows that for the first time since tracking began, Americans have stopped leaving churches — reversing a decades-long trend where 90% of adults identified as Christian, a share that dropped to roughly two-thirds with an estimated 40 million departures.</li>
+        <li>Young men are becoming more religious: Gallup data reveals a dramatic surge among men in their 30s who describe religion as "very important" — jumping from 28% in 2023 to 42% in 2025, upending the historical pattern where young women outpaced men in religiosity.</li>
+        <li>Gen Z shows signs of reversal: 18–23 year olds are now slightly more likely to attend religious services monthly than the cohort just older than them — the first hint the assumption of generational decline may no longer hold.</li>
+        <li>The belief-practice gap is enormous: 92% of Americans believe in God, spirits, souls, or an afterlife, yet only 30% attend a house of worship weekly — suggesting spiritual hunger far beyond what institutions currently serve.</li>
+        <li>Transcendence is appearing everywhere: Journalist Lauren Jackson observed quasi-religious experiences at climate rallies, Black Lives Matter gatherings, and Taylor Swift concerts — places where people seek meaning, community, and connection outside traditional faith.</li>
+      </ul>
 
-<p>---</p>
+      <h2>The Numbers Behind the Shift</h2>
+      <p>The statistical picture, Jackson explains, is more nuanced than headlines suggesting "a religious revival" might imply. The great de-churching has not reversed into a sudden surge of church attendance. Rather, something more subtle but equally significant has occurred: secularization has paused.</p>
+      <p>In the early 1990s, 90% of American adults identified as Christian. That number dropped dramatically — by some estimates, 40 million people left American churches entirely. Demographers forecast this trend would continue indefinitely. It hasn't.</p>
+      <p>A Pew report shows that 18–23 year olds are, slightly but meaningfully, more likely to attend religious services at least once a month than the cohort just older than them. And a new Gallup survey documents a sharp rise in the share of men in their 30s who say religion is "very important" — jumping from 28% in 2023 to 42% in 2025.</p>
 
-<p>For decades, the narrative seemed settled. American religion was in decline. Church pews emptied. Sundays became just another weekend. Young people especially seemed to be leaving faith behind, trading organized religion for secularism or spiritual individualism. Sociologists had a name for it: the "great de-churching," the largest and fastest shift in American religiosity on record, an exodus they predicted would only accelerate.</p>
+      <h2>A Reporter's Personal Journey</h2>
+      <p>Lauren Jackson was raised in Little Rock, Arkansas, as a devout Mormon. She attended a 6 AM Bible study every day in high school and expected to marry within the church. A scholarship to a secular university changed everything — she fell in love with someone outside her faith, encountered Isaiah Berlin's ideas on pluralism, and left the church at 25.</p>
+      <p>"I stopped going to church, but I didn't stop searching for answers to the big life questions that plague us all," she says. "And that made me like most Americans."</p>
 
-<p>But something unexpected is happening now.</p>
+      <h2>The Search for Meaning Never Stops</h2>
+      <p>According to Pew, 92% of Americans say they believe in God, spirits, souls, or an afterlife — but only 30% attend a house of worship weekly. This staggering gap reveals that spiritual hunger is widespread, but institutional religion satisfies only a fraction of it.</p>
+      <p>Jackson observed quasi-religious experiences in unexpected places: reverence at a climate rally with Greta Thunberg, moral intensity at Black Lives Matter demonstrations, and what she calls "an extraordinary ecstatic form of communal gathering rarely found outside of religious spaces" at Taylor Swift's Eras Tour.</p>
 
-<p>Across the country—and particularly here in South Central Pennsylvania—church leaders are reporting a noticeable shift. Gen Z is returning to faith, but often in ways that defy easy categorization. Young New Yorkers have made Sunday Mass a "hot spot." Converts are joining churches in the largest numbers seen in recent memory. For the first time in decades, the data suggests that faith in America is not just holding steady—it's showing signs of new life.</p>
+      <h2>Why Now?</h2>
+      <p>The data shows something is happening. The explanations remain contested. "Plenty of people have declared this a revival," Jackson notes. "That's a strong word, and plenty of other people have said that is very premature and potentially erroneous."</p>
+      <p>What's driving young men back? What's bringing Gen Z through church doors? Is this a reaction to pandemic-era isolation? A response to political polarisation? The story is still being written.</p>
 
-<p>This is the story that New York Times religion reporter Lauren Jackson has been tracking, and it's one that challenges the assumptions that have dominated cultural conversations about spirituality for a generation.</p>
-
-<h2>The Numbers Behind the Shift</h2>
-
-<p>The statistical picture, Jackson explains, is more nuanced than headlines suggesting "a religious revival" might imply. The great de-churching has not reversed into a sudden surge of church attendance. Rather, something more subtle but equally significant has occurred: secularization has paused.</p>
-
-<p>Pew Research Center has been gathering data on American religion for years, and what they found is that the steady leak from churches that characterized the 1990s through the 2020s has, at least temporarily, stopped. In the early 1990s, 90% of American adults identified as Christian. That number dropped dramatically over the following decades—by some estimates, 40 million people left American churches entirely. Demographers and sociologists had forecast this trend would continue indefinitely.</p>
-
-<p>It hasn't.</p>
-
-<p>More recent data has only deepened the picture. A Pew report released in recent weeks shows that if you examine the youngest group of Americans—those aged 18 to 23—there are signs that they are, slightly but meaningfully, more likely to attend religious services at least once a month than the cohort just older than them. This marks the first hint that the assumption each new generation would be less religious than the last might no longer hold.</p>
-
-<p>Even more striking is a new Gallup survey documenting a sharp rise in the share of men in their 30s who say religion is "very important" to them. That number jumped from 28% in 2023 to 42% in 2025—a 14-percentage-point increase in just two years. Historically, young women have been more religious than young men; that dynamic appears to be shifting.</p>
-
-<p>As of 2025, the non-religious share of the American population declined yet again. The number of Americans who identify as atheists or agnostics has dropped back to levels not seen since 2014—nearly fifteen years ago.</p>
-
-<p>The trend appears across the political spectrum, though it is more pronounced on the right, particularly among young men. And it's not confined to Christianity. All major religions in America appear to be experiencing similar patterns.</p>
-
-<h2>A Reporter's Personal Journey Into Faith and Loss</h2>
-
-<p>What makes Jackson's reporting on this topic distinctive is her willingness to bring her own story into the conversation. She describes herself as someone whose life "mirrors the shifts" she has observed in American attitudes toward religion and religious practice over the past three decades.</p>
-
-<p>Jackson was raised in Little Rock, Arkansas, in what she describes as "a very, very conservative and very religious place." She was a devout member of the Church of Jesus Christ of Latter-Day Saints—a Mormon—and her family was deeply committed to their faith. As a young girl, she writes and sends articles to church magazines because her dream job was to work as a writer for those publications. In high school, she attended a 6 AM Bible study every day before school, driven by the requirement that she graduate from seminary to attend Brigham Young University.</p>
-
-<p>"I was expected to attend, and I expected myself for my whole life to attend, find someone to marry, have children, and raise them in the church," Jackson recalls.</p>
-
-<p>The rupture came when a guidance counselor encouraged her to apply for a scholarship to a secular university. She did, was accepted, and found herself unexpectedly moved by the intellectual environment and the desire to learn in a different space. Attending meant leaving behind the tight community she had known—and beginning to question the faith that had shaped her entire worldview.</p>
-
-<p>"The first week I was there, I fell in love with someone who was not a member of my faith," Jackson says. "It's a very common rupture for a lot of people who then have to question what it is they believe in and how they can negotiate the boundaries of that."</p>
-
-<p>In a political science class, she encountered the philosopher Isaiah Berlin's ideas on pluralism—the concept that many truths and realities are equally valid and worthy of consideration. "That really cracked my world open," she says, "that idea, that concept that there was not one true church, there could be many possible truths."</p>
-
-<p>At 25, Jackson formally left the church.</p>
-
-<p>The personal cost was significant. She describes difficult conversations with her parents, who deeply believed that Mormonism was true and represented the best path forward for their family. "I was desperately wanting my parents to not only understand, but also to approve of the life choices that I've made in leaving my faith," she says. But they were unwilling to offer that validation, because their own commitment to their worldview was absolute. "They deeply believe in the faith that they believe in and that they were raised in and that they live every day."</p>
-
-<h2>The Search for Meaning Never Stops</h2>
-
-<p>Despite formally leaving the church, Jackson never stopped searching for answers to existential questions. "I stopped going to church, but I didn't stop searching for answers to the big life questions that plague us all," she says. "And that made me like most Americans."</p>
-
-<p>That point bears emphasis. The data bears it out. According to Pew, 92% of Americans say they believe in God, spirits, souls, or an afterlife—but only 30% attend a house of worship weekly. This staggering gap reveals that spiritual hunger is widespread, but institutional religion satisfies only a fraction of it.</p>
-
-<h2>Why Now? The Questions That Remain</h2>
-
-<p>This is the central mystery Jackson's reporting attempts to unravel. Why, after decades of decline, are Americans reconsidering religion or houses of worship as places to explore their spiritual needs?</p>
-
-<p>The data shows something is happening. The explanations remain contested. "Plenty of people have declared this a revival," Jackson notes. "That's a strong word, and plenty of other people have said that is very premature and potentially erroneous."</p>
-
-<p>What seems clear is that the story of faith and belief in America is at an inflection point. The old narrative—that religion would inevitably decline as education and prosperity rose—has stalled. The new story is still being written.</p>
-
-<h2>Detailed Takeaways</h2>
-
-<p><strong>1. Secularization Is Not Inevitable—It Can Stall and Even Reverse</strong></p>
-
-<p>The assumption that modernization equals religious decline has dominated social scientific thinking for decades. The American data now challenges that assumption. The great de-churching—the largest and fastest shift in American religiosity on record—has paused. This matters because it suggests that theories about inevitable secularization may need revision, and that the human need for religious community and meaning may be more durable than previously thought.</p>
-
-<p><strong>2. Young Men Are the Unexpected New Face of American Religiosity</strong></p>
-
-<p>The 14-percentage-point jump in young men (30s) calling religion "very important" is not a minor fluctuation—it represents a potential reversal of a long-established gender gap in religious participation. This shift has political ramifications, given the association between religious identity and voting patterns.</p>
-
-<p><strong>3. The Gap Between Believing and Belonging Is Enormous—and Growing</strong></p>
-
-<p>That 92% of Americans believe in something spiritual but only 30% attend weekly services regularly reveals a profound disconnect between private faith and public practice. This gap represents both a challenge and an opportunity for religious institutions.</p>
-
-<p><strong>4. Experiences of Transcendence Are Present Everywhere—Not Just in Churches</strong></p>
-
-<p>Jackson's observation that quasi-religious experiences occur at political rallies, concerts, and social movements suggests that the human yearning for meaning, community, and transcendence does not require theological content.</p>
-
-<p><strong>5. Personal Religious Journeys Often Involve Profound Cost and Growth</strong></p>
-
-<p>Jackson's willingness to share her story illuminates a truth often obscured in public discourse: leaving a faith community is frequently painful, not liberating in the way secular narratives often imply.</p></p>
-
+      <h2>Detailed Takeaways</h2>
+      <p><strong>Secularization Is Not Inevitable.</strong> The great de-churching has paused. The human need for religious community and meaning may be more durable than previously thought.</p>
+      <p><strong>Young Men Are the Unexpected New Face of American Religiosity.</strong> The 14-point jump among men in their 30s is not a minor fluctuation — it may represent a reversal of a long-established gender gap with significant political ramifications.</p>
+      <p><strong>The Gap Between Believing and Belonging Is Enormous.</strong> 92% believe, 30% attend weekly. This disconnect represents both a challenge and an opportunity for religious institutions.</p>
+      <p><strong>Transcendence Is Present Everywhere.</strong> The human yearning for meaning does not require theological content — people find it at concerts, rallies, and online communities just as readily as in pews.</p>
+      <p><strong>Personal Religious Journeys Involve Profound Cost.</strong> Leaving a faith community is frequently painful, not liberating in the way secular narratives imply. The complexity cuts both ways.</p>
     </article>
   </div>
   <footer>
@@ -156,38 +127,67 @@
     </div>
   </footer>
 
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_title": "Producer's Personal Journey Leaving Mormonism",
+    "summary": "Producer Lauren Jackson shares her deeply personal story of growing up Mormon, eventually leaving the church at 25 after falling in love with someone outside her faith. She describes the conflict with her parents and how she found meaning through alternative communities like workout classes and later climate activism, while still grappling with an ingrained worldview.",
+    "start_seconds": 1000,
+    "end_seconds": 1200,
+    "timing_quality": "estimated"
+  }
+]
+  </script>
+
   <script>
-    // Timestamp seeking: find <strong>[MM:SS–MM:SS]</strong> and make them click-to-seek buttons
     const player = document.getElementById('podcast-player');
-    if (player) {
-      document.querySelectorAll('strong, b').forEach(el => {
-        const m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
-        if (!m) return;
-        const parts = m[1].split(':').map(Number);
-        const secs = parts.length === 3
-          ? parts[0] * 3600 + parts[1] * 60 + parts[2]
-          : parts[0] * 60 + parts[1];
-        const btn = document.createElement('button');
-        btn.className = 'ts-btn';
-        btn.textContent = el.textContent;
-        btn.title = 'Jump to ' + m[1];
-        btn.onclick = () => { player.currentTime = secs; player.play(); };
-        el.replaceWith(btn);
+    const section = document.getElementById('segments-section');
+
+    function fmtTime(s) {
+      const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + String(sec).padStart(2, '0');
+    }
+
+    // Render segment cards
+    const segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      const label = document.createElement('h2');
+      label.textContent = 'Key Moments';
+      section.appendChild(label);
+
+      segments.forEach(seg => {
+        const card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = `
+          <button class="segment-play" aria-label="Play from ${fmtTime(seg.start_seconds)}">
+            <svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg>
+          </button>
+          <div class="segment-body">
+            <div class="segment-title">${seg.segment_title}</div>
+            <div class="segment-summary">${seg.summary}</div>
+            <div class="segment-time">▶ ${fmtTime(seg.start_seconds)}${seg.timing_quality === 'estimated' ? ' (approx)' : ''}</div>
+          </div>`;
+        card.onclick = () => {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(c => c.classList.remove('playing'));
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
       });
     }
 
-    // Podcast artwork: fetch from iTunes Search API using channel name
+    // Podcast artwork from iTunes
     const hero = document.getElementById('podcast-hero');
     if (hero) {
-      const channel = hero.dataset.channel;
-      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(channel) + '&entity=podcast&limit=3')
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
         .then(r => r.json())
         .then(data => {
           const art = data.results && data.results[0] && data.results[0].artworkUrl600;
           if (!art) return;
           const img = document.createElement('img');
           img.src = art;
-          img.alt = channel + ' artwork';
+          img.alt = hero.dataset.channel + ' artwork';
           hero.insertBefore(img, hero.firstChild);
         })
         .catch(() => {});
