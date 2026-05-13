@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Strange Solutions (PODCAST EXCLUSIVE EPISODE) | Nick's Blog</title>
+  <meta name="description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:title" content="Strange Solutions (PODCAST EXCLUSIVE EPISODE)">
+  <meta property="og:description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,14 +70,23 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-13 • Mystery/Suspense</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/dloY8UYJ" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-13 · Mystery/Suspense</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="MrBallen Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">MrBallen Podcast</div>
+            <h1>Strange Solutions (PODCAST EXCLUSIVE EPISODE)</h1>
+            <p class="subtitle">There's a particular kind of tragedy that unfolds not from malice or obvious danger, but from the collision between good intentions and dangerous ignorance.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/1324241f-0ee5-47f5-b90c-73934701cf76/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=1324241f-0ee5-47f5-b90c-73934701cf76&feed=dloY8UYJ" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        <p><div class="key-insights">
 <h2>Key Insights</h2>
 <ul>
 <li><strong>[22:30–23:16]</strong> <em>Harry's Hidden Identity Revealed</em> — Anthony attempts to mug Harry using his usual fake gun technique, but does not realize Harry is blind, which Anthony knew, making him think it would be easy. However, Harry is also a karate master and master wrestler with extensive martial arts training that Anthony completely underestimated.</li>
@@ -64,8 +105,6 @@
 <li>The Sarasota County School Board paid $600,000 total to the three victims' families, while Kenny received only one year of probation and has since retired from teaching.</li>
 <li>A Facebook post by a classmate—shared after three deaths had occurred—was what finally connected the pattern that authorities had not identified or investigated, raising questions about oversight and communication failures in the school's response.</li>
 
-<p>---</p>
-
 <h2>Introduction</h2>
 
 <p>There's a particular kind of tragedy that unfolds not from malice or obvious danger, but from the collision between good intentions and dangerous ignorance. The Strange Solutions podcast episode "Locked In" explores two such stories, both centered on people who believed they had found solutions to their problems—only to discover that those solutions would destroy everything they were trying to protect.</p>
@@ -75,8 +114,6 @@
 <p>Yet on March 15, 2011, Marcus Freeman was dead, killed when the pickup truck he was driving veered off a highway at nearly 100 miles per hour and crashed into a tree. His girlfriend Carly, who survived the wreck, remembered Marcus had gone into a strange trance-like state just before the crash—his body rigid, his eyes rolling back, his hands turning white from gripping the steering wheel with impossible force. But when the autopsy came back, it showed no drugs, no seizure, no stroke, no aneurysm. The police ruled it an accident and moved on.</p>
 
 <p>They were wrong not to look deeper.</p>
-
-<p>---</p>
 
 <h2>The Rise of Northport High and Principal Kenny</h2>
 
@@ -92,8 +129,6 @@
 
 <p>What no one outside Kenny's office knew was the method behind his success.</p>
 
-<p>---</p>
-
 <h2>Marcus Freeman: A Student Who Knew How to Push Through</h2>
 
 <p>Marcus Freeman was, in many ways, the model student that Northport's new culture was designed to produce. He was the quarterback of the varsity football team at just sixteen years old—a role that demanded not only physical skill but emotional resilience, the ability to lead under pressure, and the stamina to perform even when exhausted or hurting. He had recognized that nerves were part of his life as an athlete, and rather than letting anxiety undermine his performance, he worked with a school counselor to develop strategies for managing those feelings. He pushed himself physically with training regimens so intense they bordered on self-destruction.</p>
@@ -105,8 +140,6 @@
 <p>It was a skill that served him well on the football field, where he was often exhausted and beat up but needed to keep leading his team. He could push through pain by simply refusing to let his mind focus on it.</p>
 
 <p>But on this particular drive, something went wrong.</p>
-
-<p>---</p>
 
 <h2>The Moment Everything Changed</h2>
 
@@ -130,8 +163,6 @@
 
 <p>Marcus was dead.</p>
 
-<p>---</p>
-
 <h2>The Search for Answers That Never Came</h2>
 
 <p>In the weeks following the crash, Carly struggled to understand what had happened. The media coverage was simple and unsatisfying: Marcus Freeman had lost control of his vehicle. An accident. Case closed.</p>
@@ -152,8 +183,6 @@
 
 <p>Another Northport student had died.</p>
 
-<p>---</p>
-
 <h2>A School in Crisis</h2>
 
 <p>The second death was different in nature—self-inflicted rather than a vehicle accident—but no less devastating to a community already reeling from loss. Two students dead in less than two months at a small, tight-knit school was already difficult to comprehend. This was not the kind of place where young people died. This was not the kind of place where tragedy piled upon tragedy.</p>
@@ -167,8 +196,6 @@
 <p>The authorities offered no explanations beyond sympathy and standard crisis protocols. The deaths were investigated individually, treated as separate incidents rather than symptoms of a common cause. There was no apparent connection between the suicides and the earlier accident, no obvious thread that would lead investigators to look for a single source of the problem.</p>
 
 <p>Carly found that thread herself.</p>
-
-<p>---</p>
 
 <h2>The Discovery: Principal Kenny's Secret</h2>
 
@@ -188,8 +215,6 @@
 
 <p>And there had been warning signs.</p>
 
-<p>---</p>
-
 <h2>The Evidence of Harm</h2>
 
 <p>After the third death, after Carly and others began to look at Northport's recent history through the lens of what they now knew about Kenny's sessions, a pattern emerged. Parents had noticed concerning changes in their children after they began meeting with the principal. Some students developed strange personality shifts. Others sat in blank stares for minutes at a time after their sessions. Some became disoriented—unable to account for stretches of missing time, unable to remember what had happened during the periods when Kenny had been working with them. A few began engaging in behaviors completely uncharacteristic of their personalities. And some, horrifyingly, had begun expressing thoughts of self-harm.</p>
@@ -200,18 +225,64 @@
 
 <p>The three students who died by suicide—two by their own hands and one in a vehicle he couldn't control—had all been under Kenny's influence. The common thread connecting them was not just that they were students at Northport High; it was that they had all been repeatedly exposed to a technique administered by someone with no business using it, no oversight, and no understanding of the risks he was creating.</p>
 
-<p>---</p>
-
 <h2>The Aftermath and Questions That Remain</h2>
 
 <p>When the truth about Kenny's hypnosis sessions came to</p></p>
-      
-    </article>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Moments';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>
