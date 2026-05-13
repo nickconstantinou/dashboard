@@ -79,7 +79,7 @@
           <p class="subtitle">In an era when social media increasingly feels like a source of division rather than progress, a counterintuitive insight emerges from the open-source world: the controversies and …</p>
         </div>
         <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/1vJyN6cQuF8" frameborder="0" allowfullscreen></iframe>
+          <iframe id="youtube-player" src="https://www.youtube.com/embed/1vJyN6cQuF8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <li><strong>VLC for Android serves ~100 million users</strong>, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year—until a public "spicy tweet" threatened to stop distribution entirely, forcing Google Android engineers to finally engage directly.</li>
 <li><strong>VLC ranks among the top 10 most-used software on Windows</strong>, yet VideoLAN is excluded from Microsoft's ISV contact programs—unlike Spotify or Adobe—leaving the project without enterprise support channels and dependent on social media pressure tactics.</li>
@@ -184,8 +184,12 @@
       <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script>
-    var player = document.getElementById('podcast-player');
+    var ytPlayer = null;
+    function onYouTubeIframeAPIReady() {
+      ytPlayer = new YT.Player('youtube-player');
+    }
     document.querySelectorAll('strong, b').forEach(function(el) {
       var m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
       if (!m) return;
@@ -195,7 +199,12 @@
       btn.className = 'ts-btn';
       btn.textContent = el.textContent;
       btn.title = 'Jump to ' + m[1];
-      btn.onclick = function() { if (player) { player.currentTime = secs; player.play(); } };
+      btn.onclick = function() {
+        if (ytPlayer && ytPlayer.seekTo) {
+          ytPlayer.seekTo(secs, true);
+          ytPlayer.playVideo();
+        }
+      };
       el.replaceWith(btn);
     });
   </script>

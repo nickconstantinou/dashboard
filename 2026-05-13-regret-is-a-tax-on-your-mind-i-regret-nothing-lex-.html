@@ -79,7 +79,7 @@
           <p class="subtitle">This exchange emerges from a Lex Fridman Podcast conversation with contributors to open-source projects, particularly those associated with FFmpeg and VLC media players.</p>
         </div>
         <div class="video-wrapper">
-          <iframe src="https://www.youtube.com/embed/IWz3ZagX1_w" frameborder="0" allowfullscreen></iframe>
+          <iframe id="youtube-player" src="https://www.youtube.com/embed/IWz3ZagX1_w?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
         </div>
         <h2>Key Insights</h2>
 
@@ -138,8 +138,12 @@
       <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script src="https://www.youtube.com/iframe_api"></script>
   <script>
-    var player = document.getElementById('podcast-player');
+    var ytPlayer = null;
+    function onYouTubeIframeAPIReady() {
+      ytPlayer = new YT.Player('youtube-player');
+    }
     document.querySelectorAll('strong, b').forEach(function(el) {
       var m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
       if (!m) return;
@@ -149,7 +153,12 @@
       btn.className = 'ts-btn';
       btn.textContent = el.textContent;
       btn.title = 'Jump to ' + m[1];
-      btn.onclick = function() { if (player) { player.currentTime = secs; player.play(); } };
+      btn.onclick = function() {
+        if (ytPlayer && ytPlayer.seekTo) {
+          ytPlayer.seekTo(secs, true);
+          ytPlayer.playVideo();
+        }
+      };
       el.replaceWith(btn);
     });
   </script>
