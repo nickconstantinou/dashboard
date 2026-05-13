@@ -7,27 +7,6 @@ channel: Perform with Dr. Andy Galpin
 video_url: https://traffic.megaphone.fm/SCIM5068582704.mp3
 ---
 
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[74:56–78:20]</strong> <em>Caballo Blanco Case and Origins of Athlete Heart Concept</em> — The podcast opens with the story of Caballo Blanco, a runner found lost in a canyon, leading into the 1899 coining of the athlete's heart concept by a Swedish physician. Paul Dudley White's research later established that lower heart rate (bradycardia) in athletes was not pathological but a normal adaptation, resolving community confusion about whether elite runners were at risk.</li>
-<li><strong>[88:00–89:56]</strong> <em>Atrial Fibrillation and Coronary Calcification in Endurance Athletes</em> — Exercise-induced atrial fibrillation occurs from increased vagal tone and cardiac plasticity causing fluttering. The podcast addresses controversial research on coronary artery calcification in high-volume exercisers—some evidence suggests this may be benign adaptation, while others recommend statins as precaution. The problems appear most prevalent combining high intensity with high volume over long periods.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">athlete heart</span> <span class="signal-tag">bradycardia</span> <span class="signal-tag">running history</span> <span class="signal-tag">cardiac adaptation</span> <span class="signal-tag">atrial fibrillation</span> <span class="signal-tag">coronary calcification</span> <span class="signal-tag">atherosclerosis</span> <span class="signal-tag">vagal tone</span> <span class="signal-tag">fibrosis risk</span> <span class="signal-tag">EICR</span></p>
-</div>
-
-<p># Intense Exercise & Potential Heart Damage: Understanding the Athlete's Heart Paradox
-
-## Key Insights
-
-- **Ultra-endurance comes at a cost**: Micah True (Caballo Blanco) ran 160-170 miles per week for nearly two decades with no access to modern healthcare, nutrition, or technology—and died at age 58 during a routine 12-mile jog, likely from left ventricular cardiac myopathy.
-- **The left ventricle is 80-90% of the equation**: Because it must pump blood through the entire circulatory system against gravity in a single contraction, this chamber develops the most significant adaptations—and is where most pathology occurs.
-- **Structure alone cannot distinguish health from disease**: The identical enlargement in an athlete versus someone with chronic high blood pressure cannot be differentiated by looking at morphology alone; the *cause* of the adaptation is what matters.
-- **History reveals the confusion**: Clarence DeMar (7-8-time Boston Marathon winner) was begged by physicians not to race due to an irregular heartbeat—yet lived to age 70 and autopsy revealed exceptionally large coronary arteries and heart size, confirming adaptation without pathology.
-- **Personal stakes are real**: Dr. Galpin shares that his friend Mike Osuna recently lost his 15-year-old son Lucas to a cardiac event during physical activity, illustrating that this is not merely academic but a preventable tragedy.
-
----
-
 ## Introduction
 
 In the world of human performance, few paradoxes are more troubling—or more misunderstood—than the phenomenon of elite athletes dying from cardiovascular disease. Dr. Andy Galpin, professor and executive director of the Human Performance Center at Parker University, tackles this uncomfortable topic head-on in a presentation that blends physiological science, historical病例, and deeply personal reflection.
