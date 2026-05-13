@@ -33,6 +33,17 @@
     "type": "podcast"
   },
   {
+    "date": "May 13, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-13",
+    "url": "2026-05-13-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-13 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ],
+    "type": "roundup"
+  },
+  {
     "date": "May 12, 2026",
     "title": "7 tiny AI agent ideas I built with Genspark Claw",
     "url": "2026-05-12-7-tiny-ai-agent-ideas-i-built-with-genspark-claw.html",
