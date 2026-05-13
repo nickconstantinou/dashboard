@@ -1,5 +1,16 @@
 var posts = [
   {
+    "date": "May 13, 2026",
+    "title": "Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast",
+    "url": "2026-05-13-regret-is-a-tax-on-your-mind-i-regret-nothing-lex-.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **\"Regrets are attacks on your mind\"** \u2014 The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change - **\"Learn fr",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
     "date": "May 12, 2026",
     "title": "7 tiny AI agent ideas I built with Genspark Claw",
     "url": "2026-05-12-7-tiny-ai-agent-ideas-i-built-with-genspark-claw.html",
