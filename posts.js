@@ -1,6 +1,17 @@
 var posts = [
   {
     "date": "May 13, 2026",
+    "title": "AI Populism: Warning Shots Before 2028 | Jasmine Sun",
+    "url": "2026-05-13-ai-populism-warning-shots-before-2028-jasmine-sun.html",
+    "category": "Crypto/Web3",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[30:50\u201333:40]</strong> <em>AI Impact on Jobs and the Labor Market</em> \u2014 The discussion contrasts AI's unprecedented adoption with cry",
+    "tags": [
+      "Crypto/Web3"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 37?",
     "url": "2026-05-13-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
     "category": "FPL",
@@ -23,12 +34,56 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
+    "title": "How FFmpeg revolutionized the Internet: The origin story of FFmpeg | Lex Fridman Podcast",
+    "url": "2026-05-13-how-ffmpeg-revolutionized-the-internet-the-origin-.html",
+    "category": "AI/Tech",
+    "excerpt": "# How FFmpeg Revolutionized the Internet: The Origin Story **Key Insights:** - **Single-library breakthrough**: FFmpeg solved 2000s \"codec hell\" by consolidating support for DivX, Xvid, Windows Media,",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "How to manufacture a billionaire childhood",
+    "url": "2026-05-13-how-to-manufacture-a-billionaire-childhood.html",
+    "category": "Tech/Business",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[9:10\u201310:50]</strong> <em>TikTok Shop and Creator-Driven Ecommerce</em> \u2014 A deep dive into the TikTok ecommerce revolution where brand",
+    "tags": [
+      "Tech/Business"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "Intense Exercise & Potential Heart Damage (aka Athlete's Heart)",
     "url": "2026-05-13-intense-exercise-potential-heart-damage-aka-athlet.html",
     "category": "Health/Science",
     "excerpt": "## Introduction For decades, conventional wisdom held that more exercise was unambiguously better \u2014 that pushing harder, running further, and training longer would always translate to a longer, health",
     "tags": [
       "Health/Science"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Learn to build AI SAAS with strapi powered reliable backend",
+    "url": "2026-05-13-learn-to-build-ai-saas-with-strapi-powered-reliabl.html",
+    "category": "Tech",
+    "excerpt": "# Learn to Build AI SaaS with Strapi: A Comprehensive Guide to Creating Reliable AI-Powered Applications ## Key Insights - **Four core AI capabilities drive all applications**: Chat (text generation),",
+    "tags": [
+      "Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Memory Could Be the Last Great Investment of this AI Cycle",
+    "url": "2026-05-13-memory-could-be-the-last-great-investment-of-this-.html",
+    "category": "AI/Tech",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[12:42\u201314:12]</strong> <em>DRAM ETF Memory Investment Vehicle</em> \u2014 The DRAM ETF launched six weeks ago as the fastest growing ETF wi",
+    "tags": [
+      "AI/Tech"
     ],
     "type": "podcast"
   },
@@ -56,12 +111,34 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
+    "title": "The Smartest Move You\u2019re Not Making on Your Mortgage",
+    "url": "2026-05-13-the-smartest-move-youre-not-making-on-your-mortgag.html",
+    "category": "Finance",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[21:54\u201324:33]</strong> <em>UK Property Market Three-Tier Analysis</em> \u2014 Analyzes the property market in three segments: super prime L",
+    "tags": [
+      "Finance"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "Two Superpowers Across the Table",
     "url": "2026-05-13-two-superpowers-across-the-table.html",
     "category": "News",
     "excerpt": "## Introduction President Trump's return to the White House has brought renewed and intensified scrutiny to the United States' relationship with China, and for the first time in nearly a decade, he wi",
     "tags": [
       "News"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Will AI Populism Decide the 2028 Election? | Jasmine Sun",
+    "url": "2026-05-13-will-ai-populism-decide-the-2028-election-jasmine-.html",
+    "category": "Crypto/Web3",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[3:20\u20136:20]</strong> <em>Online Radicalization and Political Violence</em> \u2014 The discussion examines recent attacks on Sam Altman and ",
+    "tags": [
+      "Crypto/Web3"
     ],
     "type": "podcast"
   },
