@@ -1,0 +1,93 @@
+---
+title: This guy built a $1B+ brand in 3 years. The product? You'd never guess
+date: '2026-04-24'
+type: podcast
+category: Tech/Business
+video_id: HS8435411252.mp3
+channel: My First Million
+video_url: https://pdst.fm/e/traffic.megaphone.fm/HS8435411252.mp3
+---
+
+<p># FPL Harry's Gameweek 34 Free Hit Strategy: Complete Guide to Navigating a Blank Gameweek with Limited Budget
+
+**Title**: From Bench Boost Triumph to Free Hit Rush: How FPL Harry Plans Gameweek 34 with Just £0.1M in the Bank
+
+---
+
+## Introduction
+
+Fantasy Premier League managers are no strangers to the high-stakes chess match that is mid-season chip strategy. For FPL Harry, the 2024-25 season has been a masterclass in calculated risk-taking, and Gameweek 33 proved just how powerful proper planning can be. After wild-carding in Gameweek 32 to optimize for the bench boost chip, Harry executed his plan to perfection—sort of. With the dust settling on a 132-point haul that included a 26-point bench contribution from players like Van Dijk (who recorded an assist and clean sheet for 12 points), Bruno Fernandes (6 points), and Bournemouth defenders, Harry watched his rank climb from 40,000 to just outside the top 20,000, a green arrow that felt earned through meticulous preparation.
+
+Now, as the season enters its final stretch with just five weeks remaining, Harry faces his next critical decision: playing the free hit chip in Gameweek 34, which he describes as "the blank gameweek" where he'll have only one available player in his squad after transfers. The free hit allows him to completely overhaul his team for just one week, presenting both an opportunity and a puzzle. With only £0.1 million in the bank and multiple strategic considerations competing for attention, this is where FPL mastery truly separates itself from casual management. The stakes couldn't be higher as Harry attempts to convert this chip play into enough points to push his rank even higher with the finish line in sight.
+
+---
+
+## Gameweek 33 Recap: The Bench Boost That Almost Was
+
+Harry opens the video with a candid assessment of his Gameweek 33 performance, acknowledging that while 132 points was a strong result—18 points above his safety score—the week could have been even better. The critical variable that didn't go according to plan was João Pedro, the Bournemouth midfielder who failed to play any minutes in his game against Leeds. This unfortunate development meant that Harry's carefully constructed bench, which was designed to maximize the bench boost chip, would have featured Harrison Hinchliffe coming off the bench for João Pedro, theoretically dropping the total bench boost contribution from 36 points down to something less optimal.
+
+"The bench boost once Hinchliffe comes off my bench for João Pedro—that still leaves 26 points on the bench," Harry explains, noting that despite the disappointment, 26 points from bench players remains an exceptional outcome. The decision to target Bournemouth assets proved prescient in other ways: while James Hill scored an own goal in their match against Leeds, Sesi did manage to record an attacking return with an assist, with Harry noting the player was "very unlucky not to get another assist in that game which would have not only got him the three points but also maximum bonus points." The lingering frustration centers on Pascal Gross, a Brighton midfielder Harry believes he should have selected over Hinchliffe despite the latter being the player who "boosted my rank compared to the average" in Gameweek 33.
+
+The wildcard strategy in Gameweek 32, which involved deliberately dropping some points to position for the bench boost, appears validated in hindsight. Harry captained Erling Haaland for both of Manchester City's double-header matches, watching the Norwegian striker score a goal in each game—including a penalty in the first match—earning four captain points. The 132-point total, while not matching some managers who deployed free hits during the double, represents what Harry describes as a "crazy score for the chip" when everything aligned properly. With his rank now sitting around 20,400 after climbing from 40,000, Harry faces the remaining five weeks with momentum but also with the realization that one chip remains—and the free hit demands as much strategic precision as the bench boost did.
+
+---
+
+## Fixture Analysis: What the Data Says About Gameweek 34
+
+To make informed decisions for his free hit draft, Harry relies heavily on data from Rob TfPL, a respected FPL analyst whose Twitter projections provide valuable guidance for managers looking beyond gut instinct. The first metric Harry examines is goals scored projections, which reveal a clear hierarchy heading into Gameweek 34. Liverpool sit at the top with 2.17 projected goals in a home fixture against Crystal Palace, a matchup that seems straightforward on the surface but warrants closer examination.
+
+"their focus is definitely not on the Premier League," Harry notes about Crystal Palace, referencing their Thursday Europa Conference League semi-final fixture. However, he immediately qualifies this observation by acknowledging that "this does have quite a good turnaround for Crystal Palace," with the south London club having "only conceded one goal in total over the past three matches." The complication arises from Palace's Monday night fixture before this weekend's match, followed by that crucial Thursday European fixture, which could mean a rotated lineup or a fatigued full-strength side. Either way, Liverpool's home form against a potentially distracted opponent makes them an attractive attacking proposition.
+
+Arsenal's fixture against Newcastle presents a more complex picture. "Newcastle have been pretty all over the place over the past couple of weeks," Harry observes, but he notes that historically Eddie Howe "has set up pretty well to counter the way that Arsenal play." The dilemma for free hit managers is identifying which Arsenal attacker will deliver: whether it's Martin Ødegaard, Gabriel Martinelli, Bukayo Saka (who remains a fitness question mark), or Leandro Trossard. Harry finds himself asking, "Picking a good Arsenal attacker, whether it's Joarez, Ezard, Havtz, Saka—is he going to be back, Madu or just going boring with Declan Rice—feels quite difficult to predict where the attacking returns are going to be." This unpredictability within an otherwise favorable fixture creates headaches for managers seeking maximum value from their free hit selections.
+
+Manchester United at home to Brentford, and Tottenham away at Wolves, round out the top tier of projected attacking returns, with both matches offering cleaner pathways to returns than the Arsenal-Newcastle fixture. Harry expresses particular interest in Tottenham's matchup: "Spurs, who feel like the outlier of a team that we don't really talk about and don't really invest because of the way they're playing, but have quite good projections because of the way that Wolves are playing." Below these fixtures, Harry notes a significant drop-off, with Fulham, Aston Villa, and West Ham all projecting around 1.44 goals, while Everton, Brentford, and Sunderland hover just above one expected goal—"which is pretty low when you're trying to pick someone on a free hit."
+
+---
+
+## The Clean Sheet Picture: Arsenal Lead but Tottenham Surprise
+
+Beyond goals scored projections, Harry examines clean sheet probabilities for Gameweek 34, with Arsenal leading at 37% against Newcastle. The Arsenal-Newcastle fixture presents an interesting paradox: Newcastle "feel like a team to target at the moment" according to Harry, yet their opponent Arsenal face uncertainty about their own attacking output. A clean sheet and an attacking return from an Arsenal player would represent the ideal outcome, but predicting which players will deliver remains challenging.
+
+Liverpool follow Arsenal at 35% for their home fixture against Crystal Palace, while Tottenham's clean sheet probability of 34% catches Harry's attention as surprisingly high. "which again I feel like feels quite high for Spurs," he admits, but the underlying data reflects Wolves' offensive struggles rather than Tottenham's defensive excellence. Below these favorites, Nottingham Forest face Sunderland at 29%, a figure Harry describes as "quite high" given Sunderland's strong home record—yet this perception conflicts with recent form, as "Sunderland have just shipped four goals whereas Forest have just scored four goals." The implication for managers is clear: despite Forest's home strength historically, current form suggests attacking assets against them could be valuable.
+
+Manchester United at home to Brentford and West Ham at home to Everton represent mid-tier clean sheet opportunities, though both hosts face attacking threats that complicate the defensive calculus. Harry concludes his fixture analysis with a candid admission: "It does feel like quite a difficult week to pick players who are reliably going to perform. But that's what the data is saying." This sentiment captures the fundamental challenge of Gameweek 34: no fixture offers the certainty managers typically seek, forcing difficult tradeoffs between team quality, fixture difficulty, and budget allocation.
+
+---
+
+## The Tottenham Question: Differential Opportunity or Trap?
+
+Perhaps the most intriguing discussion in the video centers on Tottenham as a potential free hit differential. Harry acknowledges the two competing schools of thought that likely divide the FPL community: the optimistic camp argues "they're playing Wolves and they've got to fight for something and they look better against Brighton," while the pessimistic camp counters "they haven't won in 2026, they look horrible, why would you pick any of their players when they've been so bad?"
+
+"I probably fall somewhere in the middle," Harry admits. He doesn't see himself "certain" to end up with a Spurs player but admits that as the deadline approaches, he "do[es] wonder if it's worthwhile having one of them in my free hit draft." Specific players mentioned include Javi Simmons and Dominik Solanke, both of whom could theoretically exploit Wolves' defensive vulnerabilities. The fundamental question for managers considering Tottenham assets isn't whether the team is playing well—they aren't—but whether Wolves are playing worse and whether that differential alone justifies the risk.
+
+This discussion reflects a broader strategic principle in FPL: fixture quality can override team form, and a free hit chip represents the perfect opportunity to capitalize on these temporary mismatches without long-term commitment. If Wolves continue their poor run while Tottenham show even modest improvement, the matchup could deliver value that Tottenham's season-long numbers would never suggest. For managers willing to accept variance, Tottenham assets might represent the highest-upside punts available in Gameweek 34.
+
+---
+
+## Updated Draft Analysis: The £0.1M Budget Reality
+
+Harry then walks viewers through his current free hit draft, which he notes "has just 0.1 million left in the bank." This razor-thin budget margin represents a conscious choice: "I'm really pushing and stretching my team value as much as I possibly can, and there are definitely ways when we talk through it that I might not need to." The implication is that some of Harry's selections reflect necessity rather than optimal value, with certain expensive players included "almost like I'm spending it for the sake of it."
+
+The goalkeeper position illustrates this tension perfectly. Harry has selected David Raya of Arsenal, who leads projected clean sheets at 37%, yet he questions whether the Spaniard belongs in his free hit draft. "My issue and concern with picking David Raya on a free hit is he's not going to be the player who changes my free hit from being an okay or a bad free hit into an incredible free hit." This honest self-assessment highlights a critical free hit principle: managers need players who can deliver ceiling scores, and Raya's profile as a low-save keeper limits his upside. "He's only really likely to get a two or a six-pointer just because he doesn't make very many saves."
+
+Harry prefers Raya over options like a Celiba (who also lacks upside) because of the Arsenal double-up he likes, but he acknowledges that if he were "chasing rank more than I feel like I am at the moment," he would "punt on someone over David Raya who's maybe got a higher ceiling and just hope that Arsenal concede." This admission reveals the risk-return tradeoff facing managers with rank to chase: safe selections limit ceiling while punt picks offer breakout potential. Harry's cheap bench option is Kinsky of Tottenham, another selection that reflects budget constraints rather than conviction.
+
+---
+
+## Key Takeaways: Strategic Principles for Free Hit Success
+
+The first takeaway from Harry's analysis is the importance of aligning chip plays with long-term rank strategy rather than short-term excitement. Harry deployed his wildcard in Gameweek 32 deliberately to set up the bench boost in Gameweek 33, accepting a temporary points reduction to maximize a future chip. Now, with the free hit in Gameweek 34, he again demonstrates strategic patience—using a chip he hopes will sustain a rank push rather than simply reacting to the blank gameweek without context. Managers should evaluate each chip usage against their overall season objectives, not just the immediate gameweek opportunities.
+
+The second takeaway involves fixture quality overriding team form for free hit purposes. Harry's Tottenham discussion exemplifies this principle: despite Tottenham's poor run of results, their fixture against a struggling Wolves side creates potential value that their season statistics would never support. Managers using free hit chips should specifically target matches where opponents are in worse form than the teams they're considering, accepting some variance in exchange for favorable matchup probabilities.
+
+The third takeaway concerns ceiling versus floor considerations when budget is tight. Harry's David Raya selection demonstrates how saving money on goalkeepers can actually cost expected points if the cheaper option has limited upside. On a free hit where managers get only one week with each player, prioritizing players with higher scoring ceilings—even at premium prices—typically outperforms selecting budget options with low variance. "He's not going to score a 10, 15 pointer like some of the other goalkeepers" becomes a fatal flaw when that ceiling difference could represent the gap between a good and a great gameweek.
+
+The fourth takeaway relates to managing expectations in difficult fixture weeks. Harry openly acknowledges that Gameweek 34 "feels quite a difficult week to pick players who are reliably going to perform" and that this assessment comes directly from the data, not from personal bias. Managers should recognize when no clear standout options exist and adjust their approach accordingly—perhaps accepting lower projected returns rather than forcing high-risk selections that could backfire. Sometimes the best free hit strategy is avoiding the fixtures that look attractive on paper but lack the certainty needed for high-scoring outcomes.
+
+---
+
+## Who This Content Is For
+
+This video and summary will be most valuable for Fantasy Premier League managers currently sitting in the top 50,000 ranks who still have their free hit chip available and are deciding whether to use it in Gameweek 34. These managers typically have enough squad value to make strategic chip plays and are competing for meaningful rank improvements rather than merely avoiding the blank gameweek without strategy. The video also serves intermediate managers who understand basic FPL mechanics but want to see how an experienced player balances data analysis, fixture evaluation, and budget constraints in real-time decision-making.
+
+For casual managers who have already used their free hit or who are outside the top 100,000, the content offers less direct tactical application but still provides valuable lessons about long-term chip planning and fixture evaluation that could inform future season strategies. The principles Harry discusses—aligning chips with rank objectives, prioritizing fixture quality over team form, and balancing ceiling versus floor when selecting players—apply regardless of current rank or chip availability. Understanding how elite managers approach these decisions helps all managers develop better strategic instincts for their own FPL journeys.</p>
