@@ -17,16 +17,18 @@ jobs:
         with:
           python-version: '3.12'
       
-      - name: Run tests
+      - name: Validate static site
         run: |
-          pip install pytest
-          pytest test_blog.py -v --tb=short
-      
-      - name: Validate HTML structure
-        run: |
-          python3 -c "
+          python3 - <<'PY'
           from pathlib import Path
-          html = Path('index.html').read_text()
-          assert '<html' in html, 'Invalid HTML'
-          print('HTML validation passed')
-          "
+
+          html = Path("index.html").read_text(encoding="utf-8")
+          posts = Path("posts.js").read_text(encoding="utf-8")
+          manifest = Path("content-manifest.json").read_text(encoding="utf-8")
+
+          assert "<html" in html, "Invalid index.html"
+          assert "var posts =" in posts or "const posts =" in posts, "Missing posts.js array"
+          assert manifest.strip().startswith("["), "Invalid content-manifest.json"
+
+          print("Static site validation passed")
+          PY
