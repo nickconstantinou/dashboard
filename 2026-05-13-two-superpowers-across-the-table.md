@@ -7,22 +7,6 @@ channel: The Daily
 video_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/0baf4e92-4d55-4360-8f7d-4bcd50e9d100/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=0baf4e92-4d55-4360-8f7d-4bcd50e9d100&feed=54nAGcIl
 ---
 
-<p>**Key Insights**
-
-- Trump enters these talks significantly weakened compared to his 2017 visit: his planned April meeting was delayed expecting Iran to capitulate, but instead "Iran is resisting," with German Chancellor Mertz publicly suggesting Iran "humiliated the United States" — leaving Xi with diplomatic leverage before negotiations even begin.
-- The "Three B's" framework (beef, beans, Boeing) represents pure optics rather than substantive progress: these are commodities China would purchase anyway, allowing Trump to announce "biggest purchases ever" without fundamentally altering the trade relationship.
-- China has already won significant ground before the summit: Beijing demonstrated leverage by cutting off rare earths and magnets during earlier tensions; a Supreme Court ruling forced repayment of collected tariffs; and a new trade court ruling challenges Trump's authority to impose 10% universal tariffs — leaving Xi feeling he's "already won half his argument."
-- China's nuclear arsenal is projected to reach parity with the US and Russia by 2035: growing from approximately 100-200 weapons under minimal deterrence doctrine to an estimated 600 today, reaching 1,000 by 2030 — yet Beijing has explicitly refused arms control negotiations until achieving numerical equality.
-- The Mythos AI model reveals an urgent but unaddressed threat: Anthropic declined to release this model publicly because it can "search out and find almost instantly vulnerabilities in the code of utility grids or other infrastructure" and execute offensive cyber operations — with a comparable Chinese version likely emerging within 6-8 months.
-
----
-
-The New York Times has produced a meticulously reported episode of The Daily that cuts to the heart of the most consequential geopolitical relationship of our era. In May 2025, President Donald Trump returned to Beijing for his first meeting with Chinese President Xi Jinping since 2017, and New York Times Washington Bureau correspondent David Sanger — joining The Daily's Rachel Abrams in a hotel room in the Chinese capital as he prepared for the summit — offered a sobering assessment of what American viewers should expect from these negotiations.
-
-The episode arrives at a particularly fraught moment in international relations. When Trump last visited China during his first term, Xi had just unexpectedly consolidated power, and the two leaders engaged in elaborate diplomatic pageantry. Today, the context has shifted dramatically. Trump is grappling simultaneously with an unresolved conflict with Iran that refuses to yield, a series of court rulings that have constrained his tariff authority, and international observers who are openly questioning American strength. Sanger's reporting reveals that this Beijing summit may be more theater than substantive breakthrough — but the underlying strategic competition between these two superpowers, which extends far beyond any single meeting, remains the defining challenge of the coming decades.
-
----
-
 ## The Weakened Hand: How Trump's Other Crises Undermine His Position
 
 One of the central revelations of this episode is how thoroughly Trump's foreign policy difficulties in the Middle East have compromised his standing before he even steps into the meeting room with Xi.

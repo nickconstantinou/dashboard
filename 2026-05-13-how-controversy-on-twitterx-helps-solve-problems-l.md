@@ -10,11 +10,11 @@ video_id: 1vJyN6cQuF8
 
 # Key Insights
 
-- **VLC for Android serves ~100 million users**, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year—until a public "spicy tweet" threatened to stop distribution entirely, forcing Google Android engineers to finally engage directly.
-- **VLC ranks among the top 10 most-used software on Windows**, yet VideoLAN is excluded from Microsoft's ISV contact programs—unlike Spotify or Adobe—leaving the project without enterprise support channels and dependent on social media pressure tactics.
-- **FFmpeg's young contributors have written more assembly code than Google engineers combined**, as one response to a critic noted; Ruikai Peng was just 16 years old when submitting security fixes that shamed professional "security researchers."
-- **Edward Wong began contributing at age 14** through Google Summer of Code, stayed with VideoLAN for three years, and exemplified a contrast to the security community by quietly fixing a development-branch vulnerability in three days without publicizing it as a critical CVE.
-- **Twitter/X controversy measurably increased donations** to both FFmpeg and VideoLAN—not to sustainability levels (still insufficient for one full-time developer), but enough to meaningfully raise both public awareness and technical engagement with these critical open-source projects.
+- **[00:00:00]** **VLC for Android serves ~100 million users**, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year—until a public "spicy tweet" threatened to stop distribution entirely, forcing Google Android engineers to finally engage directly.
+- **[00:00:00]** **VLC ranks among the top 10 most-used software on Windows**, yet VideoLAN is excluded from Microsoft's ISV contact programs—unlike Spotify or Adobe—leaving the project without enterprise support channels and dependent on social media pressure tactics.
+- **[00:00:00]** **FFmpeg's young contributors have written more assembly code than Google engineers combined**, as one response to a critic noted; Ruikai Peng was just 16 years old when submitting security fixes that shamed professional "security researchers."
+- **[00:00:00]** **Edward Wong began contributing at age 14** through Google Summer of Code, stayed with VideoLAN for three years, and exemplified a contrast to the security community by quietly fixing a development-branch vulnerability in three days without publicizing it as a critical CVE.
+- **[00:00:00]** **Twitter/X controversy measurably increased donations** to both FFmpeg and VideoLAN—not to sustainability levels (still insufficient for one full-time developer), but enough to meaningfully raise both public awareness and technical engagement with these critical open-source projects.
 
 ---
 
