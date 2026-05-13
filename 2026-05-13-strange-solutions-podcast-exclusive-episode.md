@@ -7,27 +7,6 @@ channel: MrBallen Podcast
 video_url: https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/1324241f-0ee5-47f5-b90c-73934701cf76/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=1324241f-0ee5-47f5-b90c-73934701cf76&feed=dloY8UYJ
 ---
 
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[22:30–23:16]</strong> <em>Harry's Hidden Identity Revealed</em> — Anthony attempts to mug Harry using his usual fake gun technique, but does not realize Harry is blind, which Anthony knew, making him think it would be easy. However, Harry is also a karate master and master wrestler with extensive martial arts training that Anthony completely underestimated.</li>
-<li><strong>[23:21–23:46]</strong> <em>Harry's Fatal Self-Defense</em> — When threatened, Harry's self-defense instincts kick in and he grabs Anthony, flips him over his shoulder, and slams him into the ground, breaking his neck and killing him. Harry sits on Anthony's body until police arrive and is never charged, as investigators determine he acted in self-defense.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">martial arts</span> <span class="signal-tag">blindness</span> <span class="signal-tag">underestimation</span> <span class="signal-tag">self-defense</span> <span class="signal-tag">fatal confrontation</span> <span class="signal-tag">car accident</span> <span class="signal-tag">medical emergency</span> <span class="signal-tag">crisis</span> <span class="signal-tag">school announcement</span> <span class="signal-tag">death</span></p>
-</div>
-
-<p># Strange Solutions: When the Cure Becomes the Curse
-
-## Key Insights
-
-- Marcus Freeman, a 16-year-old quarterback at Northport High School, died on March 15, 2011, after his truck crashed at nearly 100 miles per hour while he sat rigid at the wheel with eyes rolled back and hands white-knuckling the steering wheel, with no drugs, seizures, strokes, or aneurysms found in his autopsy.
-- Principal George Kenny had been conducting unsupervised hypnosis sessions with students for three years, sometimes seeing two students daily, teaching them self-hypnosis, and even hypnotizing entire sports teams before games—all without a therapeutic license or proper mental health credentials.
-- Three Northport students died within two months of each other (March, April, and early May 2011); all three had been repeatedly hypnotized by Kenny, with parents reporting blank stares, disorientation, personality changes, and unusual behaviors after sessions.
-- The Sarasota County School Board paid $600,000 total to the three victims' families, while Kenny received only one year of probation and has since retired from teaching.
-- A Facebook post by a classmate—shared after three deaths had occurred—was what finally connected the pattern that authorities had not identified or investigated, raising questions about oversight and communication failures in the school's response.
-
----
-
 ## Introduction
 
 There's a particular kind of tragedy that unfolds not from malice or obvious danger, but from the collision between good intentions and dangerous ignorance. The Strange Solutions podcast episode "Locked In" explores two such stories, both centered on people who believed they had found solutions to their problems—only to discover that those solutions would destroy everything they were trying to protect.

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Superpowers Across the Table | Nick's Blog</title>
+  <meta name="description" content="The Daily — News">
+  <meta property="og:title" content="Two Superpowers Across the Table">
+  <meta property="og:description" content="The Daily — News">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-13 · News</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Daily">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Daily</div>
+            <h1>Two Superpowers Across the Table</h1>
+            <p class="subtitle">The New York Times has produced a meticulously reported episode of The Daily that cuts to the heart of the most consequential geopolitical relationship of our era.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/0baf4e92-4d55-4360-8f7d-4bcd50e9d100/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=0baf4e92-4d55-4360-8f7d-4bcd50e9d100&feed=54nAGcIl" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        <p><p><strong>Key Insights</strong></p>
+
+<li>Trump enters these talks significantly weakened compared to his 2017 visit: his planned April meeting was delayed expecting Iran to capitulate, but instead "Iran is resisting," with German Chancellor Mertz publicly suggesting Iran "humiliated the United States" — leaving Xi with diplomatic leverage before negotiations even begin.</li>
+<li>The "Three B's" framework (beef, beans, Boeing) represents pure optics rather than substantive progress: these are commodities China would purchase anyway, allowing Trump to announce "biggest purchases ever" without fundamentally altering the trade relationship.</li>
+<li>China has already won significant ground before the summit: Beijing demonstrated leverage by cutting off rare earths and magnets during earlier tensions; a Supreme Court ruling forced repayment of collected tariffs; and a new trade court ruling challenges Trump's authority to impose 10% universal tariffs — leaving Xi feeling he's "already won half his argument."</li>
+<li>China's nuclear arsenal is projected to reach parity with the US and Russia by 2035: growing from approximately 100-200 weapons under minimal deterrence doctrine to an estimated 600 today, reaching 1,000 by 2030 — yet Beijing has explicitly refused arms control negotiations until achieving numerical equality.</li>
+<li>The Mythos AI model reveals an urgent but unaddressed threat: Anthropic declined to release this model publicly because it can "search out and find almost instantly vulnerabilities in the code of utility grids or other infrastructure" and execute offensive cyber operations — with a comparable Chinese version likely emerging within 6-8 months.</li>
+
+<p>The New York Times has produced a meticulously reported episode of The Daily that cuts to the heart of the most consequential geopolitical relationship of our era. In May 2025, President Donald Trump returned to Beijing for his first meeting with Chinese President Xi Jinping since 2017, and New York Times Washington Bureau correspondent David Sanger — joining The Daily's Rachel Abrams in a hotel room in the Chinese capital as he prepared for the summit — offered a sobering assessment of what American viewers should expect from these negotiations.</p>
+
+<p>The episode arrives at a particularly fraught moment in international relations. When Trump last visited China during his first term, Xi had just unexpectedly consolidated power, and the two leaders engaged in elaborate diplomatic pageantry. Today, the context has shifted dramatically. Trump is grappling simultaneously with an unresolved conflict with Iran that refuses to yield, a series of court rulings that have constrained his tariff authority, and international observers who are openly questioning American strength. Sanger's reporting reveals that this Beijing summit may be more theater than substantive breakthrough — but the underlying strategic competition between these two superpowers, which extends far beyond any single meeting, remains the defining challenge of the coming decades.</p>
+
+<h2>The Weakened Hand: How Trump's Other Crises Undermine His Position</h2>
+
+<p>One of the central revelations of this episode is how thoroughly Trump's foreign policy difficulties in the Middle East have compromised his standing before he even steps into the meeting room with Xi.</p>
+
+<p>Sanger explains that Trump had originally intended to visit China in April, but postponed the trip as he anticipated that Iran would have already capitulated under American pressure by mid-May. Instead, Trump arrives in Beijing with Iran still defying American demands — a situation that has drawn public criticism from Western allies. German Chancellor Mertz has gone so far as to suggest that Iran has effectively "humiliated the United States," a characterization that China, not surprisingly, has noticed.</p>
+
+<p>The strategic implications are significant. Sanger describes how Chinese officials are "a bit mystified" about why the United States is struggling to overcome what they view as a second or third-tier power like Iran. From Beijing's perspective, American military and diplomatic dominance is no longer as absolute as it once appeared. This perception, whether accurate or not, gives Xi psychological and diplomatic leverage in his discussions with Trump — a dynamic completely reversed from their 2017 meeting, when Trump was still riding the momentum of his electoral upset victory.</p>
+
+<h2>The Optics Game: Understanding the "Three B's"</h2>
+
+<p>When asked about the specific agenda items for the summit, Sanger immediately identifies what he calls "the low hanging fruit of the relationship" — the ceremonial announcements of trade deals that both sides use to declare victories without addressing structural issues.</p>
+
+<p>The framework Sanger deploys is memorable and revealing: the three B's of beef, beans, and Boeing. These represent distinctly American exports that China has long purchased — American soybeans (which the Chinese consider overpriced but still need), Boeing aircraft (though Sanger notes China is now building competitive aircraft of its own), and specialty American beef (despite China's efforts to develop its own domestic industry). Sanger is unsparing in his assessment: "The president doesn't need to fly halfway across the world to negotiate something that China was just going to buy anyway."</p>
+
+<p>This is the Trump summit playbook, Sanger suggests — emerge with a collection of business agreements, announce them as historic victories, and provide something to sell to the American public as an immediate deliverable. These deals serve a political function domestically rather than a strategic function internationally, and both sides understand this dynamic, even as they participate in the ritual.</p>
+
+<h2>Tariffs: Beijing's Growing Confidence</h2>
+
+<p>Beyond the ceremonial trade announcements lies the far more contentious terrain of tariff policy, and here Sanger's reporting reveals a Chinese leadership that feels increasingly emboldened.</p>
+
+<p>China has been a primary target of Trump's aggressive tariff regime, yet Beijing demonstrated its own considerable leverage during earlier phases of the trade conflict. When threatened with escalation, China "cut off rare earths and magnets" to the United States — materials critical for technology manufacturing — proving that Chinese restrictions could cause genuine pain to American industries.</p>
+
+<p>More recently, two legal developments have further strengthened Beijing's negotiating position. A Supreme Court decision forced the United States to pay back some of the tariffs already collected from Chinese companies, a financial and diplomatic setback that China certainly noticed. Meanwhile, a trade court ruling is now directly challenging Trump's authority to impose his signature 10% tariff on every country worldwide.</p>
+
+<p>Sanger's assessment is blunt: "I think that Xi Jinping probably feels like he's already won half his argument before he starts." While specific tariffs on certain Chinese products remain a significant concern for Beijing, particularly the 100% tariff on Chinese automobiles, Xi arrives at this summit with evident confidence that the trajectory of the tariff dispute has been moving in China's favor.</p>
+
+<p>The automobile tariff deserves specific attention given its economic significance. During Trump's first term, China exported approximately one million cars annually to the United States. Today, Chinese manufacturers export around seven million cars globally — but virtually none to the American market, blocked almost entirely by the Biden-era tariffs that Trump has maintained. China will certainly press for access to this lucrative market, Sanger suggests, but any breakthrough seems unlikely given that American auto manufacturers view Chinese production capacity as an existential threat, much as Japanese automakers did in the 1980s.</p>
+
+<h2>The Fundamental Competition: America's Real Challenge</h2>
+
+<p>Having dispatched the summit theatrics, Sanger turns to what he clearly considers the real story — the structural competition between two powers with fundamentally incompatible visions for the international order.</p>
+
+<p>"For the past 10 years, the US and China have been engaged in what sometimes looks like a bit of a death struggle," Sanger begins. Xi Jinping has made explicit that his goal is for China to become the number one military, economic, political, and perhaps even cultural power by 2049 — the centennial of the People's Republic. This isn't subtle diplomatic posturing; it's a stated national objective that places the United States and China on a trajectory toward inevitable competition across multiple domains.</p>
+
+<p>Sanger is careful to distinguish between the immediate issues that dominate summit coverage and the deeper structural questions that will define the next half-century. Taiwan, tariffs, trade deals, and business announcements are the visible layer — but beneath them lies a contest over who will dominate technology, economics, military capability, and political influence for decades to come.</p>
+
+<h2>The Nuclear Dimension: A Reluctant Participant in Arms Control</h2>
+
+<p>One of the most significant and least-discussed elements of American-Chinese competition involves nuclear weapons, and Sanger's reporting reveals a striking asymmetry in both capability and willingness to engage.</p>
+
+<p>For decades, China operated under what Sanger describes as a "minimum nuclear deterrent" doctrine established under Mao — maintaining roughly 100 to 200 nuclear weapons, just sufficient to deter a nuclear strike by demonstrating the ability to inflict unacceptable damage in retaliation. This was a fundamentally defensive posture, premised on the assumption that China would never strike first but needed only to convince potential adversaries that attacking China would be catastrophic.</p>
+
+<p>Xi Jinping changed this calculus almost immediately upon taking power, initiating a massive nuclear buildup that the United States did not fully comprehend until years into the program. Today, China possesses approximately 600 nuclear weapons. The Pentagon projects this number will reach 1,000 by 2030 and match the United States and Russia by approximately 2035 — creating, for the first time in history, a three-way nuclear superpower dynamic.</p>
+
+<p>This buildup has profound implications for arms control. Sanger explains that the last remaining bilateral arms control treaty between Russia and the United States expired just months before this summit, and Trump has made clear that negotiating a replacement makes no sense without Chinese participation. Yet Xi has explicitly refused even to discuss arms control until China achieves numerical parity — a position that is strategically logical from Beijing's perspective but leaves the United States in the uncomfortable position of watching its nuclear rival grow without constraint.</p>
+
+<p>Trump told Sanger in a January interview that he planned to raise nuclear arms control with Xi, but Sanger is skeptical anything will come of it. "I don't think it's going to get very far," he predicts. "The Chinese just aren't ready to discuss it."</p>
+
+<h2>Taiwan: Words Matter More Than Actions</h2>
+
+<p>Taiwan represents perhaps the most dangerous flashpoint in US-China relations, and Sanger's reporting reveals both the complexity of the issue and the potential for Trump to freelance in ways that alarm American allies.</p>
+
+<p>Taiwan is not simply a territorial dispute; it's a fundamental question about whether the international order will continue to recognize Taiwan's existence as a distinct political entity, with its own democratic governance, or whether Beijing's claim to sovereignty will eventually prevail. Xi Jinping, Sanger explains, would like to extract from this summit some small "wording changes" in American diplomatic language that would make Taiwan and its supporters more doubtful that the United States would actually intervene militarily if China attempted to take the island.</p>
+
+<p>The specific linguistic shift Beijing seeks is subtle but consequential: American officials currently say they would "not support Taiwan declaring its own independence." China wants to move that commitment to "oppose" — a change of just one word, but one that transforms a passive refusal to endorse change into an active commitment to maintaining Chinese sovereignty.</p>
+
+<p>Sanger notes that Trump has historically shown little interest in engaging deeply with Taiwan policy, a reluctance that Xi surely hopes to exploit. One of Trump's own aides told reporters that "he expected no change in the American position," but Sanger immediately adds the caveat that defines so much of Trump's foreign policy: "But that's only true if the president doesn't freelance."</p>
+
+<p>Taiwan's strategic importance extends beyond politics into technology. Taiwan Semiconductor Manufacturing Company (TSMC) produces the world's most advanced semiconductors — including the AI chips that are now central to the artificial intelligence revolution reshaping economies and militaries. Sanger raises the uncomfortable possibility that Xi might offer Trump a simple bargain: guaranteed access to these critical chips in exchange for American indifference to Taiwan's future. Whether Trump would accept such a deal remains genuinely unclear, but the fact that it's plausible reveals something fundamental about the stakes involved.</p>
+
+<h2>Artificial Intelligence: The Race Nobody Wants to Regulate</h2>
+
+<p>Perhaps the most forward-looking segment of the podcast addresses artificial intelligence — a domain where the United States and China are engaged in an intense competitive race, yet where neither side seems willing to accept constraints that might slow their progress.</p>
+
+<p>During the Biden administration, Sanger reports, it took months to negotiate the most basic understanding between the two powers: an agreement that neither country would allow artificial intelligence to direct nuclear weapons. "Let's keep human beings running our nukes," as Sanger dryly summarizes it. This agreement was meant to be just a starting point for broader AI safety discussions, yet even that modest achievement required extensive diplomatic effort.</p>
+
+<p>The difficulty, Sanger explains, is that AI capabilities don't fit the traditional arms control framework developed during the nuclear age. Nuclear weapons can be counted, inspected, and monitored. AI capabilities are embedded in software, can be rapidly updated, and cannot be verified through traditional means. Arms control for artificial intelligence would rely on codes of conduct and mutual understandings that are extremely difficult to enforce — a fundamentally different challenge than Cold War-era nuclear negotiations.</p>
+
+<p>Recent developments have added urgency to these concerns. The Anthropic company has developed an AI system called Mythos that is so capable at conducting offensive cyber operations that Anthropic declined to release it publicly. Sanger describes Mythos as able to "search out and find almost instantly vulnerabilities in the code of utility grids or other infrastructure, and then order up an attack" — both for offensive purposes and for identifying weaknesses that could be defended.</p>
+
+<p>This capability represents a genuine national security threat, and Sanger's reporting suggests the Trump administration has been slow to recognize the implications. "The Trump administration came into power saying one country is going to win this race, and it's going to be whichever country allows industry to do its thing unfettered," Sanger notes. Yet this philosophy is now colliding with reality: Chinese researchers are probably only six to eight months, perhaps a year, away from developing a comparable AI system. If Mythos-level capabilities proliferate to both American and Chinese military establishments without any understanding about their limits, the potential for catastrophic misunderstanding grows substantially.</p>
+
+<p>Whether Trump and Xi will even discuss AI guardrails at this summit remains uncertain. Sanger suggests the two leaders might not touch the topic directly, or at least won't commit their aides to substantive negotiations. The competitive dynamics that drive both nations to push the frontier of AI capability simultaneously make cooperative restraint genuinely difficult to achieve — and this difficulty may represent one of the most significant unaddressed risks of the coming decade.</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The Summit as Theater Doesn't Mean It's Irrelevant</strong>: While Sanger is clear that the visible elements of the Trump-Xi meeting — the business announcements, the ceremonial pageantry, the "Three B's" — are primarily political theater rather than strategic breakthroughs, he doesn't suggest viewers should dismiss the summit entirely. The real action, he implies, happens in the spaces between the official agenda, and Trump's documented tendency to "freelance" means that even the preparation cannot fully constrain what happens in the room. The takeaway is not that summits are meaningless, but that understanding them requires looking past the official narrative to assess underlying leverage and psychological positioning.</p>
+
+<p><strong>Beijing Has Learned to Play the Long Game</strong>: One of the consistent themes of Sanger's analysis is how Chinese leadership has developed patience, leverage, and strategic confidence that it lacked in earlier decades. China demonstrated this when it cut off rare earths to force American concessions, when it refused arms control negotiations until achieving nuclear parity, and when it quietly advances its AI capabilities without feeling pressure to accept international frameworks. The takeaway for American policymakers and citizens alike is that China cannot be negotiated with from a position of assumed superiority — its leadership views itself as engaged in a decades-long contest where occasional setbacks are acceptable so long as the trajectory remains favorable.</p>
+
+<p><strong>Nuclear Instability Is Growing Without Public Attention</strong>: While cable news obsesses over tariffs and trade deficits, the steady growth of China's nuclear arsenal to a projected 2035 parity with the United States and Russia proceeds largely unreported. Sanger's revelation that Trump himself acknowledged he won't negotiate arms control without Chinese participation — yet China has explicitly refused to negotiate until it achieves equal numbers — points toward a future where three superpowers operate under no binding constraints on their nuclear forces. The takeaway is that this represents a return to pre-Cold War instability, and there is no obvious path to resolution when one party refuses to participate.</p>
+
+<p><strong>Taiwan Policy Represents America's Weakest Link</strong>: Given Trump's documented disinterest in deep policy engagement, his administration's explicit maintenance of Biden's China tariffs, and the uncomfortable strategic dependency on Taiwanese semiconductors, Sanger raises a genuinely troubling scenario. Xi might offer Trump a straightforward deal: accept reduced American engagement with Taiwan, and China guarantees continued access to the AI-critical chips that Taiwan produces.</p></p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_title": "Taiwan's critical role in semiconductor and AI chip production",
+    "summary": "Taiwan produces the world's most advanced semiconductors through Taiwan Semiconductor Corporation, which manufactures the AI chips central to the artificial intelligence revolution. This gives China potential leverage over the US, as Xi could theoretically guarantee chip supplies in exchange for US indifference to Taiwan's fate.",
+    "start_seconds": 981,
+    "end_seconds": 1039,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Trump administration AI policy shift following DeepSeek's capabilities",
+    "summary": "The Trump administration initially believed one country would win the AI race through unrestricted industry growth. However, this stance shifted after DeepSeek's o3 model demonstrated advanced capabilities in offensive cyber attacks, prompting concerns about the security implications of highly capable AI systems being developed without oversight.",
+    "start_seconds": 1172,
+    "end_seconds": 1213,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "US Requests for Chinese Intervention on Iran",
+    "summary": "The United States is asking China to stop supplying targeting data and missile technology to Iran, and to use its economic influence as a major purchaser of Iranian goods to convince Iran to reopen the Strait of Hormuz. President Xi faces a decision on whether to quietly intervene.",
+    "start_seconds": 1359,
+    "end_seconds": 1408,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Taiwan status and diplomatic language tensions",
+    "summary": "Xi Jinping seeks to erode confidence in US support for Taiwan through small but significant diplomatic language changes, such as shifting from not supporting Taiwan independence to actively opposing it. This linguistic shift would signal US acceptance of Beijing's position that only the People's Republic of China is legitimate, raising concerns about Trump's tendency to improvise on sensitive diplomatic issues.",
+    "start_seconds": 859,
+    "end_seconds": 980,
+    "timing_quality": "estimated"
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>
