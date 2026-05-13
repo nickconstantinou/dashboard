@@ -3,9 +3,9 @@ title: Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast
 date: '2026-05-13'
 type: youtube
 category: AI/Tech
-video_id: IWz3ZagX1_w
 channel: Lex Fridman
 video_url: https://www.youtube.com/watch?v=IWz3ZagX1_w
+video_id: IWz3ZagX1_w
 ---
 
 ## Key Insights

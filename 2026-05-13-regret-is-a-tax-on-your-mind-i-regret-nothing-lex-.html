@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast | Nick's Blog</title>
+  <meta name="description" content="Lex Fridman — AI/Tech">
+  <meta property="og:title" content="Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast">
+  <meta property="og:description" content="Lex Fridman — AI/Tech">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,22 +70,24 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-13 • AI/Tech</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/IWz3ZagX1_w" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <h2>Key Insights</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-13 · AI/Tech</p>
+        <div class="video-hero">
+          <div class="source-label">Lex Fridman</div>
+          <h1>Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast</h1>
+          <p class="subtitle">This exchange emerges from a Lex Fridman Podcast conversation with contributors to open-source projects, particularly those associated with FFmpeg and VLC media players.</p>
+        </div>
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/IWz3ZagX1_w" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h2>Key Insights</h2>
 
 <li><strong>"Regrets are attacks on your mind"</strong> — The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change</li>
 <li><strong>"Learn from your mistakes, but don't regret"</strong> — A two-part framework distinguishing productive lessons from destructive rumination; the key distinction is whether an action can be undone</li>
 <li><strong>Time machine test</strong> — The speaker suggests regret is only valid if you possess the ability to go back and change something; since no one does, regret becomes logically unfounded</li>
 <li><strong>Parallels to expensive emotions</strong> — Johnny Depp's quote that "hate is a very expensive emotion" is cited as related insight, suggesting negative emotions carry hidden cognitive and physiological costs</li>
 <li><strong>Context of open-source gratitude</strong> — The philosophy is delivered in a conversation celebrating FFmpeg and VLC developers, with appreciation for "spicy tweets" and community contributions, making the "regret nothing" stance feel authentic to someone who has shared publicly and faced criticism</li>
-
-<p>---</p>
 
 <h2>Introduction</h2>
 
@@ -63,15 +97,11 @@
 
 <p>What makes this segment notable is its brevity paired with depth. In just a few minutes of conversation, a coherent framework emerges for processing mistakes without dwelling on them, one that connects to broader discussions about emotional economics and cognitive burden.</p>
 
-<p>---</p>
-
 <h2>The Philosophy of Not Regretting</h2>
 
 <p>The speaker's core argument rests on a simple but powerful distinction: learning from mistakes and regretting them are not the same cognitive process. One is forward-looking and constructive; the other is backward-looking and draining. "Regrets are attacks on your mind," they state directly, framing the emotional toll not as a natural consequence of past errors but as a self-inflicted wound. This framing matters because it places agency squarely with the individual—if regret is an attack, then it's something you can choose to stop, not a predetermined consequence of making mistakes.</p>
 
 <p>The reasoning is straightforward but worth examining: since no one possesses a time machine, regretting past actions serves no functional purpose. The past cannot be rewritten; the only variables in your control are present and future behavior. Regret, therefore, represents wasted cognitive resources—mental energy spent on something that cannot change, detracting from energy that could be directed toward correction, growth, or simply living well.</p>
-
-<p>---</p>
 
 <h2>The Economic Perspective on Emotion</h2>
 
@@ -79,15 +109,11 @@
 
 <p>By this logic, choosing not to regret isn't just an abstract philosophical position; it's an optimization strategy. It conserves mental resources for what actually matters: making better decisions going forward, maintaining healthier relationships, and preserving cognitive bandwidth for creation rather than rumination. The "tax on your mind" metaphor captures this precisely—regret extracts a continuous cost that compounds over time unless actively resisted.</p>
 
-<p>---</p>
-
 <h2>Applied in Context: Open-Source Community and Public Expression</h2>
 
 <p>The philosophy gains concrete meaning when applied to the speaker's specific context. Working on open-source projects like FFmpeg and VLC means your work, your words, and your decisions are public and permanent. Code commits don't disappear; tweets remain; past positions can be scrutinized. Someone operating in this environment who carried regret would be systematically accumulating weight with every commit, every decision, every public statement.</p>
 
 <p>The mention of "spicy tweets" as something to be grateful for suggests the speaker has made controversial or provocative statements in public forums and explicitly rejects the urge to regret them afterward. This isn't about being reckless or dismissive of consequences—it's about recognizing that the alternative, dwelling on past public expressions, provides no benefit while consuming mental energy. The "sexy hat" moment, where the speaker feels like "a wizard" and "special," suggests this conversation occurs in a context of genuine appreciation and celebration, reinforcing that operating without regret correlates with enjoying one's work and community.</p>
-
-<p>---</p>
 
 <h2>Key Takeaways</h2>
 
@@ -99,20 +125,33 @@
 
 <p><strong>Public-facing work requires psychological resilience.</strong> The open-source context illustrates a broader principle: anyone whose work is visible and lasting will face retrospective judgment. The ability to "not regret" becomes a survival skill, a way of staying productive and present rather than paralyzed by past decisions that cannot be undone.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This discussion resonates most for people who find themselves repeatedly reviewing past decisions—whether in creative work, business, personal relationships, or public-facing roles—and feeling the weight of those reflections. It's particularly valuable for those in communities where contributions are permanently archived and subject to ongoing scrutiny, such as open-source developers, public intellectuals, content creators, or anyone who has published ideas that have later been reconsidered or criticized.</p>
 
 <p>The practical value is clear: it offers a conceptual framework for handling the inevitable moments when you look backward and wish you'd done differently. Rather than treating regret as a natural, inevitable response to past mistakes, it frames regret as a choice—and one with a cost that often outweighs its benefits. For anyone seeking to maintain creative momentum, psychological wellbeing, or simply a clearer mind, this philosophy provides both permission and method to let go of what cannot be changed while remaining committed to learning and growth.</p>
-      
-    </article>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script>
+    var player = document.getElementById('podcast-player');
+    document.querySelectorAll('strong, b').forEach(function(el) {
+      var m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
+      if (!m) return;
+      var parts = m[1].split(':').map(Number);
+      var secs = parts.length === 3 ? parts[0]*3600 + parts[1]*60 + parts[2] : parts[0]*60 + parts[1];
+      var btn = document.createElement('button');
+      btn.className = 'ts-btn';
+      btn.textContent = el.textContent;
+      btn.title = 'Jump to ' + m[1];
+      btn.onclick = function() { if (player) { player.currentTime = secs; player.play(); } };
+      el.replaceWith(btn);
+    });
+  </script>
 </body>
 </html>
