@@ -1,10 +1,54 @@
 var posts = [
   {
     "date": "May 13, 2026",
+    "title": "Best Arsenal triple-up for the final two FPL Gameweeks",
+    "url": "2026-05-13-best-arsenal-triple-up-for-the-final-two-fpl-gamew.html",
+    "category": "FPL",
+    "excerpt": "# Best Arsenal Triple-Up for the Final Two FPL Gameweeks ## Fixture Analysis Arsenal face Burnley in Gameweek 37 and Crystal Palace in Gameweek 38, making a triple-up on Arsenal assets an attractive p",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Best cheap players for a Gameweek 37 Bench Boost",
+    "url": "2026-05-13-best-cheap-players-for-a-gameweek-37-bench-boost.html",
+    "category": "FPL",
+    "excerpt": "# Best Cheap Players for Gameweek 37 Bench Boost ## Brighton Coverage Brighton have emerged as an attractive defensive option heading into Gameweek 37. Their recent 3-0 triumph over Wolverhampton Wand",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "FPL notes: DCL bonus confusion, Porro unlucky, Struijk + Bogle injuries",
+    "url": "2026-05-13-fpl-notes-dcl-bonus-confusion-porro-unlucky-struij.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: DCL Bonus Confusion, Porro Unlucky, Struijk and Bogle Injuries ## Tottenham's Rising Asset Delivers Again Mathys Tel has been a notable success story this season, with the Tottenham attac",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 37?",
+    "url": "2026-05-13-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 37: Players Due for Goals and Assists ## Overview Fantasy Premier League managers preparing for Gameweek 37 may benefit from identifying players who appear statistically \"due\" for retur",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "How controversy on Twitter/X helps solve problems | Lex Fridman Podcast",
     "url": "2026-05-13-how-controversy-on-twitterx-helps-solve-problems-l.html",
     "category": "AI/Tech",
-    "excerpt": "# Key Insights - **VLC for Android serves ~100 million users**, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year\u2014until a public \"spicy tweet\" threatened to stop distributi",
+    "excerpt": "# Key Insights - **[00:00:00]** **VLC for Android serves ~100 million users**, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year\u2014until a public \"spicy tweet\" threatened to ",
     "tags": [
       "AI/Tech"
     ],
@@ -12,10 +56,43 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
+    "title": "Intense Exercise & Potential Heart Damage (aka Athlete's Heart)",
+    "url": "2026-05-13-intense-exercise-potential-heart-damage-aka-athlet.html",
+    "category": "Health/Science",
+    "excerpt": "## Introduction For decades, conventional wisdom held that more exercise was unambiguously better \u2014 that pushing harder, running further, and training longer would always translate to a longer, health",
+    "tags": [
+      "Health/Science"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Man City + Palace team news: Tuesday\u2019s live injury updates",
+    "url": "2026-05-13-man-city-palace-team-news-tuesdays-live-injury-upd.html",
+    "category": "FPL",
+    "excerpt": "# Man City + Palace Team News: Tuesday's Live Injury Updates ## Manchester City Injury Report **Rodri Nearing Return** Pep Guardiola has offered an encouraging update on Rodri ahead of Wednesday's fix",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Man Utd v Nott'm Forest | CotC with Alex Trembath & Mark Sutherns | Planet FPL 2025/26",
+    "url": "2026-05-13-man-utd-v-nottm-forest-cotc-with-alex-trembath-mar.html",
+    "category": "FPL",
+    "excerpt": "# Man Utd v Nottingham Forest | Conversation of the Coast ## Planet FPL 2025/26 Match Preview ### Key Talking Points The Conversation of the Coast featuring Manchester United correspondent Alex Tremba",
+    "tags": [
+      "FPL"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "Regret is a tax on your mind - I regret nothing | Lex Fridman Podcast",
     "url": "2026-05-13-regret-is-a-tax-on-your-mind-i-regret-nothing-lex-.html",
     "category": "AI/Tech",
-    "excerpt": "## Key Insights - **\"Regrets are attacks on your mind\"** \u2014 The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change - **\"Learn fr",
+    "excerpt": "## Key Insights - **[00:00:00]** **\"Regrets are attacks on your mind\"** \u2014 The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing chang",
     "tags": [
       "AI/Tech"
     ],
@@ -26,7 +103,7 @@ var posts = [
     "title": "Strange Solutions (PODCAST EXCLUSIVE EPISODE)",
     "url": "2026-05-13-strange-solutions-podcast-exclusive-episode.html",
     "category": "Mystery/Suspense",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[22:30\u201323:16]</strong> <em>Harry's Hidden Identity Revealed</em> \u2014 Anthony attempts to mug Harry using his usual fake gun technique, b",
+    "excerpt": "## Introduction The MrBallen podcast has built a devoted audience by exploring the strangest corners of human experience\u2014true stories that challenge ordinary understanding and venture into territory t",
     "tags": [
       "Mystery/Suspense"
     ],
@@ -34,12 +111,12 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
-    "title": "Intense Exercise & Potential Heart Damage (aka Athlete's Heart)",
-    "url": "2026-05-13-intense-exercise-potential-heart-damage-aka-athlet.html",
-    "category": "Health/Science",
-    "excerpt": "## Introduction In the world of human performance, few paradoxes are more troubling—or more misunderstood—than the phenomenon of elite athletes dying from cardiovascular disease. Dr. Andy Galpin, pro",
+    "title": "Two Superpowers Across the Table",
+    "url": "2026-05-13-two-superpowers-across-the-table.html",
+    "category": "News",
+    "excerpt": "## Introduction President Trump's return to the White House has brought renewed and intensified scrutiny to the United States' relationship with China, and for the first time in nearly a decade, he wi",
     "tags": [
-      "Health/Science"
+      "News"
     ],
     "type": "podcast"
   },

@@ -81,15 +81,45 @@
         <div class="video-wrapper">
           <iframe id="youtube-player" src="https://www.youtube.com/embed/IWz3ZagX1_w?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
         </div>
-        <h2>Key Insights</h2>
-
-<li><strong>[00:00:00]</strong> <strong>"Regrets are attacks on your mind"</strong> — The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change</li>
-<li><strong>[00:00:00]</strong> <strong>"Learn from your mistakes, but don't regret"</strong> — A two-part framework distinguishing productive lessons from destructive rumination; the key distinction is whether an action can be undone</li>
-<li><strong>[00:00:00]</strong> <strong>Time machine test</strong> — The speaker suggests regret is only valid if you possess the ability to go back and change something; since no one does, regret becomes logically unfounded</li>
-<li><strong>[00:00:00]</strong> <strong>Parallels to expensive emotions</strong> — Johnny Depp's quote that "hate is a very expensive emotion" is cited as related insight, suggesting negative emotions carry hidden cognitive and physiological costs</li>
-<li><strong>[00:00:00]</strong> <strong>Context of open-source gratitude</strong> — The philosophy is delivered in a conversation celebrating FFmpeg and VLC developers, with appreciation for "spicy tweets" and community contributions, making the "regret nothing" stance feel authentic to someone who has shared publicly and faced criticism</li>
-
-<h2>Introduction</h2>
+        <div id="segments-section"></div>
+          <script type="application/json" id="segment-data">\n[
+  {
+    "segment_title": "\"Regrets are attacks on your mind\"",
+    "summary": "\"Regrets are attacks on your mind\" \u2014 The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change",
+    "start_seconds": 19,
+    "end_seconds": 39,
+    "timing_quality": "exact"
+  },
+  {
+    "segment_title": "\"Learn from your mistakes, but don't regret\"",
+    "summary": "\"Learn from your mistakes, but don't regret\" \u2014 A two-part framework distinguishing productive lessons from destructive rumination; the key distinction is whether an action can be undone",
+    "start_seconds": 38,
+    "end_seconds": 58,
+    "timing_quality": "exact"
+  },
+  {
+    "segment_title": "Time machine test \u2014 The speaker suggests regret is only valid if you possess the ability t",
+    "summary": "Time machine test \u2014 The speaker suggests regret is only valid if you possess the ability to go back and change something; since no one does, regret becomes logically unfounded",
+    "start_seconds": 56,
+    "end_seconds": 76,
+    "timing_quality": "exact"
+  },
+  {
+    "segment_title": "Parallels to expensive emotions",
+    "summary": "Parallels to expensive emotions \u2014 Johnny Depp's quote that \"hate is a very expensive emotion\" is cited as related insight, suggesting negative emotions carry hidden cognitive and physiological costs",
+    "start_seconds": 75,
+    "end_seconds": 95,
+    "timing_quality": "exact"
+  },
+  {
+    "segment_title": "Context of open-source gratitude",
+    "summary": "Context of open-source gratitude \u2014 The philosophy is delivered in a conversation celebrating FFmpeg and VLC developers, with appreciation for \"spicy tweets\" and community contributions, making the \"regret nothing\" stance feel authentic to someone who has shared publicly and faced criticism",
+    "start_seconds": 94,
+    "end_seconds": 114,
+    "timing_quality": "exact"
+  }
+]\n  </script>
+        <h2>Introduction</h2>
 
 <p>This exchange emerges from a Lex Fridman Podcast conversation with contributors to open-source projects, particularly those associated with FFmpeg and VLC media players. The discussion takes a philosophical turn when the topic shifts to regret and public expression, with the speaker articulating a clear stance: regret is not merely unhelpful—it is actively harmful to one's mental state.</p>
 
@@ -144,23 +174,38 @@
     function onYouTubeIframeAPIReady() {
       ytPlayer = new YT.Player('youtube-player');
     }
-    document.querySelectorAll('strong, b').forEach(function(el) {
-      var m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
-      if (!m) return;
-      var parts = m[1].split(':').map(Number);
-      var secs = parts.length === 3 ? parts[0]*3600 + parts[1]*60 + parts[2] : parts[0]*60 + parts[1];
-      var btn = document.createElement('button');
-      btn.className = 'ts-btn';
-      btn.textContent = el.textContent;
-      btn.title = 'Jump to ' + m[1];
-      btn.onclick = function() {
-        if (ytPlayer && ytPlayer.seekTo) {
-          ytPlayer.seekTo(secs, true);
-          ytPlayer.playVideo();
-        }
-      };
-      el.replaceWith(btn);
-    });
+    var section = document.getElementById('segments-section');
+    var cards = JSON.parse(document.getElementById('segment-data').textContent);
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    if (cards.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      cards.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === "estimated" ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(seg.start_seconds, true);
+            ytPlayer.playVideo();
+          }
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
   </script>
 </body>
 </html>

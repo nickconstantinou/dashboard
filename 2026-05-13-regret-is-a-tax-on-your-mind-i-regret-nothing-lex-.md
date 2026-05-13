@@ -10,11 +10,11 @@ video_id: IWz3ZagX1_w
 
 ## Key Insights
 
-- **[00:00:00]** **"Regrets are attacks on your mind"** — The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change
-- **[00:00:00]** **"Learn from your mistakes, but don't regret"** — A two-part framework distinguishing productive lessons from destructive rumination; the key distinction is whether an action can be undone
-- **[00:00:00]** **Time machine test** — The speaker suggests regret is only valid if you possess the ability to go back and change something; since no one does, regret becomes logically unfounded
-- **[00:00:00]** **Parallels to expensive emotions** — Johnny Depp's quote that "hate is a very expensive emotion" is cited as related insight, suggesting negative emotions carry hidden cognitive and physiological costs
-- **[00:00:00]** **Context of open-source gratitude** — The philosophy is delivered in a conversation celebrating FFmpeg and VLC developers, with appreciation for "spicy tweets" and community contributions, making the "regret nothing" stance feel authentic to someone who has shared publicly and faced criticism
+- **[0:19]** **"Regrets are attacks on your mind"** — The speaker frames regret not as reflection but as psychological harm, arguing it drains mental energy without producing change
+- **[0:38]** **"Learn from your mistakes, but don't regret"** — A two-part framework distinguishing productive lessons from destructive rumination; the key distinction is whether an action can be undone
+- **[0:56]** **Time machine test** — The speaker suggests regret is only valid if you possess the ability to go back and change something; since no one does, regret becomes logically unfounded
+- **[1:15]** **Parallels to expensive emotions** — Johnny Depp's quote that "hate is a very expensive emotion" is cited as related insight, suggesting negative emotions carry hidden cognitive and physiological costs
+- **[1:34]** **Context of open-source gratitude** — The philosophy is delivered in a conversation celebrating FFmpeg and VLC developers, with appreciation for "spicy tweets" and community contributions, making the "regret nothing" stance feel authentic to someone who has shared publicly and faced criticism
 
 ---
 

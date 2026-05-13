@@ -81,11 +81,13 @@
         <div class="video-wrapper">
           <iframe id="youtube-player" src="https://www.youtube.com/embed/1vJyN6cQuF8?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
         </div>
-        <li><strong>[00:00:00]</strong> <strong>VLC for Android serves ~100 million users</strong>, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year—until a public "spicy tweet" threatened to stop distribution entirely, forcing Google Android engineers to finally engage directly.</li>
-<li><strong>[00:00:00]</strong> <strong>VLC ranks among the top 10 most-used software on Windows</strong>, yet VideoLAN is excluded from Microsoft's ISV contact programs—unlike Spotify or Adobe—leaving the project without enterprise support channels and dependent on social media pressure tactics.</li>
-<li><strong>[00:00:00]</strong> <strong>FFmpeg's young contributors have written more assembly code than Google engineers combined</strong>, as one response to a critic noted; Ruikai Peng was just 16 years old when submitting security fixes that shamed professional "security researchers."</li>
-<li><strong>[00:00:00]</strong> <strong>Edward Wong began contributing at age 14</strong> through Google Summer of Code, stayed with VideoLAN for three years, and exemplified a contrast to the security community by quietly fixing a development-branch vulnerability in three days without publicizing it as a critical CVE.</li>
-<li><strong>[00:00:00]</strong> <strong>Twitter/X controversy measurably increased donations</strong> to both FFmpeg and VideoLAN—not to sustainability levels (still insufficient for one full-time developer), but enough to meaningfully raise both public awareness and technical engagement with these critical open-source projects.</li>
+        <div id="segments-section"></div>
+          <script type="application/json" id="segment-data">\n[]\n  </script>
+        <li><strong>[1:05]</strong> <strong>VLC for Android serves ~100 million users</strong>, yet VideoLAN lacked any mechanism to resolve a Play Store bug for over a year—until a public "spicy tweet" threatened to stop distribution entirely, forcing Google Android engineers to finally engage directly.</li>
+<li><strong>[2:10]</strong> <strong>VLC ranks among the top 10 most-used software on Windows</strong>, yet VideoLAN is excluded from Microsoft's ISV contact programs—unlike Spotify or Adobe—leaving the project without enterprise support channels and dependent on social media pressure tactics.</li>
+<li><strong>[3:16]</strong> <strong>FFmpeg's young contributors have written more assembly code than Google engineers combined</strong>, as one response to a critic noted; Ruikai Peng was just 16 years old when submitting security fixes that shamed professional "security researchers."</li>
+<li><strong>[4:21]</strong> <strong>Edward Wong began contributing at age 14</strong> through Google Summer of Code, stayed with VideoLAN for three years, and exemplified a contrast to the security community by quietly fixing a development-branch vulnerability in three days without publicizing it as a critical CVE.</li>
+<li><strong>[5:26]</strong> <strong>Twitter/X controversy measurably increased donations</strong> to both FFmpeg and VideoLAN—not to sustainability levels (still insufficient for one full-time developer), but enough to meaningfully raise both public awareness and technical engagement with these critical open-source projects.</li>
 
 <h1>Introduction</h1>
 
@@ -190,23 +192,38 @@
     function onYouTubeIframeAPIReady() {
       ytPlayer = new YT.Player('youtube-player');
     }
-    document.querySelectorAll('strong, b').forEach(function(el) {
-      var m = el.textContent.match(/^\[(\d+:\d+(?::\d+)?)[–\-]/);
-      if (!m) return;
-      var parts = m[1].split(':').map(Number);
-      var secs = parts.length === 3 ? parts[0]*3600 + parts[1]*60 + parts[2] : parts[0]*60 + parts[1];
-      var btn = document.createElement('button');
-      btn.className = 'ts-btn';
-      btn.textContent = el.textContent;
-      btn.title = 'Jump to ' + m[1];
-      btn.onclick = function() {
-        if (ytPlayer && ytPlayer.seekTo) {
-          ytPlayer.seekTo(secs, true);
-          ytPlayer.playVideo();
-        }
-      };
-      el.replaceWith(btn);
-    });
+    var section = document.getElementById('segments-section');
+    var cards = JSON.parse(document.getElementById('segment-data').textContent);
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    if (cards.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      cards.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === "estimated" ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(seg.start_seconds, true);
+            ytPlayer.playVideo();
+          }
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
   </script>
 </body>
 </html>
