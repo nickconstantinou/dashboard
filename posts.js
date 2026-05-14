@@ -1,5 +1,16 @@
 var posts = [
   {
+    "date": "May 15, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-15",
+    "url": "2026-05-15-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-15 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ],
+    "type": "roundup"
+  },
+  {
     "date": "May 14, 2026",
     "title": "\"They Wanted A Bad Guy, So I Became One\" - Ryan Garcia - #1097",
     "url": "2026-05-14--they-wanted-a-bad-guy-so-i-became-one-ryan-garcia.html",
@@ -40,6 +51,17 @@ var posts = [
     "excerpt": "<p># Key Insights - The Senate confirmed Kevin Warsh as Federal Reserve Chair on May 14 by a **54-45 vote**, replacing Jerome Powell \u2014 but Powell immediately announced he would remain on the Fed's Boa",
     "tags": [
       "News"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "Andrew Wilkinson: AI Agents run my business and life",
+    "url": "2026-05-14-andrew-wilkinson-ai-agents-run-my-business-and-lif.html",
+    "category": "Business/Startups",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[33:49\u201335:16]</strong> <em>Personal AI Tools and Productivity Stack</em> \u2014 The guest shows his personal AI setup including a wearable ",
+    "tags": [
+      "Business/Startups"
     ],
     "type": "podcast"
   },
