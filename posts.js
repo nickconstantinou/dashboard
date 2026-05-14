@@ -1,5 +1,170 @@
 var posts = [
   {
+    "date": "May 14, 2026",
+    "title": "\"They Wanted A Bad Guy, So I Became One\" - Ryan Garcia - #1097",
+    "url": "2026-05-14--they-wanted-a-bad-guy-so-i-became-one-ryan-garcia.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p>**Key Insights** - Ryan began boxing at 7 years old, was homeschooled at 15\u201316 to pursue it full-time, and compiled 125 amateur fights by fighting nearly every weekend throughout his youth - He des",
+    "tags": [
+      "Self-help/Society"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "268: Boy Brain Ft. ShxtsnGigs",
+    "url": "2026-05-14-268-boy-brain-ft-shxtsngigs-.html",
+    "category": "Comedy/Relationships",
+    "excerpt": "<p>## Key Insights - **Predatory Age Gap Pattern**: The 22-year-old woman dating a 36-year-old man (a 14-year gap) represents a documented power imbalance where older partners deliberately seek younge",
+    "tags": [
+      "Comedy/Relationships"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "A New Leader \u2014 and a New Showdown \u2014 at the Fed",
+    "url": "2026-05-14-a-new-leader-and-a-new-showdown-at-the-fed.html",
+    "category": "News",
+    "excerpt": "<p># Key Insights - The Senate confirmed Kevin Warsh as Federal Reserve Chair on May 14 by a **54-45 vote**, replacing Jerome Powell \u2014 but Powell immediately announced he would remain on the Fed's Boa",
+    "tags": [
+      "News"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "Essentials: Understanding & Controlling Aggression",
+    "url": "2026-05-14-essentials-understanding-controlling-aggression.html",
+    "category": "Health/Science",
+    "excerpt": "<p># Understanding & Controlling Aggression: A Neuroscience Deep-Dive --- ## Key Insights - **The ventromedial hypothalamus (VMH) contains only ~3,000 neurons total (~1,500 per side)** that are suffic",
+    "tags": [
+      "Health/Science"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "FPL Gameweek 37 team news: Thursday\u2019s live injury updates",
+    "url": "2026-05-14-fpl-gameweek-37-team-news-thursdays-live-injury-up.html",
+    "category": "FPL",
+    "excerpt": "# FPL Gameweek 37 Team News: Thursday's Live Injury Updates Thursday's press conferences brought mixed news across the Premier League, with Arsenal providing the most substantial updates while other c",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "FPL notes: Pep on rotation, no O\u2019Reilly + Semenyo up top",
+    "url": "2026-05-14-fpl-notes-pep-on-rotation-no-oreilly-semenyo-up-to.html",
+    "category": "FPL",
+    "excerpt": "# FPL Notes: Pep on Rotation, No O'Reilly + Semenyo Up Top ## Manchester City Rotation in Gameweek 36 Pep Guardiola made six changes in Gameweek 36, with one eye on the two games that follow. The heav",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "Future of holograms, brain signal playback, smell, and touch in multimedia software | Lex Fridman",
+    "url": "2026-05-14-future-of-holograms-brain-signal-playback-smell-an.html",
+    "category": "AI/Tech",
+    "excerpt": "# The Future of Multimedia: Holograms, Brain-Computer Interfaces, and the Evolution of VLC **Key Insights** - FFmpeg will likely persist 100 years from now, while VLC's survival is less certain\u2014the di",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "How FFmpeg works - explained by FFmpeg & VLC developers | Lex Fridman Podcast",
+    "url": "2026-05-14-how-ffmpeg-works-explained-by-ffmpeg-vlc-developer.html",
+    "category": "AI/Tech",
+    "excerpt": "# How FFmpeg Works: Inside the Tool Powering the Modern Video Internet ## Key Insights - **FFmpeg is embedded in virtually every video application**: From VLC to Chrome to smart TVs, the same low-leve",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "OBGYN Baaaaby",
+    "url": "2026-05-14-obgyn-baaaaby.html",
+    "category": "AI/Tech",
+    "excerpt": "<p># OBGYN Baaaaby: A Conversation with Jessica, OB-GYN ## Key Insights - **Delayed cord clamping** is standard practice \u2014 Jessica explains that after birth, the baby is placed on the mother's abdomen",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "Origins Vol. II",
+    "url": "2026-05-14-origins-vol-ii.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[10:12\u201313:40]</strong> <em>Manga to Squid Game: A Decade of Rejection</em> \u2014 A struggling unemployed man in Seoul finds escape in mang",
+    "tags": [
+      "Mystery/Suspense"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "Penultimate Push | #FPL GW37",
+    "url": "2026-05-14-penultimate-push-fpl-gw37.html",
+    "category": "FPL",
+    "excerpt": "# Penultimate Push: FPL GW37 Preview ## Looking Ahead to Gameweek 37 As the season approaches its climax, Fantasy Premier League managers face crucial decisions for the penultimate gameweek. The conve",
+    "tags": [
+      "FPL"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "The $200 Billion Shadow Market Behind Anthropic's Stock | Dio Casares",
+    "url": "2026-05-14-the-200-billion-shadow-market-behind-anthropics-st.html",
+    "category": "Crypto/Web3",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[36:40\u201340:00]</strong> <em>Fraud, Scams, and Vehicle Risk in Private Markets</em> \u2014 The private secondary market contains significant ",
+    "tags": [
+      "Crypto/Web3"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "UFO Roundtable: CIA Physicist Proves Aliens Exist",
+    "url": "2026-05-14-ufo-roundtable-cia-physicist-proves-aliens-exist.html",
+    "category": "Business/Interview",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[66:00\u201368:40]</strong> <em>UAP Evidence: Recoveries, Sightings, and Capabilities</em> \u2014 Former special forces personnel describe multi",
+    "tags": [
+      "Business/Interview"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "FPL Daily Roundup \u2014 2026-05-14",
+    "url": "2026-05-14-fpl-daily-roundup-gw.html",
+    "category": "FPL Roundups",
+    "excerpt": "2026-05-14 \u2022 FPL Roundups",
+    "tags": [
+      "FPL Roundups"
+    ],
+    "type": "roundup"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "669. Greece vs. Persia: The Battle of Marathon (Part 2)",
+    "url": "2026-05-13-669-greece-vs-persia-the-battle-of-marathon-part-2.html",
+    "category": "History",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[9:10\u201311:20]</strong> <em>The Battle of Marathon</em> \u2014 The Athenians thin their center while strengthening the wings, executing a tac",
+    "tags": [
+      "History"
+    ],
+    "type": "podcast"
+  },
+  {
     "date": "May 13, 2026",
     "title": "AI Populism: Warning Shots Before 2028 | Jasmine Sun",
     "url": "2026-05-13-ai-populism-warning-shots-before-2028-jasmine-sun.html",
@@ -7,6 +172,17 @@ var posts = [
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[30:50\u201333:40]</strong> <em>AI Impact on Jobs and the Labor Market</em> \u2014 The discussion contrasts AI's unprecedented adoption with cry",
     "tags": [
       "Crypto/Web3"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Emergency Podcast: Why Britain's Political Turmoil Will End In Crisis",
+    "url": "2026-05-13-emergency-podcast-why-britains-political-turmoil-w.html",
+    "category": "Finance",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[8:21\u20138:52]</strong> <em>UK Government Debt and Spending Crisis</em> \u2014 The podcast discusses how UK government debt interest payments ",
+    "tags": [
+      "Finance"
     ],
     "type": "podcast"
   },
@@ -78,6 +254,28 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
+    "title": "Linus Torvalds built Git in 10 days | Lex Fridman Podcast",
+    "url": "2026-05-13-linus-torvalds-built-git-in-10-days-lex-fridman-po.html",
+    "category": "AI/Tech",
+    "excerpt": "# The Power of Individual Vision: How Passion Projects Transform Software and the World ## Key Insights - **Linus Torvalds built Git in approximately two weeks**, a tool that fundamentally transformed",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "Man City v Palace team news: Haaland, Cherki + Doku subs, no O\u2019Reilly",
+    "url": "2026-05-13-man-city-v-palace-team-news-haaland-cherki-doku-su.html",
+    "category": "FPL",
+    "excerpt": "# Man City v Crystal Palace: Team News and Lineups Confirmed **Match Overview** The Premier League fixture between Manchester City and Crystal Palace is set to kick off at 20:00 BST at the Etihad Stad",
+    "tags": [
+      "FPL"
+    ],
+    "type": "blog"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "Memory Could Be the Last Great Investment of this AI Cycle",
     "url": "2026-05-13-memory-could-be-the-last-great-investment-of-this-.html",
     "category": "AI/Tech",
@@ -111,12 +309,45 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
+    "title": "\u201cThe Biggest Android Update Ever\u201d",
+    "url": "2026-05-13-the-biggest-android-update-ever.html",
+    "category": "Tech",
+    "excerpt": "## Key Insights - **Enhanced Autofill Intelligence**: Android 17's autofill will now parse information from Gmail, Wallet, Photos, and other Google services\u2014down to extracting passport numbers from ph",
+    "tags": [
+      "Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "The controversial FFmpeg and Libav split saga explained | Lex Fridman Podcast",
+    "url": "2026-05-13-the-controversial-ffmpeg-and-libav-split-saga-expl.html",
+    "category": "AI/Tech",
+    "excerpt": "## Key Insights - **The 2011 FFmpeg/Libav split** was driven by disagreements over project governance, leadership style, and development processes\u2014not fundamental technical disagreements\u2014eventually re",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 13, 2026",
     "title": "The Smartest Move You\u2019re Not Making on Your Mortgage",
     "url": "2026-05-13-the-smartest-move-youre-not-making-on-your-mortgag.html",
     "category": "Finance",
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[21:54\u201324:33]</strong> <em>UK Property Market Three-Tier Analysis</em> \u2014 Analyzes the property market in three segments: super prime L",
     "tags": [
       "Finance"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 13, 2026",
+    "title": "The Universal Code: Crypto\u2019s Next Big Move with Raoul Pal | Sui Live Miami 2026",
+    "url": "2026-05-13-the-universal-code-cryptos-next-big-move-with-raou.html",
+    "category": "Crypto/Finance",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[4:40\u20137:00]</strong> <em>The Agent Economy: AI Transformation by 2030</em> \u2014 Pal predicts that by 2030, most workers will be AI agents",
+    "tags": [
+      "Crypto/Finance"
     ],
     "type": "podcast"
   },
