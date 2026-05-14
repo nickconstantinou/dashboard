@@ -111,6 +111,28 @@ var posts = [
   },
   {
     "date": "May 14, 2026",
+    "title": "The Future of Art Is Interactive",
+    "url": "2026-05-14-the-future-of-art-is-interactive.html",
+    "category": "Crypto/Finance",
+    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[62:20\u201365:00]</strong> <em>NFT Discovery and Blockchain Art Career</em> \u2014 Kaldi recounts discovering blockchain in 2017 through podcas",
+    "tags": [
+      "Crypto/Finance"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
+    "title": "The insane difficulty of reverse engineering video codecs | Lex Fridman Podcast",
+    "url": "2026-05-14-the-insane-difficulty-of-reverse-engineering-video.html",
+    "category": "AI/Tech",
+    "excerpt": "# The Insane Difficulty of Reverse Engineering Video Codecs ## Key Insights - **Scale of complexity**: A 1 megabyte binary blob requires \"order of magnitude a month of work\" to reverse engineer\u2014yet le",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 14, 2026",
     "title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
     "url": "2026-05-14-this-week-in-ai-googles-ai-laptop-everyone-goes-to.html",
     "category": "AI/Tech",
