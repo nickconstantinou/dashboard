@@ -3,9 +3,9 @@ title: How FFmpeg works - explained by FFmpeg & VLC developers | Lex Fridman Pod
 date: '2026-05-14'
 type: youtube
 category: AI/Tech
-video_id: HmmRNrNFV88
 channel: Lex Fridman
 video_url: https://www.youtube.com/watch?v=HmmRNrNFV88
+video_id: HmmRNrNFV88
 ---
 
 # How FFmpeg Works: Inside the Tool Powering the Modern Video Internet

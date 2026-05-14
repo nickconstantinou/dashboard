@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>How FFmpeg works - explained by FFmpeg & VLC developers | Lex Fridman Podcast | Nick's Blog</title>
+  <meta name="description" content="Lex Fridman — AI/Tech">
+  <meta property="og:title" content="How FFmpeg works - explained by FFmpeg & VLC developers | Lex Fridman Podcast">
+  <meta property="og:description" content="Lex Fridman — AI/Tech">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,34 +70,28 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • AI/Tech</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/HmmRNrNFV88" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <h1>How FFmpeg Works: Inside the Tool Powering the Modern Video Internet</h1>
-
-<h2>Key Insights</h2>
-
-<li><strong>FFmpeg is embedded in virtually every video application</strong>: From VLC to Chrome to smart TVs, the same low-level libraries (libavcodec, libavformat, libavfilter) process virtually all video consumed online — meaning a grandmother's home videos and billion-dollar corporate productions rely on identical technology.</li>
-<li><strong>The command line functions as a complete programming language</strong>: FFmpeg commands can grow to thousands of characters, with AI tools now emerging specifically to help users generate these complex pipelines — a testament to how deep the customization capabilities go.</li>
-<li><strong>Democratization happened within a single generation</strong>: In the 1990s, video compression equipment cost hundreds of thousands of dollars and was "the size of a car." Today, everyone has equivalent power essentially for free through FFmpeg.</li>
-<li><strong>The open source model mirrors sharing a recipe plus the oven blueprints</strong>: Unlike buying a finished cheesecake, open source provides the recipe, instructions to build the tools to make it, and permission to modify and resell the result — because software is fundamentally just "a very long recipe of small instructions" that computers execute rapidly.</li>
-<li><strong>FFmpeg achieves what Photoshop does for images, but entirely on the command line</strong>: While no command-line equivalent exists for image editing on the scale of Photoshop, FFmpeg delivers that full breadth of professional capabilities for video processing — filters, layering, caption burning, audio crossfades, all codec-agnostic.</li>
-
-<p>---</p>
-
-<h2>Introduction</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · AI/Tech</p>
+        <div class="video-hero">
+          <div class="source-label">Lex Fridman</div>
+          <h1>How FFmpeg works - explained by FFmpeg & VLC developers | Lex Fridman Podcast</h1>
+          <p class="subtitle">In a conversation that illuminates the invisible infrastructure powering modern digital life, Lex Fridman sits down with developers behind two of the most foundational tools in med…</p>
+        </div>
+        <div class="video-wrapper">
+          <iframe id="youtube-player" src="https://www.youtube.com/embed/HmmRNrNFV88?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="segments-section"></div>
+          <script type="application/json" id="segment-data">
+[]
+  </script>
+        <h2>Introduction</h2>
 
 <p>In a conversation that illuminates the invisible infrastructure powering modern digital life, Lex Fridman sits down with developers behind two of the most foundational tools in media technology: FFmpeg and VLC. The discussion cuts to the heart of how video processing became accessible to billions of people, transforming from a domain requiring hundreds of thousands of dollars in specialized equipment into something anyone can do with a free command-line tool running on a laptop.</p>
 
 <p>FFmpeg represents something rare in the software world: a project that has maintained a coherent vision for many years while achieving true ubiquitous adoption. It is the technical backbone that processes video from the moment it's uploaded to a platform like YouTube through playback on a viewer's device — yet most users have never heard its name. The developers explain that this anonymity is precisely the point. Their mission, shared across both FFmpeg and VLC, is to make the extraordinarily complex transparently simple, to build tools so robust that users "drop a file" and watch it work without ever confronting the labyrinthine engineering beneath.</p>
 
 <p>This conversation matters because it reveals the philosophical foundation beneath nearly every video experienced on the internet. The democratization of video technology — enabling the podcast revolution, the YouTube economy, TikTok, and the broader creator economy — traces directly to these open-source projects. Understanding FFmpeg means understanding why a teenager with a laptop can produce content that would have required a million-dollar broadcast facility thirty years ago.</p>
-
-<p>---</p>
 
 <h2>Key Concepts & Arguments</h2>
 
@@ -117,8 +143,6 @@
 
 <p>The conversation also notes the broader trend of media evolution: "everything move from text to images and images to video." Video has become "the most powerful medium there is," driving the success of platforms like YouTube Shorts, Instagram Reels, and TikTok. FFmpeg sits at the foundation of this transformation, processing and delivering that video content to billions of viewers.</p>
 
-<p>---</p>
-
 <h2>Detailed Takeaways</h2>
 
 <p><strong>The Ubiquitous but Invisible Foundation</strong>: FFmpeg's greatest achievement is its own invisibility. When someone watches a video on their phone, streams content through their smart TV, or records a podcast using OBS, FFmpeg is operating somewhere in the pipeline — yet users never interact with it directly. This represents the ideal outcome for infrastructure software: it becomes so reliable and so seamlessly integrated that its existence goes unnoticed. The takeaway is that excellence in technical tools often manifests as disappearance — the best systems don't call attention to themselves.</p>
@@ -131,8 +155,6 @@
 
 <p><strong>Complexity Management as Core Philosophy</strong>: The consistent thread through both FFmpeg and VLC development is the commitment to managing complexity for users. Both projects could have built more features, more configuration options, more power for expert users — but they chose instead to make existing capabilities work seamlessly. This philosophy explains their longevity and adoption. The takeaway is that for tools intended for mass adoption, the measure of quality is not how much users can do, but how easily they can do what they need.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This conversation holds particular value for <strong>software developers and technical content creators</strong> who want to understand the infrastructure beneath video processing. If you've ever used FFmpeg without fully appreciating why it exists or how it became so ubiquitous, this discussion provides essential context. You'll gain appreciation for why open-source development matters and how foundational tools can enable entire industries.</p>
@@ -144,13 +166,52 @@
 <p><strong>Anyone who watches video online</strong> benefits indirectly from understanding how their media arrives reliably and at high quality. FFmpeg's invisible work enables the modern internet experience — knowing something about this foundation enriches understanding of how digital media infrastructure actually functions.</p>
 
 <p>What this conversation does not cover are the deep technical details of specific codecs or FFmpeg's internal architecture. The speakers focus on philosophy, history, and high-level functionality rather than implementation specifics. For readers seeking code-level understanding, additional resources would be needed.</p>
-      
-    </article>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    var ytPlayer = null;
+    function onYouTubeIframeAPIReady() {
+      ytPlayer = new YT.Player('youtube-player');
+    }
+    var section = document.getElementById('segments-section');
+    var cards = JSON.parse(document.getElementById('segment-data').textContent);
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    if (cards.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      cards.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === "estimated" ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(seg.start_seconds, true);
+            ytPlayer.playVideo();
+          }
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+  </script>
 </body>
 </html>

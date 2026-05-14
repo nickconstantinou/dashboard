@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Origins Vol. II | Nick's Blog</title>
+  <meta name="description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:title" content="Origins Vol. II">
+  <meta property="og:description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,43 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Mystery/Suspense</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/dloY8UYJ" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[10:12–13:40]</strong> <em>Manga to Squid Game: A Decade of Rejection</em> — A struggling unemployed man in Seoul finds escape in manga, writes a violent story about poor people fighting to the death for money, and gets rejected for ten years until it becomes Squid Game, generating $900 million for the production company and earning its creator an Emmy.</li>
-<li><strong>[0:00–10:12]</strong> <em>Young Musician Sneaks Into Hollywood Mansion, Becomes Successful Artist</em> — A young woman named Rose drives to a Hollywood Hills mansion and bribes the gardener $5 to gain entry, hoping to pitch her music career. After exploring the empty home and escaping security, her music career takes off, earning her multi-platinum status and over 100 million records sold worldwide.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">entertainment industry</span> <span class="signal-tag">persistence</span> <span class="signal-tag">creative success</span> <span class="signal-tag">music industry</span> <span class="signal-tag">celebrity home</span> <span class="signal-tag">break-in</span> <span class="signal-tag">success story</span> <span class="signal-tag">creative inspiration</span> <span class="signal-tag">poverty</span> <span class="signal-tag">success after failure</span></p>
-</div></p>
-
-<p><p># Origins Vol. II: Four Stories of Ordinary People Whose Single Decisions Changed Millions of Lives</p>
-
-<h2>Key Insights</h2>
-
-<li><strong>Hwang Dong-hyuk</strong> conceptualized *Squid Game* inside a Seoul manga cafe in 2009 after being inspired by the manga *Battle Royale* while living in poverty—his family couldn't afford rent, and he had sold his laptop just to avoid eviction</li>
-<li>The show took <strong>12 years</strong> from initial concept to premiere, with Hwang facing <strong>10 consecutive years of rejection</strong> from every buyer who called his pitch "too weird" and "too violent"</li>
-<li>When *Squid Game* premiered in 2021, it generated <strong>$900 million</strong> for its production company and earned Hwang an Emmy award</li>
-<li>The core creative breakthrough came from combining two elements: the violent death-game premise from *Battle Royale* with Hwang's <strong>firsthand experience of poverty and desperation</strong>—he understood viscerally what desperate people would do for money</li>
-<li>Rich, the hospitalized British boy with tuberculosis, spent <strong>1.5 years practicing drums on makeshift knitting needle sticks</strong> found in a hospital closet before he could afford his own drum kit</li>
-
-<p>---</p>
-
-<h2>Introduction</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Mystery/Suspense</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="MrBallen Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">MrBallen Podcast</div>
+            <h1>Origins Vol. II</h1>
+            <p class="subtitle">Every transformative idea begins somewhere unremarkable—a cramped manga cafe in Seoul, a children's hospital ward in England, perhaps a stage waiting to be conquered or a moment of…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/369bdf58-7db2-47f2-927b-4c18dfc3f110/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=369bdf58-7db2-47f2-927b-4c18dfc3f110&feed=dloY8UYJ" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
 
 <p>Every transformative idea begins somewhere unremarkable—a cramped manga cafe in Seoul, a children's hospital ward in England, perhaps a stage waiting to be conquered or a moment of personal collapse that precedes a breakthrough. The second volume of the *Origins* podcast series by Soft White Underbelly explores this fundamental truth through four unrelated stories united by a single theme: ordinary people who made one critical decision that cascaded into consequences affecting millions of lives across the globe.</p>
 
 <p>The first story, "The Debt Game," follows a Korean writer named Hwang Dong-hyuk as he navigates crushing poverty in 2009 Seoul, eventually channeling his desperation into what would become one of the most successful television productions in history. The second story, "Hospital Rhythms," traces the journey of a sickly British teenager named Rich who discovered his lifelong passion for drumming while confined to a tuberculosis ward, setting him on a path that would eventually make him a celebrated musician. Together, these narratives reveal how circumstances of profound difficulty can become the crucible for extraordinary achievement—not despite hardship, but because of it.</p>
 
 <p>What emerges from these stories is a deeper understanding of creativity, persistence, and the invisible threads connecting personal suffering to universal art. The question is not whether talent matters, but rather: what happens when talent meets genuine desperation, and how long must someone wait for the world to catch up to their vision?</p>
-
-<p>---</p>
 
 <h2>The Debt Game: How Poverty Became the Fuel for a Global Phenomenon</h2>
 
@@ -121,8 +140,6 @@
 <p>The manga that had inspired it all—*Battle Royale*—remained violent, extreme, and controversial. But Hwang had accomplished something different. He had taken the death-game concept from that manga and merged it with something profoundly personal: his genuine experience of poverty and the desperate financial decisions that accompanied it. Poor people fighting to the death for money was not merely a fictional premise; it was an artistic representation of the survival logic that had governed his own existence during those terrible years.</p>
 
 <p>The lesson embedded in Hwang's story is not simply about persistence, though persistence clearly mattered. It is about the unique creative power that emerges when an artist draws directly from authentic experience. Hwang could not have written *Squid Game* if he had not lived the desperation that made its premise feel true. The suffering was not separate from the art—it was the foundation upon which the art was built.</p>
-
-<p>---</p>
 
 <h2>Hospital Rhythms: A Sick Boy Discovers His Calling</h2>
 
@@ -172,8 +189,6 @@
 
 <p>The hospital ward where Rich had discovered his passion, the makeshift drumsticks fashioned from knitting needles, the years of practicing while holding down factory jobs—all of it had been preparation for this moment. The stepfather who had sacrificed in secret had given his stepson not just a Christmas present but a future.</p>
 
-<p>---</p>
-
 <h2>Detailed Takeaways</h2>
 
 <h3>1. Personal Suffering Creates Authentic Creative Vision</h3>
@@ -194,14 +209,84 @@
 
 <h3>5. Passion Does Not Require Permission or Permission</h3>
 
-<p>Rich demanded the drums when the teacher distributed instruments. He did not ask tentatively or accept whatever was offered. He knew what he wanted, and he pursued it without waiting for external validation. Hwang likewise pursued his vision for ten years despite</p></p>
-      
-    </article>
+<p>Rich demanded the drums when the teacher distributed instruments. He did not ask tentatively or accept whatever was offered. He knew what he wanted, and he pursued it without waiting for external validation. Hwang likewise pursued his vision for ten years despite</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_title": "Manga to Squid Game: A Decade of Rejection",
+    "summary": "A struggling unemployed man in Seoul finds escape in manga, writes a violent story about poor people fighting to the death for money, and gets rejected for ten years until it becomes Squid Game, generating $900 million for the production company and earning its creator an Emmy.",
+    "start_seconds": 612,
+    "end_seconds": 820,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Young Musician Sneaks Into Hollywood Mansion, Becomes Successful Artist",
+    "summary": "A young woman named Rose drives to a Hollywood Hills mansion and bribes the gardener $5 to gain entry, hoping to pitch her music career. After exploring the empty home and escaping security, her music career takes off, earning her multi-platinum status and over 100 million records sold worldwide.",
+    "start_seconds": 0,
+    "end_seconds": 612,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Squid Game Origin: A Struggling Man's Creative Breakthrough",
+    "summary": "A man in Seoul struggling with poverty and debt finds escape reading manga at a cafe. He has an epiphany to write his own story inspired by his favorite series. After years of rejection, a major studio finally picks up Hwang Dong hyuk's script, and Squid Game becomes a global phenomenon.",
+    "start_seconds": 1224,
+    "end_seconds": 1440,
+    "timing_quality": "estimated"
+  }
+]
+</script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

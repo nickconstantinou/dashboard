@@ -3,32 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> "They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097 | Nick's Blog</title>
+  <title>"They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097 | Nick's Blog</title>
+  <meta name="description" content="Modern Wisdom — Self-help/Society">
+  <meta property="og:title" content=""They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097">
+  <meta property="og:description" content="Modern Wisdom — Self-help/Society">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,22 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Self-help/Society</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/SIXMSB1114158113.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><p><strong>Key Insights</strong></p>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Self-help/Society</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Modern Wisdom">
+          <div class="podcast-hero-text">
+            <div class="source-label">Modern Wisdom</div>
+            <h1>"They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097</h1>
+            <p class="subtitle">Ryan Garcia has never been shy about sharing the complexities of his inner life. The undefeated lightweight contender — who captured the WBC interim lightweight title with a stunni…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/traffic.megaphone.fm/SIXMSB1114158113.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <p><strong>Key Insights</strong></p>
 
 <li>Ryan began boxing at 7 years old, was homeschooled at 15–16 to pursue it full-time, and compiled 125 amateur fights by fighting nearly every weekend throughout his youth</li>
 <li>He describes fighting in a flow state where he "isn't thinking but thinking" — relying on instinct and cues rather than conscious calculation, yet uses mantras like "stay focused" during combat</li>
 <li>Elite performers often cannot fully recall their peak moments because the mental state optimized for execution (flow) is inherently incompatible with memory formation</li>
 <li>During an exceptionally difficult period (child custody dispute, mother's cancer diagnosis, and divorce occurring simultaneously), Ryan coped by self-medicating with alcohol and engaging in self-destructive behavior — a pattern he calls "let's make it all worse"</li>
 <li>He won a controversial fight against Devin Haney while in the midst of this personal crisis, a result he acknowledges he cannot explain or replicate: "There's no way that could ever be replicated"</li>
-
-<p>---</p>
 
 <p><strong>Introduction</strong></p>
 
@@ -62,8 +102,6 @@
 <p>The discussion ranges from the mechanics of what happens inside a boxing ring — specifically, the counterintuitive relationship between thinking and performing — to the spiritual underpinnings that Garcia credits with guiding his path. He reflects on sacrifice with a clarity that suggests both acceptance and lingering ambivalence: he never experienced a conventional childhood, and while he doesn't regret his trajectory, he acknowledges that the absence of normal teenage experiences made him vulnerable to mistakes in his twenties when fame and money arrived. "You wanna make teenage mistakes when you're a teenager, not when you're in your twenties," he observes with striking directness.</p>
 
 <p>The conversation also ventures into territory that Garcia rarely discusses publicly: his darkest recent period, when multiple crises converged and he found himself relying on alcohol and self-destructive patterns to cope. Rather than softening this narrative, he presents it plainly — the logic of a person who felt everything collapsing and decided, consciously or not, to accelerate the collapse. The result is an interview that functions as both a window into the mind of a young elite athlete and a broader meditation on what it costs to pursue mastery in any domain.</p>
-
-<p>---</p>
 
 <p><strong>The Paradox of Thinking and Performing</strong></p>
 
@@ -75,8 +113,6 @@
 
 <p>This leads Ryan to a broader observation about the nature of elite performance across disciplines. He reflects on meeting musicians, comedians, and athletes who describe their best moments in terms that mirror his own experience: moments when everything seemed to flow, when the self fell away, when execution felt effortless. "That's what people want to get to," he says. "It's really enjoyable. It's where your performance is at its best." He seems genuinely fascinated by this convergence, noting that performers as different as comedians and heavyweight boxers describe the same subjective quality when operating at their ceiling. He wonders aloud whether many elite performers look back on their careers and feel grateful for video documentation, since they themselves weren't fully present for their own greatest moments.</p>
 
-<p>---</p>
-
 <p><strong>The Architecture of Sacrifice</strong></p>
 
 <p>Ryan's childhood was defined entirely by boxing. Beginning at seven years old, he trained daily under his father's supervision and competed almost every weekend, compiling the kind of amateur record — 125 fights — that speaks to both talent and relentless commitment. Around the age of fifteen, he was homeschooled specifically to allow more time for the sport. This was not a sacrifice his parents imposed lightly, nor was it one Ryan resented at the time. He describes those tournament weekends as the moments when he experienced something resembling a normal childhood: "Hanging out with all the kids, to me, that was the moment I had a little bit of childhood and fun." The community of youth boxing provided a social outlet within an otherwise singular existence.</p>
@@ -87,8 +123,6 @@
 
 <p>The host observes that Ryan seems unusually reflective for a twenty-six-year-old athlete — "You seem very regulated today" — and Ryan accepts the compliment with characteristic humor. He attributes this composure to hard-won lessons: "I told you I had to learn a lot." The regulated state, it becomes clear, is not his default setting but the product of deliberate work on himself.</p>
 
-<p>---</p>
-
 <p><strong>The Weight of Predestination</strong></p>
 
 <p>Ryan's entry into boxing was not accidental. His uncle, who competed at the national level as an amateur, made a quiet but insistent declaration after each child in the family was born: "This is gonna be the one." Ryan describes watching his uncle reject cousin after cousin as potential heirs to the family's boxing ambitions until Ryan himself arrived. "When I was born, he was like, alright. That's the one." Ryan acknowledges this sounds almost mythological, and the host jokes that it reads like manipulation designed to program him — but Ryan seems to accept the narrative as genuinely formative rather than coercive. He describes having always internalized a sense of destiny: "I was always that guy. On birth."</p>
@@ -96,8 +130,6 @@
 <p>His father also had boxing experience, though Ryan clarifies that his uncle was the more accomplished competitor. The combined weight of a father's unfulfilled ambitions and an uncle's partly realized ones created a specific kind of pressure — what Ryan describes as "the hunger games inside of a single family." He still feels this pressure today, though he has learned to channel it rather than be crushed by it. He dedicated his first world title fight to his father, specifically wanting to win "for him." This dynamic — boxing as a vehicle for honoring family sacrifice while also defining one's own identity — threads through his entire career.</p>
 
 <p>Over time, Ryan's reasons for boxing have evolved. He was initially "in love with the game," but the motivation deepened into something he describes as a "spiritual journey" where he feels guided by forces he cannot fully explain. He speaks of "little nudges here or there" that he has learned to trust — a intuition that signals the right path even when logic doesn't support it. "Every time I followed it, good things happen," he explains, noting that this sometimes means accepting outcomes that aren't immediately favorable. Boxing, for Ryan, has become a practice of following an invisible thread rather than pursuing a purely rational goal. "That's like actually the only reason why I box. It's just because it's always that's what's in me right now."</p>
-
-<p>---</p>
 
 <p><strong>The Unraveling</strong></p>
 
@@ -109,8 +141,6 @@
 
 <p>The host presses him on the Devin Haney fight specifically: if he had lost that night, would the spiral have been worse, or might an earlier defeat have snapped him out of it sooner? Ryan admits he has no idea. "I should have lost," he acknowledges. "There's no way there's no way that could ever be replicated." He reflects on the fight now with a mixture of disbelief and cautionary wisdom, having told young boxers who wanted to emulate his risky approach: "I'm sorry. It's a high risk strategy. It's not the right one. Don't do it." To this day, he cannot fully explain how he managed to win that fight during such a tumultuous personal period — the timelines in his memory remain "mashed" together, another symptom of the disorientation he was experiencing.</p>
 
-<p>---</p>
-
 <p><strong>The Humbling and the Recovery</strong></p>
 
 <p>Ryan describes the resolution of this period not as a dramatic awakening but as a gradual confrontation with his own limits. He frames it in the language he now uses to describe his entire philosophy: "Your body is literally a temple, and what you put in it is just as important as what you put out." This principle, he says, represents something he learned the hard way — through a period when his body began to fail him in ways he couldn't ignore. "Usually, when I was younger, man, I could put obviously anything in my body and bounce back from it," he recalls. "You made of rubber and magic. You can bounce back." But those days are over. "God will humble you real quick."</p>
@@ -118,8 +148,6 @@
 <p>He uses an analogy that captures his new ethos: Superman, he points out, is only invulnerable when he has the right fuel. The Kryptonite that can defeat him is already present, waiting for the wrong inputs. "You put the wrong oil in the car. I don't care if you have a Ferrari, if you — you know — it's not gonna go." This isn't just about nutrition or abstinence from alcohol, though those are components. It's about a broader recognition that his body is a system requiring proper maintenance, and that his previous assumption of invincibility was always an illusion.</p>
 
 <p>Ryan expresses gratitude, in a qualified way, for the crash itself. "I think a crash out was coming sooner or later anyways," he says. "So kinda glad it happened a little earlier." The humbling, painful as it was, arrived before the damage became irreversible. He is not proud of who he was during that period — "It's hard. No. I'm not [proud]" — but he has made peace with its occurrence as a necessary chapter in his development. The self-destructive episode, in retrospect, was a form of accelerated learning: some lessons arrive gently, and some arrive by destroying everything around you until you stop and pay attention.</p>
-
-<p>---</p>
 
 <p><strong>Detailed Takeaways</strong></p>
 
@@ -141,18 +169,64 @@ Ryan's "temple" metaphor represents a maturation beyond the youthful assumption 
 <p><strong>High-Risk Strategies Cannot Be Replicated</strong>
 Ryan's advice to young boxers not to emulate his Haney victory reflects hard-won wisdom. When an outcome depends on factors outside conscious control — and occurs while the performer is in a compromised state — it cannot serve as a reliable template. What works under crisis rarely works under preparation, and treating anomalous success as a repeatable strategy is a path to catastrophic failure.</p>
 
-<p>---</p>
-
 <p><strong>Who This Is For</strong></p>
 
-<p>This conversation will resonate most with individuals navigating the intersection of ambition, identity, and personal crisis — particularly young athletes, performers in any high-pressure domain, and anyone who has experienced</p></p>
-      
-    </article>
+<p>This conversation will resonate most with individuals navigating the intersection of ambition, identity, and personal crisis — particularly young athletes, performers in any high-pressure domain, and anyone who has experienced</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

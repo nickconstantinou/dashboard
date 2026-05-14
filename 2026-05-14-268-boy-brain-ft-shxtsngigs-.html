@@ -3,32 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>268: Boy Brain Ft. ShxtsnGigs  | Nick's Blog</title>
+  <title>268: Boy Brain Ft. ShxtsnGigs | Nick's Blog</title>
+  <meta name="description" content="Two Hot Takes — Comedy/Relationships">
+  <meta property="og:title" content="268: Boy Brain Ft. ShxtsnGigs">
+  <meta property="og:description" content="Two Hot Takes — Comedy/Relationships">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,32 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Comedy/Relationships</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/GLT7757583208.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><p>## Key Insights</p>
-
-<li><strong>Predatory Age Gap Pattern</strong>: The 22-year-old woman dating a 36-year-old man (a 14-year gap) represents a documented power imbalance where older partners deliberately seek younger, more malleable individuals—Fuhad observes he "wanted to find someone he could try and manipulate" to feel like "the alpha of the relationship"</li>
-<li><strong>Psychological Insecurity Cycle</strong>: The boyfriend's behavior follows a classic manipulation pattern—instilling insecurity through insults ("you're not the prettiest girl I've been with"), then immediately pivoting to requests that serve his desires (the threesome proposal), essentially "knocking her down when she's already down" before attempting to "balance the scales"</li>
-<li><strong>Linguistic Regional Differences</strong>: "Homely" carries opposing meanings across English variants—American English describes someone as plain or unattractive, while British English means cozy or comfortable—illustrating how even common vocabulary can fundamentally misrepresent intent</li>
-<li><strong>Host Personal History Context</strong>: The podcast hosts share their own financial struggles at age 22—James was making £370/week as a personal trainer and bartender, Fuhad was earning approximately $1,500/month as a reserve flight attendant on a small Minnesota airline—grounding the discussion in relatable economic reality</li>
-<li><strong>Product Integration</strong>: The sponsors (Barilla's scarpetta concept, Vanity Fair's breathable luxe bra at Kohl's, State Farm's bundling program) demonstrate the commercial structure of long-running podcast formats, with each sponsor receiving thematic integration into the conversational flow</li>
-
-<p>---</p>
-
-<h2>Introduction</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Comedy/Relationships</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Two Hot Takes">
+          <div class="podcast-hero-text">
+            <div class="source-label">Two Hot Takes</div>
+            <h1>268: Boy Brain Ft. ShxtsnGigs</h1>
+            <p class="subtitle">The relationship dynamics that emerge from modern dating app culture continue to generate compelling—and often troubling—material for discussion, and Episode 268 of this long-runni…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://traffic.megaphone.fm/GLT7757583208.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
 
 <p>The relationship dynamics that emerge from modern dating app culture continue to generate compelling—and often troubling—material for discussion, and Episode 268 of this long-running podcast tackles one of the most persistent patterns in contemporary relationships: the age-gap power imbalance wrapped in manipulation tactics. The host, joined by James and Fuhad from the UK comedy duo Shits and Gigs, dedicates this episode to exploring what they collectively label "boy brain"—the inexplicable thought patterns and behaviors some men exhibit in romantic relationships that leave their partners questioning their own worth.</p>
 
 <p>The episode arrives three years after the hosts last collaborated, a fact that prompts immediate self-reflection as they confess to re-listening to their previous conversation to avoid repeating themselves. That previous episode apparently veered into wild territory involving a man feeding his girlfriend sawdust to manipulate her weight—a hard act to follow, as James acknowledges with characteristic dry humor. Yet the current story proves more than capable of igniting the same level of moral outrage and analytical depth, centering on a Reddit post that encapsulates the insidious nature of psychological manipulation within romantic relationships.</p>
 
 <p>The "Boy Brain" theme proves intentionally broad, allowing for both the specific case study and tangential discussions about the inexplicable decisions men make, with Fuhad noting that certain male behaviors seem to defy rational explanation. Throughout the episode, the hosts balance genuine relationship advice with the comedic sensibility that defines Shits and Gigs' approach, creating a space where serious issues can be examined through an accessible lens without sacrificing the complexity of the underlying dynamics.</p>
-
-<p>---</p>
 
 <h2>The Reddit Story: A Case Study in Manipulation</h2>
 
@@ -79,8 +109,6 @@
 
 <p>The age gap emerges as perhaps the most significant red flag throughout the discussion. All three hosts express bewilderment at the 36-year-old's decision to date a 22-year-old, with James reflecting on his own position at 32: "I can't imagine dating a 20 year old. I don't even know what I would do." Fuhad speculates that this pattern often comes down to "an ego thing"—older men seeking younger partners specifically because they perceive them as easier to manipulate and more likely to defer to their perspective. "He's 36 dating a 22 year old," Fuhad observes. "I think he wanted to find someone he could try and manipulate her feelings."</p>
 
-<p>---</p>
-
 <h2>The Hosts' Consensus: Leave Immediately</h2>
 
 <p>The collective response from all three hosts converges on a single piece of advice: she needs to leave the relationship immediately. The top comment on the original Reddit post simply reads "girl," a single word that James identifies as capturing the universal recognition among readers that this situation requires no nuance—its dysfunction is self-evident.</p>
@@ -90,8 +118,6 @@
 <p>Fuhad explicitly names what he sees as the central problem: "He's a master manipulator. I feel like I don't even know if he's a master. I think Amateur manipulator. He's not a master. He's not that sophisticated." This distinction matters—the behavior is harmful without requiring elaborate planning. The manipulation emerges naturally from his insecurity and ego needs, manifesting as jealousy, verbal attacks, and increasingly inappropriate requests. "Yeah. He's No. It's definitely it feels like nagging where it's like he's trying to be super negative about her and instill insecurity."</p>
 
 <p>James closes his analysis with a reminder of the woman's relative youth and the opportunity she stands to lose: "She's so young as well. She's got so much to live for. What world is your oyster at 22?" This framing directly counters the manipulation tactic's implicit message—that she should be grateful a 36-year-old man has shown interest in her. The hosts collectively argue that her youth and potential make leaving not just advisable but urgent.</p>
-
-<p>---</p>
 
 <h2>Personal Reflections: Reliving Their Twenties</h2>
 
@@ -103,15 +129,11 @@
 
 <p>The exchange also reveals the economic context underlying many relationship decisions, particularly when age gaps are involved. The hosts implicitly acknowledge that financial dependence can trap people in unhealthy relationships, while also noting that a 22-year-old with her whole future ahead has options that the manipulative boyfriend might prefer she not consider.</p>
 
-<p>---</p>
-
 <h2>Linguistic Detours: Homely vs. Homey</h2>
 
 <p>The episode includes a brief but instructive segment on the different meanings of "homely" between American and British English, prompted by a TikTok comment section debate about whether the podcast studio was "homey or homely." James initially assumed "homely" meant the same as "homey"—cozy and comfortable—but Fuhad introduces the distinction: "In US, it generally describes a person as plain, unattractive, or not good looking." British English, by contrast, uses "homely" to mean "cozy, comfortable, or unpretentious."</p>
 
 <p>This linguistic divergence becomes a launching point for broader observation about how "British people and Americans... have such different versions" of shared language. The hosts note that similar divides exist for numerous words and phrases, with the "cigarette one" representing another notable example they decline to elaborate on for fear of derailing the conversation into Google-searching territory. The exchange highlights how communication across the Atlantic carries inherent risk of misunderstanding, where the same word can convey opposite meanings depending on the speaker's background.</p>
-
-<p>---</p>
 
 <h2>Detailed Takeaways</h2>
 
@@ -125,20 +147,74 @@
 
 <p><strong>Relatability Comes From Honesty About Struggle</strong>: The hosts' willingness to share their own financially precarious situations at 22—the £370 weekly wage, the $1,500 monthly flight attendant income, the car purchased despite financial strain—serves a specific rhetorical function. By demonstrating their own past vulnerability, they establish credibility when offering relationship advice. This honesty implies that seeking help, changing course, and recognizing manipulation aren't signs of weakness but rather the product of mature reflection. The woman in the Reddit post might feel trapped by her relationship precisely because she feels trapped by her life circumstances; the hosts' reminiscences suggest that those circumstances can change while the relationship toxicity remains fixed.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This episode appeals primarily to young adults navigating relationship dynamics, particularly those who might recognize elements of the manipulation pattern described in the Reddit post. The "boy brain" framing offers an analytical lens for understanding male behavior that seems inexplicable, while the co-hosts' comedic chemistry ensures the discussion remains engaging rather than preachy. Listeners who appreciate candid relationship analysis delivered with British humor will find particular value in the hosts' unfiltered reactions to the case study.</p>
 
-<p>The episode also serves listeners interested in understanding manipulation tactics, whether for personal awareness or to help friends who might be trapped in similar dynamics. The hosts' emphasis on the age gap as a red flag, combined with their analysis of how insecurity manifests as controlling behavior, provides practical vocabulary for recognizing warning signs. Additionally, fans of Shits and Gigs will appreciate the continuation of the hosts' previous dynamic, complete with the self-aware acknowledgment that they're repeating themselves after three years and the admission that their previous episode featured an even more outrageous story about relationship manipulation.</p></p>
-      
-    </article>
+<p>The episode also serves listeners interested in understanding manipulation tactics, whether for personal awareness or to help friends who might be trapped in similar dynamics. The hosts' emphasis on the age gap as a red flag, combined with their analysis of how insecurity manifests as controlling behavior, provides practical vocabulary for recognizing warning signs. Additionally, fans of Shits and Gigs will appreciate the continuation of the hosts' previous dynamic, complete with the self-aware acknowledgment that they're repeating themselves after three years and the admission that their previous episode featured an even more outrageous story about relationship manipulation.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_title": "Wife Forced to Cook for Husband's Coworkers",
+    "summary": "A woman seeks advice about being expected to make breakfast for her husband's coworkers three to four times per week, which has escalated from occasional mornings to nearly every day. The hosts agree this is taking advantage of her and that her husband is prioritizing social status at work over his wife's feelings.",
+    "start_seconds": 5250,
+    "end_seconds": 5380,
+    "timing_quality": "estimated"
+  }
+]
+</script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

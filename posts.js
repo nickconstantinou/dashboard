@@ -45,28 +45,6 @@ var posts = [
   },
   {
     "date": "May 14, 2026",
-    "title": "FPL Gameweek 37 team news: Thursday\u2019s live injury updates",
-    "url": "2026-05-14-fpl-gameweek-37-team-news-thursdays-live-injury-up.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 37 Team News: Thursday's Live Injury Updates Thursday's press conferences brought mixed news across the Premier League, with Arsenal providing the most substantial updates while other c",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 14, 2026",
-    "title": "FPL notes: Pep on rotation, no O\u2019Reilly + Semenyo up top",
-    "url": "2026-05-14-fpl-notes-pep-on-rotation-no-oreilly-semenyo-up-to.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Pep on Rotation, No O'Reilly + Semenyo Up Top ## Manchester City Rotation in Gameweek 36 Pep Guardiola made six changes in Gameweek 36, with one eye on the two games that follow. The heav",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 14, 2026",
     "title": "Future of holograms, brain signal playback, smell, and touch in multimedia software | Lex Fridman",
     "url": "2026-05-14-future-of-holograms-brain-signal-playback-smell-an.html",
     "category": "AI/Tech",
@@ -108,17 +86,6 @@ var posts = [
       "Mystery/Suspense"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 14, 2026",
-    "title": "Penultimate Push | #FPL GW37",
-    "url": "2026-05-14-penultimate-push-fpl-gw37.html",
-    "category": "FPL",
-    "excerpt": "# Penultimate Push: FPL GW37 Preview ## Looking Ahead to Gameweek 37 As the season approaches its climax, Fantasy Premier League managers face crucial decisions for the penultimate gameweek. The conve",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
   },
   {
     "date": "May 14, 2026",
@@ -188,17 +155,6 @@ var posts = [
   },
   {
     "date": "May 13, 2026",
-    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 37?",
-    "url": "2026-05-13-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 37: Players Due for Goals and Assists ## Overview Fantasy Premier League managers preparing for Gameweek 37 may benefit from identifying players who appear statistically \"due\" for retur",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 13, 2026",
     "title": "How controversy on Twitter/X helps solve problems | Lex Fridman Podcast",
     "url": "2026-05-13-how-controversy-on-twitterx-helps-solve-problems-l.html",
     "category": "AI/Tech",
@@ -262,17 +218,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 13, 2026",
-    "title": "Man City v Palace team news: Haaland, Cherki + Doku subs, no O\u2019Reilly",
-    "url": "2026-05-13-man-city-v-palace-team-news-haaland-cherki-doku-su.html",
-    "category": "FPL",
-    "excerpt": "# Man City v Crystal Palace: Team News and Lineups Confirmed **Match Overview** The Premier League fixture between Manchester City and Crystal Palace is set to kick off at 20:00 BST at the Etihad Stad",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 13, 2026",
@@ -485,17 +430,6 @@ var posts = [
   },
   {
     "date": "May 12, 2026",
-    "title": "That Show With Nico ep. 8 | Planet FPL 2025/26",
-    "url": "2026-05-12-that-show-with-nico-ep-8-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# FPL Insights: Key Takeaways from the Latest Matchweek ## Bournemouth's Investigation Handling Bournemouth made a notable decision regarding Alex Jimenez, choosing not to select him for matchplay whi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 12, 2026",
     "title": "The $1M+ Solo AI Agent Business (Full Course)",
     "url": "2026-05-12-the-1m-solo-ai-agent-business-full-course.html",
     "category": "Business/Startups",
@@ -606,83 +540,6 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
-    "title": "Doku, Dewsbury-Hall, Wilson: Buy, keep or sell in Gameweek 37?",
-    "url": "2026-05-11-doku-dewsbury-hall-wilson-buy-keep-or-sell-in-game.html",
-    "category": "FPL",
-    "excerpt": "# Doku, Dewsbury-Hall, Wilson: Buy, Keep or Sell in Gameweek 37? This article examines three Fantasy Premier League players ahead of Gameweek 37, using verified data to inform ownership decisions. ---",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "Donkey Race  | Planet FPL S. 9 Ep. 53 | GW36 Review | Fantasy Premier League",
-    "url": "2026-05-11-donkey-race-planet-fpl-s-9-ep-53-gw36-review-fanta.html",
-    "category": "FPL",
-    "excerpt": "# Donkey Race | Planet FPL S. 9 Ep. 53 | GW36 Review | Fantasy Premier League ## Overview This review covers key discussions from Planet FPL S. 9 Ep. 53, focusing on the GW36 performance of multiple F",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "Fantasy EFL Play-Offs: Second legs \u2013 Scout Picks",
-    "url": "2026-05-11-fantasy-efl-play-offs-second-legs-scout-picks.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy EFL Play-Offs: Second Legs \u2013 Scout Picks ## Goalkeeper Corey Addai is the Scout Picks goalkeeper for the semi-final second legs after a strong defensive display from Stockport County in the ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "FPL Gameweek 37 early Scout Picks: Arsenal attacking double-up",
-    "url": "2026-05-11-fpl-gameweek-37-early-scout-picks-arsenal-attackin.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 37 Early Scout Picks: Arsenal Attacking Double-Up ## Arsenal's Favourable Fixture There's only one place to start this week. Title favourites Arsenal are at home to relegated Burnley in",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "FPL notes: Mitoma injury, Andersen\u2019s season over + Wilson at risk?",
-    "url": "2026-05-11-fpl-notes-mitoma-injury-andersens-season-over-wils.html",
-    "category": "FPL",
-    "excerpt": "# Brighton Tactical Shifts and Injury Concerns: FPL Notes ## Brighton's Early Dominance Brighton produced a commanding start, establishing a 2-0 lead within the opening five minutes of the match. This",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "FPL notes: White, Gibbs-White + Calafiori injury latest, Eze at risk",
-    "url": "2026-05-11-fpl-notes-white-gibbs-white-calafiori-injury-lates.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: White Injury, Calafiori Update, and Selection Uncertainties ## Ben White Injury Concern Ben White (\u00a35.1m) suffered a concerning injury during the recent fixture. The defender hobbled off ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "FPL notes: Why Dubravka was benched + Burnley\u2019s Gameweek 38 appeal",
-    "url": "2026-05-11-fpl-notes-why-dubravka-was-benched-burnleys-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Why Dubravka Was Benched + Burnley's Gameweek 38 Appeal ## Martin Dubravka's Unexpected Absence Martin Dubravka was benched for the first time this season at Turf Moor on Sunday, a signif",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
     "title": "H.264 codec vs MP4 container: Difference explained | Lex Fridman Podcast",
     "url": "2026-05-11-h264-codec-vs-mp4-container-difference-explained-l.html",
     "category": "AI/Tech",
@@ -760,17 +617,6 @@ var posts = [
   },
   {
     "date": "May 11, 2026",
-    "title": "More Pep quotes on rotation + Marmoush\u2019s starting prospects",
-    "url": "2026-05-11-more-pep-quotes-on-rotation-marmoushs-starting-pro.html",
-    "category": "FPL",
-    "excerpt": "# Guardiola's Rotation Plans and Marmoush's Rising Stock ## Impact Off the Bench Omar Marmoush has emerged as a significant option from Manchester City's substitutes' bench in recent matches. Against ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 11, 2026",
     "title": "Pulitzer Prize Historian: You Won't Notice Until It's Too Late!",
     "url": "2026-05-11-pulitzer-prize-historian-you-wont-notice-until-its.html",
     "category": "Business/Interview",
@@ -801,17 +647,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 11, 2026",
-    "title": "Spurs v Leeds team news: Bogle out, hosts unchanged",
-    "url": "2026-05-11-spurs-v-leeds-team-news-bogle-out-hosts-unchanged.html",
-    "category": "FPL",
-    "excerpt": "# Spurs v Leeds Team News: Bogle Out, Hosts Unchanged ## Leeds United Injury Updates Leeds United head to Tottenham Hotspur Stadium with several absentees. Jayden Bogle is absent with a hamstring issu",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 11, 2026",
@@ -892,17 +727,6 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
-    "title": "2pm team news: Dubravka + Mateta benched, Sarr starts, no Gibbs-White",
-    "url": "2026-05-10-2pm-team-news-dubravka-mateta-benched-sarr-starts-.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Football Scout: 2pm Team News Analysis ## Newcastle United: Two Changes for Newcastle Eddie Howe has made two changes for Newcastle United from Gameweek 35. Lewis Hall and Nick Woltemade sta",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
     "title": "668. Greece vs Persia: The Rise of the First Superpower (Part 1)",
     "url": "2026-05-10-668-greece-vs-persia-the-rise-of-the-first-superpo.html",
     "category": "History",
@@ -922,61 +746,6 @@ var posts = [
       "News"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 10, 2026",
-    "title": "FPL Gameweek 36: Sunday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-05-10-fpl-gameweek-36-sundays-goals-assists-bonus-defcon.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 36: Sunday's Goals, Assists, Bonus + DefCon ## Overview Fantasy Football Scout's Gameweek 36 Scoreboard article provides a comprehensive roundup of Sunday's four matches. The piece cove",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
-    "title": "FPL notes: Casemiro + Sesko injury latest, United not \u2018on the beach\u2019",
-    "url": "2026-05-10-fpl-notes-casemiro-sesko-injury-latest-united-not-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Casemiro and Sesko Injury Latest, United Not 'On the Beach' ## Injury Updates ### Benjamin Sesko Benjamin Sesko (\u00a37.3m) continues to be troubled by shin issues. The forward remains plague",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
-    "title": "FPL notes: Doku again, Cherki hooked + why no Semenyo assist?",
-    "url": "2026-05-10-fpl-notes-doku-again-cherki-hooked-why-no-semenyo-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Doku's Continued Form, Cherki Hooked, and the Missing Semenyo Assist ## Manchester City's 3-0 Victory Over Brentford Manchester City kicked off their Gameweek 36 double-header with a 3-0 ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
-    "title": "FPL notes: Glasner on rotation, Sarr threat + why Munoz got bonus",
-    "url": "2026-05-10-fpl-notes-glasner-on-rotation-sarr-threat-why-muno.html",
-    "category": "FPL",
-    "excerpt": "# Crystal Palace FPL Notes: Rotation Decisions, Sarr's Continued Threat, and Munoz's Bonus Point ## Palace's Season Context Crystal Palace have now played their 56th game of the season, reflecting a d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
-    "title": "FPL notes: Slot on Salah, Alisson + Wirtz fitness, Cucurella \u2018OOP\u2019",
-    "url": "2026-05-10-fpl-notes-slot-on-salah-alisson-wirtz-fitness-cucu.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Premier League: Key Injury Updates and Tactical Notes ## Liverpool Return Updates: Isak and Mamardashvili Back in Action Alexander Isak (\u00a310.3m) and Giorgi Mamardashvili (\u00a34.1m) have both re",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 10, 2026",
@@ -1046,17 +815,6 @@ var posts = [
   },
   {
     "date": "May 10, 2026",
-    "title": "West Ham v Arsenal team news: Gunners unchanged",
-    "url": "2026-05-10-west-ham-v-arsenal-team-news-gunners-unchanged.html",
-    "category": "FPL",
-    "excerpt": "# West Ham v Arsenal Team News: Gunners Unchanged ## Arsenal Starting XI Arsenal heads into this matchup with an unchanged side from the one that secured victory against Atletico Madrid in midweek. Th",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 10, 2026",
     "title": "FPL Daily Roundup \u2014 2026-05-10",
     "url": "2026-05-10-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -1065,17 +823,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "3pm team news: Mbeumo benched, Casemiro + Sesko out",
-    "url": "2026-05-09-3pm-team-news-mbeumo-benched-casemiro-sesko-out.html",
-    "category": "FPL",
-    "excerpt": "# 3pm Team News: Mbeumo Benched, Casemiro and Sesko Out ## Key Absences at Manchester United Manchester United face notable changes heading into this Gameweek. Casemiro misses out for Manchester Unite",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 09, 2026",
@@ -1090,28 +837,6 @@ var posts = [
   },
   {
     "date": "May 09, 2026",
-    "title": "Burnley v Aston Villa predicted line-ups + FPL team news",
-    "url": "2026-05-09-burnley-v-aston-villa-predicted-line-ups-fpl-team-.html",
-    "category": "FPL",
-    "excerpt": "# Burnley v Aston Villa: Predicted Line-Ups and FPL Team News ## Match Overview The upcoming Premier League fixture between Burnley and Aston Villa is scheduled to take place at Turf Moor. This encoun",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Crystal Palace v Everton predicted line-ups + FPL team news",
-    "url": "2026-05-09-crystal-palace-v-everton-predicted-line-ups-fpl-te.html",
-    "category": "FPL",
-    "excerpt": "# Crystal Palace v Everton: Predicted Line-ups & FPL Team News ## Fixture Overview Crystal Palace v Everton represents a key fixture for Fantasy Premier League managers as Double Gameweek 36 approache",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
     "title": "Detachment",
     "url": "2026-05-09-detachment.html",
     "category": "Science/Health",
@@ -1123,17 +848,6 @@ var posts = [
   },
   {
     "date": "May 09, 2026",
-    "title": "Differential FPL captains for the final two Gameweeks",
-    "url": "2026-05-09-differential-fpl-captains-for-the-final-two-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# Differential FPL Captains for the Final Two Gameweeks ## Jarrod Bowen \u2013 West Ham (\u00a37.7m) Jarrod Bowen has been a consistent point-scoring asset for Fantasy managers throughout the season. The West H",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
     "title": "FFmpeg vs Google: Twitter drama explained by FFmpeg developer (who runs the FFmpeg X account)",
     "url": "2026-05-09-ffmpeg-vs-google-twitter-drama-explained-by-ffmpeg.html",
     "category": "AI/Tech",
@@ -1142,39 +856,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "FPL Gameweek 36: Saturday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-05-09-fpl-gameweek-36-saturdays-goals-assists-bonus-defc.html",
-    "category": "FPL",
-    "excerpt": "The source material you've provided appears to be the structural framework and metadata for the article rather than the article itself. It contains: - The headline - A brief description of what the ar",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "FPL in 5 minutes: All you need to know about Double Gameweek 36",
-    "url": "2026-05-09-fpl-in-5-minutes-all-you-need-to-know-about-double.html",
-    "category": "FPL",
-    "excerpt": "# FPL in 5 minutes: All you need to know about Double Gameweek 36 ## Introduction Fantasy Premier League managers face a crucial Double Gameweek 36 with significant decisions to make regarding captain",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-09",
-    "url": "2026-05-09-fpl-news-roundup-2026-05-09.html",
-    "category": "FPL",
-    "excerpt": "Bryan Mbeumo finds himself on the bench for Saturday's 3pm fixtures, a significant blow for the thousands of managers who transferred him in ahead of the gameweek. More injury headaches come via Casem",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 09, 2026",
@@ -1211,17 +892,6 @@ var posts = [
   },
   {
     "date": "May 09, 2026",
-    "title": "How will Thursday\u2019s European results affect FPL?",
-    "url": "2026-05-09-how-will-thursdays-european-results-affect-fpl.html",
-    "category": "FPL",
-    "excerpt": "# How will Thursday's European results affect FPL? Thursday's European semi-finals delivered significant developments for two Premier League clubs with direct consequences for Fantasy Premier League m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
     "title": "Lex Fridman on the genius of Linus Torvalds | Lex Fridman Podcast",
     "url": "2026-05-09-lex-fridman-on-the-genius-of-linus-torvalds-lex-fr.html",
     "category": "AI/Tech",
@@ -1230,28 +900,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Liverpool v Chelsea team news: Wirtz out, Isak a sub",
-    "url": "2026-05-09-liverpool-v-chelsea-team-news-wirtz-out-isak-a-sub.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool v Chelsea Team News ## Key Liverpool Absence Florian Wirtz will miss Liverpool's match against Chelsea after being ruled out with a stomach bug. The midfielder, priced at \u00a38.3m, was unavai",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Man City v Brentford team news: Semenyo starts, Dias a sub",
-    "url": "2026-05-09-man-city-v-brentford-team-news-semenyo-starts-dias.html",
-    "category": "FPL",
-    "excerpt": "# Man City v Brentford: Team News and Lineup Analysis ## Match Context Manchester City enter today's evening kick-off with the objective of reducing Arsenal's lead to two points. The champions face Br",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 09, 2026",
@@ -1277,39 +925,6 @@ var posts = [
   },
   {
     "date": "May 09, 2026",
-    "title": "Sunderland v Man United predicted line-ups + FPL team news",
-    "url": "2026-05-09-sunderland-v-man-united-predicted-line-ups-fpl-tea.html",
-    "category": "FPL",
-    "excerpt": "# Sunderland vs Manchester United: Predicted Line-Ups and FPL Team News ## Match Overview The upcoming fixture between Sunderland and Manchester United represents a significant Double Gameweek 36 enco",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Tottenham v Leeds predicted line-ups + FPL team news",
-    "url": "2026-05-09-tottenham-v-leeds-predicted-line-ups-fpl-team-news.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham v Leeds: Predicted Line-Ups and FPL Team News ## Double Gameweek 36 Fixture Tottenham Hotspur are set to face Leeds United in what promises to be a crucial Double Gameweek 36 encounter. Th",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Why are there no Saturday matches in FPL Gameweek 37?",
-    "url": "2026-05-09-why-are-there-no-saturday-matches-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# Why Are There No Saturday Matches in FPL Gameweek 37? ## The FA Cup Final Agreement Fantasy Premier League managers who checked their gameweek 37 lineups this week may have noticed a complete absenc",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 09, 2026",
     "title": "Why VLC never sold out, even when it almost died: Sacrificing $30+ million dollars | Lex Fridman",
     "url": "2026-05-09-why-vlc-never-sold-out-even-when-it-almost-died-sa.html",
     "category": "AI/Tech",
@@ -1318,61 +933,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 09, 2026",
-    "title": "Why we won\u2019t get pre-deadline team news for two clubs in Gameweek 37",
-    "url": "2026-05-09-why-we-wont-get-pre-deadline-team-news-for-two-clu.html",
-    "category": "FPL",
-    "excerpt": "# Why Pre-Deadline Team News Will Be Missing for Two Clubs in Gameweek 37 ## An Unusual Gameweek Structure Gameweek 37 breaks from the standard Premier League schedule in a significant way. According ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Are Palace players really worth buying? Saka or Gyokeres? FPL Q&A",
-    "url": "2026-05-08-are-palace-players-really-worth-buying-saka-or-gyo.html",
-    "category": "FPL",
-    "excerpt": "# FPL Q&A: Evaluating Palace and Comparing Leeds Assets ## Palace Player Viability When assessing Crystal Palace players for FPL purposes, the evidence presents a mixed picture. Jean-Philippe Mateta h",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "\u2018Beach\u2019 teams, cups + Arsenal: Who will prosper in Gameweeks 36-38?",
-    "url": "2026-05-08-beach-teams-cups-arsenal-who-will-prosper-in-gamew.html",
-    "category": "FPL",
-    "excerpt": "# Beach Teams, Cups + Arsenal: Who Will Prosper in Gameweeks 36-38? ## The Run-In Context As the Fantasy Premier League season approaches its climax, managers face a uniquely challenging set of fixtur",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Best cheap players for a Gameweek 36 Bench Boost",
-    "url": "2026-05-08-best-cheap-players-for-a-gameweek-36-bench-boost.html",
-    "category": "FPL",
-    "excerpt": "# Best Cheap Players for Gameweek 36 Bench Boost ## Introduction Gameweek 36 presents an opportunity for Fantasy Premier League managers to deploy a Bench Boost chip. Selecting the right budget player",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Everything Vitor Pereira said about Gibbs-White + Forest injuries",
-    "url": "2026-05-08-everything-vitor-pereira-said-about-gibbs-white-fo.html",
-    "category": "FPL",
-    "excerpt": "# Vitor Pereira Provides Injury Updates on Gibbs-White and Forest Players ## Morgan Gibbs-White's Facial Injury Morgan Gibbs-White of Nottingham Forest suffered a facial injury on Monday, according to",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1395,72 +955,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "\u00ad\u00ad\u00adFPL Gameweek 36 differentials: 3 low-owned City, Arsenal + Spurs picks",
-    "url": "2026-05-08-fpl-gameweek-36-differentials-3-low-owned-city-ars.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 36 Differentials: 3 Low-Owned City, Arsenal + Spurs Picks Fantasy managers looking for an edge in Gameweek 36 might consider three players with single-digit ownership who are positioned",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "FPL Gameweek 36 team news: Thursday\u2019s live injury updates",
-    "url": "2026-05-08-fpl-gameweek-36-team-news-thursdays-live-injury-up.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 36 Team News: Thursday's Live Injury Updates This article provides verified and reported injury updates from Gameweek 36, sourced from Fantasy Football Scout's Thursday team news covera",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-08",
-    "url": "2026-05-08-fpl-news-roundup-2026-05-08.html",
-    "category": "FPL",
-    "excerpt": "With the season nearing its conclusion, FPL managers face crucial captaincy decisions heading into Gameweek 36, and the standout picks remain consistent with recent form. Erling Haaland continues to d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Gomez, Wieffer, Milner: Brighton injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-gomez-wieffer-milner-brighton-injury-latest-for-fp.html",
-    "category": "FPL",
-    "excerpt": "# Brighton Injury Latest for FPL Gameweek 36 ## Captain's Return on the Horizon Lewis Dunk, Brighton's captain and priced at \u00a34.5m, has had limited minutes recently due to knee niggles and a suspensio",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Guessand + Glasner on rotation: Palace injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-guessand-glasner-on-rotation-palace-injury-latest-.html",
-    "category": "FPL",
-    "excerpt": "# Crystal Palace Rotation Watch: FPL Gameweek 36 Implications ## Shakhtar Friendly: No Fresh Concerns Crystal Palace emerged from their Shakhtar Donetsk friendly without any new injury concerns, accor",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Gueye, Branthwaite, Grealish: Everton injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-gueye-branthwaite-grealish-everton-injury-latest-f.html",
-    "category": "FPL",
-    "excerpt": "# Gueye, Branthwaite, Grealish: Everton Injury Latest for FPL Gameweek 36 Idrissa Gana Gueye remains a doubt for Gameweek 36, according to the latest update from Fantasy Football Scout. The Senegalese",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1497,17 +991,6 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
-    "title": "Kluivert, Cook, Jimenez: Bournemouth injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-kluivert-cook-jimenez-bournemouth-injury-latest-fo.html",
-    "category": "FPL",
-    "excerpt": "# Bournemouth Injury Update: Kluivert Close to Return, Cook Targeting Final Fixtures ## Justin Kluivert Nearing Comeback Justin Kluivert looks set to make his return to the Bournemouth matchday squad ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
     "title": "Melt-Up or Mirage? Markets Ignore Everything but Earnings",
     "url": "2026-05-08-melt-up-or-mirage-markets-ignore-everything-but-ea.html",
     "category": "Finance",
@@ -1516,17 +999,6 @@ var posts = [
       "Finance"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Miley, Livramento, Schar: Newcastle injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-miley-livramento-schar-newcastle-injury-latest-for.html",
-    "category": "FPL",
-    "excerpt": "# Newcastle Injury Latest for FPL Gameweek 36 Newcastle United faces a significant injury crisis heading into the crucial stages of the season, with several key players ruled out for the remainder of ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1541,17 +1013,6 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
-    "title": "Okafor, Struijk, Gudmundsson: Leeds injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-okafor-struijk-gudmundsson-leeds-injury-latest-for.html",
-    "category": "FPL",
-    "excerpt": "# Leeds Injury Latest for FPL Gameweek 36 *Okafor, Struijk, and Gudmundsson remain concerns heading into a pivotal week for Leeds United's Premier League survival hopes.* --- ## Leeds United Injury Li",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
     "title": "People Are Going to Print Money with GTA6",
     "url": "2026-05-08-people-are-going-to-print-money-with-gta6.html",
     "category": "Tech/Business",
@@ -1560,28 +1021,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Pras' Gameweek 36 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-05-08-pras-gameweek-36-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 36 Team Selection | Fantasy Premier League Tips 2025/26 ## Current Season Context We are now in Gameweek 36, which is a double gameweek. There are three game weeks remaining in the se",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Rodri, Ruben, Gvardiol: Man City injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-rodri-ruben-gvardiol-man-city-injury-latest-for-fp.html",
-    "category": "FPL",
-    "excerpt": "# Rodri, Ruben, Gvardiol: Man City Injury Latest for FPL Gameweek 36 ## Rodri Remains a Doubt Manchester City midfielder Rodri continues to be a doubt for the club's Double Gameweek 36 fixtures. Accor",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1596,17 +1035,6 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
-    "title": "Salah, Alisson, Wirtz: Liverpool injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-salah-alisson-wirtz-liverpool-injury-latest-for-fp.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool Injury News Ahead of FPL Gameweek 36 ## Key Attacking Assets Mohamed Salah (\u00a314.0m) remains sidelined with a hamstring injury. Liverpool manager Arne Slot confirmed that Salah has not yet ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
     "title": "Should programmers learn how to code in assembly? | Lex Fridman Podcast",
     "url": "2026-05-08-should-programmers-learn-how-to-code-in-assembly-l.html",
     "category": "AI/Tech",
@@ -1615,17 +1043,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Solanke, Richarlison, Vicario: Tottenham injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-solanke-richarlison-vicario-tottenham-injury-lates.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham Injury Latest for FPL Gameweek 36 ## Overview Tottenham Hotspur head into Gameweek 36 with no new injury concerns, according to the latest update from the club. Manager Roberto De Zerbi co",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1640,45 +1057,12 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
-    "title": "The latest FFS Members Cup results + quarter-final draw",
-    "url": "2026-05-08-the-latest-ffs-members-cup-results-quarter-final-d.html",
-    "category": "FPL",
-    "excerpt": "# FFS Members Cup Quarter-Finals Set After Gameweek 35 Results ## Quarter-Final Overview Gameweek 36 brings the quarter-finals of the latest FFS Members Cup, where eight Fantasy Premier League (FPL) m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
     "title": "The Resurrection of Michael Jackson",
     "url": "2026-05-08-the-resurrection-of-michael-jackson.html",
     "category": "News",
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[20:00\u201321:50]</strong> <em>The Michael Jackson Biopic Production and Controversy</em> \u2014 The estate hired director Antoine Fuqua to cre",
     "tags": [
       "News"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "The Scout Squad: Our top picks for FPL Double Gameweek 36",
-    "url": "2026-05-08-the-scout-squad-our-top-picks-for-fpl-double-gamew.html",
-    "category": "FPL",
-    "excerpt": "# The Scout Squad: Our Top Picks for FPL Double Gameweek 36 Fantasy Premier League managers face a crucial decision point as Double Gameweek 36 approaches. The Scout Squad analysis highlights players ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "The Weekender ep. 33 | Planet FPL 2025/26",
-    "url": "2026-05-08-the-weekender-ep-33-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal's Champions League Progress: FPL Implications ## Arsenal Advance to Champions League Final Arsenal secured their place in the Champions League final by defeating Atletico Madrid in Tuesday n",
-    "tags": [
-      "FPL"
     ],
     "type": "podcast"
   },
@@ -1692,39 +1076,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Timber + Merino: Arsenal injury latest for FPL Gameweek 36",
-    "url": "2026-05-08-timber-merino-arsenal-injury-latest-for-fpl-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Injury Latest: Timber and Merino Ruled Out for GW36 ## Overview Arsenal manager Mikel Arteta confirmed there are no fresh injury concerns following the club's midweek Champions League victor",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Triple Captain! Lateriser's Gameweek 36 Team Selection | Top 200x3 | Fantasy Premier League Tips",
-    "url": "2026-05-08-triple-captain-laterisers-gameweek-36-team-selecti.html",
-    "category": "FPL",
-    "excerpt": "# Triple Captain Strategy: Lateriser's Gameweek 36 Team Selection Analysis ## Introduction: The Triple Captain Decision Fantasy Premier League managers approaching Gameweek 36 face critical decisions,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Updated: Who is the best Crystal Palace defender for Double Gameweek 36?",
-    "url": "2026-05-08-updated-who-is-the-best-crystal-palace-defender-fo.html",
-    "category": "FPL",
-    "excerpt": "# Best Crystal Palace Defender for Double Gameweek 36 ## Crystal Palace's Double Gameweek 36 Fixtures Crystal Palace face two fixtures in Gameweek 36. They will play Everton at home and Manchester Cit",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 08, 2026",
@@ -1761,34 +1112,12 @@ var posts = [
   },
   {
     "date": "May 08, 2026",
-    "title": "What Glasner said about Palace\u2019s Gameweek 36 clash vs Everton",
-    "url": "2026-05-08-what-glasner-said-about-palaces-gameweek-36-clash-.html",
-    "category": "FPL",
-    "excerpt": "# What Glasner Said About Palace's Gameweek 36 Clash vs Everton ## Conference League Progress Sets Up Busy Fixture Run Crystal Palace secured their place in the UEFA Conference League final on Thursda",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 08, 2026",
     "title": "Why Did OpenAI Spend $100M to Buy a Podcast?",
     "url": "2026-05-08-why-did-openai-spend-100m-to-buy-a-podcast.html",
     "category": "Tech/Business",
     "excerpt": "## Why Did OpenAI Spend $100M+ to Buy a Podcast? An Analysis of the TBPN Acquisition **Key Insights:** - OpenAI reportedly acquired TBPN (a tech live show/podcast) for **$100-200 million** \u2014 for a med",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 08, 2026",
-    "title": "Zophar Gameweek 36 Team Selection - 4 Free Transfers! | Fantasy Premier League Tips 2025/26",
-    "url": "2026-05-08-zophar-gameweek-36-team-selection-4-free-transfers.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 36 Strategy: Four Free Transfers and Bench Boost Results ## Overview FPL Wire released a Gameweek 36 team selection video featuring creator Zophar, who enters the penultimate gamew",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -1827,17 +1156,6 @@ var posts = [
   },
   {
     "date": "May 07, 2026",
-    "title": "Differential FPL captains for the final three Gameweeks",
-    "url": "2026-05-07-differential-fpl-captains-for-the-final-three-game.html",
-    "category": "FPL",
-    "excerpt": "# Differential FPL Captains for the Final Three Gameweeks With the season entering its decisive phase, managers seeking to climb the overall rankings must look beyond the obvious captain choices. The ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
     "title": "Don't Chase Your Passion - Do This Instead",
     "url": "2026-05-07-dont-chase-your-passion-do-this-instead.html",
     "category": "Tech/Business",
@@ -1857,83 +1175,6 @@ var posts = [
       "Health/Science"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "FFS Mini-Leagues and Community Competitions \u2013 Gameweek 35",
-    "url": "2026-05-07-ffs-mini-leagues-and-community-competitions-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# FFS Mini-Leagues and Community Competitions \u2013 Gameweek 35 ## Hall of Fame Highlights The FFS Live Hall of Fame now ranks 55,802 FPL managers based on results through Gameweek 35. Ben Crellin has sec",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "FPL Double Gameweek 36 Wildcard: 2 drafts to consider",
-    "url": "2026-05-07-fpl-double-gameweek-36-wildcard-2-drafts-to-consid.html",
-    "category": "FPL",
-    "excerpt": "# FPL Double Gameweek 36 Wildcard: Key Draft Considerations ## Arsenal's Favorable Finish Arsenal face West Ham (away), Burnley (home), and Crystal Palace (away) to end the season, with all matches re",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-07",
-    "url": "2026-05-07-fpl-news-roundup-2026-05-07.html",
-    "category": "FPL",
-    "excerpt": "With the season entering its decisive phase, Saka's recent brace against Villarreal in Arsenal's Champions League semi-final victory should catch the eye of managers still weighing their captain optio",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "FPL notes: Saka nets again, Gyokeres \u201cimmense\u201d + is Eze\u2019s game-time a concern?",
-    "url": "2026-05-07-fpl-notes-saka-nets-again-gyokeres-immense-is-ezes.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Saka Nets Again, Gyokeres \"Immense\" + Is Eze's Game-Time a Concern? ## Arsenal's Defensive Record Arsenal secured their 30th clean sheet of the campaign against Atletico Madrid, marking a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "Gibbs-White, Palace + Villa injury updates ahead of Gameweek 36",
-    "url": "2026-05-07-gibbs-white-palace-villa-injury-updates-ahead-of-g.html",
-    "category": "FPL",
-    "excerpt": "# Gameweek 36 Injury Updates: Gibbs-White, Palace and Villa Fitness Check With Fantasy Premier League managers weighing up their squads ahead of Gameweek 36, several key players across Nottingham Fore",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 36?",
-    "url": "2026-05-07-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 36: Players Who Delivered in Gameweek 35 ## Overview Fantasy Football Scout's \"Goals + assists imminent!\" column examines Fantasy Premier League players who may be due for returns based",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "How FPL Harry, Pras, Mark Sutherns + more did in Gameweek 35",
-    "url": "2026-05-07-how-fpl-harry-pras-mark-sutherns-more-did-in-gamew.html",
-    "category": "FPL",
-    "excerpt": "# How Top FPL Managers Navigated Gameweek 35 ## Chip Strategies in Gameweek 35 Gameweek 35 saw significant chip activity among elite FPL managers. Six managers from the group known as \"The Great and T",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 07, 2026",
@@ -1965,17 +1206,6 @@ var posts = [
     "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[5:00\u201310:30]</strong> <em>Serial Cardiac Arrests at Medical Center</em> \u2014 Dr. Chad Marsden at a Dallas Surgicare Center is caught in a",
     "tags": [
       "Mystery/Suspense"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 07, 2026",
-    "title": "Liverpool v Chelsea | CotC with Dan Lord & Gary Mantle | Planet FPL 2025/26",
-    "url": "2026-05-07-liverpool-v-chelsea-cotc-with-dan-lord-gary-mantle.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool v Chelsea Preview: FPL Implications from Planet FPL ## Liverpool's Weekend Setback Liverpool suffered a disappointment at the weekend, losing to Manchester United. This result adds extra w",
-    "tags": [
-      "FPL"
     ],
     "type": "podcast"
   },
@@ -2058,111 +1288,12 @@ var posts = [
   },
   {
     "date": "May 06, 2026",
-    "title": "Best Crystal Palace players for FPL Double Gameweek 36: Updated!",
-    "url": "2026-05-06-best-crystal-palace-players-for-fpl-double-gamewee.html",
-    "category": "FPL",
-    "excerpt": "# Best Crystal Palace Players for FPL Double Gameweek 36: Updated! ## Crystal Palace Double Gameweek 36 Overview Crystal Palace will have a Double Gameweek in Gameweek 36, facing Everton away and Manc",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Cherki v Semenyo v Doku: Who is the best Man City midfielder in FPL?",
-    "url": "2026-05-06-cherki-v-semenyo-v-doku-who-is-the-best-man-city-m.html",
-    "category": "FPL",
-    "excerpt": "# Cherki v Semenyo v Doku: Who is the Best Man City Midfielder in FPL? ## Pricing Context Rayan Cherki (\u00a36.6m), Antoine Semenyo (\u00a38.1m) and Jeremy Doku (\u00a36.4m) are the three names in question for FPL ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Eagles Landing? | #FPL DGW36 (with Mo (FPL Trophy))",
-    "url": "2026-05-06-eagles-landing-fpl-dgw36-with-mo-fpl-trophy.html",
-    "category": "FPL",
-    "excerpt": "# Eagles Landing? | #FPL DGW36 Podcast Recap ## Overview The Eagles Landing? podcast returned for a special episode covering Gameweek 35 and previewing the crucial Double Gameweek 36. Recorded on Tues",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Fantasy EFL Play-Offs: Join our mini-league \u2013 and win prizes!",
-    "url": "2026-05-06-fantasy-efl-play-offs-join-our-mini-league-and-win.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy EFL Play-Offs Mini-League: How to Join and Win Prizes ## What is the Fantasy EFL Play-Offs? Fantasy Football Scout has announced an exciting opportunity for Fantasy EFL managers. The Fantasy",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-06",
-    "url": "2026-05-06-fpl-news-roundup-2026-05-06.html",
-    "category": "FPL",
-    "excerpt": "Jeremy Doku is making a strong case for Double Gameweek 36 consideration after his display in Everton's 3-3 draw with Chelsea. His form has put him squarely in the conversation alongside other Manches",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "FPL notes: Doku states his Double Gameweek 36 case",
-    "url": "2026-05-06-fpl-notes-doku-states-his-double-gameweek-36-case.html",
-    "category": "FPL",
-    "excerpt": "# FPL Analysis: Doku States His Double Gameweek 36 Case ## Jeremy Doku's Recent FPL Returns Jeremy Doku (\u00a36.4m) has emerged as a compelling FPL asset ahead of Double Gameweek 36. The Manchester City w",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "FPL notes: Gibbs-White + Sanchez injury latest, Pereira on rotation",
-    "url": "2026-05-06-fpl-notes-gibbs-white-sanchez-injury-latest-pereir.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Gibbs-White and Sanchez Injury Latest, Pereira on Rotation ## Head Collision Rules FPL Assets Out Morgan Gibbs-White (\u00a37.7m) and Robert Sanchez (\u00a34.8m) collided head-on during the match a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
     "title": "Free Booze to Real Power: Why Shareholder Perks Matter",
     "url": "2026-05-06-free-booze-to-real-power-why-shareholder-perks-mat.html",
     "category": "Finance",
     "excerpt": "<p># Free Booze to Real Power: Why Shareholder Perks Matter --- ## Key Insights \u2022 **Chapel Down wine discounts are tiered by shareholding**: Silver shareholders (1-1,999 shares) receive 25% off wine; ",
     "tags": [
       "Finance"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Gyokeres, Thiago, Palace players: Buy, keep or sell in Gameweek 36?",
-    "url": "2026-05-06-gyokeres-thiago-palace-players-buy-keep-or-sell-in.html",
-    "category": "FPL",
-    "excerpt": "# Gyokeres, Thiago, Palace Players: Buy, Keep or Sell in Gameweek 36 ## Viktor Gyokeres: Buy Viktor Gyokeres enters Gameweek 36 in excellent form, having contributed five goals across his last eight m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Man City v Crystal Palace | CotC with Jonny Pringle & Ruaidhri McLaughlin-Dowd | Planet FPL 2025/26",
-    "url": "2026-05-06-man-city-v-crystal-palace-cotc-with-jonny-pringle-.html",
-    "category": "FPL",
-    "excerpt": "# Man City v Crystal Palace: FPL Captaincy Analysis ## Context: The Final Double Game Week This episode of Captain of the Coast represents the last double game week preview of the season, featuring Jo",
-    "tags": [
-      "FPL"
     ],
     "type": "podcast"
   },
@@ -2201,39 +1332,6 @@ var posts = [
   },
   {
     "date": "May 06, 2026",
-    "title": "UCL Fantasy: Matchday 16 Scout Picks",
-    "url": "2026-05-06-ucl-fantasy-matchday-16-scout-picks.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy: Matchday 16 Scout Picks Matchday 16 presents fantasy managers with several compelling options across the Champions League fixture list. Here's a focused breakdown of the key picks based",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Who is suspended in FPL \u2013 and can anyone still get a yellow card ban?",
-    "url": "2026-05-06-who-is-suspended-in-fpl-and-can-anyone-still-get-a.html",
-    "category": "FPL",
-    "excerpt": "# Who Is Suspended in FPL \u2013 and Can Anyone Still Get a Yellow Card Ban? ## Current Suspensions in Fantasy Premier League A handful of Premier League players are currently serving bans that affect thei",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
-    "title": "Will there be a FIFA World Cup 2026 Fantasy game + when will it go live?",
-    "url": "2026-05-06-will-there-be-a-fifa-world-cup-2026-fantasy-game-w.html",
-    "category": "FPL",
-    "excerpt": "# Will There Be a FIFA World Cup 2026 Fantasy Game? ## The Short Answer Yes, there will almost certainly be an official FIFA World Cup 2026 Fantasy game. FIFA has a established pattern of launching Fa",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 06, 2026",
     "title": "Your Kids Asked the Artemis Astronauts Questions. They Answered.",
     "url": "2026-05-06-your-kids-asked-the-artemis-astronauts-questions-t.html",
     "category": "News",
@@ -2242,17 +1340,6 @@ var posts = [
       "News"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "Chelsea v Forest team news: Derry starts, eight Forest changes",
-    "url": "2026-05-05-chelsea-v-forest-team-news-derry-starts-eight-fore.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea v Nottingham Forest: Team News Breakdown ## Jesse Derry Earns First Professional Start The headline news from Chelsea is that winger Jesse Derry makes his first professional start. The young",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 05, 2026",
@@ -2267,28 +1354,6 @@ var posts = [
   },
   {
     "date": "May 05, 2026",
-    "title": "Double Trouble | Planet FPL S. 9 Ep. 52 | GW35 Review | Fantasy Premier League",
-    "url": "2026-05-05-double-trouble-planet-fpl-s-9-ep-52-gw35-review-fa.html",
-    "category": "FPL",
-    "excerpt": "# Double Trouble: GW35 Review and Season Run-In Strategy ## The Title Race and Arsenal's Margin for Error The Premier League title race remains finely poised as we approach the business end of the sea",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "Everton v Man City team news: Semenyo starts, no Rodri",
-    "url": "2026-05-05-everton-v-man-city-team-news-semenyo-starts-no-rod.html",
-    "category": "FPL",
-    "excerpt": "# Everton v Man City: Team News Analysis ## Key Lineup Changes ### Everton Starting XI Tim Iroegbunam receives a rare start for Everton in this fixture. The midfielder is priced at \u00a34.8m for Fantasy P",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
     "title": "Everyone Needs to Use OpenAI Codex... Until Claude Mythos Comes Out",
     "url": "2026-05-05-everyone-needs-to-use-openai-codex-until-claude-my.html",
     "category": "AI/Tech",
@@ -2300,83 +1365,6 @@ var posts = [
   },
   {
     "date": "May 05, 2026",
-    "title": "Fantasy EFL Play-Offs 2025/26: Everything you need to know",
-    "url": "2026-05-05-fantasy-efl-play-offs-202526-everything-you-need-t.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy EFL Play-Offs 2025/26: Everything You Need to Know ## What Are the Fantasy EFL Play-Offs? The Fantasy EFL Play-Offs provides a focused three-Gameweek competition that runs alongside the real",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "FPL Gameweek 36 early Scout Picks: Five \u2018doublers\u2019 included",
-    "url": "2026-05-05-fpl-gameweek-36-early-scout-picks-five-doublers-in.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 36 Early Scout Picks: Five 'Doublers' Included ## Man City Assets Leading the Way With five teams set to play twice in Gameweek 36, Fantasy Football Scout has identified key players to ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-05",
-    "url": "2026-05-05-fpl-news-roundup-2026-05-05.html",
-    "category": "FPL",
-    "excerpt": "**Double Gameweek 36** is fast approaching, and Fantasy Football Scout's early scout picks have identified five players with double fixtures \u2014 prime targets for the \"bus team\" strategy. Managers holdi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "FPL notes: Sesko + Isak injury latest, Szoboszlai haul",
-    "url": "2026-05-05-fpl-notes-sesko-isak-injury-latest-szoboszlai-haul.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Sesko and Isak Injury Updates, Szoboszlai Haul Fantasy Premier League managers face key decisions around Liverpool and Manchester United assets following the latest injury updates and sta",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "FPL notes: Shot-shy Villa rotate + is Richarlison worth a punt?",
-    "url": "2026-05-05-fpl-notes-shot-shy-villa-rotate-is-richarlison-wor.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Shot-Shy Villa Rotate + Is Richarlison Worth a Punt? ## Tottenham's Valuable Assets Deliver Tottenham Hotspur gave their survival prospects a huge boost with an impressive away victory at",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "FPL notes: West Ham luckless + Lewis-Potter a threat",
-    "url": "2026-05-05-fpl-notes-west-ham-luckless-lewis-potter-a-threat.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: West Ham Luckless Against Brentford; Keane Lewis-Potter Impresses ## Match Overview Brentford secured a convincing 3-0 victory over West Ham United in Gameweek 35, but the result arguably",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "Havertz, Odegaard + Timber injury latest ahead of Arsenal v Atleti",
-    "url": "2026-05-05-havertz-odegaard-timber-injury-latest-ahead-of-ars.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Team News: Havertz and Odegaard Fit for Atletico Showdown ## Key Players Return to Fitness Arsenal have received a significant boost ahead of their Champions League clash with Atletico Madri",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
     "title": "Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza",
     "url": "2026-05-05-spotting-billion-dollar-investments-was-hard-until.html",
     "category": "Tech/Business",
@@ -2385,39 +1373,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "UCL Fantasy: Matchday 16 best captains",
-    "url": "2026-05-05-ucl-fantasy-matchday-16-best-captains.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy: Matchday 16 Captain Options ## Bukayo Saka \u2013 The Standout Choice Bukayo Saka emerges as a compelling captaincy option for Matchday 16 of the UEFA Champions League Fantasy game. At a pri",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "UCL Fantasy: Matchday 16 best differentials",
-    "url": "2026-05-05-ucl-fantasy-matchday-16-best-differentials.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy: Matchday 16 Best Differentials ## Overview Matchday 16 presents UCL Fantasy managers with critical decisions as the knockout stage intensifies. Several players offer differential value ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 05, 2026",
-    "title": "UCL Fantasy: Matchday 16 clean sheet odds",
-    "url": "2026-05-05-ucl-fantasy-matchday-16-clean-sheet-odds.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy: Matchday 16 Clean Sheet Odds For UCL Fantasy managers preparing for Matchday 16, clean sheet potential varies dramatically across the remaining teams in the competition. Here is a break",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 05, 2026",
@@ -2465,17 +1420,6 @@ var posts = [
   },
   {
     "date": "May 04, 2026",
-    "title": "Aston Villa v Spurs team news: Konsa + Watkins benched, no McGinn",
-    "url": "2026-05-04-aston-villa-v-spurs-team-news-konsa-watkins-benche.html",
-    "category": "FPL",
-    "excerpt": "# Aston Villa v Spurs: Team News Tottenham Hotspur are the visitors to Villa Park, where kick-off is at 19:00 BST. ## Aston Villa Team News Unai Emery makes seven changes to the Aston Villa side he se",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 04, 2026",
     "title": "Cheap, Unloved, Profitable: The Case for Value Investing Today?",
     "url": "2026-05-04-cheap-unloved-profitable-the-case-for-value-invest.html",
     "category": "Finance",
@@ -2498,17 +1442,6 @@ var posts = [
   },
   {
     "date": "May 04, 2026",
-    "title": "Fantasy EFL Play-Offs is LIVE!",
-    "url": "2026-05-04-fantasy-efl-play-offs-is-live.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy EFL Play-Offs is LIVE! The Fantasy EFL Play-Offs is now available as a separate event from the regular Fantasy EFL game. This competition runs independently, meaning every participant starts",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 04, 2026",
     "title": "\u201cFinding Satoshi\u201d\u2014How a Private Investigator Solved the Mystery of Bitcoin\u2019s Creator | Bill Cohan & Tyler Maroney",
     "url": "2026-05-04-finding-satoshihow-a-private-investigator-solved-t.html",
     "category": "Crypto/Web3",
@@ -2517,39 +1450,6 @@ var posts = [
       "Crypto/Web3"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 04, 2026",
-    "title": "FPL Gameweek 35: Sunday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-05-04-fpl-gameweek-35-sundays-goals-assists-bonus-defcon.html",
-    "category": "FPL",
-    "excerpt": "The source material doesn't contain the actual match data it promises. The article is a structural wrapper \u2014 it describes what a FPL Scoreboard article contains (goals, assists, bonus, DefCon, xG, sho",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 04, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-04",
-    "url": "2026-05-04-fpl-news-roundup-2026-05-04.html",
-    "category": "FPL",
-    "excerpt": "Newcastle striker Alexander Isak is out for the rest of the season after suffering a groin injury in Monday's 2-1 defeat to Aston Villa, dealing a major blow to managers who had relied on the Swedish ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 04, 2026",
-    "title": "FPL notes: Palace \u201ctank was empty\u201d + Kroupi praise",
-    "url": "2026-05-04-fpl-notes-palace-tank-was-empty-kroupi-praise.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Palace \"Tank Was Empty\" After Thursday's Shakhtar Defeat Bournemouth moved into the top six and European places with a routine 3-0 win over Crystal Palace at Vitality Stadium. ## Match Su",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 04, 2026",
@@ -2630,61 +1530,6 @@ var posts = [
   },
   {
     "date": "May 03, 2026",
-    "title": "Bournemouth v Palace team news: Five changes for visitors",
-    "url": "2026-05-03-bournemouth-v-palace-team-news-five-changes-for-vi.html",
-    "category": "FPL",
-    "excerpt": "# Bournemouth v Palace: Five Changes for Visitors Crystal Palace have made five changes to their starting lineup for their Premier League fixture against Bournemouth. The Eagles have one eye on the se",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 03, 2026",
-    "title": "FPL Gameweek 35: Saturday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-05-03-fpl-gameweek-35-saturdays-goals-assists-bonus-defc.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35: Saturday's Goals, Assists, Bonus + DefCon When you're grinding through a title race or fighting to protect your rank, the difference between good FPL decisions and great ones often ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 03, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-03",
-    "url": "2026-05-03-fpl-news-roundup-2026-05-03.html",
-    "category": "FPL",
-    "excerpt": "Alexander Isak has been ruled out for Newcastle as they face Brighton in Gameweek 35, dealing a significant blow to managers who backed the Swedish striker during his recent purple patch. The news com",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 03, 2026",
-    "title": "FPL notes: 3 in 4 for \u00a35.4m Osula + positives for Brighton",
-    "url": "2026-05-03-fpl-notes-3-in-4-for-54m-osula-positives-for-brigh.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Will Osula's Starting Streak and Brighton's Positives ## Will Osula's Emerging Role at Newcastle Will Osula has become an intriguing option for FPL managers following a remarkable run in ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 03, 2026",
-    "title": "FPL notes: Why Saka came off at half-time + double injury boost",
-    "url": "2026-05-03-fpl-notes-why-saka-came-off-at-half-time-double-in.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Why Saka Came Off at Half-Time + Double Injury Boost ## Saka's Substitution Explained Bukayo Saka only lasted 45 minutes in Arsenal's clash with Fulham, failing to emerge for the second h",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 03, 2026",
     "title": "How to Earn Connections to High Net-Worth Decision Makers",
     "url": "2026-05-03-how-to-earn-connections-to-high-net-worth-decision.html",
     "category": "Tech/Business",
@@ -2740,193 +1585,6 @@ var posts = [
   },
   {
     "date": "May 02, 2026",
-    "title": "3pm team news: Welbeck starts, Gordon + Hall subs",
-    "url": "2026-05-02-3pm-team-news-welbeck-starts-gordon-hall-subs.html",
-    "category": "FPL",
-    "excerpt": "# Team News Round-Up: Welbeck Returns as Gordon and Hall Remain Substitutes ## Brighton: Welbeck Back in Starting XI Danny Welbeck returns to Brighton's starting lineup after missing the midweek Doubl",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Arsenal v Fulham team news: Eze + Saka start, Odegaard out",
-    "url": "2026-05-02-arsenal-v-fulham-team-news-eze-saka-start-odegaard.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal v Fulham: Saka and Eze Return as Arteta Makes Five Changes ## Saka and Eze Back in the Starting XI Bukayo Saka returns to the Arsenal starting XI this evening after recovering from injury. T",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Aston Villa v Tottenham predicted line-ups + FPL team news",
-    "url": "2026-05-02-aston-villa-v-tottenham-predicted-line-ups-fpl-tea.html",
-    "category": "FPL",
-    "excerpt": "# Aston Villa v Tottenham Predicted Line-ups + FPL Team News ## Fixture Overview This Gameweek 35 clash sees Aston Villa host Tottenham Hotspur at Villa Park. The match kicks off at 19:00 BST on Sunda",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Chelsea v Nott\u2019m Forest predicted line-ups + FPL team news",
-    "url": "2026-05-02-chelsea-v-nottm-forest-predicted-line-ups-fpl-team.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea v Nottingham Forest: Predicted Line-Ups & FPL Team News ## Match Overview Fantasy Football Scout provides comprehensive coverage of the Gameweek 35 Premier League fixture between Chelsea and",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Cunha + Shaw: Man United injury latest for FPL Gameweek 35",
-    "url": "2026-05-02-cunha-shaw-man-united-injury-latest-for-fpl-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# Man United Injury Update for FPL Gameweek 35 ## Matthijs de Ligt Remains Unavailable Manchester United defender Matthijs de Ligt continues to be sidelined due to a back injury. The centre-back, pric",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Everton v Man City predicted line-ups + FPL team news",
-    "url": "2026-05-02-everton-v-man-city-predicted-line-ups-fpl-team-new.html",
-    "category": "FPL",
-    "excerpt": "# Everton v Manchester City: Predicted Line-ups and FPL Team News ## Match Overview Everton vs Manchester City is a Gameweek 35 Premier League match. This fixture represents an important encounter for",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL Challenge best picks + team reveal \u2013 Gameweek 35",
-    "url": "2026-05-02-fpl-challenge-best-picks-team-reveal-gameweek-35.html",
-    "category": "FPL",
-    "excerpt": "# FPL Challenge Best Picks + Team Reveal \u2013 Gameweek 35 ## Defensive Options Worth Considering For FPL Challenge managers seeking clean sheet points in Gameweek 35, two teams stand out based on recent ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "\u00ad\u00ad\u00adFPL Gameweek 35 differentials: 3 low-owned picks to consider",
-    "url": "2026-05-02-fpl-gameweek-35-differentials-3-low-owned-picks-to.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Differentials: Three Low-Owned Picks to Consider ## Dango Ouattara \u2013 Brentford \u2013 \u00a35.8m Dango Ouattara has emerged as a compelling differential option for FPL managers seeking value i",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL Gameweek 35 Scout Picks: All-in on Arsenal + Man City",
-    "url": "2026-05-02-fpl-gameweek-35-scout-picks-all-in-on-arsenal-man-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Scout Picks: All-In on Arsenal + Man City ## Man City Focus: The Nico O'Reilly Proposition Nico O'Reilly has delivered four goals and one assist in his last seven matches. His underl",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL Gameweek 35 team news: Friday\u2019s live injury updates",
-    "url": "2026-05-02-fpl-gameweek-35-team-news-fridays-live-injury-upda.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Team News: Friday's Live Injury Updates ## Arsenal Arsenal will be without Kai Havertz and Jurrien Timber for this weekend's fixture. Both players have been ruled out due to injuries",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL in 5 minutes: All you need to know about Gameweek 35",
-    "url": "2026-05-02-fpl-in-5-minutes-all-you-need-to-know-about-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# FPL in 5 Minutes: All You Need to Know About Gameweek 35 ## Deadline Reminder All transfers and team selections need to be done by 18:30 BST on Friday 1 May. This is your final chance to shape your ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-02",
-    "url": "2026-05-02-fpl-news-roundup-2026-05-02.html",
-    "category": "FPL",
-    "excerpt": "Saka and Eze both start for Arsenal against Fulham, but captain Odegaard misses out through injury. Arteta has made five changes from the midweek fixture, suggesting rotation as the season reaches its",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL notes: Stach superb, Okafor again + \u201cshell-shocked\u201d Burnley",
-    "url": "2026-05-02-fpl-notes-stach-superb-okafor-again-shell-shocked-.html",
-    "category": "FPL",
-    "excerpt": "# Leeds United Secure Crucial Victory with Stach, Okafor, and Calvert-Lewin Goals ## Match Overview Leeds United secured another crucial three points on Friday, earning victory through goals from Anto",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "FPL Rate My Team surgery with five-time top 1k finisher Tom Freeman",
-    "url": "2026-05-02-fpl-rate-my-team-surgery-with-five-time-top-1k-fin.html",
-    "category": "FPL",
-    "excerpt": "# FPL Rate My Team Surgery with Tom Freeman ## An Expert Resource for Fantasy Premier League Managers Fantasy Football Scout is offering FPL managers an opportunity to get personalized advice through ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Gomez, Wieffer, Milner: Brighton injury latest for FPL Gameweek 35",
-    "url": "2026-05-02-gomez-wieffer-milner-brighton-injury-latest-for-fp.html",
-    "category": "FPL",
-    "excerpt": "# Brighton Injury Latest for FPL Gameweek 35 ## Overview Brighton & Hove Albion head into Gameweek 35 with several squad changes affecting Fantasy Premier League managers. Here is the latest on the ke",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Leeds v Burnley team news: Bijol, Stach + Okafor start",
-    "url": "2026-05-02-leeds-v-burnley-team-news-bijol-stach-okafor-start.html",
-    "category": "FPL",
-    "excerpt": "# Leeds v Burnley: Team News and Lineup Changes ## Fixture Details Leeds United v Burnley gets Gameweek 35 of the Fantasy Premier League underway this Friday evening at Elland Road, with kick-off sche",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Rodri, Dias, Gvardiol: Man City injury latest for FPL Gameweek 35",
-    "url": "2026-05-02-rodri-dias-gvardiol-man-city-injury-latest-for-fpl.html",
-    "category": "FPL",
-    "excerpt": "# Man City Injury Latest for FPL Gameweek 35: Rodri, Dias, Gvardiol ## Rodri's Fitness Uncertainty Manchester City's Rodri remains a doubt for the team's Monday trip to Everton in Gameweek 35. The mid",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
     "title": "Test",
     "url": "2026-05-02-test.html",
     "category": "AI",
@@ -2960,17 +1618,6 @@ var posts = [
   },
   {
     "date": "May 02, 2026",
-    "title": "The Pre-Match Preamble \u2013 Gameweek 35",
-    "url": "2026-05-02-the-pre-match-preamble-gameweek-35.html",
-    "category": "FPL",
-    "excerpt": "# The Pre-Match Preamble \u2013 Gameweek 35 ## Context: The Double Gameweek Aftermath Fantasy Premier League managers faced significant challenges following Double Gameweek 33. The period was marked by con",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 02, 2026",
     "title": "Trust Issues",
     "url": "2026-05-02-trust-issues.html",
     "category": "Science/Health",
@@ -2990,17 +1637,6 @@ var posts = [
       "News"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "May 02, 2026",
-    "title": "Who is the best captain for FPL Gameweek 35?",
-    "url": "2026-05-02-who-is-the-best-captain-for-fpl-gameweek-35.html",
-    "category": "FPL",
-    "excerpt": "# Best Captain for FPL Gameweek 35: A Data-Driven Analysis ## Overview Fantasy Premier League managers face a pivotal captaincy decision heading into Gameweek 35. With the poll data now available, the",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 02, 2026",
@@ -3037,50 +1673,6 @@ var posts = [
   },
   {
     "date": "May 01, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-05-01-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft and Rank History: Pre-Season FPL Tips for 2025/26 ## The New Season Approaches The new FPL season is just over a week away. As the countdown begins, many managers are f",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Best Crystal Palace players for FPL Double Gameweek 36",
-    "url": "2026-05-01-best-crystal-palace-players-for-fpl-double-gamewee.html",
-    "category": "FPL",
-    "excerpt": "# Best Crystal Palace Players for FPL Double Gameweek 36 ## Double Gameweek Overview Crystal Palace will double in Gameweek 36, with matches against Everton and Manchester City. This is the final Doub",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Best fixtures from FPL Gameweek 35: Players + teams to target",
-    "url": "2026-05-01-best-fixtures-from-fpl-gameweek-35-players-teams-t.html",
-    "category": "FPL",
-    "excerpt": "# Best Fixtures from FPL Gameweek 35: Players + Teams to Target ## Arsenal's Favorable Run Continues Arsenal enter Gameweek 35 with fixtures that present significant clean sheet potential. The team wo",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Bye Bye BB? ~ FH Time! | BGW34",
-    "url": "2026-05-01-bye-bye-bb-fh-time-bgw34.html",
-    "category": "FPL",
-    "excerpt": "# Bye Bye BB? ~ FH Time! | BGW34 ## Chip Strategy Update The Free Hit chip takes centre stage in gameweek 34, with both podcast hosts confirmed as deploying this valuable asset. This represents a sign",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
     "title": "Copy This Blueprint to Go From $0 to $100M/yr in E-com",
     "url": "2026-05-01-copy-this-blueprint-to-go-from-0-to-100myr-in-e-co.html",
     "category": "Tech/Business",
@@ -3100,61 +1692,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "FPL Gameweek 35 team news: Thursday\u2019s live injury updates",
-    "url": "2026-05-01-fpl-gameweek-35-team-news-thursdays-live-injury-up.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35: Thursday's Live Injury Updates ## Fulham Injury Watch Fulham faces Arsenal in Gameweek 35, and the injury situation at Craven Cottage remains concerning for Fantasy Premier League m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "FPL News Roundup \u2014 2026-05-01",
-    "url": "2026-05-01-fpl-news-roundup-2026-05-01.html",
-    "category": "FPL",
-    "excerpt": "The early kickoff at Elland Road sees Leeds United take on Burnley, with the hosts fielding a strong side including **Bijol, Stach, and Okafor** in their starting XI. FPL managers with Leeds assets wi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "FPL notes: Rice deeper, Saka + Eze to start in Gameweek 35?",
-    "url": "2026-05-01-fpl-notes-rice-deeper-saka-eze-to-start-in-gamewee.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Rice Deeper Role, Saka and Eze Eye Gameweek 35 Returns ## Match Report: Arsenal vs Atletico Madrid Arsenal played out a 1-1 draw with Atletico Madrid in their midweek Champions League fix",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Free Hit Active! Lateriser's Gameweek 34 Team Selection | Top 200x3 | Fantasy Premier League Tips",
-    "url": "2026-05-01-free-hit-active-laterisers-gameweek-34-team-select.html",
-    "category": "FPL",
-    "excerpt": "# Free Hit Active! Lateriser's Gameweek 34 Team Selection ## Overview The Free Hit chip is active in Gameweek 34, providing a crucial opportunity for managers to reassess their squad without long-term",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Gameweek 35: Lateriser on Cherki, keeping Pedro + clubs to target",
-    "url": "2026-05-01-gameweek-35-lateriser-on-cherki-keeping-pedro-club.html",
-    "category": "FPL",
-    "excerpt": "# Gameweek 35: Lateriser on Cherki, Keeping Pedro + Clubs to Target *Fantasy Football Scout's Lateriser picks have been a mixed bag this season. Here's a focused look at the key decisions ahead of Gam",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "May 01, 2026",
@@ -3202,17 +1739,6 @@ var posts = [
   },
   {
     "date": "May 01, 2026",
-    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-05-01-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
-    "category": "FPL",
-    "excerpt": "# Luke's Latest Draft: FPL Goalkeeper Strategy for 2025/26 ## Luke's Budget Approach to Goalkeepers Luke from FPL Blackbox has shared his current draft strategy for the 2025/26 Fantasy Premier League ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
     "title": "Most Replayed Moment: Neil deGrasse Tyson On The Future Of Humanity! Will We Ever Go To Mars?",
     "url": "2026-05-01-most-replayed-moment-neil-degrasse-tyson-on-the-fu.html",
     "category": "Business/Interview",
@@ -3230,39 +1756,6 @@ var posts = [
     "excerpt": "# Key Insights - **John Ternus**, currently Senior VP of Hardware Engineering, becomes Apple's CEO in September 2025, replacing 65-year-old **Tim Cook**, who moves to Chairman of the Board. **Johny Sr",
     "tags": [
       "Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Parker gone \u2013 but what can we expect from interim Burnley boss Jackson?",
-    "url": "2026-05-01-parker-gone-but-what-can-we-expect-from-interim-bu.html",
-    "category": "FPL",
-    "excerpt": "# Parker Gone \u2013 But What Can We Expect From Interim Burnley Boss Jackson? ## Introduction: A Mutual Departure Burnley have confirmed this morning that Scott Parker has left his position as head coach.",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Pras' Gameweek 34 Team Selection - Freehit active  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-05-01-pras-gameweek-34-team-selection-freehit-active-fan.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 34 Team Selection: Freehit Active ## Introduction The Freehit chip is now active in Gameweek 34, presenting a key tactical opportunity for Fantasy Premier League managers. With the ab",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "Premium (Under?) Performance | #FPL GW35",
-    "url": "2026-05-01-premium-under-performance-fpl-gw35.html",
-    "category": "FPL",
-    "excerpt": "# Premium (Under?) Performance | FPL GW35 ## Introduction This episode of **Who Got the Assist** focuses on premium player performance versus underperformance over the course of the season to assess w",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -3290,17 +1783,6 @@ var posts = [
   },
   {
     "date": "May 01, 2026",
-    "title": "Semenyo to Cherki? Best Arsenal players? FPL Gameweek 35 Q&A",
-    "url": "2026-05-01-semenyo-to-cherki-best-arsenal-players-fpl-gamewee.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Q&A: Semenyo to Cherki and Best Arsenal Players ## Introduction This article addresses key questions from Fantasy Premier League managers ahead of Gameweek 35, drawing from verified ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
     "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
     "url": "2026-05-01-the-afterlife-according-to-vikings-valhalla-and-ra.html",
     "category": "AI/Tech",
@@ -3323,28 +1805,6 @@ var posts = [
   },
   {
     "date": "May 01, 2026",
-    "title": "The latest FFS Members Cup results + fifth-round draw",
-    "url": "2026-05-01-the-latest-ffs-members-cup-results-fifth-round-dra.html",
-    "category": "FPL",
-    "excerpt": "# FFS Members Cup: Round Four Results and Fifth-Round Draw ## Overview The Fantasy Football Scout Members Cup has reached its penultimate stages. Sixteen FPL managers remain in contention following th",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "The Scout Squad: Our top picks for FPL Gameweek 35",
-    "url": "2026-05-01-the-scout-squad-our-top-picks-for-fpl-gameweek-35.html",
-    "category": "FPL",
-    "excerpt": "# The Scout Squad: Our Top Picks for FPL Gameweek 35 Fantasy Football Scout's Scout Squad feature operates under specific budget requirements. At least one sub-\u00a35.0m goalkeeper, at least one sub-\u00a35.0m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "May 01, 2026",
     "title": "The Uncomfortable Truth About Oz Pearlman",
     "url": "2026-05-01-the-uncomfortable-truth-about-oz-pearlman.html",
     "category": "Tech/Business",
@@ -3353,17 +1813,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "May 01, 2026",
-    "title": "The Weekender ep. 32 | Planet FPL 2025/26",
-    "url": "2026-05-01-the-weekender-ep-32-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# The Weekender ep. 32 | Planet FPL 2025/26 ## Manchester United's Champions League Position Manchester United have secured Champions League qualification for next season. The team sits on 61 points w",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
   },
   {
     "date": "May 01, 2026",
@@ -3466,39 +1915,6 @@ var posts = [
   },
   {
     "date": "April 30, 2026",
-    "title": "FPL Gameweek 35 team news: Wednesday\u2019s live injury updates",
-    "url": "2026-04-30-fpl-gameweek-35-team-news-wednesdays-live-injury-u.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Team News: Wednesday's Live Injury Updates ## Leeds United **Gabriel Gudmundsson (\u00a33.8m)** has been ruled out of Gameweek 35 after suffering a hamstring injury at Wembley last weeken",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 30, 2026",
-    "title": "FPL News Roundup \u2014 2026-04-30",
-    "url": "2026-04-30-fpl-news-roundup-2026-04-30.html",
-    "category": "FPL",
-    "excerpt": "Liverpool have confirmed that Mohamed Salah is expected to be fit before the end of the season, easing concerns over his recent injury absence. The Egyptian has been sidelined in recent Gameweeks, but",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 30, 2026",
-    "title": "Is there an alternative to GW35 Wildcard + GW36 Bench Boost?",
-    "url": "2026-04-30-is-there-an-alternative-to-gw35-wildcard-gw36-benc.html",
-    "category": "FPL",
-    "excerpt": "# Is There an Alternative to GW35 Wildcard + GW36 Bench Boost? ## The Chip Landscape Heading into Gameweek 35, over six million Fantasy Premier League managers still have a Wildcard chip in hand. This",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 30, 2026",
     "title": "Kratom Addiction, Naked Justice & The Uber Eats To OF Pipeline - #1091",
     "url": "2026-04-30-kratom-addiction-naked-justice-the-uber-eats-to-of.html",
     "category": "Self-help/Society",
@@ -3507,17 +1923,6 @@ var posts = [
       "Self-help/Society"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 30, 2026",
-    "title": "Liverpool provide new Salah injury update",
-    "url": "2026-04-30-liverpool-provide-new-salah-injury-update.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool Provide New Mohamed Salah Injury Update ## Injury Diagnosis Liverpool have confirmed that Mohamed Salah (\u00a314.0m) has been diagnosed with a muscle injury. The issue forced the forward off d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 30, 2026",
@@ -3565,17 +1970,6 @@ var posts = [
   },
   {
     "date": "April 30, 2026",
-    "title": "The latest FFS Members Cup results + fifth-round draw",
-    "url": "2026-04-30-the-latest-ffs-members-cup-results-fifth-round-dra.html",
-    "category": "FPL",
-    "excerpt": "# FFS Members Cup: Round Four Results and Fifth-Round Draw The Fantasy Football Scout (FFS) Members Cup continues to deliver dramatic moments as round five approaches. With 16 managers remaining, the ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 30, 2026",
     "title": "The Trial Begins: Elon vs Sam Altman",
     "url": "2026-04-30-the-trial-begins-elon-vs-sam-altman.html",
     "category": "AI/Tech",
@@ -3593,28 +1987,6 @@ var posts = [
     "excerpt": "<p># Key Insights - **Kratom's addiction profile may be underestimated**: The discussion explores whether the mitragynine-based substance\u2014legal in most US states despite regulatory scrutiny\u2014produces d",
     "tags": [
       "Self-help/Society"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "April 30, 2026",
-    "title": "What\u2019s left to play for in 2025/26 \u2013 and how it could affect FPL",
-    "url": "2026-04-30-whats-left-to-play-for-in-202526-and-how-it-could-.html",
-    "category": "FPL",
-    "excerpt": "# What's Left to Play for in 2025/26 \u2013 and How It Could Affect FPL With the Premier League season reaching its business end, there are still significant matters to be decided across the division. Ther",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 30, 2026",
-    "title": "Wolves v Sunderland | CotC with Bradley Parker & Spencer Barrowman | Planet FPL 2025/26",
-    "url": "2026-04-30-wolves-v-sunderland-cotc-with-bradley-parker-spenc.html",
-    "category": "FPL",
-    "excerpt": "<p># Wolves v Sunderland Clash: Planet FPL Correspondents Breakdown --- ## 0. Key Insights - **Sunderland sit bottom of the table despite a 5-0 victory over Wolves** \u2014 a result that highlighted the Bl",
-    "tags": [
-      "FPL"
     ],
     "type": "podcast"
   },
@@ -3661,72 +2033,6 @@ var posts = [
       "Business/Self-help"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "Ask James | Wednesday April 29th | Planet FPL 2025/26",
-    "url": "2026-04-29-ask-james-wednesday-april-29th-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# Ask James: Wednesday April 29th | Planet FPL 2025/26 ## Introduction This week's Ask James column addresses key FPL considerations heading into the closing stages of the season. With limited options",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "Double Gameweek 36 confirmed for Man City + Crystal Palace",
-    "url": "2026-04-29-double-gameweek-36-confirmed-for-man-city-crystal-.html",
-    "category": "FPL",
-    "excerpt": "# Double Gameweek 36 Confirmed for Manchester City and Crystal Palace The final Double Gameweek of the 2025/26 season will feature Manchester City and Crystal Palace, with both clubs scheduled to play",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "Eze, Havertz, Timber + Calafiori injury latest",
-    "url": "2026-04-29-eze-havertz-timber-calafiori-injury-latest.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Injury Latest: Havertz Out, Eze Ready, Calafiori Returns, Timber Uncertainty ## Team Training Update On April 28, Arsenal's training session provided a mixed picture for the squad's fitness ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "FPL News Roundup \u2014 2026-04-29",
-    "url": "2026-04-29-fpl-news-roundup-2026-04-29.html",
-    "category": "FPL",
-    "excerpt": "The biggest news this week confirms a Double Gameweek 36 for both Manchester City and Crystal Palace, with their postponed clash from Gameweek 31 now rescheduled to that blank Gameweek. This transform",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "FPL notes: Salah injury latest",
-    "url": "2026-04-29-fpl-notes-salah-injury-latest.html",
-    "category": "FPL",
-    "excerpt": "The source material you've provided contains no usable content\u2014it returns a \"Not Found\" error. There's nothing to transform. If you can share the actual article text, transcript, or live content from ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 35?",
-    "url": "2026-04-29-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# Goals + Assists Imminent! Who is 'Due' in FPL Gameweek 35? ## Article Overview The article titled \"Goals + assists imminent! Who is 'due' in FPL Gameweek 35?\" was published on April 28, 2026, as par",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 29, 2026",
@@ -3796,17 +2102,6 @@ var posts = [
   },
   {
     "date": "April 29, 2026",
-    "title": "UCL Fantasy: Matchday 15 Scout Picks",
-    "url": "2026-04-29-ucl-fantasy-matchday-15-scout-picks.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy: Matchday 15 Scout Picks ## Goalkeeper Options Matvei Safonov stands out as the primary goalkeeper recommendation for Tuesday's fixtures in Matchday 15. At his price point, he represents",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 29, 2026",
     "title": "What Red Squirrels Reveal About Britain\u2019s Broken Investing Culture",
     "url": "2026-04-29-what-red-squirrels-reveal-about-britains-broken-in.html",
     "category": "Finance",
@@ -3815,17 +2110,6 @@ var posts = [
       "Finance"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 29, 2026",
-    "title": "Who are the best cheap players for a Gameweek 35 Bench Boost?",
-    "url": "2026-04-29-who-are-the-best-cheap-players-for-a-gameweek-35-b.html",
-    "category": "FPL",
-    "excerpt": "# Who Are the Best Cheap Players for a Gameweek 35 Bench Boost? When activating the Bench Boost chip in Gameweek 35, managers need reliable cheap options across all positions. The following analysis d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 29, 2026",
@@ -3851,28 +2135,6 @@ var posts = [
   },
   {
     "date": "April 28, 2026",
-    "title": "20 assists for Bruno\u2026 how close is he to the FPL record?",
-    "url": "2026-04-28-20-assists-for-bruno-how-close-is-he-to-the-fpl-re.html",
-    "category": "FPL",
-    "excerpt": "# Bruno Fernandes Reaches 20 FPL Assists: How Close Is He to the Record? ## A Record-Breaking Season Bruno Fernandes has reached 20 FPL assists in the 2025/26 season, cementing his status as the most ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "Aston Villa v Tottenham | CotC with Lee Jackson & Ricky Saunders | Planet FPL 2025/26",
-    "url": "2026-04-28-aston-villa-v-tottenham-cotc-with-lee-jackson-rick.html",
-    "category": "FPL",
-    "excerpt": "# Aston Villa v Tottenham Preview: Captaincy Considerations for GW35 ## Introduction The upcoming Premier League fixture between Aston Villa and Tottenham Hotspur represents a pivotal encounter in the",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "April 28, 2026",
     "title": "China Blocks $2B Meta's Acquisition of Manus. It's Getting Real",
     "url": "2026-04-28-china-blocks-2b-metas-acquisition-of-manus-its-get.html",
     "category": "AI/Tech",
@@ -3881,83 +2143,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "FPL Gameweek 35 early Scout Picks: Leeds pair among four double-ups",
-    "url": "2026-04-28-fpl-gameweek-35-early-scout-picks-leeds-pair-among.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Early Scout Picks: Leeds Pair Among Four Double-Ups ## Key Fixture Context Burnley present a favorable opponent for Gameweek 35's double-up candidates. The Clarets have lost six of t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "FPL Gameweek 35 Wildcard: 3 of the best drafts",
-    "url": "2026-04-28-fpl-gameweek-35-wildcard-3-of-the-best-drafts.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 35 Wildcard: Strategic Considerations and Draft Approaches ## The Wildcard Landscape According to Fantasy Football Scout research, over 30% of FPL players surveyed are planning to Wildc",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "FPL News Roundup \u2014 2026-04-28",
-    "url": "2026-04-28-fpl-news-roundup-2026-04-28.html",
-    "category": "FPL",
-    "excerpt": "Bruno Fernandes is on the brink of making FPL history, having reached 20 assists this season with Luis Suarez's single-season record firmly in his sights. The Manchester United captain has been a tran",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "FPL notes: Palmer + Pedro fit, Gudmundsson injury, Enzo good",
-    "url": "2026-04-28-fpl-notes-palmer-pedro-fit-gudmundsson-injury-enzo.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Chelsea Attackers Fit, Leeds Injury Concerns ## Chelsea: Palmer and Pedro Return to Fitness Cole Palmer (\u00a310.5m) has returned to fitness for Chelsea ahead of Gameweek 35. The England inte",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "Gibbs-White, Bowen, Palmer: Buy, keep or sell in Gameweek 35?",
-    "url": "2026-04-28-gibbs-white-bowen-palmer-buy-keep-or-sell-in-gamew.html",
-    "category": "FPL",
-    "excerpt": "# Gibbs-White, Bowen, Cherki: Buy, Keep or Sell in Gameweek 35? ## Morgan Gibbs-White \u2013 Nottingham Forest | \u00a37.6m Morgan Gibbs-White has emerged as one of the most prolific midfielders in the Premier ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "Man Utd v Brentford team news: Cunha out, Dorgu a sub",
-    "url": "2026-04-28-man-utd-v-brentford-team-news-cunha-out-dorgu-a-su.html",
-    "category": "FPL",
-    "excerpt": "# Man Utd v Brentford: Team News and Lineup Changes ## Manchester United Starting XI Matheus Cunha is absent from the Manchester United matchday squad for tonight's fixture. His absence opens a spot i",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 28, 2026",
-    "title": "Premium (Under?) Performance | #FPL GW35",
-    "url": "2026-04-28-premium-under-performance-fpl-gw35.html",
-    "category": "FPL",
-    "excerpt": "# Key Insights - **Sam rose from 350K to 98.5K rank in just two weeks** \u2014 a 43-44 point gain that has placed him inside the top 100K with several gameweeks remaining, transforming what had been a frus",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
   },
   {
     "date": "April 28, 2026",
@@ -4005,28 +2190,6 @@ var posts = [
   },
   {
     "date": "April 27, 2026",
-    "title": "Arsenal v Newcastle team news: Saka a sub, White starts",
-    "url": "2026-04-27-arsenal-v-newcastle-team-news-saka-a-sub-white-sta.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal v Newcastle United: Team News and Starting Lineups ## Arsenal Team News Bukayo Saka returns to the Arsenal matchday squad for the first time since March. The England international is among t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "But At What Cost? | Planet FPL S. 9 Ep. 51 | GW34 Review | Fantasy Premier League",
-    "url": "2026-04-27-but-at-what-cost-planet-fpl-s-9-ep-51-gw34-review-.html",
-    "category": "FPL",
-    "excerpt": "<p># But At What Cost? Planet FPL Season 9, Episode 51 \u2014 GW34 Review ## Key Insights - **David scored 50.57 points** on his free hit with Bruno Fernandes captained, while James's free hit delivered on",
-    "tags": [
-      "FPL"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "April 27, 2026",
     "title": "Codex clearly explained (and how to use it)",
     "url": "2026-04-27-codex-clearly-explained-and-how-to-use-it.html",
     "category": "Business/Startups",
@@ -4035,72 +2198,6 @@ var posts = [
       "Business/Startups"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL Gameweek 34: Saturday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-04-27-fpl-gameweek-34-saturdays-goals-assists-bonus-defc.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 34: Saturday's Goals, Assists, Bonus + DefCon ## Overview Gameweek 34 delivered five Premier League matches on Saturday, with Fantasy managers receiving the full suite of data including",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL notes: Eze + Havertz injury latest, Saka returns + why Hall was benched",
-    "url": "2026-04-27-fpl-notes-eze-havertz-injury-latest-saka-returns-w.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Saka Returns as Calafiori Misses Out, Hall Benched ## Saka Makes Comeback Bukayo Saka (\u00a39.8m) made his return to action, coming off the bench as a substitute for Arsenal. The England inte",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL notes: Eze + Havertz injury latest",
-    "url": "2026-04-27-fpl-notes-eze-havertz-injury-latest.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Eze and Havertz Injury Latest ## Arsenal Injury Update Eberechi Eze and Kai Havertz both departed during the match with muscular niggles. Havertz left the field after 34 minutes, with Eze",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL notes: Pep explains rotation as Semenyo misses FA Cup semi",
-    "url": "2026-04-27-fpl-notes-pep-explains-rotation-as-semenyo-misses-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Guardiola Explains Rotation as Semenyo Misses FA Cup Semi-Final ## Manchester City's FA Cup Semi-Final: A Heavily Rotated Display Manchester City's FA Cup semi-final against Southampton s",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL notes: Salah injury latest, Isak goal + Palace impress",
-    "url": "2026-04-27-fpl-notes-salah-injury-latest-isak-goal-palace-imp.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Salah Injury Update, Isak's Anfield Strike, Palace's Shooting Stats ## Salah Injury Update Mohamed Salah (\u00a314.0m) was forced off during Liverpool's 3-1 victory over Crystal Palace, clutch",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
-    "title": "FPL notes: Xavi + Solanke injury latest, Porro a threat",
-    "url": "2026-04-27-fpl-notes-xavi-solanke-injury-latest-porro-a-threa.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Xavi Simons Injury Update, Porro Emerges as Threat ## Injury Situation at Tottenham Xavi Simons (\u00a36.6m) suffered a significant setback during the recent match, departing on a stretcher wi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 27, 2026",
@@ -4214,17 +2311,6 @@ var posts = [
   },
   {
     "date": "April 27, 2026",
-    "title": "Zophar\u2019s FPL Blank Gameweek 34 Free Hit team + Q&A",
-    "url": "2026-04-27-zophars-fpl-blank-gameweek-34-free-hit-team-qa.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's FPL Blank Gameweek 34 Free Hit Team + Q&A ## Overview Fantasy Premier League managers face their biggest challenge of the season in Gameweek 34, which is the biggest blank gameweek of the s",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 27, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-27",
     "url": "2026-04-27-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -4233,28 +2319,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "FPL GW34 COMPLETE GUIDE \u2049\ufe0f *NEW* FREE HIT DRAFT! \u26aa XAVI... | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-25-fpl-gw34-complete-guide-new-free-hit-draft-xavi-fa.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 34 Complete Guide: Navigating the Biggest Blank of the Season **FPL Harry's comprehensive analysis for GW34 \u2014 from free hit strategies to captaincy decisions and injury updates** --- Fo",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "FPL notes: Gibbs-White\u2019s form, Forest 4-4-2 + Sunderland drop-off",
-    "url": "2026-04-25-fpl-notes-gibbs-whites-form-forest-4-4-2-sunderlan.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Gibbs-White's Red-Hot Form and Forest's Tactical Setup ## Morgan Gibbs-White Continues Explosion Morgan Gibbs-White remains one of Fantasy Premier League's most essential assets. The Nott",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 25, 2026",
@@ -4269,17 +2333,6 @@ var posts = [
   },
   {
     "date": "April 25, 2026",
-    "title": "Liverpool v Crystal Palace predicted line-ups + FPL team news",
-    "url": "2026-04-25-liverpool-v-crystal-palace-predicted-line-ups-fpl-.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool v Crystal Palace: FPL Fixture Guide ## Match Overview Fantasy Premier League managers preparing for Blank Gameweek 34 will find key details below for the Liverpool versus Crystal Palace fi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 25, 2026",
     "title": "No One is Ready for This Coming War - Navy SEAL Andy Stumpf - #1089",
     "url": "2026-04-25-no-one-is-ready-for-this-coming-war-navy-seal-andy.html",
     "category": "Self-help/Society",
@@ -4291,39 +2344,6 @@ var posts = [
   },
   {
     "date": "April 25, 2026",
-    "title": "Pras' Gameweek 34 Team Selection - Freehit active  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-25-pras-gameweek-34-team-selection-freehit-active-fan.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 34 Team Selection: Navigating the \"Fraudulent\" Free Hit Week | FPL Tips 2025/26 ## Introduction: The High-Stakes Free Hit Dilemma For Fantasy Premier League managers across the world,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "Sunderland v Forest team news: Ballard starts, Reinildo benched",
-    "url": "2026-04-25-sunderland-v-forest-team-news-ballard-starts-reini.html",
-    "category": "FPL",
-    "excerpt": "# Sunderland v Forest Team News: Ballard Starts, Reinildo Benched ## Sunderland Team Changes Dan Ballard returns to the Sunderland starting XI in place of Luke O'Nien, who is demoted to substitute dut",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "Sunderland v Nott\u2019m Forest predicted line-ups + FPL team news",
-    "url": "2026-04-25-sunderland-v-nottm-forest-predicted-line-ups-fpl-t.html",
-    "category": "FPL",
-    "excerpt": "# Sunderland vs Nottingham Forest: Match Preview ## Team Positions and Form Sunderland occupy 11th position in the league with 46 points from 33 games, carrying a goal difference of -4. Their recent f",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 25, 2026",
     "title": "Laws of the Universe",
     "url": "2026-04-25-universe.html",
     "category": "Science/Health",
@@ -4332,39 +2352,6 @@ var posts = [
       "Science/Health"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "West Ham v Everton | CotC with Chris Stone & Sean Norton | Planet FPL 2025/26",
-    "url": "2026-04-25-west-ham-v-everton-cotc-with-chris-stone-sean-nort.html",
-    "category": "FPL",
-    "excerpt": "# West Ham vs Everton: The Battle for Premier League Survival \u2014 Planet FPL Deadline Day Analysis The final stretch of a Premier League season always brings heightened tension, but for clubs fighting t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "West Ham v Everton predicted line-ups + FPL team news",
-    "url": "2026-04-25-west-ham-v-everton-predicted-line-ups-fpl-team-new.html",
-    "category": "FPL",
-    "excerpt": "# West Ham v Everton: Predicted Line-Ups & FPL Team News ## Fixture Overview West Ham United host Everton in Gameweek 34 at London Stadium. The match kicks off at 15:00 BST on Saturday 25 April. Both ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 25, 2026",
-    "title": "Wolves v Tottenham predicted line-ups + FPL team news",
-    "url": "2026-04-25-wolves-v-tottenham-predicted-line-ups-fpl-team-new.html",
-    "category": "FPL",
-    "excerpt": "# Wolves v Tottenham: Predicted Line-ups & FPL Team News ## Match Overview The fixture between Wolverhampton Wanderers and Tottenham Hotspur is scheduled to take place at Molineux Stadium. The match k",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 25, 2026",
@@ -4387,127 +2374,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "A differential \u2018Free Hit\u2019 XI for FPL Blank Gameweek 34",
-    "url": "2026-04-24-a-differential-free-hit-xi-for-fpl-blank-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# Differential 'Free Hit' XI for FPL Blank Gameweek 34 ## Introduction Blank Gameweeks present FPL managers with unique challenges, requiring careful consideration of fixture difficulty, form, and own",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "Beto, Branthwaite, Grealish: Everton injury latest for Gameweek 34",
-    "url": "2026-04-24-beto-branthwaite-grealish-everton-injury-latest-fo.html",
-    "category": "FPL",
-    "excerpt": "# Everton Injury Latest for Gameweek 34: Beto, Branthwaite, Grealish ## Overview Everton manager David Moyes has confirmed the club's current injury situation heading into Gameweek 34, with two player",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "FPL Gameweek 34 team news: Friday\u2019s live injury updates",
-    "url": "2026-04-24-fpl-gameweek-34-team-news-fridays-live-injury-upda.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 34 Team News: Friday's Live Injury Updates This article summarises the confirmed and potential injury situations from Friday's live updates ahead of Fantasy Premier League Gameweek 34. ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "FPL Gameweek 34 team news: Thursday\u2019s live injury updates",
-    "url": "2026-04-24-fpl-gameweek-34-team-news-thursdays-live-injury-up.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 34 Team News: Thursday's Live Injury Updates ## Sunderland Sunderland's defensive options have been hit by injuries heading into Gameweek 34. Omar Alderete is available for selection de",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "FPL GW34 EXPERTS TEAM \u2705 BEST GAMEWEEK 34 TEAM! \ud83d\udca5",
-    "url": "2026-04-24-fpl-gw34-experts-team-best-gameweek-34-team-.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW34 Expert Analysis: Navigating the Blank Gameweek Without Playing It Safe Despite the challenges posed by a blank gameweek in Fantasy Premier League, this week's expert analysis reveals that G",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "FPL Team News + Predicted Line-ups",
-    "url": "2026-04-24-fpl-team-news-predicted-line-ups.html",
-    "category": "FPL",
-    "excerpt": "# FPL Team News: Arsenal Face Selection Dilemmas as Title Race Heats Up The deadline is approaching, and the decisions are getting harder. Fantasy managers looking at this Gameweek's fixtures need to ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "Free Hit Active! Lateriser's Gameweek 34 Team Selection | Top 200x3 | Fantasy Premier League Tips",
-    "url": "2026-04-24-free-hit-active-laterisers-gameweek-34-team-select.html",
-    "category": "FPL",
-    "excerpt": "# Free Hit Active! Lateriser's Gameweek 34 Team Selection | Top 200x3 | Fantasy Premier League Tips ## A Comprehensive Summary ### Introduction Fantasy Premier League enthusiasts have entered one of t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "FREE HIT ACTIVE! \ud83c\udf5f  MY FPL 34 TEAM SELECTION! \ud83d\udcf1 | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-24-free-hit-active-my-fpl-34-team-selection-fantasy-p.html",
-    "category": "FPL",
-    "excerpt": "# FPL Free Hit Strategy for Blank Gameweek 34: A Complete Guide ## Introduction Fantasy Premier League veterans know that the final stretch of the season is where championships are won and lost, and F",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "Hair We Go Again | Planet FPL S. 9 Ep. 50 | GW33 Review (Part 2) | Fantasy Premier League",
-    "url": "2026-04-24-hair-we-go-again-planet-fpl-s-9-ep-50-gw33-review-.html",
-    "category": "FPL",
-    "excerpt": "# Hair We Go Again: Planet FPL Breaks Down GW33 Results and Previews Free Hit Strategy for Gameweek 34 ## Introduction The FPL season is hurtling toward its dramatic conclusion, and managers across th",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "How FPL Harry, Mark Sutherns + more did in Gameweek 33",
-    "url": "2026-04-24-how-fpl-harry-mark-sutherns-more-did-in-gameweek-3.html",
-    "category": "FPL",
-    "excerpt": "# How FPL Harry, Mark Sutherns + More Did in Gameweek 33 ## Chip Deployments Gameweek 33 saw several top managers making strategic chip plays. Nine managers activated their Bench Boost, and all nine c",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "Lateriser\u2019s FPL Blank Gameweek 34 Free Hit draft",
-    "url": "2026-04-24-laterisers-fpl-blank-gameweek-34-free-hit-draft.html",
-    "category": "FPL",
-    "excerpt": "# Lateriser's FPL Blank Gameweek 34 Free Hit Draft ## Chip Activation Context Lateriser is activating a Free Hit in Blank Gameweek 34. This decision follows a strategic chip sequence: he used his Wild",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 24, 2026",
@@ -4544,17 +2410,6 @@ var posts = [
   },
   {
     "date": "April 24, 2026",
-    "title": "Saka, Calafiori, Timber: Arsenal injury latest for Gameweek 34",
-    "url": "2026-04-24-saka-calafiori-timber-arsenal-injury-latest-for-ga.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Injury Latest for Gameweek 34 ## Team News Arsenal head into Gameweek 34 with no new injury concerns, according to manager Mikel Arteta. The Gunners appear to have emerged from their recent ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
     "title": "Test",
     "url": "2026-04-24-test.html",
     "category": "AI",
@@ -4563,17 +2418,6 @@ var posts = [
       "AI"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "The Scout Squad: Our top picks for FPL Gameweek 34",
-    "url": "2026-04-24-the-scout-squad-our-top-picks-for-fpl-gameweek-34.html",
-    "category": "FPL",
-    "excerpt": "# The Scout Squad: Our Top Picks for FPL Gameweek 34 This article presents the verified selections for Fantasy Premier League Gameweek 34, drawing from the Scout Squad's recommendations. The final XI ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 24, 2026",
@@ -4594,28 +2438,6 @@ var posts = [
     "excerpt": "<p># This Week in AI: GPT-5.5 Defeats Claude Mythos, SpaceX's Cursor Gambit, and Google's New TPUs The artificial intelligence industry has reached a pivotal moment. OpenAI's release of GPT-5.5 has fu",
     "tags": [
       "AI/Tech"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "Udogie, Vicario, Maddison: Spurs injury latest for Gameweek 34",
-    "url": "2026-04-24-udogie-vicario-maddison-spurs-injury-latest-for-ga.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham Injury Report: Gameweek 34 Availability ## Defensive Concerns Destiny Udogie is likely to miss Gameweek 34 with the muscle injury he suffered last weekend. Manager Roberto De Zerbi has exp",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 24, 2026",
-    "title": "West Ham v Everton | CotC with Chris Stone & Sean Norton | Planet FPL 2025/26",
-    "url": "2026-04-24-west-ham-v-everton-cotc-with-chris-stone-sean-nort.html",
-    "category": "FPL",
-    "excerpt": "<p># West Ham v Everton Clash: Premier League Survival Battles and FPL Strategies for the Run-In **Planet FPL's Correspondents Break Down the Relegation Scramble and Fantasy Football Decisions That Co",
-    "tags": [
-      "FPL"
     ],
     "type": "podcast"
   },
@@ -4662,149 +2484,6 @@ var posts = [
       "Product/Business"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Best Free Hit team for FPL Blank Gameweek 34",
-    "url": "2026-04-23-best-free-hit-team-for-fpl-blank-gameweek-34.html",
-    "category": "FPL",
-    "excerpt": "# Best Free Hit Team for FPL Blank Gameweek 34 ## Understanding the Blank Gameweek Six Premier League teams will not play in Blank Gameweek 34 due to the FA Cup semi-finals. These teams are Manchester",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Branthwaite injury \u2013 \u00a34.5m Keane to get minutes boost?",
-    "url": "2026-04-23-branthwaite-injury-45m-keane-to-get-minutes-boost.html",
-    "category": "FPL",
-    "excerpt": "# Branthwaite Injury Boosts Keane's Fantasy Prospects ## Branthwaite Sidelined for Remainder of Season Everton confirmed on Tuesday that Jarrad Branthwaite (\u00a35.3m) suffered a hamstring injury in Sunda",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Brighton v Chelsea team news: No Pedro or Palmer",
-    "url": "2026-04-23-brighton-v-chelsea-team-news-no-pedro-or-palmer.html",
-    "category": "FPL",
-    "excerpt": "# Brighton v Chelsea Team News: No Pedro or Palmer ## Key Absences Confirmed Chelsea will be without both Cole Palmer and Joao Pedro for tonight's Premier League fixture against Brighton. Cole Palmer ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Bye Bye BB? ~ FH Time! | BGW34",
-    "url": "2026-04-23-bye-bye-bb-fh-time-bgw34.html",
-    "category": "FPL",
-    "excerpt": "# Bye Bye BB? ~ FH Time! | BGW33 - Fantasy Premier League Podcast Summary ## The Return of Fortune: How One Double Gameweek Changed Everything For many Fantasy Premier League managers, the 2024-25 sea",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Chelsea sack Rosenior, McFarlane to take charge",
-    "url": "2026-04-23-chelsea-sack-rosenior-mcfarlane-to-take-charge.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea Sack Rosenior, McFarlane Takes Temporary Charge Chelsea have acted swiftly to relieve Liam Rosenior of his managerial duties following a devastating run of five successive Premier League def",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Crystal Palace v West Ham team news: Sarr benched again",
-    "url": "2026-04-23-crystal-palace-v-west-ham-team-news-sarr-benched-a.html",
-    "category": "FPL",
-    "excerpt": "# Crystal Palace v West Ham United: Team News Analysis ## Crystal Palace Squad Changes Crystal Palace manager Oliver Glasner has made four changes to the XI that started Thursday's UEFA Conference Lea",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "FPL Blank Gameweek 34: Are any Spurs players worth buying?",
-    "url": "2026-04-23-fpl-blank-gameweek-34-are-any-spurs-players-worth-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 34: Are Any Spurs Players Worth Buying? ## The De Zerbi Effect Tottenham Hotspur appointed Roberto De Zerbi as manager in Gameweek 32, a move that brought immediate tactical chang",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "FPL Blank Gameweek 34: Best players to buy if you\u2019ve got no chips",
-    "url": "2026-04-23-fpl-blank-gameweek-34-best-players-to-buy-if-youve.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 34: Best Players to Buy Without Chips ## Arsenal's Favorable Fixture Run Arsenal have three home matches in the next four Gameweeks, hosting Newcastle United, Fulham and Burnley. ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "FPL Blank Gameweek 34 Wildcard: Pros, cons + best team",
-    "url": "2026-04-23-fpl-blank-gameweek-34-wildcard-pros-cons-best-team.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 34 Wildcard: Pros, Cons + Best Team ## Understanding Blank Gameweek 34 Blank Gameweek 34 presents a unique challenge for Fantasy Premier League managers. Only seven top-flight mat",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "FPL notes: Glasner discusses Palace rotation in Gameweeks 34/35",
-    "url": "2026-04-23-fpl-notes-glasner-discusses-palace-rotation-in-gam.html",
-    "category": "FPL",
-    "excerpt": "# Palace Rotation Concerns in Crucial Gameweeks 34 and 35 ## Adam Wharton's Return Adam Wharton was officially injured and not in the squad for Crystal Palace in Gameweek 33. However, the young midfie",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "FPL notes: Hill own goal, Senesi assist + possible Bogle injury",
-    "url": "2026-04-23-fpl-notes-hill-own-goal-senesi-assist-possible-bog.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: James Hill Own Goal, Senesi Assist, and Bogle Injury Concern ## James Hill's Own Goal Frustration Continues Bournemouth defender James Hill experienced another unfortunate moment in his r",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "Man Utd v Brentford | CotC with Alex Trembath & Tom Medd | Planet FPL 2025/26",
-    "url": "2026-04-23-man-utd-v-brentford-cotc-with-alex-trembath-tom-me.html",
-    "category": "FPL",
-    "excerpt": "# Manchester United's Managerial Crossroads and Brentford's European Push: Planet FPL Clash of the Correspondents Recap ## The Summer That Could Define United's Future The Planet FPL Clash of the Corr",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 23, 2026",
-    "title": "MY FPL GW34 TEAM SELECTION \u2705 FREE HIT ACTIVE \ud83d\udca5",
-    "url": "2026-04-23-my-fpl-gw34-team-selection-free-hit-active-.html",
-    "category": "FPL",
-    "excerpt": "# My FPL GW34 Team Selection: Free Hit Active ## Breaking Down My Final Chip Strategy, Fixture Analysis, and Team Selection Decisions --- ### Introduction Gameweek 33 delivered a stunning 137 points, ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
   },
   {
     "date": "April 23, 2026",
@@ -4863,17 +2542,6 @@ var posts = [
   },
   {
     "date": "April 23, 2026",
-    "title": "Weds team news: O\u2019Reilly in midfield, Rayan on the bench",
-    "url": "2026-04-23-weds-team-news-oreilly-in-midfield-rayan-on-the-be.html",
-    "category": "FPL",
-    "excerpt": "# Team News and Lineup Notes ## Manchester City Nico O'Reilly has moved into central midfield for Manchester City. The shift appears linked to Rodri being slightly injured, with Rayan Ait-Nouri brough",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 23, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-23",
     "url": "2026-04-23-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -4918,105 +2586,6 @@ var posts = [
   },
   {
     "date": "April 22, 2026",
-    "title": "Dan Levy",
-    "url": "2026-04-22-dan-levy.html",
-    "category": "FPL",
-    "excerpt": "<p># FPL Gameweek 34: Free Hit Strategy and Fixture Analysis ## Comprehensive Guide to the Biggest Blank Gameweek of the Season --- ### Introduction For Fantasy Premier League managers navigating the ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "FPL Gameweek 33 team news: Tuesday\u2019s live injury updates",
-    "url": "2026-04-22-fpl-gameweek-33-team-news-tuesdays-live-injury-upd.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 33: City defence tightens, Leeds rotation eases, Bournemouth and Burnley still depleted Pep Guardiola has confirmed Rodri will miss Manchester City's trip to Burnley on Wednesday, but t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "FPL PLAYERS TO BUY | GW34 \u2705",
-    "url": "2026-04-22-fpl-players-to-buy-gw34-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Players to Buy for Gameweek 34: The Complete Free Hit Strategy Guide The Fantasy Premier League season is hurtling toward its thrilling conclusion, and Gameweek 34 presents one of the most compl",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "FREE HIT ACTIVE \ud83d\udea8 MY FPL GW34 FREE HIT DRAFT! \ud83c\udccf| Fantasy Premier League 2025/26",
-    "url": "2026-04-22-free-hit-active-my-fpl-gw34-free-hit-draft-fantasy.html",
-    "category": "FPL",
-    "excerpt": "# FREE HIT ACTIVE: FPL Harry's GW34 Free Hit Draft Analysis & Fixture-by-Fixture Breakdown ## Introduction: The Biggest Blank of the Season Fantasy Premier League managers face one of their most chall",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 34?",
-    "url": "2026-04-22-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# Who Is Due? FPL Gameweek 34 Targets the Underachievers With Blank Gameweek 34 looming on the Fantasy Premier League calendar, managers face a familiar dilemma: which underperforming assets might fin",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Lose One's Temper | Planet FPL S. 9 Ep. 49 | GW33 Review | Fantasy Premier League",
-    "url": "2026-04-22-lose-ones-temper-planet-fpl-s-9-ep-49-gw33-review-.html",
-    "category": "FPL",
-    "excerpt": "# Planet FPL Gameweek 33 Review: The Wild Card Dilemma and Double Gameweek Strategy Breakdown ## Introduction The Fantasy Premier League landscape has reached a critical inflection point as Gameweek 3",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-22-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
-    "category": "FPL",
-    "excerpt": "# Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26 ## Introduction As the 2025/26 Fantasy Premier League season approaches, managers across the world are wrestl",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Play Those Chips | #FPL GW32",
-    "url": "2026-04-22-play-those-chips-fpl-gw32.html",
-    "category": "FPL",
-    "excerpt": "# Play Those Chips: A Comprehensive Guide to FPL Gameweek 32 Strategy ## Introduction Welcome to this edition of Who Got the Assist?, the beloved Fantasy Premier League podcast hosted by Tom and Sam. ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-22-pras-gameweek-33-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 33 Team Selection | Fantasy Premier League Tips 2025/26 --- ## Introduction The Fantasy Premier League landscape has reached one of its most critical junctures of the season, and for ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
     "title": "The afterlife according to Vikings: Valhalla and Ragnarok | Lars Brownworth and Lex Fridman",
     "url": "2026-04-22-the-afterlife-according-to-vikings-valhalla-and-ra.html",
     "category": "AI/Tech",
@@ -5025,28 +2594,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Twin Doubles | #FPL DGW33",
-    "url": "2026-04-22-twin-doubles-fpl-dgw33.html",
-    "category": "FPL",
-    "excerpt": "# Twin Doubles: A Comprehensive Guide to FPL Double Gameweek 33 *Everything you need to know about the biggest DGW of the season* --- ## Introduction The Fantasy Premier League landscape is about to b",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 22, 2026",
-    "title": "Who is suspended in FPL \u2013 and can anyone still get a yellow card ban?",
-    "url": "2026-04-22-who-is-suspended-in-fpl-and-can-anyone-still-get-a.html",
-    "category": "FPL",
-    "excerpt": "# The Yellow Card Cliff Is Gone \u2014 But Three FPL Assets Are Still Sitting This Weekend Out For the first time this season, Fantasy Premier League managers can breathe easy about the accumulator's curse",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 21, 2026",
@@ -5061,28 +2608,6 @@ var posts = [
   },
   {
     "date": "April 21, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-21-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26 ## A Season of Reflection: FPL Veteran Az Opens Up About Performance, Strategy, and the Road Ahead The",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Best Free Hit team for FPL Blank Gameweek 34",
-    "url": "2026-04-21-best-free-hit-team-for-fpl-blank-gameweek-34.html",
-    "category": "FPL",
-    "excerpt": "# The Free Hit Blueprint for FPL Blank Gameweek 34 With the FA Cup semi-finals stealing the spotlight, six clubs will blank in Gameweek 34 \u2014 Manchester City, Chelsea, Bournemouth, Brighton and Hove Al",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 21, 2026",
     "title": "Bluey Phone Review",
     "url": "2026-04-21-bluey-phone-review.html",
     "category": "Tech",
@@ -5091,17 +2616,6 @@ var posts = [
       "Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Crystal Palace v West Ham team news: Sarr benched again",
-    "url": "2026-04-21-crystal-palace-v-west-ham-team-news-sarr-benched-a.html",
-    "category": "FPL",
-    "excerpt": "# Sarr Benched Again as Glasner Rotates Around Conference League Ismaila Sarr finds himself on the substitutes' bench for the second consecutive Premier League fixture, with Oliver Glasner continuing ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 21, 2026",
@@ -5127,50 +2641,6 @@ var posts = [
   },
   {
     "date": "April 21, 2026",
-    "title": "FPL Gameweek 33 team news: Monday\u2019s live injury updates",
-    "url": "2026-04-21-fpl-gameweek-33-team-news-mondays-live-injury-upda.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 33: Estevao blow and Mitoma relief \u2014 Monday's live press conference updates Chelsea and Brighton managers Liam Rosenior and Fabian Hurzeler addressed the media on Monday ahead of Tuesda",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "FPL notes: Gibbs-White hat-trick, Rodri injury + will Pep rotate?",
-    "url": "2026-04-21-fpl-notes-gibbs-white-hat-trick-rodri-injury-will-.html",
-    "category": "FPL",
-    "excerpt": "# Gibbs-White hat-trick, Rodri blow, and the question Guardiola must now answer Morgan Gibbs-White went off. Nottingham Forest went absolutely wild. His hat-trick against Burnley on Sunday brought the",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "FPL PLAYERS TO BUY | GW34 \u2705",
-    "url": "2026-04-21-fpl-players-to-buy-gw34-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Players to Buy for Gameweek 34: Your Ultimate Guide to the Blank Gameweek Fantasy Premier League managers face a pivotal moment in the season as Gameweek 34 arrives with its unique challenges. W",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "FREE HIT ACTIVE \ud83d\udea8 MY FPL GW34 FREE HIT DRAFT! \ud83c\udccf| Fantasy Premier League 2025/26",
-    "url": "2026-04-21-free-hit-active-my-fpl-gw34-free-hit-draft-fantasy.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW34 Free Hit Strategy: FPL Harry's Complete Guide to the Season's Biggest Blank *Fantasy Premier League 2025/26* --- ## The Perfect Storm: Why Gameweek 34 Demands Your Free Hit Gameweek 34 repr",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
     "title": "How to Validate Great Business Ideas in Age of AI | My First Million",
     "url": "2026-04-21-how-to-validate-great-business-ideas-in-age-of-ai-.html",
     "category": "Tech/Business",
@@ -5188,61 +2658,6 @@ var posts = [
     "excerpt": "# I Built a Real $29/Month SaaS with Insforge: A Complete Guide to AI-Assisted Development ## The Frustration That Sparked a Business Idea The creator opens with a candid observation that will resonat",
     "tags": [
       "Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Joao Pedro, Enzo, Estevao: Chelsea injury news for Brighton game",
-    "url": "2026-04-21-joao-pedro-enzo-estevao-chelsea-injury-news-for-br.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea Injury Update: Estevao Ruled Out, Joao Pedro a Doubt for Brighton Trip Chelsea striker Joao Pedro will be a late call for Tuesday's Premier League clash at Brighton after missing Saturday's ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Lose One's Temper | Planet FPL S. 9 Ep. 49 | GW33 Review | Fantasy Premier League",
-    "url": "2026-04-21-lose-ones-temper-planet-fpl-s-9-ep-49-gw33-review-.html",
-    "category": "FPL",
-    "excerpt": "# Lost One's Temper: Inside the Wild Card vs. Bench Boost Showdown of Gameweek 33 ## The Biggest Double Gameweek of the Season Arrives The world of Fantasy Premier League has reached its most critical",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-21-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
-    "category": "FPL",
-    "excerpt": "# Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26 ## Introduction For Fantasy Premier League managers gearing up for the 2025/26 season, the pre-season period ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "O'REILLY IS FINE \ud83d\udc4c FPL GW33 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-21-oreilly-is-fine-fpl-gw33-complete-guide-fantasy-pr.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 33 Complete Guide: Everything You Need to Know About the Biggest Double Gameweek of the Season ## The Most Critical Week of the FPL Calendar Has Arrived For Fantasy Premier League manag",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Play Those Chips | #FPL GW32",
-    "url": "2026-04-21-play-those-chips-fpl-gw32.html",
-    "category": "FPL",
-    "excerpt": "# Play Those Chips: FPL Gameweek 32 Strategy and Chip Season Analysis ## The Context of a Shifting Landscape The international break may have provided welcome respite for Fantasy Premier League manage",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -5281,45 +2696,12 @@ var posts = [
   },
   {
     "date": "April 21, 2026",
-    "title": "The Weekender ep. 31 | Planet FPL 2025/26",
-    "url": "2026-04-21-the-weekender-ep-31-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# The Weekender Episode 31: Leeds' Dominant Display, Manchester United's Defensive Crisis, and FPL Implications for Gameweek 33 ## Introduction Welcome back to Planet FPL's weekly Friday edition, wher",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Twin Doubles | #FPL DGW33",
-    "url": "2026-04-21-twin-doubles-fpl-dgw33.html",
-    "category": "FPL",
-    "excerpt": "# Twin Doubles: A Comprehensive FPL Podcast Summary for Gameweek 33 The Fantasy Premier League podcast landscape has long served as an essential resource for managers navigating the complexities of th",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
     "title": "Why the Vikings refused to turn back: The psychology of great explorers | Lars Brownworth",
     "url": "2026-04-21-why-the-vikings-refused-to-turn-back-the-psycholog.html",
     "category": "AI/Tech",
     "excerpt": "# Why the Vikings Refused to Turn Back: The Psychology of Great Explorers *A meditation on the unyielding human spirit, the strange courage of medieval navigators, and what their voyages tell us about",
     "tags": [
       "AI/Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 21, 2026",
-    "title": "Zophar's Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-21-zophars-gameweek-33-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 33 Team Selection: Navigating the Free Hit vs. Wildcard Decision in Fantasy Premier League ## Introduction For Fantasy Premier League managers approaching the business end of the s",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -5380,39 +2762,6 @@ var posts = [
   },
   {
     "date": "April 18, 2026",
-    "title": "BENCH BOOST ACTIVE \ud83c\udf5f O'REILLY? \u267b\ufe0f MY FPL 33 TEAM SELECTION! \ud83d\udcf1 | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-18-bench-boost-active-oreilly-my-fpl-33-team-selectio.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 33 Strategy: Bench Boost Deep Dive and Transfer Planning with FP Harry ## Introduction The Fantasy Premier League season is reaching its critical phase, and for dedicated managers, the ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Best Bournemouth players for FPL Double Gameweek 33",
-    "url": "2026-04-18-best-bournemouth-players-for-fpl-double-gameweek-3.html",
-    "category": "FPL",
-    "excerpt": "# Bournemouth's Double Gameweek 33: Who to Trust in FPL Bournemouth face the two most inviting fixtures of any Double Gameweek 33 side\u2014and yet the FPL case for the Cherries isn't straightforward. Yes,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Brentford v Fulham team news: Robinson + King benched",
-    "url": "2026-04-18-brentford-v-fulham-team-news-robinson-king-benched.html",
-    "category": "FPL",
-    "excerpt": "# Thiago's Golden Boot Bid Overshadows Fulham Shake-Up in West London Derby Igor Thiago has a chance to draw level with Erling Haaland in the Premier League goalscoring charts on Saturday \u2014 and a brac",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
     "title": "Conan Vs. Edibles Part I",
     "url": "2026-04-18-conan-vs-edibles-part-i.html",
     "category": "AI/Tech",
@@ -5424,17 +2773,6 @@ var posts = [
   },
   {
     "date": "April 18, 2026",
-    "title": "Crystal Palace v West Ham predicted line-ups + FPL team news",
-    "url": "2026-04-18-crystal-palace-v-west-ham-predicted-line-ups-fpl-t.html",
-    "category": "FPL",
-    "excerpt": "# Crystal Palace vs West Ham: Double Gameweek 33 FPL Preview **By FPL Marc | April 17, 2026** --- A fixture that rarely sets pulses racing has quietly become one of Gameweek 33's most consequential ma",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
     "title": "Decision Making Process That Helped 19 Year Old Sell for $100M | My First Million",
     "url": "2026-04-18-decision-making-process-that-helped-19-year-old-se.html",
     "category": "Tech/Business",
@@ -5443,17 +2781,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Everton v Liverpool predicted line-ups + FPL team news",
-    "url": "2026-04-18-everton-v-liverpool-predicted-line-ups-fpl-team-ne.html",
-    "category": "FPL",
-    "excerpt": "# FPL Double Gameweek 33: Everton vs Liverpool \u2014 What Managers Need to Know The Merseyside derby arrives at a crucial juncture for FPL managers navigating Double Gameweek 33. Liverpool, sitting fifth ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 18, 2026",
@@ -5474,105 +2801,6 @@ var posts = [
     "excerpt": "# Ex Tesla President Shares His AI Predictions for 2026: A Deep Dive into the Entrepreneurial Opportunity ## Introduction Jon McNeill spent nearly eight years as President of Tesla, overseeing global ",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "FPL General\u2019s Haaland-less Free Hit for Gameweek 33",
-    "url": "2026-04-18-fpl-generals-haaland-less-free-hit-for-gameweek-33.html",
-    "category": "FPL",
-    "excerpt": "# The Contrarian's Gamble: FPL General's Bold Free Hit Without Haaland **Erling Haaland is owned by nearly everyone. FPL General owns nobody. Here's why he thinks that still makes sense.** When Double",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "FPL GW33 EXPERTS TEAM \u2705 BENCH BOOST + FREE HIT SPECIAL \ud83d\udca5",
-    "url": "2026-04-18-fpl-gw33-experts-team-bench-boost-free-hit-special.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW33 EXPERTS TEAM: BENCH BOOST + FREE HIT SPECIAL ## The Most Strategic Gameweek of the Season Has Arrived Fantasy Premier League managers have reached a critical juncture in the 2023-24 season,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "FPL GW33 RANK 1 TEAM SELECTION \ud83c\udf0d FREE HIT + BENCH BOOST TEAM \ud83c\udfc6",
-    "url": "2026-04-18-fpl-gw33-rank-1-team-selection-free-hit-bench-boos.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 33: World Number One Eric's Rank 1 Team Selection and Strategy Deep Dive ## Introduction Fantasy Premier League managers around the world are facing one of the most crucial junctions of",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "FPL in 5 minutes: All you need to know about Double Gameweek 33",
-    "url": "2026-04-18-fpl-in-5-minutes-all-you-need-to-know-about-double.html",
-    "category": "FPL",
-    "excerpt": "# FPL Double Gameweek 33: The Decisions That Could Win or Lose Your Season The deadline hits Saturday at 11:00 BST. Millions of FPL managers are firing chips simultaneously. Erling Haaland is tearing ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Hall of Famer Dan Wright\u2019s Gameweek 33 Wildcard team reveal",
-    "url": "2026-04-18-hall-of-famer-dan-wrights-gameweek-33-wildcard-tea.html",
-    "category": "FPL",
-    "excerpt": "# The Fitness Call That Changed Everything: Dan Wright's High-Stakes Wildcard Play For Dan Wright, FPL decision-making often comes down to a single variable. This Gameweek 33, that variable was Nico O",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Man City v Arsenal predicted line-ups + FPL team news",
-    "url": "2026-04-18-man-city-v-arsenal-predicted-line-ups-fpl-team-new.html",
-    "category": "FPL",
-    "excerpt": "# Title Race Gets Its Final Reckoning The two teams best placed to win this season's Premier League meet at the Etihad on Sunday with everything on the line. Arsenal arrive six points clear at the sum",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Nott\u2019m Forest v Burnley predicted line-ups + FPL team news",
-    "url": "2026-04-18-nottm-forest-v-burnley-predicted-line-ups-fpl-team.html",
-    "category": "FPL",
-    "excerpt": "# Double Gameweek 33: Why FPL Managers Shouldn't Sleep on Forest vs Burnley The Double Gameweek 33 fixture between Nottingham Forest and Burnley doesn't look like much at first glance. Two relegation-",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "O'REILLY IS FINE \ud83d\udc4c FPL GW33 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-18-oreilly-is-fine-fpl-gw33-complete-guide-fantasy-pr.html",
-    "category": "FPL",
-    "excerpt": "# Gameweek 33 Is the Biggest Week of the FPL Season\u2014Here's Your Complete Guide ## Introduction Fantasy Premier League gameweek 33 represents perhaps the most consequential week of the entire season fo",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Pras' Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-18-pras-gameweek-33-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 33 Team Selection: Fantasy Premier League Tips 2025/26 ## A Strategic Deep-Dive into the Season's Pivotal Double Gameweek --- ### Introduction: The Biggest Bonanza of the Season For F",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -5600,45 +2828,12 @@ var posts = [
   },
   {
     "date": "April 18, 2026",
-    "title": "The Pre-Match Preamble \u2013 Gameweek 33",
-    "url": "2026-04-18-the-pre-match-preamble-gameweek-33.html",
-    "category": "FPL",
-    "excerpt": "# The Pre-Match Preamble \u2013 Gameweek 33 There's an asteroid heading for Earth. They call it Apophis, after the Egyptian god of chaos, darkness, and fire \u2014 a rock so menacingly named that the tabloids a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "The Weekender ep. 31 | Planet FPL 2025/26",
-    "url": "2026-04-18-the-weekender-ep-31-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# Planet FPL Weekender Episode 31: Manchester United's Defensive Crisis Deepens as Leeds Expose Their Vulnerabilities The world of Fantasy Premier League is entering a crucial phase of the season, and",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
     "title": "Why the Vikings refused to turn back: The psychology of great explorers | Lars Brownworth",
     "url": "2026-04-18-why-the-vikings-refused-to-turn-back-the-psycholog.html",
     "category": "AI/Tech",
     "excerpt": "# Why the Vikings Refused to Turn Back: The Psychology of Great Explorers *A meditation on the unyielding human spirit that drove Vikings\u2014and all great explorers\u2014to sail toward certain death* --- In a",
     "tags": [
       "AI/Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 18, 2026",
-    "title": "Zophar's Gameweek 33 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-18-zophars-gameweek-33-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 33 Team Selection: Navigating the FPL Wildcard vs. Free Hit Dilemma ## Introduction: The Calm Before the Deadline Storm For Fantasy Premier League managers, few periods are as agon",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -5652,28 +2847,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "April 15, 2026",
-    "title": "Best Chelsea players for FPL Double Gameweek 33",
-    "url": "2026-04-15-best-chelsea-players-for-fpl-double-gameweek-33.html",
-    "category": "FPL",
-    "excerpt": "# Why Chelsea's Double Gameweek 33 Still Makes Sense for FPL Managers Chelsea's last three Premier League matches have ended 0-0\u2014except they haven't. They've lost all three to nil, failing to score ag",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 15, 2026",
-    "title": "Bournemouth v Leeds | CotC with Neil Grover & Ed Salinger | Planet FPL 2025/26",
-    "url": "2026-04-15-bournemouth-v-leeds-cotc-with-neil-grover-ed-salin.html",
-    "category": "FPL",
-    "excerpt": "# Bournemouth v Leeds | Clash of the Correspondents | Planet FPL 2025/26 ## A Comprehensive Video Summary --- ## Introduction The Premier League title race and European qualification battle have reach",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
   },
   {
     "date": "April 15, 2026",
@@ -5707,28 +2880,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 15, 2026",
-    "title": "FPL notes: DCL wasteful, Mbeumo benched + Leeds injury boost",
-    "url": "2026-04-15-fpl-notes-dcl-wasteful-mbeumo-benched-leeds-injury.html",
-    "category": "FPL",
-    "excerpt": "# Leeds' Old Trafford Statement Signals Double Gameweek Opportunity Leeds United took a decisive step toward Premier League survival with a 2-1 victory at Manchester United on Monday night\u2014and in doin",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 15, 2026",
-    "title": "FPL team news: Rice, Saka + Timber injury updates",
-    "url": "2026-04-15-fpl-team-news-rice-saka-timber-injury-updates.html",
-    "category": "FPL",
-    "excerpt": "# Rice joins Arsenal's growing injury list as FPL managers face mounting fixture nightmare Arsenal's injury crisis has deepened just as the club faces its most demanding week of the season. Manager Mi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 15, 2026",
@@ -5776,28 +2927,6 @@ var posts = [
   },
   {
     "date": "April 15, 2026",
-    "title": "Twin Doubles | #FPL DGW33",
-    "url": "2026-04-15-twin-doubles-fpl-dgw33.html",
-    "category": "FPL",
-    "excerpt": "# Twin Doubles: A Comprehensive Guide to FPL Gameweek 33 Strategy ## Introduction: The Calm Before the Double The Fantasy Premier League landscape has reached one of its most critical junctures of the",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 15, 2026",
-    "title": "UCL Fantasy: Matchday 14 Scout Picks",
-    "url": "2026-04-15-ucl-fantasy-matchday-14-scout-picks.html",
-    "category": "FPL",
-    "excerpt": "# UCL Fantasy Matchday 14: The Scout Picks That Actually Matter The Champions League quarter-final second legs arrive with an unusual problem: goalkeeper is a minefield. With fewer convincing options ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 15, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-15",
     "url": "2026-04-15-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -5806,17 +2935,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "Best Wildcard team for FPL Double Gameweek 33",
-    "url": "2026-04-14-best-wildcard-team-for-fpl-double-gameweek-33.html",
-    "category": "FPL",
-    "excerpt": "# The FPL Double Gameweek 33 Wildcard: What You Need to Know Double Gameweek 33 will be one of the most consequential weeks of the season for Fantasy Premier League managers \u2014 and not just because of ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 14, 2026",
@@ -5831,50 +2949,6 @@ var posts = [
   },
   {
     "date": "April 14, 2026",
-    "title": "FPL notes: Romero injury, Mukiele haul + Glasner on rotation",
-    "url": "2026-04-14-fpl-notes-romero-injury-mukiele-haul-glasner-on-ro.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham's Season Spirals as Captain Cristian Romero Rules Out for Rest of Campaign The news broke on Monday: Cristian Romero's season is over. Tottenham's \u00a35.0m defender, their captain, their emot",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "FPL PLAYERS TO BUY | GW33 \u2705 DOUBLE GAMEWEEK!",
-    "url": "2026-04-14-fpl-players-to-buy-gw33-double-gameweek.html",
-    "category": "FPL",
-    "excerpt": "# Double Gameweek 33: The Complete FPL Strategy Guide for Fantasy Managers ## Introduction: Why Gameweek 33 Matters More Than Ever Fantasy Premier League managers are facing one of the most consequent",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "FPL team news: Jones + Alisson injury latest, Slot on Ngumoha",
-    "url": "2026-04-14-fpl-team-news-jones-alisson-injury-latest-slot-on-.html",
-    "category": "FPL",
-    "excerpt": "Arne Slot has admitted he would be **surprised** if Curtis Jones is available for Liverpool's Champions League quarter-final second leg against Paris Saint-Germain on Tuesday \u2014 but the midfielder was ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "Goals + assists imminent! Who is \u2018due\u2019 in FPL Gameweek 33?",
-    "url": "2026-04-14-goals-assists-imminent-who-is-due-in-fpl-gameweek-.html",
-    "category": "FPL",
-    "excerpt": "# Goals + Assists Imminent: Who's Due in FPL Gameweek 33? As FPL managers plot their Double Gameweek 33 strategy, the question isn't just about who plays twice\u2014it's about who might finally deliver on ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 14, 2026",
     "title": "How the Vikings conquered England | Lars Brownworth and Lex Fridman",
     "url": "2026-04-14-how-the-vikings-conquered-england-lars-brownworth-.html",
     "category": "AI/Tech",
@@ -5883,17 +2957,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "Man Utd v Leeds team news: Mbeumo benched",
-    "url": "2026-04-14-man-utd-v-leeds-team-news-mbeumo-benched.html",
-    "category": "FPL",
-    "excerpt": "# Mbeumo Dropped as Carrick Resets United Side for Old Trafford Showdown **Bryan Mbeumo finds himself on the bench for the first time since Michael Carrick took charge at Manchester United, as the Red",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 14, 2026",
@@ -5916,83 +2979,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "Wild Things | Planet FPL S. 9 Ep. 48 | GW32 Review | Fantasy Premier League",
-    "url": "2026-04-14-wild-things-planet-fpl-s-9-ep-48-gw32-review-fanta.html",
-    "category": "FPL",
-    "excerpt": "# Wild Things | Planet FPL Season 9 Episode 48: Gameweek 32 Review ## The Return of the Wildcard: Navigating the Post-International Break FPL Landscape After a three-week absence that saw him on the o",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 14, 2026",
-    "title": "WILDCARD NIGHTMARE \ud83d\ude2d BENCH BOOST ACTIVE \ud83c\udf5f FPL GW33 TRANSFER PLANS! | Fantasy Premier League 2025/26",
-    "url": "2026-04-14-wildcard-nightmare-bench-boost-active-fpl-gw33-tra.html",
-    "category": "FPL",
-    "excerpt": "# Wildcard Nightmare and Bench Boost Dreams: FPL Harry's GW33 Strategy Breakdown ## The Aftermath of a Costly Wildcard FPL content creator FPL Harry is back with a candid, raw assessment of his Gamewe",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 13, 2026",
-    "title": "2pm team news: Sarr, Burn + Konsa benched, Thiaw starts",
-    "url": "2026-04-13-2pm-team-news-sarr-burn-konsa-benched-thiaw-starts.html",
-    "category": "FPL",
-    "excerpt": "# De Zerbi Kicks Off Tottenham Era as Sarr, Mateta Head to Bench in 2pm Shake-Up Roberto De Zerbi takes charge of Tottenham for the first time on Sunday, and his debut XI reads like a statement of int",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 13, 2026",
-    "title": "Chelsea v Man City team news: Estevao starts",
-    "url": "2026-04-13-chelsea-v-man-city-team-news-estevao-starts.html",
-    "category": "FPL",
-    "excerpt": "# Estevao Makes First Premier League Start as Chelsea Host Man City Chelsea's teenage Brazilian sensation Estevao has been handed his first Premier League start for Sunday's clash with Manchester City",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 13, 2026",
-    "title": "FPL Gameweek 32: Sunday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-04-13-fpl-gameweek-32-sundays-goals-assists-bonus-defcon.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32: Sunday's Big Winners and Casualties The Sunday fixtures of FPL Gameweek 32 delivered a mixed bag for managers weighing up their transfers and captain choices heading into a pivotal ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 13, 2026",
-    "title": "FPL notes: O\u2019Reilly injury, Cherki praise + Enzo ban latest",
-    "url": "2026-04-13-fpl-notes-oreilly-injury-cherki-praise-enzo-ban-la.html",
-    "category": "FPL",
-    "excerpt": "# O'Reilly injury clouds Man City's Double Gameweek 33 as Cherki seizes his moment Nico O'Reilly scored again. Then he went off injured. And nobody at Manchester City is saying a word about how seriou",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 13, 2026",
-    "title": "FPL notes: Williams told to \u201cshoot more\u201d + Martinez injury latest",
-    "url": "2026-04-13-fpl-notes-williams-told-to-shoot-more-martinez-inj.html",
-    "category": "FPL",
-    "excerpt": "Neco Williams has been told to shoot more. More significantly, he's doing exactly that. The Nottingham Forest defender (\u00a34.7m) equalised against Aston Villa on Sunday with a thunderous strike from out",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 13, 2026",
@@ -6051,50 +3037,6 @@ var posts = [
   },
   {
     "date": "April 12, 2026",
-    "title": "FPL Gameweek 32: Saturday\u2019s goals, assists, bonus + DefCon",
-    "url": "2026-04-12-fpl-gameweek-32-saturdays-goals-assists-bonus-defc.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32: Saturday's Biggest Movers and What the Results Mean for Your Team Saturday's four matches in FPL Gameweek 32 delivered a mixed bag of clean sheets, unexpected upsets, and a couple o",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 12, 2026",
-    "title": "FPL Gameweek 32 team news: Saturday\u2019s injury updates",
-    "url": "2026-04-12-fpl-gameweek-32-team-news-saturdays-injury-updates.html",
-    "category": "FPL",
-    "excerpt": "# Manchester United Defensive Picture Remains Murky as Carrick Pumps Brakes on Martinez Return Manchester United's trip to Dublin this week brought some bodies to the Irish capital\u2014but the questions a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 12, 2026",
-    "title": "FPL notes: Alisson injury latest, Ekitike unused, Salah + Rio bright",
-    "url": "2026-04-12-fpl-notes-alisson-injury-latest-ekitike-unused-sal.html",
-    "category": "FPL",
-    "excerpt": "# Rio and Salah Offer Contrasting Appeal for FPL Managers as Liverpool's Anfield Era Approaches Its Final Chapter **Alisson is sidelined again. Ekitike is a non-factor. But two Liverpool wingers\u2014one n",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 12, 2026",
-    "title": "FPL notes: Arsenal injuries, Iraola on Kroupi + Hill superb again",
-    "url": "2026-04-12-fpl-notes-arsenal-injuries-iraola-on-kroupi-hill-s.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal's Injury Crisis Leaves Title Challenge on Life Support Bournemouth arrived at the Emirates on Saturday and left with a result that said everything about the chaos currently consuming Arsenal",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 12, 2026",
     "title": "Greenland in not \"Green\": The Viking origin story of the name | Lars Brownworth and Lex Fridman",
     "url": "2026-04-12-greenland-in-not-green-the-viking-origin-story-of-.html",
     "category": "AI/Tech",
@@ -6114,17 +3056,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 12, 2026",
-    "title": "Liverpool v Fulham team news: Ekitike benched, Salah starts",
-    "url": "2026-04-12-liverpool-v-fulham-team-news-ekitike-benched-salah.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool vs Fulham: Gravenberch Benched as Slot Prioritises PSG Return Ryan Gravenberch has been dropped to the Liverpool bench for Saturday evening's Premier League meeting with Fulham \u2014 the Dutch",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 12, 2026",
@@ -6161,56 +3092,12 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
-    "title": "Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26",
-    "url": "2026-04-11-burnley-v-brighton-cotc-with-jack-toner-sam-murray.html",
-    "category": "FPL",
-    "excerpt": "# Burnley v Brighton Clash of the Correspondents: Inside the Double Gameweek Outlook ## Introduction: The State of the Union The latest Planet FPL Clash of the Correspondents podcast opens with host J",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
     "title": "Ex-Tesla President: The Unconventional Ideas Behind Tesla's Hypergrowth",
     "url": "2026-04-11-ex-tesla-president-the-unconventional-ideas-behind.html",
     "category": "Tech/Business",
     "excerpt": "<p># Mastering Your Fantasy Premier League Chip Strategy: A Complete Guide for the Final Seven Weeks ## Introduction Fantasy Premier League managers up and down the country are entering the most criti",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "FPL Challenge best picks + team reveal \u2013 Gameweek 32",
-    "url": "2026-04-11-fpl-challenge-best-picks-team-reveal-gameweek-32.html",
-    "category": "FPL",
-    "excerpt": "# FPL Challenge Gameweek 32: The Best Picks for This Week's Twist The beauty of FPL Challenge lies in its volatility. While the standard FPL game locks after the deadline, this variant stays open unti",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "FPL GW32 EXPERTS TEAM \u2705 WILDCARD SPECIAL \ud83d\udca5",
-    "url": "2026-04-11-fpl-gw32-experts-team-wildcard-special-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32: The Great Wildcard Divide and Expert Strategy Analysis ## Introduction The Fantasy Premier League is back from its international break, and Gameweek 32 presents one of the most fasc",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "FPL GW32 RANK 1 TEAM SELECTION \ud83c\udf0d WILDCARD TEAM \ud83c\udfc6",
-    "url": "2026-04-11-fpl-gw32-rank-1-team-selection-wildcard-team-.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW32 RANK 1 TEAM SELECTION: Inside the World Number One's Gameweek 32 Strategy ## Introduction The Fantasy Premier League landscape reaches its critical juncture as we enter the final straight o",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -6271,61 +3158,6 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
-    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-11-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
-    "category": "FPL",
-    "excerpt": "# Luke's Latest FPL Draft for 2025/26: A Comprehensive Strategy Guide ## Introduction The 2025/26 Fantasy Premier League season is fast approaching, and for dedicated FPL managers, the annual ritual o",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "MY FPL 32 TEAM SELECTION! \ud83d\udcf1 Could I Change Strategy... \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-11-my-fpl-32-team-selection-could-i-change-strategy-f.html",
-    "category": "FPL",
-    "excerpt": "# My FPL Gameweek 32 Team Selection: Navigating the Chip Strategy Puzzle ## Introduction The 2025/26 Fantasy Premier League season has reached its critical phase, and Gameweek 32 represents the most c",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "Play Those Chips | #FPL GW32",
-    "url": "2026-04-11-play-those-chips-fpl-gw32.html",
-    "category": "FPL",
-    "excerpt": "# Play Those Chips | #FPL GW32 \u2014 A Comprehensive Summary ## Introduction The latest episode of the popular FPL podcast \"Who Got the Assist?\" arrives at a crucial juncture in the Fantasy Premier League",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-11-pras-gameweek-31-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26 ## Introduction The 2025/26 Fantasy Premier League season has reached a critical crossroads. Gameweek 31 marks the first blank ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "SHOULD WE WILDCARD? \ud83d\udea8 \ud83d\udcdd FPL GW32 COMPLETE GUIDE \u2049\ufe0f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-11-should-we-wildcard-fpl-gw32-complete-guide-fantasy.html",
-    "category": "FPL",
-    "excerpt": "# SHOULD WE WILDCARD? The Complete FPL Gameweek 32 Strategy Guide ## Introduction: The Most Important Deadline of the Season Fantasy Premier League managers up and down the country are facing what FPL",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
     "title": "So This is Peak Foldable",
     "url": "2026-04-11-so-this-is-peak-foldable.html",
     "category": "Tech",
@@ -6348,78 +3180,12 @@ var posts = [
   },
   {
     "date": "April 11, 2026",
-    "title": "The Pre-Match Preamble \u2013 Gameweek 32",
-    "url": "2026-04-11-the-pre-match-preamble-gameweek-32.html",
-    "category": "FPL",
-    "excerpt": "# The Longest Two Weeks Are Over: Finally, Something to Play For The international break didn't just feel like a fortnight. It felt like a geological epoch. A rift in the Fantasy timeline so sprawling",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
-    "url": "2026-04-11-the-season-so-far-fpl-international-break-with-tom.html",
-    "category": "FPL",
-    "excerpt": "# The Season So Far: An FPL International Break Discussion with Tom Campbell ## Introduction The Premier League has reached its traditional international break, offering Fantasy Premier League manager",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
     "title": "The Viking Warlord who built modern Europe | Lars Brownworth and Lex Fridman",
     "url": "2026-04-11-the-viking-warlord-who-built-modern-europe-lars-br.html",
     "category": "AI/Tech",
     "excerpt": "# The Viking Warlord Who Built Modern Europe: Rollo and the Norman Transformation In the annals of European history, few transformations are as remarkable as that of the Norse raiders who became the r",
     "tags": [
       "AI/Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "The Weekender ep. 30 | Planet FPL 2025/26",
-    "url": "2026-04-11-the-weekender-ep-30-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# The Weekender Episode 30: World Cup Qualifying Drama, Bayern's New Star, and FPL Wild Card Strategy ## Introduction The Fantasy Premier League landscape is entering a critical phase of the 2025/26 s",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "West Ham v Wolves team news: Summerville starts, Mane benched",
-    "url": "2026-04-11-west-ham-v-wolves-team-news-summerville-starts-man.html",
-    "category": "FPL",
-    "excerpt": "# West Ham Can Escape Relegation Zone Against Wolves as Premier League Resumes After Month-Long Gap The Premier League returns tonight with stakes that could hardly be higher. West Ham United host Wol",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "What is the best Free Hit team for FPL Double Gameweek 33?",
-    "url": "2026-04-11-what-is-the-best-free-hit-team-for-fpl-double-game.html",
-    "category": "FPL",
-    "excerpt": "# The Best Free Hit Team for FPL Double Gameweek 33 Six clubs play twice in Gameweek 33, and that abundance of doubles makes the Free Hit chip increasingly attractive. With Manchester City, Arsenal, C",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 11, 2026",
-    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-11-zophars-gameweek-31-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26 ## Introduction The Fantasy Premier League landscape reaches a critical inflection point as we approach Gameweek 31, the fin",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -6436,17 +3202,6 @@ var posts = [
   },
   {
     "date": "April 10, 2026",
-    "title": "Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26",
-    "url": "2026-04-10-burnley-v-brighton-cotc-with-jack-toner-sam-murray.html",
-    "category": "FPL",
-    "excerpt": "# Burnley v Brighton | CotC with Jack Toner & Sam Murray | Planet FPL 2025/26 ## Introduction The latest episode of Planet FPL's Clash of the Correspondents provides a comprehensive look ahead to a do",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 10, 2026",
     "title": "Ex-Tesla President: The Unconventional Ideas Behind Tesla's Hypergrowth",
     "url": "2026-04-10-ex-tesla-president-the-unconventional-ideas-behind.html",
     "category": "Tech/Business",
@@ -6455,39 +3210,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "FPL Gameweek 32 team news: Thursday\u2019s live injury updates",
-    "url": "2026-04-10-fpl-gameweek-32-team-news-thursdays-live-injury-up.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Team News: Thursday's Live Injury Updates ## The Full Story Fantasy Premier League managers received a significant injury update on Thursday, April 9, 2026, as four Premier League ma",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "FPL GW32 EXPERTS TEAM \u2705 WILDCARD SPECIAL \ud83d\udca5",
-    "url": "2026-04-10-fpl-gw32-experts-team-wildcard-special-.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW32 Expert Analysis: The Wildcard Split and Best Strategies for Gameweek 32 ## Introduction: The Championship Stretch Begins Fantasy Premier League is finally back after the international break",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "FPL notes: Isak fit, why Salah was a sub + is Ekitike at risk?",
-    "url": "2026-04-10-fpl-notes-isak-fit-why-salah-was-a-sub-is-ekitike-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Isak Returns, Salah Benched, and Ekitike Owners Face Crucial Week ## The Full Story Liverpool's Champions League semifinal first leg against Paris Saint-Germain ended in a disappointing 2",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 10, 2026",
@@ -6513,28 +3235,6 @@ var posts = [
   },
   {
     "date": "April 10, 2026",
-    "title": "MY FPL 32 TEAM SELECTION! \ud83d\udcf1 Could I Change Strategy... \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-10-my-fpl-32-team-selection-could-i-change-strategy-f.html",
-    "category": "FPL",
-    "excerpt": "# My FPL Gameweek 32 Team Selection: Chip Strategy, Player Analysis, and Transfer Decisions ## Introduction Fantasy Premier League managers up and down the country are facing what may well be the most",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "Stach, Rodon, Gudmundsson + Bijol injury updates for Gameweek 32",
-    "url": "2026-04-10-stach-rodon-gudmundsson-bijol-injury-updates-for-g.html",
-    "category": "FPL",
-    "excerpt": "# Leeds United Injury Crisis Deepens Ahead of Crucial Double Gameweek ## Multiple key players ruled out as Leeds face potential fixture pile-up Leeds United manager Daniel Farke has confirmed that mid",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 10, 2026",
     "title": "The Freedom Reader",
     "url": "2026-04-10-the-freedom-reader.html",
     "category": "AI/Tech",
@@ -6543,28 +3243,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "The Scout Squad: Our top picks for FPL Gameweek 32",
-    "url": "2026-04-10-the-scout-squad-our-top-picks-for-fpl-gameweek-32.html",
-    "category": "FPL",
-    "excerpt": "# The Scout Squad: Fantasy Premier League Gameweek 32 Top Picks Revealed **The Full Story** FantasyFootballScout.co.uk has released their highly anticipated Scout Squad selections for FPL Gameweek 32,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 10, 2026",
-    "title": "The ultimate FPL chip strategy guide \u2013 for all 16 scenarios!",
-    "url": "2026-04-10-the-ultimate-fpl-chip-strategy-guide-for-all-16-sc.html",
-    "category": "FPL",
-    "excerpt": "{\"s |\\[\\[\\[\\|\\[\\|\\|[- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|- [|\\[|\\[|- [|\\[|- ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 10, 2026",
@@ -6590,111 +3268,6 @@ var posts = [
   },
   {
     "date": "April 09, 2026",
-    "title": "Best chip strategy? Which Man City picks? FPL Gameweek 32 Q&A",
-    "url": "2026-04-09-best-chip-strategy-which-man-city-picks-fpl-gamewe.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Chip Strategy: Expert Q&A Breaks Down Optimal Approaches for Remaining Chips **The Full Story** Eight-time top 10k finisher Zophar hosted his weekly FPL Q&A on Fantasy Football Scout",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "BEST PLAYERS TO TARGET! \u267b\ufe0f FPL GW32 TRANSFER TARGETS! \u267b\ufe0f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-09-best-players-to-target-fpl-gw32-transfer-targets-f.html",
-    "category": "FPL",
-    "excerpt": "# BEST PLAYERS TO TARGET! FPL GW32 Transfer Targets ## Introduction The Fantasy Premier League season is entering its critical final phase, and with double gameweeks and blank gameweeks creating signi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "FPL Gameweek 32 team news: Wednesday\u2019s injury updates",
-    "url": "2026-04-09-fpl-gameweek-32-team-news-wednesdays-injury-update.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Team News: West Ham Injury Updates Provide Early Boost for Managers ## The Full Story Fantasy Premier League managers received encouraging news ahead of Gameweek 32 as West Ham Unite",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "FPL GW32 RANK 1 TEAM SELECTION \ud83c\udf0d 1ST IN THE WORLD \ud83c\udfc6",
-    "url": "2026-04-09-fpl-gw32-rank-1-team-selection-1st-in-the-world-.html",
-    "category": "FPL",
-    "excerpt": "# Mastering FPL Gameweek 32: Inside the Strategy from the World's #1 Ranked Manager ## Introduction This video comes from \"The Show with Nikico,\" one of the most respected voices in the Fantasy Premie",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "FPL notes: Gabriel + Rice fit, Raya superb, still no Saka or Timber",
-    "url": "2026-04-09-fpl-notes-gabriel-rice-fit-raya-superb-still-no-sa.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal's Narrow Champions League Victory Comes With Fresh Injury Concerns Ahead of Crucial FPL Deadline ## The Full Story Arsenal secured a hard-fought 1-0 first-leg victory over Sporting CP in Lis",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "How I'm building my FPL Wildcard for Bench Boost 33",
-    "url": "2026-04-09-how-im-building-my-fpl-wildcard-for-bench-boost-33.html",
-    "category": "FPL",
-    "excerpt": "I finally have the shape of this wildcard. The core is mostly settled. The real work now is around the edge-piece pool, the budget release valves, and making sure the Bench Boost in Gameweek 33 is bac",
-    "tags": [
-      "fpl",
-      "wildcard",
-      "bench-boost",
-      "gw32",
-      "gw33",
-      "haaland",
-      "palmer"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "MY FPL GW32 TEAM SELECTION \u2705 MY CHIP STRATEGY \ud83c\udfaf",
-    "url": "2026-04-09-my-fpl-gw32-team-selection-my-chip-strategy-.html",
-    "category": "FPL",
-    "excerpt": "# My FPL GW32 Team Selection: A Comprehensive Guide to Your Chip Strategy ## Introduction: Navigating a Pivotal Fantasy Premier League Moment Fantasy Premier League managers find themselves at a criti",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "No FPL chips left? The best players + teams to target",
-    "url": "2026-04-09-no-fpl-chips-left-the-best-players-teams-to-target.html",
-    "category": "FPL",
-    "excerpt": "# FPL Strategy Without Chips: Best Players and Teams for the Season Run-In **April 8, 2026** \u2014 Fantasy Premier League managers who have already burned through their chips face a challenging path throu",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "That Show With Nico ep. 7 | Planet FPL 2025/26",
-    "url": "2026-04-09-that-show-with-nico-ep-7-planet-fpl-202526.html",
-    "category": "FPL",
-    "excerpt": "# That Show With Nico ep. 7 | Planet FPL 2025/26 ## Comprehensive Summary ### Introduction This episode of \"That Show With Nico\" marks the return of one of the Fantasy Premier League community's most ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 09, 2026",
     "title": "These Hiring Mistakes Will Break Your Business | Ryan Deiss",
     "url": "2026-04-09-these-hiring-mistakes-will-break-your-business-rya.html",
     "category": "Tech/Business",
@@ -6703,17 +3276,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 09, 2026",
-    "title": "Tom Hadley\u2019s Gameweek 32 Wildcard team reveal + chip strategy",
-    "url": "2026-04-09-tom-hadleys-gameweek-32-wildcard-team-reveal-chip-.html",
-    "category": "FPL",
-    "excerpt": "# Tom Hadley's Gameweek 32 Wildcard Strategy: A Former World Number One Shares His Chip Plan ## The Full Story Tom Hadley, a former world number one in Fantasy Premier League, has revealed his chip st",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 09, 2026",
@@ -6728,72 +3290,6 @@ var posts = [
   },
   {
     "date": "April 08, 2026",
-    "title": "Best fixtures from FPL Gameweek 32 \u2013 whatever your strategy",
-    "url": "2026-04-08-best-fixtures-from-fpl-gameweek-32-whatever-your-s.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Fixture Strategy: A Complete Guide to Maximizing Your Season Finish ## The Full Story The Fantasy Premier League landscape enters one of its most critical phases as Gameweek 32 kicks",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "Chips & Strategy: End Game | Planet FPL S. 9 Ep. 47 | Fantasy Premier League",
-    "url": "2026-04-08-chips-strategy-end-game-planet-fpl-s-9-ep-47-fanta.html",
-    "category": "FPL",
-    "excerpt": "# Chips & Strategy: End Game | Planet FPL S. 9 Ep. 47 | Fantasy Premier League ## Introduction The Fantasy Premier League season is approaching its decisive phase, and managers up and down the country",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "FPL Double Gameweek 33 fixtures officially confirmed",
-    "url": "2026-04-08-fpl-double-gameweek-33-fixtures-officially-confirm.html",
-    "category": "FPL",
-    "excerpt": "# FPL Managers Rejoice as Double Gameweek 33 Fixtures Finally Confirmed ## The Full Story Fantasy Premier League managers received the official confirmation they had been waiting for on April 7, 2026,",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "FPL team news: Gabriel, Saka, Rice + Timber injury latest",
-    "url": "2026-04-08-fpl-team-news-gabriel-saka-rice-timber-injury-late.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Injury Crisis Deepens: Gabriel, Rice, and Trossard Return, But Saka and Timber Remain Unavailable ## The Full Story Arsenal manager Mikel Arteta confirmed on Monday that defenders Gabriel Ma",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "FPL team news: Isak fit to play \u2013 but not start",
-    "url": "2026-04-08-fpl-team-news-isak-fit-to-play-but-not-start.html",
-    "category": "FPL",
-    "excerpt": "# FPL Team News: Alexander Isak Returns to Full Training, Ready for Champions League Role Against PSG ## The Full Story Liverpool manager Arne Slot has confirmed that striker Alexander Isak is finally",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "Gameweek 32 v 35 Wildcard: The pros + cons",
-    "url": "2026-04-08-gameweek-32-v-35-wildcard-the-pros-cons.html",
-    "category": "FPL",
-    "excerpt": "# FPL Wildcard Strategy: Gameweek 32 vs. Gameweek 35 \u2014 The Complete Analysis ## The Full Story For Fantasy Premier League managers still holding their Wildcard chip, the strategic decision of when to ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 08, 2026",
     "title": "How to Stop Being the Bottleneck in Your Business | Ryan Deiss",
     "url": "2026-04-08-how-to-stop-being-the-bottleneck-in-your-business-.html",
     "category": "Tech/Business",
@@ -6805,56 +3301,12 @@ var posts = [
   },
   {
     "date": "April 08, 2026",
-    "title": "MY FPL GW32 TRANSFER PLANS! \ud83d\udcdd WILDCARD 32 VS WILDCARD 35 \ud83d\udcc6 | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-08-my-fpl-gw32-transfer-plans-wildcard-32-vs-wildcard.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Transfer Planning: Wildcard Now or Wait Until 35? ## A Comprehensive Strategy Guide for Fantasy Premier League Managers --- For Fantasy Premier League managers approaching the busine",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "MY FPL GW32 TRANSFER TARGETS! \u267b\ufe0f Every Chip Strategy Discussed | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-08-my-fpl-gw32-transfer-targets-every-chip-strategy-d.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Transfer Targets and Chip Strategy: A Complete Guide ## Introduction Fantasy Premier League managers entering Gameweek 32 face one of the most consequential decisions of the season: ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "Play Those Chips | #FPL GW32",
-    "url": "2026-04-08-play-those-chips-fpl-gw32.html",
-    "category": "FPL",
-    "excerpt": "# Play Those Chips | #FPL GW32 ## Introduction The 2024-25 Fantasy Premier League season has reached its critical decisive phase, and Gameweek 32 finds managers navigating one of the most significant ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 08, 2026",
     "title": "We asked a $15B Investor how to survive the AI bubble",
     "url": "2026-04-08-we-asked-a-15b-investor-how-to-survive-the-ai-bubb.html",
     "category": "Tech/Business",
     "excerpt": "<p># We Asked a $15B Investor How to Survive the AI Bubble Wait - let me reconsider the transcript. Looking more closely, this appears to actually be about **Fantasy Premier League (FPL)** strategy, n",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 08, 2026",
-    "title": "WILDCARD 32 VS WILDCARD 35 \ud83d\udcc6 MY FPL GW32 TRANSFER PLANS! \ud83d\udcdd | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-08-wildcard-32-vs-wildcard-35-my-fpl-gw32-transfer-pl.html",
-    "category": "FPL",
-    "excerpt": "# Wildcard 32 vs Wildcard 35: FPL Transfer Strategy for the Run-In ## Introduction The Fantasy Premier League season is hurtling toward its climax, and managers face one of the most consequential deci",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -6882,72 +3334,6 @@ var posts = [
   },
   {
     "date": "April 07, 2026",
-    "title": "FPL Gameweek 32 Wildcard: 3 drafts to consider",
-    "url": "2026-04-07-fpl-gameweek-32-wildcard-3-drafts-to-consider.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Wildcard Strategy: Complete Guide for Triple-Updraft Considerations ## The Full Story The Fantasy Premier League landscape has shifted dramatically as we approach Gameweek 32, with m",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 07, 2026",
-    "title": "FPL GW32 WILDCARD DRAFT! \ud83d\udcdd Wildcard Template!\ud83c\udccf\ud83c\udf5f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-07-fpl-gw32-wildcard-draft-wildcard-template-fantasy-.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW32 Wildcard Strategy: Complete Guide for the Final Seven Weeks ## Introduction The 2024/25 Fantasy Premier League season is approaching its climax, and for many managers, Gameweek 32 represent",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 07, 2026",
-    "title": "FPL notes: Why Isak didn\u2019t play + Haaland back in the groove",
-    "url": "2026-04-07-fpl-notes-why-isak-didnt-play-haaland-back-in-the-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Notes: Haaland Hat-Trick Sparks Revival as Man City Dismantles Liverpool ## The Full Story Manchester City delivered a commanding 4-0 victory over Liverpool at the Etihad Stadium on April 6, 202",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 07, 2026",
-    "title": "FPL notes: Will Stach + Rodon make Double Gameweek 33?",
-    "url": "2026-04-07-fpl-notes-will-stach-rodon-make-double-gameweek-33.html",
-    "category": "FPL",
-    "excerpt": "# FA Cup Drama and Injury Concerns: Leeds Face Double Gameweek 33 With Key Players in Doubt ## The Full Story Leeds United secured their first FA Cup semi-final appearance in nearly 40 years following",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 07, 2026",
-    "title": "FPL PLAYERS TO BUY | GW32 \u2705",
-    "url": "2026-04-07-fpl-players-to-buy-gw32-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Players to Buy for Gameweek 32: Comprehensive Strategy Guide for Double Gameweek 33 ## Introduction: Navigating the Final Stretch of FPL Season The Fantasy Premier League landscape has shifted d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 07, 2026",
-    "title": "FPL team news: Gabriel, Saka, Rice + Timber injury latest",
-    "url": "2026-04-07-fpl-team-news-gabriel-saka-rice-timber-injury-late.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal Injury Crisis Deepens: Saka, Timber Ruled Out of Sporting Clash While Gabriel, Rice, Trossard Return to Training **April 6, 2026** \u2014 Arsenal manager Mikel Arteta faces a mounting injury head",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 07, 2026",
     "title": "Robert Greene Shares How to Apply His Books | My First Million",
     "url": "2026-04-07-robert-greene-shares-how-to-apply-his-books-my-fir.html",
     "category": "Tech/Business",
@@ -6970,17 +3356,6 @@ var posts = [
   },
   {
     "date": "April 07, 2026",
-    "title": "Who are the teams with a Double Gameweek 33 + Blank Gameweek 34?",
-    "url": "2026-04-07-who-are-the-teams-with-a-double-gameweek-33-blank-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Double Gameweek 33 And Blank Gameweek 34 Teams Confirmed: Six Clubs Set For Opposing Fixtures ## The Full Story Fantasy Premier League managers now have clarity on one of the most consequential ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 07, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-07",
     "url": "2026-04-07-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -6989,61 +3364,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "April 06, 2026",
-    "title": "FPL GW32 CHIP STRATEGY GUIDE! \ud83d\udcdd DOUBLE GW33 CONFIRMED! \ud83d\udea8 \ud83c\udf5f | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-06-fpl-gw32-chip-strategy-guide-double-gw33-confirmed.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 32 Chip Strategy Guide: Navigating the Double Gameweeks and Season Run-In ## Introduction The Fantasy Premier League landscape has shifted dramatically following the conclusion of the F",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 06, 2026",
-    "title": "FPL notes: Enzo latest, Palmer on his fitness + Pedro goal",
-    "url": "2026-04-06-fpl-notes-enzo-latest-palmer-on-his-fitness-pedro-.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea's Dominant Victory and the Enzo Fernandez Situation: Key FPL Implications Chelsea delivered a commanding 7-0 victory over League One side Port Vale in Gameweek 33, securing a double for both",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 06, 2026",
-    "title": "Lateriser on Double Gameweek 33, Man City + chip strategy",
-    "url": "2026-04-06-lateriser-on-double-gameweek-33-man-city-chip-stra.html",
-    "category": "FPL",
-    "excerpt": "# FPL Strategy: Lateriser's Complete Guide to Double Gameweek 33 and Man City Coverage ## The Full Story Three-time top 200 FPL finisher Lateriser has released his comprehensive analysis for Double Ga",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 06, 2026",
-    "title": "Leeds + Bournemouth to have Double Gameweek 33 + Blank Gameweek 34",
-    "url": "2026-04-06-leeds-bournemouth-to-have-double-gameweek-33-blank.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Football Scout: Double Gameweek 33 and Blank Gameweek 34 Confirmed as Leeds and Bournemouth Secure FA Cup Spots ## The Full Story The fixture picture for Double Gameweek 33 and Blank Gamewee",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 06, 2026",
-    "title": "No Blank or Double Gameweek for Arsenal or Newcastle",
-    "url": "2026-04-06-no-blank-or-double-gameweek-for-arsenal-or-newcast.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal's FA Cup Exit Reshapes FPL Landscape: No Double or Blank Gameweeks for Gunners or Newcastle ## The Full Story Southampton's dramatic 2-1 victory over Arsenal at St Mary's Stadium on Saturday",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 06, 2026",
@@ -7069,56 +3389,12 @@ var posts = [
   },
   {
     "date": "April 05, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-05-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft & Rank History: A Transparent Look at FPL Success, Failure, and the Road Ahead for 2025/26 ## Introduction: Setting the Stage for a New Season As the 2025/26 Fantasy Pr",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 05, 2026",
     "title": "Be a Master of Silence & Gain Immense Power | Robert Greene",
     "url": "2026-04-05-be-a-master-of-silence-gain-immense-power-robert-g.html",
     "category": "Tech/Business",
     "excerpt": "# The Strategic Power of Silence: What Robert Greene Reveals About Mastering Presence and Absence In an era dominated by constant connectivity, 24-hour news cycles, and the relentless pressure to buil",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "Chelsea + Brighton to have Double Gameweek 33 + Blank Gameweek 34",
-    "url": "2026-04-05-chelsea-brighton-to-have-double-gameweek-33-blank-.html",
-    "category": "FPL",
-    "excerpt": "# Chelsea and Brighton Secure Double Gameweek 33, Face Blank in Gameweek 34 ## The Full Story Chelsea's emphatic victory over Port Vale in the FA Cup quarter-finals on Saturday has locked in a coveted",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "Enzo, Alisson, Timber: FPL team news ahead of the FA Cup",
-    "url": "2026-04-05-enzo-alisson-timber-fpl-team-news-ahead-of-the-fa-.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Premier League Team News: Fernandez Suspended, Alisson Out, Salah Returns Ahead of FA Cup Quarter-Finals The Premier League's build-up to this weekend's FA Cup quarter-finals has delivered s",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-05-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 31 Complete Guide: Strategic Decisions for the Season's Crucial Phase ## Introduction The Fantasy Premier League landscape has shifted dramatically with Crystal Palace's European ",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -7146,50 +3422,6 @@ var posts = [
   },
   {
     "date": "April 05, 2026",
-    "title": "Man City + Burnley to have Double Gameweek 33 + Blank Gameweek 34",
-    "url": "2026-04-05-man-city-burnley-to-have-double-gameweek-33-blank-.html",
-    "category": "FPL",
-    "excerpt": "# Premier League Fantasy Managers Face Fixture Chaos as FA Cup Progress Creates Double and Blank Gameweeks ## The Full Story Fantasy Premier League managers are navigating significant fixture upheaval",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "Minutes played + late returns: Every FPL player on international duty",
-    "url": "2026-04-05-minutes-played-late-returns-every-fpl-player-on-in.html",
-    "category": "FPL",
-    "excerpt": "# FPL International Break Update: Game Time Compilation Reveals Key Insights for Fantasy Managers ## The Full Story The late-March 2026 international break has concluded, with over 200 Premier League ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "No Blank or Double Gameweek for Arsenal or Newcastle",
-    "url": "2026-04-05-no-blank-or-double-gameweek-for-arsenal-or-newcast.html",
-    "category": "FPL",
-    "excerpt": "# Arsenal FA Cup Exit Reshapes FPL Landscape: What Double and Blank Gameweek Changes Mean for Managers **The Full Story** Arsenal's shock FA Cup elimination at the hands of Championship side Southampt",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 05, 2026",
-    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-05-pras-gameweek-31-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 31 Team Selection: Navigating the First Blank Gameweek of the Season ## Introduction: The Blank Gameweek Has Arrived The moment FPL managers have been dreading\u2014and secretly anticipati",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 05, 2026",
     "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
     "url": "2026-04-05-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
     "category": "AI/Tech",
@@ -7212,17 +3444,6 @@ var posts = [
   },
   {
     "date": "April 05, 2026",
-    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-05-zophars-gameweek-31-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 31 Team Selection: Navigating the Blank Week and Planning for Double Gameweek 33 ## The Final Push Before the Break For Fantasy Premier League managers, gameweek 31 represents a cr",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 05, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-05",
     "url": "2026-04-05-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -7234,78 +3455,12 @@ var posts = [
   },
   {
     "date": "April 04, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-04-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26 ## Introduction As the 2025/26 Fantasy Premier League season approaches\u2014now just over a week away\u2014cont",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "Differential captains for the final seven Gameweeks",
-    "url": "2026-04-04-differential-captains-for-the-final-seven-gameweek.html",
-    "category": "FPL",
-    "excerpt": "# Differential Captain Picks for the Final Seven Gameweeks: An FPL Strategist's Guide to Gaining Ground ## Three Under-the-Radar Options That Could Catapult Your Rank As the 2025/26 Fantasy Premier Le",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 04, 2026",
     "title": "Do Not Make These Early Career Mistakes | Robert Greene",
     "url": "2026-04-04-do-not-make-these-early-career-mistakes-robert-gre.html",
     "category": "Tech/Business",
     "excerpt": "# The Hidden Cost of Going Wide: Robert Greene on Mastering Your Craft and Finding Your Life's Work ## Introduction In an age of infinite distractions and the constant pressure to diversify one's skil",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "Double Gameweek 33 confirmed for up to eight teams",
-    "url": "2026-04-04-double-gameweek-33-confirmed-for-up-to-eight-teams.html",
-    "category": "FPL",
-    "excerpt": "# Double Gameweek 33 Set to Impact Up to Eight Premier League Teams, Creating Major FPL Chip Opportunity ## Fantasy Premier League Managers Face Pivotal Planning Window as FA Cup Results Will Determin",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "Enzo suspended, Alisson, Timber: FPL team news ahead of the FA Cup",
-    "url": "2026-04-04-enzo-suspended-alisson-timber-fpl-team-news-ahead-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Team News: Enzo Fernandez Suspended, Liverpool Lose Alisson for Extended Period as Premier League Clubs Prepare for FA Cup Quarter-Finals ## The Full Story Fantasy Premier League managers face a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-04-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 31 Complete Guide: Strategic Decisions for the Season's Crucial Phase ## Introduction For Fantasy Premier League managers across the world, gameweek 31 represents one of the most ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
-    "url": "2026-04-04-fpl-gw31-experts-team-620x-top-10k-finishes-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 31: Expert Analysis and Transfer Strategies for the Blank Gameweek ## Navigating the Blank Gameweek: What Top Managers Are Doing Fantasy Premier League Gameweek 31 presents one of the s",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -7333,28 +3488,6 @@ var posts = [
   },
   {
     "date": "April 04, 2026",
-    "title": "Minutes played + late returns: Every FPL player on international duty",
-    "url": "2026-04-04-minutes-played-late-returns-every-fpl-player-on-in.html",
-    "category": "FPL",
-    "excerpt": "# FPL Managers Track International Break Minutes as Premier League Season Enters Final Crucible ## Over 200 Premier League Players Return from International Duty as Fantasy Managers Scramble to Assess",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-04-pras-gameweek-31-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 31 Team Selection | FPL Tips for Blank Gameweeks ## Introduction: The First Blank Gameweek Arrives The Fantasy Premier League season has reached its most treacherous stretch. In a new",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
     "title": "So This is Peak Foldable",
     "url": "2026-04-04-so-this-is-peak-foldable.html",
     "category": "Tech",
@@ -7377,39 +3510,6 @@ var posts = [
   },
   {
     "date": "April 04, 2026",
-    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
-    "url": "2026-04-04-the-season-so-far-fpl-international-break-with-tom.html",
-    "category": "FPL",
-    "excerpt": "# The Season So Far: A Comprehensive FPL International Break Review ## Introduction The latest episode of *Who Got the Assist?*, recorded on Tuesday, March 24th, represents something of a departure fr",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "The top-scoring debut season XI of 2025/26 so far",
-    "url": "2026-04-04-the-top-scoring-debut-season-xi-of-202526-so-far.html",
-    "category": "FPL",
-    "excerpt": "# The Top-Scoring Debut Season XI of 2025/26 So Far: Complete FPL Guide ## The Full Story With seven Gameweeks remaining in the 2025/26 Fantasy Premier League season, 14 players have already surpassed",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 04, 2026",
-    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-04-zophars-gameweek-31-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 31 FPL Team Selection: Navigating the Final Sprint with a Strategic Free Hit ## Introduction: A Pivotal Moment in the FPL Season The Fantasy Premier League landscape is about to un",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 04, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-04",
     "url": "2026-04-04-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -7418,28 +3518,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "Alisson, Frimpong, Salah, Isak: Liverpool injury latest",
-    "url": "2026-04-03-alisson-frimpong-salah-isak-liverpool-injury-lates.html",
-    "category": "FPL",
-    "excerpt": "# Liverpool Injury Roundup: Salah on the Cusp of Return as Liverpool Prepares for High-Stakes FA Cup Clash with Manchester City ## The Full Story Liverpool manager Arne Slot has provided comprehensive",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-03-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26 ## Introduction As the 2025/26 Fantasy Premier League season approaches\u2014now just over a week away\u2014cont",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
   },
   {
     "date": "April 03, 2026",
@@ -7465,17 +3543,6 @@ var posts = [
   },
   {
     "date": "April 03, 2026",
-    "title": "Double Gameweek 33 confirmed for up to eight teams",
-    "url": "2026-04-03-double-gameweek-33-confirmed-for-up-to-eight-teams.html",
-    "category": "FPL",
-    "excerpt": "# Double Gameweek 33 Set to Impact Up to Eight Premier League Teams as FA Cup Chaos Looms for FPL Managers ## Premier League confirms rescheduling plans that could reshape the Fantasy Premier League l",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 03, 2026",
     "title": "Fanhausen Revisited",
     "url": "2026-04-03-fanhausen-revisited.html",
     "category": "AI/Tech",
@@ -7487,17 +3554,6 @@ var posts = [
   },
   {
     "date": "April 03, 2026",
-    "title": "Fantasy EFL Gameweek 36: Scout Picks",
-    "url": "2026-04-03-fantasy-efl-gameweek-36-scout-picks.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy EFL Gameweek 36 Scout Picks: Your Complete Guide to Maximizing Points in the Double Gameweek Fantasy EFL managers entering Gameweek 36 face a golden opportunity as teams across all three Eng",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 03, 2026",
     "title": "FBI Negotiator: How to Prepare for Any Negotiation in Life | Christopher Voss",
     "url": "2026-04-03-fbi-negotiator-how-to-prepare-for-any-negotiation-.html",
     "category": "Tech/Business",
@@ -7506,39 +3562,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-03-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 31 Complete Guide: Short-Term vs Long-Term Strategy ## Introduction Fantasy Premier League managers face one of the most complex decision points of the entire season as Gameweek 3",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
-    "url": "2026-04-03-fpl-gw31-experts-team-620x-top-10k-finishes-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 31 Expert Analysis: Strategic Insights for the Blank Gameweek Run-in As the Premier League season reaches its critical final stages, Fantasy Premier League managers face one of the most",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "FPL\u2019s biggest xG underachievers so far",
-    "url": "2026-04-03-fpls-biggest-xg-underachievers-so-far.html",
-    "category": "FPL",
-    "excerpt": "# FPL's Biggest xG Underachievers: The Players Who Should Be Scoring More ## The Full Story Fantasy Premier League managers have been crunching the numbers on expected goals (xG) to find players who d",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 03, 2026",
@@ -7559,17 +3582,6 @@ var posts = [
     "excerpt": "# Master Your Mind & Watch What Happens: A Conversation with Robert Greene ## Introduction In an era dominated by endless distractions and the seduction of multitasking, the idea of mastering a single",
     "tags": [
       "Tech/Business"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-03-pras-gameweek-31-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26 ## Introduction The FPL Wire returns with what might be the most consequential team selection video of the season so far. PRA, ",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -7597,39 +3609,6 @@ var posts = [
   },
   {
     "date": "April 03, 2026",
-    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
-    "url": "2026-04-03-the-season-so-far-fpl-international-break-with-tom.html",
-    "category": "FPL",
-    "excerpt": "# The Season So Far: An International Break Deep Dive with Tom Campbell ## A Comprehensive Podcast Summary --- The international break presents FPL managers with a rare opportunity to step back from t",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "The top-scoring debut season XI of 2025/26 so far",
-    "url": "2026-04-03-the-top-scoring-debut-season-xi-of-202526-so-far.html",
-    "category": "FPL",
-    "excerpt": "# The Top-Scoring Debut Season XI of 2025/26 So Far: Fantasy Premier League's Brightest Newcomers ## The Full Story The 2025/26 Fantasy Premier League season has witnessed an remarkable influx of tale",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 03, 2026",
-    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-03-zophars-gameweek-31-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26 ## Introduction Zophar, a prominent Fantasy Premier League content creator, returns with his comprehensive team selection vi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 03, 2026",
     "title": "FPL Daily Roundup \u2014 2026-04-03",
     "url": "2026-04-03-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -7641,17 +3620,6 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "title": "Anderson v Gibbs-White: Who is the best Forest midfielder in FPL?",
-    "url": "2026-04-02-anderson-v-gibbs-white-who-is-the-best-forest-midf.html",
-    "category": "FPL",
-    "excerpt": "# Anderson v Gibbs-White: Who is the Best Forest Midfielder in FPL? ## The Full Story Nottingham Forest's upcoming fixture run presents a compelling opportunity for Fantasy Premier League managers, wi",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 02, 2026",
     "title": "Arsenio Hall",
     "url": "2026-04-02-arsenio-hall.html",
     "category": "AI/Tech",
@@ -7660,28 +3628,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-az-discusses-his-latest-draft-rank-history-pre-sea.html",
-    "category": "FPL",
-    "excerpt": "# Az Discusses His Latest Draft & Rank History | Pre Season | Fantasy Premier League Tips 2025/26 ## A Comprehensive Summary --- ### Introduction Fantasy Premier League content creator Az has returned",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "Can Roberto De Zerbi make Spurs players buyable in FPL?",
-    "url": "2026-04-02-can-roberto-de-zerbi-make-spurs-players-buyable-in.html",
-    "category": "FPL",
-    "excerpt": "# Can Roberto De Zerbi Make Tottenham's Struggling Players Viable in Fantasy Premier League? ## The Full Story Tottenham Hotspur has appointed Roberto De Zerbi as their new head coach in what represen",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 02, 2026",
@@ -7718,50 +3664,6 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "title": "FPL BLANK GW31 COMPLETE GUIDE \u2049\ufe0f Short Term vs Long Term... \ud83d\udd2e | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-fpl-blank-gw31-complete-guide-short-term-vs-long-t.html",
-    "category": "FPL",
-    "excerpt": "# FPL Blank Gameweek 31 Complete Guide: Short-Term vs Long-Term Strategy for Fantasy Premier League Managers ## The Critical Situation That Finally Got Resolved The Fantasy Premier League landscape ha",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "FPL GW31 EXPERTS TEAM \u2705 620x TOP 10K FINISHES! \ud83e\udde0",
-    "url": "2026-04-02-fpl-gw31-experts-team-620x-top-10k-finishes-.html",
-    "category": "FPL",
-    "excerpt": "# FPL Gameweek 31: Expert Strategies for Navigating the Blank Gameweek and Planning the Season Run-In ## Introduction: The Business End of the FPL Season Arrives Fantasy Premier League managers face a",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "FPL GW31 RANK 1 TEAM SELECTION \ud83c\udf0d 1ST IN WORLD \ud83c\udfc6",
-    "url": "2026-04-02-fpl-gw31-rank-1-team-selection-1st-in-world-.html",
-    "category": "FPL",
-    "excerpt": "# FPL GW31: Inside the Mind of the World's Number One Fantasy Premier League Manager The Fantasy Premier League season is hurtling toward its climax, and for one remarkable manager, the dream of finis",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "FPL\u2019s biggest xG underachievers so far",
-    "url": "2026-04-02-fpls-biggest-xg-underachievers-so-far.html",
-    "category": "FPL",
-    "excerpt": "# FPL's Biggest xG Underachievers: Who Fantasy Managers Should Watch ## The Full Story Fantasy Premier League managers seeking to capitalize on regression to the mean should pay close attention to pla",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 02, 2026",
     "title": "I built a real 29 dollar per month SAAS with Insforge",
     "url": "2026-04-02-i-built-a-real-29-dollar-per-month-saas-with-insfo.html",
     "category": "Tech",
@@ -7795,39 +3697,6 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "title": "Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-lukes-latest-draft-sarrs-the-one-pre-season-fantas.html",
-    "category": "FPL",
-    "excerpt": "# Luke's Latest Draft | Sarr's the One! | Pre Season | Fantasy Premier League Tips 2025/26 ## Introduction With the 2025/26 Fantasy Premier League season approaching, FPL managers across the world are",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "MY FPL GW32 FIRST THOUGHTS! \ud83d\udcdd WILDCARD DRAFT \ud83c\udf5f & Fa Cup Impact | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-my-fpl-gw32-first-thoughts-wildcard-draft-fa-cup-i.html",
-    "category": "FPL",
-    "excerpt": "# Why FPL Gameweek 32 Wildcard Plans Should Wait: A Comprehensive Analysis As the Fantasy Premier League season enters its decisive final stretch, managers face one of the most consequential decision ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "Pras' Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-pras-gameweek-31-team-selection-fantasy-premier-le.html",
-    "category": "FPL",
-    "excerpt": "# Pras' Gameweek 31 Team Selection | Fantasy Premier League Tips 2025/26 ## Breaking Down the Blank Gameweek Chaos: Chip Strategies, Fixture Analysis, and the Crystal Palace Dilemma The FPL landscape ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
     "title": "So This is Peak Foldable",
     "url": "2026-04-02-so-this-is-peak-foldable.html",
     "category": "Tech",
@@ -7839,34 +3708,12 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "title": "Spurs appoint De Zerbi as new head coach",
-    "url": "2026-04-02-spurs-appoint-de-zerbi-as-new-head-coach.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham Hotspur Appoint Roberto De Zerbi as New Head Coach in Dramatic Move to Avert Relegation Crisis ## The Full Story Tottenham Hotspur have confirmed the appointment of Italian coach Roberto D",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 02, 2026",
     "title": "The biggest barriers to AI scaling laws - NVIDIA CEO explains | Jensen Huang and Lex Fridman",
     "url": "2026-04-02-the-biggest-barriers-to-ai-scaling-laws-nvidia-ceo.html",
     "category": "AI/Tech",
     "excerpt": "# The Biggest Barriers to AI Scaling Laws: Jensen Huang on Power, Supply Chains, and the Future of Computing ## Inside NVIDIA's Strategy for Overcoming the Next Generation of Infrastructure Challenges",
     "tags": [
       "AI/Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "The Season So Far | #FPL International Break (with Tom Campbell)",
-    "url": "2026-04-02-the-season-so-far-fpl-international-break-with-tom.html",
-    "category": "FPL",
-    "excerpt": "# The Season So Far: An International Break Deep Dive into Fantasy Premier League ## Introduction: A Rare Moment to Reflect The international break has arrived, offering Fantasy Premier League manager",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -7883,45 +3730,12 @@ var posts = [
   },
   {
     "date": "April 02, 2026",
-    "title": "The top-scoring FPL XI of 2026 so far",
-    "url": "2026-04-02-the-top-scoring-fpl-xi-of-2026-so-far.html",
-    "category": "FPL",
-    "excerpt": "# The Top-Scoring FPL XI of 2026 So Far: A Complete Breakdown ## The Full Story The 2026 Fantasy Premier League season has delivered a dramatic shakeup at the top of the points table, with last year's",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 02, 2026",
     "title": "The Ultimate Minimal Phone",
     "url": "2026-04-02-the-ultimate-minimal-phone.html",
     "category": "Tech",
     "excerpt": "# The Ultimate Minimal Phone: MKBHD's Surprising Review of the $10.99 Bluey Phone ## A Tech Reviewer's Unexpected Appreciation for Radical Simplicity In a tech landscape dominated by ever-larger scree",
     "tags": [
       "Tech"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "Who's Going Down? | The People's Poll ep. 163 | Planet FPL 2025/26",
-    "url": "2026-04-02-whos-going-down-the-peoples-poll-ep-163-planet-fpl.html",
-    "category": "FPL",
-    "excerpt": "# Who's Going Down? The People's Poll Reveals a Relegation Battle Neither Host Wants to Face ## Introduction: When Your Club Is the Punchline For Fantasy Premier League enthusiasts and Premier League ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "youtube"
-  },
-  {
-    "date": "April 02, 2026",
-    "title": "Zophar's Gameweek 31 Team Selection  | Fantasy Premier League Tips 2025/26",
-    "url": "2026-04-02-zophars-gameweek-31-team-selection-fantasy-premier.html",
-    "category": "FPL",
-    "excerpt": "# Zophar's Gameweek 31 Team Selection | FPL Tips 2025/26: Strategic Analysis for the Run-In ## Introduction: The Calm Before the Storm Zophar, the respected FPL content creator known as Zofa, returns ",
-    "tags": [
-      "FPL"
     ],
     "type": "youtube"
   },
@@ -7938,17 +3752,6 @@ var posts = [
   },
   {
     "date": "April 01, 2026",
-    "title": "Big Numbers: 23 stand-out stats for FPL Gameweek 32",
-    "url": "2026-04-01-big-numbers-23-stand-out-stats-for-fpl-gameweek-32.html",
-    "category": "FPL",
-    "excerpt": "# Big Numbers: The Most Compelling FPL Statistics from Gameweek 32 ## Fantasy Premier League Managers Face Critical Data Points as Season Reaches Decisive Phase As the 2025/26 Fantasy Premier League s",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 01, 2026",
     "title": "FBI Negotiator: The 5 Steps to Becoming a Better Listener | Christopher Voss",
     "url": "2026-04-01-fbi-negotiator-the-5-steps-to-becoming-a-better-li.html",
     "category": "Tech/Business",
@@ -7957,50 +3760,6 @@ var posts = [
       "Tech/Business"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "April 01, 2026",
-    "title": "Spurs appoint De Zerbi as new head coach",
-    "url": "2026-04-01-spurs-appoint-de-zerbi-as-new-head-coach.html",
-    "category": "FPL",
-    "excerpt": "# Tottenham Hotspur Appoint Roberto De Zerbi as New Head Coach on Five-Year Deal ## The Full Story Tottenham Hotspur have confirmed the appointment of Italian coach Roberto De Zerbi as their new head ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 01, 2026",
-    "title": "The top-scoring FPL XI of 2026 so far",
-    "url": "2026-04-01-the-top-scoring-fpl-xi-of-2026-so-far.html",
-    "category": "FPL",
-    "excerpt": "# The Top-Scoring FPL XI of 2026 So Far: A Complete Breakdown ## The Full Story The Fantasy Premier League landscape has undergone a dramatic transformation through the first quarter of 2026, with the",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 01, 2026",
-    "title": "Who are FPL\u2019s best all-round defenders?",
-    "url": "2026-04-01-who-are-fpls-best-all-round-defenders.html",
-    "category": "FPL",
-    "excerpt": "# FPL's Best All-Round Defenders: A Complete Guide for the Final Stretch of 2025/26 ## The Full Story Fantasy Premier League managers looking to gain an edge in the closing weeks of the 2025/26 season",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "April 01, 2026",
-    "title": "WUCL Fantasy Matchday 10 team reveal",
-    "url": "2026-04-01-wucl-fantasy-matchday-10-team-reveal.html",
-    "category": "FPL",
-    "excerpt": "# WUCL Fantasy Matchday 10: Expert Team Reveal Breaks Down Strategy as Quarter-Final Second Legs Loom ## The Full Story With the Matchday 10 deadline for the UEFA Women's Champions League Fantasy seas",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "April 01, 2026",
@@ -8026,28 +3785,6 @@ var posts = [
   },
   {
     "date": "March 31, 2026",
-    "title": "Austin, Michu, Lundstram + more: The FPL \u2018one-season wonders\u2019",
-    "url": "2026-03-31-austin-michu-lundstram-more-the-fpl-one-season-won.html",
-    "category": "FPL",
-    "excerpt": "# The FPL One-Season Wonders: A Nostalgic Look at Fantasy Football's Most Elusive Gems Fantasy Premier League managers live for the hidden gems\u2014the budget players who deliver premium returns for one g",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 31, 2026",
-    "title": "Big Numbers: 23 stand-out stats for FPL Gameweek 32",
-    "url": "2026-03-31-big-numbers-23-stand-out-stats-for-fpl-gameweek-32.html",
-    "category": "FPL",
-    "excerpt": "# Big Numbers: 23 Stand-Out FPL Statistics Every Manager Needs to Know for Gameweek 32 ## The Full Story Fantasy Premier League managers received a welcome respite during the first extended break from",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 31, 2026",
     "title": "On fluoride and tooth decay",
     "url": "2026-03-31-decay.html",
     "category": "Health/Business",
@@ -8056,17 +3793,6 @@ var posts = [
       "Health/Business"
     ],
     "type": "podcast"
-  },
-  {
-    "date": "March 31, 2026",
-    "title": "Eight England withdrawals + more Arsenal injuries",
-    "url": "2026-03-31-eight-england-withdrawals-more-arsenal-injuries.html",
-    "category": "FPL",
-    "excerpt": "# Eight England Withdrawals and Rising Concerns: Arsenal's International Break Crisis Deepens ## The Full Story The March 2026 international break has descended into a fitness nightmare for Premier Le",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "March 31, 2026",
@@ -8092,28 +3818,6 @@ var posts = [
   },
   {
     "date": "March 31, 2026",
-    "title": "The \u2018biggest FPL disappointments of 2025/26\u2019 \u2013 so far\u2026",
-    "url": "2026-03-31-the-biggest-fpl-disappointments-of-202526-so-far.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Premier League's Biggest Disappointments of 2025/26: A Season of Underperforming Stars The 2025/26 Fantasy Premier League season has delivered unexpected heartbreak for managers who invested",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 31, 2026",
-    "title": "Tudor leaves as Spurs hunt for next new manager",
-    "url": "2026-03-31-tudor-leaves-as-spurs-hunt-for-next-new-manager.html",
-    "category": "FPL",
-    "excerpt": "# Igor Tudor Departs Tottenham After 44 Days as Club Seeks Third Manager of the Season **The Full Story** Tottenham Hotspur and Igor Tudor have mutually agreed to part ways after just 44 days, marking",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 31, 2026",
     "title": "FPL Daily Roundup \u2014 2026-03-31",
     "url": "2026-03-31-fpl-daily-roundup-gw.html",
     "category": "FPL Roundups",
@@ -8122,39 +3826,6 @@ var posts = [
       "FPL Roundups"
     ],
     "type": "roundup"
-  },
-  {
-    "date": "March 30, 2026",
-    "title": "Austin, Michu, Lundstram + more: The FPL \u2018one-season wonders\u2019",
-    "url": "2026-03-30-austin-michu-lundstram-more-the-fpl-one-season-won.html",
-    "category": "FPL",
-    "excerpt": "# The FPL One-Season Wonders: A Nostalgic Look at Fantasy Football's Most Elusive Gems For millions of Fantasy Premier League managers, the holy grail of the game is identifying value\u2014finding that bud",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 30, 2026",
-    "title": "Eight England withdrawals + more Arsenal injuries",
-    "url": "2026-03-30-eight-england-withdrawals-more-arsenal-injuries.html",
-    "category": "FPL",
-    "excerpt": "# Eight England Withdrawals + More Arsenal Injuries: The Complete Breakdown ## The Full Story The March 2026 international break has descended into an injury nightmare for clubs, with Arsenal bearing ",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 30, 2026",
-    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
-    "url": "2026-03-30-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
-    "category": "FPL",
-    "excerpt": "# FPL World Number One Erik Ibsen Shares Strategy Insights in Season-First Interview Fantasy Football Scout sat down with Erik Ibsen, the current world number one in Fantasy Premier League, just ahead",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "March 30, 2026",
@@ -8180,17 +3851,6 @@ var posts = [
   },
   {
     "date": "March 30, 2026",
-    "title": "Tudor leaves as Spurs hunt for next new manager",
-    "url": "2026-03-30-tudor-leaves-as-spurs-hunt-for-next-new-manager.html",
-    "category": "FPL",
-    "excerpt": "# Igor Tudor Departs Tottenham After Just 44 Days as Club Searches for Third Manager of the Season ## A Tumultuous Six Weeks Comes to an Abrupt End Tottenham Hotspur and Igor Tudor have mutually agree",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 30, 2026",
     "title": "Why Your Greatest Strengths Create Your Weaknesses | Tim Ferriss",
     "url": "2026-03-30-why-your-greatest-strengths-create-your-weaknesses.html",
     "category": "Tech/Business",
@@ -8213,39 +3873,6 @@ var posts = [
   },
   {
     "date": "March 29, 2026",
-    "title": "5 ways to boost rank in the final seven Gameweeks",
-    "url": "2026-03-29-5-ways-to-boost-rank-in-the-final-seven-gameweeks.html",
-    "category": "FPL",
-    "excerpt": "# 5 Strategies to Boost Your Fantasy Premier League Rank in the Final Seven Gameweeks ## The Full Story With the Premier League set to resume after an international break, Fantasy Premier League manag",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 29, 2026",
-    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
-    "url": "2026-03-29-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
-    "category": "FPL",
-    "excerpt": "# FPL World Number One Shares Gameweek 32 Strategy in Exclusive Interview: Danish Medical Student Discusses Chip Plans and Double Gameweek Approach ## The Complete Story Fantasy Football Scout sat dow",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 29, 2026",
-    "title": "Gameweek 35 TV fixtures announced \u2013 but no provisional Double Gameweek",
-    "url": "2026-03-29-gameweek-35-tv-fixtures-announced-but-no-provision.html",
-    "category": "FPL",
-    "excerpt": "# Gameweek 35 TV Fixtures Confirmed: Fantasy Managers Left Waiting on Double Gameweek Clarity ## The Full Story Premier League officials confirmed the television fixtures for Gameweek 35 on Friday, bu",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 29, 2026",
     "title": "Greatest game of all time - according to NVIDIA CEO | Jensen Huang and Lex Fridman",
     "url": "2026-03-29-greatest-game-of-all-time-according-to-nvidia-ceo-.html",
     "category": "AI/Tech",
@@ -8254,17 +3881,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "March 29, 2026",
-    "title": "Villa contest March break friendly v Elche",
-    "url": "2026-03-29-villa-contest-march-break-friendly-v-elche.html",
-    "category": "FPL",
-    "excerpt": "# Aston Villa Mid-Season Friendly Ends in Defeat as Jadon Sancho Injury Casts Shadow Over Elche Clash ## The Full Story Aston Villa's attempt to maintain fitness during a rare three-week Premier Leagu",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "March 29, 2026",
@@ -8279,17 +3895,6 @@ var posts = [
   },
   {
     "date": "March 28, 2026",
-    "title": "5 ways to boost rank in the final seven Gameweeks",
-    "url": "2026-03-28-5-ways-to-boost-rank-in-the-final-seven-gameweeks.html",
-    "category": "FPL",
-    "excerpt": "# How to Dominate Your Fantasy Premier League Season Finish: Five Strategic Approaches for the Final Seven Gameweeks ## The Full Story With the Premier League entering its decisive phase, Fantasy Prem",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 28, 2026",
     "title": "Can AI be conscious? - NVIDIA CEO | Jensen Huang and Lex Fridman",
     "url": "2026-03-28-can-ai-be-conscious-nvidia-ceo-jensen-huang-and-le.html",
     "category": "AI/Tech",
@@ -8298,28 +3903,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "March 28, 2026",
-    "title": "FPL world number 1 on Gameweek 32, chip strategy + more",
-    "url": "2026-03-28-fpl-world-number-1-on-gameweek-32-chip-strategy-mo.html",
-    "category": "FPL",
-    "excerpt": "# FPL World Number One Reveals Gameweek 32 Strategy: First-Season Phenom Erik Ibsen Shares Chip Plans and Transfer Approach Fantasy Premier League's current world number one Erik Ibsen has given viewe",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
-  },
-  {
-    "date": "March 28, 2026",
-    "title": "Gameweek 35 TV fixtures announced \u2013 but no provisional Double Gameweek",
-    "url": "2026-03-28-gameweek-35-tv-fixtures-announced-but-no-provision.html",
-    "category": "FPL",
-    "excerpt": "# Fantasy Football Community Awaits Clarity on Double Gameweek Possibilities After Premier League Confirms Gameweek 35 TV Fixtures ## Full Story The Premier League released its television-selected fix",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "March 28, 2026",
@@ -8342,17 +3925,6 @@ var posts = [
       "AI/Tech"
     ],
     "type": "youtube"
-  },
-  {
-    "date": "March 28, 2026",
-    "title": "Villa contest March break friendly v Elche",
-    "url": "2026-03-28-villa-contest-march-break-friendly-v-elche.html",
-    "category": "FPL",
-    "excerpt": "# Aston Villa Suffer Friendly Defeat Against Elche as Jadon Sancho Injury Mars Warm-Weather Camp Aston Villa's warm-weather training camp in Murcia, Spain, concluded with a 2-1 friendly defeat against",
-    "tags": [
-      "FPL"
-    ],
-    "type": "blog"
   },
   {
     "date": "March 28, 2026",

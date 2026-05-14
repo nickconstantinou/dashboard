@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Future of holograms, brain signal playback, smell, and touch in multimedia software | Lex Fridman | Nick's Blog</title>
+  <meta name="description" content="Lex Fridman — AI/Tech">
+  <meta property="og:title" content="Future of holograms, brain signal playback, smell, and touch in multimedia software | Lex Fridman">
+  <meta property="og:description" content="Lex Fridman — AI/Tech">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,16 +70,22 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • AI/Tech</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/S7uUtfHW6yo" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <h1>The Future of Multimedia: Holograms, Brain-Computer Interfaces, and the Evolution of VLC</h1>
-
-<p><strong>Key Insights</strong></p>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · AI/Tech</p>
+        <div class="video-hero">
+          <div class="source-label">Lex Fridman</div>
+          <h1>Future of holograms, brain signal playback, smell, and touch in multimedia software | Lex Fridman</h1>
+          <p class="subtitle">Jean-Baptiste Kempf, the co-founder and president of the VideoLAN project and a core developer of FFmpeg, has spent two decades building the free software that powers video playbac…</p>
+        </div>
+        <div class="video-wrapper">
+          <iframe id="youtube-player" src="https://www.youtube.com/embed/S7uUtfHW6yo?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="segments-section"></div>
+          <script type="application/json" id="segment-data">
+[]
+  </script>
+        <p><strong>Key Insights</strong></p>
 
 <li>FFmpeg will likely persist 100 years from now, while VLC's survival is less certain—the distinction hinges on FFmpeg's role as fundamental infrastructure versus VLC as a consumer-facing product</li>
 <li>Multimedia is defined as "a digital representation of several streams for the human senses"—encompassing all sensory data, not just audio and video</li>
@@ -55,21 +93,15 @@
 <li>VLC already has a haptic plugin for 4D cinemas (with hydraulic motion systems used in theme parks), demonstrating smell and touch aren't hypothetical—they're in development now</li>
 <li>The standardization cycle follows a predictable pattern: five competing formats emerge → hype collapses → two or three follower companies create a standard → the market leader is pressured to adopt it</li>
 
-<p>---</p>
-
 <p>Jean-Baptiste Kempf, the co-founder and president of the VideoLAN project and a core developer of FFmpeg, has spent two decades building the free software that powers video playback across billions of devices. In this conversation with Lex Fridman, he tackles a question that might seem mundane at first glance but unfolds into a profound meditation on the future of human sensory experience: where is multimedia technology heading, and will the tools we use today survive alongside brain-computer interfaces, holographic displays, and sensory feeds that include smell and touch?</p>
 
 <p>The interview emerges from a simple premise—whether VLC and FFmpeg will exist a century from now—but rapidly expands into territory that encompasses Neuralink, volumetric video codecs, 4D cinema infrastructure, and the architecture decisions that will determine whether these projects can absorb entirely new categories of human experience into their frameworks. What makes this conversation particularly valuable is that Kempf speaks not as a futurist or theorist, but as someone who has spent years maintaining software that processes trillions of multimedia streams daily, giving him a pragmatic perspective on what actually survives and scales versus what remains vaporware.</p>
-
-<p>---</p>
 
 <h2>The Question of Survival: FFmpeg, VLC, and Hundred-Year Horizons</h2>
 
 <p>When Fridman asks whether VLC and FFmpeg will persist a century from now, Kempf's answer is revealing in its nuance: "FFmpeg, yes. VLC, maybe." The distinction matters because it reveals the fundamental nature of these two projects. FFmpeg functions as a codec library and command-line tool—a piece of infrastructure that other software builds upon. It processes video and audio, and as long as humans consume visual and auditory media in digital form, FFmpeg remains relevant. VLC, by contrast, is an application with a user interface, a branding, a consumer presence that depends on continued development, funding, and cultural relevance. The survival of applications is far less certain than the survival of underlying libraries.</p>
 
 <p>Kempf identifies what he calls "the tension inside FFmpeg"—the faction that argues the project should stick to what it does well, video and audio encoding and decoding, rather than expanding into uncertain territory. His response to this tension hinges on a redefinition of the problem. Before deciding whether to expand, you must answer the question: what is multimedia? And his answer is both simple and expansive: "Multimedia is a digital representation of several streams for the human senses." If that definition holds, then expanding beyond audio and video isn't a departure from the project's purpose—it's a fulfillment of it.</p>
-
-<p>---</p>
 
 <h2>Brain-Computer Interfaces and the Coming Codec Revolution</h2>
 
@@ -79,8 +111,6 @@
 
 <p>What makes this vision concrete is the existing groundwork already being laid. Kempf points to emerging codec research for "point cloud" and "volumetric videos"—3D representations that capture spatial information rather than flat pixels. There's significant work on RGBD codecs, where the D stands for depth data, useful for robotics applications and immersive media. "There is a ton of codecs for compression of 3D elements," Kempf notes. "There is compression for astronomy." The architecture of these systems is being developed now, and when brain-computer interfaces become consumer products, the infrastructure will already exist to compress and decompress the data flows they require.</p>
 
-<p>---</p>
-
 <h2>The Current Frontier: XR, VR, and Volumetric Video</h2>
 
 <p>Before reaching brain-computer interfaces, multimedia technology is already navigating the transition to spatial computing. VLC maintains a VR and XR version, and the VideoLAN team is actively working on streaming 3D XR content to devices like Apple Vision Pro and Meta Quest. "We already work on streaming 3D XR interactive low latency," Kempf explains. "There is something called volumetric video point cloud videos. So it's not stopping. And yes, at some point we will manage 3D data inside VLC and FFmpeg, right? It's obvious."</p>
@@ -89,8 +119,6 @@
 
 <p>This work extends to what might seem like science fiction territory: 4D cinemas with hydraulic motion systems. VLC already has a haptic plugin—though not included in the standard release—that "transports those type of movements which is physical movements which is haptic movements, right?" These are the theme park installations with seats that move in sync with on-screen action. They're not new technology, but integrating them into a multimedia framework that can sync haptic data with video and audio streams represents a proof of concept for sensory media beyond sight and sound.</p>
 
-<p>---</p>
-
 <h2>Smell, Touch, and the Architecture of Future Senses</h2>
 
 <p>The most striking moment in the conversation comes when Fridman asks about extending multimedia to include smell. Kempf's response is immediate and confident: "Imagine there is now a way to not have a mic, but have a odor sensor and a diffuser of odors. Mhm. It will get into FFmpeg." He continues with the technical details: "Of course, your demuxer has a new track type that is basically odors, right? And you already have smell, touch." The conversation reaches an almost absurd but completely earnest conclusion: "Audio, you'll have a left and right nose track, you'll have a left and right audio pair. It's easy. Yes, of course. Stereo smell."</p>
@@ -98,8 +126,6 @@
 <p>The humor in "stereo smell" shouldn't obscure the seriousness of the underlying architecture. The same principles that allow VLC to handle separate audio tracks for left and right speakers can be extended to handle separate olfactory channels. The demuxer—the component that separates a multimedia stream into its constituent tracks—simply needs a new track type. If the encoding standards and playback software can handle five different audio tracks for surround sound, they can handle multiple olfactory tracks for smell. The barrier isn't conceptual; it's the development of standardized formats and the hardware to produce and detect odors in sync with media.</p>
 
 <p>This represents a core principle of the VideoLAN approach: build flexible architecture now, and new capabilities become extensions rather than rebuilds. "We did the demo not long ago," Kempf explains. "There were changes needed on the architecture and we did the first special audio module. When it's going to add the second one, it's going to be easy or the third one, it's going to be easy, right?" The first special audio module required architectural work; subsequent modules will slot into existing infrastructure. The same approach applies to odors or haptic feedback. The architecture must be designed to accommodate future capabilities.</p>
-
-<p>---</p>
 
 <h2>The Standardization Cycle and the Role of Open Source</h2>
 
@@ -111,8 +137,6 @@
 
 <p>His criticism of Dolby crystallizes this point. "It used to be an amazing company doing tons of great things with amazing engineers. They defined what sound was. And now it's mostly lawyers and licensing things. They're closing stuff off. They're trying to make money off of licensing. They don't innovate as much as they did." The contrast is between a company that defined standards through technical excellence and one that now extracts value through legal restrictions. For Kempf, open source projects serve a counterbalancing function—they provide implementations that work without licensing fees, creating competitive pressure that keeps proprietary standards from strangling innovation.</p>
 
-<p>---</p>
-
 <h2>The Maintainer's Perspective: Why Community Architecture Matters</h2>
 
 <p>Throughout the conversation, Kempf emphasizes a distinction that illuminates how large open source projects actually function: he and his colleagues are <strong>maintainers</strong>, not merely contributors. "We are not the contributors, we are the maintainers. Right? So we maintain for everyone." This means their primary role isn't writing code—they're integrating code written by others, ensuring that the contributions from approximately 150 annual VLC contributors and 300 FFmpeg contributors actually work together and don't break existing functionality.</p>
@@ -120,8 +144,6 @@
 <p>The maintenance burden is enormous. "If you're a contributor to FFmpeg or VLC, it feels stressful. Like it's just looking at Twitter, it's like it's a huge amount of work to make it work on all these different operating systems. It's an incredible effort." The speakers acknowledge that working on foundational multimedia infrastructure can feel overwhelming—the endless flow of new formats, devices, and use cases creates a maintenance backlog that never clears. But the architecture decisions they've made allow the project to absorb this complexity. The key is designing systems flexible enough to incorporate new modalities without requiring complete rebuilds.</p>
 
 <p>This architectural flexibility is why Kempf can confidently predict that "I think that's inevitable"—the integration of brain waves, haptic feedback, and olfactory data into multimedia frameworks. Not because the specific technologies are predetermined, but because the architecture is designed to absorb new human senses as they become digitally representable. The question isn't whether multimedia will expand to include new sensory modalities; it's whether the standards and infrastructure will be open and accessible or controlled by licensing regimes. FFmpeg and VLC exist to ensure the former outcome.</p>
-
-<p>---</p>
 
 <h2>Detailed Takeaways</h2>
 
@@ -135,8 +157,6 @@
 
 <p><strong>Maintainer roles are fundamentally different from contributor roles.</strong> With 150 VLC and 300 FFmpeg contributors annually, the challenge isn't generating new code—it's integrating contributions without breaking existing functionality. This suggests that the bottleneck for open source infrastructure projects is rarely individual contribution; it's the coordination and maintenance capacity of a small core team.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This conversation is essential for software engineers working on multimedia systems, compression algorithms, or extended reality applications. The architectural decisions Kempf discusses provide a roadmap for building systems that can absorb new modalities without requiring complete rebuilds. Understanding why the VideoLAN team made specific architectural choices—and how they define the scope of their project—offers guidance for anyone building multimedia infrastructure.</p>
@@ -144,13 +164,52 @@
 <p>It's also valuable for technology strategists and investors trying to understand which technologies will achieve standardization and which will fragment into proprietary dead ends. Kempf's analysis of the standardization cycle provides a framework for predicting which formats will gain adoption and which will require additional cycles of development before achieving market traction.</p>
 
 <p>Finally, for anyone interested in brain-computer interfaces or sensory media beyond audio and video, this conversation provides a grounded, practical perspective on what the path from current technology to those futures actually looks like. It's not about predicting specific products but understanding the infrastructure that must be built—and is already being built—to support the next generation of human-computer interaction.</p>
-      
-    </article>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    var ytPlayer = null;
+    function onYouTubeIframeAPIReady() {
+      ytPlayer = new YT.Player('youtube-player');
+    }
+    var section = document.getElementById('segments-section');
+    var cards = JSON.parse(document.getElementById('segment-data').textContent);
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    if (cards.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      cards.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === "estimated" ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(seg.start_seconds, true);
+            ytPlayer.playVideo();
+          }
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+  </script>
 </body>
 </html>

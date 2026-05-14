@@ -3,7 +3,6 @@ title: 'Essentials: Understanding & Controlling Aggression'
 date: '2026-05-14'
 type: podcast
 category: Health/Science
-video_id: SCIM4757138073.mp3
 channel: Huberman Lab
 video_url: https://traffic.megaphone.fm/SCIM4757138073.mp3
 ---

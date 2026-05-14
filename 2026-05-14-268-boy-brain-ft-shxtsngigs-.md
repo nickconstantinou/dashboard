@@ -1,9 +1,8 @@
 ---
-title: '268: Boy Brain Ft. ShxtsnGigs '
+title: '268: Boy Brain Ft. ShxtsnGigs'
 date: '2026-05-14'
 type: podcast
 category: Comedy/Relationships
-video_id: GLT7757583208.mp3
 channel: Two Hot Takes
 video_url: https://traffic.megaphone.fm/GLT7757583208.mp3
 ---

@@ -3,7 +3,6 @@ title: A New Leader — and a New Showdown — at the Fed
 date: '2026-05-14'
 type: podcast
 category: News
-video_id: 54nAGcIl
 channel: The Daily
 video_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/e9c986e9-18e3-4134-b593-75661b2bbace/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=e9c986e9-18e3-4134-b593-75661b2bbace&feed=54nAGcIl
 ---

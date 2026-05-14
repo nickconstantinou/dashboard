@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A New Leader — and a New Showdown — at the Fed | Nick's Blog</title>
+  <meta name="description" content="The Daily — News">
+  <meta property="og:title" content="A New Leader — and a New Showdown — at the Fed">
+  <meta property="og:description" content="The Daily — News">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,22 +70,28 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • News</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/54nAGcIl" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><p># Key Insights</p>
-
-<li>The Senate confirmed Kevin Warsh as Federal Reserve Chair on May 14 by a <strong>54-45 vote</strong>, replacing Jerome Powell — but Powell immediately announced he would remain on the Fed's Board of Governors, creating an unprecedented coexistence scenario.</li>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · News</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Daily">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Daily</div>
+            <h1>A New Leader — and a New Showdown — at the Fed</h1>
+            <p class="subtitle">On a single afternoon in May, the United States Senate executed one of the most consequential personnel changes in American financial history — confirming Kevin Warsh as the new ch…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/e9c986e9-18e3-4134-b593-75661b2bbace/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=e9c986e9-18e3-4134-b593-75661b2bbace&feed=54nAGcIl" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li>The Senate confirmed Kevin Warsh as Federal Reserve Chair on May 14 by a <strong>54-45 vote</strong>, replacing Jerome Powell — but Powell immediately announced he would remain on the Fed's Board of Governors, creating an unprecedented coexistence scenario.</li>
 <li>President Trump had been pressuring Powell for over a year to resign, culminating in a <strong>criminal investigation launched by US Attorney Jeanine Pirro</strong> into allegedly wasteful renovation costs at Fed headquarters — an investigation widely viewed as politically motivated and later deemed legally shaky by a federal judge.</li>
 <li>Republican Senator <strong>Tom Tillis from North Carolina</strong> single-handedly blocked Trump's confirmation process by refusing to vote on any Fed nominees until the investigation ended, using his pivotal position on the Senate Banking Committee as leverage.</li>
 <li>The Justice Department dropped the investigation on <strong>April 24</strong> — just three weeks before Powell's May 15 term expiration — but Powell rejected this as insufficient, demanding "well and truly over with transparency and finality" before he would consider retirement.</li>
 <li>By staying on the seven-person Board of Governors, Powell <strong>blocks Trump's ability to appoint a replacement</strong>, effectively limiting the administration's influence over the body that shapes interest rates, bank regulation, and staffing decisions across the entire Federal Reserve system.</li>
-
-<p>---</p>
 
 <h1>Introduction</h1>
 
@@ -62,8 +100,6 @@
 <p>This arrangement breaks with nearly eight decades of precedent. The last time a departing Fed chair stayed on as a governor was at President Harry Truman's explicit request in the late 1940s. No modern occupant of the position has voluntarily remained after their term ended while the president who appointed them explicitly wanted them gone. The decision, Powell explained in his final press conference as chair, was not about him. It was about the institution — and the broader threat that Trump's sustained attacks posed to the Fed's hard-won independence.</p>
 
 <p>The weeks leading to this moment had been extraordinary, even by the standards of an administration that had already upended countless norms. Trump had called Powell "a fool" and "grossly incompetent" on multiple occasions, openly mused about firing him, and ultimately weaponized the Justice Department to investigate him over mundane construction cost overruns. That investigation ultimately backfired, derailing the confirmation process and forcing a retreat. But it also steeled Powell's resolve, convincing him that leaving now — with the institution under siege — would be a dereliction of duty.</p>
-
-<p>---</p>
 
 <h1>The Campaign Against Powell</h1>
 
@@ -75,8 +111,6 @@
 
 <p>The investigation quickly became a significant impediment to Trump's own goals. Republican Senator Tom Tillis of North Carolina announced that he would not support any of Trump's Fed nominees until the legal threats against Powell had ended. Tillis occupied a pivotal position on the Senate Banking Committee, the body that oversees the confirmation process for Federal Reserve appointments. With the Republican majority in the Senate slim and fragile, his opposition created a de facto blockade.</p>
 
-<p>---</p>
-
 <h1>The Political Calculus Shifts</h1>
 
 <p>The standoff placed Trump in a painful position. He had long wanted Powell gone — not merely replaced as chair, but thoroughly humiliated and removed from any position of influence. The criminal investigation represented the sharpest instrument in achieving that goal. Yet the political cost of maintaining that investigation was blocking his ability to install Kevin Warsh, his chosen successor, in the chairmanship.</p>
@@ -86,8 +120,6 @@
 <p>Throughout this period, the signals from the administration were contradictory and confusing. Pirro insisted the investigation was proceeding in earnest. Federal prosecutors visited Fed facilities. Yet at the same time, there were indications that the legal foundation was crumbling and that the administration might eventually need to capitulate. Powell himself began speaking more openly about his intentions, signaling that he would not be browbeaten into submission.</p>
 
 <p>At a press conference in April, Powell delivered a pointed statement that reframed the entire conflict. He described the investigation as part of a broader pattern of pressure and intimidation aimed at compromising the Fed's independence. The central question, he argued, was whether the institution would continue to set interest rates based on economic evidence and conditions, or whether it would bow to political pressure and become an extension of the executive branch.</p>
-
-<p>---</p>
 
 <h1>Powell's Decision to Stay</h1>
 
@@ -99,8 +131,6 @@
 
 <p>The deeper reason, Powell emphasized, was the threat to the institution itself. "I worry that these attacks are battering the institution and putting at risk the thing that really matters to the public, which is the ability to conduct monetary policy without taking into consideration political factors." He framed this as existential: "It has risked the Fed becoming more politicized, and it has risked the US economy being undermined."</p>
 
-<p>---</p>
-
 <h1>The Strategic Logic of Staying</h1>
 
 <p>By remaining on the Board of Governors, Powell accomplishes something that resignation would not: he limits Trump's ability to reshape the Federal Reserve in his preferred image. The Board of Governors is a seven-person body that exercises enormous influence over the direction of American monetary policy. These seven individuals make the key decisions on interest rates, bank regulation, and staffing across the entire Federal Reserve system, including the regional bank presidents who sit across the country.</p>
@@ -109,8 +139,6 @@
 
 <p>From a purely legal standpoint, staying on offers Powell limited additional protection. A sitting governor cannot be removed by the president at will, which provides some shield against arbitrary dismissal. But the deeper protection is institutional: by remaining at the table, Powell ensures that any future attempts to overhaul the Fed or subordinate it to political demands will face resistance from someone with inside knowledge, institutional credibility, and the legitimacy that comes from having led the institution through the pandemic and the subsequent inflationary crisis.</p>
 
-<p>---</p>
-
 <h1>The Uncertain Coexistence</h1>
 
 <p>The installation of Kevin Warsh as Fed chair thus unfolds in deeply unusual circumstances. Warsh served as a Fed governor between 2006 and 2011, overlapping with the global financial crisis, and was instrumental in crafting the central bank's emergency response. His tenure there, however, also seeded his deep dissatisfaction with the institution and specifically with Powell, whom he blames for mishandling the post-crisis period and subsequent years.</p>
@@ -118,8 +146,6 @@
 <p>Warsh has been a vocal critic of the Fed under Powell's leadership, going so far as to call publicly for regime change. The question now is how aggressively he will push that agenda with Powell lingering in the background. Powell has said he intends to keep a low profile as a governor, but the markets, Congress, and the media will be watching his every move. Any speech he delivers, any statement he makes in rate-setting meetings, will be parsed for signals about whether he is actively working against the new chair's priorities.</p>
 
 <p>The situation creates genuine ambiguity about where power truly resides. Warsh holds the chairmanship, but Powell retains the authority and knowledge of a sitting governor, with a platform to shape decisions on interest rates, regulatory policy, and institutional direction. This is "a central bank in a crucial moment" — one where nobody is quite certain who is really in charge.</p>
-
-<p>---</p>
 
 <h1>Detailed Takeaways</h1>
 
@@ -133,20 +159,95 @@
 
 <p><strong>The Warsh appointment carries significant implications for monetary policy direction.</strong> Warsh's documented skepticism of the Fed's post-crisis framework suggests he may pursue a different approach to interest rates and financial regulation than Powell favored. His history of calling for regime change at the Fed indicates a willingness to depart from established norms, and with Powell potentially resisting from the board, the institution could face open philosophical conflicts about the appropriate conduct of monetary policy in coming years.</p>
 
-<p>---</p>
-
 <h1>Who This Is For</h1>
 
 <p>This episode offers essential insight for anyone seeking to understand how power operates at the intersection of finance, law, and politics in the United States. Investors and financial professionals will find it particularly valuable for grasping how changes at the Federal Reserve can create uncertainty in markets, and why institutional independence matters for long-term economic stability. Policy analysts and government watchers will benefit from its detailed unpacking of how the Senate confirmation process works, how political pressure campaigns can go awry, and what happens when an executive's personal vendetta collides with constitutional norms.</p>
 
-<p>For general readers, the episode serves as a masterclass in how one of the world's most powerful financial institutions is being reshaped in real time, and what that means for the economy that all Americans depend on. The story of Powell's decision to stay is ultimately a story about what institutions are made of — and what it costs to defend them.</p></p>
-      
-    </article>
+<p>For general readers, the episode serves as a masterclass in how one of the world's most powerful financial institutions is being reshaped in real time, and what that means for the economy that all Americans depend on. The story of Powell's decision to stay is ultimately a story about what institutions are made of — and what it costs to defend them.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_title": "Kevin Warsh's Fed Agenda and Credibility Challenge",
+    "summary": "Kevin Warsh, Trump's nominee as new Fed chair, built his candidacy on criticizing Powell's management of the Fed's balance sheet and pandemic interventions. However, Warsh faces a credibility problem: the economic environment now requires keeping rates high rather than cutting them, potentially forcing him to take positions identical to Powell and anger Trump anyway.",
+    "start_seconds": 0,
+    "end_seconds": 713,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Powell's Decision to Remain at Fed",
+    "summary": "After his chair term ends May 15, Powell announces he will continue serving as a governor to protect the Fed's independence. His decision is framed as bigger than his personal situation\u2014he wants to shield the institution from political attacks and prevent Trump from adding another governor to the Board.",
+    "start_seconds": 920,
+    "end_seconds": 1120,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Kevin Warsh Named as Trump Fed Chair Pick",
+    "summary": "Trump nominates Kevin Warsh, a former Fed governor from 2006-2011 who left over disagreements with the Fed's crisis response. Warsh brings a controversial vision centered on regime change at the Fed, including skepticism of balance sheet expansion and concerns about the Fed exceeding its congressional mandate.",
+    "start_seconds": 1120,
+    "end_seconds": 1275,
+    "timing_quality": "estimated"
+  },
+  {
+    "segment_title": "Criminal Investigation Into Powell and Legal Backlash",
+    "summary": "Powell became the target of a criminal investigation that critics viewed as politically motivated and legally shaky. Republican Senator Tom Tillis refused to support any Fed nominees until the legal threats ended, potentially blocking Trump's chosen replacement Kevin Warsh. Federal judges also opposed the investigation, and it was ultimately dropped on April 24th.",
+    "start_seconds": 0,
+    "end_seconds": 713,
+    "timing_quality": "estimated"
+  }
+]
+</script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

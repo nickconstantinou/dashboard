@@ -3,9 +3,9 @@ title: 'Penultimate Push | #FPL GW37'
 date: '2026-05-14'
 type: youtube
 category: FPL
-video_id: VjKy_-IQrik
 channel: Who got the assist
 video_url: https://www.youtube.com/watch?v=VjKy_-IQrik
+video_id: VjKy_-IQrik
 ---
 
 # Penultimate Push: FPL GW37 Preview

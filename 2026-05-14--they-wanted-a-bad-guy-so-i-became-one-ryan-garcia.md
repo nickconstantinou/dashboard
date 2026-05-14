@@ -1,9 +1,8 @@
 ---
-title: ' "They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097'
+title: '"They Wanted A Bad Guy, So I Became One" - Ryan Garcia - #1097'
 date: '2026-05-14'
 type: podcast
 category: Self-help/Society
-video_id: SIXMSB1114158113.mp3
 channel: Modern Wisdom
 video_url: https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/traffic.megaphone.fm/SIXMSB1114158113.mp3
 ---

@@ -3,7 +3,6 @@ title: 'UFO Roundtable: CIA Physicist Proves Aliens Exist'
 date: '2026-05-14'
 type: podcast
 category: Business/Interview
-video_id: 01KRHZY6HB764G4YM0FXQSHDGR.mp3
 channel: The Diary of a CEO
 video_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KRHZY6HB764G4YM0FXQSHDGR.mp3
 ---

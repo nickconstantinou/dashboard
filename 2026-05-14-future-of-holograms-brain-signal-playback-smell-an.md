@@ -4,9 +4,9 @@ title: Future of holograms, brain signal playback, smell, and touch in multimedi
 date: '2026-05-14'
 type: youtube
 category: AI/Tech
-video_id: S7uUtfHW6yo
 channel: Lex Fridman
 video_url: https://www.youtube.com/watch?v=S7uUtfHW6yo
+video_id: S7uUtfHW6yo
 ---
 
 # The Future of Multimedia: Holograms, Brain-Computer Interfaces, and the Evolution of VLC

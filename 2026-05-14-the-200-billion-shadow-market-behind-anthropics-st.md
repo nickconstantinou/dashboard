@@ -3,7 +3,6 @@ title: The $200 Billion Shadow Market Behind Anthropic's Stock | Dio Casares
 date: '2026-05-14'
 type: podcast
 category: Crypto/Web3
-video_id: 01KRJTN89PJM38GAK3RRB7AFDW.mp3
 channel: Bankless
 video_url: https://episode.flightcast.com/01KRJTN89PJM38GAK3RRB7AFDW.mp3
 ---
