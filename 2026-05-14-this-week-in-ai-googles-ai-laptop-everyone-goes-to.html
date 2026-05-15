@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines | Nick's Blog</title>
+  <meta name="description" content="Limitless: An AI Podcast — AI/Tech">
+  <meta property="og:title" content="THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines">
+  <meta property="og:description" content="Limitless: An AI Podcast — AI/Tech">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,32 +70,28 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • AI/Tech</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/f83ef9fb.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[17:50–19:10]</strong> <em>Thinking Machines Multimodal AI Model</em> — Thinking Machines (Mira Murati and Ilya Sutskever's new venture) built a 12 billion parameter model that processes audio, video, and text simultaneously with 200 millisecond micro turns. Unlike traditional models that operate like walkie talkies, it can listen while speaking. This represents a fundamental shift in AI interaction models.</li>
-<li><strong>[5:20–6:50]</strong> <em>Isomorphic Labs Spins Out with $2.1B for AI Drug Discovery</em> — Google DeepMind's biology division Isomorphic Labs has officially spun out as an independent entity raising $2.1B to apply AI to protein sequencing and drug discovery. The company uses AI models to predict protein function and design custom molecules that bind to proteins like keys into locks, potentially enabling cures for Alzheimer's, cancer, and other major diseases.</li>
-<li><strong>[9:30–10:00]</strong> <em>US-China AI Relations and Export Controls</em> — Trump administration tariff policies aim to pressure China on trade practices while establishing frameworks for bilateral AI safety discussions. China has mandated local AI labs use only domestic hardware, creating tension around semiconductor exports and GPU sales. Both Elon Musk and Jensen Huang have significant business interests in maintaining China relationships through Tesla and NVIDIA GPU sales.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">multimodal AI</span> <span class="signal-tag">interaction models</span> <span class="signal-tag">AI research</span> <span class="signal-tag">AI drug discovery</span> <span class="signal-tag">protein sequencing</span> <span class="signal-tag">healthcare AI</span> <span class="signal-tag">biotech</span> <span class="signal-tag">US-China relations</span> <span class="signal-tag">AI export controls</span> <span class="signal-tag">tariffs</span></p>
-</div></p>
-
-<p><p># Key Insights</p>
-
-<li><strong>Google Book pricing and positioning</strong>: The new AI laptop ranges from $200–$500, directly competing with the MacBook Neo at $600, making it one of the most accessible AI-native computing devices ever released.</li>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · AI/Tech</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Limitless: An AI Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">Limitless: An AI Podcast</div>
+            <h1>THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines</h1>
+            <p class="subtitle">The week before Google's flagship IO conference delivered what might be its most significant product announcements in a decade.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://media.transistor.fm/672a41fe/f83ef9fb.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li><strong>Google Book pricing and positioning</strong>: The new AI laptop ranges from $200–$500, directly competing with the MacBook Neo at $600, making it one of the most accessible AI-native computing devices ever released.</li>
 <li><strong>Gemini Intelligence as OS replacement</strong>: Google explicitly stated it's moving "from an operating system to an intelligence system," positioning AI as the foundational layer rather than software running on traditional hardware.</li>
 <li><strong>SpaceX AI infrastructure deals</strong>: Anthropic signed approximately $5 billion in deals with SpaceX AI for Colossus One compute, while Google is paying to launch radiation-resistant TPUs into space—leveraging SpaceX as the cheapest route to orbit.</li>
 <li><strong>Isomorphic Labs' Nobel-validated approach</strong>: Demis Hassabis won the 2024 Nobel Prize in Chemistry for AlphaFold 2's protein folding predictions, and the spin-out's ISO-DDE model is now being used by 300,000+ researchers globally to design drug molecules.</li>
 <li><strong>Forming AI alliance with one notable absence</strong>: A symbiotic relationship is emerging between SpaceX AI, Anthropic, Google, and Cursor—where each gains what they lack—but OpenAI remains conspicuously excluded from this coalition.</li>
-
-<p>---</p>
 
 <h1>Google's AI Offensive: The Week That Shook Silicon Valley</h1>
 
@@ -72,8 +100,6 @@
 <p>This wasn't just a product launch. It was a strategic repositioning. Google explicitly articulated its new philosophy: "We are moving from an operating system to an intelligence system." That single sentence, repeated across multiple announcements, reveals Google's conviction that the traditional computing stack—hardware running an OS running applications—is giving way to something where AI is the foundational layer everything else extends from.</p>
 
 <p>The timing is deliberate. Google is attacking Apple's ecosystem vulnerabilities while simultaneously securing infrastructure for the AI era. SpaceX deals, drug discovery spin-offs, and cross-platform compatibility with iOS all point to a company no longer content to be merely a software and cloud provider. Google wants to own the entire stack, from silicon in space to the user experience on your desk.</p>
-
-<p>---</p>
 
 <h1>The Google Book: Chromebooks' AI-Heir Arrives</h1>
 
@@ -90,8 +116,6 @@
 <p>The Apple-targeting strategy extends further. Google has created smooth pathways to port data from iMessage, iCloud, and Apple's ecosystem entirely. A feature similar to Apple's AirDrop was prototyped roughly a month ago. The message is clear: Google is systematically dismantling the lock-in that keeps users within Apple's walled garden, and it's doing so while Apple appears "twaddling and twiddling their thumbs."</p>
 
 <p>Notably, Apple signed a billion-dollar annual partnership to license Gemini for its own products—a tacit acknowledgment that Google possesses capabilities Apple cannot replicate internally. The irony is striking: Apple pays Google to power AI features while Google simultaneously markets devices designed to lure Apple customers away.</p>
-
-<p>---</p>
 
 <h1>The Space Race Goes Vertical: AI Data Centers Beyond Earth</h1>
 
@@ -117,8 +141,6 @@
 <p>The hosts emphasize this coalition explicitly excludes OpenAI. "It's a rough week to be OpenAI," one observes, noting that while OpenAI may be winning its legal battles—stock market chances of victory are rising—it's conspicuously absent from the partnerships reshaping AI infrastructure.</p>
 
 <p>Google's deeper ties to SpaceX amplify this relationship. The company already owns approximately 6.1% of SpaceX, giving it both financial incentive to see the company succeed and influence over strategic decisions. As SpaceX moves toward its anticipated IPO, Google stands to benefit from any valuation increases while simultaneously securing preferential access to orbital infrastructure.</p>
-
-<p>---</p>
 
 <h1>Isomorphic Labs: DeepMind's Biology Bet Goes Independent</h1>
 
@@ -146,8 +168,6 @@
 
 <p>The deal also creates alignment: Google retains influence through DeepMind's ongoing relationship, but Isomorphic can move at pharmaceutical speed rather than technology company speed. If successful, this structure could produce medicines that save millions of lives while generating returns that dwarf typical software exits.</p>
 
-<p>---</p>
-
 <h1>Strategic Implications: Reading the Week's Tea Leaves</h1>
 
 <p>Several patterns emerge from these announcements that extend beyond individual products and partnerships.</p>
@@ -162,8 +182,6 @@
 
 <p><strong>The IO conference will likely deliver more</strong>. Everything announced so far appears to be "warm-up" content, as one host describes it. If Google is revealing major announcements a week early, the May 19–20 main event likely contains revelations the company considers even more significant. Coverage will continue as details emerge.</p>
 
-<p>---</p>
-
 <h1>Who Should Pay Attention</h1>
 
 <p><strong>Technology industry professionals</strong> will find this week's developments essential for understanding competitive positioning. Google's moves against Apple's ecosystem, the SpaceX infrastructure play, and the pharmaceutical AI advances all reshape markets worth trillions of dollars. Professionals in adjacent industries should understand these shifts before they arrive.</p>
@@ -174,14 +192,261 @@
 
 <p><strong>Anyone interested in AI's trajectory</strong> should recognize this week as a turning point. The announcements aren't incremental improvements—they represent architectural decisions about where AI lives, how it integrates with physical products, and what industries it will transform. Pharmaceutical AI alone could produce more human benefit than every previous AI application combined.</p>
 
-<p>The week before Google IO delivered enough news to reshape multiple industries. The main event promises more. For those tracking artificial intelligence's development, these stories aren't just news—they're early chapters in a transformation still being written.</p></p>
-      
-    </article>
+<p>The week before Google IO delivered enough news to reshape multiple industries. The main event promises more. For those tracking artificial intelligence's development, these stories aren't just news—they're early chapters in a transformation still being written.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "29fc3ef50d393815",
+    "source_name": "Limitless: An AI Podcast",
+    "episode_title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
+    "segment_title": "Isomorphic Labs Spins Out with $2.1B for AI Drug Discovery",
+    "summary": "Google DeepMind's biology division Isomorphic Labs has officially spun out as an independent entity raising $2.1B to apply AI to protein sequencing and drug discovery. The company uses AI models to predict protein function and design custom molecules that bind to proteins like keys into locks, potentially enabling cures for Alzheimer's, cancer, and other major diseases.",
+    "audio_url": "https://media.transistor.fm/672a41fe/f83ef9fb.mp3",
+    "start_seconds": 320,
+    "end_seconds": 410,
+    "score": 0.726,
+    "reason": "info=0.82 eng=0.76 penalty=-0.07 Mechanism analogy and disease cure stakes drive both dimensions",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Isomorphic Labs",
+      "Google DeepMind",
+      "Alphabet",
+      "Isomorphic Labs Spins Out",
+      "AI Drug Discovery",
+      "Google DeepMind's",
+      "Alzheimer's",
+      "THIS WEEK IN AI"
+    ],
+    "topics": [
+      "ai drug discovery",
+      "protein sequencing",
+      "healthcare ai",
+      "biotech",
+      "health",
+      "nutrition",
+      "business",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "9e3223fe29c66fe1",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 07:25:56 -0400",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "d3df0b5788a268c6",
+    "source_name": "Limitless: An AI Podcast",
+    "episode_title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
+    "segment_title": "SPV Investment Scams Targeting Retail Investors in AI Companies",
+    "summary": "Third-party platforms like Forge Global and Hive sold speculative SPV shares in private AI companies Anthropic and OpenAI to retail investors at inflated valuations, causing controversy on social media. The leak of actual investment terms helped recalibrate the secondary market and cooled speculative trading, though retail investors were left holding positions in companies with no public market.",
+    "audio_url": "https://media.transistor.fm/672a41fe/f83ef9fb.mp3",
+    "start_seconds": 530,
+    "end_seconds": 570,
+    "score": 0.694,
+    "reason": "info=0.78 eng=0.74 penalty=-0.07 Fraud mechanics well-explained with clear victims and social conflict",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Anthropic",
+      "OpenAI",
+      "Forge Global",
+      "Hive",
+      "SPV Investment Scams Targeting",
+      "Retail Investors",
+      "AI Companies",
+      "Third-party"
+    ],
+    "topics": [
+      "ai investment",
+      "spv scams",
+      "venture capital",
+      "secondary markets",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9e3223fe29c66fe1",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 07:25:56 -0400",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "c3c5f0be1581f75a",
+    "source_name": "Limitless: An AI Podcast",
+    "episode_title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
+    "segment_title": "US-China AI Relations and Export Controls",
+    "summary": "Trump administration tariff policies aim to pressure China on trade practices while establishing frameworks for bilateral AI safety discussions. China has mandated local AI labs use only domestic hardware, creating tension around semiconductor exports and GPU sales. Both Elon Musk and Jensen Huang have significant business interests in maintaining China relationships through Tesla and NVIDIA GPU sales.",
+    "audio_url": "https://media.transistor.fm/672a41fe/f83ef9fb.mp3",
+    "start_seconds": 570,
+    "end_seconds": 600,
+    "score": 0.71,
+    "reason": "info=0.80 eng=0.75 penalty=-0.07 Geopolitical complexity with conflicting business interests",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "China",
+      "Trump administration",
+      "Elon Musk",
+      "Jensen Huang",
+      "NVIDIA",
+      "Tesla",
+      "US-China AI Relations",
+      "Export Controls"
+    ],
+    "topics": [
+      "us china relations",
+      "ai export controls",
+      "tariffs",
+      "trade policy",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9e3223fe29c66fe1",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 07:25:56 -0400",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "d0019e663a3ff9fe",
+    "source_name": "Limitless: An AI Podcast",
+    "episode_title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
+    "segment_title": "Thinking Machines Multimodal AI Model",
+    "summary": "Thinking Machines (Mira Murati and Ilya Sutskever's new venture) built a 12 billion parameter model that processes audio, video, and text simultaneously with 200 millisecond micro turns. Unlike traditional models that operate like walkie talkies, it can listen while speaking. This represents a fundamental shift in AI interaction models.",
+    "audio_url": "https://media.transistor.fm/672a41fe/f83ef9fb.mp3",
+    "start_seconds": 1070,
+    "end_seconds": 1150,
+    "score": 0.74,
+    "reason": "info=0.85 eng=0.75 penalty=-0.07 Detailed specs (12B params, 200ms turns) with walkie-talkie analogy framing paradigm shift",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Thinking Machines",
+      "Ilya Sutskever",
+      "Mira Murati",
+      "OpenAI",
+      "Thinking Machines Multimodal AI",
+      "Model",
+      "Ilya Sutskever's",
+      "Unlike"
+    ],
+    "topics": [
+      "multimodal ai",
+      "interaction models",
+      "ai",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9e3223fe29c66fe1",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 07:25:56 -0400",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "eed403b6982e0de1",
+    "source_name": "Limitless: An AI Podcast",
+    "episode_title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
+    "segment_title": "SpaceX AI Data Centers in Space Partnership",
+    "summary": "SpaceX is partnering with Google to launch TPUs into space for AI data centers, with deals reportedly worth $5-10 billion including Anthropic and Cursor. Google already owns 6.1% of SpaceX, and SpaceX aims to be the infrastructure provider for the AI space race.",
+    "audio_url": "https://media.transistor.fm/672a41fe/f83ef9fb.mp3",
+    "start_seconds": 1650,
+    "end_seconds": 1780,
+    "score": 0.692,
+    "reason": "info=0.72 eng=0.65 penalty=0.00 Massive deal scope ($5-10B) and infrastructure positioning create forward tension",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "SpaceX",
+      "Google",
+      "Anthropic",
+      "Cursor",
+      "Elon Musk",
+      "TPUs",
+      "Solana",
+      "SpaceX AI Data Centers"
+    ],
+    "topics": [
+      "space computing",
+      "ai data centers",
+      "infrastructure",
+      "space partnership",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9e3223fe29c66fe1",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 07:25:56 -0400",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

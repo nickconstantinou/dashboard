@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Future of Art Is Interactive | Nick's Blog</title>
+  <meta name="description" content="Raoul Pal: The Journey Man — Crypto/Finance">
+  <meta property="og:title" content="The Future of Art Is Interactive">
+  <meta property="og:description" content="Raoul Pal: The Journey Man — Crypto/Finance">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,32 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Crypto/Finance</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/1778704013" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[62:20–65:00]</strong> <em>NFT Discovery and Blockchain Art Career</em> — Kaldi recounts discovering blockchain in 2017 through podcasts about gold and silver, which led him to mint NFT art. He discusses his early gallery shows, minting on Rare Art Labs, burning and reminting tokens as the Lost Italic, and his involvement with key crypto figures like John McAfee and the broader crypto movement.</li>
-<li><strong>[65:00–67:00]</strong> <em>Layered Art Techniques and Elon Musk Project</em> — Kaldi describes his unique artistic process using magnets, dye sublimation, and sheet metal to create layered physical artworks. He explains creating the KnowYourOverlord.art website and working with collaborators on layered art pieces including a European variant of an Elon Musk portrait set to display at a Lisbon gallery.</li>
-<li><strong>[67:00–68:10]</strong> <em>Forest Fire and Financial Epiphany</em> — Kaldi shares a dramatic story about his house burning down and a buried box of cash that the Treasury never retrieved. This experience led to his realization that money only has value if someone accepts it, and he discusses how Bitcoin solves this problem of trust in currency.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">NFT art</span> <span class="signal-tag">blockchain</span> <span class="signal-tag">crypto</span> <span class="signal-tag">gallery shows</span> <span class="signal-tag">layered art</span> <span class="signal-tag">magnets</span> <span class="signal-tag">NFT technology</span> <span class="signal-tag">portrait art</span> <span class="signal-tag">personal story</span> <span class="signal-tag">money philosophy</span></p>
-</div></p>
-
-<p><p><strong>Key Insights</strong></p>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Crypto/Finance</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Raoul Pal: The Journey Man">
+          <div class="podcast-hero-text">
+            <div class="source-label">Raoul Pal: The Journey Man</div>
+            <h1>The Future of Art Is Interactive</h1>
+            <p class="subtitle">In a candid conversation that spans childhood nostalgia, high-pressure media careers, and the bleeding edge of digital art, Raoul Pal—former Goldman Sachs trader turned macro-crypt…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <p><strong>Key Insights</strong></p>
 
 <li>Kaldi minted his first blockchain artwork on Rare Art Labs in 2017—just one day before X*Copy, who would later become one of the most celebrated digital artists in the space—yet neither artist had any community or audience at the time, with most pieces selling for $10-15.</li>
 <li>His artistic foundation traces to stereoscopic ViewMaster devices from Taiwanese street markets in the mid-1980s, which created a "deep-seated connection" to 3D imagery that later manifested in his signature lenticular art technique combining analog depth perception with digital tokenization.</li>
 <li>While working at LA Weekly immediately after art school, he designed magazine covers under extreme deadline pressure (sometimes changing at 11PM for 2AM press deadlines) for 100,000 weekly readers, simultaneously attending art shows, concerts, and cultural events that trained his collector's eye through hundreds of exhibitions.</li>
 <li>His artistic philosophy positions him as a "recorder" of cultural moments—he captures figures like Vitalik Buterin, Andreas Antonopoulos, and John McAfee (including McAfee's infamous promise to eat his own genitals on national television if Bitcoin didn't reach $1 million) as historical documentation of what it meant to be alive during the crypto era.</li>
 <li>His creative process centers on "getting out of your own way" and detaching from expectations, which he describes as the essential prerequisite for where "the real cool shit happens."</li>
-
-<p>---</p>
 
 <p><strong>Introduction</strong></p>
 
@@ -125,14 +155,257 @@
 
 <p><strong>The Philosophy of Interactive Art: Against the "Don't Touch" Culture</strong></p>
 
-<p>The conversation's opening anecdote reveals the philosophical engine driving Kaldi's practice. "Don't touch the art</p></p>
-      
-    </article>
+<p>The conversation's opening anecdote reveals the philosophical engine driving Kaldi's practice. "Don't touch the art</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "258a0f95f3149e8f",
+    "source_name": "Raoul Pal: The Journey Man",
+    "episode_title": "The Future of Art Is Interactive",
+    "segment_title": "Filthy Fiat Art Project and Currency Debasement",
+    "summary": "The artist describes burying US currency underground for two years, creating the 'Filthy Fiat' project exploring the debasement of currency and the non-fungible nature of physical money versus fungible assets. They sought certification for their currency artwork and explored what technology is replacing traditional money.",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013",
+    "start_seconds": 0,
+    "end_seconds": 887,
+    "score": 0.69,
+    "reason": "info=0.80 eng=0.70 penalty=-0.07 Novel artistic concept with strong conceptual depth on currency debasement",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_finance",
+    "subject": "crypto_finance",
+    "entities": [
+      "US Treasury",
+      "Filthy Fiat Art Project",
+      "Currency Debasement",
+      "Filthy Fiat'",
+      "Art Is Interactive",
+      "Raoul Pal",
+      "Raoul Pal: The Journey Man"
+    ],
+    "topics": [
+      "filthy fiat",
+      "currency debasement",
+      "physical art",
+      "nft concepts",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "d3e6013a9539f599",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 16:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a0b3a5682cb39ddc",
+    "source_name": "Raoul Pal: The Journey Man",
+    "episode_title": "The Future of Art Is Interactive",
+    "segment_title": "The Moldy Money Art Project",
+    "summary": "The speaker tells the detailed story of burying money in their parents' backyard, later discovering moldy bills, and creating art by extracting and certifying them through PMG. They describe the magic of this discovery process and the certification that tied into the DB Cooper legend, creating a unique artistic narrative.",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013",
+    "start_seconds": 3020,
+    "end_seconds": 3180,
+    "score": 0.69,
+    "reason": "info=0.65 eng=0.75 penalty=0.00 Detailed discovery narrative with DB Cooper tension",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_finance",
+    "subject": "crypto_finance",
+    "entities": [
+      "PMG",
+      "DB Cooper",
+      "Project",
+      "PMG. They",
+      "Art Is Interactive",
+      "Raoul Pal",
+      "Raoul Pal: The Journey Man"
+    ],
+    "topics": [
+      "money art",
+      "collage art",
+      "art certification",
+      "found objects",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "d3e6013a9539f599",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 16:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "c83911800e4b92ed",
+    "source_name": "Raoul Pal: The Journey Man",
+    "episode_title": "The Future of Art Is Interactive",
+    "segment_title": "NFT Discovery and Blockchain Art Career",
+    "summary": "Kaldi recounts discovering blockchain in 2017 through podcasts about gold and silver, which led him to mint NFT art. He discusses his early gallery shows, minting on Rare Art Labs, burning and reminting tokens as the Lost Italic, and his involvement with key crypto figures like John McAfee and the broader crypto movement.",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013",
+    "start_seconds": 3740,
+    "end_seconds": 3900,
+    "score": 0.77,
+    "reason": "info=0.75 eng=0.80 penalty=0.00 Detailed career timeline with named figures and platforms",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_finance",
+    "subject": "crypto_finance",
+    "entities": [
+      "Rare Art Labs",
+      "John McAfee",
+      "Bitcoin",
+      "NFT Discovery",
+      "Blockchain Art Career",
+      "Kaldi",
+      "NFT",
+      "Lost Italic"
+    ],
+    "topics": [
+      "nft art",
+      "blockchain",
+      "crypto",
+      "gallery shows",
+      "discovery",
+      "career",
+      "kaldi",
+      "recounts"
+    ],
+    "trace": {
+      "episode_id": "d3e6013a9539f599",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 16:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "1133afdebc3ffc19",
+    "source_name": "Raoul Pal: The Journey Man",
+    "episode_title": "The Future of Art Is Interactive",
+    "segment_title": "Layered Art Techniques and Elon Musk Project",
+    "summary": "Kaldi describes his unique artistic process using magnets, dye sublimation, and sheet metal to create layered physical artworks. He explains creating the KnowYourOverlord.art website and working with collaborators on layered art pieces including a European variant of an Elon Musk portrait set to display at a Lisbon gallery.",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013",
+    "start_seconds": 3900,
+    "end_seconds": 4020,
+    "score": 0.77,
+    "reason": "info=0.85 eng=0.65 penalty=0.00 Technically dense process description with specific techniques",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_finance",
+    "subject": "crypto_finance",
+    "entities": [
+      "Elon Musk",
+      "Lisbon",
+      "KnowYourOverlord.art",
+      "Layered Art Techniques",
+      "Elon Musk Project",
+      "Kaldi",
+      "European",
+      "Art Is Interactive"
+    ],
+    "topics": [
+      "layered art",
+      "magnets",
+      "nft technology",
+      "portrait art",
+      "layered",
+      "techniques",
+      "elon",
+      "musk"
+    ],
+    "trace": {
+      "episode_id": "d3e6013a9539f599",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 16:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "d71c3c875efecff4",
+    "source_name": "Raoul Pal: The Journey Man",
+    "episode_title": "The Future of Art Is Interactive",
+    "segment_title": "Forest Fire and Financial Epiphany",
+    "summary": "Kaldi shares a dramatic story about his house burning down and a buried box of cash that the Treasury never retrieved. This experience led to his realization that money only has value if someone accepts it, and he discusses how Bitcoin solves this problem of trust in currency.",
+    "audio_url": "https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013",
+    "start_seconds": 4020,
+    "end_seconds": 4090,
+    "score": 0.76,
+    "reason": "info=0.70 eng=0.85 penalty=0.00 High-stakes personal crisis delivering money philosophy insight",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_finance",
+    "subject": "crypto_finance",
+    "entities": [
+      "Treasury",
+      "Bitcoin",
+      "Forest Fire",
+      "Financial Epiphany",
+      "Kaldi",
+      "Art Is Interactive",
+      "Raoul Pal",
+      "Raoul Pal: The Journey Man"
+    ],
+    "topics": [
+      "personal story",
+      "money philosophy",
+      "bitcoin",
+      "financial trust",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "d3e6013a9539f599",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 16:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

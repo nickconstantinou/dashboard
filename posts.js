@@ -4,7 +4,7 @@ var posts = [
     "title": "Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?",
     "url": "2026-05-15-most-replayed-moment-the-link-between-weight-gain-.html",
     "category": "Business/Interview",
-    "excerpt": "<p># Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful? ## Key Insights - **Single night of sleep deprivation causes dramatic calorie intake increase*",
+    "excerpt": "## Introduction Sleep has emerged as one of the most critical yet misunderstood pillars of human health. While most people understand that poor sleep makes them feel terrible the next day, fewer appre",
     "tags": [
       "Business/Interview"
     ],
@@ -15,7 +15,7 @@ var posts = [
     "title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
     "url": "2026-05-15-the-uk-is-still-losing-cheap-stocks-to-private-equ.html",
     "category": "Finance",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[7:27\u20138:08]</strong> <em>South Korea AI Tax Proposal Market Reaction</em> \u2014 South Korean policymakers proposed taxing AI profits to fu",
+    "excerpt": "## Introduction The UK equity market faces a structural challenge that extends far beyond political turbulence \u2014 and it's accelerating. In the latest episode of the Bloomberg UK *Market Wrap* podcast,",
     "tags": [
       "Finance"
     ],
@@ -34,21 +34,10 @@ var posts = [
   },
   {
     "date": "May 14, 2026",
-    "title": "\"They Wanted A Bad Guy, So I Became One\" - Ryan Garcia - #1097",
-    "url": "2026-05-14--they-wanted-a-bad-guy-so-i-became-one-ryan-garcia.html",
-    "category": "Self-help/Society",
-    "excerpt": "<p>**Key Insights** - Ryan began boxing at 7 years old, was homeschooled at 15\u201316 to pursue it full-time, and compiled 125 amateur fights by fighting nearly every weekend throughout his youth - He des",
-    "tags": [
-      "Self-help/Society"
-    ],
-    "type": "podcast"
-  },
-  {
-    "date": "May 14, 2026",
     "title": "268: Boy Brain Ft. ShxtsnGigs",
-    "url": "2026-05-14-268-boy-brain-ft-shxtsngigs-.html",
+    "url": "2026-05-14-268-boy-brain-ft-shxtsngigs.html",
     "category": "Comedy/Relationships",
-    "excerpt": "<p>## Key Insights - **Predatory Age Gap Pattern**: The 22-year-old woman dating a 36-year-old man (a 14-year gap) represents a documented power imbalance where older partners deliberately seek younge",
+    "excerpt": "## Introduction The relationship dynamics that emerge from modern dating app culture continue to generate compelling\u2014and often troubling\u2014material for discussion, and Episode 268 of this long-running p",
     "tags": [
       "Comedy/Relationships"
     ],
@@ -59,7 +48,7 @@ var posts = [
     "title": "670. Tom Holland Meets Paul McCartney",
     "url": "2026-05-14-670-tom-holland-meets-paul-mccartney.html",
     "category": "History",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[19:20\u201322:00]</strong> <em>Learning Music Before the Beatles</em> \u2014 Paul describes how difficult it was to access music in post-war Li",
+    "excerpt": "## Introduction In a landmark episode of the Rest is History podcast, host Tom Holland sits down with Paul McCartney for an extensive conversation about the legendary Beatle's new album, *The Boys of ",
     "tags": [
       "History"
     ],
@@ -70,7 +59,7 @@ var posts = [
     "title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
     "url": "2026-05-14-865-the-most-incredible-transformation-ive-ever-se.html",
     "category": "Business/Self-help",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[45:40\u201348:40]</strong> <em>Tatian's Physical Training Breakthroughs</em> \u2014 Detailed account of Tatian's training journey beginning wit",
+    "excerpt": "<p># Key Insights - **Micro-progressions drove massive gains**: Starting at just 3 pounds on an Olympic wooden bar, Dae Jin Park progressed to bench pressing 170 pounds (~140 lb body weight) in five y",
     "tags": [
       "Business/Self-help"
     ],
@@ -92,7 +81,7 @@ var posts = [
     "title": "Andrew Wilkinson: AI Agents run my business and life",
     "url": "2026-05-14-andrew-wilkinson-ai-agents-run-my-business-and-lif.html",
     "category": "Business/Startups",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[33:49\u201335:16]</strong> <em>Personal AI Tools and Productivity Stack</em> \u2014 The guest shows his personal AI setup including a wearable ",
+    "excerpt": "<p># Key Insights - **Productivity split is currently unfavorable**: Andrew estimates he's spending 50% of his time debugging AI agents, 30% improving them, and only 20% actually being productive\u2014mean",
     "tags": [
       "Business/Startups"
     ],
@@ -103,7 +92,7 @@ var posts = [
     "title": "Essentials: Understanding & Controlling Aggression",
     "url": "2026-05-14-essentials-understanding-controlling-aggression.html",
     "category": "Health/Science",
-    "excerpt": "<p># Understanding & Controlling Aggression: A Neuroscience Deep-Dive --- ## Key Insights - **The ventromedial hypothalamus (VMH) contains only ~3,000 neurons total (~1,500 per side)** that are suffic",
+    "excerpt": "## Introduction Aggression is one of the most ubiquitous and consequential human behaviors\u2014yet despite its everyday presence in our lives, from social media arguments to international conflicts, most ",
     "tags": [
       "Health/Science"
     ],
@@ -136,7 +125,7 @@ var posts = [
     "title": "OBGYN Baaaaby",
     "url": "2026-05-14-obgyn-baaaaby.html",
     "category": "AI/Tech",
-    "excerpt": "<p># OBGYN Baaaaby: A Conversation with Jessica, OB-GYN ## Key Insights - **Delayed cord clamping** is standard practice \u2014 Jessica explains that after birth, the baby is placed on the mother's abdomen",
+    "excerpt": "## Introduction When Jessica logged on for what she called a \"dream come true\" conversation with Conan O'Brien, the New Jersey OBGYN had no idea she'd be dispensing medical wisdom, anatomical educatio",
     "tags": [
       "AI/Tech"
     ],
@@ -147,7 +136,7 @@ var posts = [
     "title": "Origins Vol. II",
     "url": "2026-05-14-origins-vol-ii.html",
     "category": "Mystery/Suspense",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[10:12\u201313:40]</strong> <em>Manga to Squid Game: A Decade of Rejection</em> \u2014 A struggling unemployed man in Seoul finds escape in mang",
+    "excerpt": "## Introduction Every transformative idea begins somewhere unremarkable\u2014a cramped manga cafe in Seoul, a children's hospital ward in England, perhaps a stage waiting to be conquered or a moment of per",
     "tags": [
       "Mystery/Suspense"
     ],
@@ -158,7 +147,7 @@ var posts = [
     "title": "The $200 Billion Shadow Market Behind Anthropic's Stock | Dio Casares",
     "url": "2026-05-14-the-200-billion-shadow-market-behind-anthropics-st.html",
     "category": "Crypto/Web3",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[36:40\u201340:00]</strong> <em>Fraud, Scams, and Vehicle Risk in Private Markets</em> \u2014 The private secondary market contains significant ",
+    "excerpt": "<p># Key Insights - **$200 billion+ market**: Private market raises now exceed IPO fundraising, with over $200 billion in recorded secondary market transactions\u2014a market that's largely invisible to re",
     "tags": [
       "Crypto/Web3"
     ],
@@ -169,7 +158,7 @@ var posts = [
     "title": "The Future of Art Is Interactive",
     "url": "2026-05-14-the-future-of-art-is-interactive.html",
     "category": "Crypto/Finance",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[62:20\u201365:00]</strong> <em>NFT Discovery and Blockchain Art Career</em> \u2014 Kaldi recounts discovering blockchain in 2017 through podcas",
+    "excerpt": "<p>**Key Insights** - Kaldi minted his first blockchain artwork on Rare Art Labs in 2017\u2014just one day before X*Copy, who would later become one of the most celebrated digital artists in the space\u2014yet ",
     "tags": [
       "Crypto/Finance"
     ],
@@ -188,10 +177,21 @@ var posts = [
   },
   {
     "date": "May 14, 2026",
+    "title": "\"They Wanted A Bad Guy, So I Became One\" - Ryan Garcia - #1097",
+    "url": "2026-05-14-they-wanted-a-bad-guy-so-i-became-one-ryan-garcia-.html",
+    "category": "Self-help/Society",
+    "excerpt": "<p>**Key Insights** - Ryan began boxing at 7 years old, was homeschooled at 15\u201316 to pursue it full-time, and compiled 125 amateur fights by fighting nearly every weekend throughout his youth - He des",
+    "tags": [
+      "Self-help/Society"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 14, 2026",
     "title": "THIS WEEK IN AI: Google's AI Laptop, Everyone Goes to China, Thinking Machines",
     "url": "2026-05-14-this-week-in-ai-googles-ai-laptop-everyone-goes-to.html",
     "category": "AI/Tech",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[17:50\u201319:10]</strong> <em>Thinking Machines Multimodal AI Model</em> \u2014 Thinking Machines (Mira Murati and Ilya Sutskever's new ventur",
+    "excerpt": "<p># Key Insights - **Google Book pricing and positioning**: The new AI laptop ranges from $200\u2013$500, directly competing with the MacBook Neo at $600, making it one of the most accessible AI-native co",
     "tags": [
       "AI/Tech"
     ],
@@ -202,7 +202,7 @@ var posts = [
     "title": "UFO Roundtable: CIA Physicist Proves Aliens Exist",
     "url": "2026-05-14-ufo-roundtable-cia-physicist-proves-aliens-exist.html",
     "category": "Business/Interview",
-    "excerpt": "<div class=\"key-insights\"> <h2>Key Insights</h2> <ul> <li><strong>[66:00\u201368:40]</strong> <em>UAP Evidence: Recoveries, Sightings, and Capabilities</em> \u2014 Former special forces personnel describe multi",
+    "excerpt": "<p># Key Insights - **An 80-year government cover-up** of nonhuman intelligent life has been orchestrated by elements of the US government since the late 1940s, with a parallel \"legacy program\" operat",
     "tags": [
       "Business/Interview"
     ],

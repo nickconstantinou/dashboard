@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>#865: The Most Incredible Transformation I’ve Ever Seen — Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions | Nick's Blog</title>
+  <meta name="description" content="The Tim Ferriss Show — Business/Self-help">
+  <meta property="og:title" content="#865: The Most Incredible Transformation I’ve Ever Seen — Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions">
+  <meta property="og:description" content="The Tim Ferriss Show — Business/Self-help">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,38 +70,34 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Business/Self-help</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[45:40–48:40]</strong> <em>Tatian's Physical Training Breakthroughs</em> — Detailed account of Tatian's training journey beginning with inability to lift 15 pounds, progressing through 8 pounds, then body weight. Father initially held his hand while walking. Key milestones included walking independently, breaking records with jumping exercises, and earning printed diplomas when achieving new personal bests. The father drove twice weekly to support training.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">physical_training</span> <span class="signal-tag">motor_skills</span> <span class="signal-tag">breakthroughs</span> <span class="signal-tag">independence</span> <span class="signal-tag">strength training</span> <span class="signal-tag">bench press</span> <span class="signal-tag">adaptive coaching</span> <span class="signal-tag">cerebral palsy</span> <span class="signal-tag">physical therapy</span> <span class="signal-tag">progressive overload</span></p>
-</div></p>
-
-<p><p># Key Insights</p>
-
-<li><strong>Micro-progressions drove massive gains</strong>: Starting at just 3 pounds on an Olympic wooden bar, Dae Jin Park progressed to bench pressing 170 pounds (~140 lb body weight) in five years, surpassing his father's strength — by adding only 5-pound increments at a time.</li>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Business/Self-help</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Tim Ferriss Show">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Tim Ferriss Show</div>
+            <h1>#865: The Most Incredible Transformation I’ve Ever Seen — Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions</h1>
+            <p class="subtitle">In a conversation that has been nearly a decade in the making, Tim Ferriss sits down with Jerzy Gregorek — four-time world weightlifting champion, co-founder of UCLA's weightliftin…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li><strong>Micro-progressions drove massive gains</strong>: Starting at just 3 pounds on an Olympic wooden bar, Dae Jin Park progressed to bench pressing 170 pounds (~140 lb body weight) in five years, surpassing his father's strength — by adding only 5-pound increments at a time.</li>
 <li><strong>The athletic approach differs fundamentally from rehabilitation</strong>: Physical therapists aim to return patients to baseline; cerebral palsy patients have no baseline to return to — they require the same forward-progress methodology used with elite athletes.</li>
 <li><strong>Math was the gateway to cognition</strong>: Jerzy identified Dae Jin's cognitive gaps through observing his movement — when asked to do 5 squats, he performed 6 or 4, revealing he needed work on basic arithmetic, which became a training tool for engaging his brain.</li>
 <li><strong>Social integration proved essential</strong>: Rather than placing Dae Jin in special programs, Jerzy insisted he remain with "normal kids" — after one year of training, Dae Jin had his first genuine conversation; after five years, he passed 57 college units and is headed to San Jose State.</li>
 <li><strong>Strength training increased resting energy</strong>: Dae Jin was so lethargic he slept constantly — bench press, squats, and progressive overload systematically increased his baseline energy, enabling cognitive engagement that had previously been impossible.</li>
-
-<p>---</p>
 
 <h1>The Transformation That Defied Medical Prognosis</h1>
 
 <p>In a conversation that has been nearly a decade in the making, Tim Ferriss sits down with Jerzy Gregorek — four-time world weightlifting champion, co-founder of UCLA's weightlifting team, and co-creator of the Happy Body program alongside his wife Aniela — to discuss one of the most remarkable coaching transformations Ferriss has ever encountered. The episode centers on Dae Jin Park, a young man diagnosed with both cerebral palsy and autism, who arrived at Jerzy's gym unable to unrack a 15-pound barbell and unable to hold a conversation beyond directives like "time to eat" or "time to sleep." Five years later, Dae Jin was bench pressing 170 pounds, had passed 57 college units, was writing essays, and was on track to transfer to San Jose State.</p>
 
 <p>This wasn't accidental. It was the product of an uncompromising athletic methodology applied to a population that society typically treats with comfort rather than challenge. The full story is documented in *Prison No More*, a short film directed by Jeff Wolf (available at tim.blog/hardchoices), which Ferriss narrates and describes as "almost defying explanation." The documentary follows Dae Jin's journey from medical prognosis as life sentence to physical and cognitive capability that surprised everyone — including, eventually, his own father.</p>
-
-<p>---</p>
 
 <h1>Why Traditional Approaches Fail: The Rehabilitation vs. Athletic Divide</h1>
 
@@ -78,8 +106,6 @@
 <p>But cerebral palsy is neither acute nor reversible. The brain injury or abnormal development that causes it is permanent and non-progressive — meaning it doesn't worsen over time, but it also doesn't spontaneously improve. Patients with CP cannot "return" anywhere because they were never without the condition. "They have to progress the same way as athletes," Jerzy explains. "Forward. More." This means treating every session as an opportunity to be slightly stronger, slightly more coordinated, slightly more capable than the day before — the same mentality that drives Olympic weightlifters to break records.</p>
 
 <p>The physical therapy Dae Jin had received prior to meeting Jerzy involved treadmill work, which he hated. Jerzy identifies the problem with this approach: "Treadmill after a while creates exhaustion, tiredness, and the brain actually becomes depleted instead of getting the power, getting the strength, getting more energy." Treadmills build endurance through systemic fatigue, but they don't systematically increase baseline capacity the way progressive resistance training does. Dae Jin arrived at Jerzy's gym lethargic to the point of sleeping in his car and sleeping in rooms — not because he was lazy or unintelligent, but because his resting energy was catastrophically low. The solution wasn't to tire him further; it was to make him fundamentally stronger at rest.</p>
-
-<p>---</p>
 
 <h1>Micro-Progressions: The Mechanism Behind the Method</h1>
 
@@ -91,8 +117,6 @@
 
 <p>The father eventually told Jerzy, "I'm really getting what's the micro progression is. It's amazing thing." He watched over years as his son went from unable to unrack 15 pounds to benching 170 — a weight that exceeded his own capability. The method worked not because the exercises were special, but because they compounded relentlessly over time. Dae Jin's father, witnessing daily micro-improvements, became a believer.</p>
 
-<p>---</p>
-
 <h1>The Body-Brain Feedback Loop: Why Physical Training Unlocked Cognitive Growth</h1>
 
 <p>The medical establishment typically treats cerebral palsy as a purely physical disorder, addressing motor function through physical therapy while treating autism as a separate domain for behavioral or pharmacological intervention. Jerzy's approach refused this silos. He understood that Dae Jin's physical limitations were not merely hardware problems — they were energy problems. The low resting energy that caused Dae Jin to sleep constantly wasn't just a symptom of his condition; it was a ceiling on his cognitive capacity. A depleted brain cannot learn, cannot engage, cannot grow.</p>
@@ -102,8 +126,6 @@
 <p>This is where Jerzy's coaching revealed its sophistication. He didn't wait for Dae Jin's body to "catch up" before engaging his mind. Within sessions, he was asking math questions. "What is three plus two? What is three plus five?" Dae Jin could handle addition up to 10, but beyond that, he was lost. Subtraction was incomprehensible. Jerzy recognized this as a training opportunity — not a reason to lower expectations.</p>
 
 <p>The math work served double duty. It kept Dae Jin's brain engaged during physical training, transforming exercise from mechanical repetition into cognitive challenge. And it created a measurable way to track mental progress. When Jerzy asked Dae Jin to do five squats and watched him do six or four, he wasn't frustrated — he was diagnosing. "That gave me the idea that he needs to work on his mouth," Jerzy explains. "So I started asking him simple questions." The observation that Dae Jin couldn't accurately count repetitions revealed a cognitive gap that physical training alone wouldn't close.</p>
-
-<p>---</p>
 
 <h1>From Counting to Conversation: The Poetry Intervention</h1>
 
@@ -115,8 +137,6 @@
 
 <p>The results after five years are staggering. Dae Jin passed 57 college units at community college, with just three more needed to reach the 60 required for transfer to San Jose State. He's writing essays. He's having conversations about abstract topics. The lethargy that once confined him to sleeping through life has been replaced by the energy of someone preparing for a future.</p>
 
-<p>---</p>
-
 <h1>Social Integration: Why "Special" Programs Create Limitations</h1>
 
 <p>One of the most contentious moments in Dae Jin's transformation came when he decided to return to school. The educational system, following standard protocol for students with disabilities, recommended special programs — segregated classrooms with other students who had similar diagnoses. Jerzy refused.</p>
@@ -127,8 +147,6 @@
 
 <p>Dae Jin's placement in standard educational environments forced him to compete intellectually with peers who had never faced his challenges. This wasn't cruel; it was enabling. The social pressure to keep up, to participate, to prove belonging created motivation that special programs would have eliminated. When Dae Jin's first conversation emerged after a year of training, it emerged because he was being asked to engage in environments where conversation was expected and normal.</p>
 
-<p>---</p>
-
 <h1>The Emotional Landscape: Hatred and Identity Work</h1>
 
 <p>The training revealed emotional dimensions that Dae Jin's lethargy had previously obscured. Jerzy noticed during coaching sessions that Dae Jin "hated teachers, he hated police, he hated mother, he hated father." This hatred wasn't incidental — it was a barrier to growth that had to be addressed.</p>
@@ -136,8 +154,6 @@
 <p>The documentary hints at family dynamics that are both universal and specific to the experience of raising a child with significant challenges. Years of lowered expectations, over-protectiveness, and well-meaning limitations create resentment that the child cannot articulate because they lack the tools for complex emotional expression. Jerzy's coaching created those tools.</p>
 
 <p>The progression of physical capability provided Dae Jin with evidence that contradicted the identity he'd been assigned: a person with limits. Each successful lift was proof that he could do more than predicted. Each conversation was evidence that he could connect with others. Each math problem solved was confirmation that his brain worked — that it had always worked — and simply needed the energy and engagement to demonstrate it.</p>
-
-<p>---</p>
 
 <h1>Who Benefits From This Story</h1>
 
@@ -149,8 +165,6 @@
 
 <p>Finally, anyone facing what feels like an insurmountable challenge — whether a health condition, a professional setback, or a period of stagnation — will find in Dae Jin's story and Jerzy's methodology a reminder that progress is not about dramatic leaps. It's about refusing to accept "this is how it is" and instead asking, "what's the smallest step I can take forward today?" Micro-progressions, compounded over time, produce results that seem, from the outside, to defy explanation. From the inside, they're simply physics: force applied consistently in the right direction.</p>
 
-<p>---</p>
-
 <h1>Practical Implications</h1>
 
 <p>The takeaways from this conversation extend beyond ideology into specific, applicable principles. First, the micro-progression method — adding tiny increments of difficulty, whether weight on a barbell or complexity in a math problem — creates sustainable momentum that dramatic leaps cannot. Dae Jin didn't go from 3 pounds to 170 pounds through occasional bursts of inspiration. He did it through hundreds of sessions where each added 5 pounds was the only new thing asked of him.</p>
@@ -161,16 +175,264 @@
 
 <p>Fourth, the belief systems of caregivers and institutions often impose limitations that the individual's condition does not. The medical prognosis Dae Jin received was not a prediction of his maximum capability — it was an observation of his current state under current conditions. Jerzy's intervention changed the conditions, and the individual's capability expanded accordingly. Challenging institutional expectations, whether in education, therapy, or social services, may be necessary before progress can begin.</p>
 
-<p>---</p>
-
-<p>*For those interested in supporting cerebral palsy research, Tim Ferriss mentions tim.blog/cp as a resource. The documentary Prison No More, which chronicles Dae Jin Park's transformation, is available at tim.blog/hardchoices.*</p></p>
-      
-    </article>
+<p>*For those interested in supporting cerebral palsy research, Tim Ferriss mentions tim.blog/cp as a resource. The documentary Prison No More, which chronicles Dae Jin Park's transformation, is available at tim.blog/hardchoices.*</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "350c21480700411a",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
+    "segment_title": "Physical Training Progress with Cerebral Palsy",
+    "summary": "To Jin began training from a severely limited starting point due to cerebral palsy, unable to perform basic movements like sitting on a 20-inch box or walking properly. Through progressive strength training with bench press and squats, he eventually pressed 100 pounds within a year and became stronger than his father.",
+    "audio_url": "https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 1050,
+    "end_seconds": 1250,
+    "score": 0.67,
+    "reason": "info=0.75 eng=0.55 penalty=0.00 Specific data points with dramatic before-after contrast",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "To Jin",
+      "Daejeon",
+      "Physical Training Progress",
+      "Cerebral Palsy",
+      "Through",
+      "Ever Seen",
+      "Jerzy Gregorek",
+      "Autism"
+    ],
+    "topics": [
+      "cerebral palsy",
+      "strength training",
+      "physical therapy",
+      "progressive overload",
+      "bench press",
+      "squat",
+      "physical",
+      "training"
+    ],
+    "trace": {
+      "episode_id": "122ad0c7b7b1eac9",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 13:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "0547b60fe949e4a2",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
+    "segment_title": "Mathematics Education and Intellectual Awakening",
+    "summary": "From learning basic addition and subtraction, Dae Jin Park progressed to doing five to six hours of daily math. He tracked his jump counts, recorded everything meticulously, and developed an intense passion for learning that emerged through the coaching process.",
+    "audio_url": "https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 2010,
+    "end_seconds": 2140,
+    "score": 0.64,
+    "reason": "info=0.75 eng=0.65 penalty=-0.07 Quantified math progression with intense dedication journey",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Dae Jin Park",
+      "Mathematics Education",
+      "Intellectual Awakening",
+      "Ever Seen",
+      "Jerzy Gregorek",
+      "Autism",
+      "Cerebral Palsy",
+      "Coaching"
+    ],
+    "topics": [
+      "math education",
+      "cognitive development",
+      "learning progression",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "122ad0c7b7b1eac9",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 13:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "da9fe30f5ef25d69",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
+    "segment_title": "Cerebral Palsy Definition and Training Philosophy",
+    "summary": "Jerzy explains cerebral palsy as a group of disorders affecting movement, posture, and muscle tone caused by abnormal brain development. Discusses how physical therapy traditionally aims to return patients to baseline rather than make progress, and how the goal with Tatian was transformation through micro progression.",
+    "audio_url": "https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 2610,
+    "end_seconds": 2740,
+    "score": 0.62,
+    "reason": "info=0.75 eng=0.60 penalty=-0.07 Clear cerebral palsy definition with contrast framework",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Jerzy",
+      "Cerebral Palsy Definition",
+      "Training Philosophy",
+      "Discusses",
+      "Tatian",
+      "Ever Seen",
+      "Jerzy Gregorek",
+      "Autism"
+    ],
+    "topics": [
+      "cerebral palsy",
+      "physical therapy",
+      "microprogression",
+      "rehabilitation",
+      "cerebral",
+      "palsy",
+      "definition",
+      "training"
+    ],
+    "trace": {
+      "episode_id": "122ad0c7b7b1eac9",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 13:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "035e70a5ef94af84",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
+    "segment_title": "Tatian's Physical Training Breakthroughs",
+    "summary": "Detailed account of Tatian's training journey beginning with inability to lift 15 pounds, progressing through 8 pounds, then body weight. Father initially held his hand while walking. Key milestones included walking independently, breaking records with jumping exercises, and earning printed diplomas when achieving new personal bests. The father drove twice weekly to support training.",
+    "audio_url": "https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 2740,
+    "end_seconds": 2920,
+    "score": 0.78,
+    "reason": "info=0.85 eng=0.85 penalty=-0.07 Concrete quantitative milestones with strong narrative arc",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Tatian",
+      "Jerzy",
+      "Tatian's Physical Training Breakthroughs",
+      "Detailed",
+      "Tatian's",
+      "Father",
+      "Key",
+      "Ever Seen"
+    ],
+    "topics": [
+      "physical training",
+      "motor skills",
+      "breakthroughs",
+      "independence",
+      "tatian",
+      "physical",
+      "training",
+      "detailed"
+    ],
+    "trace": {
+      "episode_id": "122ad0c7b7b1eac9",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 13:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a78ab475481a754e",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#865: The Most Incredible Transformation I\u2019ve Ever Seen \u2014 Jerzy Gregorek on Autism, Cerebral Palsy, Coaching, and the Power of Micro-Progressions",
+    "segment_title": "Taejin's Bench Press Training Journey",
+    "summary": "The conversation shifts to Taejin's physical training, specifically his bench press progression. Taejin was so physically limited he couldn't unrack the bar, requiring a wooden bar and coaching approach adapted for young children to help him learn proper technique.",
+    "audio_url": "https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 4000,
+    "end_seconds": 4050,
+    "score": 0.672,
+    "reason": "info=0.72 eng=0.60 penalty=0.00 Vivid adaptation details and problem-solving approach",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Taejin",
+      "Taejin's Bench Press Training",
+      "Journey",
+      "Taejin's",
+      "Ever Seen",
+      "Jerzy Gregorek",
+      "Autism",
+      "Cerebral Palsy"
+    ],
+    "topics": [
+      "strength training",
+      "bench press",
+      "adaptive coaching",
+      "taejin",
+      "bench",
+      "press",
+      "training",
+      "journey"
+    ],
+    "trace": {
+      "episode_id": "122ad0c7b7b1eac9",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 13:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

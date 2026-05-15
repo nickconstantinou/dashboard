@@ -7,27 +7,6 @@ channel: MrBallen Podcast
 video_url: https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/369bdf58-7db2-47f2-927b-4c18dfc3f110/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=369bdf58-7db2-47f2-927b-4c18dfc3f110&feed=dloY8UYJ
 ---
 
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[10:12–13:40]</strong> <em>Manga to Squid Game: A Decade of Rejection</em> — A struggling unemployed man in Seoul finds escape in manga, writes a violent story about poor people fighting to the death for money, and gets rejected for ten years until it becomes Squid Game, generating $900 million for the production company and earning its creator an Emmy.</li>
-<li><strong>[0:00–10:12]</strong> <em>Young Musician Sneaks Into Hollywood Mansion, Becomes Successful Artist</em> — A young woman named Rose drives to a Hollywood Hills mansion and bribes the gardener $5 to gain entry, hoping to pitch her music career. After exploring the empty home and escaping security, her music career takes off, earning her multi-platinum status and over 100 million records sold worldwide.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">entertainment industry</span> <span class="signal-tag">persistence</span> <span class="signal-tag">creative success</span> <span class="signal-tag">music industry</span> <span class="signal-tag">celebrity home</span> <span class="signal-tag">break-in</span> <span class="signal-tag">success story</span> <span class="signal-tag">creative inspiration</span> <span class="signal-tag">poverty</span> <span class="signal-tag">success after failure</span></p>
-</div>
-
-<p># Origins Vol. II: Four Stories of Ordinary People Whose Single Decisions Changed Millions of Lives
-
-## Key Insights
-
-- **Hwang Dong-hyuk** conceptualized *Squid Game* inside a Seoul manga cafe in 2009 after being inspired by the manga *Battle Royale* while living in poverty—his family couldn't afford rent, and he had sold his laptop just to avoid eviction
-- The show took **12 years** from initial concept to premiere, with Hwang facing **10 consecutive years of rejection** from every buyer who called his pitch "too weird" and "too violent"
-- When *Squid Game* premiered in 2021, it generated **$900 million** for its production company and earned Hwang an Emmy award
-- The core creative breakthrough came from combining two elements: the violent death-game premise from *Battle Royale* with Hwang's **firsthand experience of poverty and desperation**—he understood viscerally what desperate people would do for money
-- Rich, the hospitalized British boy with tuberculosis, spent **1.5 years practicing drums on makeshift knitting needle sticks** found in a hospital closet before he could afford his own drum kit
-
----
-
 ## Introduction
 
 Every transformative idea begins somewhere unremarkable—a cramped manga cafe in Seoul, a children's hospital ward in England, perhaps a stage waiting to be conquered or a moment of personal collapse that precedes a breakthrough. The second volume of the *Origins* podcast series by Soft White Underbelly explores this fundamental truth through four unrelated stories united by a single theme: ordinary people who made one critical decision that cascaded into consequences affecting millions of lives across the globe.

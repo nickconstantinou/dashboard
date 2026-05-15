@@ -7,15 +7,6 @@ channel: Bankless
 video_url: https://episode.flightcast.com/01KRJTN89PJM38GAK3RRB7AFDW.mp3
 ---
 
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[36:40–40:00]</strong> <em>Fraud, Scams, and Vehicle Risk in Private Markets</em> — The private secondary market contains significant fraud including fake share certificates and sellers who claim cap table access they don't actually have. Vehicle failures occur when nested SPVs break down and equity claims cannot be verified at each layer, with sellers sometimes spending proceeds before delivering shares.</li>
-<li><strong>[40:00–42:30]</strong> <em>Settlement Chaos and Market Clearing Reality</em> — Settlement involves DTCC, brokerage accounts, and AML procedures taking 3 days to 2 weeks across nested SPV layers. Carry marks create incentive misalignments where fund managers benefit from inflated valuations. Game theory suggests Anthropic may not void questionable transactions despite legal grounds to do so.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">fraud</span> <span class="signal-tag">SPV risk</span> <span class="signal-tag">share certificate forgery</span> <span class="signal-tag">corporate espionage</span> <span class="signal-tag">settlement process</span> <span class="signal-tag">portfolio management</span> <span class="signal-tag">market clearing</span> <span class="signal-tag">forward contracts</span> <span class="signal-tag">IPO distribution</span> <span class="signal-tag">legal precedent</span></p>
-</div>
-
 <p># Key Insights
 
 - **$200 billion+ market**: Private market raises now exceed IPO fundraising, with over $200 billion in recorded secondary market transactions—a market that's largely invisible to retail investors

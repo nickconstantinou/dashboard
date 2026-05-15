@@ -7,18 +7,6 @@ channel: Lex Fridman
 video_url: https://pdrl.fm/f3efd0/dts.podtrac.com/redirect.mp3/arttrk.com/p/ST44R/claritaspod.com/measure/stitcher.simplecastaudio.com/c945bd13-c7f3-4f22-95b5-4bf98e12b21f/episodes/86cca7ae-5a28-4c7e-a46c-1a20450bc1e0/audio/128/default.mp3?aid=rss_feed&awCollectionId=c945bd13-c7f3-4f22-95b5-4bf98e12b21f&awEpisodeId=86cca7ae-5a28-4c7e-a46c-1a20450bc1e0&feed=dHoohVNH
 ---
 
-<p># OBGYN Baaaaby: A Conversation with Jessica, OB-GYN
-
-## Key Insights
-
-- **Delayed cord clamping** is standard practice — Jessica explains that after birth, the baby is placed on the mother's abdomen while the cord remains intact to allow blood flow back into the baby before cutting, supporting healthier initial development.
-- **Men frequently faint during deliveries** — Jessica notes that fathers "black out a lot" during the birth process, requiring smelling salts, and jokes that medical staff have no patience for overwhelmed fathers when there's a newborn requiring attention.
-- **The umbilical cord is thicker than expected** — Jessica describes the cutting process to Conan, warning that fathers are often surprised by the cord's density, comparing it to "cutting chicken" and advising them to "go for the gusto."
-- **Circumcision uses a Morgans clamp with full anesthesia** — The procedure involves dorsal nerve blocks with lidocaine injections, sugar pacifiers, and music to create what Jessica calls "a spa experience," making it less traumatic for infants.
-- **Female anatomy education reveals surprising gaps** — Jessica explains that women have three distinct openings (urethra, vagina, anus), and jokes about Conan's reluctance to use proper anatomical terminology, referring only to "peepees," "poo-poos," and "the spud hole."
-
----
-
 ## Introduction
 
 When Jessica logged on for what she called a "dream come true" conversation with Conan O'Brien, the New Jersey OBGYN had no idea she'd be dispensing medical wisdom, anatomical education, and a few well-worn jokes about circumcised foreskin served as seafood. But that's exactly what made this episode of *Conan O'Brien Needs a Fan* so memorable.

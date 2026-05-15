@@ -3,20 +3,9 @@ title: The Future of Art Is Interactive
 date: '2026-05-14'
 type: podcast
 category: Crypto/Finance
-video_id: '1778704013'
 channel: 'Raoul Pal: The Journey Man'
 video_url: https://www.podtrac.com/pts/redirect.mp3/chrt.fm/track/1B146C/pscrb.fm/rss/p/traffic.megaphone.fm/ADV6258346843.mp3?updated=1778704013
 ---
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[62:20–65:00]</strong> <em>NFT Discovery and Blockchain Art Career</em> — Kaldi recounts discovering blockchain in 2017 through podcasts about gold and silver, which led him to mint NFT art. He discusses his early gallery shows, minting on Rare Art Labs, burning and reminting tokens as the Lost Italic, and his involvement with key crypto figures like John McAfee and the broader crypto movement.</li>
-<li><strong>[65:00–67:00]</strong> <em>Layered Art Techniques and Elon Musk Project</em> — Kaldi describes his unique artistic process using magnets, dye sublimation, and sheet metal to create layered physical artworks. He explains creating the KnowYourOverlord.art website and working with collaborators on layered art pieces including a European variant of an Elon Musk portrait set to display at a Lisbon gallery.</li>
-<li><strong>[67:00–68:10]</strong> <em>Forest Fire and Financial Epiphany</em> — Kaldi shares a dramatic story about his house burning down and a buried box of cash that the Treasury never retrieved. This experience led to his realization that money only has value if someone accepts it, and he discusses how Bitcoin solves this problem of trust in currency.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">NFT art</span> <span class="signal-tag">blockchain</span> <span class="signal-tag">crypto</span> <span class="signal-tag">gallery shows</span> <span class="signal-tag">layered art</span> <span class="signal-tag">magnets</span> <span class="signal-tag">NFT technology</span> <span class="signal-tag">portrait art</span> <span class="signal-tag">personal story</span> <span class="signal-tag">money philosophy</span></p>
-</div>
 
 <p>**Key Insights**
 

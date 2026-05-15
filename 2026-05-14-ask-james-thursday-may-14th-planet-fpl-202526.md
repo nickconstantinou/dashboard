@@ -3,12 +3,9 @@ title: Ask James | Thursday May 14th | Planet FPL 2025/26
 date: '2026-05-14'
 type: podcast
 category: FPL
-video_id: '1778764654'
 channel: Planet FPL
 video_url: https://pscrb.fm/rss/p/traffic.megaphone.fm/COMG6250068576.mp3?updated=1778764654
 ---
-
-# Ask James | Thursday May 14th | Planet FPL 2025/26
 
 ## Fixture Focus: Arsenal's Prime Opportunity
 

@@ -7,18 +7,6 @@ channel: The Diary of a CEO
 video_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KRHZY6HB764G4YM0FXQSHDGR.mp3
 ---
 
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[66:00–68:40]</strong> <em>UAP Evidence: Recoveries, Sightings, and Capabilities</em> — Former special forces personnel describe multiple crash recoveries and encounters with craft displaying impossible capabilities—moving at 50+ knots underwater, creating localized energy fields, and performing maneuvers beyond human technology. Intelligence officials and senators confirm the phenomenon is real based on classified data.</li>
-<li><strong>[8:40–11:20]</strong> <em>Advanced Technology and Physical Evidence</em> — Analysis of recovered craft reveals warp bubble technology that separates vehicles from their environment, operating on principles beyond current engineering capabilities. The Tic Tac video and other sightings show objects that move in ways no known aircraft can achieve. Experts confirm the technology is so advanced that neither the US nor adversaries could have manufactured it.</li>
-<li><strong>[14:33–19:10]</strong> <em>UAP Evidence and Government Cover-up</em> — The documentary features interviews with senior government officials including Secretary Rubio, military pilots, admirals, and former defense secretaries about non-human intelligence. Multiple sources confirm a legacy program operating outside congressional oversight since the 1940s, with evidence of crashed craft recoveries in the US.</li>
-<li><strong>[70:20–71:50]</strong> <em>Stargate Remote Viewing Program and Consciousness</em> — The conversation shifts to the CIA's Stargate remote viewing program, which produced actionable intelligence about Soviet targets. The guest discusses experiments testing whether consciousness can perceive beyond physical limitations and whether quantum theory supports such phenomena.</li>
-<li><strong>[53:00–55:20]</strong> <em>CIA Disinformation Campaign</em> — Discussion of how the CIA deliberately spread disinformation to discourage public pursuit of this topic. This included funding movies that made aliens seem silly, creating what is described as the most effective disinformation campaign in US government history, embedding into popular culture.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">UAP evidence</span> <span class="signal-tag">military sightings</span> <span class="signal-tag">recovered technology</span> <span class="signal-tag">reverse engineering</span> <span class="signal-tag">warp technology</span> <span class="signal-tag">physical evidence</span> <span class="signal-tag">advanced propulsion</span> <span class="signal-tag">UAP disclosure</span> <span class="signal-tag">government cover-up</span> <span class="signal-tag">whistleblowers</span></p>
-</div>
-
 <p># Key Insights
 
 - **An 80-year government cover-up** of nonhuman intelligent life has been orchestrated by elements of the US government since the late 1940s, with a parallel "legacy program" operating completely outside congressional oversight and White House knowledge since that time.

@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>670. Tom Holland Meets Paul McCartney | Nick's Blog</title>
+  <meta name="description" content="The Rest Is History — History">
+  <meta property="og:title" content="670. Tom Holland Meets Paul McCartney">
+  <meta property="og:description" content="The Rest Is History — History">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,44 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • History</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/GLT5781731754.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[19:20–22:00]</strong> <em>Learning Music Before the Beatles</em> — Paul describes how difficult it was to access music in post-war Liverpool, with rock and roll records being rare and passed between friends. He explains that none of the Beatles learned to read or write music - knowledge transferred directly from person to person, similar to Irish music traditions. This grassroots education created an 'in crowd' who knew the chords.</li>
-<li><strong>[30:00–31:40]</strong> <em>Paul McCartney's Mother as Community Midwife</em> — McCartney shares memories of his mother who worked as a community midwife, delivering babies across different social classes and biking through heavy snow to reach patients, demonstrating her dedication to her children's success.</li>
-<li><strong>[33:40–35:20]</strong> <em>Meeting John Lennon and Forming The Beatles</em> — McCartney recounts meeting John Lennon at the Fenton Woolston (Wilton Fate) and how The Beatles learned American rock and roll, with informal music education through record shops and friends like Jeff Lynne of ELO.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">music education</span> <span class="signal-tag">rock and roll</span> <span class="signal-tag">Liverpool music scene</span> <span class="signal-tag">Beatles origins</span> <span class="signal-tag">family history</span> <span class="signal-tag">healthcare</span> <span class="signal-tag">music collaboration</span> <span class="signal-tag">band formation</span> <span class="signal-tag">songwriting</span> <span class="signal-tag">literary influences</span></p>
-</div></p>
-
-<p><p># 670. Tom Holland Meets Paul McCartney</p>
-
-<h2>Key Insights</h2>
-
-<li><strong>Paul McCartney describes Liverpool's identity as distinct from England itself</strong>, rooted in Irish heritage and its history as a major port city second only to London in wealth, which created a "special" self-perception among residents that shaped The Beatles' confidence and irreverence.</li>
-<li><strong>The informal transmission of rock and roll knowledge in pre-internet Liverpool</strong> worked through a network of sailors returning from America with rare records, creating "self-selecting groups" of musicians who built chord vocabularies by borrowing and copying from one another—never reading or writing formal sheet music.</li>
-<li><strong>McCartney's mother Mary earned housing upgrades as a community midwife</strong>, moving the family progressively to better houses (including one with an indoor toilet on "Milton Road") by serving both wealthy and impoverished families across Liverpool's neighborhoods.</li>
-<li><strong>The Beatles escaped national service by approximately one year</strong>, which McCartney describes as a providential moment: "as if god opened the waters and the Israelites could just go through"—allowing them to pursue music during the early 1960s instead of military service.</li>
-<li><strong>The Beatles' songwriting process was entirely oral and communal</strong>: band members would gather at 10 AM, Lennon and McCartney would play a new song on two acoustics, Harrison would immediately absorb it visually, Ringo would tap out a rhythm, and they'd be recording within twenty minutes—"mind to mind" transmission with no paper involved.</li>
-
-<p>---</p>
-
-<h2>Introduction</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · History</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Rest Is History">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Rest Is History</div>
+            <h1>670. Tom Holland Meets Paul McCartney</h1>
+            <p class="subtitle">In a landmark episode of the Rest is History podcast, host Tom Holland sits down with Paul McCartney for an extensive conversation about the legendary Beatle's new album, *The Boys…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
 
 <p>In a landmark episode of the Rest is History podcast, host Tom Holland sits down with Paul McCartney for an extensive conversation about the legendary Beatle's new album, *The Boys of Dungeon Lane*, and the Liverpool upbringing that shaped one of the twentieth century's most influential musical voices. This interview represents an unprecedented crossover between the popular history podcast and living history itself—McCartney not only witnessed the transformative decade of the 1960s but served as its central creative force alongside John Lennon.</p>
 
 <p>The conversation arrives at a moment when McCartney has returned to deeply personal territory. *The Boys of Dungeon Lane* draws extensively from his childhood and teenage years in Liverpool, examining the specific circumstances and city that produced both The Beatles and the man who would become the world's most celebrated composer. For Tom Holland, whose Rest is History podcast typically explores ancient Rome, the Ottoman Empire, and other historical epochs, this interview represents something different: a chance to excavate the recent past with one of its primary architects.</p>
 
 <p>What emerges is not merely an artist discussing new work but a meditation on place, memory, and the invisible forces that shape genius. McCartney reflects on the Irish roots that made Liverpool feel separate from England, the wartime humor that became The Beatles' signature attitude, the sailors who smuggled American rock and roll into a country starving for it, and the communal creative process that could produce "Yesterday" or "Help!" in a matter of minutes. This is a conversation about how history—the large-scale forces of war, migration, class, and culture—collides with individual talent to produce moments that change the world.</p>
-
-<p>---</p>
 
 <h2>The Character of Liverpool</h2>
 
@@ -86,8 +104,6 @@
 <p>This Irish heritage carried darker implications that McCartney acknowledges with characteristic honesty. "It was only later," he notes, "that you learn that this was slave trade." The city's wealth came substantially from the transatlantic slave trade, though McCartney describes how what they saw as children was more immediately the presence of Caribbean families—descendants of those who had come through Liverpool's ports, though "we didn't talk about it then."</p>
 
 <p>Yet this dark history coexisted with something vital: Liverpool's openness to the world. The port brought not just goods but sounds, ideas, and influences that bypassed the more insular English interior. This global connection would prove essential when McCartney and his contemporaries began hunting for American music.</p>
-
-<p>---</p>
 
 <h2>War, Humor, and the Making of The Beatles</h2>
 
@@ -100,8 +116,6 @@
 <p>The physical legacy of the war was everywhere. Liverpool's bomb damage took decades to repair, and the bomb sites became unofficial playing fields. McCartney describes playing football on what locals called "the Bombie"—a bomb site that children simply accepted as part of the landscape. "We didn't think anything of it," he says, noting that they only later realized the ominous origin of the name. The war had passed, but its evidence remained, incorporated into daily life.</p>
 
 <p>The timing proved providential. When McCartney and his peers reached military age, national service was winding down. "It was as if god opened the waters and the Israelites could just go through," McCartney says, with evident wonder. "We suddenly all of that had gone." The Beatles escaped military service by approximately one year—a narrow window that allowed them to pursue music during the early 1960s rather than reporting to barracks.</p>
-
-<p>---</p>
 
 <h2>Salesman Saint: A Song About Parents</h2>
 
@@ -117,8 +131,6 @@
 
 <p>Tom Holland notes that the interview coincides with International Midwife Day, and McCartney expresses warm regard for the profession. Holland's own wife, it emerges, is a midwife, and she had specifically requested that Holland ask about Mary's career.</p>
 
-<p>---</p>
-
 <h2>The Informal Transmission of Rock and Roll</h2>
 
 <p>One of the interview's most fascinating segments explores how McCartney and his contemporaries accessed American rock and roll in a Britain before streaming, before widespread radio play of American music, and before the internet. The story reveals both the scarcity of the era and the ingenuity of young musicians hungry for something new.</p>
@@ -130,8 +142,6 @@
 <p>"You would know certain chords, and then someone would know an extra chord," McCartney says. "So you would go to his house and learn this extra chord, and you build up your knowledge through things like that." The learning was entirely oral and aural. "There was none of us ever learned to read or write music," McCartney notes—a striking fact about The Beatles and most groups of their era. Jeff Lynne ofELO later confirmed this was true of his generation as well: "He says, oh, we just made it up."</p>
 
 <p>This method of transmission created something valuable that formal training might have inhibited. "There's a great strength in me showing you a chord or a riff or something, and it's just going from mind to mind," McCartney reflects. "There's no paper involved." He draws a parallel to Irish folk music, which similarly was never written down but passed directly from musician to musician, each version evolving in the sharing. "We had a lot of that," he says. "And that was really nice, for transference of ideas."</p>
-
-<p>---</p>
 
 <h2>The Beatles' Creative Process</h2>
 
@@ -145,8 +155,6 @@
 
 <p>"If you look back on all our histories and our legacy, it was kind of Bartek," McCartney says, invoking the medieval European tradition of communal, unwritten musical creation. The parallel is apt: The Beatles operated less like modern recording artists and more like folk musicians, their songs emerging from collective improvisation and shared knowledge rather than written compositions.</p>
 
-<p>---</p>
-
 <h2>Detailed Takeaways</h2>
 
 <p><strong>The power of local culture in shaping creative output</strong>: McCartney's Liverpool upbringing illustrates how deeply place shapes artists. The city's Irish heritage, its port-city openness to the world, its wartime humor, its culture of self-deprecating wit—all these invisible forces became the raw material of The Beatles' identity. This challenges the myth of the self-made genius. McCartney is clear that his Liverpool formation made him possible; another city might have produced another McCartney, but the specific Liverpool combination was essential.</p>
@@ -159,8 +167,6 @@
 
 <p><strong>The emotional power of specific memory</strong>: McCartney's most moving moments come when he recalls specific images—his mother on a bicycle in the snow, the indoor toilet on Milton Road, the liners departing for Canada. These granular memories, preserved across eight decades, carry the emotional weight of his art. His new album draws on this kind of memory, suggesting that artistic creation often works by recovering and transforming the specific images that lodged in the mind during childhood.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This conversation will appeal most directly to fans of The Beatles and McCartney's solo work who want to understand the personal and cultural roots of his music. The interview provides rich biographical detail about McCartney's Liverpool upbringing—his parents' occupations, the family's housing progression, the wartime atmosphere of his childhood—that illuminates the emotional texture of his songwriting.</p>
@@ -169,14 +175,251 @@
 
 <p>For writers and musicians, the interview offers a model of how to talk about creative process. McCartney is articulate about the informal transmission of musical knowledge and the collaborative nature of Beatles songwriting, providing insights into how communal creative practice can produce individually brilliant work.</p>
 
-<p>Finally, anyone interested in how place shapes identity will find this conversation valuable. McCartney's sustained reflection on what Liverpool contributed to who he became—its humor, its separateness from England, its openness to the world—provides a thoughtful example of how artists can understand and articulate their own formation.</p></p>
-      
-    </article>
+<p>Finally, anyone interested in how place shapes identity will find this conversation valuable. McCartney's sustained reflection on what Liverpool contributed to who he became—its humor, its separateness from England, its openness to the world—provides a thoughtful example of how artists can understand and articulate their own formation.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "7e8b846044e1fac6",
+    "source_name": "The Rest Is History",
+    "episode_title": "670. Tom Holland Meets Paul McCartney",
+    "segment_title": "Songwriting Evolution and Literary Influences",
+    "summary": "McCartney describes how The Beatles progressed from simple 'I love you' songs to sophisticated compositions. He reveals his literary influences including Thomas Hardy and Shakespeare, sharing a story of unconsciously using Shakespeare's exact phrasing. The discussion covers how George Harrison introduced the sitar, and McCartney reflects on Norwegian Wood as a collaborative effort.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3",
+    "start_seconds": 0,
+    "end_seconds": 794,
+    "score": 0.69,
+    "reason": "info=0.80 eng=0.70 penalty=-0.07 Literary influences with concrete examples, evolution narrative with Shakespeare tension",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "George Harrison",
+      "Shakespeare",
+      "Lewis Carroll",
+      "Dickens",
+      "Thomas Hardy",
+      "Norwegian Wood",
+      "Eleanor Rigby",
+      "Songwriting Evolution"
+    ],
+    "topics": [
+      "songwriting",
+      "literary influences",
+      "musical evolution",
+      "history",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "699831dcabc8fe1d",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "e5314dc28c82554d",
+    "source_name": "The Rest Is History",
+    "episode_title": "670. Tom Holland Meets Paul McCartney",
+    "segment_title": "Learning Music Before the Beatles",
+    "summary": "Paul describes how difficult it was to access music in post-war Liverpool, with rock and roll records being rare and passed between friends. He explains that none of the Beatles learned to read or write music - knowledge transferred directly from person to person, similar to Irish music traditions. This grassroots education created an 'in crowd' who knew the chords.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3",
+    "start_seconds": 1160,
+    "end_seconds": 1320,
+    "score": 0.72,
+    "reason": "info=0.80 eng=0.60 penalty=0.00 Specific music access barriers and oral tradition mechanism, exclusive community tension",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Buddy Holly",
+      "Learning Music Before",
+      "Beatles",
+      "Paul",
+      "Liverpool",
+      "Irish",
+      "Tom Holland Meets Paul",
+      "McCartney"
+    ],
+    "topics": [
+      "music education",
+      "rock and roll",
+      "liverpool music scene",
+      "beatles origins",
+      "history",
+      "culture",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "699831dcabc8fe1d",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "49dfb232e3a7f5f8",
+    "source_name": "The Rest Is History",
+    "episode_title": "670. Tom Holland Meets Paul McCartney",
+    "segment_title": "Liverpool Upbringing and WWII Influence",
+    "summary": "Paul McCartney discusses how Liverpool's Irish influence, wartime experiences, and bombed-out city shaped The Beatles' resilience and sense of humor. He describes playing football on bomb sites and learning to laugh through adversity.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3",
+    "start_seconds": 1650,
+    "end_seconds": 1800,
+    "score": 0.68,
+    "reason": "info=0.70 eng=0.65 penalty=0.00 Specific WWII childhood details with personal narrative",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Liverpool",
+      "The Beatles",
+      "Liverpool Upbringing",
+      "WWII Influence",
+      "Paul McCartney",
+      "Liverpool's Irish",
+      "Tom Holland Meets Paul",
+      "McCartney"
+    ],
+    "topics": [
+      "wwii",
+      "british culture",
+      "childhood",
+      "history",
+      "sports",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "699831dcabc8fe1d",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "41fa13dd731e1e30",
+    "source_name": "The Rest Is History",
+    "episode_title": "670. Tom Holland Meets Paul McCartney",
+    "segment_title": "Paul McCartney's Mother as Community Midwife",
+    "summary": "McCartney shares memories of his mother who worked as a community midwife, delivering babies across different social classes and biking through heavy snow to reach patients, demonstrating her dedication to her children's success.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3",
+    "start_seconds": 1800,
+    "end_seconds": 1900,
+    "score": 0.7,
+    "reason": "info=0.70 eng=0.70 penalty=0.00 Vivid specific anecdote about mother as community midwife",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "McCartney family",
+      "Paul McCartney's Mother",
+      "Community Midwife",
+      "McCartney",
+      "Tom Holland Meets Paul",
+      "The Rest Is History"
+    ],
+    "topics": [
+      "family history",
+      "healthcare",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "699831dcabc8fe1d",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "ff24a16cc9a94167",
+    "source_name": "The Rest Is History",
+    "episode_title": "670. Tom Holland Meets Paul McCartney",
+    "segment_title": "Meeting John Lennon and Forming The Beatles",
+    "summary": "McCartney recounts meeting John Lennon at the Fenton Woolston (Wilton Fate) and how The Beatles learned American rock and roll, with informal music education through record shops and friends like Jeff Lynne of ELO.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3",
+    "start_seconds": 2020,
+    "end_seconds": 2120,
+    "score": 0.7,
+    "reason": "info=0.70 eng=0.70 penalty=0.00 Classic origin story with specific meeting details",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "John Lennon",
+      "Jeff Lynne",
+      "ELO",
+      "The Beatles",
+      "Meeting John Lennon",
+      "Forming The Beatles",
+      "McCartney",
+      "Fenton Woolston"
+    ],
+    "topics": [
+      "music collaboration",
+      "band formation",
+      "history",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "699831dcabc8fe1d",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

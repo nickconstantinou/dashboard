@@ -7,20 +7,6 @@ channel: Huberman Lab
 video_url: https://traffic.megaphone.fm/SCIM4757138073.mp3
 ---
 
-<p># Understanding & Controlling Aggression: A Neuroscience Deep-Dive
-
----
-
-## Key Insights
-
-- **The ventromedial hypothalamus (VMH) contains only ~3,000 neurons total (~1,500 per side)** that are sufficient to generate aggressive behavior—when researchers stimulated these neurons, male mice instantly stopped mating and attacked their partners, then immediately resumed mating when stimulation stopped.
-- **Aggression is a process, not an event**—neural circuits activate in sequence "like a song on a piano," meaning there are multiple intervention points where aggression can be halted before, during, or after initiation.
-- **"Aggression is just sadness" is pop psychology mythology**—peer-reviewed research shows grief/mourning and aggression use entirely non-overlapping neural circuits, though they can co-occur.
-- **Estrogen receptor-containing neurons in the VMH are specifically responsible** for aggression generation—researchers identified these cells using optogenetics (light-controlled neurons developed by Karl Deisseroth's lab) and could trigger attacks on inanimate objects like rubber gloves.
-- **The periaqueductal gray (PAG)** connects to the VMH and houses pain-relief neurons (endogenous opioids), likely to protect aggressors from self-injury during combat—these circuits also extend to jaw muscles, explaining aggressive biting behavior.
-
----
-
 ## Introduction
 
 Aggression is one of the most ubiquitous and consequential human behaviors—yet despite its everyday presence in our lives, from social media arguments to international conflicts, most of us understand it remarkably poorly. We tend to view aggression as a single, monolithic phenomenon: someone snaps, and violence follows. But according to neuroscientist Andrew Huberman, that framing is fundamentally wrong. In this Huberman Lab Essentials episode, Huberman—a professor of neurobiology and ophthalmology at Stanford School of Medicine—delivers a rigorous, science-based breakdown of what aggression actually is at the biological level, why it exists, and how it can be understood and controlled.

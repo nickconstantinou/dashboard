@@ -4,18 +4,9 @@ title: '#865: The Most Incredible Transformation I’ve Ever Seen — Jerzy Greg
 date: '2026-05-14'
 type: podcast
 category: Business/Self-help
-video_id: BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301
 channel: The Tim Ferriss Show
 video_url: https://rss.art19.com/episodes/5967ce51-dc02-48c5-a0b8-8e94d121365d.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301
 ---
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[45:40–48:40]</strong> <em>Tatian's Physical Training Breakthroughs</em> — Detailed account of Tatian's training journey beginning with inability to lift 15 pounds, progressing through 8 pounds, then body weight. Father initially held his hand while walking. Key milestones included walking independently, breaking records with jumping exercises, and earning printed diplomas when achieving new personal bests. The father drove twice weekly to support training.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">physical_training</span> <span class="signal-tag">motor_skills</span> <span class="signal-tag">breakthroughs</span> <span class="signal-tag">independence</span> <span class="signal-tag">strength training</span> <span class="signal-tag">bench press</span> <span class="signal-tag">adaptive coaching</span> <span class="signal-tag">cerebral palsy</span> <span class="signal-tag">physical therapy</span> <span class="signal-tag">progressive overload</span></p>
-</div>
 
 <p># Key Insights
 

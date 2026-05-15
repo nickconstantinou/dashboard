@@ -3,20 +3,9 @@ title: 'THIS WEEK IN AI: Google''s AI Laptop, Everyone Goes to China, Thinking M
 date: '2026-05-14'
 type: podcast
 category: AI/Tech
-video_id: f83ef9fb.mp3
 channel: 'Limitless: An AI Podcast'
 video_url: https://media.transistor.fm/672a41fe/f83ef9fb.mp3
 ---
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[17:50–19:10]</strong> <em>Thinking Machines Multimodal AI Model</em> — Thinking Machines (Mira Murati and Ilya Sutskever's new venture) built a 12 billion parameter model that processes audio, video, and text simultaneously with 200 millisecond micro turns. Unlike traditional models that operate like walkie talkies, it can listen while speaking. This represents a fundamental shift in AI interaction models.</li>
-<li><strong>[5:20–6:50]</strong> <em>Isomorphic Labs Spins Out with $2.1B for AI Drug Discovery</em> — Google DeepMind's biology division Isomorphic Labs has officially spun out as an independent entity raising $2.1B to apply AI to protein sequencing and drug discovery. The company uses AI models to predict protein function and design custom molecules that bind to proteins like keys into locks, potentially enabling cures for Alzheimer's, cancer, and other major diseases.</li>
-<li><strong>[9:30–10:00]</strong> <em>US-China AI Relations and Export Controls</em> — Trump administration tariff policies aim to pressure China on trade practices while establishing frameworks for bilateral AI safety discussions. China has mandated local AI labs use only domestic hardware, creating tension around semiconductor exports and GPU sales. Both Elon Musk and Jensen Huang have significant business interests in maintaining China relationships through Tesla and NVIDIA GPU sales.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">multimodal AI</span> <span class="signal-tag">interaction models</span> <span class="signal-tag">AI research</span> <span class="signal-tag">AI drug discovery</span> <span class="signal-tag">protein sequencing</span> <span class="signal-tag">healthcare AI</span> <span class="signal-tag">biotech</span> <span class="signal-tag">US-China relations</span> <span class="signal-tag">AI export controls</span> <span class="signal-tag">tariffs</span></p>
-</div>
 
 <p># Key Insights
 

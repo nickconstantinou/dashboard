@@ -3,21 +3,9 @@ title: 'Andrew Wilkinson: AI Agents run my business and life'
 date: '2026-05-14'
 type: podcast
 category: Business/Startups
-video_id: 01KQT1CED6D3RCSDC8WMMBY8YE.mp3
 channel: Startup Ideas Podcast
 video_url: https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3
 ---
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[33:49–35:16]</strong> <em>Personal AI Tools and Productivity Stack</em> — The guest shows his personal AI setup including a wearable camera device that records his entire day for G to ingest context. He built AI tools for inbox management that draft emails and create Instagram stories from tweets. He uses countdown timers tracking remaining summers with kids and days to live. Two OpenClaw agents run on a VPS with Ava as his personal assistant monitoring health metrics.</li>
-<li><strong>[27:29–31:38]</strong> <em>AI-Driven Business Portfolio at Tiny</em> — The guest runs Tiny empire with 24 businesses and uses AI to interface with portfolio companies and their data. He trained a vector database on his family office Folly Partners and built a CFO tool showing real estate holdings, stocks, balance sheets, and portfolio rebalancing analysis. AI agents handle administrative burden that made him forget he had no laptop while running his business from Ubers.</li>
-<li><strong>[22:30–23:31]</strong> <em>Financial Portfolio Tracking and Venture Investments</em> — The guest built a markdown system that aggregates all his financial data into G Brain, tracking $16M invested now worth $36M, analyzing quarterly performance, write-offs, and identifying potential issues before they become problems.</li>
-<li><strong>[31:38–33:49]</strong> <em>Software Business Economics and Opportunities</em> — The guest argues software is now free and a worse business than five years ago due to AI competition and vibe coding. He suggests the real opportunity is in services, using funeral homes as an example where 20 smart operators will build their own software. For a 20-year-old vibe coder, the goal should be making $1-2M with straightforward products like Deep Personality.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">personal productivity</span> <span class="signal-tag">AI tools</span> <span class="signal-tag">health monitoring</span> <span class="signal-tag">life optimization</span> <span class="signal-tag">business operations</span> <span class="signal-tag">portfolio management</span> <span class="signal-tag">family office</span> <span class="signal-tag">AI automation</span> <span class="signal-tag">finance</span> <span class="signal-tag">portfolio tracking</span></p>
-</div>
 
 <p># Key Insights
 

@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrew Wilkinson: AI Agents run my business and life | Nick's Blog</title>
+  <meta name="description" content="Startup Ideas Podcast — Business/Startups">
+  <meta property="og:title" content="Andrew Wilkinson: AI Agents run my business and life">
+  <meta property="og:description" content="Startup Ideas Podcast — Business/Startups">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,41 +70,34 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-14 • Business/Startups</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/01KQT1CED6D3RCSDC8WMMBY8YE.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[33:49–35:16]</strong> <em>Personal AI Tools and Productivity Stack</em> — The guest shows his personal AI setup including a wearable camera device that records his entire day for G to ingest context. He built AI tools for inbox management that draft emails and create Instagram stories from tweets. He uses countdown timers tracking remaining summers with kids and days to live. Two OpenClaw agents run on a VPS with Ava as his personal assistant monitoring health metrics.</li>
-<li><strong>[27:29–31:38]</strong> <em>AI-Driven Business Portfolio at Tiny</em> — The guest runs Tiny empire with 24 businesses and uses AI to interface with portfolio companies and their data. He trained a vector database on his family office Folly Partners and built a CFO tool showing real estate holdings, stocks, balance sheets, and portfolio rebalancing analysis. AI agents handle administrative burden that made him forget he had no laptop while running his business from Ubers.</li>
-<li><strong>[22:30–23:31]</strong> <em>Financial Portfolio Tracking and Venture Investments</em> — The guest built a markdown system that aggregates all his financial data into G Brain, tracking $16M invested now worth $36M, analyzing quarterly performance, write-offs, and identifying potential issues before they become problems.</li>
-<li><strong>[31:38–33:49]</strong> <em>Software Business Economics and Opportunities</em> — The guest argues software is now free and a worse business than five years ago due to AI competition and vibe coding. He suggests the real opportunity is in services, using funeral homes as an example where 20 smart operators will build their own software. For a 20-year-old vibe coder, the goal should be making $1-2M with straightforward products like Deep Personality.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">personal productivity</span> <span class="signal-tag">AI tools</span> <span class="signal-tag">health monitoring</span> <span class="signal-tag">life optimization</span> <span class="signal-tag">business operations</span> <span class="signal-tag">portfolio management</span> <span class="signal-tag">family office</span> <span class="signal-tag">AI automation</span> <span class="signal-tag">finance</span> <span class="signal-tag">portfolio tracking</span></p>
-</div></p>
-
-<p><p># Key Insights</p>
-
-<li><strong>Productivity split is currently unfavorable</strong>: Andrew estimates he's spending 50% of his time debugging AI agents, 30% improving them, and only 20% actually being productive—meaning the tools are still more burden than liberation for most users.</li>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-14 · Business/Startups</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Startup Ideas Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">Startup Ideas Podcast</div>
+            <h1>Andrew Wilkinson: AI Agents run my business and life</h1>
+            <p class="subtitle">In December 2025, Andrew Wilkinson experienced what he describes as an addictive breakthrough.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li><strong>Productivity split is currently unfavorable</strong>: Andrew estimates he's spending 50% of his time debugging AI agents, 30% improving them, and only 20% actually being productive—meaning the tools are still more burden than liberation for most users.</li>
 <li><strong>A support agent can now autonomously fix bugs and merge PRs</strong>: His Deep Personality app's support agent handles tickets, escalates P0 security issues directly to the dev agent for automatic fixing, and sends pre-written responses to customers with zero human intervention.</li>
 <li><strong>Marketing agents are managing real ad budgets</strong>: The marketing agent is hooked into PostHog for data, connected to Meta and Reddit ads accounts, handles multivariate testing, creates ad creative, and adjusts budgets—all from natural language instructions like "increase budget by $1,000."</li>
 <li><strong>"Vibe coding" enables solo product creation</strong>: Andrew bypassed his own agency (MetaLab) to build the entire Deep Personality app himself in "a few manic days," using Claude Code to generate the 100-page personality report system, psychological assessments, and JSON scoring infrastructure in roughly 40 minutes of setup.</li>
 <li><strong>Full autonomy is 3-6 months away for basic businesses</strong>: Andrew believes truly autonomous companies that require no human oversight are close but not here yet, noting current agents function like "genius babies" that need step-by-step instructions—comparing the current state to "Zapier Zaps that can make basic decisions."</li>
-
-<p>---</p>
 
 <h1>The Vibe Coding Revolution: How Andrew Wilkinson Runs His Entire Business with AI Agents</h1>
 
 <p>In December 2025, Andrew Wilkinson experienced what he describes as an addictive breakthrough. Unlike most people who dabbled with AI coding tools like Claude Code and Replit and found them interesting but insufficient, Wilkinson describes waking up at 3 or 4 in the morning, rolling out of bed with "a big smile on his face," and sitting in terminal with ten tabs open. He compares it to chasing a dragon—the legendary high that drug users perpetually try to recreate. The catalyst was a specific moment: traveling to Arizona for a conference, having forgotten his laptop, but realizing he'd set up an OpenClaw agent that could run his entire business from the back of Ubers. No one noticed that every single email was being written by AI. That competence, that seamlessness, became his obsession.</p>
 
 <p>What makes Wilkinson uniquely qualified to share this inside look is his position as both a serial entrepreneur and the founder of MetaLab, a significant design and development agency. He's seen how traditional software development works. He's also the type of person who buys and starts businesses as a hobby, accumulating the administrative burden that comes with SaaS companies—support tickets, accounting, and what he calls "very boring rote types of tasks." Instead of delegating this work to his agency or hiring teams, Wilkinson went all-in on building autonomous systems. This episode represents the first time he's sharing his exact setup publicly: the tools, the frustrations, the failures, and the jaw-dropping successes.</p>
-
-<p>---</p>
 
 <h1>Vibe Coding: Building a 100-Page Personality Report in Days</h1>
 
@@ -83,8 +108,6 @@
 <p>Instead of taking this to a development team or his own agency, Wilkinson decided to productize it himself. He calls this approach "vibe coding"—a term that captures the feeling of coding by intuition and mood rather than formal training. Using the Hollywood screenwriting analogy he employs, Wilkinson explains why this matters: brilliant screenwriters have incredible ideas, but between the script and the finished film stand 100 people, $50 million in financing, and countless middlemen. Every layer between vision and execution compromises creativity. Vibe coding removes those layers. You think it, you write it, you iterate with AI, and you ship it. No one misinterprets your vision. No one has gaps in their expertise that create friction between design and development.</p>
 
 <p>In a few manic days, Wilkinson built Deep Personality—an app where users complete a 40-minute personality assessment and receive a 100-page report written in the style of Robert Greene. The report covers archetypes (his is "the blazing architect"), superpowers, kryptonite, ideal career paths, relationship compatibility, ADHD indicators, OCD tendencies, attachment styles, and internal family systems analysis. The depth is extraordinary: a single AI-generated document that would take a human therapist hours to produce, delivered instantly.</p>
-
-<p>---</p>
 
 <h1>The Agent Architecture: Three Bots Running a SaaS Company</h1>
 
@@ -98,8 +121,6 @@
 
 <p><strong>The Dev Agent</strong> handles bug fixes, feature requests, and code maintenance. It monitors the codebase, responds to issues, and merges improvements—all while Wilkinson focuses his attention elsewhere.</p>
 
-<p>---</p>
-
 <h1>The Honest Reality: Debugging a Genius Baby</h1>
 
 <p>Wilkinson's enthusiasm is palpable, but he tempers it with remarkable candor about the current limitations. The 50/30/20 split—half debugging, 30% improving, 20% productive—reveals the actual cost of this autonomy. "It's like the classic productivity treadmill," he admits. The tools work, but they require constant babysitting, refinement of prompts, and debugging of edge cases that human employees would handle intuitively.</p>
@@ -108,8 +129,6 @@
 
 <p>On the question of fully autonomous companies—the kind Pulsia and similar services are now selling—Wilkinson is skeptical but not dismissive. "You cannot run a fully autonomous company right now," he states flatly. The companies selling that dream are "selling a dream." Support, marketing, and basic dev tasks? Yes. Product strategy, vision, and nuanced decision-making? Not yet. His timeline estimate of three to six months for basic autonomous businesses feels optimistic, but he's clearly watching the space closely.</p>
 
-<p>---</p>
-
 <h1>The Strategic Vision: Why Vibe Coding Beats Traditional Development</h1>
 
 <p>For entrepreneurs and business builders, Wilkinson's comparison between vibe coding and traditional agency work offers a framework worth examining. He doesn't dismiss the value of skilled teams—he runs one of the best-known agencies in tech. But for his own projects, the friction of collaboration outweighs the benefits.</p>
@@ -117,8 +136,6 @@
 <p>Consider the typical product team: a designer who excels at visual design but struggles with frontend implementation, a frontend developer who doesn't understand backend constraints, a copywriter who works in isolation from technical reality, and a product manager translating between visionaries and executors. Every handoff introduces interpretation error, delay, and misalignment. Vibe coding eliminates handoffs. Wilkinson designs, codes, writes, and ships. When he needs help, he prompts an AI. The vision flows directly to execution.</p>
 
 <p>The psychological dimension matters too. "The worst part about business is people," Wilkinson says, and he's not being cynical—he's being practical. Employees are unreliable, don't share your exact vision, require management overhead, and have bounded expertise. AI agents are always available, always aligned with their instructions (when properly prompted), and can handle multiple disciplines without friction. The tradeoff is upfront investment in learning to prompt effectively and debugging the occasional hallucination.</p>
-
-<p>---</p>
 
 <h1>Key Takeaways for Builders and Business Owners</h1>
 
@@ -132,22 +149,267 @@
 
 <p><strong>5. The $100k/month ad budget test will determine what's possible.</strong> Wilkinson's most exciting claim is the potential to give a marketing agent a massive budget and let it optimize autonomously. This is the real test: can an AI agent not just manage a $1,000/month test but run a serious growth budget with appropriate judgment? His belief that this will work within months represents a high-conviction bet that advertising—traditionally a human creative discipline—is ripe for automation.</p>
 
-<p>---</p>
-
 <h1>Who This Episode Is For</h1>
 
 <p>This content is essential viewing for <strong>founders, solo entrepreneurs, and small business operators</strong> who are curious about leveraging AI but haven't yet built autonomous systems into their operations. If you've experimented with ChatGPT and Claude but haven't felt the "chasing the dragon" moment Wilkinson describes—the moment where AI genuinely handles something competently without you watching—this episode will show you exactly what's possible with current tools and honest assessment of their limitations.</p>
 
 <p>Product managers and tech leads at companies considering AI integration will benefit from Wilkinson's candid breakdown of what works (support automation, ad management) versus what doesn't (complex product decisions, vision-setting). His framing of agents as "genius babies" versus autonomous CEOs offers a realistic mental model for what's achievable today versus what's aspirational.</p>
 
-<p>Finally, anyone interested in the trajectory of autonomous businesses—the promises being sold by Pulsia and similar services—should watch Wilkinson's skeptical but engaged analysis. He's not a Luddite dismissing the technology, nor is he a true believer ignoring the current messiness. He's a pragmatist who has built the infrastructure, shipped the product, and is running real revenue through AI systems. His honesty about the 50% debugging time is as valuable as his enthusiasm about the marketing agent's potential.</p></p>
-      
-    </article>
+<p>Finally, anyone interested in the trajectory of autonomous businesses—the promises being sold by Pulsia and similar services—should watch Wilkinson's skeptical but engaged analysis. He's not a Luddite dismissing the technology, nor is he a true believer ignoring the current messiness. He's a pragmatist who has built the infrastructure, shipped the product, and is running real revenue through AI systems. His honesty about the 50% debugging time is as valuable as his enthusiasm about the marketing agent's potential.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "374935d4fb608b90",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "Andrew Wilkinson: AI Agents run my business and life",
+    "segment_title": "The Future: AI CEOs and Context Limitations",
+    "summary": "The guest predicts Anthropic and OpenAI will launch CEO-style models with massive context windows. Currently, no fully autonomous company can operate without human oversight, though this is improving rapidly.",
+    "audio_url": "https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3",
+    "start_seconds": 1270,
+    "end_seconds": 1350,
+    "score": 0.69,
+    "reason": "info=0.80 eng=0.70 penalty=-0.07 Specific AI CEO predictions with clear forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Anthropic",
+      "OpenAI",
+      "AI CEOs",
+      "Context Limitations",
+      "CEO-style",
+      "Currently",
+      "Andrew Wilkinson",
+      "AI Agents"
+    ],
+    "topics": [
+      "ai future",
+      "ceo models",
+      "autonomy",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "4580193f764a4650",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 22:10:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "7f76c59165216880",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "Andrew Wilkinson: AI Agents run my business and life",
+    "segment_title": "Financial Portfolio Tracking and Venture Investments",
+    "summary": "The guest built a markdown system that aggregates all his financial data into G Brain, tracking $16M invested now worth $36M, analyzing quarterly performance, write-offs, and identifying potential issues before they become problems.",
+    "audio_url": "https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3",
+    "start_seconds": 1350,
+    "end_seconds": 1411,
+    "score": 0.76,
+    "reason": "info=0.85 eng=0.80 penalty=-0.07 Exact financial metrics ($16M\u2192$36M) with strong stakes",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "G Brain",
+      "Financial Portfolio Tracking",
+      "Venture Investments",
+      "Andrew Wilkinson",
+      "AI Agents",
+      "Startup Ideas Podcast"
+    ],
+    "topics": [
+      "finance",
+      "portfolio tracking",
+      "venture capital",
+      "business",
+      "technology",
+      "culture",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "4580193f764a4650",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 22:10:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "35013199e91f1489",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "Andrew Wilkinson: AI Agents run my business and life",
+    "segment_title": "AI-Driven Business Portfolio at Tiny",
+    "summary": "The guest runs Tiny empire with 24 businesses and uses AI to interface with portfolio companies and their data. He trained a vector database on his family office Folly Partners and built a CFO tool showing real estate holdings, stocks, balance sheets, and portfolio rebalancing analysis. AI agents handle administrative burden that made him forget he had no laptop while running his business from Ubers.",
+    "audio_url": "https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3",
+    "start_seconds": 1649,
+    "end_seconds": 1898,
+    "score": 0.81,
+    "reason": "info=0.85 eng=0.75 penalty=0.00 Highly specific portfolio metrics and tools, candid laptop moment",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Tiny",
+      "Folly Partners",
+      "Claude",
+      "AI-Driven Business Portfolio",
+      "CFO",
+      "Ubers.",
+      "Andrew Wilkinson",
+      "AI Agents"
+    ],
+    "topics": [
+      "business operations",
+      "portfolio management",
+      "family office",
+      "ai automation",
+      "history",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "4580193f764a4650",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 22:10:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "e397edef8417c9d2",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "Andrew Wilkinson: AI Agents run my business and life",
+    "segment_title": "Software Business Economics and Opportunities",
+    "summary": "The guest argues software is now free and a worse business than five years ago due to AI competition and vibe coding. He suggests the real opportunity is in services, using funeral homes as an example where 20 smart operators will build their own software. For a 20-year-old vibe coder, the goal should be making $1-2M with straightforward products like Deep Personality.",
+    "audio_url": "https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3",
+    "start_seconds": 1898,
+    "end_seconds": 2029,
+    "score": 0.76,
+    "reason": "info=0.80 eng=0.70 penalty=0.00 Clear economic thesis with $1-2M target and funeral home example",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Adobe",
+      "Software Business Economics",
+      "Opportunities",
+      "Deep Personality.",
+      "Andrew Wilkinson",
+      "AI Agents",
+      "Startup Ideas Podcast"
+    ],
+    "topics": [
+      "software economics",
+      "startup opportunities",
+      "vibe coding",
+      "services",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "4580193f764a4650",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 22:10:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "dd14e073c01e0e2e",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "Andrew Wilkinson: AI Agents run my business and life",
+    "segment_title": "Personal AI Tools and Productivity Stack",
+    "summary": "The guest shows his personal AI setup including a wearable camera device that records his entire day for G to ingest context. He built AI tools for inbox management that draft emails and create Instagram stories from tweets. He uses countdown timers tracking remaining summers with kids and days to live. Two OpenClaw agents run on a VPS with Ava as his personal assistant monitoring health metrics.",
+    "audio_url": "https://episode.flightcast.com/01KQT1CED6D3RCSDC8WMMBY8YE.mp3",
+    "start_seconds": 2029,
+    "end_seconds": 2116,
+    "score": 0.83,
+    "reason": "info=0.85 eng=0.80 penalty=0.00 Highly specific AI stack with wearable device and countdown timers",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "G",
+      "Tweet Shot",
+      "Ava",
+      "OpenClaw",
+      "Personal AI Tools",
+      "Productivity Stack",
+      "Instagram",
+      "Two OpenClaw"
+    ],
+    "topics": [
+      "personal productivity",
+      "ai tools",
+      "health monitoring",
+      "life optimization",
+      "health",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "4580193f764a4650",
+      "feed_url": "",
+      "published_at": "Thu, 14 May 2026 22:10:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

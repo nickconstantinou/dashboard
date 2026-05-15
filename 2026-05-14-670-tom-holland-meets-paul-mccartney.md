@@ -3,31 +3,8 @@ title: 670. Tom Holland Meets Paul McCartney
 date: '2026-05-14'
 type: podcast
 category: History
-video_id: GLT5781731754.mp3
 channel: The Rest Is History
 video_url: https://pdst.fm/e/traffic.megaphone.fm/GLT5781731754.mp3
----
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[19:20–22:00]</strong> <em>Learning Music Before the Beatles</em> — Paul describes how difficult it was to access music in post-war Liverpool, with rock and roll records being rare and passed between friends. He explains that none of the Beatles learned to read or write music - knowledge transferred directly from person to person, similar to Irish music traditions. This grassroots education created an 'in crowd' who knew the chords.</li>
-<li><strong>[30:00–31:40]</strong> <em>Paul McCartney's Mother as Community Midwife</em> — McCartney shares memories of his mother who worked as a community midwife, delivering babies across different social classes and biking through heavy snow to reach patients, demonstrating her dedication to her children's success.</li>
-<li><strong>[33:40–35:20]</strong> <em>Meeting John Lennon and Forming The Beatles</em> — McCartney recounts meeting John Lennon at the Fenton Woolston (Wilton Fate) and how The Beatles learned American rock and roll, with informal music education through record shops and friends like Jeff Lynne of ELO.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">music education</span> <span class="signal-tag">rock and roll</span> <span class="signal-tag">Liverpool music scene</span> <span class="signal-tag">Beatles origins</span> <span class="signal-tag">family history</span> <span class="signal-tag">healthcare</span> <span class="signal-tag">music collaboration</span> <span class="signal-tag">band formation</span> <span class="signal-tag">songwriting</span> <span class="signal-tag">literary influences</span></p>
-</div>
-
-<p># 670. Tom Holland Meets Paul McCartney
-
-## Key Insights
-
-- **Paul McCartney describes Liverpool's identity as distinct from England itself**, rooted in Irish heritage and its history as a major port city second only to London in wealth, which created a "special" self-perception among residents that shaped The Beatles' confidence and irreverence.
-- **The informal transmission of rock and roll knowledge in pre-internet Liverpool** worked through a network of sailors returning from America with rare records, creating "self-selecting groups" of musicians who built chord vocabularies by borrowing and copying from one another—never reading or writing formal sheet music.
-- **McCartney's mother Mary earned housing upgrades as a community midwife**, moving the family progressively to better houses (including one with an indoor toilet on "Milton Road") by serving both wealthy and impoverished families across Liverpool's neighborhoods.
-- **The Beatles escaped national service by approximately one year**, which McCartney describes as a providential moment: "as if god opened the waters and the Israelites could just go through"—allowing them to pursue music during the early 1960s instead of military service.
-- **The Beatles' songwriting process was entirely oral and communal**: band members would gather at 10 AM, Lennon and McCartney would play a new song on two acoustics, Harrison would immediately absorb it visually, Ringo would tap out a rhythm, and they'd be recording within twenty minutes—"mind to mind" transmission with no paper involved.
-
 ---
 
 ## Introduction
