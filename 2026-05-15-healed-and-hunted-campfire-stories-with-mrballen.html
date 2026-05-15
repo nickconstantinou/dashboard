@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healed and Hunted | Campfire Stories with MrBallen | Nick's Blog</title>
+  <meta name="description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:title" content="Healed and Hunted | Campfire Stories with MrBallen">
+  <meta property="og:description" content="MrBallen Podcast — Mystery/Suspense">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-15 · Mystery/Suspense</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="MrBallen Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">MrBallen Podcast</div>
+            <h1>Healed and Hunted | Campfire Stories with MrBallen</h1>
+            <p class="subtitle">On the afternoon of October 25, 1974, a 41-year-old Wyoming man named Carl Higdon set out for what should have been a routine elk hunting expedition in the remote reaches of Medici…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>A True Account of Memory Loss, Metallic Anomalies, and Close Encounter</h2>
+
+<h2>0. Key Insights</h2>
+
+<li><strong>[Throughout]</strong> Carl Higdon, a 41-year-old oil rig worker, was elk hunting in Medicine Bow National Forest, Wyoming when he experienced what he later described as time distortion—watching his rifle bullet travel in slow motion before it struck an invisible barrier and flipped inside out, falling to the ground as he simultaneously lost consciousness</li>
+
+<li><strong>[Throughout]</strong> When deputies found Carl eight hours later, his work truck was discovered three miles from the main road, submerged in a muddy bog with no tire tracks leading to or from it—suggesting the vehicle had been placed there by unknown means</li>
+
+<li><strong>[Throughout]</strong> His wife Marjorie discovered a flattened metal disc in his jacket pocket while doing laundry that bore a striking resemblance to what Carl later described under hypnosis: a bullet that had "flipped inside out" and flattened upon hitting an invisible force field</li>
+
+<li><strong>[Throughout]</strong> After two days of persistent amnesia and disorientation, Carl recovered a fragmentary memory explaining that an extraterrestrial being named "Ozo-1" had appeared over him, claiming to come from a planet 163,000 light years away and offering Carl four healing pills</li>
+
+<li><strong>[Throughout]</strong> Dr. Leo Sprinkle, a psychology professor at the University of Wisconsin, conducted hypnotic regression sessions with Carl and Marjorie present, during which Carl spoke fluently with eyes closed and recounted the encounter in vivid, specific detail—despite being unable to access these memories while conscious</li>
+
+<h2>1. Introduction</h2>
+
+<p>On the afternoon of October 25, 1974, a 41-year-old Wyoming man named Carl Higdon set out for what should have been a routine elk hunting expedition in the remote reaches of Medicine Bow National Forest. He never returned home that night—and when authorities finally located him, they found him unconscious in his company work truck, parked impossibly in a muddy bog with no tire tracks leading to or from the vehicle. More disturbing still, Higdon had no memory of the preceding eight hours, couldn't recognize his own wife, and showed signs of profound amnesia with no discernible medical cause.</p>
+
+<p>What unfolded over the following days became one of the most extensively documented—and genuinely unexplained—alien abduction cases in American history. Carl Higdon's story stands apart from thousands of similar accounts precisely because it left behind physical evidence: a strange metallic disc found in his jacket pocket that appeared to have been flattened from within. It spawned a university-backed hypnosis investigation, attracted serious attention from researchers studying anomalous experiences, and sparked a decades-long debate about the nature of repressed memory, alien contact, and the boundaries of human perception.</p>
+
+<p>MrBallen presents this case as a masterclass in文体 storytelling, walking listeners through the eerie sequence of events while highlighting the specific details that make Carl Higdon's experience so difficult to easily dismiss. The story matters not because it proves extraterrestrial contact occurred, but because it raises profound questions about what we don't understand about human consciousness, memory, and the strange gaps in our experience that science cannot yet explain.</p>
+
+<h2>2. Key Concepts & Arguments</h2>
+
+<h3>The Hunting Trip and the Canyon</h3>
+
+<p>Carl Higdon had taken the afternoon off from his oil rig job specifically to pursue elk in McMarty Canyon, a specific area within Medicine Bow National Forest that he had heard was particularly promising for hunting. The drive from work took him through the vast wilderness preserve in southern Wyoming, past evergreen forests and distant snow-capped mountains. Higdon was described as a rugged outdoorsman who found profound peace in spending time alone in nature, and for a while he simply enjoyed the drive, experiencing what MrBallen describes as "a total sense of calm."</p>
+
+<p>The transition from paved road to rough, rocky trail prompted Carl to abandon the company truck and continue on foot, a decision that would prove significant given the unexplained condition in which authorities later found the vehicle. The hike was predominantly uphill, and Carl—who had contracted tuberculosis in his youth—found himself struggling to breathe due to the scar tissue left in his lungs. He stopped every few minutes to catch his breath, pushing through the physical limitations that would make the expedition more arduous than anticipated.</p>
+
+<p>When Carl finally reached McMarty Canyon, he found himself standing in what he perceived as a natural bowl in the earth—a mostly flat expanse dotted with shrubs, grass, and scattered trees, surrounded by tall hills that created the impression of a stadium or amphitheater. His luck seemed immediate: directly across the canyon, he spotted five elk grazing in the distance. This was the opportunity he had traveled for, and he began stalking toward them with care, moving quietly through the rocky terrain.</p>
+
+<h3>The Impossible Bullet and the Fall</h3>
+
+<p>When Carl reached shooting range, he raised his rifle and sighted the first elk. He pulled the trigger. Nothing happened. There was no sound, no kickback, no indication that the weapon had fired at all. This was the first anomaly, but it was merely the beginning.</p>
+
+<p>Carl later described under hypnosis what happened next—and Marjorie initially assumed her husband had fabricated this specific memory to fill in the gaps left by his amnesia. He claimed that the gun had indeed fired, but that reality itself had seemed to slow down around him. He could literally see the bullet leaving the barrel in extreme slow motion, the metal projectile crawling across the canyon as he watched in something approaching frozen time.</p>
+
+<p>The bullet struck an invisible barrier of some kind. And then—in the most extraordinary detail of the entire account—the bullet did not ricochet or shatter. Instead, it appeared to flip inside out, turning itself inside backward on impact, flattening like a crushed aluminum can, and falling to the ground. Simultaneously, Carl felt himself falling at what seemed like the same accelerated rate, and then he lost consciousness entirely. The synchronicity between the bullet's fate and his own collapse was not lost on him, even through the fog of fragmented memory.</p>
+
+<h3>The Discovery and the Disappearance of Time</h3>
+
+<p>When two deputies from the sheriff's department arrived at McMarty Canyon in response to a worried call from Marjorie, they found Carl unconscious behind the wheel of his work truck—but the vehicle was not where he had abandoned it. The truck had somehow traveled three miles from the main road and was now submerged up to its axles in a muddy bog. More puzzling still, there were no tire tracks connecting the truck to any road, path, or approach route. The deputies would later describe it as if the truck had simply been dropped into that location with Carl inside, an observation that unsettled them but which they had no framework to explain.</p>
+
+<p>The deputies shook Carl awake, but he was profoundly disoriented. His speech was garbled, his responses nonsensical. They loaded him into their vehicle and transport began toward what they mentioned was a hospital, and at some point during this transport, Carl blacked out again.</p>
+
+<p>Approximately eight hours had elapsed since Carl had first pulled off the road to begin his hike. The timeline from roughly 3:30 PM on October 25th to discovering him in the truck and eventually getting him to Carbon County Memorial Hospital in Rawlins, Wyoming represented what MrBallen frames as the central mystery: What had happened to Carl Higdon during those missing hours?</p>
+
+<h3>Hospital Observations and the Memory Vacuum</h3>
+
+<p>When Marjorie Higdon rushed into her husband's hospital room around midnight on October 26th, she found Carl hooked to an IV with monitors tracking his vital signs, his eyes open but clearly unfocused. When the nurse pointed to Marjorie and asked Carl if he knew who she was, he turned, looked at his wife of many years, and shook his head. He did not recognize her. The amnesia was profound and comprehensive.</p>
+
+<p>Medical staff had already run x-rays, brain scans, and various diagnostic tests. They found no evidence of head trauma, stroke, or any neurological condition that would explain his condition. Carl was physically healthy beyond the fact of his unconscious appearance and memory loss. The attending physician explained to Marjorie that because nothing was technically wrong with him physically, they didn't know how to treat him—the staff was essentially flying blind without a medical diagnosis to guide intervention.</p>
+
+<p>When Carl suddenly began frantically looking around the hospital room asking "Where are my pills?"—a question Marjorie could not parse—she reached out to take his hand. He yanked it away and stared at her like she was a complete stranger. The amnesia was not merely a fog over recent memories; it had created a fundamental rupture in his recognition of familiar people and his own life circumstances.</p>
+
+<p>After two days in the hospital, Carl had recovered some basic memories—he knew his own name again and recognized Marjorie as his wife—but could recall nothing of the hunting trip. With no signs of physical injury and unable to justify continued observation, the hospital discharged him with the essentially useless advice that familiar surroundings might help him recover his remaining memories naturally.</p>
+
+<h2>3. Detailed Takeaways</h2>
+
+<h3>The Physical Evidence Problem</h3>
+
+<p>Perhaps the most compelling aspect of Carl Higdon's case is not the extraordinary story he eventually told under hypnosis, but the mundane physical anomaly discovered by his wife. When Marjorie was doing laundry and checking the pockets of Carl's jacket from the day of the incident, she found a small metallic disc—flattened, round, and clearly unusual. She had no initial explanation for what it was or how it had gotten there.</p>
+
+<p>But once she heard Carl's story about watching his bullet flip inside out and flatten upon hitting an invisible wall, she couldn't ignore the resemblance. The disc in her hand looked remarkably like a bullet that had been deformed by extraordinary force from within, as if the internal energy of the impact had caused it to turn itself inside out in exactly the way her husband described.</p>
+
+<p>This physical evidence transforms the case from pure testimony to something with a tangible artifact that could, in principle, be analyzed and explained through conventional physics—or that might resist such explanation entirely. MrBallen presents this detail with evident appreciation for how it elevates the case above the thousands of unverifiable encounter stories that populate UFO and abduction literature.</p>
+
+<h3>The Hypnosis Session and Dr. Leo Sprinkle</h3>
+
+<p>Carl and Marjorie's decision to seek help from Dr. Leo Sprinkle at the University of Wisconsin reflected both their determination to understand what had happened and their belief that Carl possessed repressed memories of the experience. Dr. Sprinkle was not an average psychologist: he was a known advocate of hypnotic regression as a tool for accessing memories that conscious recall could not reach, and he had become something of a destination for people who believed they had experienced unexplained contact events.</p>
+
+<p>The session MrBallen describes demonstrates the unusual nature of Carl's experience under hypnosis. When told to relax, focus on breathing, and then lift his head, Carl's eyes remained closed—but he began speaking with unusual fluency, recounting details that he had been entirely unable to access while conscious. This contrast between blocked conscious memory and fluid hypnotic recall is itself a phenomenon that researchers have noted in abduction cases and other trauma-related memory disturbances.</p>
+
+<p>Under hypnosis, Carl described being approached by the being while still lying on the canyon grass. The entity he described was tall, dark, wearing what looked like a tight-fitting bodysuit similar to a wetsuit. Its skin was distinctly yellowish, its eyes very small, and it had no visible ears or lips. Most distinctive were the two antennae protruding from its forehead. One arm extended into a flat stump, while the other had what Carl described as a prosthetic attachment resembling a power drill at the end.</p>
+
+<p>The being spoke to him in perfect English, asking "How are you?"—and when Carl gave an absent, reflexively polite response ("Oh, pretty good, pretty good"), the entity seemed satisfied with this answer. It identified itself as Ozo-1 and claimed to come from a planet 163,000 light years away. Most significantly, it stated that it meant Carl no harm and actually wanted to help him—framing the encounter in terms of benevolence rather than threat.</p>
+
+<h3>The Healing Pills and Their Significance</h3>
+
+<p>Before the transcript cuts off, Carl had described Ozo-1 reaching into what appeared to be a pocket on its bodysuit and producing a small packet containing four pills. The being explained that these pills would heal Carl—specifically, given Carl's known history of tuberculosis and the resulting scar tissue in his lungs that had made the hike so difficult, this was framed as a literal healing rather than a metaphorical one.</p>
+
+<p>Carl described taking one of the pills and swallowing it immediately, without hesitation or rational deliberation. He later told Marjorie about this under hypnosis, explaining that he had no idea why he had complied so readily—his conscious mind could not account for the trust that led him to ingest a substance offered by a being that defied every expectation of reality. This detail opens fascinating questions about altered states, suggestibility during trauma, and the nature of the decision-making process during extraordinary experiences.</p>
+
+<h2>4. Who This Is For</h2>
+
+<p>This story is essential listening for anyone interested in the genuine mysteries that persist at the edges of our scientific understanding. MrBallen has built his platform on presenting strange, dark, and unexplained phenomena with respect for the subject matter and attention to specific detail—and this case exemplifies that approach. It is particularly valuable for listeners who approach the question of alien contact with intellectual curiosity rather than predetermined conclusions, because the Higdon case offers something genuinely rare: a documented, physically evidenced encounter that resists easy dismissal while also resisting easy confirmation.</p>
+
+<p>For those studying topics like repressed memory, trauma response, and the psychology of perception, the case offers a compelling real-world example of the strange ways human consciousness can respond to experiences it cannot process normally. For UFO researchers and enthusiasts, it represents one of the better-documented close encounter accounts from the 1970s, predating the modern era of smartphone documentation and carrying the dusty credibility of deputies' reports, hospital records, and university research involvement.</p>
+
+<p>But perhaps most importantly, MrBallen's presentation reminds us that extraordinary stories deserve to be told with care, that the people who experience them are often as bewildered and frightened as we might be, and that the boundary between the explainable and the inexplicable is far more porous than our ordinary lives might suggest. Carl Higdon went hunting for elk on a clear autumn afternoon. He came home with a missing eight hours, a head full of unrecognizable memories, and a flattened disc in his pocket that he couldn't explain. Some stories don't resolve neatly—and that incompleteness, that openness to mystery, is exactly what makes them worth telling.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "c2cb7f0b942eeba4",
+    "source_name": "MrBallen Podcast",
+    "episode_title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "segment_title": "Discovery and Hospitalization of Carl",
+    "summary": "Carl wakes disoriented in his truck three miles from where he left it, parked in a muddy bog with no tire tracks, doesn't recognize his wife Marjorie, and is taken to Carbon County Memorial Hospital where doctors find no physical explanation for his amnesia.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ",
+    "start_seconds": 235,
+    "end_seconds": 441,
+    "score": 0.82,
+    "reason": "info=0.80 eng=0.85 penalty=0.00 High-density anomalies, doesn't recognize wife",
+    "timing_quality": "estimated",
+    "subject_id": "mystery_suspense",
+    "subject": "mystery_suspense",
+    "entities": [
+      "Carl Higdon",
+      "Marjorie",
+      "Carbon County Memorial Hospital",
+      "Rawlins Wyoming",
+      "Sheriff's department",
+      "Discovery",
+      "Hospitalization",
+      "Carl"
+    ],
+    "topics": [
+      "amnesia",
+      "hospitalization",
+      "mysterious truck location",
+      "medical observation",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "7c0c6383b449c37e",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 07:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "8a6ba10231ebaa0c",
+    "source_name": "MrBallen Podcast",
+    "episode_title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "segment_title": "Carl's Slow-Motion Bullet Memory",
+    "summary": "Carl recalls a strange phenomenon where his rifle fired but produced no sound or kickback. He describes watching the bullet leave his rifle in slow motion, strike an invisible wall, flip inside out, and flatten before he fell unconscious.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ",
+    "start_seconds": 600,
+    "end_seconds": 666,
+    "score": 0.81,
+    "reason": "info=0.75 eng=0.90 penalty=0.00 Bizarre specific phenomenon, high curiosity pull",
+    "timing_quality": "estimated",
+    "subject_id": "mystery_suspense",
+    "subject": "mystery_suspense",
+    "entities": [
+      "Carl",
+      "Marjorie",
+      "Carl's Slow-Motion Bullet Memory",
+      "Healed",
+      "Hunted",
+      "Campfire Stories",
+      "MrBallen",
+      "MrBallen Podcast"
+    ],
+    "topics": [
+      "bullet phenomenon",
+      "slow motion memory",
+      "paranormal event",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "7c0c6383b449c37e",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 07:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "45de4b2837c71ba1",
+    "source_name": "MrBallen Podcast",
+    "episode_title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "segment_title": "Entering the Tower and Body Scan",
+    "summary": "Ozo-1 leads Carl, the humanoids, and the elk into the tower via an elevator that ascends to a room with metal walls. A high-tech scanning device emerges from the walls and thoroughly scans Carl's entire body from head to toe, performing the same process on the elk.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ",
+    "start_seconds": 1093,
+    "end_seconds": 1156,
+    "score": 0.72,
+    "reason": "info=0.70 eng=0.75 penalty=0.00 High-tech detail adds utility density; scanning creates forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "mystery_suspense",
+    "subject": "mystery_suspense",
+    "entities": [
+      "Carl",
+      "Ozo-1",
+      "Entering",
+      "Tower",
+      "Body Scan",
+      "Carl's",
+      "Healed",
+      "Hunted"
+    ],
+    "topics": [
+      "alien technology",
+      "scanning device",
+      "tower interior",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "7c0c6383b449c37e",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 07:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "50b888aaa8dcf99d",
+    "source_name": "MrBallen Podcast",
+    "episode_title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "segment_title": "Rejected and Returned to Earth",
+    "summary": "After the scan, Ozo-1 informs Carl that the elk were what they needed but Carl himself was not. Carl is then instantaneously transported back into his work truck, where he awakens being shaken by sheriff's deputies who found him unconscious.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ",
+    "start_seconds": 1159,
+    "end_seconds": 1176,
+    "score": 0.68,
+    "reason": "info=0.60 eng=0.80 penalty=0.00 Candid pivot with rejection revelation; resolution creates tension",
+    "timing_quality": "estimated",
+    "subject_id": "mystery_suspense",
+    "subject": "mystery_suspense",
+    "entities": [
+      "Carl",
+      "Ozo-1",
+      "Rejected",
+      "Returned",
+      "Earth",
+      "After",
+      "Healed",
+      "Hunted"
+    ],
+    "topics": [
+      "rejection",
+      "instantaneous transport",
+      "return to earth",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "7c0c6383b449c37e",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 07:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "c4e11bcbfb59a79d",
+    "source_name": "MrBallen Podcast",
+    "episode_title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "segment_title": "Unexplained Evidence Corroborating the Story",
+    "summary": "Carl's hypnosis account explains three inexplicable facts: his truck mysteriously appeared three miles from where he parked it in a muddy bog with no tire tracks, the bullet found in his jacket was flattened and turned inside out with no earthly explanation, and hospital x-rays revealed his decades-old tuberculosis scar tissue had completely vanished.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/814143cd-09c6-426f-920a-7be9b3dc1506/episodes/bff0ab38-c58c-4b26-adb8-5d8550e8ef21/audio/128/default.mp3?aid=rss_feed&awCollectionId=814143cd-09c6-426f-920a-7be9b3dc1506&awEpisodeId=bff0ab38-c58c-4b26-adb8-5d8550e8ef21&feed=dloY8UYJ",
+    "start_seconds": 1205,
+    "end_seconds": 1308,
+    "score": 0.72,
+    "reason": "info=0.75 eng=0.85 penalty=-0.07 Three unexplained corroborating facts create strong narrative stakes",
+    "timing_quality": "estimated",
+    "subject_id": "mystery_suspense",
+    "subject": "mystery_suspense",
+    "entities": [
+      "Carl",
+      "Marjorie",
+      "Dr. Sprinkle",
+      "Unexplained Evidence Corroborating",
+      "Story",
+      "Carl's",
+      "Healed",
+      "Hunted"
+    ],
+    "topics": [
+      "unexplained phenomena",
+      "credibility analysis",
+      "medical mystery",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "7c0c6383b449c37e",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 07:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

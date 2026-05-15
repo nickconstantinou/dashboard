@@ -1,6 +1,17 @@
 var posts = [
   {
     "date": "May 15, 2026",
+    "title": "Healed and Hunted | Campfire Stories with MrBallen",
+    "url": "2026-05-15-healed-and-hunted-campfire-stories-with-mrballen.html",
+    "category": "Mystery/Suspense",
+    "excerpt": "## A True Account of Memory Loss, Metallic Anomalies, and Close Encounter --- ## 0. Key Insights - **[Throughout]** Carl Higdon, a 41-year-old oil rig worker, was elk hunting in Medicine Bow National ",
+    "tags": [
+      "Mystery/Suspense"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 15, 2026",
     "title": "Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?",
     "url": "2026-05-15-most-replayed-moment-the-link-between-weight-gain-.html",
     "category": "Business/Interview",
