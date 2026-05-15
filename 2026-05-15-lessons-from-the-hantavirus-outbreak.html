@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons From the Hantavirus Outbreak | Nick's Blog</title>
+  <meta name="description" content="The Daily — News">
+  <meta property="og:title" content="Lessons From the Hantavirus Outbreak">
+  <meta property="og:description" content="The Daily — News">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-15 · News</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Daily">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Daily</div>
+            <h1>Lessons From the Hantavirus Outbreak</h1>
+            <p class="subtitle">In May 2025, New York Times reporter Michael Bobarro found himself confined to a hospital room at the National Quarantine Unit in Omaha, Nebraska, not as a patient but as someone w…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
+
+<p>In May 2025, New York Times reporter Michael Bobarro found himself confined to a hospital room at the National Quarantine Unit in Omaha, Nebraska, not as a patient but as someone who had been exposed to a virus most Americans had never heard of. He had spent weeks aboard an Antarctic expedition cruise ship that had become the epicenter of a hantavirus outbreak—a disease with a fatality rate that made even public health experts take notice.</p>
+
+<p>The ship, designed for polar expeditions and departing from Ushuaia, Argentina—the southernmost city in the world, colloquially known as "the end of the world"—had set sail with passengers interested in bird watching and observing wildlife in some of Earth's most remote regions. What began as a journey to witness the natural world ended up becoming a case study in how a little-understood virus can emerge, spread through a contained population, and spark global anxiety in a world still traumatized by the COVID-19 pandemic.</p>
+
+<p>This episode of The Daily, hosted by Apoorva Mandavilli, traces the arc of that outbreak from its mysterious beginning in South America to its containment on a cruise ship in the Atlantic, examining what it revealed about the Andes virus, the challenges of public health communication, and the delicate balance between informing the public and inciting panic.</p>
+
+<h2>The Origins: How the Virus Entered the Ship</h2>
+
+<p>The story begins with a Dutch couple who had spent time bird watching across Argentina, Chile, and Uruguay before boarding the cruise ship. Public health investigators believe this couple—particularly the husband, and possibly both—became infected with Andes virus, a species of hantavirus found exclusively in Argentina, through contact with the long-tailed pygmy rat. This specific rodent species is the primary carrier of Andes virus in that region, distinct from common house mice that people might encounter anywhere.</p>
+
+<p>The exact mechanism of transmission remains uncertain, but researchers theorize the couple likely came into contact with rodent droppings or urine—perhaps by touching an object contaminated with these materials and then transferring the virus to their mouths. What's critical to understand is that this wasn't a rat scurrying across a ship's deck; the infection almost certainly occurred during their land-based travels before they ever set foot on the vessel.</p>
+
+<p>According to the World Health Organization's working theory, this Dutch couple served as the index cases, bringing the virus aboard with them. Within ten days of departing from Ushuaia, the husband began feeling ill. By April 11th, he was dead.</p>
+
+<h2>The Cruise Ship Ordeal: Death, Denial, and Growing Alarm</h2>
+
+<p>The death of the 70-year-old Dutch man might have gone unremarked under different circumstances. Cruise ships are not unfamiliar with passengers dying of natural causes—heart attacks, strokes, and the various ailments that claim elderly travelers occur with some regularity. The ship's crew announced his death to passengers, but there was no panic. Passengers continued their expedition, knowing they were in the middle of the ocean with no land nearby. The body remained in the ship's morgue.</p>
+
+<p>On April 24th, the vessel reached St. Helena, a remote island in the South Atlantic, where the body was finally removed. The man's wife also disembarked there, along with approximately 30 other passengers. She flew to Johannesburg, South Africa, intending to continue onward to Amsterdam. But she never made that flight. She became so ill en route that she was removed from the plane and hospitalized in Johannesburg, where she subsequently died.</p>
+
+<p>Word of her death reached the ship. A second death. Still, according to passengers who have since shared their experiences, the mood did not shift dramatically. A third passenger required medical evacuation on April 27th. People wondered if this might be COVID, or perhaps influenza. When you hear hoofbeats, you think horses, not zebras—and no one was thinking zebra.</p>
+
+<p>The critical turning point came on April 28th, when an 80-year-old German woman died. She had not had extensive contact with the Dutch couple, as far as anyone could determine. Now the ship was facing three deaths. The doctor who had been treating the sick passengers also fell ill. Other patients showed symptoms. The zebra had been spotted.</p>
+
+<p>On May 2nd, testing confirmed what many had begun to suspect: this was a hantavirus, specifically the Andes species, capable of human-to-human transmission.</p>
+
+<h2>Understanding the Virus: What Makes Andes Hantantavirus So Dangerous</h2>
+
+<p>The Andes virus causes a severe respiratory illness that begins with symptoms easily mistaken for influenza—fever, muscle aches, fatigue. But the disease progresses to something far more dangerous. Patients' lungs fill with fluid, causing pneumonia that can prove fatal. Perhaps most insidiously, the virus can send the immune system into overdrive, and this hyperinflammatory response is sometimes what actually kills the patient in the end.</p>
+
+<p>Currently, there are no treatments for hantavirus pulmonary syndrome, as the disease is known. Medical care can only be supportive—oxygen, fluids, monitoring—while the body either fights off the infection or doesn't. The fatality rate, according to available data, is alarmingly high, somewhere in the range of 30-40% among those who develop symptoms.</p>
+
+<p>What's particularly notable about the Andes virus, compared to other hantaviruses, is its ability to spread from person to person. Most hantavirus species are transmitted exclusively from rodents to humans; human-to-human spread is exceedingly rare. But Andes hantavirus is different. While such transmission still appears to require specific circumstances, documented cases of person-to-person infection have occurred—and the cruise ship outbreak would add more evidence to this unsettling capability.</p>
+
+<p>The incubation period adds another layer of complexity. For Andes virus, symptoms can take up to six weeks to appear after exposure. This means passengers who left the ship could potentially develop illness weeks after believing they were safe—a prospect that drove the decision to quarantine exposed individuals for extended periods.</p>
+
+<h2>The Communication Crisis: When Public Health Got It Wrong</h2>
+
+<p>Once the World Health Organization confirmed the presence of Andes hantavirus on the ship, international health officials faced a familiar challenge: how to inform the public about a potentially dangerous outbreak without triggering the panic and trauma that COVID-19 had etched into global consciousness.</p>
+
+<p>From the beginning, the official messaging emphasized reassurance. This was not the next pandemic. The risk to the general public was extremely low. The outbreak was contained on a ship. Health officials spoke of needing "close, sustained contact" for transmission to occur. The message was calibrated for a world with pandemic PTSD.</p>
+
+<p>But according to Mandavilli, who spent weeks reading the research and consulting with medical experts, the official communications glossed over important nuances—and in some cases, contained outright errors.</p>
+
+<p>Consider the case of Dr. Jay Patacharya, acting director of the CDC, who finally spoke publicly on the matter on May 9th, several days after the outbreak had already become major news and despite Americans being among those quarantined on the ship. He appeared on both Fox News and CNN with a reassuring message: this only spreads with close contact, you need to be near someone with many symptoms, the eight people infected were primarily roommates and a doctor caring for them.</p>
+
+<p>The problem, Mandavilli noted, is that this information was not accurate. Roommates were infected—but so were others who had far more casual contact. And the affected passengers were not in their 80s as Patacharya stated.</p>
+
+<p>More significantly, the repeated assertion that Andes virus requires "close, sustained contact" to spread may be misleading. The best-characterized outbreak of this virus occurred in Argentina in 2018, and it tells a more complicated story.</p>
+
+<h2>The 2018 Argentina Outbreak: Evidence That Challenges Official Narratives</h2>
+
+<p>In that outbreak, 34 people became sick and 11 died. The index patient—a man who had contracted the virus from rodents—attended a birthday party while feeling unwell. At that party, he infected five people. But the nature of that transmission is instructive.</p>
+
+<p>One person at the birthday party became infected simply by passing him and saying hello—a fleeting encounter, not sustained contact. Others were infected while sitting at tables near the infected individual, not in direct, prolonged proximity. This casual transmission occurred despite what researchers later documented.</p>
+
+<p>Meanwhile, 84 healthcare workers who treated hantavirus patients during that same outbreak, many of whom did not wear appropriate personal protective equipment, never contracted the disease. This stark contrast suggests that transmission requires specific, still-not-fully-understood circumstances—but that those circumstances are not limited exclusively to close, sustained contact.</p>
+
+<p>What does this mean for the cruise ship outbreak? It suggests that the risk assessment offered by public health officials, while perhaps directionally correct in suggesting this was unlikely to become a pandemic, may have understated the complexity of how Andes virus can spread. Some passengers became infected despite not having the kind of intimate, prolonged contact that officials repeatedly emphasized as necessary.</p>
+
+<h2>Why the Cruise Ship Was Both Best Case and Worst Case</h2>
+
+<p>There's a dark irony in how the cruise ship outbreak played out. From one perspective, having a potentially dangerous virus spread aboard a ship full of people in close quarters seems like a nightmare scenario. But from an epidemiological standpoint, public health experts recognized something else: if you had to have an outbreak of a less-understood pathogen, a cruise ship is actually among the better places for it to happen.</p>
+
+<p>Cruise ships are essentially floating petri dishes with excellent record-keeping. Every passenger's identity, cabin assignment, and movements are documented. When the ship finally docked in the Canary Islands—after the World Health Organization negotiated with the Spanish government—health officials from countries around the world were waiting to collect their citizens. They knew exactly who had been on board, who had been in contact with whom, and who needed monitoring.</p>
+
+<p>This traceability is nearly impossible to achieve with an outbreak on land, where people move through countless environments, encounter hundreds of strangers, and leave trails that are difficult to reconstruct. The cruise ship outbreak, while tragic for those affected, provided researchers with an unusually clear window into how Andes virus spreads—a case study that may prove valuable for understanding and preparing for future outbreaks.</p>
+
+<h2>The Ongoing Crisis: Quarantine and What's Still Unknown</h2>
+
+<p>The passengers and crew who were exposed to the virus faced extended uncertainty. Michael Bobarro, at the National Quarantine Unit in Omaha, was one of 16 Americans there. He had been allowed to bring only one bag, stuffed with socks, underwear, and whatever else fit around his essential electronics and camera. He would not be leaving through the door he entered. Nurses monitored his temperature daily; he wore a mask to prove he wasn't running a fever.</p>
+
+<p>The 42-day maximum quarantine reflected the worst-case incubation period for the virus. Some passengers would be free to leave sooner if they showed no symptoms. Others, exposed later in the ship's journey, would remain longer. All of them were in the unusual position of being quarantined not because they were sick, but because they might become sick—and because letting them go free before knowing their status could potentially spread the disease.</p>
+
+<p>What's still not fully understood is exactly how transmissible Andes virus is under real-world conditions. The 2018 data suggests it can spread through casual contact under some circumstances, but perhaps only during a narrow window when an infected person is first showing symptoms. Healthcare workers treating very sick patients, presumably exposed to massive viral loads, did not get infected. This suggests that something more than viral exposure is involved—perhaps the immune status of the infected person, or the specific way the virus sheds from the body, or some combination of factors that researchers are still working to identify.</p>
+
+<h2>Key Takeaways</h2>
+
+<p><strong>The communication of risk during health emergencies requires nuance, not just reassurance.</strong> The instinct to prevent panic is understandable, especially in the post-COVID world. But as the CDC's handling of the early hantavirus communications demonstrated, oversimplification can backfire. When people later learn that officials oversimplified—even with good intentions—it can erode trust more than admitting uncertainty ever would. Health agencies must find ways to communicate what is known while clearly acknowledging what is not.</p>
+
+<p><strong>Andes hantavirus transmission is more complex than "close sustained contact" suggests.</strong> The 2018 Argentina outbreak provided evidence that casual transmission can occur, at least under some circumstances. Public health messaging that emphasized only intimate contact may have given people a false sense of security about what constitutes safe interaction with someone who might be infected.</p>
+
+<p><strong>Containment is possible, but only with vigilance and resources.</strong> The cruise ship outbreak demonstrated that when you know who has been exposed and can monitor them, you can prevent an outbreak from spreading further. But this requires extensive quarantine facilities, contact tracing capabilities, and international coordination—resources that are not always available when the next outbreak emerges.</p>
+
+<p><strong>Rodent-borne diseases remain a significant threat that deserves more attention.</strong> Hantavirus is far from the only disease that can jump from rodents to humans. As human development encroaches on natural habitats, such spillover events may become more common. Understanding the ecology of rodent populations and their disease dynamics should be a priority for public health systems worldwide.</p>
+
+<p><strong>Post-pandemic trauma shapes how we hear health news, and officials haven't fully adapted.</strong> Friends and family of Mandavilli and Bobarro reached out in panic when they heard about the outbreak, worried this was the next COVID. This response is understandable but complicates public health communication. Officials who assume they need to fight panic may sometimes create it instead through their tone or timing. There's no easy answer here, but awareness of this dynamic is essential.</p>
+
+<h2>Who This Is For</h2>
+
+<p>This episode and its detailed exploration will be most valuable for readers interested in public health systems, epidemic preparedness, and the communication challenges that arise during disease outbreaks. Journalists and health communicators will find the analysis of how official information both helped and hindered public understanding particularly instructive. Anyone who experienced the anxiety of the COVID-19 pandemic and wants to better understand how health officials assess and communicate about emerging threats will come away with a more sophisticated view of the trade-offs involved.</p>
+
+<p>The hantavirus outbreak on that Antarctic cruise ship was, in the end, contained. No widespread transmission beyond the ship occurred. The passengers in quarantine eventually went home. But the questions it raised about risk communication, viral transmission, and the challenges of keeping the public both informed and calm remain very much with us—and will almost certainly arise again the next time an unfamiliar pathogen emerges somewhere in the world.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "e2e2a88de239daee",
+    "source_name": "The Daily",
+    "episode_title": "Lessons From the Hantavirus Outbreak",
+    "segment_title": "Deaths and Escalating Illness on Ship",
+    "summary": "The Dutch husband died ten days after leaving Ushuaia, with the death announced on April 11th. His body remained in the ship's morgue as the ship was in remote waters. His wife disembarked at St. Helena, flew to Johannesburg, became too ill to continue her journey to Amsterdam, and died. A third person was medically evacuated on April 27th, and more passengers including the ship's doctor began falling ill.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl",
+    "start_seconds": 405,
+    "end_seconds": 540,
+    "score": 0.64,
+    "reason": "info=0.60 eng=0.70 penalty=0.00 Death narrative with specific timeline creates strong engagement",
+    "timing_quality": "estimated",
+    "subject_id": "news",
+    "subject": "news",
+    "entities": [
+      "St. Helena",
+      "Johannesburg",
+      "Amsterdam",
+      "cruise ship morgue",
+      "Deaths",
+      "Escalating Illness",
+      "Ship",
+      "Ushuaia"
+    ],
+    "topics": [
+      "deaths",
+      "outbreak progression",
+      "medical evacuation",
+      "escalating",
+      "illness",
+      "ship",
+      "dutch",
+      "husband"
+    ],
+    "trace": {
+      "episode_id": "16fc875d62ec3916",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 09:45:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "5e2676dade8de70b",
+    "source_name": "The Daily",
+    "episode_title": "Lessons From the Hantavirus Outbreak",
+    "segment_title": "Hantavirus Identification and Severe Symptoms",
+    "summary": "Testing confirms the pathogen is hantavirus, specifically the Andes virus causing severe respiratory illness. Patients initially present flu-like symptoms but deteriorate to pneumonia with fluid-filled lungs and an immune system cascade that can be fatal.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl",
+    "start_seconds": 560,
+    "end_seconds": 587,
+    "score": 0.57,
+    "reason": "info=0.65 eng=0.45 penalty=0.00 Medical mechanism explained with good specificity",
+    "timing_quality": "estimated",
+    "subject_id": "news",
+    "subject": "news",
+    "entities": [
+      "Andes virus",
+      "Hantavirus Identification",
+      "Severe Symptoms",
+      "Testing",
+      "Andes",
+      "Patients",
+      "Lessons From",
+      "Hantavirus Outbreak"
+    ],
+    "topics": [
+      "hantavirus",
+      "medical symptoms",
+      "respiratory illness",
+      "identification",
+      "severe",
+      "symptoms",
+      "testing",
+      "confirms"
+    ],
+    "trace": {
+      "episode_id": "16fc875d62ec3916",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 09:45:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "3508deb487ef1ee7",
+    "source_name": "The Daily",
+    "episode_title": "Lessons From the Hantavirus Outbreak",
+    "segment_title": "Military Civilian Casualties in Iran",
+    "summary": "During a Senate hearing, the head of US Central Command, Brad Cooper, claimed the military had a near-perfect record avoiding civilian casualties in Iran. Human rights groups and lawmakers rejected this claim, pointing to publicly available information about 22 schools and multiple hospitals being hit.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl",
+    "start_seconds": 1593,
+    "end_seconds": 1625,
+    "score": 0.73,
+    "reason": "info=0.80 eng=0.80 penalty=-0.07 Conflict tension central",
+    "timing_quality": "estimated",
+    "subject_id": "news",
+    "subject": "news",
+    "entities": [
+      "CENTCOM",
+      "Brad Cooper",
+      "Military Civilian Casualties",
+      "Iran",
+      "During",
+      "Senate",
+      "US Central Command",
+      "Iran. Human"
+    ],
+    "topics": [
+      "military",
+      "civilian casualties",
+      "iran",
+      "us military",
+      "civilian",
+      "casualties",
+      "during",
+      "senate"
+    ],
+    "trace": {
+      "episode_id": "16fc875d62ec3916",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 09:45:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "ffcac8a0eac62f0d",
+    "source_name": "The Daily",
+    "episode_title": "Lessons From the Hantavirus Outbreak",
+    "segment_title": "Senators Press Cooper on Iran School Attacks",
+    "summary": "Senators including Democrat Kirsten Gillibrand pressed Cooper on reports that U.S. attacks damaged nearly two dozen Iranian schools and 17 healthcare facilities. Cooper confirmed no investigation has been conducted into these allegations despite public reporting in the New York Times.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl",
+    "start_seconds": 1625,
+    "end_seconds": 1650,
+    "score": 0.61,
+    "reason": "info=0.80 eng=0.70 penalty=-0.15 Unresolved accountability gap",
+    "timing_quality": "estimated",
+    "subject_id": "news",
+    "subject": "news",
+    "entities": [
+      "Kirsten Gillibrand",
+      "Cooper",
+      "New York Times",
+      "Senators Press Cooper",
+      "Iran School Attacks",
+      "Senators",
+      "Democrat Kirsten Gillibrand",
+      "U.S."
+    ],
+    "topics": [
+      "u s military policy",
+      "iran conflict",
+      "senate oversight",
+      "crime"
+    ],
+    "trace": {
+      "episode_id": "16fc875d62ec3916",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 09:45:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "21ce6267921b3e76",
+    "source_name": "The Daily",
+    "episode_title": "Lessons From the Hantavirus Outbreak",
+    "segment_title": "Cuba's Energy Crisis and Blackouts",
+    "summary": "Cuba has run out of oil, creating a dire situation causing massive blackouts up to 22 hours per day. The crisis stems from crumbling infrastructure and an energy blockade imposed by the Trump administration seeking political reforms.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/355e1943-6dc9-4a0e-b8d5-1b126e1222ba/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=355e1943-6dc9-4a0e-b8d5-1b126e1222ba&feed=54nAGcIl",
+    "start_seconds": 1652,
+    "end_seconds": 1681,
+    "score": 0.7,
+    "reason": "info=0.70 eng=0.70 penalty=0.00 Humanitarian stakes clear",
+    "timing_quality": "estimated",
+    "subject_id": "news",
+    "subject": "news",
+    "entities": [
+      "Cuba",
+      "Trump administration",
+      "Cuba's Energy Crisis",
+      "Blackouts",
+      "Trump",
+      "Lessons From",
+      "Hantavirus Outbreak",
+      "The Daily"
+    ],
+    "topics": [
+      "energy crisis",
+      "u s cuba relations",
+      "humanitarian crisis",
+      "cuba",
+      "energy",
+      "crisis",
+      "blackouts",
+      "creating"
+    ],
+    "trace": {
+      "episode_id": "16fc875d62ec3916",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 09:45:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>
