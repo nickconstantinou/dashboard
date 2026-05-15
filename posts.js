@@ -12,6 +12,17 @@ var posts = [
   },
   {
     "date": "May 15, 2026",
+    "title": "I built my own wordpress with Astro and CloudCannon",
+    "url": "2026-05-15-i-built-my-own-wordpress-with-astro-and-cloudcanno.html",
+    "category": "Tech",
+    "excerpt": "# Building a WordPress Alternative with Astro and CloudCannon: A Complete Guide **Title: I built my own WordPress with Astro and CloudCannon** --- ## Key Insights - **[10:04]** Astro is positioned as ",
+    "tags": [
+      "Tech"
+    ],
+    "type": "youtube"
+  },
+  {
+    "date": "May 15, 2026",
     "title": "Lessons From the Hantavirus Outbreak",
     "url": "2026-05-15-lessons-from-the-hantavirus-outbreak.html",
     "category": "News",
