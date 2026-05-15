@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters | Nick's Blog</title>
+  <meta name="description" content="Merryn Talks Money — Finance">
+  <meta property="og:title" content="The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters">
+  <meta property="og:description" content="Merryn Talks Money — Finance">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,47 +70,30 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">2026-05-15 • Finance</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/b65f5d94-dd18-419c-9276-af4d00f43c32" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[7:27–8:08]</strong> <em>South Korea AI Tax Proposal Market Reaction</em> — South Korean policymakers proposed taxing AI profits to fund protection against job displacement. The announcement caused the KOSPI index to fall 5%, though the official later clarified the proposal was about capturing AI windfall revenues rather than restricting the industry.</li>
-<li><strong>[10:29–11:18]</strong> <em>S&P 500 Concentration Risk Warning</em> — Despite market indices making new highs, 60-65% of S&P 500 stocks declined on a recent Wednesday. The rally is driven by an increasingly narrow group of stocks, raising concerns for index fund holders about underlying market fragility and concentration risk.</li>
-<li><strong>[8:08–8:46]</strong> <em>Tech-Political Risk and Data Windfall Taxes</em> — The discussion highlights the fragile relationship between technology and politics, noting that politicians could act preemptively to regulate AI before job losses materialize. The 'data as new oil' metaphor extends to data becoming the target for future windfall taxes, with UK politicians already exploring these possibilities.</li>
-<li><strong>[7:06–7:27]</strong> <em>US Tech Rally Extraordinary Performance</em> — Despite recent cooling from inflation concerns, the US market has seen exceptional recent gains with the Mag-7 up over 27% in six weeks and the Philadelphia semiconductor index up nearly 70%, highlighting increasing concentration risk.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">AI regulation</span> <span class="signal-tag">tax policy</span> <span class="signal-tag">South Korea</span> <span class="signal-tag">market reaction</span> <span class="signal-tag">market concentration</span> <span class="signal-tag">index investing</span> <span class="signal-tag">stock market rally</span> <span class="signal-tag">investment risk</span> <span class="signal-tag">tech regulation</span> <span class="signal-tag">political risk</span></p>
-</div></p>
-
-<p><p># Key Insights</p>
-
-<p>• <strong>Spire Healthcare</strong> received a takeover bid from Tosca Fund, with shares jumping to 220p (up 70p in a single day) — illustrating how severely UK equities remain undervalued relative to private equity valuations.</p>
-
-<p>• <strong>Mag-7 stocks surged 27% in just six weeks</strong>, yet 60–65% of S&P 500 constituents declined on a single Wednesday, revealing extreme concentration in a handful of mega-cap names despite "broad market" benchmarks.</p>
-
-<p>• <strong>Philadelphia Semiconductor Index climbed nearly 70%</strong> over the same six-week period, amplifying concentration risk for index fund investors who may not realize their exposure.</p>
-
-<p>• <strong>US inflation came in hotter than expected</strong>, forcing markets to reassess Federal Reserve expectations from potential rate cuts to possible rate increases — a reversal that typically strengthens the dollar and pressures asset prices.</p>
-
-<p>• <strong>Premium Bond odds improved</strong> from 23,000-to-1 to 22,000-to-1, with 12 additional £100,000 prizes, 24 more £50,000 prizes, and 49 extra £25,000 prizes added, while the proportion of £25 prizes fell from 47% to 37% — increasing the appeal of this tax-free savings vehicle.</p>
-
-<p>---</p>
-
-<h2>Introduction</h2>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-15 · Finance</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Merryn Talks Money">
+          <div class="podcast-hero-text">
+            <div class="source-label">Merryn Talks Money</div>
+            <h1>The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters</h1>
+            <p class="subtitle">The UK equity market faces a structural challenge that extends far beyond political turbulence — and it's accelerating.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
 
 <p>The UK equity market faces a structural challenge that extends far beyond political turbulence — and it's accelerating. In the latest episode of the Bloomberg UK *Market Wrap* podcast, hosts Merrins and John Steppeck sidestepped the political chaos consuming Westminster to focus on what they see as a more enduring story: the systematic draining of undervalued UK stocks into private equity portfolios, creating a quiet but consequential erosion of investment opportunity for ordinary British investors.</p>
 
 <p>The conversation also extended to US markets, where extraordinary concentration has pushed major indices to new heights while the majority of constituent stocks actually declined. The hosts discussed what this means for index fund investors, examined the inflationary pressures threatening the Federal Reserve's anticipated rate cuts, and offered a surprisingly upbeat discussion of UK Premium Bonds — complete with specific prize structure improvements that make the national savings instrument more attractive than ever.</p>
 
 <p>This isn't a podcast about market timing or speculative bets. It's about structural forces shaping investment outcomes for millions of people who rely on their pensions, ISAs, and diversified portfolios — forces that receive far less attention than political drama but may prove far more consequential for long-term wealth.</p>
-
-<p>---</p>
 
 <h2>The Private Equity Liquidation of London</h2>
 
@@ -91,8 +106,6 @@
 <p>The implications extend beyond individual investment returns. Steppeck outlined what he called "the whole wealth problem" — the systemic consequences of this hollowing out. "It's bad news for capital formation. It's bad news for shareholder democracy and all the other things that we talk about, which are, I guess, kind of small print things. Nobody really talks about them, but they're actually quite important because people feel left out."</p>
 
 <p>This connects to a broader concern about UK attractiveness to foreign capital. "If you are a foreign investor thinking to yourself, will I invest in the UK?" Steppeck observed, "You look at it and you go, Lordy, look at those energy prices. Look at those politicians. Look at the chaos. And you don't touch it." While acknowledging that restoring confidence would "take quite a lot," he added the qualifier: "It would be easy to do. It just takes a different approach." The phrase "simple, not easy" became the episode's practical summary for UK policy challenges.</p>
-
-<p>---</p>
 
 <h2>The American Exception: Momentum, Concentration, and Fragility</h2>
 
@@ -108,8 +121,6 @@
 
 <p>The underlying numbers are striking. The Mag-7 — seven mega-cap technology stocks — surged over 27% in just six weeks. The Philadelphia Semiconductor Index climbed nearly 70% over the same period. These aren't modest gains; they're extraordinary moves that have concentrated market performance in a remarkably narrow set of names.</p>
 
-<p>---</p>
-
 <h2>The Concentration Problem Nobody Wants to Discuss</h2>
 
 <p>Steppeck introduced a statistic that puts the "everything's up" narrative in stark perspective: "On Wednesday, I think 60-65% of S&P 500 stocks actually declined." This means the headline indices kept climbing because a few massive stocks kept rising, while the majority of constituents fell. "There are a certain number of stocks making new highs over and over and over again, but there are many more that aren't doing that."</p>
@@ -118,8 +129,6 @@
 
 <p>The semiconductor story added another layer. South Korea's KOSPI index fell approximately 5% after a government official suggested AI should be taxed to fund support for workers displaced by automation. The official later clarified the comment — but the market's immediate reaction revealed something important about vulnerability. "Even though it's not happening yet, there's nothing to stop them from acting preemptively," Steppeck noted. The analogy is direct: "If data is the new oil, then data is also where the new windfall taxes are going to fall."</p>
 
-<p>---</p>
-
 <h2>Practical Investment Philosophy: Boring is Sustainable</h2>
 
 <p>The hosts pivoted to advice that fits their self-described "most sensible man" credentials. Steppeck acknowledged they had discussed these dynamics for a long time without a crash materializing: "It's not as if there has been a crash yet, and we have discussed it for a long time. But I think that's the point. They say it's being aware so you don't panic when it happens. Because it will happen at some point. It's fairly bound to."</p>
@@ -127,8 +136,6 @@
 <p>The practical guidance is straightforward. First, consider equal-weighted tracker funds rather than market-cap-weighted indexes, which automatically concentrate holdings in the largest stocks. Second, maintain dollar-cost averaging for those with regular monthly contributions — "you're kind of pound cost averaging purely." Third, review portfolios every six months to ensure appropriate diversification, but avoid frequent trading based on short-term signals.</p>
 
 <p>The philosophy isn't exciting, but it's grounded in realistic expectations. Steppeck noted the tension: "Well, they don't do as well as the heavily concentrated ones. But that's kind of like saying you're not doing as well on the tracker as if you just bought NVIDIA. Well, OK, you could put 100% of your money in NVIDIA and be much better off. Is that a risk you wanted to take?" The answer, for most people managing long-term wealth, is no.</p>
-
-<p>---</p>
 
 <h2>Premium Bonds: The Entertaining Alternative</h2>
 
@@ -142,8 +149,6 @@
 
 <p>The deeper observation involves the lottery-style debt mechanism more broadly. "If we ever get to talking about financial history again on the podcast," the host suggested, "lottery-style debt issuance" deserves attention because it allows governments to raise capital more efficiently when people value the excitement premium. The hosts speculated that more governments facing fiscal pressures might adopt similar structures, and suggested corporate shareholder democracy could benefit from analogous "digital draw" mechanisms offering prizes to long-term shareholders.</p>
 
-<p>---</p>
-
 <h2>Detailed Takeaways</h2>
 
 <p><strong>1. The UK's private equity problem is accelerating and structural — not temporary.</strong> With Spire Healthcare, Intertek Group, and multiple property investment trusts all being acquired, the pattern is clear: undervalued UK stocks are being systematically removed from public markets. This isn't just about individual stock performance — it represents a long-term erosion of investment opportunity for ordinary UK investors. The hosts' warning that "one day there won't be any decent London listed companies left for private equity funds to buy" should be taken seriously as a description of ongoing trends, not catastrophism.</p>
@@ -156,8 +161,6 @@
 
 <p><strong>5. Premium Bonds offer a tax-efficient, capital-protected savings vehicle with improving odds.</strong> The prize structure changes — better overall odds, more high-value prizes, fewer small prizes — make Premium Bonds more attractive for investors prioritizing capital preservation with upside potential. The tax-free nature of all prizes makes them particularly valuable for higher-rate taxpayers who would face significant taxes on returns from conventional savings or bond investments.</p>
 
-<p>---</p>
-
 <h2>Who This Is For</h2>
 
 <p>This content primarily serves <strong>UK-based individual investors, retirees, and pension holders</strong> who want to understand the structural forces affecting their long-term wealth. The podcast's focus on private equity's hollowing out of UK public markets directly impacts anyone saving for retirement through ISAs, workplace pensions, or individual shares — and who may not realize how much their investment universe is contracting.</p>
@@ -166,14 +169,252 @@
 
 <p>Finally, the <strong>philosophical framework</strong> — staying calm, avoiding panic, reviewing portfolios periodically rather than chasing momentum — serves any investor who finds market coverage overwhelming or anxiety-inducing. The hosts' implicit message is that sustainable wealth building isn't about finding the next NVIDIA; it's about avoiding catastrophic mistakes and maintaining consistent participation regardless of short-term noise.</p>
 
-<p>The episode's genius lies in treating Premium Bonds with genuine enthusiasm while simultaneously discussing billion-dollar private equity transactions. This captures what wealth management actually looks like for most people: not dramatic speculation, but boring consistency, tax efficiency, and the occasional small win that makes the whole endeavor feel worthwhile.</p></p>
-      
-    </article>
+<p>The episode's genius lies in treating Premium Bonds with genuine enthusiasm while simultaneously discussing billion-dollar private equity transactions. This captures what wealth management actually looks like for most people: not dramatic speculation, but boring consistency, tax efficiency, and the occasional small win that makes the whole endeavor feel worthwhile.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "2aafcf6a26a8e46f",
+    "source_name": "Merryn Talks Money",
+    "episode_title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
+    "segment_title": "US Inflation and Fed Policy Impact",
+    "summary": "Unexpectedly high US inflation data shifts Federal Reserve expectations from rate cuts to potential rate hikes, with stronger dollar implications that could dampen asset prices as markets recalibrate.",
+    "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32",
+    "start_seconds": 361,
+    "end_seconds": 426,
+    "score": 0.66,
+    "reason": "info=0.75 eng=0.70 penalty=-0.07 Policy pivot with clear stakes and market implications",
+    "timing_quality": "estimated",
+    "subject_id": "finance",
+    "subject": "finance",
+    "entities": [
+      "Federal Reserve",
+      "US Federal Reserve",
+      "US Inflation",
+      "Fed Policy Impact",
+      "Unexpectedly",
+      "Losing Cheap Stocks",
+      "Private Equity Bargain Hunters",
+      "Merryn Talks Money"
+    ],
+    "topics": [
+      "us inflation",
+      "interest rates",
+      "dollar strength",
+      "monetary policy",
+      "politics",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "5d65cae174a3582c",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 04:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "c87089f4bff09445",
+    "source_name": "Merryn Talks Money",
+    "episode_title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
+    "segment_title": "US Tech Rally Extraordinary Performance",
+    "summary": "Despite recent cooling from inflation concerns, the US market has seen exceptional recent gains with the Mag-7 up over 27% in six weeks and the Philadelphia semiconductor index up nearly 70%, highlighting increasing concentration risk.",
+    "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32",
+    "start_seconds": 426,
+    "end_seconds": 447,
+    "score": 0.7,
+    "reason": "info=0.85 eng=0.65 penalty=-0.07 Specific performance data with concentration risk stakes",
+    "timing_quality": "estimated",
+    "subject_id": "finance",
+    "subject": "finance",
+    "entities": [
+      "Mag-7",
+      "Nasdaq",
+      "S&P",
+      "Philadelphia Semiconductor Index",
+      "US Tech Rally Extraordinary",
+      "Performance",
+      "Despite",
+      "Philadelphia"
+    ],
+    "topics": [
+      "tech rally",
+      "concentration risk",
+      "us equity market",
+      "business",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "5d65cae174a3582c",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 04:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a790dccc27c479be",
+    "source_name": "Merryn Talks Money",
+    "episode_title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
+    "segment_title": "South Korea AI Tax Proposal Market Reaction",
+    "summary": "South Korean policymakers proposed taxing AI profits to fund protection against job displacement. The announcement caused the KOSPI index to fall 5%, though the official later clarified the proposal was about capturing AI windfall revenues rather than restricting the industry.",
+    "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32",
+    "start_seconds": 447,
+    "end_seconds": 488,
+    "score": 0.76,
+    "reason": "info=0.85 eng=0.80 penalty=-0.07 Policy shock narrative with dramatic market reaction",
+    "timing_quality": "estimated",
+    "subject_id": "finance",
+    "subject": "finance",
+    "entities": [
+      "South Korea AI Tax",
+      "Proposal Market Reaction",
+      "South Korean",
+      "KOSPI",
+      "Losing Cheap Stocks",
+      "Private Equity Bargain Hunters",
+      "Merryn Talks Money"
+    ],
+    "topics": [
+      "ai regulation",
+      "tax policy",
+      "south korea",
+      "market reaction",
+      "business",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "5d65cae174a3582c",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 04:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "2d0388850aaac125",
+    "source_name": "Merryn Talks Money",
+    "episode_title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
+    "segment_title": "Tech-Political Risk and Data Windfall Taxes",
+    "summary": "The discussion highlights the fragile relationship between technology and politics, noting that politicians could act preemptively to regulate AI before job losses materialize. The 'data as new oil' metaphor extends to data becoming the target for future windfall taxes, with UK politicians already exploring these possibilities.",
+    "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32",
+    "start_seconds": 488,
+    "end_seconds": 526,
+    "score": 0.71,
+    "reason": "info=0.80 eng=0.75 penalty=-0.07 Insightful analysis with political risk tension and forward look",
+    "timing_quality": "estimated",
+    "subject_id": "finance",
+    "subject": "finance",
+    "entities": [
+      "Tech-Political Risk",
+      "Data Windfall Taxes",
+      "Losing Cheap Stocks",
+      "Private Equity Bargain Hunters",
+      "Merryn Talks Money"
+    ],
+    "topics": [
+      "tech regulation",
+      "political risk",
+      "data taxation",
+      "ai policy",
+      "politics",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "5d65cae174a3582c",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 04:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "10272ca7f3ead27e",
+    "source_name": "Merryn Talks Money",
+    "episode_title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
+    "segment_title": "S&P 500 Concentration Risk Warning",
+    "summary": "Despite market indices making new highs, 60-65% of S&P 500 stocks declined on a recent Wednesday. The rally is driven by an increasingly narrow group of stocks, raising concerns for index fund holders about underlying market fragility and concentration risk.",
+    "audio_url": "https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32",
+    "start_seconds": 629,
+    "end_seconds": 678,
+    "score": 0.73,
+    "reason": "info=0.85 eng=0.55 penalty=0.00 Specific concentration data with risk implications for index investors, moderate tension from market fragility narrative",
+    "timing_quality": "estimated",
+    "subject_id": "finance",
+    "subject": "finance",
+    "entities": [
+      "S&P 500",
+      "NVIDIA",
+      "S&P",
+      "Concentration Risk Warning",
+      "Despite",
+      "Wednesday. The",
+      "Losing Cheap Stocks",
+      "Private Equity Bargain Hunters"
+    ],
+    "topics": [
+      "market concentration",
+      "index investing",
+      "stock market rally",
+      "investment risk",
+      "business"
+    ],
+    "trace": {
+      "episode_id": "5d65cae174a3582c",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 04:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

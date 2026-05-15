@@ -3,34 +3,8 @@ title: The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters
 date: '2026-05-15'
 type: podcast
 category: Finance
-video_id: b65f5d94-dd18-419c-9276-af4d00f43c32
 channel: Merryn Talks Money
 video_url: https://podtrac.com/pts/redirect.mp3/tracking.swap.fm/track/UVBrz8bN8aM2Xe47PEPu/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/1742e0df-336e-4798-9bdf-af4d00f3c918/6e790cba-eedc-450d-87b5-b44a00fa7e37/audio.mp3?utm_source=Podcast&in_playlist=b65f5d94-dd18-419c-9276-af4d00f43c32
----
-
-<div class="key-insights">
-<h2>Key Insights</h2>
-<ul>
-<li><strong>[7:27–8:08]</strong> <em>South Korea AI Tax Proposal Market Reaction</em> — South Korean policymakers proposed taxing AI profits to fund protection against job displacement. The announcement caused the KOSPI index to fall 5%, though the official later clarified the proposal was about capturing AI windfall revenues rather than restricting the industry.</li>
-<li><strong>[10:29–11:18]</strong> <em>S&P 500 Concentration Risk Warning</em> — Despite market indices making new highs, 60-65% of S&P 500 stocks declined on a recent Wednesday. The rally is driven by an increasingly narrow group of stocks, raising concerns for index fund holders about underlying market fragility and concentration risk.</li>
-<li><strong>[8:08–8:46]</strong> <em>Tech-Political Risk and Data Windfall Taxes</em> — The discussion highlights the fragile relationship between technology and politics, noting that politicians could act preemptively to regulate AI before job losses materialize. The 'data as new oil' metaphor extends to data becoming the target for future windfall taxes, with UK politicians already exploring these possibilities.</li>
-<li><strong>[7:06–7:27]</strong> <em>US Tech Rally Extraordinary Performance</em> — Despite recent cooling from inflation concerns, the US market has seen exceptional recent gains with the Mag-7 up over 27% in six weeks and the Philadelphia semiconductor index up nearly 70%, highlighting increasing concentration risk.</li>
-</ul>
-<p class="signal-tags"><span class="signal-tag">AI regulation</span> <span class="signal-tag">tax policy</span> <span class="signal-tag">South Korea</span> <span class="signal-tag">market reaction</span> <span class="signal-tag">market concentration</span> <span class="signal-tag">index investing</span> <span class="signal-tag">stock market rally</span> <span class="signal-tag">investment risk</span> <span class="signal-tag">tech regulation</span> <span class="signal-tag">political risk</span></p>
-</div>
-
-<p># Key Insights
-
-• **Spire Healthcare** received a takeover bid from Tosca Fund, with shares jumping to 220p (up 70p in a single day) — illustrating how severely UK equities remain undervalued relative to private equity valuations.
-
-• **Mag-7 stocks surged 27% in just six weeks**, yet 60–65% of S&P 500 constituents declined on a single Wednesday, revealing extreme concentration in a handful of mega-cap names despite "broad market" benchmarks.
-
-• **Philadelphia Semiconductor Index climbed nearly 70%** over the same six-week period, amplifying concentration risk for index fund investors who may not realize their exposure.
-
-• **US inflation came in hotter than expected**, forcing markets to reassess Federal Reserve expectations from potential rate cuts to possible rate increases — a reversal that typically strengthens the dollar and pressures asset prices.
-
-• **Premium Bond odds improved** from 23,000-to-1 to 22,000-to-1, with 12 additional £100,000 prizes, 24 more £50,000 prizes, and 49 extra £25,000 prizes added, while the proportion of £25 prizes fell from 47% to 37% — increasing the appeal of this tax-free savings vehicle.
-
 ---
 
 ## Introduction

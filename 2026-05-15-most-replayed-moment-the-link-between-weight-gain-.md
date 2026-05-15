@@ -4,21 +4,8 @@ title: 'Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep 
 date: '2026-05-15'
 type: podcast
 category: Business/Interview
-video_id: 01KQ7W8NWE37Z0NG2N3A4FENKM.mp3
 channel: The Diary of a CEO
 video_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7W8NWE37Z0NG2N3A4FENKM.mp3
----
-
-<p># Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?
-
-## Key Insights
-
-- **Single night of sleep deprivation causes dramatic calorie intake increase** — hormonal changes affect appetite regulation and satiety hormones, making people consume significantly more calories the next day
-- **18-year nurse study demonstrated clear weight-sleep correlation** — nurses sleeping less than 6 hours nightly started at slightly higher weights and gained substantially more weight over the study period compared to other groups
-- **40% of genes in any single cell exhibit 24-hour cyclical patterns** — demonstrating that circadian rhythms operate at the cellular level throughout the body, not just in the brain
-- **Approximately 50% of circadian clock timing is environmentally determined** — contrary to common belief, our body clocks aren't purely genetic; light exposure, eating patterns, and exercise all significantly influence our internal timing
-- **Light exposure at night appears to increase diabetes risk** — recent research suggests artificial light during sleep may have metabolic consequences beyond just disrupting sleep quality
-
 ---
 
 ## Introduction
