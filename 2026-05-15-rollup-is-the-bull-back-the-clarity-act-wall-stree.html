@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps | Nick's Blog</title>
+  <meta name="description" content="Bankless — Crypto/Web3">
+  <meta property="og:title" content="ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps">
+  <meta property="og:description" content="Bankless — Crypto/Web3">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-15 · Crypto/Web3</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Bankless">
+          <div class="podcast-hero-text">
+            <div class="source-label">Bankless</div>
+            <h1>ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps</h1>
+            <p class="subtitle">The third week of May delivered a striking divergence: equity markets continued their relentless march to new all-time highs for the fourth consecutive week, while beneath the surf…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
+
+<p>The third week of May delivered a striking divergence: equity markets continued their relentless march to new all-time highs for the fourth consecutive week, while beneath the surface, inflationary pressures, wage stagnation, and geopolitical tensions built toward a potentially hazardous convergence. The hosts of Bankless Nation found themselves navigating this paradoxical landscape—celebrating a bull market that seems to be ignoring every warning signal while wrestling with the implications for crypto and broader financial markets.</p>
+
+<p>The week's most consequential developments ranged from the meeting between Trump and Chinese President Xi in Beijing, where Nvidia CEO Jensen Huang accompanied the American delegation with a freshly approved chip export deal in hand, to the latest inflation data that sent bond yields surging and raised the specter of Federal Reserve rate hikes in 2026. Meanwhile, in the crypto ecosystem, a pivotal legislative moment arrived with the Clarity Act clearing a key procedural hurdle, and traditional finance continued its quiet colonization of Ethereum through tokenized money market products. The episode also touched on the Anthropic secondaries situation, though the discussion was cut short, leaving listeners with a cliffhanger on that front.</p>
+
+<h2>The Trump-Xi Summit: A Meeting of Unequal Leverage</h2>
+
+<p>The highly choreographed meeting between President Trump and Chinese President Xi in Beijing represented more than a simple diplomatic photo opportunity, though the optics were certainly calibrated for maximum impact. China, the hosts observed, "rolled out the red carpet for Trump" because "Trump's so easy to read—he loves that. Put a crowd of people yelling and cheering and waving flags. Give me a clip I can tweet from the White House account." The Chinese delegation understood exactly how to appeal to Trump's preference for regal pageantry.</p>
+
+<p>However, the hosts identified a significant power asymmetry in the negotiations. President Xi possessed considerably more leverage because "Trump feels some urgency to get some deals done ahead of the midterms," while "President Xi doesn't have any of that pressure." Trump had postponed the original summit timeline by approximately six weeks, hoping to achieve a more favorable position regarding Iran before sitting down with his Chinese counterpart—but that gamble largely failed to pay off.</p>
+
+<p>The American delegation was notable for what the hosts called "the techno corporate posse" that Trump brought with him: Jensen Huang from Nvidia, Elon Musk, and Tim Cook from Apple. Trump's informal habit of calling Tim Cook "Tim Apple" surfaced again during this trip, which the hosts found both amusing and illustrative of his negotiating style. The composition signaled that technology and trade were inseparable in this administration's approach to China.</p>
+
+<p>On the American wish list stood conventional trade objectives: selling Boeing aircraft, soybeans, and beef to China, along with establishing a board to manage bilateral trade relationships and smooth over the rough edges of the ongoing trade war. More urgently, Trump wanted China to use its influence over Iran to help reopen the Strait of Hormuz and push toward a peace deal—a vulnerability that Xi recognized and could exploit.</p>
+
+<p>China's agenda centered on Taiwan, with Xi signaling that backing off from American arms sales and military presence around Taiwan was his top priority. Access to American semiconductor technology also featured prominently, which brings us to the breaking news that dominated the week's financial headlines.</p>
+
+<h2>Nvidia's Chip Deal: The Real Prize of the Summit</h2>
+
+<p>In what appeared to be a goodwill gesture arriving precisely as Trump stepped off the plane in Beijing, the United States announced it would permit Nvidia to resume selling advanced chips to China. The timing was unmistakable diplomatic signaling: "Hey, thanks for inviting me. We're going to sell you chips now. Meet Jensen. He's here to sell you some chips."</p>
+
+<p>The market's reaction was immediate and emphatic. Nvidia stock hit all-time highs, with the hosts noting the company had become a "$7-8 trillion" enterprise—extraordinary for a company that was still a niche graphics card manufacturer a decade ago. The hosts marveled at the scale: "Nvidia is worth more than every GDP of every country in the world outside of the United States and China." The comparison to silver, which Nvidia recently surpassed in total value, prompted speculation that "chips are the new gold"—though the hosts acknowledged uncertainty about where this trajectory ultimately leads.</p>
+
+<p>Jensen Huang's presence on the plane and his personal interest in completing the China chip deal reflected the stakes involved. Nvidia's China business represents a significant revenue stream, and the export restrictions had created pressure on the company's growth narrative. With the deal apparently secured, at least temporarily, Nvidia's valuation continued its extraordinary ascent.</p>
+
+<h2>The Fed's New Chairman Faces a Hostile Inflation Environment</h2>
+
+<p>The Senate confirmation of Kevin Warsh as the new Federal Reserve Chairman, succeeding Jerome Powell, arrived as one of the most contentious such votes in history—a 54-45 party-line decision that reflected the deep political polarization surrounding monetary policy. The selection of Warsh was clearly influenced by his alignment with Trump's desire for lower interest rates, with the hosts observing he was chosen "because he was like, yeah, I'll totally lower rates for you, Donald Trump."</p>
+
+<p>Warsh's stated rationale for a potentially dovish stance centered on "this deflationary pressure from AI," which he identified as a factor the new Fed chair would need to integrate into policy calculations. The logic suggests that artificial intelligence will continue to drive productivity gains and price reductions across the economy, providing room for accommodative monetary policy without stoking inflation.</p>
+
+<p>However, this reasoning collides directly with the inflation data that emerged during the week. April CPI came in at 3.8%—the highest reading since May 2023, when inflation was first brought under control after the rapid rate-hiking cycle of 2022. The hosts reminded listeners that inflation had peaked at 8-11% during that period, requiring the fastest rate increases in modern history, and had settled into a comfortable 2.5-2.7% range before this surprising uptick.</p>
+
+<p>The producer price index (PPI) data proved even more alarming: coming in at 6% year-over-year against estimates of 4.9%, the reading was "well above expectations" and particularly concerning because PPI tends to be a leading indicator for future CPI readings. The hosts characterized this as "a direction of travel for CPI" rather than a one-time blip.</p>
+
+<p>Bond market yields confirmed the alarm bells ringing across the financial system. The 10-year Treasury yield climbed to 4.5%—the highest since July—while the 30-year exceeded 5%, which the hosts noted triggers what they termed "Trump's taco territory," referencing the president's historical sensitivity to yield levels. The comparison referred to the tariff scare of the previous year, when rising yields prompted Trump to back down from aggressive trade policies. The question becomes whether this inflation spike will similarly force a policy reversal.</p>
+
+<p>The markets' reaction to this inflation data revealed a surprising resilience. While the odds of a Fed rate hike in 2026 climbed to 28% on Polymarket (up from 20% at the week's start), the stock market continued its upward march, apparently indifferent to the warning signs.</p>
+
+<h2>Wages Versus Inflation: The Squeeze Returns</h2>
+
+<p>Perhaps the most politically potent economic data point of the week involved the divergence between wage growth and inflation. For approximately three years, wages had managed to keep pace with or exceed inflation, providing consumers with real purchasing power gains despite broader economic uncertainty. That era appears to be ending.</p>
+
+<p>The latest data shows wage gains running at 3.6% over the past year, while CPI stands at 3.8%—meaning that real wages are declining for the first time since 2023. This gap, while seemingly small, represents a meaningful erosion in consumer purchasing power that the hosts characterized as "painful for Americans and a true financial squeeze."</p>
+
+<p>The political implications are substantial. The hosts noted that "when [inflation] is above wage growth, this is a key political indicator. This is not going to win you any elections," pointing to the 2022-2023 period when similar conditions prevailed and contributed to political headwinds for the incumbent administration. The current divergence, while still in early stages, suggests the economic landscape may shift against whoever occupies the White House in future election cycles.</p>
+
+<p>Trump himself was asked about America's financial situation during a press availability, and his response was striking in its detachment: "The only thing that matters when I'm talking about Iran, they can't have a nuclear weapon. I don't think about America's financial situation. I don't think about anybody. I think about one thing. We cannot let Iran have a nuclear weapon. That's all. That's the only thing that matters."</p>
+
+<p>The hosts debated whether this represented "a single track mind" where nuclear proliferation concerns genuinely outweigh short-term economic pressures, or whether it was a political miscalculation. The consensus leaned toward the latter, with one host noting, "When has any president ever said, ever, I don't care about the average American's financial situation. Yikes." The soundbite, whatever its intent, provides ample ammunition for critics who argue the administration prioritizes foreign policy adventurism over domestic economic wellbeing.</p>
+
+<h2>The Indomitable Bull Market</h2>
+
+<p>The week's most paradoxical story might be the stock market's refusal to acknowledge mounting risks. Despite every bearish indicator flashing warning signs—rising inflation, high oil prices above $102 per barrel, surging bond yields, declining real wages, and geopolitical tensions—equities continued their relentless climb.</p>
+
+<p>The S&P 500 achieved its highest close ever for the fourth time in five trading days that week. Since the Iran war's market bottom, which occurred right at the turn of April (approximately six weeks prior), "U.S. stocks have added $11 trillion in market value." The S&P itself is up 18% from that bottom, while the Nasdaq has surged 28%. Nvidia specifically has gained 38% despite the absence of any Iran nuclear deal or resolution to the Middle East tensions.</p>
+
+<p>The hosts identified "AI stocks and also very strong corporate earnings" as the primary driver enabling markets to "plow through any" bearish inputs. The artificial intelligence theme has become so dominant that investors seem willing to overlook almost any macroeconomic obstacle in anticipation of the productivity revolution and corporate profit expansion that AI promises.</p>
+
+<p>Consumer sentiment has fallen to all-time lows, which historically would correlate with market weakness, yet the current environment defies these traditional relationships. The hosts observed that "capital's happy, investors happy for sure," even as the underlying economic conditions for many Americans deteriorate. This divergence between financial markets and economic reality represents one of the defining characteristics of the current bull phase.</p>
+
+<p>The technical chart showing inflation versus wage growth reveals a notable gap—representing real income erosion for workers—that the hosts suggested will appear on "every single chart for eternity": a period of missing data labeled "no inflation data due to government shutdown" that disrupts historical comparisons and drives analysts to distraction.</p>
+
+<h2>The Clarity Act: Crypto's Legislative Moment</h2>
+
+<p>Turning to cryptocurrency, the episode covered what the hosts termed "a very big vote with the Clarity Act, which passed moments before we started recording." The timeline was tight enough that the hosts initially announced it had passed, then corrected themselves: "Not the final vote. Not the final vote. You are right. A key vote is in the process. The key vote. But we are over a key hurdle."</p>
+
+<p>The Clarity Act represents a significant legislative development for the crypto industry, though the details of its specific provisions were discussed less extensively in the transcript excerpt provided. The hosts noted that "the Democrats filed over a hundred amendments," indicating fierce opposition and procedural obstruction tactics, but also observed that "the odds of Clarity getting over the final hurdles are up."</p>
+
+<p>The remaining obstacles center on "the final bosses of the ethics and developer protections debate," suggesting that provisions protecting software developers who build blockchain infrastructure and preventing regulatory overreach remain contentious. Despite these challenges, the passage of the key hurdle signals that comprehensive crypto legislation may be closer than many expected, with institutional and bipartisan support apparently building.</p>
+
+<h2>Traditional Finance's Quiet Ethereum Onslaught</h2>
+
+<p>One of the week's most significant underreported stories received substantial attention in this episode: "The three major financial institutions have all announced multi-billion dollar tokenized money markets on Ethereum this week." The hosts noted this represents a dramatic shift in the composition of Ethereum-based financial products.</p>
+
+<p>The hosts observed that "TradFi, Ryan, did you know, just loves Ethereum? Yeah. I think they love it more than me at this point." The joke captures a real phenomenon: institutional adoption of Ethereum has accelerated to the point where traditional financial giants are deploying significant capital into tokenized money market products on the network. These multi-billion dollar announcements suggest that the infrastructure for institutional participation in Ethereum-based finance has matured substantially.</p>
+
+<p>The Galaxy sponsorship of the episode provided an opportunity to highlight one of the major players bridging traditional finance and digital assets. Galaxy (ticker: GLXY) operates across both crypto and artificial intelligence infrastructure, with the hosts noting they "have data centers and very big data centers—1.6 gigawatts" powering their Helios site. This public company offers institutional training, custody, and tokenization services alongside AI data center operations, representing the kind of diversified player increasingly prominent in the space.</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The market's AI-driven resilience may prove fragile if inflation becomes entrenched.</strong> While the current bull market is dismissing traditional warning signs, the underlying inflation data and yield movements suggest a reckoning may be coming. If PPI's 6% reading translates into sustained CPI increases and wage growth continues to lag, the Federal Reserve's hands may be forced toward rate hikes despite political pressure to remain accommodative.</p>
+
+<p><strong>The Trump-Xi meeting produced concrete wins but reinforced China's negotiating leverage.</strong> The Nvidia chip export approval secured a significant American business interest, but the broader dynamics suggest China holds the stronger position heading into future negotiations. Xi can afford patience while Trump faces midterm electoral pressure, making concessions likely to flow in China's direction on issues like Taiwan.</p>
+
+<p><strong>Kevin Warsh's dovish inclinations face an inhospitable inflation environment.</strong> The new Fed chair's AI-driven deflation thesis provides intellectual cover for rate cuts, but the actual data—3.8% CPI, 6% PPI, declining real wages</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "7a19d1863dd11d2f",
+    "source_name": "Bankless",
+    "episode_title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "segment_title": "Trump-Xi Summit and US-China Bargaining Dynamics",
+    "summary": "President Trump and President Xi are meeting in China with planned trade negotiations amid Iran tensions. Trump faces midterm pressure giving Xi leverage, while bringing corporate leaders like Musk, Cook, and Jensen. The US seeks trade deals for Boeing and soybeans, while China prioritizes Taiwan and semiconductor access.",
+    "audio_url": "https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3",
+    "start_seconds": 24,
+    "end_seconds": 459,
+    "score": 0.8,
+    "reason": "info=0.80 eng=0.80 penalty=0.00 Detailed trade dynamics with geopolitical stakes",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Trump",
+      "Xi",
+      "Elon Musk",
+      "Tim Cook",
+      "Jensen Huang",
+      "Boeing",
+      "Nvidia",
+      "Trump-Xi Summit"
+    ],
+    "topics": [
+      "us china relations",
+      "trade negotiations",
+      "geopolitics",
+      "taiwan",
+      "semiconductors",
+      "politics"
+    ],
+    "trace": {
+      "episode_id": "e44f8a6f66792cab",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 10:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "8f3f35c4ac339a6e",
+    "source_name": "Bankless",
+    "episode_title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "segment_title": "Producer Inflation and Rate Hike Odds",
+    "summary": "PPI came in at 6% year-over-year versus the 4.9% estimate, suggesting upward pressure on CPI. Polymarket now shows 28% probability of a Fed rate hike in 2026, up from 20%, making it difficult for Warsh to cut rates.",
+    "audio_url": "https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3",
+    "start_seconds": 614,
+    "end_seconds": 665,
+    "score": 0.76,
+    "reason": "info=0.80 eng=0.70 penalty=0.00 Specific PPI data with probability metrics",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Fed",
+      "Polymarket",
+      "Producer Inflation",
+      "Rate Hike Odds",
+      "PPI",
+      "CPI. Polymarket",
+      "Warsh",
+      "ROLLUP"
+    ],
+    "topics": [
+      "inflation",
+      "producer prices",
+      "interest rates",
+      "producer",
+      "rate",
+      "hike",
+      "odds",
+      "came"
+    ],
+    "trace": {
+      "episode_id": "e44f8a6f66792cab",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 10:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "9c906141e49541b9",
+    "source_name": "Bankless",
+    "episode_title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "segment_title": "Two Phases of AI Revolution",
+    "summary": "The AI revolution has two phases: first is the rise of chips and compute with NVIDIA powering the chatbot revolution. Second is the memory phase for AI agents where longer context windows require better memory capacity, marking the current inflection in AI stocks.",
+    "audio_url": "https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3",
+    "start_seconds": 1073,
+    "end_seconds": 1107,
+    "score": 0.8,
+    "reason": "info=0.80 eng=0.80 penalty=0.00 Clear two-phase framework with forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "NVIDIA",
+      "Two Phases",
+      "AI Revolution",
+      "Second",
+      "ROLLUP",
+      "Bull Back",
+      "Wall Street",
+      "Ethereum"
+    ],
+    "topics": [
+      "ai revolution",
+      "chips",
+      "memory",
+      "ai agents",
+      "history",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "e44f8a6f66792cab",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 10:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "fd5119acb32eda15",
+    "source_name": "Bankless",
+    "episode_title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "segment_title": "Bitcoin Long-Term Cycle Analysis",
+    "summary": "Long-term charts show Bitcoin establishing solid base with lows from 2022-2024. Short-term holder cost basis at 79K, and closing above this level multiple weeks could mark end of bear cycle. Michael Nato expects potential dump to 60s before slow grind up due to high inflation and lack of new buyers.",
+    "audio_url": "https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3",
+    "start_seconds": 1203,
+    "end_seconds": 1368,
+    "score": 0.8,
+    "reason": "info=0.80 eng=0.80 penalty=0.00 Technical cycle analysis with forward scenarios",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Michael Nato",
+      "Bitcoin",
+      "Bitcoin Long-Term Cycle Analysis",
+      "Long-term",
+      "Short-term",
+      "ROLLUP",
+      "Bull Back",
+      "Wall Street"
+    ],
+    "topics": [
+      "bitcoin",
+      "cycle analysis",
+      "market analysis",
+      "bear market",
+      "long term",
+      "cycle",
+      "analysis",
+      "charts"
+    ],
+    "trace": {
+      "episode_id": "e44f8a6f66792cab",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 10:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "2922a05f8e8cc334",
+    "source_name": "Bankless",
+    "episode_title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "segment_title": "Private Market Access and AI Boom Inequality",
+    "summary": "The hosts discuss how the current AI boom is a generational wealth event similar to the dot-com era, but all gains remain private. This creates systemic inequality where retail investors use elaborate schemes to access companies like Anthropic, OpenAI, and SpaceX, only to have their investments wiped out when companies invalidate transfers.",
+    "audio_url": "https://episode.flightcast.com/01KRMX1F53CZCYXHE85F18BK3Y.mp3",
+    "start_seconds": 2603,
+    "end_seconds": 2669,
+    "score": 0.77,
+    "reason": "info=0.75 eng=0.80 penalty=0.00 Dot-com parallel with systemic inequality and wealth access critique",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Anthropic",
+      "OpenAI",
+      "SpaceX",
+      "Private Market Access",
+      "AI Boom Inequality",
+      "ROLLUP",
+      "Bull Back",
+      "Wall Street"
+    ],
+    "topics": [
+      "ai boom",
+      "private markets",
+      "wealth inequality",
+      "investment access",
+      "business",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "e44f8a6f66792cab",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 10:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

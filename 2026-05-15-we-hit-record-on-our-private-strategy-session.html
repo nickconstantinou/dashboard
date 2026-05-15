@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>We hit record on our private strategy session | Nick's Blog</title>
+  <meta name="description" content="My First Million — Tech/Business">
+  <meta property="og:title" content="We hit record on our private strategy session">
+  <meta property="og:description" content="My First Million — Tech/Business">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-05-15 · Tech/Business</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="My First Million">
+          <div class="podcast-hero-text">
+            <div class="source-label">My First Million</div>
+            <h1>We hit record on our private strategy session</h1>
+            <p class="subtitle">If you've ever wondered how one of the internet's most successful business podcasts actually gets made—and more importantly, how it survives and evolves six years and 822 episodes …</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <p><strong>[00:00]</strong> My First Million hosts Sam Parr and Sean Ostrom (joined by team members Ari and Cassie) publicly recorded their private quarterly strategy meeting, revealing the raw, unfiltered planning process behind one of the internet's largest business podcasts.</p>
+
+<p><strong>[02:30]</strong> Sam revealed the pre-work meeting method he learned at Amazon: sending 10 questions in advance (What's working? What's not? Biggest pet peeve? What's obviously stupid we're not doing?) and designating one person as "the collator" to gather responses before discussion—because only 1% of people think well on the spot under social pressure.</p>
+
+<p><strong>[05:15]</strong> Sam articulated the "virtue of selfishness" principle: the podcast should primarily be about having fun, feeding their own curiosity, and self-improvement, referencing Rick Rubin's quote that "the best way to serve your audience is to ignore them completely."</p>
+
+<p><strong>[08:45]</strong> The speaker admitted to getting trapped in data-driven content creation, confessing: "I notice the night before [recording data-driven episodes], I get the Sunday scaries... I dislike those the most," while episodes born from genuine curiosity (like discussing a book they just read or Sean's visit to Austin) leave them with more energy than they started.</p>
+
+<p><strong>[11:30]</strong> MFM by the numbers: 6 years old, 822 episodes, approximately 115 million total downloads, built entirely on the "Dude, have you seen this?" shtick—and they've never had a social media person, lost Instagram passwords for years, and didn't know their LinkedIn page existed until someone else mentioned it.</p>
+
+<p><strong>[15:00]</strong> Sam's "Basement Yard" case study: he's watched approximately 200 clips of the podcast but never listened to a full episode, yet he confidently says "I love those guys, that podcast is amazing." Every clip delivers the same consistent feeling (hilarious, relatable), which is why samplers matter more than loyal listeners for growth.</p>
+
+<p><strong>[19:30]</strong> The core strategic problem identified: "I don't think we're doing a good job of giving out the samples of what's in MFM... We don't do a good job of architecting those clips in a way that me and Sean would want to share."</p>
+
+<p><strong>[22:15]</strong> The Chris Williamson parallel: Sam appeared on Williamson's podcast, which underperformed his normal numbers, but Williamson's team clipped consistently for three weeks—one clip got an Elon Musk reply—demonstrating how the same content can generate 20+ viral moments when properly distributed.</p>
+
+<p><strong>[25:00]</strong> Flashback to their "clipper army" bounty: they once offered $5,000 to whoever created the best clips and generated 20 million impressions in one month. One participant later founded a short-form content company that was acquired by Morning Brew. Then they immediately stopped doing it.</p>
+
+<p><strong>[28:45]</strong> The 90-day challenge assigned to Cassie: build a "clipper army" by paying creators (especially 16-22 year olds) on a CPM basis (approximately $1 per 1,000 views) to clip MFM content aggressively across X, Instagram, and TikTok—without controlling their accounts, going "stupidly aggressive" to get a clear answer rather than tiptoeing into it.</p>
+
+<h1>Inside the Strategy Session That Powers One of Podcasting's Most Underrated Empires</h1>
+
+<h2>What My First Million's Private Meeting Reveals About Building Media Businesses That Last</h2>
+
+<p>If you've ever wondered how one of the internet's most successful business podcasts actually gets made—and more importantly, how it survives and evolves six years and 822 episodes in—this episode pulls back the curtain on the unglamorous, often chaotic process of running a media company without a manual.</p>
+
+<p>Sam Parr and Sean Ostrom, the hosts of *My First Million* (MFM), did something unusual: they hit record on their own private quarterly strategy meeting and released it publicly. The result is a revealing glimpse into how two entrepreneurs think about content creation, audience growth, and the eternal tension between chasing metrics and following curiosity. Sitting in on the session with them are team members Ari and Cassie, the newest addition to what is, somewhat comically, one of the largest podcasts in the business space with one of the most minimal operational infrastructures imaginable.</p>
+
+<p>The context matters here. MFM launched six years ago with a simple premise—the iconic "Dude, have you seen this?" exchange that opens every episode, followed by Sean or Sam revealing something they've discovered that might be an empire-building opportunity. Six years later, they've accumulated approximately 115 million downloads across 822 episodes. They've never had a social media person. At one point, Sam didn't even know their Instagram password. Someone from HubSpot recently asked if anyone had the Twitter login. Nobody did.</p>
+
+<p>This is the backdrop for their strategy session: a media empire built on authentic conversation and genuine curiosity, operated with almost endearing organizational chaos.</p>
+
+<h2>The Pre-Work Method That Changes Everything</h2>
+
+<p>The meeting opens with Sam revealing a technique he absorbed during Amazon's acquisition of one of his previous companies. Before any strategy session, he sends out pre-work—10 or so questions that participants answer in advance. The questions are simple but pointed: What's working right now? What's not working? What's your biggest pet peeve about the podcast? What's something obviously stupid we're not doing?</p>
+
+<p>One person serves as "the collator," gathering all these responses and using them to structure the discussion. The logic is straightforward, even if it's rarely applied: most people don't think clearly on the spot in front of others. The ones who do—those who can spontaneously generate insightful, honest, actionable takes—are perhaps one percent of the population. The rest of us need time to process, reflect, and write down what we actually think before we're put on the spot.</p>
+
+<p>This method transforms meetings from performance spaces into honest conversations. When people have written down their real concerns in advance, the discussion can build on actual thinking rather than social posturing.</p>
+
+<h2>The Virtue of Selfishness: Why Chasing Your Audience Backfires</h2>
+
+<p>One of the meeting's most compelling moments comes when Sam shares his pre-work response, which he frames as "the virtue of selfishness." His core argument: the podcast should be built around what he and Sean find genuinely interesting, fun, and worth learning about—not what the data suggests audiences want to hear.</p>
+
+<p>He references a quote from legendary producer Rick Rubin: "The best way to serve your audience is to ignore them completely." The logic isn't that audiences don't matter; it's that authentic curiosity produces better content than calculated audience appeasement. When you try to reverse-engineer popularity, something gets lost in translation.</p>
+
+<p>Sean validates this perspective with a personal confession. Every once in a while, he gets drawn into looking at YouTube numbers—those public, visible metrics that can feel like a report card on your creative work. He'll start thinking in headlines, strategizing which topics might generate the highest click-through rates. Sometimes they act on those ideas.</p>
+
+<p>But here's the tell: "I noticed that the night before, I get the Tuesday scaries—because we record on Wednesdays—I notice that I dislike those the most."</p>
+
+<p>Conversely, the episodes that leave him energized are the ones that emerge from genuine curiosity. Maybe he read a book he's dying to tell Sean about. Maybe Sean visited Austin and had an experience worth discussing. Maybe they have a guest whose background genuinely intrigues them—someone like Graham Weaver or Sarah Moore where the conversation flows from real interest rather than algorithmic calculation.</p>
+
+<p>The pattern is clear: curiosity-driven content energizes the creators. Data-driven content drains them. And creators who are energized bring more to the microphone than creators who are phoning it in.</p>
+
+<h2>The Sample Economy: Why Clips Matter More Than Episodes</h2>
+
+<p>The meat of the strategy session focuses on a single, significant insight: My First Million is failing at something fundamental that every successful modern media company does well.</p>
+
+<p>Sam uses a personal example that crystallizes the concept. He loves a podcast called *Basement Yard*. He's never listened to a full episode. In fact, he's never even come close. But he's watched approximately 200 clips of the show across various platforms. If you asked him about it, he'd enthusiastically tell you: "Oh my god, I love those guys. That podcast is amazing."</p>
+
+<p>He feels like he knows the hosts. He feels like he knows the show's personality. And most importantly, every single clip he's seen delivers the same feeling—consistently hilarious, consistently warm, consistently worth his time. The clips aren't a random sampling of the podcast's range. They're architecturally designed to give new viewers the same experience: "That show is funny. If I ever wanted a funny show, that's where I would go."</p>
+
+<p>This is the "sampler" economy, and it's how most people consume most content in 2024. Loyal listeners matter—they're committed, they'll tune in weekly, they'll support you through sponsors. But samplers are the gateway drug. They're the people who encounter a piece of your content somewhere they're already spending time, get a perfect bite-sized taste of what you do, and decide whether they want more.</p>
+
+<p>The problem, as Sam diagnoses it: "I don't think we're doing a good job of giving out the samples of what's in MFM to give people that frame break or that inspiration or that story or the banter... in a good enough way where people already are."</p>
+
+<p>MFM's content contains countless moments that could function as perfect samples—fascinating business insights, hilarious banter, mind-expanding ideas. But they're not being extracted, edited tightly, and distributed to places where potential listeners already spend time.</p>
+
+<h2>The Chris Williamson Parallel and the Invisible Opportunity</h2>
+
+<p>Sam illustrates the potential with a concrete example from his own experience. He recently appeared on Chris Williamson's podcast. By Chris's usual standards, the episode was underwhelming—one of Sam's lower-performing appearances. But here's what happened next: Chris's team clipped from that episode for three consecutive weeks. They extracted little stories, little nuggets, and posted them consistently across platforms.</p>
+
+<p>One of those clips—a story Sam told about something entirely unrelated to business—got a reply from Elon Musk.</p>
+
+<p>That single moment of visibility, from one extracted clip, might have generated more awareness for MFM than a dozen fully-optimized episodes. And here's the devastating context Sam offers: "That same thing could happen maybe 20 times from MFM, and it doesn't happen."</p>
+
+<p>The opportunity is invisible precisely because it doesn't exist yet. They have no frame of reference for what viral clipping could do for their growth because they've never systematically pursued it. "It's like the dog's not barking," Sam says. "We don't know what we're missing because it's not obvious."</p>
+
+<h2>The Clipper Army Experiment They Accidentally Ran—and Immediately Forgot</h2>
+
+<p>The evidence that this strategy works already exists in MFM's own history. Months or years ago, they ran a simple experiment: they offered $5,000 to whoever created the best clips of their content over a specific period. The only qualification was quality—subjective, but something they could evaluate.</p>
+
+<p>The results were staggering. In just one month, the initiative generated approximately 20 million impressions. The approach worked precisely because it leveraged external creativity and energy rather than relying on an overstretched internal team.</p>
+
+<p>Even more remarkably, the person who created the most viral clips—a teenager or young 20-something who'd probably never considered content creation as a career—went on to build a legitimate short-form content company. That company was eventually acquired by Morning Brew.</p>
+
+<p>The moral of the story should have been obvious: "This worked incredibly well. Let's do more of this." Instead, what actually happened is something almost perfectly designed to illustrate the meeting's themes about data-driven versus curiosity-driven decision-making. They immediately stopped doing it. They forgot about it. They haven't mentioned it since.</p>
+
+<p>"We're pretty comically like cartoonishly bad at some of these things," Sean admits.</p>
+
+<h2>The 90-Day Challenge: Going All-In on Clips</h2>
+
+<p>The strategy session concludes with concrete action items. The team identifies three primary platforms for aggressive clipping: X (formerly Twitter), Instagram, and TikTok. The approach is straightforward in concept but requires systematic execution.</p>
+
+<p>For each episode, they need to extract three to four moments that perfectly represent what MFM is—tightly edited, immediately understandable to a newcomer, and shareable by Sam and Sean themselves. The last criterion is crucial. If the hosts wouldn't proudly share a clip, it's not a good enough clip. It needs to be something they'd text to a friend with a note saying, "Watch this."</p>
+
+<p>The operational plan falls to Cassie, the newest team member. Her 90-day challenge is to build what they're calling a "clipper army"—a network of young, talented content creators (ideally 16-22 years old) who are genuinely skilled at editing and short-form distribution. Instead of relying solely on internal capacity, they'll incentivize external creators with financial rewards.</p>
+
+<p>The compensation model: CPM-based payment, roughly $1 per 1,000 views on clips. Post a video that hits 100,000 views? You earn around $100. Something goes viral to a million views? That's $1,000. The economics are scalable and performance-based, which means the most talented, most viral-prone creators naturally rise to the top.</p>
+
+<p>The key principle is aggressive commitment. "Go all out," Sam instructs. "Spend more money than you think you need. Be a little bit looser with the controls about it. Go for more scale. Let's get a clear answer rather than tiptoeing into it."</p>
+
+<p>The 90-day timeline is intentional. It's long enough to generate meaningful data and build sustainable systems, but short enough to force urgency and honest evaluation. At the end of the period, they'll know whether this approach works well enough to continue or whether they need to pivot.</p>
+
+<h2>The Format Truth: Meetings Should Sound Like the Podcast</h2>
+
+<p>One of the session's funnier moments comes when Ari (in a text-to-speech voice) points out that the meeting format feels different from the podcast's natural conversational style. Sam seconds this immediately: "Can we get an impression of how I am off-podcast when we're doing strategy? I'm like, 'What's not working? Why are we doing this? This is stupid. Give a better answer.'"</p>
+
+<p>Sean admits he's more "Podcast Sean"—softer, more diplomatic, more considerate of feelings. "Off-podcast Sean" is blunter, more direct, occasionally harsh. The observation prompts a productive meta-discussion: the strategy meetings should sound more like the podcast itself. The candid, direct, occasionally abrasive energy that makes the show engaging should permeate the planning process too.</p>
+
+<p>This isn't just about tone. It's about getting to honest answers faster. Strategy meetings that are too polite produce mediocre strategies. The insight that MFM's clip strategy has been invisible to them for years—which, in retrospect, seems obviously massive—probably wouldn't have emerged from a more diplomatic conversation.</p>
+
+<h2>Who Should Watch This Strategy Session</h2>
+
+<p>This content is essential viewing for several distinct audiences.</p>
+
+<p><strong>Podcasters and media creators</strong> will find the clip strategy discussion particularly valuable. The session doesn't just advocate for creating clips—it explains the psychology of why clips matter (the sampler economy), provides concrete examples of successful clip strategies (Basement Yard, Chris Williamson's consistent clipping), and offers a ready-to-implement operational framework (the 90-day clipper army challenge with CPM-based payments).</p>
+
+<p><strong>Business owners and operators</strong> will appreciate the pre-work meeting method. Sam's Amazon-derived technique of sending questions in advance and designating a "collator" is applicable to board meetings, team retrospectives, planning sessions, and any context where you want participants to think clearly rather than perform confidently.</p>
+
+<p><strong>Entrepreneurs wrestling with authenticity versus growth</strong> will find the "virtue of selfishness" framework valuable. The tension between doing what audiences want and doing what genuinely excites you isn't unique to podcasting. Any creator, founder, or operator faces this trade-off. The insight that following your curiosity often serves your audience better than calculating their preferences is counterintuitive but backed by the speakers' own experience and Rick Rubin's wisdom.</p>
+
+<p><strong>Anyone running a small team</strong> will recognize the honest self-assessment about organizational chaos. MFM's admission that they've never had a social media person, that they've lost passwords to their own accounts, that they abandoned a wildly successful strategy almost immediately after launching it—these aren't just funny anecdotes. They're evidence that great content and good strategy don't require perfect operations. Getting started and being consistent matters more than optimizing every detail.</p>
+
+<p>The underlying message is almost paradoxical: the most successful media company built on authenticity is one that openly records its own strategic chaos, admits its failures, and commits to aggressive experiments designed to fail fast and learn faster. In a landscape obsessed with polish and optimization, there's something refreshingly honest about founders who will put</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "828980fa9f8601e7",
+    "source_name": "My First Million",
+    "episode_title": "We hit record on our private strategy session",
+    "segment_title": "Meeting Setup and Pre-work Method",
+    "summary": "The hosts introduce their live-recorded strategy meeting and explain a meeting methodology borrowed from Amazon where team members submit pre-work answers to questions in advance, allowing for more valuable discussions by giving people time to think rather than forcing spontaneous responses in group settings.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3",
+    "start_seconds": 0,
+    "end_seconds": 130,
+    "score": 0.69,
+    "reason": "info=0.85 eng=0.45 penalty=0.00 Practical Amazon method with utility density; meta framing lacks tension",
+    "timing_quality": "estimated",
+    "subject_id": "tech_business",
+    "subject": "tech_business",
+    "entities": [
+      "Amazon",
+      "Meeting Setup",
+      "Pre-work Method",
+      "My First Million"
+    ],
+    "topics": [
+      "meeting methodology",
+      "team collaboration",
+      "pre work strategy",
+      "sports"
+    ],
+    "trace": {
+      "episode_id": "93ddfd257f035cd8",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 11:27:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "d0261dc574c0b05e",
+    "source_name": "My First Million",
+    "episode_title": "We hit record on our private strategy session",
+    "segment_title": "Content Strategy: Authenticity Over Data",
+    "summary": "Sam advocates for a selfish approach to content creation\u2014doing what personally energizes them rather than chasing data-driven headlines. They reference Rick Rubin's philosophy of ignoring audiences to best serve them, noting that episodes created from genuine curiosity consistently leave them more energized than those optimized for click-through rates.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3",
+    "start_seconds": 130,
+    "end_seconds": 258,
+    "score": 0.746,
+    "reason": "info=0.88 eng=0.72 penalty=-0.07 Rick Rubin philosophy cited; candid pivot to selfish approach over data chasing",
+    "timing_quality": "estimated",
+    "subject_id": "tech_business",
+    "subject": "tech_business",
+    "entities": [
+      "Rick Rubin",
+      "Content Strategy",
+      "Authenticity Over Data",
+      "Sam",
+      "Rick Rubin's",
+      "My First Million"
+    ],
+    "topics": [
+      "content strategy",
+      "authenticity",
+      "podcast philosophy",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "93ddfd257f035cd8",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 11:27:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "f608556f73d9d435",
+    "source_name": "My First Million",
+    "episode_title": "We hit record on our private strategy session",
+    "segment_title": "Clipper Army Bounty Success Story",
+    "summary": "A past $5,000 bounty for top clippers generated 20 million impressions in one month. One winner created a company doing short-form content that was sold to Morning Brew, showing the model's potential.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3",
+    "start_seconds": 665,
+    "end_seconds": 729,
+    "score": 0.828,
+    "reason": "info=0.86 eng=0.78 penalty=0.00 Quantified success ($5K bounty, 20M impressions); entrepreneurial proof point",
+    "timing_quality": "estimated",
+    "subject_id": "tech_business",
+    "subject": "tech_business",
+    "entities": [
+      "Morning Brew",
+      "Clipper Army Bounty Success",
+      "Story",
+      "One",
+      "My First Million"
+    ],
+    "topics": [
+      "clipper army",
+      "bounty program",
+      "incentives",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "93ddfd257f035cd8",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 11:27:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "0d109dc71a929a58",
+    "source_name": "My First Million",
+    "episode_title": "We hit record on our private strategy session",
+    "segment_title": "MFM One Percent Curated Event Idea",
+    "summary": "Discussion about creating an exclusive MFM event for the top 1% of listeners. The host wants to meet the most interesting fans and curate a retreat-style gathering of around 150 people with guests like Andrew and Stef Smith, prioritizing genuine connection over money or ego.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3",
+    "start_seconds": 887,
+    "end_seconds": 1006,
+    "score": 0.68,
+    "reason": "info=0.70 eng=0.65 penalty=0.00 Detailed event specs (150 people, named guests); genuine connection priority",
+    "timing_quality": "estimated",
+    "subject_id": "tech_business",
+    "subject": "tech_business",
+    "entities": [
+      "Ben Levy",
+      "Andrew",
+      "Stef Smith",
+      "MFM One Percent Curated",
+      "Event Idea",
+      "Discussion",
+      "MFM",
+      "My First Million"
+    ],
+    "topics": [
+      "podcast community",
+      "event planning",
+      "curated networking",
+      "percent",
+      "curated",
+      "event",
+      "idea",
+      "discussion"
+    ],
+    "trace": {
+      "episode_id": "93ddfd257f035cd8",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 11:27:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "cfa989b781c6ee99",
+    "source_name": "My First Million",
+    "episode_title": "We hit record on our private strategy session",
+    "segment_title": "MFM Tiny Desk Event Concept",
+    "summary": "Brainstorming an intimate event format inspired by NPR's Tiny Desk series. The concept involves a small venue with about 20 entrepreneurs, using a spitball Q&A format where the hosts help solve attendees' problems in real-time, creating authentic content.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/HS2231923730.mp3",
+    "start_seconds": 1056,
+    "end_seconds": 1175,
+    "score": 0.73,
+    "reason": "info=0.75 eng=0.70 penalty=0.00 Named inspiration (Tiny Desk), specific format (20 entrepreneurs, spitball Q&A)",
+    "timing_quality": "estimated",
+    "subject_id": "tech_business",
+    "subject": "tech_business",
+    "entities": [
+      "NPR",
+      "Hormozi",
+      "Mercury One",
+      "MFM Tiny Desk Event",
+      "Concept",
+      "Brainstorming",
+      "NPR's Tiny Desk",
+      "Q&A"
+    ],
+    "topics": [
+      "podcast events",
+      "content creation",
+      "q a format",
+      "intimate gatherings",
+      "tiny",
+      "desk",
+      "event",
+      "concept"
+    ],
+    "trace": {
+      "episode_id": "93ddfd257f035cd8",
+      "feed_url": "",
+      "published_at": "Fri, 15 May 2026 11:27:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

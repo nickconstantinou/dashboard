@@ -34,12 +34,34 @@ var posts = [
   },
   {
     "date": "May 15, 2026",
+    "title": "ROLLUP: Is the Bull Back? | The Clarity Act | Wall Street on Ethereum | Anthropic Nukes Perps",
+    "url": "2026-05-15-rollup-is-the-bull-back-the-clarity-act-wall-stree.html",
+    "category": "Crypto/Web3",
+    "excerpt": "## Introduction The third week of May delivered a striking divergence: equity markets continued their relentless march to new all-time highs for the fourth consecutive week, while beneath the surface,",
+    "tags": [
+      "Crypto/Web3"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 15, 2026",
     "title": "The UK Is Still Losing Cheap Stocks to Private Equity Bargain Hunters",
     "url": "2026-05-15-the-uk-is-still-losing-cheap-stocks-to-private-equ.html",
     "category": "Finance",
     "excerpt": "## Introduction The UK equity market faces a structural challenge that extends far beyond political turbulence \u2014 and it's accelerating. In the latest episode of the Bloomberg UK *Market Wrap* podcast,",
     "tags": [
       "Finance"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "May 15, 2026",
+    "title": "We hit record on our private strategy session",
+    "url": "2026-05-15-we-hit-record-on-our-private-strategy-session.html",
+    "category": "Tech/Business",
+    "excerpt": "**[00:00]** My First Million hosts Sam Parr and Sean Ostrom (joined by team members Ari and Cassie) publicly recorded their private quarterly strategy meeting, revealing the raw, unfiltered planning p",
+    "tags": [
+      "Tech/Business"
     ],
     "type": "podcast"
   },
