@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>$200 Oil by June?—The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis | Nick's Blog</title>
+  <meta name="description" content="Bankless — Crypto/Web3">
+  <meta property="og:title" content="$200 Oil by June?—The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis">
+  <meta property="og:description" content="Bankless — Crypto/Web3">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,161 +70,340 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">Wed, 29 Apr 2026 11:33:00 -0000 • Crypto/Web3</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><p># Key Insights</p>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-04-29 · Crypto/Web3</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Bankless">
+          <div class="podcast-hero-text">
+            <div class="source-label">Bankless</div>
+            <h1>$200 Oil by June?—The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis</h1>
+            <p class="subtitle">In a striking moment of cognitive dissonance, the global economy currently enjoys record-breaking equity valuations driven by artificial intelligence—the most energy-intensive tech…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
 
-<p>• <strong>100 million barrels per day</strong> is the baseline global consumption figure—approximately 105 million before the current crisis—representing the entire global oil market's "flowing chemistry set" that "doesn't like to turn off or pause," making sudden supply disruptions particularly severe.</p>
+<p>In a striking moment of cognitive dissonance, the global economy currently enjoys record-breaking equity valuations driven by artificial intelligence—the most energy-intensive technology in human history—while simultaneously navigating what may become the largest energy shock the world has ever seen. This tension forms the backdrop of a revealing conversation between the Bankless Nation podcast hosts and Rory Johnston, an independent oil analyst whose Commodity Context Substack has made him one of the most cited voices on the Strait of Hormuz crisis.</p>
 
-<p>• <strong>The Strait of Hormuz</strong> handles roughly 20-25% of global oil trade, making any disruption catastrophic; this is why Iran's threats to close it represent an existential risk to global energy markets and why Rory Johnston has become the most-cited independent analyst on this specific crisis.</p>
+<p>Johnston operates in a rarified space among commodity analysts. Nicknamed Lynn Alden's "oil quant," he brings a rigorous, quantitative approach to understanding the physical mechanics of global oil markets—knowledge that has suddenly become urgent as tensions in the Persian Gulf threaten to disrupt the chokepoint through which roughly a fifth of the world's oil flows daily. The episode begins with an unusual but necessary step: a crash course in oil market fundamentals that even seasoned crypto investors will find illuminating.</p>
 
-<p>• <strong>Oil remains fundamentally irreplaceable in transportation</strong>—over 50% of consumption goes to diesel, gasoline, and jet fuel—meaning electrification is the only viable long-term substitution pathway, unlike electricity generation where oil was already largely displaced in the 1970s-80s.</p>
+<p>The timing couldn't be more pressing. With equity markets seemingly detached from underlying economic realities, and with energy prices potentially primed for historic volatility, understanding how oil markets function has become essential knowledge for anyone tracking macroeconomics, inflation, or the commodities that underpin modern civilization. Johnston's analysis suggests the convergence of high energy consumption technologies with constrained supply represents not merely an investment opportunity or risk, but a fundamental contradiction at the heart of current market enthusiasm.</p>
 
-<p>• <strong>Light sweet crude (WTI, Brent) trades at a premium to heavy sour crude (Western Canadian Select)</strong> due to lower sulfur content (requiring less refining) and lower density; the sulfur in "sour" crude literally causes acid rain and smog, making extraction costs higher.</p>
+<h2>The Barrel: Foundation of the Oil Market</h2>
 
-<p>• <strong>Peak oil has fundamentally shifted from supply concerns to demand concerns</strong>—the shale revolution (horizontal drilling + hydraulic fracturing) proved that technological innovation can continuously expand accessible reserves, fundamentally changing the industry narrative since the early 2010s.</p>
+<p>The conversation opens with what Johnston generously terms a "dumb question"—what exactly constitutes a barrel of oil? The answer reveals the fascinating archaeological layers beneath modern commodity markets. A barrel represents approximately 42 gallons, a measurement that originated from actual wooden barrels used to transport oil during the Pennsylvania oil boom of the 1860s. At one historical point, Johnston notes, the barrel itself became so valuable that barrel shortages sometimes meant the wooden container was worth more than the oil it contained. Today, the barrel exists purely as a unit of account—actual oil moves through pipelines and massive vessels called Very Large Crude Carriers (VLCCs) that each carry roughly two million barrels. But the terminology persists, a linguistic fossil from an earlier industrial age.</p>
 
-<p>---</p>
+<p>Understanding this measurement framework becomes essential when grasping the scale of potential disruptions. The world currently produces and consumes approximately 100 million barrels of oil daily—a figure Johnston rounds to for ease of calculation, making subsequent percentages intuitive. This vast flow represents not merely transportation fuel, though gasoline, diesel, and jet fuel do constitute over half of oil consumption. The remaining share includes asphalt for road surfaces, petrochemical feedstocks that become plastics, and countless other petroleum derivatives woven into modern manufacturing. A prolonged disruption at Hormuz would affect not just fuel prices but the marginal supply of virtually everything in the modern economy.</p>
 
-<h1>The Biggest Oil Shock in History: Understanding the Hormuz Crisis</h1>
+<p>The question of interchangeability proves equally important. While we speak of "oil" as if it were homogeneous, markets actually trade dozens of distinct crude varieties that are not freely substitutable. Light, sweet crudes like West Texas Intermediate (WTI) and Brent—historically the two dominant global benchmarks—command premium pricing precisely because their chemical composition requires less processing to yield high-value products. Heavy, sour crudes like Western Canadian Select trade at persistent discounts because extracting their higher sulfur content and converting their denser hydrocarbon chains into gasoline requires significantly more refinery investment. This quality differentiation means supply disruptions in specific producing regions affect specific market segments rather than uniformly pushing all oil prices higher.</p>
 
-<h2>Introduction</h2>
+<h2>Transportation: The Geography of Oil Flows</h2>
 
-<p>In a striking juxtaposition that captures the central contradiction of our current economic moment, global equity markets sit at all-time highs driven by enthusiasm around artificial intelligence—the most energy-intensive technology humanity has ever developed—while simultaneously navigating what may be the largest energy shock in history. This tension serves as the entry point for a sweeping conversation on the Bankless podcast between hosts and Rory Johnston, the independent oil analyst whose *Commodity Context* Substack has made him the most-cited voice on the Strait of Hormuz crisis.</p>
+<p>The hosts probe a crucial question: how does oil actually reach consumers? Johnston explains that while pipelines dominate certain regional trades—Canadian oil flows predominantly through pipelines to US refineries, for instance—the global oil market fundamentally operates as a tanker-based system. Once producers in Russia, Saudi Arabia, or the Permian Basin reach what traders call "tidewater"—access to open ocean shipping—their oil enters the global market essentially immediately. Tanker transit costs are so低廉 (inexpensive in normal times) that maritime shipping essentially renders all tidewater-connected oil globally fungible.</p>
 
-<p>Johnston brings a rare combination of technical depth and accessibility to a subject that touches virtually every aspect of modern civilization. His analysis, referenced by prominent economists like Lyn Alden, cuts through the noise of geopolitical headlines to explain the mechanical realities of how oil flows from ground to economy—and what happens when that flow is disrupted. This episode marks Bankless's first dedicated oil episode, necessitating a "college crash course speed run" through the fundamentals before diving into the crisis at hand.</p>
+<p>This geographical reality explains why the Hormuz Crisis carries such weight. The Strait of Hormuz, the narrow channel between Oman and Iran through which oil from the Persian Gulf must pass to reach open ocean, represents a theoretical chokepoint where tanker traffic could be disrupted. Were this to occur, the normal arbitrage mechanisms that move oil efficiently from surplus to shortage regions would be impaired. Unlike pipelines, which can sometimes reroute around regional conflicts, tanker traffic has fewer alternatives—the Cape of Good Hope route around Africa adds weeks of transit time and dramatically increased costs.</p>
 
-<p>The timing could not be more urgent. With tensions in the Persian Gulf escalating and Iran threatening to close the Strait of Hormuz—a chokepoint through which roughly one-fifth of global oil trade transits—the world faces a potential $200 per barrel oil scenario by June. Understanding why this matters requires first understanding what a barrel of oil actually is, how it moves through the global economy, and why the market's unique characteristics make it so vulnerable to deliberate disruption.</p>
+<p>Johnston emphasizes this infrastructure reality when discussing why oil markets react so sensitively to geopolitical developments in the region. The physical constraints of loading, transporting, and unloading oil create bottlenecks that futures markets and financial instruments cannot circumvent. A financial contract for oil delivery is worthless if the tankers carrying that oil cannot safely transit the relevant shipping lanes.</p>
 
-<p>---</p>
+<h2>The Chemistry of Crude: Sweet and Sour</h2>
 
+<p>The conversation delves into the technical distinctions that determine crude oil's market value. Johnston explains that "sweet" and "sour" terminology derives from sulfur content—oil industry professionals do not literally taste the product, but the reference evokes the sourness of sulfur compounds. Environmental regulations have driven sulfur reduction efforts for decades; sulfur in fuel causes acid rain and respiratory damage, problems that generated the smog crises of earlier industrial decades. Modern refiners must extract sulfur before oil enters the fuel stream, making high-sulfur crude less valuable precisely because it requires additional processing.</p>
 
+<p>This sulfur-density relationship creates a spectrum of crude qualities. Light, sweet crudes like WTI and Brent—despite trading in different markets and serving different regional refineries—share similar chemical characteristics: low sulfur content and relatively light density that makes them easier to refine into high-value products. Heavy, sour crudes trade at meaningful discounts to these benchmarks, sometimes called "discount crude" in industry parlance. The gap between light sweet and heavy sour prices fluctuates based on refinery capacity, demand patterns for different refined products, and broader market conditions.</p>
 
-<h2>The Unit Itself</h2>
+<p>Understanding this hierarchy proves essential when analyzing how supply disruptions transmit to end prices. A shock affecting light sweet crude production would most directly impact gasoline markets in regions dependent on that grade. A shock affecting heavy sour production would more directly impact diesel and industrial fuel markets. Different crises affect different portions of the refined products stream differently, a nuance often lost in simplified news coverage of "oil prices."</p>
 
-<p>A barrel of oil represents 42 gallons of liquid—an arbitrary-seeming measure with surprisingly practical origins. In the early days of the petroleum industry, oil was actually transported in physical wooden barrels, and 42 gallons emerged as a standard size that workers could safely roll and maneuver. When the industry transitioned to tankers and pipelines, the unit of measurement simply persisted. Today, no actual barrels exist; the largest tankers, called Very Large Crude Carriers or VLCCs, carry approximately two million barrels each, illustrating the extraordinary scale of modern oil logistics.</p>
+<h2>Refining: From Crude to Consumer Products</h2>
 
-<p>This historical quirk in measurement matters because it reminds us that oil markets developed around physical constraints that have since been transcended. Johnston notes that in the barrel's heyday, there were actually periods when wood shortages drove the barrel's value above the oil it contained—a secondary market that no longer exists but illustrates how physical infrastructure constraints once shaped commodity economics.</p>
+<p>The hosts pursue the logical next question: what happens when crude reaches refineries? Johnston provides a remarkably clear explanation of distillation, the foundational refinery process. Crude oil enters a tall distillation tower where intense heat causes different hydrocarbon fractions to vaporize and condense at different temperatures. At the bottom of the tower, furthest from the heat source, heavy fractions like asphalt and residual fuel oil condense—these thick, carbon-rich products eventually fuel maritime shipping and industrial processes. Moving upward, intermediate products like diesel and jet fuel condense at cooler temperatures. At the tower's top, the lightest fractions—propane, ethane, and similar gases—remain gaseous even at relatively cool temperatures.</p>
 
-<h2>The Scale of Global Consumption</h2>
+<p>This physical reality shapes refinery economics profoundly. Heavy crude requires additional processing beyond simple distillation to extract meaningful quantities of lighter, more valuable products. Refiners invest billions in "conversion units" like catalytic crackers and cokers that break heavy hydrocarbon chains into lighter fragments. The complexity of this additional processing explains why heavy sour crude commands such persistent discounts to light sweet benchmarks—refineries must invest more capital and energy to produce equivalent quantities of valuable fuels.</p>
 
-<p>Prior to the current crisis, the world produced and consumed approximately 105 million barrels of oil every single day. For ease of calculation, Johnston rounds this to 100 million barrels when analyzing market dynamics—a simplification that makes percentage calculations intuitive while maintaining practical accuracy.</p>
+<p>The implication for supply disruptions becomes clear: the products most consumers interact with daily—gasoline, diesel, jet fuel—represent only the middle and upper portions of the distillation tower. When crude supplies tighten, refiners must make economic choices about which products to maximize. Some may choose to maximize jet fuel production if aviation demand is strong; others might prioritize diesel if agricultural or trucking demand proves more lucrative. These downstream decisions affect which consumer products see the sharpest price increases during supply crunches.</p>
 
-<p>This 100 million barrel figure represents the circulation of the global economy's primary energy source. Oil powers transportation—accounting for over half of consumption through diesel, gasoline, and jet fuel—but its reach extends far beyond vehicles. Asphalt for roads, petrochemical feedstocks for plastics, and countless industrial processes depend on petroleum derivatives. As the conversation makes clear, if this crisis persists, the world will lose marginal volumes of products so embedded in modern life that their absence will be felt not just at gas pumps but across entire supply chains.</p>
+<h2>The Changing Role of Oil in Modern Economies</h2>
 
-<h2>The Chemistry Set That Never Stops</h2>
+<p>The conversation pivots to oil's evolving significance in the global economy. Johnston presents a nuanced analysis that resists simple narratives. By some measures, oil has become less central to economic activity—the energy intensity of modern economies has declined substantially since the 1970s. Where oil once dominated electricity generation, modern grids rely primarily on natural gas, coal, nuclear, and increasingly renewables. This diversification means oil represents a smaller share of total energy consumption than at any point in the post-war era.</p>
 
-<p>Perhaps the most important conceptual framework Johnston introduces is the idea that the global oil market functions as "one giant flowing chemistry set." Unlike other commodities that can be stored, paused, or redirected, oil flows continuously through extraction, processing, and distribution networks that resist interruption. Refineries cannot simply shut down overnight when supply is disrupted; they require weeks of lead time to restart safely. Similarly, oil fields cannot be turned off and on like a faucet without damaging the reservoir's long-term productivity.</p>
+<p>Yet this same trend creates paradoxical vulnerability. The sectors where oil remains irreplaceable have become more critical precisely because they represent the remaining niches where no cost-effective alternative exists. Transportation remains overwhelmingly dependent on oil-derived fuels—while electric vehicles are growing rapidly, battery technology has not yet advanced to viably replace diesel in long-haul trucking or jet fuel for aviation. Petrochemical production similarly remains wedded to petroleum feedstocks. The "low-hanging fruit" of oil consumption—easily substitutable uses in electricity and heating—has already been largely displaced. What remains is specialized and difficult to replace.</p>
 
-<p>This fundamental characteristic explains why the oil market is uniquely vulnerable to supply shocks. When demand spikes or supply drops, the system cannot respond instantly. Storage buffers exist but are finite. Price signals that might encourage production or conservation take time to transmit through the economy. The result is a market prone to dramatic price swings when disruption occurs—and one where deliberate closure of a critical transit route like Hormuz represents not merely an inconvenience but a potential civilization-level shock.</p>
+<p>Johnston frames this as a crucial insight for understanding current market dynamics. While the overall economy has become more energy-efficient and less oil-intensive per dollar of GDP, the marginal barrels of oil that enter the market support increasingly essential functions. If supply constraints force demand destruction, that destruction must occur in sectors where alternatives remain unavailable or prohibitively expensive—precisely the sectors most painful to sacrifice.</p>
 
-<p>---</p>
+<p>The historical parallel proves instructive. Following the oil shocks of the 1970s, demand destruction occurred as high prices naturally incentivized conservation and alternative investment. Nuclear power plants, natural gas infrastructure, and early renewable technologies all received massive investment as energy prices made them economically viable. Today's situation differs because those easier substitutions have already occurred; future adaptations require more expensive technological solutions. A prolonged Hormuz disruption would force demand destruction at the margin where the cost is highest, not lowest.</p>
 
-<h1>The Infrastructure of Oil: Transportation and Quality</h1>
+<h2>The Irony of AI and Energy</h2>
 
-<h2>How Oil Moves</h2>
+<p>The episode's opening observation returns to frame the conversation's broader significance. Equity markets currently reach all-time highs driven largely by enthusiasm around artificial intelligence—the most computationally intensive technology ever developed. Machine learning models require enormous electricity consumption, data centers require constant cooling, and the semiconductor supply chain runs on energy-intensive manufacturing processes. Yet this enthusiasm coexists with record energy prices and the threat of the largest supply disruption in oil market history.</p>
 
-<p>The vast majority of global oil reaches consumers via tanker, which is why shipping industry dynamics sit at the core of oil market analysis. In normal, non-crisis times, tanker transit is remarkably cheap—cheap enough that once oil reaches "tidewater" (the open ocean), producers effectively access the global market regardless of their geographic location.</p>
+<p>Johnston finds this juxtaposition "very funny" in a pointed way. Financial markets celebrate technological progress while apparently ignoring the energy substrate that progress requires. If oil prices spike dramatically—potentially to the $150-200 range some analysts project—energy-intensive industries including AI computing would face margin compression. Data centers running on diesel generators, semiconductor fabs requiring precise temperature control, and supply chains built on just-in-time logistics would all feel pressure. The optimism around AI penetration assumes energy remains available and affordable, yet the current energy landscape offers no such guarantee.</p>
 
-<p>This creates interesting regional variations. Canadian oil, for instance, travels primarily through pipelines to U.S. refineries—unusual in a world where most producers export via tanker. The Permian Basin in West Texas routes its crude to the Gulf Coast for tanker export. Russia and Saudi Arabia both pipe oil to ports where it enters the tanker trade. The economics of pipeline versus tanker are specific to each relationship, but the fundamental point is that the ocean tanker network represents the circulatory system of global oil trade—and the Strait of Hormuz sits at a critical junction in that system.</p>
+<p>This tension suggests the equity market enthusiasm may be more fragile than current valuations imply. Any sustained energy price shock would force investors to reassess the true costs of energy-intensive technologies. Companies whose business models assume abundant cheap energy might find their margins compressed precisely when investor enthusiasm seems highest. The disconnect between software-sector optimism and energy-sector fundamentals represents a risk that conventional equity analysis largely ignores.</p>
 
-<h2>Crude Oil Is Not Created Equal</h2>
+<h2>Who This Episode Is For</h2>
 
-<p>A crucial nuance Johnston emphasizes is that not all crude oil is interchangeable. While the 100 million barrel daily figure treats oil as a homogeneous commodity for market analysis, real crude varieties differ substantially in value based on two primary characteristics: density and sulfur content.</p>
+<p>This conversation serves multiple distinct audiences with different priorities. <strong>Macro investors and economic forecasters</strong> will find Johnston's analysis essential for understanding how commodity market mechanics transmit to broader economic conditions. His emphasis on physical infrastructure—tanker routes, refinery capacity, distillation tower chemistry—provides grounding that financial analysis often lacks. Understanding that oil prices reflect physical reality, not just speculative sentiment, helps explain why geopolitical developments move markets so sharply.</p>
 
-<p>Density determines how "heavy" or "light" a crude is—a function of the length of hydrocarbon chains in the mixture. Light crude flows more easily and yields a higher proportion of valuable, lighter products like gasoline. Heavy crude requires more intensive refining to extract comparable value and produces more of the heavier, less valuable products like asphalt and fuel oil.</p>
+<p><strong>Crypto and DeFi investors</strong> tracking inflation-sensitive assets will benefit from understanding how oil supply disruptions affect broader monetary conditions. Energy costs flow through virtually every economic sector; sustained oil price increases would likely push inflation higher, potentially affecting interest rate expectations and the risk-on/risk-off dynamics that drive crypto markets. The episode provides conceptual tools for thinking through these transmission mechanisms systematically.</p>
 
-<p>Sulfur content determines whether crude is "sweet" or "sour." Johnston clarifies that the terminology derives from literal taste—sulfur compounds give sour crude an unpleasant character—but the practical concern is environmental. High sulfur crude produces pollutants that cause acid rain and smog, requiring additional processing to meet environmental standards. This makes sour crude less valuable because refiners must invest in sulfur extraction. Typically, light crude is also sweeter, while heavy crude tends to be sour, though the correlations are not perfect.</p>
+<p><strong>Energy sector investors and professionals</strong> seeking deeper understanding of market structure will find Johnston's explanations of sweet/sour differentials, refining processes, and transportation logistics valuable. Whether evaluating refinery stocks, master limited partnerships, or direct commodity investments, understanding the physical supply chain context improves investment analysis.</p>
 
-<p>The major benchmark crudes—West Texas Intermediate (WTI) and Brent Crude—are both light and sweet, making them the premium grades against which others are priced. Western Canadian Select, Canada's primary export blend, is a heavy sour crude that typically trades at a discount to these benchmarks.</p>
+<p><strong>Anyone seeking to understand current events</strong> with more than surface-level analysis will gain substantially from this episode. The Hormuz Crisis receives extensive news coverage, but most reporting focuses on geopolitical tensions without explaining why these tensions matter economically. Johnston's framework transforms news about tanker threats or Iranian posturing into concrete supply scenarios with testable implications.</p>
 
-<h2>The Refining Process</h2>
-
-<p>Understanding how crude becomes usable requires a brief tour of the refinery. Johnston explains that crude oil is not consumed directly; rather, it's processed in distillation towers where heat separates the various hydrocarbon fractions based on their boiling points. At the bottom of the tower, heaviest materials like asphalt condense. Moving upward, you find fuel oil, diesel, and jet fuel. At the top, the lightest gases like propane collect.</p>
-
-<p>This fractional distillation means that a refinery's configuration matters enormously. A refinery optimized for heavy sour crude cannot easily switch to processing light sweet crude, and vice versa. This is why the geographic matching of crude grades to appropriate refineries creates a complex web of trade relationships that cannot be easily rearranged when supply routes are disrupted.</p>
-
-<p>---</p>
-
-
-
-<h2>The Shift in the Peak Oil Narrative</h2>
-
-<p>One of the most significant conceptual shifts Johnston traces is the evolution of "peak oil" discourse. When he entered the industry in the early 2010s, peak oil referred to peak oil *supply*—the Malthusian fear that global oil production would inevitably decline as accessible reserves were depleted, with demand growth outrunning discovery. This narrative dominated the 2000s, driving oil prices to record highs in 2007-2008 as investors feared an imminent supply crunch.</p>
-
-<p>Then came the shale revolution. Johnston notes that the United States, previously a massive net oil importer, transformed into a significant producer seemingly overnight. The technology enabling this transformation combined horizontal drilling (drilling sideways through rock formations) with hydraulic fracturing or "fracking" (injecting high-pressure fluids to crack rock and release oil). These techniques existed for decades but required immense technological refinement before becoming economically viable at scale.</p>
-
-<p>The implications were profound. Conventional oil pools like those described in the Beverly Hillbillies—where pressure underground drives oil up a single vertical well—represent only a fraction of accessible hydrocarbon resources. Shale oil exists dispersed throughout rock formations that would never yield to traditional drilling. The combination of techniques unlocked resources that geologists knew existed but engineers could not economically extract. The result was a fundamental revision of the supply constraint narrative: peak oil had become peak *demand*.</p>
-
-<h2>Oil's Increasing Specialization</h2>
-
-<p>Despite—or perhaps because of—this shift, oil has not become less important to the functioning of modern economies. Johnston explains that while oil's share of total energy consumption has declined (from over 10% of the S&P 500 in the 1970s to much lower levels today), the remaining oil consumption has become more specialized and therefore harder to replace.</p>
-
-<p>The major displacement occurred in electricity generation. Oil-fired power plants were once common but proved expensive compared to coal, natural gas, and nuclear alternatives. As energy systems diversified through the 1970s and 1980s, oil was progressively pushed out of this application. Today, electricity generation represents a small fraction of oil demand.</p>
-
-<p>What remains is transportation—and transportation is notoriously difficult to electrify. Internal combustion engines cannot run on coal or natural gas; they require liquid fuels. Until electric vehicles achieve sufficient market penetration, there is simply no alternative pathway for heavy transport, aviation, shipping, and the countless other applications where energy density and portability matter more than the flexibility of grid-tied power.</p>
-
-<p>This specialization cuts both ways. On one hand, as Johnston notes, the reduced energy intensity of modern economies means that oil price spikes hurt less than they would have in the 1970s. Households and businesses allocate smaller portions of their budgets to transportation fuel, and the economy generates more value per barrel consumed. On the other hand, the applications that remain dependent on oil are those where substitution is slowest and most expensive, meaning any sustained supply disruption propagates through the economy with few compensating mechanisms.</p>
-
-<p>---</p>
-
-<h1>The Hormuz Crisis: Why This Matters Now</h1>
-
-<h2>The Stakes of the Strait</h2>
-
-<p>The conversation, though interrupted before reaching full detail on the current crisis, establishes the framework for understanding why the Strait of Hormuz represents existential risk to global energy markets. The strait, controlled partly by Iran, represents a chokepoint through which approximately 20-25% of global oil trade passes. Any credible threat to close this passage—or even to harass shipping through it—creates immediate risk premiums in oil markets.</p>
-
-<p>The timing is particularly concerning given the juxtaposition Johnston highlights with AI-driven equity markets. The most transformative technology of our era requires enormous energy inputs, yet we are navigating this energy transition through what may be the most significant supply shock since the 1970s. The irony is not lost on observers: markets pricing AI infrastructure at historic valuations while the physical energy system that will power these data centers faces potential disruption.</p>
-
-<h2>The Analytical Framework Going Forward</h2>
-
-<p>Johnston's analysis establishes several key frameworks that will inform any assessment of the Hormuz crisis. First, the market's inability to quickly adjust supply means that even partial disruptions can cause disproportionate price movements. Second, the substitution pathways that exist for electricity generation do not exist for most transportation applications. Third, the global nature of the tanker network means that regional disruptions propagate rapidly to global prices.</p>
-
-<p>For investors, policymakers, and anyone concerned about energy costs, understanding these fundamentals is essential context for evaluating headlines and forecasts. The possibility of $200 per barrel oil by June—mentioned in the episode's title—represents not mere speculation but a mechanical possibility given the Strait's significance and the market's structural inflexibility.</p>
-
-<p>---</p>
-
-
-
-<h2>Takeaway 1: Oil Markets Cannot Respond Quickly to Supply Shocks</h2>
-
-<p>The fundamental characteristic of the global oil system—continuous flow through integrated infrastructure—creates inherent vulnerability to disruption. Unlike other commodities that can be redirected or inventoried, oil refineries and oil fields require sustained operation. This "chemistry set" that never stops flowing means that the first response to any supply disruption is price rather than volume adjustment. For anyone watching this crisis unfold, expect prices to spike before any demand destruction or supply substitution occurs, and understand that the eventual resolution depends on political factors that can shift rapidly but infrastructure adjustments that cannot.</p>
-
-<h2>Takeaway 2: Transportation Oil Dependency Creates Structural Fragility</h2>
-
-<p>While oil has been displaced from electricity generation and many industrial applications, it remains dominant in transportation—over 50% of consumption. This concentration is not accidental but reflects genuine technical requirements: the energy density and portability of liquid fuels exceed what batteries or other alternatives can currently provide. This means that any sustained oil price shock transmits directly to transportation costs, shipping rates, and ultimately the prices of virtually every physical good in the global economy. The specialization that occurred over decades of oil market evolution created resilience in some dimensions but created a new vulnerability in others.</p>
-
-<h2>Takeaway 3: The Shale Revolution Proved Technology Can Outrun Geological Constraints</h2>
-
-<p>The peak oil narrative that dominated the 2000s was not foolish—it reflected reasonable assumptions given the technology of the time. What the shale revolution demonstrated is that geological constraints are not fixed but interact dynamically with technological capability. Accessible reserves expand when innovation makes previously uneconomic formations viable. This does not mean infinite oil or unlimited supply, but it does mean that supply forecasts should be treated with significant uncertainty. For investors evaluating energy markets, the lesson is that the "running out" timeline may be longer than conventional wisdom suggests—while simultaneously being vulnerable to demand-side shocks that no technology can address.</p>
-
-<h2>Takeaway 4: Crude Quality Differentiation Creates Market Segmentation</h2>
-
-<p>Not all oil is interchangeable, and understanding the light sweet/heavy sour distinction is essential for grasping why certain producers command premium prices while others trade at discounts. This segmentation means that disruptions in specific crude grades affect specific markets rather than creating uniform price movements. Canadian heavy sour crude, for instance, serves refineries configured for that grade and cannot simply be replaced by Permian light sweet crude during a supply disruption. The complexity of this matching between crude grades and refinery configurations is a primary reason why global oil trade cannot easily reorganize when routes are disrupted.</p>
-
-<h2>Takeaway 5: The AI Economy and Energy Security Are in Tension</h2>
-
-<p>The episode's most provocative observation is the irony of all-time-high equity valuations driven by AI enthusiasm—a technology requiring enormous energy inputs—occurring simultaneously with the largest energy shock in history. This tension has practical implications for anyone investing in technology infrastructure. Data centers, semiconductor manufacturing, and the entire digital economy depend on physical energy systems that remain vulnerable to supply disruptions. The market's apparent confidence in continued energy availability at reasonable prices may be underpriced given the geopolitical realities in regions like the Persian Gulf.</p>
-
-<p>---</p>
-
-<h1>Who This Is For</h1>
-
-<p>This content is essential for anyone who owns financial assets, consumes goods transported by any vehicle, or makes decisions that depend on energy prices—effectively everyone. However, the discussion offers particular value to several specific audiences.</p>
-
-<p><strong>Investors and traders</strong> will find</p></p>
-      
-    </article>
+<p>The episode ultimately succeeds because it combines accessible explanation with analytical rigor. Johnston never talks down to his audience, but he also never assumes prior knowledge that lay listeners might lack. The result is genuinely educational material that serves both newcomers seeking orientation and sophisticated professionals seeking deeper context. In a media environment full of superficial oil coverage, this conversation provides the analytical foundation needed to understand what may become a defining economic event of the decade.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "58640fb81a5f0db8",
+    "source_name": "Bankless",
+    "episode_title": "$200 Oil by June?\u2014The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis",
+    "segment_title": "Record Oil Backwardation During Crisis",
+    "summary": "WTI prompt spreads hit all-time highs during this crisis, reaching $15 per barrel in early April when oil was trading around $100, effectively offering a 15% monthly yield for renting barrels to the market. This created extraordinary financial incentives to release inventories.",
+    "audio_url": "https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3",
+    "start_seconds": 2437,
+    "end_seconds": 2482,
+    "score": 0.79,
+    "reason": "info=0.85 eng=0.70 penalty=0.00 Specific crisis data with extraordinary incentives creates stakes and forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "WTI",
+      "Record Oil Backwardation During",
+      "Crisis",
+      "April",
+      "Oil",
+      "June",
+      "History",
+      "Rory Johnston"
+    ],
+    "topics": [
+      "backwardation records",
+      "prompt spreads",
+      "oil crisis",
+      "history",
+      "business"
+    ],
+    "trace": {
+      "episode_id": "9778706e988c22f2",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 11:33:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "1c8b466f7251eb7a",
+    "source_name": "Bankless",
+    "episode_title": "$200 Oil by June?\u2014The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis",
+    "segment_title": "Record Brent Prices and Market Fundamentals",
+    "summary": "Dated Brent hit a nominal all-time high exceeding $144 per barrel in early April, with additional physical delivery premiums of around $20 per barrel, bringing effective prices near $170 despite futures reaching only $119. The speaker argues this reflects genuine supply deficits rather than market manipulation.",
+    "audio_url": "https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3",
+    "start_seconds": 2578,
+    "end_seconds": 2649,
+    "score": 0.75,
+    "reason": "info=0.85 eng=0.60 penalty=0.00 Concrete price data addresses manipulation claim with stakes but mostly polished delivery",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Dated Brent",
+      "Record Brent Prices",
+      "Market Fundamentals",
+      "April",
+      "Oil",
+      "June",
+      "History",
+      "Rory Johnston"
+    ],
+    "topics": [
+      "brent prices",
+      "market manipulation",
+      "supply deficit",
+      "history",
+      "business"
+    ],
+    "trace": {
+      "episode_id": "9778706e988c22f2",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 11:33:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "8ab1b91eb67e4a31",
+    "source_name": "Bankless",
+    "episode_title": "$200 Oil by June?\u2014The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis",
+    "segment_title": "Worst Case Scenario: Iranian Attacks on Oil Infrastructure",
+    "summary": "The discussion explores the worst case scenario where Iran directly attacks major oil projects, distinguishing between weeks-to-months repair times for normal shut-ins versus months-to-years for physical damage. The speaker notes this scenario could make oil prices truly apocalyptic.",
+    "audio_url": "https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3",
+    "start_seconds": 3402,
+    "end_seconds": 3441,
+    "score": 0.77,
+    "reason": "info=0.75 eng=0.80 penalty=0.00 Worst case framing with clear escalation",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Iran",
+      "Worst Case Scenario",
+      "Iranian Attacks",
+      "Oil Infrastructure",
+      "Oil",
+      "June",
+      "History",
+      "Rory Johnston"
+    ],
+    "topics": [
+      "geopolitical risk",
+      "oil infrastructure",
+      "worst case scenario",
+      "history",
+      "crime"
+    ],
+    "trace": {
+      "episode_id": "9778706e988c22f2",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 11:33:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "4f0ad74a5b366e1f",
+    "source_name": "Bankless",
+    "episode_title": "$200 Oil by June?\u2014The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis",
+    "segment_title": "Fair Value Model and $200 Oil Price Projection",
+    "summary": "A fair value model published at commoditycontext.com projects oil prices based on Brent crude, backwardation levels, and OECD commercial inventory draws. The model suggests $100/barrel was reasonable for mid-April but could reach nearly $200/barrel by end of June if the current supply disruption persists and inventory draws continue at 5 million barrels/day.",
+    "audio_url": "https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3",
+    "start_seconds": 3709,
+    "end_seconds": 3765,
+    "score": 0.798,
+    "reason": "info=0.85 eng=0.72 penalty=0.00 Highly specific model with $200 projection creates strong forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "commoditycontext.com",
+      "OECD",
+      "Fair Value Model",
+      "Oil Price Projection",
+      "Brent",
+      "April",
+      "June",
+      "Oil"
+    ],
+    "topics": [
+      "price forecasting",
+      "inventory draws",
+      "brent crude",
+      "history",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "9778706e988c22f2",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 11:33:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "8305d81d7cd11540",
+    "source_name": "Bankless",
+    "episode_title": "$200 Oil by June?\u2014The Biggest Oil Shock in History | Rory Johnston on The Hormuz Crisis",
+    "segment_title": "Invisible Barrels Supply Counter-Argument",
+    "summary": "The strongest supply-side attack on the 13 million barrel/day shut-in figure is the possibility of 'invisible barrels' reaching market via smuggling routes from Rocky crude (trucked to Mediterranean/Israel) or Iranian oil to China. However, these represent only 80-120k barrels/day versus 4+ million from Rocky alone. No mysterious barrels are appearing in import data or tanker tracking, and early April showed 10 million barrel/day global stock draws validating the thesis.",
+    "audio_url": "https://episode.flightcast.com/01KQCG1CA1H8CQSEBSYKCSPT8K.mp3",
+    "start_seconds": 3899,
+    "end_seconds": 4002,
+    "score": 0.752,
+    "reason": "info=0.82 eng=0.65 penalty=0.00 Quantified smuggling data with empirical validation but analytical delivery",
+    "timing_quality": "estimated",
+    "subject_id": "crypto_web3",
+    "subject": "crypto_web3",
+    "entities": [
+      "Invisible Barrels Supply Counter-Argument",
+      "Rocky",
+      "Mediterranean",
+      "Israel",
+      "Iranian",
+      "China. However",
+      "April",
+      "Oil"
+    ],
+    "topics": [
+      "supply disruption",
+      "smuggling routes",
+      "inventory data",
+      "rocky crude",
+      "history",
+      "business",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "9778706e988c22f2",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 11:33:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>
