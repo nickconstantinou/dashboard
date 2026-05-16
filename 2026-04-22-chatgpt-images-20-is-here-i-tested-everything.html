@@ -4,31 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ChatGPT Images 2.0 Is Here. I Tested Everything. | Nick's Blog</title>
+  <meta name="description" content="Startup Ideas Podcast — Business/Startups">
+  <meta property="og:title" content="ChatGPT Images 2.0 Is Here. I Tested Everything.">
+  <meta property="og:description" content="Startup Ideas Podcast — Business/Startups">
+  <meta property="og:type" content="article">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
   <style>
-    :root { --primary: #0F172A; --accent: #F97316; --bg: #FFFFFF; --bg-alt: #F8FAFC; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
     h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
     .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
-    header { padding: 32px 0; border-bottom: 1px solid var(--border); }
-    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
     .logo span { color: var(--accent); }
-    .back-link { display: inline-block; margin: 24px 0; color: var(--text-muted); text-decoration: none; }
-    article { padding: 32px 0; }
-    .meta { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; }
-    h1 { font-size: 36px; margin-bottom: 24px; color: var(--primary); }
-    h2 { font-size: 24px; margin-top: 24px; margin-bottom: 12px; color: var(--primary); }
-    h3 { font-size: 18px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
-    p { margin-bottom: 16px; }
-    ul, ol { margin-bottom: 16px; padding-left: 24px; }
-    li { margin-bottom: 8px; }
-    strong { font-weight: 600; color: var(--primary); }
-    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 24px; }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
     .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-    footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 40px; }
-    footer p { font-size: 14px; color: var(--text-muted); }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
   </style>
 </head>
 <body>
@@ -38,115 +70,431 @@
     </div>
   </header>
   <div class="container">
-    <article>
-      <p class="meta">Wed, 22 Apr 2026 18:11:00 -0000 • Business/Startups</p>
-      
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/01KPV2QG860NBWMFHKM23FEBHG.mp3" frameborder="0" allowfullscreen></iframe>
-      </div>
-      
-      <p><p># ChatGPT Images 2.0 Is Here: A Deep Dive Into the New Creative Frontier and Business Opportunities</p>
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-04-22 · Business/Startups</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Startup Ideas Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">Startup Ideas Podcast</div>
+            <h1>ChatGPT Images 2.0 Is Here. I Tested Everything.</h1>
+            <p class="subtitle">The creator economy just received a significant upgrade. ChatGPT Images 2.0 has officially launched, bringing capabilities that fundamentally change what's possible for content cre…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li><strong>[00:45]</strong> ChatGPT Images 2.0 achieves 2K resolution, 3:1 aspect ratios, and generates 8 consistent images per prompt with improved multi-language text rendering (Japanese, Korean, Chinese, Hindi).</li>
+<li><strong>[03:12]</strong> The thinking mode feature crawls the web for fact-checking and style research before generating images, enabling photo shoots with realistic camera specs, lighting conditions, and color palettes (e.g., golden hour 3-5 PM, Mediterranean lifestyle for Wild Roman skincare).</li>
+<li><strong>[08:34]</strong> Cinematic prompts and specific brand aesthetics (Wes Anderson style, Nike Just Do It campaigns) yield strong results, while generic prompts produce stock-photo-quality output—prompt specificity determines commercial viability.</li>
+<li><strong>[14:22]</strong> UI generation requires explicit technical parameters: resolution specs, native OS chrome styling, and realistic data in every cell; without these constraints, outputs require significant rework.</li>
+<li><strong>[22:15]</strong> The framework for vertical AI startup success centers on identifying "boring pain points" in specific workflows rather than building horizontal apps serving billion-user markets.</li>
 
-<h2>Introduction: A New Era for Visual AI</h2>
+<h1>ChatGPT Images 2.0 Is Here. I Tested Everything: A Deep Dive into AI Image Generation's Latest Leap</h1>
 
-<p>The creative AI landscape shifted dramatically with the release of ChatGPT Images 2.0, and content creator and entrepreneur Greg Eisenberg wasted no time putting the new tool through its paces. In this densely packed episode, Eisenberg—who runs the Late Checkout brand and has built a following of over 158,000 newsletter subscribers—delivers not just a hands-on review of OpenAI's latest image generation model but weaves in practical use cases, a genuinely useful framework for finding vertical AI business opportunities, a startup idea worth stealing, and an overlooked AI tool that left him genuinely impressed. The timing matters because Images 2.0 represents a meaningful leap in capability—particularly around text rendering, workflow integration, and what OpenAI is calling "thinking mode"—that changes what creatives, marketers, and builders can actually accomplish with AI-generated imagery.</p>
+<p>The creator economy just received a significant upgrade. ChatGPT Images 2.0 has officially launched, bringing capabilities that fundamentally change what's possible for content creators, marketers, and entrepreneurs working with limited resources. This isn't merely an incremental improvement—it's a shift in the economics of visual content production that anyone building a business needs to understand.</p>
 
-<p>What makes this episode particularly valuable is Eisenberg's insistence on moving beyond demo-ware enthusiasm into actual business application. He's not just showing off pretty pictures; he's demonstrating how to use Images 2.0 to solve real problems: creating brand visual references for a real company, mocking up UI before building, prototyping merchandise before spending money on inventory, and planning video commercials that could theoretically run on television. The episode also pivots into broader territory, offering a five-step framework for finding vertical AI business ideas and introducing NoScroll, an AI agent that represents a fundamentally different paradigm for how we might interact with AI assistants going forward. For anyone building with AI—whether as a creative professional, an indie hacker, or someone exploring their next business idea—this episode serves as both a practical tutorial and a strategic compass.</p>
+<p>The speaker, an entrepreneur and content creator known for testing AI tools in real business contexts, spent significant time stress-testing this new model across multiple use cases. What emerged is both a practical guide to using Images 2.0 effectively and a blueprint for identifying AI-powered business opportunities. The testing covered everything from luxury skincare photography to Super Bowl-style video commercials, from mobile app UI mockups to editorial illustrations—and the results reveal both the power and the precision required to make this tool work for commercial applications.</p>
 
-<h2>ChatGPT Images 2.0: What Actually Changed</h2>
+<h2>What's New in ChatGPT Images 2.0</h2>
 
-<h3>The Three Core Improvements</h3>
+<p>The previous version of ChatGPT's image generation had frustrating limitations that prevented it from being a serious professional tool. Images 2.0 addresses several of these directly.</p>
 
-<p>Eisenberg opens by clearly articulating the three fundamental improvements that distinguish Images 2.0 from its predecessor. The first is resolution and output quantity: users can now generate images at 2K resolution with aspect ratios reaching 3:1, and critically, the model now outputs eight images per prompt instead of four. This combination of higher fidelity and greater variety per generation represents a significant workflow improvement, allowing creators to explore more visual directions in less time.</p>
+<p>The technical specifications have jumped substantially. Users now access 2K resolution output, enabling true production-quality assets rather than draft-quality placeholders. The maximum aspect ratio expands to 3:1, which opens possibilities for banner ads, cinematic framing, and wide-format presentations that weren't previously viable. Most impressively, each prompt now generates up to eight images that maintain visual consistency with one another—a critical requirement for brand work that needs multiple assets sharing the same aesthetic DNA.</p>
 
-<p>The second improvement addresses one of the most persistent frustrations with AI image generation: text rendering. Previous models struggled notoriously with generating readable text, especially in non-English languages. Images 2.0 shows marked improvement, correctly rendering dense and tiny multi-language text with greater accuracy. Eisenberg is careful to note the model isn't perfect—nothing in AI generation ever is—but the improvement is "noticeably better" than the previous version. Japanese, Korean, Chinese, Hindi, and other scripts that previously came out garbled now render correctly more often than not, opening up genuinely global creative applications.</p>
+<p>Perhaps the most celebrated improvement involves text rendering. One of the persistent frustrations with AI image generators has been their inability to handle written language correctly, often producing garbled alphabets or nonsensical typography. Images 2.0 demonstrates substantially improved multi-language text capabilities, handling Japanese, Korean, Chinese, and Hindi with much higher accuracy than previous versions. The speaker notes this isn't perfect 100% of the time, but it's a dramatic improvement that opens global marketing applications previously impossible with these tools.</p>
 
-<p>The third and most strategically interesting improvement is what OpenAI calls "thinking mode." When prompted, Images 2.0 now actively crawls the web to find reference images consistent with the user's request before generating. This might seem obvious in hindsight—why wouldn't you pull relevant visual references?—but Eisenberg is genuinely grateful it's finally implemented. The feature means creators no longer need to manually curate reference boards; the model does much of that legwork automatically, then uses those references to inform the output.</p>
+<p>The "thinking mode" represents the conceptual breakthrough that makes everything else work. When prompted, Images 2.0 now searches the web, performs fact-checking, and generates related images that stay consistent with the creative direction. The system essentially functions like a junior art director who has access to the entire internet and can research reference styles, verify brand guidelines, and ensure technical accuracy before producing final assets.</p>
 
-<h3>The Expanded Creative Use Cases</h3>
+<h2>Real-World Testing: What Actually Works</h2>
 
-<p>Beyond these technical improvements, Eisenberg explores the expanded use cases that the new capabilities unlock. Before 2.0, he says he "really wouldn't use" Images for UI design or infographics because the results weren't reliable enough. Now, he confidently demonstrates using it for packaging design, poster creation, and UI mockups. The model also handles apparel design with particular skill, a capability he showcases with his own upcoming merchandise line called Fourth Wave. For editorial work, the improved illustration capabilities are significant: vector-style illustrations that previously all looked suspiciously similar now have distinct visual character.</p>
+<p>The speaker ran Images 2.0 through demanding professional use cases, and the results reveal both the tool's strengths and the specific prompting strategies that unlock its potential.</p>
 
-<p>Perhaps most interestingly for marketers and video producers, Images 2.0 now serves as a legitimate pre-production tool. Eisenberg demonstrates using it to generate eight different visual directions for a hypothetical 30-second Shopify commercial—a narrative about an employee who creates a football merch line, sells it on Shopify, and quits his job. He generates these directions with style references like Wes Anderson's film aesthetic or Nike's "Just Do It" advertising language, then feeds those into AI video generation tools like Kling 2.0. The result is a functional pre-visualization pipeline that would previously have required a photographer, location scouting, and significant budget.</p>
+<h3>Brand Photography for Wild Roman</h3>
 
-<h3>Critical Lessons for Getting Great Results</h3>
+<p>The first major test involved creating a visual style reference for Wild Roman, a modern skincare brand targeting men aged 25-40. This was a deliberate stress test of the tool's ability to generate cohesive brand photography without an actual photoshoot.</p>
 
-<p>Throughout the demonstrations, Eisenberg repeatedly emphasizes one crucial point: specificity matters enormously. The common mistake users will make is entering vague prompts and then abandoning the tool when results look generic. With Images 2.0, he explains, "If you're not specific, what I'm finding is you get really stock looking images." His most successful prompts follow a rigorous structure that includes the asset's purpose and context, named style references from companies whose visuals the user admires (Stripe, Linear, Versal, and others), technical specifications like hex color codes, camera and lighting details, mood descriptors, and realistic copy instead of placeholder lorem ipsum text.</p>
+<p>The successful prompt structure followed a precise pattern. The speaker described the aesthetic with specific descriptors—modern, Mediterranean lifestyle vibes—then detailed the lighting conditions ("shot between 3 to 5 PM, golden hour"), provided a color palette using actual hex codes ("warm cream, bleached terracotta"), and defined the subject matter ("real humans, natural posture, slight imperfection"). The prompt requested eight specific image types: product shot, lifestyle shot, hand shot, texture detail, environmental shot, lifestyle portrait, packaging flat lay, and ingredient story shot.</p>
 
-<p>Eisenberg walks through a detailed example using his friend Sahil Bloom's men's skincare brand, Wild Roman. Rather than just asking for "product photos," he builds a comprehensive visual brief: a modern skincare brand targeting men 25-40, film camera aesthetic, golden hour lighting shot between 3-5pm, warm greens and bleached terracotta color palette, Mediterranean lifestyle mood, and specific subject descriptions including "real humans, natural posture, slight imperfection." The prompt explicitly requests eight different image types—product shot, lifestyle shot, hand shot, texture shot, environmental shot, portrait, packaging flat lay, and ingredient story shot. The results are genuinely professional-looking, demonstrating that the tool can produce commercial-grade imagery when properly guided.</p>
+<p>The result was striking. The product photography looked commercial-ready, with the speaker confidently stating "that product looks like something that people would buy." The key insight here is that the tool responds dramatically to specificity—generic prompts produce generic stock-photo results, while detailed creative briefs unlock professional-quality output.</p>
 
-<p>He also tests UI design capabilities by prompting Images 2.0 to mock up a new leaderboard feature for Idea Browser, a startup ideas platform. He instructs the model to research the existing app at ideabrowser.com, specify clean and modern Sass aesthetics with color accents, and generate four variations with realistic Mac OS window chrome and data populated in every cell. The results aren't the most beautiful UI ever created, he acknowledges, but they are exactly what he asked for—a one-shot that could serve as a legitimate starting point for development conversations. He notes that including explicit resolution and aspect ratio requirements is essential for outputs that can drop into production without rework.</p>
+<p>This immediately suggests a service business opportunity: creating brand books and packaging visual guides for companies using Images 2.0 as the production engine. The speaker explicitly calls this out as a viable startup idea worth pursuing.</p>
 
-<h2>NoScroll: A Glimpse Into the AI Agent Future</h2>
+<h3>Commercial and Video Reference Imagery</h3>
 
-<p>Midway through the episode, Eisenberg pivots to something he discovered through a tweet from Blake Robbins that genuinely excited him: NoScroll. Described on its website as "your beats, your briefing"—a tool for having "the smartest person you know read everything you care about online 24/7 and text only you what matters"—NoScroll represents a paradigm shift in how AI agents might integrate into daily life.</p>
+<p>The next test involved creating reference frames for a potential Super Bowl-style commercial targeting Shopify merchants. The storyline follows an employee who hates his boss, creates a football merchandise line, sells it through Shopify, and eventually quits his job full time.</p>
 
-<p>After signing up via email and adding it to his contacts, Eisenberg had a brief text conversation with what felt like a genuinely intelligent assistant that had researched his background. It knew he was the CEO of Late Checkout, the guy who turned Reddit startup ideas into a content empire, and correctly noted he had 158,000 newsletter subscribers, a prolific podcast, and 237,000 LinkedIn followers. It engaged him conversationally, asking what brought him to the service with a playful "winky face" when noting he was going "stealth mode" on some plans.</p>
+<p>Here the results were more mixed, revealing important patterns about what works. The Wes Anderson-style reference images were particularly strong—one frame closely resembled Jason Schwartzman, capturing the director's distinctive visual grammar with remarkable fidelity. The Nike Just Do It reference campaign produced at least one image ("come on, does that look like AI? That does not look like AI to me") with professional-quality jacket and denim details.</p>
 
-<p>Eisenberg describes this as an "aha moment" and "a glimpse into the future of how you're going to be interacting with these products." Rather than launching a monolithic assistant that tries to do everything, NoScroll does one focused thing exceptionally well—scanning the internet for things relevant to your interests and delivering them via text message. He notes the entire onboarding took about five minutes, and the tool immediately felt intuitive and useful. For anyone thinking about AI agent products, NoScroll is a case study in focused utility: instead of building another chatbot, the team built a specialized information filter that happens to use a conversational interface.</p>
+<p>However, the generic commercial references fell flat, producing stock-photo aesthetic that wouldn't pass muster in any real marketing campaign. The cinematic prompts generally succeeded ("two on three in cinematic, so I highly recommend you use cinematic"), while lifestyle and generic approaches underperformed.</p>
 
-<h2>The Startup Idea: "Mark Day" and AI-Powered Art Education</h2>
+<p>The lesson crystallizes around specificity: "You can't just say generate a visual direction, you have to be way more in depth." The best results came when the speaker named specific companies whose visual style to emulate or described concrete aesthetic parameters rather than abstract concepts.</p>
 
-<p>Eisenberg spots what he considers a steal-worthy startup idea on Idea Browser: a daily drawing trainer app called "Mark Day" that builds drawing skills through short, structured lessons, each taking under ten minutes and connecting directly to the next. The core insight is that art education is currently built for people who already know how to draw, leaving beginners without structured progression. Mark Day would offer structured lessons where line work builds into shading, shading builds into form, with AI feedback on uploaded sketches catching specific mistakes that tutorials can never address—a shading gradient that flattens instead of rounds, for example.</p>
+<h3>UI and App Design Mockups</h3>
 
-<p>The business model is straightforward: a mobile app charging $5 per month or $50 per year, with the core value proposition being the habit-forming daily practice structure and immediate, personalized feedback. Eisenberg sees this as a significant opportunity in the AI age, predicting that more people will want to engage with art even if they're not trying to become professional artists. The product's actual innovation is making the habit the product—removing friction from daily practice and providing the kind of immediate, specific feedback that would normally require an expensive human instructor.</p>
+<p>Testing Images 2.0 for UI work involved deliberately technical prompts. The speaker pointed the tool toward IdeaBrowser.com, instructed it to research the site's existing style, and requested a new leaderboard feature for "the biggest idea junkies" in a "clean, fresh, hint of color, modern SaaS app" aesthetic.</p>
 
-<p>To make the idea tangible, Eisenberg fed the Idea Browser listing into Claude Design and asked for three wireframe directions. The results impressed him enough that he highlights them as a demonstration of how AI tools can accelerate the ideation phase of startup development.</p>
+<p>The critical discovery was that UI work requires extremely explicit technical parameters. The prompt included desired resolution, native macOS window chrome styling, and—most importantly—the instruction to include "realistic data in every cell." Without this constraint, the system generates placeholder data that looks fake and undermines the mockup's utility for stakeholder presentations.</p>
 
-<p>The first direction, "Daily Habit," is a mobile app flow where users go from home screen to lesson to sketch pad to AI feedback. The curriculum progresses through fundamentals—straight lines, ellipses—before moving into curved lines and more complex techniques. Open questions the wireframe highlights include whether to allow finger input or stylus only, and whether to implement a streak freeze or a six-day-per-week logic for habit tracking.</p>
+<p>The result was usable but not exceptional: a modern Kanban interface that accurately followed instructions but lacked the polish that would come from a human designer. The speaker's assessment was honest—"is it the most beautiful thing? No, but I didn't ask it to make it the most beautiful thing, and this was just a one shot."</p>
 
-<p>The second direction, "Studio Canvas," reads more like a website or iPad application with a large canvas, persistent AI critique rail, and curriculum navigation in a sidebar. The aesthetic targets users who think of tools like Figma or Procreate, suggesting a more desktop-oriented experience for semi-professional creatives.</p>
+<p>The mobile app test revealed another limitation: the system doesn't naturally produce standard iOS or Android aspect ratios. When asked to generate a mobile interface, Images 2.0 produced an unnaturally elongated screen that wouldn't match actual device dimensions. For production UI work, users need to explicitly specify the target device and dimensions.</p>
 
-<p>The third direction, "Ritual Journal," is perhaps the most innovative conceptually. It opens like a physical sketchbook, with the left page showing today's concept and the right page offering a blank drawing area plus gentle critique. The product philosophy shifts from "learning tool" to "meditation practice"—users open the book, read the concept, sketch on the page, receive AI feedback as margin notes, and close the book. This transforms the entire experience into something like a Moleskine-meets-Kindle meditation app, targeting users who value quiet, reflective practice over gamified progress tracking.</p>
+<h3>Product Photography and Merchandise Pre-Visualization</h3>
 
-<p>Eisenberg's personal ranking is Daily Habit first, followed by Studio Canvas, then Ritual Journal, though he acknowledges all three represent viable product directions. His enthusiasm for someone actually building this idea is palpable: "Someone please steal this idea."</p>
+<p>Testing apparel product photography for a fictional brand called "Fourth Wave" demonstrated how Images 2.0 can serve as a pre-production tool. Rather than committing to merchandise manufacturing, entrepreneurs can generate photorealistic product images first, test market interest, and only proceed to actual production if there's traction.</p>
 
-<h2>The Framework: Finding Vertical AI Businesses to Build</h2>
+<p>The six generated shots looked polished enough to serve as actual product photography for an e-commerce launch. This represents a meaningful risk reduction for anyone testing product-market fit before investing in inventory.</p>
 
-<p>The episode's most substantive section offers a five-step framework for finding vertical AI business opportunities, structured as a response to the question "How do you find a vertical AI business to build?" The speaker distinguishes between horizontal apps with mass market appeal—building the next NoScroll, essentially—and vertical AI businesses that serve specific workflows within specific industries.</p>
+<h3>Editorial Illustrations</h3>
 
-<p>Eisenberg's argument is pragmatic: while horizontal apps offer the highest ceiling (potentially $10 million ARR or more), vertical AI businesses offer a higher likelihood of success because they solve real problems for identifiable customer segments willing to pay for solutions. The question then becomes: how do you find those opportunities?</p>
+<p>The final category tested was editorial illustration in the style of New York Times op-ed pieces—flat vector graphics for articles, proposals, and presentations. Previous versions of image generation produced generic-looking illustrations that all looked identical to each other. Images 2.0 showed marked improvement, and the speaker used ChatGPT itself to help construct the specific prompt terminology ("I want something in the New York Times op-ed section and it gave me the language to use").</p>
 
-<p><strong>Step one is identifying a boring pain point.</strong> This requires observation and empathy—you might find the pain point in your own job, through conversations with friends, or by monitoring trends on platforms like Idea Browser. The key qualifier is "boring": revolutionary, exciting pain points likely already have solutions or are too early. The best opportunities are unglamorous problems that people complain about but accept as normal.</p>
+<p>The ability to generate multiple variations in consistent style opens practical applications for anyone creating proposals, one-pagers, or PowerPoint presentations who needs custom illustrations without design expertise.</p>
 
-<p><strong>Step two is mapping the entire workflow.</strong> This means understanding every step of how the job gets done, from beginning to end, ideally documented visually. You can use Claude, ChatGPT, or other tools to help map this out, or you might already know the workflow intimately from years of experience in a particular industry. The goal is comprehensive understanding before attempting any automation.</p>
+<h2>The Four Creative Bottlenecks Every Business Faces</h2>
 
-<p><strong>Step three is doing the job as a service.</strong> Eisenberg is emphatic about this step, which surprises many would-be builders. "Say you've been working in SEO for ten years," he offers as an example. "You've mapped out the workflow. Maybe you worked in SEO but weren't actually doing the SEO. You might actually want to do it." The point is to do the actual work manually before building any software. This provides irreplaceable understanding of the nuances, client relationships, pricing dynamics, and practical realities that no amount of research can substitute.</p>
+<p>The speaker's framework for understanding AI image generation's business application centers on identifying the four universal creative bottlenecks that affect every organization.</p>
 
-<p><strong>Step four is documenting edge cases and failures.</strong> Every workflow has exceptions—situations where the standard process breaks down or requires judgment calls. Manual execution surfaces these organically. Perhaps more valuable, doing the work reveals the actual price points customers will pay, where they find value, and what they complain about when things go wrong. This documentation becomes the foundation for understanding where AI can actually help versus where it's premature.</p>
+<p><strong>Marketing content creation</strong> is the first and most obvious bottleneck. Every business needs to produce social media posts, advertisements, website imagery, and promotional materials—typically requiring expensive photoshoots or stock photo subscriptions.</p>
 
-<p><strong>Step five is adding vertical agents to replace the steps.</strong> Only now, with deep workflow knowledge and existing clients, does it make sense to build software. "The mistake a lot of people make is they're like, 'I want to go and automate SEO. Therefore, I'm going to start by just creating an SEO agent,'" Eisenberg explains. "There's so much you're missing." The manual work becomes both your R&D and your initial customer base—you can offer clients the manual service while gradually introducing software assistance, getting real feedback on what actually saves time versus what seems like it should but doesn't.</p>
+<p><strong>Internal content production</strong> represents the second bottleneck. Companies constantly need decks, documentation, and training materials. These internal assets often receive minimal investment despite being critical for operations, and AI generation can dramatically reduce the friction of creating them.</p>
 
-<p>The framework emphasizes that this approach creates proprietary data: working intimately with clients in a specific vertical (say, fintech SEO) generates insights about that industry that become defensible advantages. You then iterate and expand until the agent owns the workflow entirely, at which point you've built a sustainable business with genuine competitive moat.</p>
+<p><strong>Visual explanation of value propositions</strong> constitutes the third bottleneck. The speaker argues that businesses able to explain their offerings visually enjoy higher conversion rates—"you're just increasing the odds of success" by making abstract concepts concrete and tangible.</p>
 
-<h2>Key Takeaways</h2>
+<p><strong>Pre-production visualization</strong> is the fourth bottleneck. Rather than committing resources to UI development or merchandise manufacturing, teams can generate visual representations first, validate concepts with stakeholders or customers, and only proceed to expensive production phases with demonstrated demand.</p>
 
-<p><strong>Specificity is the difference between stock images and commercial-grade creative work.</strong> Images 2.0 doesn't reward lazy prompting—it rewards structured thinking about what you're actually trying to achieve. The tool's improved capabilities are genuinely impressive, but they only shine when given clear direction. Creators who enter vague prompts and abandon the tool after generic results are missing the point. The lesson applies broadly: better tools amplify the quality of specific thinking, they don't substitute for it.</p>
+<h2>The Five Essential Parameters for Any AI Image Generation</h2>
 
-<p><strong>AI image generation has matured into a legitimate pre-production tool.</strong> The ability to generate eight visual directions quickly, test style references, mock up UI before building, and prototype merchandise before spending money has transformed how creative work can be structured. What previously required photographers, location scouts, designers, and budget can now be accomplished in prompts—though the output quality still depends entirely on the quality of the input thinking. For marketers and product builders especially, this represents a fundamental change in how to approach visual content strategy.</p>
+<p>Based on extensive testing, the speaker developed a checklist that determines whether AI-generated assets will be production-ready or require expensive rework.</p>
 
-<p><strong>The most promising AI businesses likely live in specific verticals, not horizontal applications.</strong> While building the next NoScroll is an exciting aspiration, the probability of success is higher when serving specific workflows in specific industries. The framework of pain point identification, workflow mapping, manual execution, edge case documentation, and gradual automation offers a roadmap for building AI businesses with real customers and real revenue before seeking scale.</p>
+<p><strong>Define the asset's purpose explicitly.</strong> Every prompt should include the specific use case and required specifications. A YouTube thumbnail needs different treatment than a billboard or a product page image. The system needs to know where the asset will live.</p>
 
-<p><strong>AI agents will increasingly appear as specialized tools rather than general assistants.</strong> NoScroll's model—focused information filtering delivered via a familiar interface—exemplifies a design philosophy that may outperform attempts to build comprehensive digital assistants. Understanding what users actually need to have happen, and building the narrowest possible system to deliver that outcome, may be a more viable path than building ever-more-capable general models.</p>
+<p><strong>Include style references by name.</strong> Rather than describing aesthetic goals in abstract terms, name companies whose visual identity you admire. Stripe, Linear, and Versal serve as common reference points for tech-forward aesthetics. The system can research and internalize these visual languages more effectively than it can interpret vague directional guidance.</p>
 
-<p><strong>The habit of daily creation is a competitive advantage that compounds over time.</strong> Eisenberg's Mark Day recommendation and his own approach to building—consistently putting ideas into the world, testing, learning, iterating—reflects a philosophy that action beats perfection. The Emerson quote that closes the episode captures this ethos: every day is the best day in the year, and those who "own the day" rather than allowing it to be invaded with anxiety are the ones who ultimately build things that matter.</p>
+<p><strong>Use LLMs to construct prompts.</strong> If you lack design expertise—knowing nothing about cameras, lighting rigs, or color theory—ask ChatGPT or Claude to help translate your goals into professional terminology. The speaker explicitly models this approach, using AI to bridge knowledge gaps.</p>
 
-<h2>Who This Episode Is For</h2>
+<p><strong>Incorporate specific hex codes for colors.</strong> Rather than saying "warm tones," provide the actual hex values of your brand palette. This eliminates ambiguity and ensures the generated images match your existing visual identity.</p>
 
-<p>This episode delivers the most value to <strong>creative professionals, marketers, indie hackers, and aspiring startup builders</strong> who want to understand not just what's possible with AI image generation but how to actually apply it to real business problems. The content strikes a balance between technical demonstration and strategic thinking—Eisenberg isn't teaching prompt engineering in the abstract; he's showing specific workflows that lead to outcomes like commercial-grade brand photography, functional UI mockups, and pre-production planning for video ads.</p>
+<p><strong>Demand realistic copy.</strong> Generated UI elements often include placeholder text like "lorem ipsum" or generic labels that would never appear in production. Specify that you want plausible, real-world text in every generated element.</p>
 
-<p>The vertical AI framework section is particularly valuable for <strong>early-stage founders or corporate innovators</strong> exploring AI business opportunities who might otherwise jump directly to building agents before understanding the workflows they aim to automate. The recommendation to do manual work first before building software is counterintuitive in an era that celebrates technical-first approaches, but it's advice that could save months of misdirected effort.</p>
+<p><strong>Specify aspect ratios and resolution requirements.</strong> Output dimensions must match final placement requirements to avoid costly rework. A social media asset needs different proportions than a website header or a print document.</p>
 
-<p>Finally, anyone curious about <strong>the near future of AI interaction paradigms</strong> will find the NoScroll demonstration thought-provoking. It suggests that the most successful AI products may not be the most powerful or comprehensive, but rather the most precisely targeted to a specific job-to-be-done.</p>
+<h2>No Scroll: A Glimpse Into AI Agent Interfaces</h2>
 
-<p>For readers seeking both practical tools and strategic frameworks, this episode serves as a dense, example-rich resource that rewards engagement with its specifics rather than passive consumption.</p></p>
-      
-    </article>
+<p>The conversation shifts to No Scroll, an AI agent product discovered through a tweet from Blake Robbins. The speaker's brief testing produced an "aha moment" about how AI assistants might actually function in daily life.</p>
+
+<p>No Scroll operates as what the speaker describes as "having the smartest person you know read everything you care about online 24-7 and text only you what matters." The onboarding process demonstrates the technology's capabilities: within minutes of signing up via email, the system had identified the speaker as "Greg Eisenberg, CEO of Late Checkout, the guy who turned fine startup ideas on Reddit into a whole empire," noted his 158,000 newsletter subscribers, recognized his LinkedIn presence (237,000 followers), and initiated a personalized conversation about why he signed up.</p>
+
+<p>This represents a fundamentally different interface paradigm than the traditional chatbot. Rather than launching an app and searching for information, users scan a code with their phone and engage in ongoing text conversations with an agent that continuously monitors sources they care about and surfaces only relevant updates.</p>
+
+<p>The speaker acknowledges uncertainty about No Scroll's long-term viability but emphasizes that it demonstrates "a glimpse into the future of how you're going to interact with these products." The key insight isn't about No Scroll specifically—it's about the emerging pattern of narrow, focused AI agents that "do one thing insanely well" rather than attempting to be general-purpose assistants.</p>
+
+<h2>Startup Idea: AI-Powered Drawing Learning Platform</h2>
+
+<p>The speaker highlights an idea discovered on IdeaBrowser that they want someone to pursue immediately: a drawing learning app called "Learn to Draw in 30 Days" (concept by Mark Day) that charges $5 monthly or $50 annually.</p>
+
+<p>The logic is straightforward: as AI handles more routine work, more people will seek to develop human creative skills. But drawing is frustrating without improvement, and traditional learning paths lack immediate feedback loops that maintain motivation.</p>
+
+<p>The speaker immediately tested this concept by taking the brief description to Claude Design and requesting wireframes. The results were impressive—three distinct directions all felt polished and viable:</p>
+
+<p><strong>Daily Habit App</strong> functions like a meditation app for drawing. Users open the app to a sketchbook interface with today's concept on the left and a blank page on the right, accompanied by gentle AI critique. The quiet, Moleskine-meets-Kindle aesthetic emphasizes consistent practice over ambitious goals.</p>
+
+<p><strong>Studio Canvas</strong> targets more serious learners with a Figma or Procreate-style desktop application featuring a persistent AI critique rail, curriculum sidebar, and large working canvas. This version targets users who want to develop genuine drawing proficiency rather than casual practice.</p>
+
+<p><strong>The Ritual Journal</strong> represents the most innovative approach—opening like a physical journal with the day's concept and space for sketching, combining digital convenience with the tactile satisfaction of traditional sketchbooks.</p>
+
+<p>The speaker's personal favorite is the Daily Habit approach, believing it offers the clearest path to user adoption through minimal friction.</p>
+
+<h2>The Framework for Finding Vertical AI Business Opportunities</h2>
+
+<p>The conversation concludes with a strategic framework for identifying AI startup opportunities with the highest probability of success.</p>
+
+<p>Horizontal applications—products serving billions of users—grab headlines but face enormous competition and require massive capital. The alternative is vertical AI: software businesses focusing on specific niches and targeted workflows where AI can provide dramatic improvement over existing solutions.</p>
+
+<p>The framework begins with finding a "boring pain point." These aren't glamorous problems—they're the tedious, time-consuming tasks that professionals in specific industries endure daily without better alternatives. The pain point might exist in your own job, surface through conversations with friends in various industries, or emerge from systematic research on platforms like IdeaBrowser.</p>
+
+<p>The second step involves understanding the specific workflow intimately. If you know an industry deeply—its tools, its bottlenecks, its existing software, and its persistent frustrations—you're positioned to recognize where AI can provide transformational improvement. The speaker suggests using Claude or ChatGPT to systematically map workflows once you've identified a pain point.</p>
+
+<p>The vertical focus creates defensibility. Generic AI tools struggle to master specific industry nuances, but a vertical AI business that deeply understands its niche can build workflows and integrations that general-purpose solutions cannot match. This creates the conditions for sustainable competitive advantage while serving customers with genuine, high-stakes problems.</p>
+
+<h2>Tools Worth Knowing</h2>
+
+<p>Beyond Images 2.0, the speaker mentions several alternative creative tools worth evaluating:</p>
+
+<p><strong>Glyph</strong> functions as a creative LLM super agent that the speaker describes as "really, really good" for tasks like YouTube thumbnail creation. The speaker explicitly notes having no financial affiliation but states Glyph is now part of their regular workflow alongside Images 2.0.</p>
+
+<p><strong>Nano Banana Pro</strong> and other alternatives round out the creative AI ecosystem. The speaker uses multiple tools depending on the specific task, avoiding attachment to any single solution.</p>
+
+<p>The overarching message is pragmatic: build a toolkit of specialized tools rather than searching for one perfect solution. Different AI models excel at different tasks, and professionals benefit from understanding which tool handles which job best.</p>
+
+<h2>Who This Content Serves</h2>
+
+<p>This examination of ChatGPT Images 2.0 and the surrounding business frameworks delivers the most value to several specific audiences.</p>
+
+<p><strong>Solopreneurs and small business owners</strong> operating without design teams will find the most direct utility. The ability to generate professional-quality brand photography, product mockups, and marketing assets without expensive photoshoots or stock subscriptions represents meaningful cost reduction and speed improvement.</p>
+
+<p><strong>Marketers and content creators</strong> who need to produce high-volume visual content will benefit from understanding the specific prompting strategies that separate generic output from commercial-grade assets. The five-parameter framework provides an immediately applicable checklist for any content production workflow.</p>
+
+<p><strong>Aspiring entrepreneurs</strong> exploring AI-powered business opportunities will find both the specific startup idea (drawing learning app) and the broader framework for identifying vertical AI opportunities useful. The emphasis on "boring pain points" rather than glamorous concepts offers a more realistic path to sustainable business building.</p>
+
+<p><strong>Product designers and developers</strong> can use Images 2.0 for rapid prototyping and stakeholder alignment, generating UI mockups and concept visualizations faster than traditional design processes allow—while understanding the current limitations around device-specific dimensions.</p>
+
+<p>The core insight running through everything is that AI image generation has crossed a threshold where it can produce genuinely useful business assets, but only when prompted with professional-level specificity. The tools have matured; the bottleneck is now human ability to articulate creative requirements clearly. Whoever masters that skill—developing the vocabulary and frameworks to direct these powerful models—will have a meaningful advantage in the visual economy.</p>
+      </article>
+    </div>
   </div>
   <footer>
     <div class="container">
-      <p>Nick's Blog — Built with Griptide 🧙‍♂️</p>
+      <p>Nick's Blog — updated daily</p>
     </div>
   </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "845310cd722ee87a",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "ChatGPT Images 2.0 Is Here. I Tested Everything.",
+    "segment_title": "Brand Visual Content Creation with Wild Roman Example",
+    "summary": "A detailed demonstration of creating brand visual references for Wild Roman, a modern skincare brand. The host shows how to specify aesthetic details including lighting (golden hour), color palette (warm cream, bleached terracotta), and mood (Mediterranean lifestyle) to generate product shots, lifestyle images, and packaging visuals.",
+    "audio_url": "https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3",
+    "start_seconds": 208,
+    "end_seconds": 357,
+    "score": 0.66,
+    "reason": "info=0.85 eng=0.55 penalty=-0.07 High-utility demonstration with specific visual parameters and concrete brand example",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Wild Roman",
+      "Sahil Bloom",
+      "ChatGPT",
+      "Brand Visual Content Creation",
+      "Wild Roman Example",
+      "Mediterranean",
+      "ChatGPT Images",
+      "Is Here. I Tested"
+    ],
+    "topics": [
+      "brand photography",
+      "visual content creation",
+      "skincare industry",
+      "business",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9450dec5abfd4145",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 18:11:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "4656c781cadedcec",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "ChatGPT Images 2.0 Is Here. I Tested Everything.",
+    "segment_title": "AI Video Ad Creation Using Reference Images",
+    "summary": "The host demonstrates using Images 2.0 reference images with Cdance 2.0 to create Super Bowl-style ads for Shopify. Key learnings include using cinematic styles, avoiding celebrity likenesses too closely, and the critical importance of being highly specific with prompt constraints to avoid generic stock-looking outputs.",
+    "audio_url": "https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3",
+    "start_seconds": 372,
+    "end_seconds": 538,
+    "score": 0.62,
+    "reason": "info=0.75 eng=0.60 penalty=-0.07 Practical learnings in demonstration format, forward momentum through key takeaways",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Shopify",
+      "Cdance 2.0",
+      "Nike",
+      "Wes Anderson",
+      "Jason Schwartzman",
+      "Bill Murray",
+      "AI Video Ad Creation",
+      "Using Reference Images"
+    ],
+    "topics": [
+      "video advertising",
+      "ai video generation",
+      "creative campaigns",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9450dec5abfd4145",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 18:11:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "7f3ca1e55106fb49",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "ChatGPT Images 2.0 Is Here. I Tested Everything.",
+    "segment_title": "Apparel Product Photography and Merchandise Pre-Selling",
+    "summary": "Images 2.0 excels at apparel product photography, demonstrated with a fictional brand called Fourth Wave. The tool enables entrepreneurs to test merchandise concepts and gauge buyer interest before actual production, reducing risk in launching apparel lines.",
+    "audio_url": "https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3",
+    "start_seconds": 674,
+    "end_seconds": 714,
+    "score": 0.622,
+    "reason": "info=0.82 eng=0.50 penalty=-0.07 Actionable business application with risk-reduction angle for entrepreneurs",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Fourth Wave",
+      "Apparel Product Photography",
+      "Merchandise Pre-Selling",
+      "Images",
+      "Fourth Wave. The",
+      "ChatGPT Images",
+      "Is Here. I Tested",
+      "Everything."
+    ],
+    "topics": [
+      "apparel photography",
+      "e commerce",
+      "product testing",
+      "business",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9450dec5abfd4145",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 18:11:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "f6ae9e65598b4552",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "ChatGPT Images 2.0 Is Here. I Tested Everything.",
+    "segment_title": "ChatGPT Images 2.0 Review and Creative Tool Best Practices",
+    "summary": "The host reviews ChatGPT Images 2.0 and explains that every business has four creative bottlenecks: marketing content, internal content like decks and docs, visual explanations for customer acquisition, and UI prototyping before building. He discusses the importance of using style references, aspect ratios, hex codes, realistic copy, and proper resolution when creating assets, while mentioning competitors like Glyph and Nano Banana Pro.",
+    "audio_url": "https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3",
+    "start_seconds": 769,
+    "end_seconds": 1041,
+    "score": 0.718,
+    "reason": "info=0.88 eng=0.65 penalty=-0.07 Strong framework with four creative bottlenecks, some candor in competitor mention",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Glyph",
+      "Nano Banana Pro",
+      "Stripe",
+      "Linear",
+      "Versal",
+      "ChatGPT",
+      "Claude",
+      "ChatGPT Images"
+    ],
+    "topics": [
+      "ai image generation",
+      "creative workflow",
+      "business productivity",
+      "chatgpt images 2 0",
+      "business",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9450dec5abfd4145",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 18:11:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "ebdb903407226c67",
+    "source_name": "Startup Ideas Podcast",
+    "episode_title": "ChatGPT Images 2.0 Is Here. I Tested Everything.",
+    "segment_title": "Drawing Learning App Startup Analysis",
+    "summary": "The host analyzes a startup idea from Idea Browser for a drawing learning mobile app charging $5/month or $50/year, noting the opportunity in the AI age as more people want to learn art. He uses Claude Design to generate wireframes and evaluates three directions: Daily Habit app, Studio Canvas desktop app, and Ritual Journal meditation-style experience. He prefers the Daily Habit approach followed by Studio Canvas.",
+    "audio_url": "https://episode.flightcast.com/01KPV2QG860NBWMFHKM23FEBHG.mp3",
+    "start_seconds": 1266,
+    "end_seconds": 1500,
+    "score": 0.768,
+    "reason": "info=0.80 eng=0.72 penalty=0.00 Evaluative tension through directional analysis, preference revealed for narrative engagement",
+    "timing_quality": "estimated",
+    "subject_id": "business_startups",
+    "subject": "business_startups",
+    "entities": [
+      "Idea Browser",
+      "Claude Design",
+      "Figma",
+      "Procreate",
+      "Moleskine",
+      "Kindle",
+      "Drawing Learning App Startup",
+      "Analysis"
+    ],
+    "topics": [
+      "startup ideas",
+      "drawing education",
+      "mobile apps",
+      "ai powered learning",
+      "saas pricing",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "9450dec5abfd4145",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 18:11:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
 </body>
 </html>

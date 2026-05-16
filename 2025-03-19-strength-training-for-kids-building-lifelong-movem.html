@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strength Training for Kids & Building Lifelong Movement Skills | Nick's Blog</title>
+  <meta name="description" content="Perform with Dr. Andy Galpin — Health/Science">
+  <meta property="og:title" content="Strength Training for Kids & Building Lifelong Movement Skills">
+  <meta property="og:description" content="Perform with Dr. Andy Galpin — Health/Science">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2025-03-19 · Health/Science</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Perform with Dr. Andy Galpin">
+          <div class="podcast-hero-text">
+            <div class="source-label">Perform with Dr. Andy Galpin</div>
+            <h1>Strength Training for Kids & Building Lifelong Movement Skills</h1>
+            <p class="subtitle">Dr. Andy Galpin, professor and executive director of the Human Performance Center at Parker University, has spent years as a sought-after expert on human performance optimization—y…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
+
+<p>Dr. Andy Galpin, professor and executive director of the Human Performance Center at Parker University, has spent years as a sought-after expert on human performance optimization—yet no topic has filled his inbox, DMs, and public interactions quite like one fundamental question: *Is it safe for children to lift weights?* Despite answering this question countless times for friends, family, and strangers who stop him in public, Galpin had never been invited to discuss the scientific reality of youth strength training in any podcast, public forum, or scientific presentation—until now.</p>
+
+<p>The confusion is entirely understandable. Even as recently as 2022, a paper published in *JAMA Pediatrics*—the journal meant to guide medical practitioners—stated that "weightlifting is not appropriate for younger children because the strain may be too high for developing muscles, tendons and bones." This assertion, Galpin explains, "is as untrue as we could possibly imagine." The data on this topic are clear, robust, and definitively positive. Yet contradictory information continues appearing in scientific literature, confusing parents, coaches, and even healthcare providers.</p>
+
+<p>Today's discussion aims to finally lay this issue to rest by addressing six persistent "zombie myths" that refuse to die, exploring the documented cognitive, mental health, and physical benefits of resistance exercise for children, and providing parents with a practical framework for when, how, and what to test when evaluating their child's movement competency. Whether you're a skeptic worried about safety, an enthusiast uncertain about implementation, or simply a parent wondering where to begin, this episode offers evidence-based clarity on a topic that has suffered from decades of misinformation and outdated cultural assumptions.</p>
+
+<h2>Where the Myths Originated: A Historical Context</h2>
+
+<p>Understanding why these misconceptions persist requires traveling back to the 1960s, when exercise science itself was barely a field and pediatric medicine remained in its infancy. Prior to this era, no research existed whatsoever on children and physical training, leaving healthcare providers with a reasonable default position: without data suggesting safety, assume potential danger.</p>
+
+<p>The myth that strength training stunts growth originated from a Japanese study examining children involved in high amounts of hard manual labor. These children were found to be shorter on average than their peers. At the time, without the ability to control for confounding variables that become obvious 80 years later, researchers concluded that physical exertion was the culprit. In retrospect, these children likely faced malnutrition, environmental toxins, and other physiological stressors that better explain their reduced stature—factors completely unrelated to structured, supervised resistance training.</p>
+
+<p>By the 1970s and 1980s, research on youth strength training remained sparse, and cultural attitudes calcified around the initial assumptions. When data finally began emerging in the 1990s—largely driven by the National Strength and Conditioning Association (NSCA)—the scientific community could no longer claim strength training was actively harmful. However, neither were researchers aggressively advocating for implementation. The consensus settled into a lukewarm "it's probably fine" rather than "this is clearly beneficial."</p>
+
+<p>The turning point came in 2008, when mounting evidence necessitated formal policy changes acknowledging the substantial benefits of youth resistance training. A 2020 update to these position statements further cemented what the research community already knew: the benefits are "not only small, but they are large, they are robust, and they cover a lot of different areas." Despite this scientific consensus, Galpin notes, statements like the 2022 JAMA paper continue appearing, creating ongoing confusion for consumers, parents, and even medical professionals who encounter them.</p>
+
+<h2>The Six Zombie Myths: Debunked</h2>
+
+<p>Drawing from the work of Dr. Avery Feigenbaum—whom Galpin describes as "probably the world's foremost authority on strength training in kids" with dozens of publications and involvement in every major position statement—Galpin addresses the six most persistent myths that "will not die" despite overwhelming evidence against them.</p>
+
+<p><strong>Myth One: Strength training stunts growth and harms growth plates.</strong> This is the most pervasive myth, and Galpin has addressed it specifically in a previous episode on bone health. The research shows the opposite is true—strength training is "generally very beneficial for kids" regarding short and long-term bone health. The growth plate concerns that frighten parents have no basis in the actual scientific literature.</p>
+
+<p><strong>Myth Two: Exercise is only for athletes.</strong> Galpin has championed this philosophy throughout his career: "If you have a body, you are an athlete." The notion that non-competitive children don't need strength training reflects fundamental confusion about the purpose of physical development. Movement competency and physical resilience benefit every human being, regardless of whether they ever compete in sports.</p>
+
+<p><strong>Myth Three: Children must wait until age 12 to begin lifting.</strong> Related to this is the belief that children cannot develop meaningful strength until puberty. Both assumptions are false. Children are "ready to strength train as soon as they are ready to follow safety instructions, they can pay attention, and they want to." This typically means the neighborhood of five to seven years old—though it could be earlier or later depending on the individual child's development and interest.</p>
+
+<p><strong>Myth Four: Strength training makes girls bulky.</strong> This myth persists across age groups and demographics. The reality is that "it is very hard for girls or boys to gain a lot of muscle mass, especially prior to puberty." Pre-pubescent children experience primarily neurological and skill-development benefits from resistance training. Putting on significant muscle requires hormonal conditions that don't exist until puberty, making bulk acquisition essentially impossible for younger children regardless of training volume.</p>
+
+<p><strong>Myth Five: Training affects puberty timing.</strong> Galpin has heard multiple contradictory versions of this myth: that exercise starts puberty too early, that it delays puberty, that it impacts menstrual onset timing. "None of those are true," he states definitively. "It doesn't alter puberty at all. It'll be just fine. It is completely irrelevant to it."</p>
+
+<p><strong>Myth Six: Quality training requires expensive equipment and professional coaches.</strong> This final myth contradicts the practical reality Galpin will address throughout the intervention section. Parents can implement effective resistance training "at free or low cost with your body weight at home, in local parks, and so forth." Neither specialized facilities nor expensive certifications are prerequisites for developing children's physical competencies.</p>
+
+<h2>Rethinking the Language of Movement</h2>
+
+<p>A critical barrier to parents' understanding stems from the terminology adults use when discussing exercise. Galpin poses a revealing thought experiment: ask parents whether kids should play, whether they should play sports, whether they should develop coordination and body control, and nearly every hand goes up in affirmation. However, when the same concepts are reframed using terms like "strength training," "resistance exercise," "weightlifting," or "plyometrics," consensus drops dramatically.</p>
+
+<p>The problem, Galpin explains, is that adults unconsciously project their own exercise experiences onto children. When an adult hears "go lift weights and exercise," they envision gym memberships, 90-minute tricep routines, body part splits, and running for miles—their reality as adult exercisers. But this adult-centric framework bears no resemblance to how children actually train. When adults hear "strength," they think weights. They don't realize that for children, strength development happens through "not necessarily weights at all"—through play, through bodyweight movement, through age-appropriate challenges that build motor patterns and physical literacy.</p>
+
+<p>The solution isn't teaching children to exercise like adults; it's recognizing that many of the activities children already engage in—climbing, jumping, playing tag, navigating playground structures—*are* strength training in the developmental sense. The goal for parents is expanding this foundation deliberately rather than replacing it with miniature adult programming.</p>
+
+<h2>The Three Eyes Framework: A Structured Approach to Movement Quality</h2>
+
+<p>For listeners familiar with Galpin's work, the Three Eyes Framework provides the organizing structure for any performance optimization effort. For newcomers, it offers a systematic pathway from assessment through intervention.</p>
+
+<p><strong>The First Eye: Investigate.</strong> Before addressing any movement issue, you must be able to measure it. For children's physical development, this means determining how to assess whether a child moves well or moves poorly. What specific tests reveal movement quality? How do you know if a child's movement competency is developing appropriately or falling behind?</p>
+
+<p><strong>The Second Eye: Interpret.</strong> Once measurement occurs, the data must be contextualized. What do test scores mean? How do you know if a particular result represents adequate development, concerning deficiency, or exceptional capability? Interpreting movement assessment data requires understanding age-appropriate expectations and individual baselines.</p>
+
+<p><strong>The Third Eye: Intervene.</strong> With clear understanding of what exists and what it means, parents and coaches can take appropriate action. What are the dos and don'ts of youth strength training? How should progress be structured? What activities build the specific qualities a child needs?</p>
+
+<p>This framework applies regardless of the child's age, current ability level, or access to resources. The systematic approach ensures that interventions address actual deficiencies rather than assumptions, and that progress remains measurable and meaningful.</p>
+
+<h2>Practical Guidelines: What Parents Need to Know</h2>
+
+<p>While Galpin will dive deeper into specific assessment protocols in future episodes, he establishes several core principles for parents beginning this journey.</p>
+
+<p><strong>Supervision is essential.</strong> Every expert in this field agrees that youth strength training should be supervised. This doesn't require professional credentials—parents can absolutely serve as effective supervisors—but it does require attention, presence, and basic understanding of the movements being taught.</p>
+
+<p><strong>Progressions must be appropriate.</strong> Children don't need advanced programming; they need correctly sequenced basics executed with high quality. A child who hasn't mastered bodyweight squats shouldn't be loading a barbell. The progression from simple to complex, from unloaded to loaded, from low volume to appropriate volume follows the same principles as adult training but proceeds more gradually.</p>
+
+<p><strong>Equipment is optional.</strong> Bodyweight training, resistance bands, kettlebells, sandbags, and household objects can all serve effectively for children's strength development. The equipment available in most garages, basements, or local parks suffices for building comprehensive physical competency. The focus should be on movement quality and progressive challenge, not equipment sophistication.</p>
+
+<p><strong>The goal is physical literacy, not athletic specialization.</strong> Early childhood and even pre-adolescence is not the time for sport-specific specialization in most cases. Building a broad foundation of movement competency—strength, endurance, coordination, balance, flexibility—creates the platform upon which later specialization can occur safely and effectively.</p>
+
+<h2>Who This Content Serves</h2>
+
+<p>This discussion serves several distinct audiences, each finding particular value in different aspects of Galpin's presentation.</p>
+
+<p><strong>Parents of young children (ages 5-12)</strong> will find the most directly actionable content. This demographic faces daily decisions about children's physical activity and often encounters resistance from family members, coaches, or healthcare providers who still believe outdated myths. Galpin provides both the evidence to counter misinformation and the practical framework for implementation.</p>
+
+<p><strong>Physical education teachers, youth coaches, and recreational sport leaders</strong> gain insights into age-appropriate programming, common mistakes to avoid, and ways to distinguish quality instruction from inadequate supervision. This group often lacks formal training in developmental physiology and benefits from understanding *why* certain approaches work better for children than others.</p>
+
+<p><strong>Healthcare providers who find themselves fielding questions about youth exercise safety</strong> will encounter the scientific consensus directly from a credible source, along with the specific studies and organizations (NSCA, Dr. Feigenbaum's work) that inform current position statements. Given that contradictory information still appears in prominent medical journals, this content helps providers separate outdated concerns from current evidence.</p>
+
+<p><strong>Skeptics who genuinely believe youth strength training might be harmful</strong> will find their concerns addressed with both historical context (explaining why the initial concerns arose and were reasonable at the time) and modern evidence explaining why those concerns have been resolved. Galpin's empathetic acknowledgment that contradictory information from credible sources makes this a genuinely confusing topic creates space for skeptics to update their beliefs without feeling judged.</p>
+
+<p><strong>Athletes themselves</strong>, once old enough to engage with this content independently, may find motivation in understanding why the training they're doing matters for their long-term development—not just their immediate sport performance, but their physical resilience and capability throughout life.</p>
+
+<h2>The Bottom Line</h2>
+
+<p>The scientific community reached consensus on youth strength training roughly fifteen years ago: it is safe, beneficial, and should be encouraged for children old enough to follow safety instructions and participate attentively. The benefits span cognitive function, mental health, physical capability, and long-term injury prevention. The risks, when properly supervised and appropriately progressed, are minimal and manageable.</p>
+
+<p>Yet confusion persists—not because parents are irrational or willfully ignorant, but because contradictory information continues appearing in sources they trust, including peer-reviewed journals. The myths don't die because they feel intuitively concerning (growth plates! early puberty! bulk!), and because generations of adults grew up internalizing assumptions that were reasonable defaults before data existed.</p>
+
+<p>Dr. Galpin's presentation offers something rare in this space: a single episode that provides the complete picture—historical context explaining why myths arose, definitive debunking with scientific backing, practical implementation guidance, and a framework for ongoing assessment and progress. Whether readers arrive as believers seeking reinforcement, skeptics seeking answers, or simply curious parents seeking somewhere to start, this content delivers the comprehensive treatment this important topic deserves.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "768d38d2f1e9fb19",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Strength Training for Kids & Building Lifelong Movement Skills",
+    "segment_title": "Historical Origins of Youth Strength Training Misconceptions",
+    "summary": "Dr. Galpin traces the origins of misconceptions about kids and weightlifting to the 1960s, when exercise science and pediatric medicine were nascent fields. He cites a Japanese study from that era that incorrectly linked heavy labor in children to stunted growth, noting that lack of data led to a cautious default position of assuming youth strength training was unsafe.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912",
+    "start_seconds": 370,
+    "end_seconds": 468,
+    "score": 0.71,
+    "reason": "info=0.75 eng=0.65 penalty=0.00 Specific 1960s context, Japanese study cited, origin story narrative",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Japan",
+      "Historical Origins",
+      "Youth Strength Training Misconceptions",
+      "Dr. Galpin",
+      "Japanese",
+      "Strength Training",
+      "Kids",
+      "Building Lifelong Movement Skills"
+    ],
+    "topics": [
+      "exercise science history",
+      "pediatric medicine",
+      "youth strength training myths",
+      "1960s research",
+      "health",
+      "business",
+      "technology",
+      "science"
+    ],
+    "trace": {
+      "episode_id": "0fa05ea209d9a3be",
+      "feed_url": "",
+      "published_at": "Wed, 19 Mar 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "e6847e37298490d4",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Strength Training for Kids & Building Lifelong Movement Skills",
+    "segment_title": "Origin of the Strength Training Stunts Growth Myth",
+    "summary": "The segment traces how an early association study between hard manual labor and reduced height led to the false conclusion that physical activity would stunt children's growth. The podcast explains that malnutrition, environmental toxins, and other confounding factors were overlooked, yet this incorrect belief persisted for decades through the 1970s and 1980s due to lack of additional research.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912",
+    "start_seconds": 468,
+    "end_seconds": 537,
+    "score": 0.76,
+    "reason": "info=0.80 eng=0.70 penalty=0.00 Confounding factors explained, myth persistence arc, clear causation chain",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "NSCSA",
+      "Origin",
+      "Strength Training Stunts Growth",
+      "Myth",
+      "Strength Training",
+      "Kids",
+      "Building Lifelong Movement Skills",
+      "Perform"
+    ],
+    "topics": [
+      "myth origins",
+      "historical context",
+      "research limitations",
+      "business",
+      "science",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "0fa05ea209d9a3be",
+      "feed_url": "",
+      "published_at": "Wed, 19 Mar 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "b644fcd896964ed3",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Strength Training for Kids & Building Lifelong Movement Skills",
+    "segment_title": "Childhood Obesity Crisis and Global Statistics",
+    "summary": "The speaker argues that solving the adult health crisis requires solving the childhood crisis first. Childhood obesity is presented as a growing global problem with approximately 400 million children overweight and 160 million obese worldwide, with U.S. rates around 20% affecting 15-20 million children ages 2-19.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912",
+    "start_seconds": 1421,
+    "end_seconds": 1441,
+    "score": 0.68,
+    "reason": "info=0.80 eng=0.50 penalty=0.00 Specific statistics with global scope, moderate stakes",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "United States",
+      "Childhood Obesity Crisis",
+      "Global Statistics",
+      "Childhood",
+      "U.S.",
+      "Strength Training",
+      "Kids",
+      "Building Lifelong Movement Skills"
+    ],
+    "topics": [
+      "childhood obesity",
+      "global health",
+      "health crisis",
+      "health"
+    ],
+    "trace": {
+      "episode_id": "0fa05ea209d9a3be",
+      "feed_url": "",
+      "published_at": "Wed, 19 Mar 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "2833286dd5c5bedf",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Strength Training for Kids & Building Lifelong Movement Skills",
+    "segment_title": "Youth Training Principles: Games Over Drills",
+    "summary": "Key principles for youth training include using games rather than drills, letting children solve movement problems themselves, and using maximum variety especially during warmups. Children should be coached through games while adults typically receive direct technique instruction.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912",
+    "start_seconds": 4147,
+    "end_seconds": 4194,
+    "score": 0.68,
+    "reason": "info=0.70 eng=0.65 penalty=0.00 Strong principle with specific games-vs-drills contrast and child-centric philosophy",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Youth Training Principles",
+      "Games Over Drills",
+      "Key",
+      "Children",
+      "Strength Training",
+      "Kids",
+      "Building Lifelong Movement Skills",
+      "Perform"
+    ],
+    "topics": [
+      "coaching philosophy",
+      "games vs drills",
+      "child centric training",
+      "youth",
+      "training",
+      "principles",
+      "games",
+      "drills"
+    ],
+    "trace": {
+      "episode_id": "0fa05ea209d9a3be",
+      "feed_url": "",
+      "published_at": "Wed, 19 Mar 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "1f1f74f19eb334f2",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Strength Training for Kids & Building Lifelong Movement Skills",
+    "segment_title": "Multi-Sport Participation Benefits",
+    "summary": "Below age 16, children should participate in more than one sport with a minimum of two. Research shows 91-96% of Super Bowl players were multi-sport athletes, and studies indicate kids playing three or more sports from ages 11-15 are more likely to reach national-level competition by ages 16-18.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM8025640182.mp3?updated=1742354912",
+    "start_seconds": 5579,
+    "end_seconds": 5732,
+    "score": 0.71,
+    "reason": "info=0.85 eng=0.50 penalty=0.00 Strong statistics (91-96%) create credibility but no vulnerability",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Multi-Sport Participation Benefits",
+      "Below",
+      "Research",
+      "Super Bowl",
+      "Strength Training",
+      "Kids",
+      "Building Lifelong Movement Skills",
+      "Perform"
+    ],
+    "topics": [
+      "early specialization",
+      "multi sport athletes",
+      "elite athlete development",
+      "science",
+      "sports"
+    ],
+    "trace": {
+      "episode_id": "0fa05ea209d9a3be",
+      "feed_url": "",
+      "published_at": "Wed, 19 Mar 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

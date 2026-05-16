@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>663. Britain in the 70s: The Brexit That Never Was (Part 2) | Nick's Blog</title>
+  <meta name="description" content="The Rest Is History — History">
+  <meta property="og:title" content="663. Britain in the 70s: The Brexit That Never Was (Part 2)">
+  <meta property="og:description" content="The Rest Is History — History">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-04-22 · History</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Rest Is History">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Rest Is History</div>
+            <h1>663. Britain in the 70s: The Brexit That Never Was (Part 2)</h1>
+            <p class="subtitle">There is a particular pleasure in watching great comedy age into historical document, and that is precisely what happens when one revisits *Faulty Towers*.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>The Ghosts of 1975: Why This History Still Haunts Us</h2>
+
+<p>There is a particular pleasure in watching great comedy age into historical document, and that is precisely what happens when one revisits *Faulty Towers*. The episode "The Germans," first broadcast on 24 October 1975, has been consistently voted the greatest British sitcom episode of all time, yet its true brilliance extends far beyond mere laughs. It is, as the hosts observe, "a brilliant window under the state of the nation in the mid-1970s," a cultural snapshot of a Britain still paralyzed by class anxiety, haunted by the Second World War, and seemingly incapable of escaping its own institutional decay.</p>
+
+<p>The hotel itself is "very shabby," its management style "less than suboptimal." The proprietor, Basil Fawlty, is "obsessed with class"—fawning around his betters while kicking those employed by him, most notably the hapless Spanish waiter Manuel. His marriage to the tyrannical Sybil is loveless, and the retired Major is "always making racist jokes, complaining about strikes and loves a test match." When a fire extinguisher detonates in Basil's face and sends him slightly mad, "all the buried thoughts of the average strangulated middle class Englishman just kind of pours out of him unmediated"—and it all revolves around the war. When the Germans finally demand that he stop talking about the conflict, Basil's response is automatic: "You started it." The counterargument—"We did not start it"—draws his immediate, aggrieved reply: "Yes, you did. You invaded Poland."</p>
+
+<p>This, we are told, is the Britain into which Harold Wilson returned for his second stint as Prime Minister between 1974 and 1976. And Basil Fawlty's response to that fire extinguisher—his immediate, unthinking attribution of every national catastrophe to "Bloody Wilson"—captures something essential about the mood of the times. The country was in crisis, and everyone needed someone to blame.</p>
+
+<h2>Harold Wilson: The Wounded Lion of British Politics</h2>
+
+<p>Once such a pivotal figure that he won four out of five elections between the 1960s and 1970s—a record the hosts describe as "very unlikely to be equaled anytime soon"—Harold Wilson had by 1975 become something of a ghost in his own premiership. Born in West Yorkshire in 1916, educated at Oxford, where he supposedly achieved the best economics marks anyone had ever recorded, Wilson had risen from academic stardom to become a Labour MP, then Labour leader, then a modernising prime minister between 1964 and 1970.</p>
+
+<p>The hosts are notably fond of the man. "He's a very likeable character," one observes. "He's a very kind man. He's generous. As a politician, he is resilient. He's pragmatic. He's very cunning. His wiliness is legendary." His tastes were modest and unpretentious: Agatha Christie, golf, Gilbert and Sullivan, and—above all—scouting. The hosts dwell lovingly on Wilson's devotion to the Boy Scouts, his ability to recite the scouting oath from memory, and the legendary photograph of him in his tight scouting shorts on holiday at the Scilly Isles, that cluster of islands "south of Cornwall" that seemed "trapped in sort of the 1950s time warp." The house—modest, unpretentious, possibly a bungalow—struck one host as "a very simple place for a British Prime Minister to be going on holiday."</p>
+
+<p>Yet the first Wilson government (1964-1970) had been "a bit of a mess." The economy did grow, but the administration was "kicked from crisis to crisis," and Wilson's grand modernising plans seemed overwhelmed by events. The voters, notoriously, "booted him out in 1970." Wilson himself always claimed it was because England had lost to West Germany in the 1970 World Cup just days before the vote. The hosts are skeptical—"I don't actually think that was the reason"—though they concede that such an upset might have "made a few voters change their minds."</p>
+
+<p>By 1974, Wilson's return to power came not through any great achievement of his own but because his predecessor, the Conservative Prime Minister Ted Heath, had effectively "shot himself in the foot." Wilson was fifty-seven, but he "seem[ed] much older." The Sunday Times in 1974 had described him as "withdrawn, nervous, tentative, apprehensive, not to say distinctly bored." The description seems to have stuck. He was, the hosts note, "often ill"—suffering endless colds, stomach upsets, and persistent eye infections. His chief aides, the acerbic press chief Joe Haynes and the young LSE academic Bernard Donoghue (who kept a brilliant diary throughout this period), suspected these ailments were often stress-related, though they might also have been "foreshadowings of the dementia from which he suffers at the beginning of the 1980s."</p>
+
+<h2>The Demon Drink and the Handbag: Life Inside Number Ten</h2>
+
+<p>The pressure on Wilson in 1975 was immense, and he appears to have dealt with it, in part, through heavy drinking. Bernard Donoghue's diaries frequently describe Wilson consuming "four or five glasses of brandy or whiskey at lunch," particularly when he had to face Margaret Thatcher in the House of Commons afterward. One host dryly notes that "I suppose it worked for Pitt," but the other points out the crucial distinction: "Pitt was drinking wine, wasn't he, or port." The rejoinder—"I think it's a noble British tradition"—rings somewhat hollow given what follows.</p>
+
+<p>Sometimes Wilson came "very close to disaster." In November 1975, Donoghue records that Wilson attended a diplomatic lunch where Joe Haynes noted he was "all over the place and drank too much." He then went to the Commons and delivered "an absolutely shambolic performance." Happily, there was no broadcasting of Commons proceedings at that time—the public never heard him "slurring his words" as the delighted Tories "jeered at him with absolute delight." The host notes that "Tories are never drunk at the dispatch box"—they are "all marinated on port by this point."</p>
+
+<p>Yet the drinking was merely one symptom of a broader chaos in Wilson's inner circle. The real power struggle, the hosts suggest, was between Wilson, his long-suffering wife Mary (who "hates politics" and was "gutted" by his return to Number Ten; she was a "very good poet" who preferred the company of her friend John Betjeman), and Wilson's political secretary, Marcia Williams—the daughter of a Northamptonshire builder who possessed an "extraordinary and inexplicable hold" over the Prime Minister.</p>
+
+<p>Every now and again, Marcia would lift her handbag, point to it, and warn Wilson's other aides—"whom she hated"—that "one call to the Daily Mail, and he will be finished. I will destroy him." What, one host wonders, was actually in the handbag? "Nothing," the other replies. "She's just making it up. She knows stuff." One of the things she supposedly knew—or at least, one of the things she brandished as leverage—was an affair with Wilson in 1956, which she reportedly described to Mary Wilson with characteristic bluntness: "I have only one thing to say to you. I went to bed with your husband six times in 1956, and it was not satisfactory."</p>
+
+<p>Whatever the truth of these various claims, Marcia's power over Wilson was immense. At one point, Donoghue or Haynes (the hosts are not entirely sure which) describes how "she has banned him from having lunch with his advisors, so he has to have lunch on his own." When Wilson occasionally escaped her clutches—as when she ordered him to attend a House of Lords reception and he bunked off back to Number Ten instead—her response was volcanic. "She follows him back, and when she's there, she finds him with all his advisors and civil service, and she shouts at him, 'you little c***, you come back with me at once.'"</p>
+
+<p>One host proposes a comparison to "a Dr Johnson and Mrs Thrale dynamic," suggesting Wilson somehow "enjoy[ed] it" and that "at some weird level...it likes being bossed around by a powerful woman." The other's response is more straightforward: Wilson's other aides "genuinely contemplated murdering her." This is not a throwaway line. The hosts repeat it—"say it again," one demands—before explaining that Wilson's doctor, Lord Stone, actually approached Haynes and Donoghue with a proposition: "I can dispose of her, and I will sign the death certificate. Nobody will ever know." It would, Stone reportedly added, "be a mercy...like putting an animal, a mad dog down." (One host notes this phrasing was later associated with Jeremy Thorpe and Norman Scott, leading the hosts into a brief but gleeful spiral of 1970s scandal-conflation.)</p>
+
+<p>A new development since the 2024 series on 1974 has emerged, the hosts reveal: according to Joe Haynes, Wilson was also conducting some kind of relationship with his deputy press secretary, Janet Hewlett Davis, who was twenty-two years his junior. The exact nature of this relationship remains unclear—perhaps merely "a kind of emotional relationship, a very intense friendship"—but she certainly "would definitely spend evenings with him." This, the hosts suggest, helps explain "Marcia's fury" throughout this period. "As we go through the political narrative in today's episode and indeed next week's episode," one host observes, "you have to assume that in the background, there's enormous amounts of drinking. There's a lot of squabbling and probably bed hopping of sort of farcical proportions going on." It was, in essence, "like a 1970s bedroom farce."</p>
+
+<p>The absurdity peaked as late as May 1975, when Wilson's aides were still negotiating what Donoghue calls "a compromise package in which Marcia will allow the prime minister to have lunch with his advisors, as long as it is not the number 10 dining room." One host observes that "negotiating with the trade unions must seem picnic compared to all this"—and the other agrees without hesitation.</p>
+
+<h2>The Economic Abyss: Borrowing, Inflation, and the Road to the Referendum</h2>
+
+<p>All of this personal chaos was unfolding against a backdrop of national economic catastrophe. Thanks to Ted Heath's inflationary policies and the 1973 oil shock, "inflation has gone through the roof"—hurtling toward 25 percent. Public borrowing was "totally and utterly out of control," because during 1974, Wilson's Chancellor Dennis Healy had spent "very recklessly." Labour had blown a great deal of money on pensions and electoral giveaways designed to help them win the October 1974 election—which was "very canny politically, but not terribly canny economically."</p>
+
+<p>The result was that "in cash terms, public spending went up in 1974 by 35 percent." Some of this was funded by extremely high taxes on the wealthy—Labour had raised the top rate of income tax to 83 percent and the top rate of tax on investment income to an extraordinary 98 percent. But that was not enough. After the October election, the Treasury presented Healy with the bill: Britain would need to borrow £6 billion in 1974-75 and almost £9 billion in 1975-76. "Business confidence is absolutely tanked. The stock market is in meltdown." The financial magazine International Insider delivered its damning verdict: Britain was "fast turning into a borrower to be classed alongside an underdeveloped country."</p>
+
+<p>The hosts dwell on this comparison with evident distaste. By early 1975, Wilson's Downing Street advisers were "at him constantly" with warnings of "a terrible crisis unless we change course and get a grip on the economy." They were, one aide reportedly said, "completely out of control" and "basically Argentina."</p>
+
+<p>Yet Wilson's room for maneuver was severely constrained. He had won only a three-seat majority in October 1974—"which means that Wilson's position is very, very weak because he has to pay attention to every MP behind him." He faced a bloc of left-wing MPs who "don't like the thought of any form of cuts," and he was bound by a "very left-wing manifesto." This created the fundamental tension that would define his second premiership: "the Prime Minister is kind of forced by circumstance or whatever, or the economy, whatever, to move rightwards" while his own backbenchers "tend to be more left wing" and rebel against any accommodation with fiscal reality.</p>
+
+<p>One host draws a parallel to Kier Starmer's more recent situation: Wilson "has a much worse inheritance than Kier Starmer. I mean, far worse." Yet the structural dilemma—the gap between manifesto promises and economic necessity—bears an uncomfortable family resemblance.</p>
+
+<h2>The First Brexit: Why Britain Voted to Stay</h2>
+
+<p>The central political event of 1975, of course, was the referendum on continued membership of what was then called the European Economic Community. Britain had first joined the Common Market under Edward Heath in 1973, over the bitter objections of much of the Labour Party. When Wilson returned to power in 1974, he had promised to renegotiate the terms of membership and then put the result to a public vote.</p>
+
+<p>The referendum would take place in June 1975, and it would result in a decisive vote to remain—67 percent in favor, with only one constituency (the Shetland and Orkney constituency of the Liberal MP Jo Grimond) voting to leave. This was, the hosts note, "the first Brexit referendum"—Britain's first experience of deciding by popular vote whether to remain part of a European integration project.</p>
+
+<p>Yet even as they prepared for this momentous decision, the political and economic context remained deeply unstable. Wilson was battling inflation, borrowing, his own party, and the various dramas of</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "9a5280c457b9cbbc",
+    "source_name": "The Rest Is History",
+    "episode_title": "663. Britain in the 70s: The Brexit That Never Was (Part 2)",
+    "segment_title": "Harold Wilson's Commons disaster November 1975",
+    "summary": "At a diplomatic lunch, Wilson became intoxicated and then delivered a slurring, shambolic performance in the Commons without broadcasting to the public, facing Tory jeering and mockery.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331",
+    "start_seconds": 569,
+    "end_seconds": 601,
+    "score": 0.786,
+    "reason": "info=0.88 eng=0.82 penalty=-0.07 Specific scandal with clear tension, unresolved consequences, candid vulnerability",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Harold Wilson",
+      "Joe Haynes",
+      "Margaret Thatcher",
+      "Harold Wilson's Commons",
+      "November",
+      "Wilson",
+      "Commons",
+      "Tory"
+    ],
+    "topics": [
+      "political dysfunction",
+      "alcohol and politics",
+      "parliamentary scrutiny",
+      "history",
+      "personal development"
+    ],
+    "trace": {
+      "episode_id": "3984518423bd0562",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "d2e5892a79c222bc",
+    "source_name": "The Rest Is History",
+    "episode_title": "663. Britain in the 70s: The Brexit That Never Was (Part 2)",
+    "segment_title": "Marcia Williams' extraordinary power over Wilson",
+    "summary": "Wilson and his inner circle discuss how political secretary Marcia Williams held inexplicable power over him, with her threatening to expose him to the Daily Mail and allegedly bragging about a 1956 affair to his wife Mary, creating a Dr Johnson and Mrs Thrale dynamic where Wilson appeared to enjoy being dominated.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331",
+    "start_seconds": 661,
+    "end_seconds": 758,
+    "score": 0.892,
+    "reason": "info=0.90 eng=0.88 penalty=0.00 Power dynamics revelation with scandal tension, candid psychological insight",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Marcia Williams",
+      "Mary Wilson",
+      "Harold Wilson",
+      "John Betjeman",
+      "Marcia Williams'",
+      "Wilson",
+      "Daily Mail",
+      "Mary"
+    ],
+    "topics": [
+      "political power dynamics",
+      "personal relationships",
+      "political scandal",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "3984518423bd0562",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "e52163596e8bf07a",
+    "source_name": "The Rest Is History",
+    "episode_title": "663. Britain in the 70s: The Brexit That Never Was (Part 2)",
+    "segment_title": "Aides contemplate eliminating Marcia Williams",
+    "summary": "Wilson's doctor Lord Stone seriously offered to dispose of Marcia Williams to Wilson's aides, promising to sign the death certificate and claiming it would be a mercy.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331",
+    "start_seconds": 766,
+    "end_seconds": 796,
+    "score": 0.87,
+    "reason": "info=0.85 eng=0.90 penalty=0.00 Salacious conspiracy detail with high tension",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Lord Stone",
+      "Marcia Williams",
+      "Harold Wilson",
+      "Jeremy Thorpe",
+      "Aides",
+      "Wilson's",
+      "Britain",
+      "Was"
+    ],
+    "topics": [
+      "political intrigue",
+      "conspiracy",
+      "1970s scandals",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "3984518423bd0562",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "846f78136ae1e816",
+    "source_name": "The Rest Is History",
+    "episode_title": "663. Britain in the 70s: The Brexit That Never Was (Part 2)",
+    "segment_title": "Britain's economic crisis and political constraints",
+    "summary": "By 1975, inflation approaches 25 percent while borrowing spirals out of control due to reckless Labour spending. Chancellor Dennis Healy's election giveaways (35% public spending increase in 1974) have been partially funded by confiscatory 83% top income tax and 98% investment tax rates. Business confidence has collapsed, the stock market is in meltdown, and international observers compare Britain to underdeveloped nations. Wilson faces pressure from both his tiny three-seat parliamentary majority and left-wing MPs opposed to cuts.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331",
+    "start_seconds": 887,
+    "end_seconds": 1031,
+    "score": 0.81,
+    "reason": "info=0.90 eng=0.85 penalty=-0.07 Dense economic statistics with clear stakes",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Harold Wilson",
+      "Dennis Healy",
+      "Ted Heath",
+      "International Insider",
+      "Britain's",
+      "Labour",
+      "Chancellor Dennis Healy's",
+      "Business"
+    ],
+    "topics": [
+      "1970s economic crisis",
+      "british economic policy",
+      "inflation",
+      "political constraints",
+      "history",
+      "politics",
+      "business"
+    ],
+    "trace": {
+      "episode_id": "3984518423bd0562",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "5badf0b2e453dec3",
+    "source_name": "The Rest Is History",
+    "episode_title": "663. Britain in the 70s: The Brexit That Never Was (Part 2)",
+    "segment_title": "Media portrayal and public controversy",
+    "summary": "By the 1970s, Benn had become a bogeyman to the British press, with cartoonists depicting him in Nazi or communist uniforms. The Sunday Times ran an infamous cartoon depicting him as a rapist, while The Times published an editorial calling him a dangerous politician who would bring Britain to economic ruin and build a collectivist regime on the rubble.",
+    "audio_url": "https://pdst.fm/e/traffic.megaphone.fm/GLT2237203377.mp3?updated=1776869331",
+    "start_seconds": 3775,
+    "end_seconds": 3827,
+    "score": 0.82,
+    "reason": "info=0.80 eng=0.85 penalty=0.00 Vivid specific examples, high narrative tension through extreme portrayals",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Tony Benn",
+      "Sunday Times",
+      "The Times",
+      "Media",
+      "Benn",
+      "British",
+      "Nazi",
+      "Britain"
+    ],
+    "topics": [
+      "media criticism",
+      "political controversy",
+      "public image",
+      "press",
+      "history",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "3984518423bd0562",
+      "feed_url": "",
+      "published_at": "Wed, 22 Apr 2026 23:05:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>
