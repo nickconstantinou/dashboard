@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reiner Pope – The math behind how LLMs are trained and served | Nick's Blog</title>
+  <meta name="description" content="Dwarkesh Podcast — AI/Tech">
+  <meta property="og:title" content="Reiner Pope – The math behind how LLMs are trained and served">
+  <meta property="og:description" content="Dwarkesh Podcast — AI/Tech">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-04-29 · AI/Tech</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Dwarkesh Podcast">
+          <div class="podcast-hero-text">
+            <div class="source-label">Dwarkesh Podcast</div>
+            <h1>Reiner Pope – The math behind how LLMs are trained and served</h1>
+            <p class="subtitle">The economics of AI inference—why faster responses cost more, why API pricing structures work the way they do, and what limits AI progress—are fundamentally determined by a handful…</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <h2>Introduction</h2>
+
+<p>The economics of AI inference—why faster responses cost more, why API pricing structures work the way they do, and what limits AI progress—are fundamentally determined by a handful of mathematical relationships that play out on GPU hardware. In a rare technical deep-dive, Reiner Pope, CEO of Maddox (a chip startup) and former TPU architecture lead at Google, walked through the core mathematics of how large language models are actually trained and served at scale.</p>
+
+<p>The format was deliberately pedagogical: a blackboard lecture designed to make the invisible economics of AI infrastructure visible. Rather than describing these relationships abstractly, Pope built them up from first principles using roofline analysis—a standard technique in hardware architecture that examines the two fundamental bottlenecks any computation faces: how fast you can move data (memory bandwidth) versus how fast you can compute on that data (compute throughput).</p>
+
+<p>This analysis matters because it reveals why the AI industry behaves the way it does. The pricing tiers offered by services like Claude Code and Codex, which charge 6× the price for 2.5× the streaming speed, are direct consequences of batch scheduling and the memory-compute tradeoff. Understanding these mechanics transforms AI from an opaque technology into a predictable engineering system governed by quantifiable constraints.</p>
+
+<h2>The Two Fundamental Constraints: Memory and Compute</h2>
+
+<p>The foundation of the analysis rests on a simple but powerful insight: any inference run must satisfy two lower bounds simultaneously. The time to complete an inference cannot be faster than the time required to move the necessary data from memory into the compute units, nor can it be faster than the time required to actually perform the mathematical operations on that data. The actual runtime is the maximum of these two constraints, not their sum, because a well-designed system will keep both the memory and compute pipelines busy.</p>
+
+<p>On the compute side, the dominant operation is matrix multiplication—running each token through the weight matrices of a neural network. For a model like DeepSeek v3, which has approximately 37 billion "active" parameters (the weights touched for each new token) out of 700 billion total parameters, the compute time scales linearly with the batch size. Pope expressed this mathematically as the batch size multiplied by the number of active parameters, divided by the GPU's compute throughput measured in floating-point operations per second. The key caveat is that attention computation, while present, is typically negligible compared to the weight matrix multiplications and can be ignored for back-of-envelope calculations.</p>
+
+<p>On the memory side, the story is more complex because two distinct memory operations must occur for each inference. First, all of the model's total parameters—not just the active ones—must be fetched from high-bandwidth memory into the compute units. This is a constant cost per inference regardless of batch size. Second, the system must fetch the KV cache for every element in the batch. The KV cache (Key-Value cache) represents the model's internal representation of all prior tokens in the conversation, and it must be re-fetched for each batch element because each user has a unique conversational history. This cost scales linearly with both batch size and context length, making it the most variable component of memory traffic.</p>
+
+<p>The KV cache deserves particular attention because it reveals how autoregressive decoding actually works. When generating text token by token, the model must attend to all previously generated tokens through this cached representation. Each new token requires a full forward pass through every layer of the network, but the attention mechanism specifically involves looking up the stored representations of prior tokens. This lookup is fundamentally a memory-bandwidth operation rather than a compute operation, which is why it appears in the memory time equation rather than the compute time equation.</p>
+
+<h2>Latency Versus Batch Size: The Shape of the Tradeoff</h2>
+
+<p>With the fundamental equations established, Pope moved to visualizing how runtime changes as a function of batch size. This analysis directly explains why "fast mode" services can offer lower latency at premium prices.</p>
+
+<p>The graph plots time on the vertical axis against batch size on the horizontal axis. The compute time component is a straight line starting from the origin—doubling the batch doubles the compute time. The weight fetch time is a horizontal line, representing a constant overhead that doesn't change with batch size. The KV fetch time is another line starting from the origin, but with a different slope determined by context length and the size of each token's cache representation.</p>
+
+<p>Taking the maximum of these curves produces a characteristic shape: at very small batch sizes, the constant weight fetch time dominates, creating a plateau of minimum latency. As batch size grows, the KV fetch line eventually crosses above this plateau, and then finally the compute line takes over as the dominant constraint. This reveals the first key insight about latency: there exists a fundamental lower bound on how fast any inference can complete, determined by the time required to read all model parameters from memory at full bandwidth utilization.</p>
+
+<p>The crossover points between these regimes are particularly important. At the exact point where the KV fetch slope matches the compute slope, the system is simultaneously memory-bound and compute-bound—an ideal operating point where neither hardware resource is wasted. Pope described this as the "Goldilocks zone" for a given context length. Moving away from this optimal context length causes the system to become severely underutilized: if context length doubles but the architecture remains fixed, the KV fetch time doubles, potentially pushing the system far into memory-bound territory where compute sits idle waiting for data.</p>
+
+<p>This is where model architecture choices become consequential. Dense attention, where every token attends to every other token, scales the KV fetch time linearly with context length. Sparse attention mechanisms, which some frontier labs have implemented (Pope specifically cited DeepSeek's published work), scale this cost much more favorably—approximately with the square root of context length rather than linearly. This architectural difference can dramatically affect the cost and feasibility of serving long contexts.</p>
+
+<h2>The Economics of Cost Per Token</h2>
+
+<p>Understanding latency is necessary but not sufficient for explaining AI economics. The more revealing analysis examines cost per token—how much a provider must charge to cover their GPU rental costs while serving a particular request.</p>
+
+<p>Cost, in this framework, is simply the GPU rental rate multiplied by the inference time. For a provider paying approximately $2 per hour per GPU, a 20-millisecond inference consumes only a tiny fraction of a second's worth of rental cost. However, the key question is how many tokens are produced during that inference time, which is determined by the batch size. Dividing the runtime by the batch size gives the cost per token.</p>
+
+<p>When this division is performed on the three components of runtime, the shapes transform dramatically. The compute time, which was linear in batch size, becomes a constant—the cost per token from compute doesn't change with batch size because both the numerator and denominator scale together. The KV fetch time behaves similarly, also becoming a constant when divided by batch size. But the weight fetch time, which was constant in runtime, becomes a hyperbola (1/B) when expressed as cost per token. This mathematical transformation reveals the economic engine behind AI inference pricing.</p>
+
+<p>At batch size equal to one, the weight fetch cost approaches infinity in the cost-per-token graph—each user's request must pay the full cost of reading the entire model from memory, an unamortized expense that makes single-user serving economically devastating. As batch size grows, this cost drops precipitously. By the time a batch reaches modest sizes, the weight fetch cost becomes negligible compared to the constant compute and KV fetch costs. Eventually, at sufficiently large batch sizes, the system becomes purely compute-limited, and cost per token reaches its theoretical minimum.</p>
+
+<p>This analysis immediately explains the fast mode pricing observed in the wild. Services like Claude Code and Cursor offering 6× faster streaming at 6× the price are simply refusing to batch the user with others. At the artificially low batch size enforced by "I want my answer immediately," the system operates in the portion of the curve where weight fetch costs remain high, and the amortized efficiency gains from large batches are abandoned. The user's willingness to pay a premium directly purchases freedom from batch scheduling.</p>
+
+<h2>The Optimal Batch Size and the Hardware Constant</h2>
+
+<p>Having established the shapes of the latency and cost curves, Pope derived the specific batch size at which a system transitions from memory-limited to compute-limited operation. This calculation yields practical guidance for infrastructure design.</p>
+
+<p>Setting memory time equal to compute time and ignoring the KV fetch term for clarity, the equation reduces to a relationship between model parameters (total and active), hardware parameters (memory bandwidth and compute throughput), and batch size. Rearranging to isolate the hardware terms on one side produces a dimensionless constant that represents the fundamental character of modern GPU architectures.</p>
+
+<p>Pope explained that when compute throughput is expressed in operations per second and memory bandwidth in bytes per second, these can be made commensurable by accounting for the data type being used. For FP4 computation, where each value occupies half a byte, the ratio becomes approximately 300 on current GPUs. This means modern accelerators can perform roughly 300 floating-point operations per byte of memory bandwidth—a ratio that has grown as hardware has evolved but remains a fundamental constraint.</p>
+
+<p>Solving the equation with this constant yields the critical batch size where compute and memory are balanced. Pope noted that this optimal batch size is "not particularly sensitive to model architecture," meaning the same mathematical relationships hold across different model designs. The absolute value of the optimal batch depends on the ratio of active to total parameters (smaller for mixture-of-experts models, larger for dense models), but the framework remains consistent.</p>
+
+<p>This is the mathematical basis for understanding why inference providers batch aggressively: the economics of weight fetch amortization create enormous incentives to fill GPU capacity. A provider serving a single user at a time pays roughly 1,000 times more per token than one serving a fully-optimized batch. The entire API pricing structure reflects this reality, with base prices implicitly assuming reasonable batch utilization.</p>
+
+<h2>Implications for AI Progress and Architecture</h2>
+
+<p>Beyond explaining current pricing, the mathematical framework illuminates why AI is progressing the way it is and suggests where future improvements must come from.</p>
+
+<p>The lower bound on latency—determined by the time required to read model weights from memory—establishes a floor that cannot be crossed by algorithmic improvements alone. To make inference faster, either the weights must be reduced (through better compression, quantization, or architectural efficiency) or the memory bandwidth must be increased (through hardware improvements). This explains why memory bandwidth remains a critical metric for AI accelerators and why advances in memory technology directly translate to inference speedups.</p>
+
+<p>The context-length sensitivity of dense attention reveals a vulnerability in current architectures. As context windows grow toward hundreds of thousands of tokens, the linear scaling of KV fetch creates mounting inefficiency. The move toward sparse attention, mixture-of-experts architectures, and other architectural innovations can be understood as attempts to bend this curve—to achieve longer contexts without proportional increases in memory traffic.</p>
+
+<p>Pope hinted at additional techniques beyond batch optimization. Speculative decoding and multi-token prediction represent alternative approaches to the latency-cost tradeoff, potentially achieving some of the benefits of larger batches without requiring multiple users to wait together. These methods generate multiple candidate tokens in parallel and verify them sequentially, amortizing the cost of weight fetches across more tokens generated per computation.</p>
+
+<h2>Detailed Takeaways</h2>
+
+<p><strong>The Cost of Immediacy is Exponential, Not Linear</strong>: When you pay premium prices for fast mode, you're not paying a small premium for scheduling priority. You're paying to escape the batch optimization that makes inference economically viable. At batch size one, weight fetch costs dominate and are completely unamortized. The fast mode customer is effectively subsidizing their own inefficiency, which is why the pricing multiplier (6× for 2.5× speed) appears asymmetric—it's capturing the full cost of abandoning batching, not merely adding a priority fee.</p>
+
+<p><strong>Memory Bandwidth is the Bottleneck That Hardware Cannot Easily Solve</strong>: While compute throughput has grown dramatically through Moore's Law and domain-specific accelerators, memory bandwidth improvements have been more modest. The ratio of compute to memory bandwidth (~300:1) means that simply making chips faster doesn't solve the memory bottleneck for inference. This is why model compression, weight pruning, and architectures that reduce memory traffic (like sparse attention) are strategically important—they attack the fundamental constraint.</p>
+
+<p><strong>Context Length Creates Discrete Cost Regimes</strong>: A system optimized for 32K context will have dramatically different cost characteristics than one optimized for 128K context. Moving from optimal to suboptimal context length doesn't cause gradual degradation—it causes a discrete transition from balanced operation to memory-bound operation where compute utilization drops significantly. This explains why providers may charge nonlinear premiums for very long contexts: the infrastructure must be re-optimized for the new operating point.</p>
+
+<p><strong>The Math Predicts Infrastructure Winners</strong>: Companies that solve the batching problem most effectively—maintaining high utilization while keeping latency acceptable—will have structural cost advantages. This includes both the batching algorithms that pack users efficiently and the architectural choices that maximize the batch sizes at which compute dominates. The race to build AI infrastructure is partly a race to optimize these mathematical relationships.</p>
+
+<h2>Who This Is For</h2>
+
+<p>This content is essential for anyone making decisions about AI infrastructure, whether as a founder building products on top of LLM APIs, an engineer evaluating inference providers, an investor assessing AI infrastructure companies, or a technical product manager pricing AI features. The ability to distinguish genuine efficiency differences from pricing theater requires understanding the underlying math.</p>
+
+<p>For practitioners, the framework provides concrete guidance: when evaluating whether a premium AI service is worth paying for, the question becomes whether you're getting the efficiency of batch optimization (at lower latency tiers) or paying for the privilege of avoiding it (at premium tiers). For infrastructure builders, the equations reveal what metrics actually matter—memory bandwidth utilization and compute utilization, not just aggregate throughput numbers.</p>
+
+<p>Even for those who will never implement roofline analysis themselves, understanding that latency and cost are governed by these specific mathematical relationships transforms AI from an unpredictable technology into a manageable engineering domain where progress can be planned and priced rationally.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "8e388d73ae0275b9",
+    "source_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "segment_title": "Compute Time and Batch Size",
+    "summary": "Derives compute time formula showing it scales with batch size times active parameters divided by chip FLOPS. Discusses how batching multiple users together is essential for economics, noting DeepSeek v3 example with 37B active and 700B total parameters.",
+    "audio_url": "https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3",
+    "start_seconds": 200,
+    "end_seconds": 307,
+    "score": 0.75,
+    "reason": "info=0.85 eng=0.60 penalty=0.00 Formula derivation with DeepSeek example",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "DeepSeek",
+      "Compute Time",
+      "Batch Size",
+      "Derives",
+      "FLOPS. Discusses",
+      "Reiner Pope",
+      "LLMs",
+      "Dwarkesh Podcast"
+    ],
+    "topics": [
+      "compute throughput",
+      "batch size",
+      "model parameters",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "442321fb28c0a49f",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "dbd84d2b51e3bac0",
+    "source_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "segment_title": "Memory Fetch and KV Cache Explanation",
+    "summary": "Explains memory time components: fetching all model weights plus KV cache for each batch element across full context length. Visualizes autoregressive decode process where each new token attends to all prior tokens via cached key-value representations stored during inference.",
+    "audio_url": "https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3",
+    "start_seconds": 319,
+    "end_seconds": 461,
+    "score": 0.72,
+    "reason": "info=0.80 eng=0.60 penalty=0.00 Mechanism explanation with visualization",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Memory Fetch",
+      "KV Cache Explanation",
+      "Explains",
+      "Visualizes",
+      "Reiner Pope",
+      "LLMs",
+      "Dwarkesh Podcast"
+    ],
+    "topics": [
+      "memory bandwidth",
+      "kv cache",
+      "attention mechanism",
+      "autoregressive decoding",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "442321fb28c0a49f",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "5bd02ff44f8fd4b0",
+    "source_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "segment_title": "GPU Batch Scheduling and Queuing Latency",
+    "summary": "The train departure analogy explains GPU batch scheduling: new batches launch every 20 milliseconds regardless of fullness. Requests arriving just after a train departure face worst-case latency of 40 milliseconds (20ms wait plus 20ms processing).",
+    "audio_url": "https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3",
+    "start_seconds": 1319,
+    "end_seconds": 1376,
+    "score": 0.71,
+    "reason": "info=0.80 eng=0.75 penalty=-0.07 Effective train departure analogy with latency stakes",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "GPU Batch Scheduling",
+      "Queuing Latency",
+      "GPU",
+      "Requests",
+      "Reiner Pope",
+      "LLMs",
+      "Dwarkesh Podcast"
+    ],
+    "topics": [
+      "gpu scheduling",
+      "batch inference",
+      "latency",
+      "crime",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "442321fb28c0a49f",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "c0a719684e745874",
+    "source_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "segment_title": "Memory vs Compute Cost Model",
+    "summary": "The speakers visualize cost curves as a function of context length, showing that compute time remains constant while memory fetch time grows with context size. They identify the crossover point where memory and compute costs equalize, which aligns with the pricing inflection point at 200K tokens.",
+    "audio_url": "https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3",
+    "start_seconds": 5630,
+    "end_seconds": 5745,
+    "score": 0.75,
+    "reason": "info=0.85 eng=0.60 penalty=0.00 Model-cost alignment explained with high utility and payoff",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Memory",
+      "Compute Cost Model",
+      "Reiner Pope",
+      "LLMs",
+      "Dwarkesh Podcast"
+    ],
+    "topics": [
+      "cost modeling",
+      "memory bandwidth",
+      "compute efficiency",
+      "context length",
+      "business",
+      "technology",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "442321fb28c0a49f",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "4f3d5485a6e6cef8",
+    "source_name": "Dwarkesh Podcast",
+    "episode_title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "segment_title": "Feistel Cipher Construction and RevNets",
+    "summary": "The Feistel cipher construction, which makes non-invertible functions invertible by keeping one input as side information, was originally used extensively in cryptography and has been ported to neural networks. The 2017-18 RevNet paper applies this to transformer networks, making entire networks invertible using residual connections from two layers back.",
+    "audio_url": "https://api.substack.com/feed/podcast/195859978/26c19662ae988720a5c793e5f1acbf55.mp3",
+    "start_seconds": 7730,
+    "end_seconds": 7833,
+    "score": 0.72,
+    "reason": "info=0.85 eng=0.70 penalty=-0.07 Historical transfer story from cipher to RevNets",
+    "timing_quality": "estimated",
+    "subject_id": "ai_tech",
+    "subject": "ai_tech",
+    "entities": [
+      "Feistel",
+      "RevNets",
+      "Feistel Cipher Construction",
+      "RevNet",
+      "Reiner Pope",
+      "LLMs",
+      "Dwarkesh Podcast"
+    ],
+    "topics": [
+      "feistel cipher",
+      "reversible networks",
+      "transformers",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "442321fb28c0a49f",
+      "feed_url": "",
+      "published_at": "Wed, 29 Apr 2026 17:07:03 GMT",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

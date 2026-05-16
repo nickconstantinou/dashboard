@@ -2267,6 +2267,17 @@
   },
   {
     "date": "April 29, 2026",
+    "title": "Reiner Pope \u2013 The math behind how LLMs are trained and served",
+    "url": "2026-04-29-reiner-pope-the-math-behind-how-llms-are-trained-a.html",
+    "category": "AI/Tech",
+    "excerpt": "## Introduction The economics of AI inference\u2014why faster responses cost more, why API pricing structures work the way they do, and what limits AI progress\u2014are fundamentally determined by a handful of ",
+    "tags": [
+      "AI/Tech"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "April 29, 2026",
     "title": "Bonus Episode: Thomas talks with STAT",
     "url": "2026-04-29-stat.html",
     "category": "Health/Business",
@@ -4266,6 +4277,17 @@
     "excerpt": "<p># Top News of 2023 for Startup Founders ## Key Insights - **Tightening capital environment**: The funding landscape for startups in 2023 has shifted dramatically from the frothy conditions of recen",
     "tags": [
       "Business/Entrepreneurship"
+    ],
+    "type": "podcast"
+  },
+  {
+    "date": "June 03, 2020",
+    "title": "Show 65 - Supernova in the East IV",
+    "url": "2020-06-03-show-65-supernova-in-the-east-iv.html",
+    "category": "History",
+    "excerpt": "## Introduction In the fourth installment of his sweeping \"Supernova in the East\" series examining the war in Asia and the Pacific between 1931 and 1945, Dan Carlin of *Hardcore History* turns his met",
+    "tags": [
+      "History"
     ],
     "type": "podcast"
   }
