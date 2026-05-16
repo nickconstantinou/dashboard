@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EP26 Dig This! | Nick's Blog</title>
+  <meta name="description" content="Dan Carlin's Hardcore History: Addendum — History">
+  <meta property="og:title" content="EP26 Dig This!">
+  <meta property="og:description" content="Dan Carlin's Hardcore History: Addendum — History">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2023-05-31 · History</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Dan Carlin's Hardcore History: Addendum">
+          <div class="podcast-hero-text">
+            <div class="source-label">Dan Carlin's Hardcore History: Addendum</div>
+            <h1>EP26 Dig This!</h1>
+            <p class="subtitle">In what feels like a conversation between old friends who stumble upon a shared obsession, Dan Carlin welcomes Daniele Bellelli—university lecturer, author of four books, and host …</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <li><strong>[02:30]</strong> <strong>Daniele Bellelli</strong> is introduced as a university lecturer with degrees in history, anthropology, and Native American studies, having published four books with the first at age 22, hosting the History on Fire podcast (now free, previously paywalled)</li>
+
+<li><strong>[08:15]</strong> Sites were preserved when the associated religious belief system remained viable—<strong>Ramesses II "restored" pyramids</strong> for political legitimacy, not pure scholarship, while <strong>Christianity caused deliberate avoidance</strong> of pagan temples once demons rather than gods were attributed to them</li>
+
+<li><strong>[12:45]</strong> <strong>Invented genealogies</strong> connecting rulers to mythological pasts served political purposes: every Mesoamerican successor state claimed descent from <strong>Teotihuacan</strong> for legitimacy, with lines eventually tracing to deities themselves</li>
+
+<li><strong>[17:30]</strong> <strong>Nabonidus</strong> (Neo-Babylonian, 550 BCE) attempted to date structures from <strong>1,000-1,500 years prior</strong>, earning the title "first archaeologist" for his proto-scientific curiosity, though political legitimacy was likely a motivating factor</li>
+
+<li><strong>[27:00]</strong> The <strong>Coliseum survived demolition</strong> for building materials specifically because early Christians believed Christian martyrs were killed there, preserving it as holy ground before its later rediscovery as a classical monument</li>
+
+<li><strong>[31:15]</strong> European competition between <strong>France and Britain</strong> during Napoleon's Egyptian campaign ironically protected artifacts—officials sought <strong>Turkish Ottoman permits</strong> not from ethics but to legally block rival European powers from acquiring antiquities</li>
+
+<li><strong>[38:20]</strong> <strong>Giovanni Belzoni</strong>, a former <strong>circus strongman</strong> standing six foot seven inches tall, graffiti-carved his name into tomb walls (still visible today) and openly wrote that his purpose was to <strong>"rob the Egyptians of their papyri"</strong> for European collectors</li>
+
+<h1>The Archaeology of the Past: How Humanity First Learned to Dig Up Its Own History</h1>
+
+<h2>Setting the Stage: Two Podcasters Geeking Out</h2>
+
+<p>In what feels like a conversation between old friends who stumble upon a shared obsession, Dan Carlin welcomes Daniele Bellelli—university lecturer, author of four books, and host of the History on Fire podcast—for a freewheeling discussion about archaeology organized through an Ebenezer Scrooge framework: the ghost of archaeology past, the ghost of archaeology present, and the ghost of archaeology future. The metaphor works better as a loose organizing principle than a rigid structure, but it gives the conversation room to wander through time, geography, and culture while maintaining direction.</p>
+
+<p>The episode opens with Carlin's characteristic self-deprecating humor about their mutual qualifications—or lack thereof. Neither host is a trained archaeologist, though Bellelli's anthropology background gives him somewhat more credibility than Carlin's generalist's curiosity. What's immediately apparent is that both share an genuine fascination with how humans throughout history have engaged with their own ancient past, and that fascination becomes contagious as the episode unfolds.</p>
+
+<p>What makes this conversation particularly valuable is its scope. Rather than focusing narrowly on modern archaeological methodology, the discussion traces humanity's relationship with its own history from ancient civilizations up through the Renaissance and into the 19th century's "Indiana Jones era" of treasure hunting masquerading as scholarship. The journey reveals uncomfortable truths about why we preserve the past, who benefits from its interpretation, and how often the impulse to recover history has been inseparable from the impulse to possess it.</p>
+
+<h2>The Ghost of Archaeology Past: Ancient Peoples and Their Own Antiquity</h2>
+
+<h3>Religious Preservation and Its Limits</h3>
+
+<p>One of the episode's most fascinating threads examines how and why ancient peoples preserved— or failed to preserve—sites from their own past. The pattern that emerges is striking: preservation typically required ongoing religious or political viability. When ancient Egyptian temples and tomb sites remained connected to living worship practices, they were maintained, refurbished, and sometimes even restored after antiquity robberies. The religion kept the site relevant.</p>
+
+<p>But this preservation had a shelf life. Once belief systems changed, those same sites often became relics to be ignored or actively shunned. Carlin cites a particularly illuminating example: after Rome converted to Christianity, some ancient polytheistic temples weren't merely abandoned. They were avoided altogether—not because Christians doubted the previous gods' existence, but because they believed those deities were actually demons in disguise. Engaging with such sites risked demonic contamination.</p>
+
+<p>This pattern repeats across cultures and centuries. The Coliseum in Rome survived demolition for building materials during the medieval period specifically because early Christians believed Christian martyrs had been killed there. The arena became holy ground consecrated by blood, and therefore untouchable—preserved not for its classical architecture or engineering significance, but for its perceived spiritual importance. Only later, when Renaissance thinkers rediscovered Roman traditions, did the Coliseum acquire its modern identity as a historical monument rather than a religious one.</p>
+
+<h3>Invented Lineages and Political Legitimacy</h3>
+
+<p>The conversation turns to what might generously be called "creative historiography" and less generously be called outright fabrication. The pattern Carlin and Bellelli identify is nearly universal: rulers throughout history have sought connections to glorious pasts, often inventing those connections when actual lineage was unavailable.</p>
+
+<p>Consider Nabonidus, the Neo-Babylonian king from around 550 BCE. This monarch reportedly showed genuine interest in the Akkadian Empire—specifically the great King Naram-Sin, who ruled more than a millennium before Nabonidus. The question of whether this interest was purely scholarly or partly political illustrates a fundamental tension: if you can claim descent or connection to one of history's first great empire builders, your own credentials to rule receive an enormous boost. "Sargon," Carlin notes, means "true king"—so connecting yourself to that lineage carries profound implications for your own legitimacy.</p>
+
+<p>Bellelli offers the Mesoamerican parallel. Long after Teotihuacan declined into memory, nearly every subsequent Mesoamerican state attempted to establish connections to it—whether those connections existed historically or not. The psychological and political utility of claiming descent from something universally respected outweighed any concern for accuracy. In many cases, these invented genealogies eventually trace backward through dozens of generations until they reach some deity, establishing the ruler not merely as a political successor but as something approaching divine.</p>
+
+<p>What makes this pattern historically valuable despite its inaccuracy? Bellelli suggests these "lies" reveal significant truths about the cultures that told them. What does it say about a society that its rulers felt compelled to fabricate such connections? What does it reveal about human psychology and the political necessity of appearing legitimate? Even deliberately false claims to the past illuminate the values, fears, and aspirations of the people making them.</p>
+
+<h3>The Question of Genuine Curiosity</h3>
+
+<p>Against this backdrop of political utility, the hosts investigate whether anyone in the ancient world genuinely studied the past for its own sake. Ramesses II, often called the first Egyptologist for his apparent restoration of ancient monuments, serves as a complicated case study. Did this powerful pharaoh restore the pyramids of his predecessors out of philosophical appreciation for ancient wisdom, or because associating himself with those great builders enhanced his own prestige? The answer is probably "both," but the political benefits are hard to ignore.</p>
+
+<p>Carlin notes a famous medieval Indian scholar named Kalhana who may have written something approaching a genuine history book—focused on reconstructing what actually happened rather than what would be politically useful. Kalhana's work represents a rare example of something approaching modern historiographical instincts in the pre-modern world.</p>
+
+<p>The broader pattern, however, suggests that pure curiosity was the exception rather than the rule. When ancient Chinese scholars studied their past, the implicit question was almost always "what can we learn that we can use now?" Artifacts represented hidden knowledge with practical applications, not windows into vanished ways of life. The concept of studying the past purely to understand it—without ulterior political, religious, or practical motivation—wouldn't truly emerge until much later.</p>
+
+<h2>The Renaissance and the European Rediscovery</h2>
+
+<h3>The Classical Revival and Its Implications</h3>
+
+<p>The episode's discussion of the Renaissance represents a crucial transition point in how Europeans engaged with their own ancient history. The rediscovery of classical Greek and Roman texts, philosophy, and art didn't just enrich European culture—it fundamentally transformed how people understood the relationship between past and present.</p>
+
+<p>When Aristotle, Plato, and other classical thinkers were rediscovered and translated, their ideas infused Renaissance science and philosophy with ancient classical values. But this intellectual movement had a material dimension too: people became intensely interested in the physical artifacts of Greece and Rome. Where could genuine antiquities be found? What had survived? What could be acquired?</p>
+
+<p>Carlin draws a direct line between this renewed interest and the development of what we might call the "treasure hunting" mentality toward the past. The question wasn't primarily "what did this civilization look like?" or "how did these people live?" The immediate question was "where is the shiny object?" The drive toward understanding the past was inseparable from the drive to possess its remnants.</p>
+
+<h3>Napoleon and the Egyptian Campaign</h3>
+
+<p>The Napoleonic invasion of Egypt in 1798 provides a perfect case study in how political competition shaped early archaeology. When Napoleon addressed his troops before the Battle of the Pyramids, his famous declaration that "40 centuries of history are looking down on you" captured the moment's significance. Here was a European power encountering one of humanity's most ancient civilizations firsthand.</p>
+
+<p>What made the Egyptian campaign archaeologically significant was that Napoleon brought scientists with his army. While soldiers fought and conquered, scholars examined ruins, documented inscriptions, and began the systematic study of ancient Egypt. The campaign sparked a European obsession with Egyptian artifacts that persists to this day.</p>
+
+<p>The irony, Carlin notes, is that European competition may have actually protected Egyptian antiquities from complete destruction. France and Britain were both vying for Egyptian artifacts, and neither wanted the other to succeed. When the British under Horatio Nelson destroyed the French fleet at the Battle of the Nile, the scramble continued on land. Both powers found themselves seeking permits and official approval from the Turkish Ottoman authorities who technically controlled Egypt—not because either power respected Ottoman sovereignty, but because valid permits could be used to legally block the rival European power from excavating or removing artifacts.</p>
+
+<p>Without that rivalry, the episode suggests, the destruction might have been even more thorough. Two European powers seeking to outmaneuver each other created bureaucratic constraints that, however accidentally, preserved more of Egypt's heritage than either power would have permitted alone.</p>
+
+<h3>The Personal Collections and Public Museums</h3>
+
+<p>The era's attitudes toward antiquities reflected assumptions that would be scandalous today. Wealthy Europeans commissioned agents to travel the world collecting artifacts—not just for museums, but for private estates. Statues, obelisks, and architectural elements ended up as "backyard pieces" in English gardens. The concept of cultural heritage as belonging to its place of origin simply didn't exist in the same way.</p>
+
+<p>This arrangement benefited the collectors and the emerging European museum system while depleting the source countries. It also created the collections upon which many early archaeological institutions were built—collections whose provenance was often deeply problematic and whose acquisition was frequently enabled by imperial power differentials rather than ethical excavation.</p>
+
+<h2>Giovanni Belzoni: The First Archaeologist as Tomb Robber</h2>
+
+<h3>The Circus Strongman Who Rediscovered Egypt</h3>
+
+<p>The episode's most colorful character study centers on Giovanni Battista Belzoni, a former circus strongman who became one of the most famous early explorers of Egyptian antiquities. Standing six feet seven inches tall and possessed of enormous physical strength, Belzoni literally didn't fit into many of the passages he attempted to explore—a limitation he documented with some frustration in his writings.</p>
+
+<p>Belzoni was responsible for rediscovering numerous tombs in the Valley of the Kings that had been inaccessible or unknown for millennia. The word "rediscovering" is intentional here: these sites had been found and used in antiquity, then lost to time. Belzoni's contemporaries often compared him favorably to ancient tomb robbers, a comparison he seems to have accepted with some pride.</p>
+
+<p>One of his more endearing quirks was his insistence on commemorating his discoveries by carving his name graffiti-style into tomb walls. These inscriptions survive to this day, functioning as a kind of 19th-century "Kilroy was here" across Egyptian archaeological sites. Carlin notes this with characteristic dark humor: "That's your father of archaeology in a way."</p>
+
+<h3>The Business of Robbing the Dead</h3>
+
+<p>The title of this episode—"Dig This!"—takes on darker meaning in Belzoni's context. Bellelli and Carlin read directly from Belzoni's own accounts of his excavation philosophy. The historian William H. Stiebing Jr., in his book *Uncovering the History of Archaeology*, provides crucial context: "Throughout his explorations, Belzoni continually looked for portable antiquities and papyri that he could sell to the consul general or other European collectors. He openly admitted that his purpose in entering ancient tombs was to 'rob the Egyptians of their papyri.'"</p>
+
+<p>The quotation marks around that phrase indicate this is Belzoni's own characterization of his work. He wasn't embarrassed by what he was doing. He wasn't disguising commercial motives behind scholarly language. He was in Egypt to extract valuable artifacts and sell them to wealthy European collectors.</p>
+
+<p>The destruction this approach caused was immense. Ancient tombs were opened, often for the first time in millennia, and the contents were assessed purely in terms of what could be transported and sold. Papyrus documents—the most fragile and valuable records of ancient Egyptian civilization—were particularly vulnerable. Rather than careful excavation with documentation, Belzoni and his contemporaries often simply removed everything portable and moved on.</p>
+
+<p>Carlin reads from Belzoni's own descriptions of exploring dark, unventilated tomb passages—accounts that convey the physical danger and discomfort of these expeditions while simultaneously revealing how different this work was from modern archaeology. Where contemporary archaeologists might spend years documenting a single site, Belzoni was breaking in, extracting what had value, and moving on to the next discovery.</p>
+
+<h3>Why It Matters: Separating Discovery from Understanding</h3>
+
+<p>The contrast between Belzoni-era archaeology and modern practice illuminates a fundamental tension in how humans have approached the past. Discovery and understanding are not the same thing. Belzoni "discovered" sites that had been lost for millennia, but his methods prevented the kind of careful documentation that would allow future scholars to reconstruct the context of those discoveries.</p>
+
+<p>What was the relationship between the artifacts in a tomb? What could the positioning of objects tell us about Egyptian beliefs, practices, or social organization? These questions were largely unasked in the early era of collecting, because the immediate economic value of portable artifacts overshadowed any scholarly interest in what those artifacts might reveal.</p>
+
+<p>This doesn't mean Belzoni and his contemporaries deserve only condemnation. They operated within frameworks of their time, and many genuinely believed they were preserving and protecting artifacts that might otherwise be lost to local populations who had little interest in ancient monuments. But acknowledging the limitations of their approach helps us appreciate how much archaeological methodology has evolved—and how much more there is to learn from sites that either weren't completely excavated or were excavated more carefully.</p>
+
+<h2>The Value of Understanding How We Understand the Past</h2>
+
+<h3>Why This History of Archaeology Matters</h3>
+
+<p>The episode's ultimate value lies not in any specific archaeological fact but in its illumination of human psychology and motivation. Why do we preserve the past? Why do we destroy it? Why do we study what came before us? The answers, it turns out, are rarely purely intellectual.</p>
+
+<p>Political legitimacy has driven countless acts of preservation and restoration. Religious conviction has both protected and endangered ancient sites. Economic interest has motivated both careful scholarship and barbaric looting. National pride and ethnic identity have shaped which pasts get emphasized and which get ignored.</p>
+
+<p>Understanding this history doesn't diminish archaeology as a discipline— it humanizes it. Every ancient site we study today exists in a palimpsest of previous interpretations, previous interventions, previous acts of preservation and destruction. Recognizing that pattern helps us interpret the evidence we find more thoughtfully.</p>
+
+<h3>The Continuing Evolution</h3>
+
+<p>The episode's Scrooge framework—past, present, future—invites us to consider where archaeology is going. Contemporary archaeology increasingly grapples with questions of who owns the past, who should control access to sites, and how indigenous and local communities should be involved in studying their own heritage. These debates reflect continuing evolution in how humans understand their relationship to what came before.</p>
+
+<p>The ghost of archaeology present might involve questions about repatriation of artifacts, community archaeology, and digital preservation technologies. The ghost of archaeology future might consider how climate change threatens coastal sites, how artificial intelligence transforms how we analyze finds, and how changing demographics in the discipline itself reshape what questions get asked.</p>
+
+<h2>Who Should Listen to This Episode</h2>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "b11bbcb45d6c8eb2",
+    "source_name": "Dan Carlin's Hardcore History: Addendum",
+    "episode_title": "EP26 Dig This!",
+    "segment_title": "Archaeology as Inherently Destructive Research",
+    "summary": "Archaeology remains a destructive form of research where excavation destroys evidence that future technologies might better analyze. The discussion highlights the ongoing tension between needing to excavate before climate change, looters, or development destroy sites versus waiting for better non-destructive technologies to emerge.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146",
+    "start_seconds": 1378,
+    "end_seconds": 1505,
+    "score": 0.78,
+    "reason": "info=0.85 eng=0.85 penalty=-0.07 Central analytical tension with decision stakes",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Archaeology",
+      "Inherently Destructive Research",
+      "EP26 Dig This",
+      "Dan Carlin's Hardcore History",
+      "Addendum",
+      "Dan Carlin's Hardcore History: Addendum"
+    ],
+    "topics": [
+      "archaeological ethics",
+      "preservation",
+      "technology",
+      "destructive research",
+      "history",
+      "science"
+    ],
+    "trace": {
+      "episode_id": "fa25929307a03bb4",
+      "feed_url": "",
+      "published_at": "Wed, 31 May 2023 16:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a892fbb66c9ac99f",
+    "source_name": "Dan Carlin's Hardcore History: Addendum",
+    "episode_title": "EP26 Dig This!",
+    "segment_title": "New Mexico footprints and the limits of context",
+    "summary": "Archaeologists discovered 10,000-year-old footprints in New Mexico showing a person carrying a toddler who sometimes walked alongside. They determined the route, that rain began shortly after, and that the person returned alone. Yet despite this precision, the identities and the story remain completely unknown\u2014illustrating archaeology's paradox of knowing exact details while lacking narrative context.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146",
+    "start_seconds": 1911,
+    "end_seconds": 2018,
+    "score": 0.78,
+    "reason": "info=0.85 eng=0.85 penalty=-0.07 Highly specific details with paradox framing (exact knowledge, unknown story) creates strong curiosity loop and narrative tension",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "New Mexico",
+      "Archaeologists",
+      "Yet",
+      "EP26 Dig This",
+      "Dan Carlin's Hardcore History",
+      "Addendum",
+      "Dan Carlin's Hardcore History: Addendum"
+    ],
+    "topics": [
+      "footprints",
+      "context problem",
+      "archaeological interpretation",
+      "human stories",
+      "history",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "fa25929307a03bb4",
+      "feed_url": "",
+      "published_at": "Wed, 31 May 2023 16:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a59c27091e4d845c",
+    "source_name": "Dan Carlin's Hardcore History: Addendum",
+    "episode_title": "EP26 Dig This!",
+    "segment_title": "Ice Preservation of Archaeological Tombs",
+    "summary": "Many Scythian tombs freeze on first frost, turning into blocks of ice that preserve skin, tattoos, textiles, and sacrificial animals for thousands of years. When archaeologists thaw these tombs, the preserved remains provide extraordinary glimpses into ancient life, including the smell of animals killed 2300 years ago.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146",
+    "start_seconds": 4037,
+    "end_seconds": 4081,
+    "score": 0.79,
+    "reason": "info=0.85 eng=0.70 penalty=0.00 Rich sensory details (2300-year-old smell) with high utility density",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Ice Preservation",
+      "Archaeological Tombs",
+      "Many Scythian",
+      "When",
+      "EP26 Dig This",
+      "Dan Carlin's Hardcore History",
+      "Addendum",
+      "Dan Carlin's Hardcore History: Addendum"
+    ],
+    "topics": [
+      "archaeological preservation",
+      "frozen tombs",
+      "ancient textiles",
+      "tattoos",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "fa25929307a03bb4",
+      "feed_url": "",
+      "published_at": "Wed, 31 May 2023 16:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "7a37a5fe06c60b8d",
+    "source_name": "Dan Carlin's Hardcore History: Addendum",
+    "episode_title": "EP26 Dig This!",
+    "segment_title": "The Iceman Otzi Discovery and Life Reconstruction",
+    "summary": "The famous Iceman discovered in 1991 at the Italy-Austria border was over 5,000 years old, predating the pyramids. Through studying his preserved body and tools, researchers reconstructed his final days, including his last meal, the arrow that killed him, and discovered his tattoos corresponded to arthritis pain points, suggesting ancient acupuncture practices.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146",
+    "start_seconds": 4236,
+    "end_seconds": 4458,
+    "score": 0.81,
+    "reason": "info=0.90 eng=0.85 penalty=-0.07 Crime scene reconstruction with tattoos, arrow, last meal creates strong narrative tension",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "Otzi",
+      "Iceman",
+      "Life Reconstruction",
+      "Italy-Austria",
+      "Through",
+      "EP26 Dig This",
+      "Dan Carlin's Hardcore History",
+      "Addendum"
+    ],
+    "topics": [
+      "mummification",
+      "ancient medicine",
+      "tattoo history",
+      "crime scene reconstruction",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "fa25929307a03bb4",
+      "feed_url": "",
+      "published_at": "Wed, 31 May 2023 16:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "8a826744c32492db",
+    "source_name": "Dan Carlin's Hardcore History: Addendum",
+    "episode_title": "EP26 Dig This!",
+    "segment_title": "G\u00f6bekli Tepe and Rewritten Human History",
+    "summary": "G\u00f6bekli Tepe in Turkey fundamentally challenges assumptions about hunter-gatherer societies, demonstrating that prehistoric peoples could mobilize massive labor for monumental architecture. This site forces a complete rewriting of human history, as it was built by people traditionally believed incapable of such complexity.",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/traffic.libsyn.com/clean/secure/dchhaddendum/dchh-Addendum26-Dig-This.mp3?dest-id=596146",
+    "start_seconds": 4995,
+    "end_seconds": 5066,
+    "score": 0.786,
+    "reason": "info=0.88 eng=0.82 penalty=-0.07 High utility density rewriting history thesis; intellectual stakes and conflict strong",
+    "timing_quality": "estimated",
+    "subject_id": "history",
+    "subject": "history",
+    "entities": [
+      "G\u00f6bekli Tepe",
+      "Turkey",
+      "Tepe",
+      "Rewritten Human History",
+      "EP26 Dig This",
+      "Dan Carlin's Hardcore History",
+      "Addendum",
+      "Dan Carlin's Hardcore History: Addendum"
+    ],
+    "topics": [
+      "archaeology",
+      "hunter gatherers",
+      "monumental architecture",
+      "human history",
+      "history"
+    ],
+    "trace": {
+      "episode_id": "fa25929307a03bb4",
+      "feed_url": "",
+      "published_at": "Wed, 31 May 2023 16:00:00 +0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>
