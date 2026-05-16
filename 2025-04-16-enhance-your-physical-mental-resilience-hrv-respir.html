@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR) | Nick's Blog</title>
+  <meta name="description" content="Perform with Dr. Andy Galpin — Health/Science">
+  <meta property="og:title" content="Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)">
+  <meta property="og:description" content="Perform with Dr. Andy Galpin — Health/Science">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2025-04-16 · Health/Science</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="Perform with Dr. Andy Galpin">
+          <div class="podcast-hero-text">
+            <div class="source-label">Perform with Dr. Andy Galpin</div>
+            <h1>Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)</h1>
+            <p class="subtitle">The ability to consciously influence physiology has fascinated scientists, mystics, and athletes for decades. Dr.</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <p><strong>[02:30]</strong> Swami Rama demonstrated conscious control of heart rate from 70 to 300 beats per minute (and back down below 20 BPM), plus temperature changes of 6°C in the same hand, documented via EEG and ECG in 1970</p>
+
+<p><strong>[08:45]</strong> Tibetan monks practicing TUMMO raised body temperature 8 degrees consciously and dried wet sheets in sub-zero conditions, published in *Nature* journal in 1982 — establishing this as scientifically legitimate, not anecdotal</p>
+
+<p><strong>[12:15]</strong> The autonomic nervous system (ANS) comprises parasympathetic ("rest and digest") and sympathetic ("fight or flight") branches, both of which can be consciously recalibrated despite their automatic nature</p>
+
+<p><strong>[24:30]</strong> The goal is NOT to eliminate stress or always down-regulate — it's to widen the "highway" between sympathetic and parasympathetic states so normal fluctuations don't trigger maladaptive responses</p>
+
+<p><strong>[28:00]</strong> Most people fail because they apply acute stimuli (breathwork, cold exposure) expecting chronic/permanent baseline changes — understanding the distinction between acute movers and chronic recalibrators is essential</p>
+
+<h1>Introduction</h1>
+
+<p>The ability to consciously influence physiology has fascinated scientists, mystics, and athletes for decades. Dr. Andy Galpin, professor and executive director of the Human Performance Center at Parker University, opens this episode with a memorable reference from *The Office*: Dwight Schrute boasted about voluntarily raising his own blood cholesterol levels — a comically absurd claim, but one that hints at a profound truth. *Can humans consciously control aspects of physiology that most assume are entirely automatic?*</p>
+
+<p>The answer, according to decades of scientific research, is a resounding yes. Galpin walks viewers through documented cases — from 1970s mystics to Himalayan monks — that demonstrate remarkable control over heart rate, body temperature, and nervous system function. But rather than presenting this as a parlor trick, he frames it as practical science: understanding and controlling your nervous system is foundational to physical performance, mental resilience, and long-term health.</p>
+
+<p>This episode breaks from typical "stress management" content by refusing to focus exclusively on down-regulation. Instead, Galpin presents a comprehensive framework for achieving fine-tuned nervous system control — the ability to move deliberately between heightened arousal and deep relaxation as circumstances demand, while keeping the system running smoothly in the background when conscious control isn't needed.</p>
+
+<h1>Key Concepts & Arguments</h1>
+
+<h2>The Science of Voluntary Physiology Control</h2>
+
+<p>Galpin grounds his discussion in documented scientific evidence rather than speculation. He highlights <strong>Swami Rama</strong>, who in 1970 sat in a laboratory while scientists attached ECG electrodes (measuring heart electrical activity) and EEGs (measuring brain activity). Without moving, Rama raised his resting heart rate from 70 beats per minute to approximately 300 beats per minute and held it there for several seconds before bringing it back down. Perhaps more remarkably, he also lowered his heart rate below 20 beats per minute while simultaneously inducing atrial fibrillation — a condition that made the monitoring equipment register what appeared to be cardiac arrest for approximately 20 seconds. The scientists were reportedly shocked and needed reassurance that he was unharmed.</p>
+
+<p>Rama additionally demonstrated precise temperature control, changing the temperature of a single hand by six degrees Celsius while keeping the other hand at normal temperature — demonstrating not just whole-body control but extreme localized precision. This demonstration, conducted under controlled laboratory conditions, remains one of the most cited examples in the scientific literature on autonomic nervous system control.</p>
+
+<p>A decade later, researchers published findings in *Nature* — one of the world's most prestigious scientific journals — documenting Tibetan monks practicing <strong>TUMMO meditation</strong>. These monks raised their body temperatures by eight degrees through conscious effort alone and were placed in freezing, often sub-zero conditions with wet sheets draped over them. They successfully dried those sheets within 30 to 60 minutes while maintaining neutral body temperature and stable heart rate. This peer-reviewed documentation established that such control, while rare, represents a legitimate physiological capacity that can be developed through practice.</p>
+
+<p>The takeaway from these examples isn't that everyone should aim to stop their heart or raise their body temperature dramatically. Rather, Galpin uses them to establish an "inarguable" point: the human nervous system possesses far more plasticity and voluntary control capacity than most people realize.</p>
+
+<h2>Understanding the Nervous System Architecture</h2>
+
+<p>Galpin provides a clear anatomical framework to help viewers conceptualize what "controlling your nervous system" actually means. He divides the nervous system into two main branches:</p>
+
+<p>The <strong>central nervous system</strong> (CNS) comprises the brain, brain stem, and spinal cord — the command center that processes and integrates information. The <strong>peripheral nervous system</strong> (PNS) encompasses everything extending outward from the CNS and includes both incoming sensory pathways and outgoing motor signals.</p>
+
+<p>Within the peripheral nervous system, Galpin distinguishes between the <strong>somatic system</strong> (voluntary control over skeletal muscles — what you actively control) and the <strong>autonomic nervous system</strong> (ANS), which regulates involuntary functions like heart rate, digestion, and gland secretion. It's the ANS that represents both the target of control and the source of most discussion in this episode.</p>
+
+<p>Within the autonomic nervous system, two branches dominate the conversation:</p>
+
+<p>The <strong>parasympathetic system</strong> — often called "rest and digest" — promotes recovery, digestion, and relaxation. The <strong>sympathetic system</strong> — called "fight or flight" — activates during stress, exercise, or perceived threats, increasing heart rate, dilating pupils, and redirecting blood flow to working muscles. Galpin notes that the reality is more complex than this binary, mentioning the "freeze" mechanism and the enteric system (governing gut function), but for practical purposes, the parasympathetic-sympathetic interplay provides the most actionable framework.</p>
+
+<h2>The "Three Eyes" Framework for Nervous System Control</h2>
+
+<p>Galpin introduces a systematic approach he calls "the three eyes" — a methodology for investigating, interpreting, and intervening upon nervous system function:</p>
+
+<p><strong>First Eye — Investigate</strong>: This involves measuring your current nervous system state using technology (heart rate variability monitors, respiratory rate trackers, resting heart rate sensors) or developing what he calls <strong>interoception</strong> — the internal awareness of physiological states. Some people possess natural interoceptive sensitivity, while others are "completely terrible" at sensing their internal states, but both groups need some method of assessment.</p>
+
+<p><strong>Second Eye — Interpret</strong>: Once you have measurement data, the challenge becomes making sense of it. What does your heart rate variability score actually mean? How should you evaluate your resting heart rate relative to your baseline? This layer involves understanding benchmarks, context, and what the numbers indicate about your current autonomic function.</p>
+
+<p><strong>Third Eye — Intervene</strong>: Here lie the protocols, tools, technologies, and strategies for creating change. Galpin promises to cover both tools accessible at home and those requiring more advanced intervention, whether moving the system acutely (in the present moment) or chronically (creating permanent baseline shifts).</p>
+
+<h2>The Highway Analogy: Why Range Matters More Than Avoidance</h2>
+
+<p>Perhaps the most valuable conceptual contribution of this episode is Galpin's "highway analogy" for understanding what nervous system optimization actually means. He explains that many people approach this work thinking the goal is to reduce stress, avoid sympathetic activation, and maximize parasympathetic tone. This framing, he argues, is fundamentally flawed.</p>
+
+<p>Imagine a one-lane highway. When another car approaches from the opposite direction, you're likely to hit the guardrail because there's simply no room to maneuver. This represents a nervous system with narrow range — highly sensitized to both up-regulation and down-regulation, meaning any deviation from baseline creates dramatic psychological and physiological impacts.</p>
+
+<p>Now imagine expanding that highway to seven lanes. Even if you lose some control or another vehicle intrudes into your space, you're far less likely to crash into the walls. This represents a nervous system with wide range — capable of experiencing significant sympathetic and parasympathetic activation without that activation creating "dramatic impact on your lived experience."</p>
+
+<p>The goal, then, is <strong>widening the range</strong> of the autonomic experience, not eliminating it. This concept aligns with what researchers and clinicians call <strong>resilience</strong> — the ability to experience high and low states of autonomic activation without corresponding dramatic shifts in psychology, mood, anxiety, or perceived stress. A resilient nervous system doesn't mean you're always calm. It means you can be highly activated without being derailed, and you can recover quickly without needing to spend your entire day "managing" your nervous system.</p>
+
+<h2>The Two Pathways: Reading and Regulating</h2>
+
+<p>Galpin breaks the practical application into two main areas. First, you must be able to <strong>read</strong> your current state. This requires either technology (purchased devices that measure HRV, respiratory rate, or RHR) or developed interoception — the learned ability to sense internal physiological signals. Neither is inherently superior; the important point is that you need some awareness of where you currently are before attempting to change anything.</p>
+
+<p>Second, you must be able to <strong>regulate</strong>. Galpin explicitly distinguishes between two types of regulation that people frequently confuse:</p>
+
+<p><strong>Acute interventions</strong> create immediate, temporary changes in nervous system state. Examples include specific breathing techniques, cold exposure, visualization, or postural adjustments that shift your physiology right now, in this moment. These are valuable tools, but they have a specific, time-limited function.</p>
+
+<p><strong>Chronic interventions</strong> create permanent, baseline shifts in nervous system function. These are structural changes that recalibrate your nervous system's set point over time through consistent practice, training adaptations, or deliberate protocols applied over weeks and months.</p>
+
+<p>The critical failure mode Galpin identifies: using acute interventions while expecting chronic results. Someone might practice breathwork for ten minutes daily and feel temporarily relaxed afterward, then become disappointed when their baseline anxiety doesn't improve. The breathwork was never designed to make that chronic change — it was an acute mover. Understanding which category your interventions fall into, and applying them appropriately, is essential for meaningful results.</p>
+
+<h1>Detailed Takeaways</h1>
+
+<h2>1. The Nervous System Is Controllable, Not Fixed</h2>
+
+<p>Despite being "autonomic" (automatic), the nervous system is not immutable. The documented examples of Swami Rama and TUMMO practitioners demonstrate that conscious control of heart rate, body temperature, and other supposedly involuntary functions is possible. This isn't mystical thinking — it's peer-reviewed science published in top-tier journals. The practical implication: if you're experiencing dysregulation, chronic stress, or suboptimal performance markers, there are interventions available. You're not stuck with the nervous system you were born with.</p>
+
+<h2>2. Goal Is Background Operation With Toggle Capacity</h2>
+
+<p>The ideal state isn't constant conscious management of your nervous system. Instead, you want the system running independently in the background — functioning smoothly like software operating your computer without requiring your attention. The exception: when circumstances require deliberate toggling — stepping into competition and needing to activate, preparing for sleep and needing to down-regulate, or experiencing dysregulation that requires recalibration. The goal is freedom from constant monitoring, not attachment to it.</p>
+
+<h2>3. Range Expansion Beats Avoidance</h2>
+
+<p>A nervous system optimized for only calm is fragile. A monk who can only achieve deep relaxation has a narrow operating range — high-arousal situations will destabilize them. The objective is building a wide range: capacity for deep parasympathetic recovery AND strong sympathetic activation, with the ability to transition smoothly between states. This resilience means you can feel anxiety, feel stress, face competition, and not be derailed by those experiences. Widening your range creates protection against the guardrails.</p>
+
+<h2>4. Know Your Intervention Category</h2>
+
+<p>Before applying any nervous system intervention, clarify whether it's designed for acute state change or chronic baseline recalibration. Acute tools (breath holds, cold showers, specific visualizations) provide immediate shifts useful for present-moment situations. Chronic tools (regular meditation practice, HRV biofeedback training, consistent sleep protocols) applied over time shift your baseline set point. Applying acute tools expecting chronic results leads to disappointment; applying chronic tools expecting immediate relief leads to frustration. Match your tool to your goal.</p>
+
+<h2>5. Measurement Precedes Intervention</h2>
+
+<p>You cannot systematically improve what you don't measure. Whether through wearable technology tracking HRV and resting heart rate, or through developing interoceptive awareness through practice, you need feedback about your current state. Without measurement, you're guessing — and the nervous system, being adaptive and prone to habituation, can make subjective assessment unreliable. Start with measurement, establish baselines, then apply interventions with awareness of their effects.</p>
+
+<h1>Who This Is For</h1>
+
+<p>This content serves individuals interested in optimizing physical performance, mental resilience, and recovery capacity — from athletes seeking every advantage to professionals managing high-stress lifestyles to anyone frustrated by what feels like uncontrollable physiological reactivity.</p>
+
+<p>The value proposition is distinct from standard stress-management content: rather than promising anxiety elimination or suggesting that calm is the default goal, Galpin offers a framework for developing genuine nervous system mastery. Viewers learn that feeling stressed isn't failure — it's a natural state they can experience without being overwhelmed by it. They learn that peak performance requires sympathetic activation, not just parasympathetic relaxation. And they learn the difference between tools that create immediate change versus those that create lasting structural change.</p>
+
+<p>Anyone who has tried breathwork, meditation, cold exposure, or other nervous system interventions without achieving the results they expected will find particular value in understanding why — and how to apply these tools with appropriate expectations. Anyone seeking a systematic, scientifically grounded approach to resilience rather than a motivational or spiritual framework will benefit most.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "72022ed32dd2ebf5",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)",
+    "segment_title": "HRV as a Metric and Its Limitations",
+    "summary": "HRV is approximately 50% genetic and 50% lifestyle, though the research is evolving. There is an age-related decline in HRV, but recent research suggests maintaining function and fitness through life may prevent this decline. It's a snapshot into the autonomic nervous system but not a perfect metric.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609",
+    "start_seconds": 1650,
+    "end_seconds": 1740,
+    "score": 0.7,
+    "reason": "info=0.80 eng=0.55 penalty=0.00 Metric limitations acknowledged with candor",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "HRV",
+      "Metric",
+      "Its Limitations",
+      "There",
+      "It's",
+      "Enhance Your Physical",
+      "Mental Resilience",
+      "Respiratory Rate"
+    ],
+    "topics": [
+      "hrv measurement",
+      "genetics",
+      "aging",
+      "lifestyle",
+      "science"
+    ],
+    "trace": {
+      "episode_id": "5f620e8440fe4490",
+      "feed_url": "",
+      "published_at": "Wed, 16 Apr 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "1d5687eab2a92223",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)",
+    "segment_title": "Timeline for Nervous System Changes",
+    "summary": "Research shows noticeable changes begin at 3-4 weeks, with biggest impact around 6-8 weeks of consistent practice. After this period, people can transition to maintenance dosage 2-3 times per week. Stopping entirely may cause regression back to baseline.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609",
+    "start_seconds": 5456,
+    "end_seconds": 5502,
+    "score": 0.74,
+    "reason": "info=0.80 eng=0.65 penalty=0.00 Actionable timeline with clear stakes and maintenance guidance creates strong forward pull",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Timeline",
+      "Nervous System Changes",
+      "Research",
+      "After",
+      "Stopping",
+      "Enhance Your Physical",
+      "Mental Resilience",
+      "HRV"
+    ],
+    "topics": [
+      "timeline",
+      "chronic changes",
+      "maintenance dosage",
+      "nervous system training",
+      "science"
+    ],
+    "trace": {
+      "episode_id": "5f620e8440fe4490",
+      "feed_url": "",
+      "published_at": "Wed, 16 Apr 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "656c0a569391614c",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)",
+    "segment_title": "Five Factors for Effective Breathwork",
+    "summary": "Tanya Bentley's review found 72 papers showing breathwork helps anxiety in 75-80% of cases. Five factors distinguished successful protocols: avoiding fast-only breathing, sessions over 5 minutes, human-guided instruction, multiple sessions per week, and 4-8 week duration.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609",
+    "start_seconds": 6016,
+    "end_seconds": 6166,
+    "score": 0.746,
+    "reason": "info=0.88 eng=0.72 penalty=-0.07 72 studies, 75-80% stat, five enumerated factors drive both scores",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Tanya Bentley",
+      "Five Factors",
+      "Effective Breathwork",
+      "Tanya Bentley's",
+      "Five",
+      "Enhance Your Physical",
+      "Mental Resilience",
+      "HRV"
+    ],
+    "topics": [
+      "breathwork research",
+      "anxiety treatment",
+      "clinical outcomes",
+      "five",
+      "factors",
+      "effective",
+      "breathwork",
+      "tanya"
+    ],
+    "trace": {
+      "episode_id": "5f620e8440fe4490",
+      "feed_url": "",
+      "published_at": "Wed, 16 Apr 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "ea61408bd5397aa4",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)",
+    "segment_title": "Hypoxic Exposure Breath Holding Biofeedback",
+    "summary": "Acute hypoxic exposure techniques including breath holding and Valsalva maneuver provide immediate subjective changes. Combining these with brief physical activity like jumping jacks or push-ups can rapidly alter perception and serve as a biofeedback mechanism.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609",
+    "start_seconds": 6218,
+    "end_seconds": 6263,
+    "score": 0.752,
+    "reason": "info=0.85 eng=0.78 penalty=-0.07 Immediate effects create curiosity, specific techniques with candid framing",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Hypoxic Exposure Breath Holding",
+      "Biofeedback",
+      "Acute",
+      "Valsalva",
+      "Combining",
+      "Enhance Your Physical",
+      "Mental Resilience",
+      "HRV"
+    ],
+    "topics": [
+      "biofeedback",
+      "breath holding",
+      "valsalva",
+      "hypoxic",
+      "exposure",
+      "breath",
+      "holding",
+      "acute"
+    ],
+    "trace": {
+      "episode_id": "5f620e8440fe4490",
+      "feed_url": "",
+      "published_at": "Wed, 16 Apr 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "7ce276ed0c015649",
+    "source_name": "Perform with Dr. Andy Galpin",
+    "episode_title": "Enhance Your Physical & Mental Resilience (HRV, Respiratory Rate, RHR)",
+    "segment_title": "Nasal Breathing Walking Protocol",
+    "summary": "Brian McKenzie's 'gear one' walking involves 30-45 minutes of nasal-only breathing at a specific rhythm: 2-second inhale, 2-second exhale (15 breaths per minute). This intentional pace retraining helps establish appropriate breath rate baselines for sleep and daily function.",
+    "audio_url": "https://traffic.megaphone.fm/SCIM4685954077.mp3?updated=1744778609",
+    "start_seconds": 6354,
+    "end_seconds": 6419,
+    "score": 0.764,
+    "reason": "info=0.82 eng=0.68 penalty=0.00 Precise protocol parameters with named expert create engagement",
+    "timing_quality": "estimated",
+    "subject_id": "health_science",
+    "subject": "health_science",
+    "entities": [
+      "Brian McKenzie",
+      "Nasal Breathing Walking Protocol",
+      "Brian McKenzie's",
+      "Enhance Your Physical",
+      "Mental Resilience",
+      "HRV",
+      "Respiratory Rate",
+      "RHR"
+    ],
+    "topics": [
+      "nasal breathing",
+      "breath rate retraining",
+      "walking protocol",
+      "health"
+    ],
+    "trace": {
+      "episode_id": "5f620e8440fe4490",
+      "feed_url": "",
+      "published_at": "Wed, 16 Apr 2025 08:00:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>

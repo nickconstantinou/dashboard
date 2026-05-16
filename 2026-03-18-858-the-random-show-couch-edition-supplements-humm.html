@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>#858: The Random Show, Couch Edition! — Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More  | Nick's Blog</title>
+  <meta name="description" content="The Tim Ferriss Show — Business/Self-help">
+  <meta property="og:title" content="#858: The Random Show, Couch Edition! — Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ">
+  <meta property="og:description" content="The Tim Ferriss Show — Business/Self-help">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --primary: #0F172A; --accent: #F97316; --bg: #F8FAFC; --card-bg: #FFFFFF; --text: #1E293B; --text-muted: #64748B; --border: #E2E8F0; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); line-height: 1.7; }
+    h1, h2, h3 { font-family: 'Space Grotesk', sans-serif; font-weight: 700; line-height: 1.3; }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    header { background: var(--card-bg); padding: 20px 0; border-bottom: 1px solid var(--border); }
+    .logo { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 700; color: var(--primary); text-decoration: none; }
+    .logo span { color: var(--accent); }
+    .post-wrap { background: var(--card-bg); border-radius: 12px; margin: 28px 0; border: 1px solid var(--border); overflow: hidden; }
+    article { padding: 32px; }
+    .meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+    /* Podcast hero */
+    .podcast-hero { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; }
+    .podcast-hero img { width: 88px; height: 88px; border-radius: 10px; object-fit: cover; flex-shrink: 0; border: 1px solid var(--border); }
+    .podcast-hero-text { flex: 1; min-width: 0; }
+    /* YouTube hero */
+    .video-hero { margin-bottom: 16px; }
+    /* Shared title area */
+    .source-label { font-size: 12px; color: var(--text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+    h1 { font-size: 26px; color: var(--primary); line-height: 1.25; margin-bottom: 8px; }
+    .subtitle { font-size: 15px; color: var(--text-muted); line-height: 1.55; margin-bottom: 20px; }
+    /* Players */
+    .video-wrapper { position: relative; padding-bottom: 56.25%; margin-bottom: 28px; border-radius: 8px; overflow: hidden; }
+    .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .audio-wrapper { margin-bottom: 28px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+    .audio-wrapper audio { width: 100%; }
+    /* Segment cards */
+    .segments-label { font-size: 13px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; margin-top: 0; }
+    #segments-section { margin-bottom: 28px; }
+    .segment-card { display: flex; align-items: flex-start; gap: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; margin-bottom: 8px; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s; }
+    .segment-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(249,115,22,0.10); }
+    .segment-card.playing { border-color: var(--accent); background: #fff7f0; }
+    .segment-play { flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+    .segment-play svg { width: 14px; height: 14px; fill: white; margin-left: 2px; }
+    .segment-body { flex: 1; min-width: 0; }
+    .segment-title { font-weight: 600; font-size: 14px; color: var(--primary); margin-bottom: 3px; }
+    .segment-summary { font-size: 13px; color: var(--text-muted); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .segment-time { font-size: 12px; color: var(--accent); font-weight: 600; margin-top: 4px; }
+    /* Timestamp click-to-seek (YouTube) */
+    .ts-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-weight: 600; font-family: inherit; font-size: inherit; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
+    .ts-btn:hover { opacity: 0.75; }
+    /* Body text */
+    h2 { font-size: 20px; margin-top: 28px; margin-bottom: 10px; color: var(--primary); }
+    h3 { font-size: 16px; margin-top: 20px; margin-bottom: 8px; color: var(--primary); }
+    p { margin-bottom: 14px; }
+    ul, ol { margin-bottom: 14px; padding-left: 24px; }
+    li { margin-bottom: 6px; }
+    strong { font-weight: 600; color: var(--primary); }
+    footer { padding: 28px 0; border-top: 1px solid var(--border); text-align: center; margin-top: 8px; }
+    footer p { font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">← Nick's <span>Blog</span></a>
+    </div>
+  </header>
+  <div class="container">
+    <div class="post-wrap">
+      <article>
+        <p class="meta">2026-03-18 · Business/Self-help</p>
+        <div class="podcast-hero" id="podcast-hero" data-channel="The Tim Ferriss Show">
+          <div class="podcast-hero-text">
+            <div class="source-label">The Tim Ferriss Show</div>
+            <h1>#858: The Random Show, Couch Edition! — Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More </h1>
+            <p class="subtitle">The latest episode of Tim Ferriss's long-running conversation podcast finds the author, investor, and self-experimenter recording in the zen corner of his Southern California home …</p>
+          </div>
+        </div>
+        <div class="audio-wrapper">
+          <audio id="podcast-player" controls>
+            <source src="https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301" type="audio/mpeg">
+          </audio>
+        </div>
+        <div id="segments-section"></div>
+        
+        <p><strong>[08:23]</strong> 1,3-butanediol, the binding agent in many exogenous ketone supplements, shows mounting evidence of liver toxicity in animal models equivalent to fatty liver disease — Tim recommends treating it like moonshine and using extreme moderation</p>
+
+<p><strong>[14:47]</strong> The full 30g dose of ketone esters spikes anxiety rather than reducing it for both Tim and Dr. Ron Patrick, but a 15g dose works well — suggesting a J-curve effect where less is more</p>
+
+<p><strong>[26:02]</strong> The "be still" directive from Zen master Henry Shukman proved more effective for Tim's OCD than labeling practices, illustrating that concentration meditation suits some people better than open monitoring approaches</p>
+
+<p><strong>[38:15]</strong> Vagus nerve stimulation via implant provides approximately 12 hours of anti-inflammatory effect per session, explaining why twice-daily meditation may produce measurable reductions in chronic inflammation and aches</p>
+
+<p><strong>[42:33]</strong> Tim experienced 3-5 days of blissful, calm attention after returning from a short 3-4 day Zen retreat, suggesting meditation benefits may manifest most powerfully in the days following dedicated practice rather than during the practice itself</p>
+
+<h1>The Random Show: Why "Just Be Still" Might Outperform Fancy Biohacks</h1>
+
+<p>The latest episode of Tim Ferriss's long-running conversation podcast finds the author, investor, and self-experimenter recording in the zen corner of his Southern California home — an accessory dwelling unit decorated with Tibetan meditation bowls and flanked by crystal-adjacent aesthetics that play well in the California sun. The setting itself signals the episode's underlying theme: the intersection of rigorous self-optimization and genuine surrender.</p>
+
+<p>Rather than a single deep-dive topic, this "Couch Edition" stitches together several threads that Ferriss and his unnamed co-host (frequent collaborator Naval Ravikant) have been processing since returning from a small-group Zen retreat in New Mexico. The conversation wanders through ketone supplementation warnings, meditation technique refinement, and a fascinating tangent into bioelectric medicine that reframes why stillness practices work at all.</p>
+
+<p>What emerges is less a how-to guide and more a meditation on finding what actually works for your particular nervous system — and being willing to abandon what doesn't.</p>
+
+<h2>The Ketone Caution Most Supplement Labels Won't Tell You</h2>
+
+<p>Early in the episode, Tim confesses to raiding his co-host's refrigerator during a pre-podcast reconnaissance mission. Among the findings: a bottle of Delta G brand ketone monoester, which Tim proceeded to consume without asking permission. This seemingly minor social transgression becomes a launching pad for one of the episode's most practically useful warnings.</p>
+
+<p>Tim, by virtue of his podcasting work and personal science curiosity, has access to researchers studying ketone supplementation before their findings go public. The picture isn't entirely flattering for the exogenous ketone industry. The active ingredient in many ketone esters — BHB bound with 1,3-butanediol — carries a significant caveat that doesn't appear on supplement labels.</p>
+
+<p>"The first whispers of this were from and still are from animal models where you can basically dose mice with 1,3-butanediol and give them the equivalent of fatty liver disease," Tim explains. His recommendation is blunt: "Treat it like ethanol. Treat it like, not even tequila, moonshine."</p>
+
+<p>The taste comparison is apt. Tim describes ketone monoesters as tasting like "moonshine or cough syrup." More importantly, the dosage matters enormously. Tim has experimented extensively with Dr. Ron Patrick, a mutual friend who also studies ketones, and discovered that the full recommended 30-gram dose produces paradoxical effects.</p>
+
+<p>"When I take, and this is true for her as well, and I suspect other people, the full 30, like the entire shot, rather than decreasing anxiety, it actually, for me, spikes it."</p>
+
+<p>The solution, Tim suggests, is roughly half the standard dose — about 15 grams taken before mentally demanding work. The episode includes a brief, characteristic digression into Dominic D'Agostino's research and some dark humor about "bath salts" media hysteria, but the core message remains clear: exogenous ketones have a time and place, but that time and place should involve careful attention to dosage and frequency.</p>
+
+<h2>Finding Your Meditation Flavor: The Zen Retreat Experience</h2>
+
+<p>The episode's emotional center comes from Tim's reflections on his evolving meditation practice, particularly following a recent retreat at Mountain Cloud Zen Center in New Mexico. The retreat was led by Henry Shukman, a Zen master Tim has frequently discussed on the podcast, accompanied by another teacher named Valerie.</p>
+
+<p>The format was deliberately softened from traditional Zen rigor. "If a proper Zen retreat is like 5:30 cushion in the morning and then you're off at 7 p.m. and it's hardcore, like no talking, shitty food — this was not bad," Tim recalls. The group had a chef (who Tim takes pains to describe not as their personal hired help but as a former James Beard award winner who chose a life of simplicity working with local ingredients at the center itself). The sits were capped at 25 minutes with walking meditation breaks between, and participants were allowed to ask questions.</p>
+
+<p>For Tim, the value of this format wasn't the meditation itself in the moment — he describes significant frustration during several sits — but rather the feedback loop created by skilled teachers. When labeling practices (common in many mindfulness traditions) caused Tim's well-documented OCD to spiral into counterproductive "radio, radio, radio" loops, Henry Shukman offered a deceptively simple intervention: "Just be still."</p>
+
+<p>Two consecutive sits with that single instruction produced a remarkable shift. Tim's mental noise calmed dramatically, and more importantly, the benefits extended well beyond the meditation cushion.</p>
+
+<p>"When I got back to, quote unquote, real life in Austin, I had like three to five days of this just kind of blissful, calm attention where I was able to get everything done. There was no rushing. There was no looping in any kind of future tripping."</p>
+
+<p>This observation connects to a broader framework Tim proposes: meditation is not a single practice but a category of practices, analogous to exercise. "Some people can go to the gym and do full sprinting workouts on an inclined treadmill. Not everybody can do that. And other folks are well-suited to yoga. Some people are well-suited to different types of lifting."</p>
+
+<p>The insight is that concentration practices (using a mantra, focusing on stillness, TM-style repetition) suit some nervous systems better than open monitoring practices (simply observing whatever arises). For Tim, at least currently, the concentration approach provides more value. This isn't a judgment on which practice is "better" — it's a recognition that the question of fit matters enormously.</p>
+
+<h2>The Vagus Nerve Hypothesis: Why Stillness Reduces Inflammation</h2>
+
+<p>One of the episode's most intriguing tangents emerges from Tim's research into bioelectric medicine — the use of electrical stimulation in place of pharmaceutical interventions. He references Michael Levin at Tufts University, whose work on cellular communication and regeneration pushes the boundaries of what medicine can accomplish.</p>
+
+<p>But Tim's particular focus has been vagus nerve stimulation, specifically research by Kevin Tracy, a highly cited scientist who helped discover the inflammatory reflex. The vagus nerves run down either side of the neck like "two transcontinental cables," each containing approximately 100,000 fibers. When you stimulate these nerves with an implant roughly the size of an omega-3 capsule, you activate a cascade that prevents damaging cytokine storms and reduces systemic inflammation.</p>
+
+<p>This mechanism was significant enough to earn FDA approval for rheumatoid arthritis treatment, landing on the New York Times cover the same day Tim interviewed Tracy.</p>
+
+<p>The connection to meditation becomes apparent when you consider the duration of effect. Tim notes that vagus nerve stimulation via implant provides approximately 12 hours of benefit per session. "So you do it twice a day, you're getting full coverage."</p>
+
+<p>If this timeline holds, twice-daily meditation — which inherently involves rhythmic breathing and stillness — may activate the same inflammatory reflex that implants do. Tim recounts a conversation with a professor friend who used the 10% Happier meditation app twice daily and found that debilitating musculoskeletal aches vanished after one to two weeks.</p>
+
+<p>The obvious counter-argument is psychosomatic effect: the professor became more present and misinterpreted normal aches as gone. But Tim proposes an alternative: "I think it might actually be when you sit still and you inherently end up breathing rhythmically, because you can also stimulate your vagus nerve with, say, box breathing and other things, that you do that twice a day."</p>
+
+<p>This reframes meditation not as mystical transcendence but as a form of self-administered bioelectric medicine — one that happens to be free, side-effect-free (mostly), and available to anyone who can sit still for 10-20 minutes twice daily.</p>
+
+<h2>Practical Applications and Personal Experiments</h2>
+
+<p>The episode resists becoming a prescriptive guide, but several actionable insights emerge from the conversation.</p>
+
+<p>For ketone supplementation, the takeaway is clear: if you use exogenous ketones, start with lower doses than you think you need, avoid daily use, and pay attention to how different formulations (ketone monoesters versus ketone salts) affect you personally. The 1,3-butanediol warning deserves serious attention, particularly for anyone with existing liver concerns or who consumes alcohol regularly.</p>
+
+<p>For meditation practice, the message is about experimentation and iteration. "Just be still" emerged as Tim's current concentration practice of choice after trying labeling techniques that backfired due to his OCD tendencies. Someone else might find equal benefit from Vipassana-style observation or Transcendental Meditation's mantra repetition. The right practice is the one you can sustain and that produces measurable downstream effects in your daily life — not necessarily the one that's most popular or prestigious.</p>
+
+<p>Tim's own metric for success — the 3-5 days of calm attention following retreat — suggests that meditation's benefits may be best evaluated not during practice but in the days afterward. If you're still anxious, still rushing, still future-tripping after a week of dedicated practice, the current approach may need adjustment.</p>
+
+<h2>Who Benefits Most from This Episode</h2>
+
+<p>This episode will resonate most with high-functioning optimizers who have already tried meditation but found it difficult to maintain or felt like they weren't "doing it right." Tim's willingness to share his own struggles — the frustration during sits, the label loops with OCD, the eventual pivot to concentration practice — models the kind of honest self-experimentation that serious practitioners undertake.</p>
+
+<p>Biohackers and supplement users will find the ketone warning particularly valuable, as it cuts against the grain of marketing claims that often present exogenous ketones as a simple performance hack without discussing potential downsides.</p>
+
+<p>Finally, anyone interested in the science underlying mindfulness practices — beyond vague claims about "being present" — will appreciate the vagus nerve discussion. Understanding that stillness practices may work through measurable inflammatory pathways transforms meditation from spiritual woo into legitimate preventive medicine.</p>
+
+<p>The episode doesn't resolve everything. The vagus nerve hypothesis remains speculative without large-scale human trials on meditation specifically. Tim's "just be still" approach may not work for everyone. But the broader lesson — that optimization requires ongoing experimentation, willingness to abandon what doesn't fit, and attention to what actually produces results in your own life — transcends any specific technique and forms the episode's lasting contribution.</p>
+      </article>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>Nick's Blog — updated daily</p>
+    </div>
+  </footer>
+  <script type="application/json" id="segment-data">
+[
+  {
+    "segment_id": "1036bee9725b2d4d",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#858: The Random Show, Couch Edition! \u2014 Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ",
+    "segment_title": "Bertolotti's Syndrome Diagnosis",
+    "summary": "After years of dismissed pain, the host met with a neurologist and surgeon in Austin who identified Bertolotti's syndrome\u2014transitional segments where a lumbar vertebra behaves like a sacral vertebra, specifically at L5 with transverse processes forming a pseudo joint. This rare condition affecting specialists' career diagnoses was confirmed through advanced imaging matching the exact pain location.",
+    "audio_url": "https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 2139,
+    "end_seconds": 2225,
+    "score": 0.76,
+    "reason": "info=0.85 eng=0.80 penalty=-0.07 Rare diagnosis with medical mystery tension",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Austin",
+      "Bertolotti",
+      "Bertolotti's Syndrome Diagnosis",
+      "After",
+      "Bertolotti's",
+      "Couch Edition",
+      "Supplements",
+      "Hummingbirds"
+    ],
+    "topics": [
+      "bertolotti s syndrome",
+      "back pain diagnosis",
+      "spinal anatomy",
+      "chronic pain",
+      "bertolotti",
+      "syndrome",
+      "diagnosis",
+      "years"
+    ],
+    "trace": {
+      "episode_id": "0c8f0229705d62a3",
+      "feed_url": "",
+      "published_at": "Wed, 18 Mar 2026 19:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a0b494f581b8d443",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#858: The Random Show, Couch Edition! \u2014 Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ",
+    "segment_title": "Abra Hangs Tendon Training Protocol",
+    "summary": "The speaker describes the Abra Hangs protocol developed by Emil Abrahamsen and scientist Keith Barr for improving tendon strength. The protocol involves hanging with 30-85% body weight for 10 seconds on, 50 seconds off, repeated 10 times twice daily. Before and after strength tests show remarkable improvements even for elite climbers.",
+    "audio_url": "https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 2676,
+    "end_seconds": 2776,
+    "score": 0.71,
+    "reason": "info=0.85 eng=0.50 penalty=0.00 Specific protocol with data",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Emil Abrahamsen",
+      "Keith Barr",
+      "Abra Hangs",
+      "Abra Hangs Tendon Training",
+      "Protocol",
+      "Before",
+      "Couch Edition",
+      "Supplements"
+    ],
+    "topics": [
+      "tendon training",
+      "rock climbing",
+      "strength protocol",
+      "abra",
+      "hangs",
+      "tendon",
+      "training",
+      "protocol"
+    ],
+    "trace": {
+      "episode_id": "0c8f0229705d62a3",
+      "feed_url": "",
+      "published_at": "Wed, 18 Mar 2026 19:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "1e18e1108787289d",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#858: The Random Show, Couch Edition! \u2014 Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ",
+    "segment_title": "Podcast Recommendation: STEM Talk with Dr. Gonzalez Lima",
+    "summary": "The host recommends STEM Talk and highlights Dr. Francisco Gonzalez Lima from UT Austin, who offers an alternative view of Alzheimer's as a vascular disease and mitochondrial dysfunction rather than amyloid plaque buildup. Personal anecdotes about relatives with Alzheimer's showed rapid cognitive improvement with ketone supplementation within 20 minutes.",
+    "audio_url": "https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 3351,
+    "end_seconds": 3488,
+    "score": 0.76,
+    "reason": "info=0.85 eng=0.80 penalty=-0.07 Alternative hypothesis with personal stakes",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "STEM Talk",
+      "Dr. Francisco Gonzalez Lima",
+      "UT Austin",
+      "Dale Bredson",
+      "Podcast Recommendation",
+      "Dr. Gonzalez Lima",
+      "Alzheimer's",
+      "Personal"
+    ],
+    "topics": [
+      "podcast recommendation",
+      "alzheimer s research",
+      "neurodegenerative disease",
+      "ketone supplementation",
+      "vascular hypothesis",
+      "culture"
+    ],
+    "trace": {
+      "episode_id": "0c8f0229705d62a3",
+      "feed_url": "",
+      "published_at": "Wed, 18 Mar 2026 19:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "f461ce462a2879ff",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#858: The Random Show, Couch Edition! \u2014 Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ",
+    "segment_title": "Photobiomodulation challenges Alzheimer's plaque theory",
+    "summary": "The speaker discusses how current Alzheimer's treatments predicated on removing amyloid plaque may not yield clinical outcomes, and introduces photobiomodulation as an alternative approach requiring just 8-10 minutes daily using laser or LED technology.",
+    "audio_url": "https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 3968,
+    "end_seconds": 3997,
+    "score": 0.728,
+    "reason": "info=0.85 eng=0.72 penalty=-0.07 Contrarian amyloid challenge with actionable protocol",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Photobiomodulation",
+      "Alzheimer's",
+      "LED",
+      "Couch Edition",
+      "Supplements",
+      "Hummingbirds",
+      "Cock Rings",
+      "Optimizing Mitochondria"
+    ],
+    "topics": [
+      "alzheimer s disease",
+      "photobiomodulation",
+      "amyloid plaque theory",
+      "technology"
+    ],
+    "trace": {
+      "episode_id": "0c8f0229705d62a3",
+      "feed_url": "",
+      "published_at": "Wed, 18 Mar 2026 19:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  },
+  {
+    "segment_id": "a66ba9520efea63e",
+    "source_name": "The Tim Ferriss Show",
+    "episode_title": "#858: The Random Show, Couch Edition! \u2014 Supplements, Hummingbirds, Cock Rings, Optimizing Mitochondria, Breathing and Balance Training, Cool Grip Strength Tools, and More ",
+    "segment_title": "Personal experimentation with photobiomodulation devices",
+    "summary": "The speaker shares plans to personally test a photobiomodulation device before recommending it to others, noting these lasers can cost up to $30,000 but only require 8-10 minutes per session with effects lasting multiple weeks.",
+    "audio_url": "https://rss.art19.com/episodes/b0a6c457-d328-46e4-81a7-7ea6ddb4ba98.mp3?rss_browser=BAhJIgljdXJsBjoGRVQ%3D--435795d5c850773aaa4739d968bd77a1dfd6f301",
+    "start_seconds": 3997,
+    "end_seconds": 4030,
+    "score": 0.7,
+    "reason": "info=0.58 eng=0.88 penalty=0.00 Candid self-experimentation before recommending",
+    "timing_quality": "estimated",
+    "subject_id": "business_self_help",
+    "subject": "business_self_help",
+    "entities": [
+      "Personal",
+      "Couch Edition",
+      "Supplements",
+      "Hummingbirds",
+      "Cock Rings",
+      "Optimizing Mitochondria",
+      "Breathing",
+      "Balance Training"
+    ],
+    "topics": [
+      "photobiomodulation",
+      "personal experimentation",
+      "laser therapy",
+      "personal",
+      "experimentation",
+      "devices",
+      "speaker",
+      "shares"
+    ],
+    "trace": {
+      "episode_id": "0c8f0229705d62a3",
+      "feed_url": "",
+      "published_at": "Wed, 18 Mar 2026 19:30:00 -0000",
+      "processor": "signal_engine.export.v1"
+    }
+  }
+]
+  </script>
+  <script>
+    var player = document.getElementById('podcast-player');
+    var section = document.getElementById('segments-section');
+    function fmtTime(s) {
+      var m = Math.floor(s / 60), sec = Math.floor(s % 60);
+      return m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    var segments = JSON.parse(document.getElementById('segment-data').textContent);
+    if (segments.length && section) {
+      var label = document.createElement('h2');
+      label.className = 'segments-label';
+      label.textContent = 'Key Insights';
+      section.appendChild(label);
+      segments.forEach(function(seg) {
+        var card = document.createElement('div');
+        card.className = 'segment-card';
+        card.innerHTML = '<button class="segment-play" aria-label="Play"><svg viewBox="0 0 16 16"><polygon points="3,1 15,8 3,15"/></svg></button>'
+          + '<div class="segment-body">'
+          + '<div class="segment-title">' + seg.segment_title + '</div>'
+          + '<div class="segment-summary">' + seg.summary + '</div>'
+          + '<div class="segment-time">▶ ' + fmtTime(seg.start_seconds)
+          + (seg.timing_quality === 'estimated' ? ' (approx)' : '') + '</div>'
+          + '</div>';
+        card.onclick = function() {
+          player.currentTime = seg.start_seconds;
+          player.play();
+          document.querySelectorAll('.segment-card').forEach(function(c) { c.classList.remove('playing'); });
+          card.classList.add('playing');
+        };
+        section.appendChild(card);
+      });
+    }
+    var hero = document.getElementById('podcast-hero');
+    if (hero) {
+      fetch('https://itunes.apple.com/search?term=' + encodeURIComponent(hero.dataset.channel) + '&entity=podcast&limit=3')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var art = data.results && data.results[0] && data.results[0].artworkUrl600;
+          if (!art) return;
+          var img = document.createElement('img');
+          img.src = art; img.alt = hero.dataset.channel;
+          hero.insertBefore(img, hero.firstChild);
+        }).catch(function() {});
+    }
+  </script>
+</body>
+</html>
